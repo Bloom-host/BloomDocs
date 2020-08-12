@@ -9,9 +9,9 @@ module.exports = {
   projectName: 'bloomdocs', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'Super Duper Broccoli',
+      title: 'Bloom Docs',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Bloom Logo',
         src: 'img/logo.svg',
       },
       items: [
