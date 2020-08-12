@@ -1,0 +1,83 @@
+module.exports = {
+  title: 'Bloom Docs',
+  tagline: 'Docs for Bloom',
+  url: 'https://bloomdocs.netlify.com',
+  baseUrl: '/',
+  onBrokenLinks: 'warn',
+  favicon: 'img/favicon.ico',
+  organizationName: 'billy-bloom', // Usually your GitHub org/user name.
+  projectName: 'bloomdocs', // Usually your repo name.
+  themeConfig: {
+    navbar: {
+      title: 'Super Duper Broccoli',
+      logo: {
+        alt: 'My Site Logo',
+        src: 'img/logo.svg',
+      },
+      items: [
+        {
+          href: 'https://bloomvps.com',
+          label: 'Home',
+          position: 'right',
+        },
+        {
+          href: 'https://github.com/billy-bloom/bloomdocs',
+          label: 'GitHub',
+          position: 'right',
+        },
+      ],
+    },
+    footer: {
+      style: 'dark',
+      links: [
+        {
+          title: 'Docs',
+          items: [
+            {
+              label: 'Style Guide',
+              to: 'doc1',
+            },
+          ],
+        },
+        {
+          title: 'Community',
+          items: [
+            {
+              label: 'Discord',
+              href: 'https://discordapp.com/invite/2QxW8QY',
+            },
+          ],
+        },
+        {
+          title: 'More',
+          items: [
+            {
+              label: 'GitHub',
+              href: 'https://github.com/billy-bloom/bloomdocs',
+            },
+          ],
+        },
+      ],
+      copyright: `Copyright © ${new Date().getFullYear()} Super Duper Broccoli, Inc. Built with Docusaurus.`,
+    },
+  },
+  presets: [
+    [
+      '@docusaurus/preset-classic',
+      {
+        docs: {
+          // It is recommended to set document id as docs home page (`docs/` path).
+          homePageId: 'basic-controls',
+          routeBasePath: '/', // Set this value to '/'.
+          sidebarPath: require.resolve('./sidebars.js'),
+          // Please change this to your repo.
+          editUrl:
+            'https://github.com/billy-bloom/bloomdocs/edit/master/',
+        },
+        theme: {
+          customCss: require.resolve('./src/css/custom.css'),
+        },
+      },
+    ],
+  ],
+};
