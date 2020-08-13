@@ -18,12 +18,15 @@ The basics to getting started with your minecraft server, includes navigating th
 **[Click here to view:point_left:](https://docs.bloomvps.com/basic-controls)**
 ### Optimizations
 Optimizing your server to perform better
+
 **[Click here to view:point_left:](https://docs.bloomvps.com)**
 ### Plugins
 Interesting, cool, and useful plugins
+
 **[Click here to view:point_left:](https://docs.bloomvps.com)**
 ### Extras
 Other related guides that don't really fit any other category.
+
 **[Click here to view:point_left:](https://docs.bloomvps.com/mobile-app)**
 ## Contributing to the Docs
 ### TODO
