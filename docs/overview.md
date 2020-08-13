@@ -15,6 +15,7 @@ image: https://bloomvps.com/assets/images/logo.png
 ## Help Sections
 ### Basics
 The basics to getting started with your minecraft server, includes navigating the panel and file access
+
 **[Click here to view:point_left:](https://docs.bloomvps.com/basic-controls)**
 ### Optimizations
 Optimizing your server to perform better
