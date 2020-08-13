@@ -9,7 +9,7 @@ keywords:
   - BloomVPS
   - Basic Panel Controls
   - Pterodactyl Panel
-image: https://media.discordapp.net/attachments/738919680332529714/742810365531914330/basicControls1.png?width=1204&height=677
+image: ../static/img/basic-controls/basic-controls1.png
 ---
 # Basic Controls
 ![BloomVPS Basic Controls](../static/img/basic-controls/basic-controls1.png)
