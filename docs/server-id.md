@@ -1,6 +1,6 @@
 ---
 id: server-id
-title: Server ID
+title: Find your Server ID
 hide_title: true
 hide_table_of_contents: false
 sidebar_label: Find your Server ID

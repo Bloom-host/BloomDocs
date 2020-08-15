@@ -1,7 +1,7 @@
 module.exports = {
   someSidebar: {
     'Overview': ['overview'],
-    'Basics': ['basic-controls', 'scheduling-actions', 'how-to-use-sftp', 'editing-account-details', 'pointing-a-domain', 'server-id'],
+    'Basics': ['basic-controls', 'scheduling-actions', 'how-to-use-sftp', 'editing-account-details', 'pointing-a-domain', 'server-id', 'sub-users'],
     'Server Optimization': ['fabric-server-optimization'],
     'Plugins': ['chunky'],
     'Extras': ['mobile-app', 'reverse-proxy',],
