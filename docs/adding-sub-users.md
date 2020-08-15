@@ -1,9 +1,9 @@
 ---
 id: sub-users
-title: Add sub-users to your panel
+title: Add Sub-users To Your Panel
 hide_title: true
 hide_table_of_contents: false
-sidebar_label: Add sub-users to your panel
+sidebar_label: Add Sub-users To Your Panel
 description: This guide will help you add sub-users to your server panel
 keywords:
   - BloomVPS
@@ -22,6 +22,7 @@ Head over to your panel and go to subusers tab found on the left sidebar. Here y
 Once you have entered, enter the person email account. Then, select which permissions you want to grant the user. In the Blue Box, you can select all permissions or clear your permissions. In the yellow box, you can add the subuser, which will send the email to them.
 
 ![BloomVPS Subusers](../static/img/subusers/subusers4.png)
+
 Once you have clicked add user, a email will be sent to that email stating they have been invited to that server. Have the sub-user open up the email and go to the link provided.
 
 ![BloomVPS Subusers](../static/img/subusers/subusers5.png)
