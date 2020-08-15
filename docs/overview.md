@@ -24,7 +24,7 @@ Optimizing your server to perform better
 ### Plugins
 Interesting, cool, and useful plugins
 
-**[Click here to view:point_left:](https://docs.bloomvps.com)**
+**[Click here to view:point_left:](overview.md)**
 ### Extras
 Other related guides that don't really fit any other category.
 
