@@ -24,11 +24,11 @@ Optimizing your server to perform better
 ### Plugins
 Interesting, cool, and useful plugins
 
-**[Click here to view:point_left:](overview.md)**
+**[Click here to view:point_left:](chunky.md)**
 ### Extras
 Other related guides that don't really fit any other category.
 
 **[Click here to view:point_left:](mobile-app.md)**
 ## Contributing to the Docs
-### TODO
-If you still see this, bother billy please :pray:
+### This part is a WIP(Pls improve if you can :pray:)
+**[Click here to view:point_left:](contributing.md)**

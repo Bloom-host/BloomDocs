@@ -24,7 +24,7 @@ Once you have created the database, it will appear in your list. In order to use
 
 ## Examples
 ### Luckperms:
-```
+```YAML
 storage-method: MySQL
 
 # The following block defines the settings for remote database storage methods.
@@ -46,9 +46,9 @@ data:
   # Credentials for the database.
   username: u178_uIxN5UjEZy
   password: '@CSyH7IV8r4TUnaA3A7lu^2T'
-``` 
-### LiteBans
 ```
+### LiteBans
+```YAML
 sql:
   # H2, MySQL, MariaDB, and PostgreSQL are supported database drivers.
   driver: MySQL
@@ -66,7 +66,7 @@ sql:
   password: '@CSyH7IV8r4TUnaA3A7lu^2T'
 ```
 ### CoreProtect
-```
+```YAML
 use-mysql: true
 table-prefix: co_
 mysql-host: 168.119.0.38
@@ -76,7 +76,7 @@ mysql-username: u178_uIxN5UjEZy
 mysql-password: @CSyH7IV8r4TUnaA3A7lu^2T
 ```
 ### PLAN
-```
+```YAML
 Database:
     Type: MySQL
     MySQL:
