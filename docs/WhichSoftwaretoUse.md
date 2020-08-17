@@ -38,9 +38,6 @@ Fabric is a jar that makes modding easier and smoother than Forge. Fabric is con
 ## [Bukkit](https://bukkit.org/)
 Bukkit is an open source but defaunt jar that was used in the early days of Minecraft plugin development. In 2014, Bukkit Project lead Warren Loo announced the end of the Bukkit project. The project was then DMCA by a former developer causing massive amounts of code to no longer be apart of Bukkit. If you want to learn the whole situation, read [Justin Flory blog post](https://blog.jwf.io/2020/04/open-source-minecraft-bukkit-gpl/) about it. BukkitCraft is a continuation that is still supported by Spigot, but is not recommended for servers as it's old and rarely recieves updates.
 
-## [Vanilla](https://www.minecraft.net/en-us/download/server)
-Vanilla is the jar provided by Mojang to run Minecraft servers. This is the bare minimum for servers with no plugin API for plugins to hook into or a modding API like forge. It is not greatly optimized and only recommended for small groups of friends who want to play plain vanilla.
-
 ### [Yatopia](https://github.com/YatopiaMC/Yatopia)
 Yaptopia is a fork of Tuinity that bring together lots of forks into one jar, allowing you to take advantage of several jars optimizations they have made.
 
@@ -59,3 +56,5 @@ NachoSpigot is a open source fork of paper that aims to bring patches from later
 ### [Magma](https://magmafoundation.org/)
 Magma is a jar that integrates Forge and Paper jars, allowing you to run Bukkit and it's forks plugins with mods. It is considered unstable and is not recommended to use unless you know what you are doing.
 
+## [Vanilla](https://www.minecraft.net/en-us/download/server)
+Vanilla is the jar provided by Mojang to run Minecraft servers. This is the bare minimum for servers with no plugin API for plugins to hook into or a modding API like forge. It is not greatly optimized and only recommended for small groups of friends who want to play plain vanilla.
