@@ -1,3 +1,17 @@
+---
+id: instalar-plugins
+title: Instalar Plugins
+hide_title: true
+hide_table_of_contents: false
+sidebar_label: Instalar Plugins
+description: How do I find you when I cannot solve this problem
+keywords:
+  - Template
+  - BloomVPS
+  - Pterodactyl Panel
+  - Minecraft
+image: https://bloomvps.com/assets/images/logo.png
+---
 # Como instalar Plugins a través del panel
 
 ## Guia:

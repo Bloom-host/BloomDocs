@@ -1,3 +1,17 @@
+---
+id: configurar-un-dominio
+title: Configurar Un Dominio
+hide_title: true
+hide_table_of_contents: false
+sidebar_label: Configurar Un Dominio
+description: How do I find you when I cannot solve this problem
+keywords:
+  - Template
+  - BloomVPS
+  - Pterodactyl Panel
+  - Minecraft
+image: https://bloomvps.com/assets/images/logo.png
+---
 # Cómo configurar un dominio personalizado en tu servidor
 
 ## Guia:
