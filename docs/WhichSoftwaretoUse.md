@@ -47,7 +47,7 @@ Yaptopia is a fork of Tuinity that bring together lots of forks into one jar, al
 ### [Akarin](https://github.com/Akarin-project/Akarin)
 Akarin is a jar that focuses on multi-threading Minecraft. It has so far been unstable and it not recommended for use on production servers.
 
-### [PurPur](https://github.com/pl3xgaming/Purpur)
+### [Purpur](https://github.com/pl3xgaming/Purpur)
 PurPur is a fork of paper that aims to bring more gameplay changes to Minecraft, such as driveable Minecarts.
 
 ### [Origami](https://github.com/Minebench/Origami)
