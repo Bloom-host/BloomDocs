@@ -10,7 +10,7 @@ module.exports = {
     'Extras': ['mobile-app', 'reverse-proxy','adding-an-icon'],
     'Other Languages': [
       {
-        'Spanish': ['configurar-un-dominio', 'configurar-whitelist', 'instalar-plugins']
+        'Spanish': ['languages/spanish/configurar-un-dominio', 'languages/spanish/configurar-whitelist', 'languages/spanish/instalar-plugins']
       }, ],
   },
 };
