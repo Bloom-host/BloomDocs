@@ -14,8 +14,7 @@ image: https://bloomvps.com/assets/images/logo.png
 ---
 # Adding an icon to your server.
 
-
-## Grab the picture you want to use and head over to http://www.genfavicon.com/
+Grab the picture you want to use and head over to http://www.genfavicon.com/
 
 ![BloomVPS 2FA](../static/img/adding-an-icon/adding-an-icon1.png)
 
