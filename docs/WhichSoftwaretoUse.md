@@ -1,5 +1,5 @@
 ---
-id: ServerJars
+id: whichsoftwaretouse
 title: Different server jars and which one is right for you
 hide_title: true
 hide_table_of_contents: false
@@ -15,7 +15,6 @@ keywords:
 image: ../static/img/WhichSoftwaretoUse/WhichSoftwaretoUse1.png
 ---
 # Which jar to use?
-![BloomVPS Subusers](../static/img/WhichSoftwaretoUse/WhichSoftwaretoUse1.png)
 Hey there Bloomers! In this guide, we will go over which jar is right for your server. The overall recommend jars would be Paper, as it's the most stable of the jars and has a reputation of being great.
 
 ## [Vanilla](https://www.minecraft.net/en-us/download/server)
