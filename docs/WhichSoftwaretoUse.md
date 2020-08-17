@@ -24,7 +24,7 @@ Vanilla is the jar provided by Mojang to run Minecraft servers. This is the bare
 Bukkit is an open source but defaunt jar that was used in the early days of Minecraft plugin development. In 2014, Bukkit Project lead Warren Loo announced the end of the Bukkit project. The project was then DMCA by a former developer causing massive amounts of code to no longer be apart of Bukkit. If you want to learn the whole situation, read [Justin Flory blog post](https://blog.jwf.io/2020/04/open-source-minecraft-bukkit-gpl/) about it. BukkitCraft is a continuation that is still supported by Spigot, but is not recommended for servers as it's old and rarely recieves updates.
 
 ### [Spigot](https://www.spigotmc.org/)
-Spigot is a [fork](https://en.wikipedia.org/wiki/Fork_(software_development) of Bukkit that began in 2012. After Bukkit began defunct, it became the new standard as Bukkit plugins could all run on Spigot. Spigot is the most commonly used jar, and as of 8/17, [49% of Minecraft servers use Spigot](https://bstats.org/plugin/bukkit/_bukkit_/1).
+Spigot is a [fork](https://en.wikipedia.org/wiki/Fork_(software_development)) of Bukkit that began in 2012. After Bukkit began defunct, it became the new standard as Bukkit plugins could all run on Spigot. Spigot is the most commonly used jar, and as of 8/17, [49% of Minecraft servers use Spigot](https://bstats.org/plugin/bukkit/_bukkit_/1).
 
 #### [Paper](https://github.com/PaperMC/Paper)
 Paper is a fork of Spigot and aims to have better performance and stability. It also has a expanded API, allowing plugins to become even faster. This jar is highly recommended as it's fixes exploits, bugs, and more as well as greatly improves performance and stability of any Minecraft server. 
