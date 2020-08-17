@@ -1,9 +1,9 @@
 ---
 id: paper-server-optimization
-title: paper Server Optimization
+title: Paper Server Optimization
 hide_title: true
 hide_table_of_contents: false
-sidebar_label: paper Server Optimization
+sidebar_label: Paper Server Optimization
 description: How to optimize your paper minecraft server. 
 keywords:
   - Template
@@ -16,7 +16,8 @@ keywords:
   - Minecraft
 image: https://bloomvps.com/assets/images/logo.png
 ---
-# Paper Optimization Guide (by saintjust)
+# Paper Optimization Guide 
+## By saintjust
 
   
 
