@@ -45,7 +45,7 @@ Yaptopia is a fork of Tuinity that bring together lots of forks into one jar, al
 Akarin is a jar that focuses on multi-threading Minecraft. It has so far been unstable and it not recommended for use on production servers.
 
 ### [Purpur](https://github.com/pl3xgaming/Purpur)
-PurPur is a fork of paper that aims to bring more gameplay changes to Minecraft, such as driveable Minecarts.
+Purpur is a fork of paper that aims to bring more gameplay changes to Minecraft, such as driveable Minecarts.
 
 ### [Origami](https://github.com/Minebench/Origami)
 Origami is a paper fork which has several performance enhancements to it.
