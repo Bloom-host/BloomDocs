@@ -92,9 +92,9 @@ Explanation: This option will increase how often (in ticks) the server tries to 
   
   
 
-### spigot.yml
+## spigot.yml
 
-mob-spawn-range
+### mob-spawn-range
 
 Default: 8
 
