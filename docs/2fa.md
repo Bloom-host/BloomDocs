@@ -16,7 +16,7 @@ image: ../static/img/2fa/2fa1.png
 Hey there Bloomers! In this guide, we will go over how to setup 2FA on your account.
 
 :::caution
-Only use 2FA on devices you trust. It's not recommended to setup 2FA on a shared device or a compromised device.
+Only use 2FA on devices you trust. It's not recommended to setup 2FA on a shared or compromised device.
 :::
 
 ## Billing Area 2FA
