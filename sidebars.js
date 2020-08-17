@@ -8,5 +8,9 @@ module.exports = {
     'Server Optimization': ['paper-server-optimization', 'fabric-server-optimization'],
     'Plugins': ['chunky'],
     'Extras': ['mobile-app', 'reverse-proxy','adding-an-icon'],
+    'Other Languages': [
+      {
+        'Spanish': ['configurar-un-dominio', 'configurar-whitelist', 'instalar-plugins']
+      }, ],
   },
 };
