@@ -15,7 +15,7 @@ image: https://bloomvps.com/assets/images/logo.png
 # Contributing to the BloomVPS documentation
 
 ## Simple
-Write new articles in your preferred format, and make a support ticket in our [discord](https://discord.com/invite/2QxW8QY), and we will convert it over for you.
+Write new articles in your preferred format, and make a support ticket in our [discord](https://discord.com/invite/2QxW8QY), and we will convert it over for you. The recommended format would be Markdown.
 
 ## Editing Github stuffs(Advanced)
 [Template](https://docs.bloomvps.com/template/)
