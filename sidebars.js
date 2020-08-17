@@ -6,7 +6,7 @@ module.exports = {
         'Panel Controls': ['basic-controls', 'scheduling-actions', 'how-to-use-sftp', 'sub-users', 'databases', 'server-id', 'file-manager-controls','2fa']
       }, 'editing-account-details', 'plugins', 'pointing-a-domain', 'whichsoftwaretouse', 'setting-up-forge'],
     'Server Optimization': ['paper-server-optimization', 'fabric-server-optimization'],
-    'Plugins': ['chunky'],
+    'Plugins': ['plugins/chunky'],
     'Extras': ['mobile-app', 'reverse-proxy','adding-an-icon'],
     'Other Languages': [
       {
