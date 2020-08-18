@@ -28,7 +28,7 @@ Easy as that.
 
 Here are some more resources for you guys!
 
-[Raw MD Template](https://raw.githubusercontent.com/Billy-Bloom/BloomDocs/master/docs/template.md) and [this is what it turned out to be!](https://docs.bloomvps.com/template/)! 
+[Raw MD Template](https://raw.githubusercontent.com/Billy-Bloom/BloomDocs/master/docs/template.md) and [this is what it turned out to be](https://docs.bloomvps.com/template/)! 
 
 [Github Repo](https://github.com/billy-bloom/bloomdocs)
 
