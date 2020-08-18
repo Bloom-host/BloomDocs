@@ -11,6 +11,8 @@ keywords:
   - Domain
   - Minecraft Server
   - Pterodactyl Panel
+  - Minecraft Domain
+  - A Record
 image: https://cdn.discordapp.com/attachments/738919680332529714/742949816564449350/editingAccountDetails1.png
 ---
 # Pointing A Domain

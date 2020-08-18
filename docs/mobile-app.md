@@ -9,6 +9,7 @@ keywords:
   - BloomVPS
   - Mobile App
   - Pterodactyl Panel
+  - Pterodactyl App
 image: https://media.discordapp.net/attachments/738919680332529714/738920590391377980/Mobile_APP.png?width=1204&height=677
 ---
 # Pterodactyl Mobile App

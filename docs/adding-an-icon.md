@@ -10,6 +10,7 @@ keywords:
   - BloomVPS
   - Pterodactyl Panel
   - Minecraft
+  - server-icon
 image: https://bloomvps.com/assets/images/logo.png
 ---
 # Adding an icon to your server.

@@ -9,6 +9,8 @@ keywords:
   - BloomVPS
   - Pterodactyl Panel
   - Server ID
+  - Pterodactyl ID
+  - Pterodactyl Server
 image: ../static/img/server-id/serverid1.png
 ---
 # Server ID

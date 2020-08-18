@@ -9,6 +9,8 @@ keywords:
   - BloomVPS
   - File Manager Controls
   - Pterodactyl Panel
+  - Pterodactyl File Manager
+  - Minecraft File Controls
 image: ../static/img/file-manager-controls/filemanager1.png
 ---
 # File Manager Controls

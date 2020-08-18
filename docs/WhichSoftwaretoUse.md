@@ -11,7 +11,18 @@ keywords:
   - Paper
   - Bukkit
   - Tunity
+  - Forge
+  - Fabric
+  - Yatopia
+  - Akarin
+  - Purpur
+  - Origami
+  - NachoSpigot
+  - Magma
   - Server Jars
+  - Minecraft
+  - Modded Server Jars
+  - Plugin Server Jars
 image: ../static/img/WhichSoftwaretoUse/WhichSoftwaretoUse1.png
 ---
 # Which jar to use?

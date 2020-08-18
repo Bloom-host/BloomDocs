@@ -9,6 +9,7 @@ keywords:
   - BloomVPS
   - Pterodactyl Panel
   - 2FA
+  - 2FA Gameserver
 image: ../static/img/2fa/2fa1.png
 ---
 # 2-Factor Authentication
