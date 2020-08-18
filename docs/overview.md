@@ -30,5 +30,4 @@ Other related guides that don't really fit any other category.
 
 **[Click here to view:point_left:](mobile-app.md)**
 ## Contributing to the Docs
-### This part is a WIP(Pls improve if you can :pray:)
 **[Click here to view:point_left:](contributing.md)**
