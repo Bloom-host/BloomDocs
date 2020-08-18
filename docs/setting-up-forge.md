@@ -21,9 +21,9 @@ To begin installing Forge, head over to their website to download their installe
 
 After you have installed it, head over to an [SFTP client](https://docs.bloomvps.com/how-to-use-sftp) such as FileZilla and uplaod everything inside your folder to your server.
 
-Next, rename your forge-xxx file to server.jar. 
+Next, rename your forge-xxx file to server.jar or go to Startup Parameters and change the Server Jar File.
 
-Restart your server and let the files generate. 
+Restart your server and let the files generate. This may take a few minutes. 
 
 A new folder will appear named `mods`. Place any jars of mods you want in here and restart. Make sure you also have the mods if needed. Then, login to the server!
 
