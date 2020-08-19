@@ -31,15 +31,6 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Contributing',
-              to: `contributing',
-            },
-          ],
-        },
-        {
           title: 'Community',
           items: [
             {
