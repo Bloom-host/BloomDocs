@@ -1,7 +1,7 @@
 module.exports = {
   title: 'Bloom Docs',
   tagline: 'Docs for Bloom',
-  url: 'https://bloomdocs.netlify.com',
+  url: 'https://docs.bloomvps.com',
   baseUrl: '/',
   onBrokenLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -34,8 +34,8 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Style Guide',
-              to: 'doc1',
+              label: 'Contributing',
+              to: `contributing',
             },
           ],
         },
