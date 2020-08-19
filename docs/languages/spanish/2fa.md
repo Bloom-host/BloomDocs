@@ -15,7 +15,7 @@ image: ../static/img/2fa/2fa1.png
 ---
 # 2-Factor Authentication
 ![BloomVPS 2FA](../static/img/2FA/2FA1.png)
-Hola Bloomers! En esta guía, repasaremos como configurar 2FA en tu cuenta.
+¡Hola Bloomers! En esta guía, repasaremos como configurar 2FA en tu cuenta.
 
 :::caution
 Solo usa 2FA en dispositivos que confies. No es recomendado usar 2FA en un dispositivo comprometido o compartido.
@@ -35,12 +35,12 @@ Puedes seguir las instrucciones en pantalla, pues necesitarás descargar Google 
 
 Para configurar 2FA en el panel de juego, dirígete a [Seguridad de la Cuenta](https://mc.bloomvps.com/account/security) en el panel.
 
-Click en **Enable 2-Factor Authentication** to show a QR code that you can scan. 
+Click en **Habilitar 2-Factor de Autenticación** para mostrar un código QR que podrás escanear. 
 
-For this, download an app on your phone that is a 2FA app, such as [Authy](https://authy.com/).
+Para esto, descarga una aplicación 2FA en tu celular, como [Authy](https://authy.com/).
 
-Then, add a new account and scan the QR code. Once it is scanned, type the token that you have on the app into the Authentication Token box.
+Luego, añade una nueva cuenta y escanea el código QR. Una vez que esté escaneado, escribe el token que tengas en la app en la caja de Autentificación de Token.
 
 ![BloomVPS 2FA](../static/img/2FA/2FA3.png)
 
-You are set and fully protected! Rememeber to keep the device near you when you login so can authenticate yourself!
+¡Ya has terminado y tu cuenta está protegida! ¡Recuerda mantener el dispositivo cerca cuando desees iniciar sesión, para poder confirmar!.
