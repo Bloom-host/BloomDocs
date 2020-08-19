@@ -1,4 +1,3 @@
-
 ---
 id: geysermc
 title: GeyserMC
