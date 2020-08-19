@@ -10,7 +10,14 @@ module.exports = {
     'Extras': ['mobile-app', 'reverse-proxy','adding-an-icon'],
     'Other Languages': [
       {
-        'Spanish': ['languages/spanish/configurar-un-dominio', 'languages/spanish/configurar-whitelist', 'languages/spanish/instalar-plugins']
+        'Spanish': [
+          {
+            'Controles del Panel': [
+              {
+                'languages/spanish/controles-basicos', 'languages/spanish/horarios', 'languages/spanish/sftp', 'languages/spanish/sub-usuarios', 'languages/spanish/databases', 'languages/spanish/id-servidor', 'languages/spanish/gestion-archivos', 'languages/spanish/2fa']
+              }
+          }
+          'Otros':['languages/spanish/configurar-un-dominio', 'languages/spanish/configurar-whitelist', 'languages/spanish/instalar-plugins']
       }, ],
   },
 };
