@@ -18,7 +18,7 @@ image: https://bloomvps.com/assets/images/logo.png
 ---
 # Datapacks
 
-::: warning
+:::warning
 Datapacks normally use something called functions, which run every tick, and can cause a lot of lag. It's recommended to find a plugin alternative whenever possible.
 :::
 
