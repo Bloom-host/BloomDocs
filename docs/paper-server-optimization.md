@@ -1,4 +1,3 @@
-
 ---
 id: paper-server-optimization
 title: Paper Server Optimization
