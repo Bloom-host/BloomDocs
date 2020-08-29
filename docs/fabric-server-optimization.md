@@ -51,5 +51,5 @@ You should do this before the server is open, as it will cause quite a lot of la
 
 Generating chunks for the first time often causes a lot of lag, which can severely impact TPS. To pre generate the chunks, we will be using [this](https://www.curseforge.com/minecraft/mc-mods/chunk-pregenerator-fabric) mod. To install it, we just need to place it in our mods folder, and then restart the server. Once this is done, log onto the server and run the following command in the world you want to generate for(only run one task at a time).
 
-`/pregen start <radius in blocks>`
-Recommended values: 15,000 radius for overworld, 10,000 for end, 5,000 for nether
+`/pregen start <radius in chunks>`
+Recommended values: 625 radius for each dimension
