@@ -1,5 +1,5 @@
 ---
-id: server-id
+id: id-servidor
 title: Find your Server ID
 hide_title: true
 hide_table_of_contents: false

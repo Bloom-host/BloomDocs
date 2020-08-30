@@ -1,5 +1,5 @@
 ---
-id: how-to-use-sftp
+id: sftp
 title: How to use SFTP to transfer files
 hide_title: true
 hide_table_of_contents: false

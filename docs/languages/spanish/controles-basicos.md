@@ -1,5 +1,5 @@
 ---
-id: basic-controls
+id: controles-basicos
 title: Basic Controls
 hide_title: true
 hide_table_of_contents: false

@@ -27,7 +27,7 @@ Para configurar 2FA en la área de facturación, dirígete a la [Área de Factur
 
 Luego, dirígete a las [Opciones de Seguridad](https://www.bloomvps.com/portal/clientarea.php?action=security) que puedes encontrar aquí: 
 
-![BloomVPS 2FA](../static/img/2FA/2FA2.png)
+![BloomVPS 2FA](../../../static/img/2FA/2FA2.png)
 
 Puedes seguir las instrucciones en pantalla, pues necesitarás descargar Google Authenticator o DUO de la tienda de Android o iOS.
 
@@ -41,6 +41,6 @@ Para esto, descarga una aplicación 2FA en tu celular, como [Authy](https://auth
 
 Luego, añade una nueva cuenta y escanea el código QR. Una vez que esté escaneado, escribe el token que tengas en la app en la caja de Autentificación de Token.
 
-![BloomVPS 2FA](../static/img/2FA/2FA3.png)
+![BloomVPS 2FA](../../../static/img/2FA/2FA3.png)
 
 ¡Ya has terminado y tu cuenta está protegida! ¡Recuerda mantener el dispositivo cerca cuando desees iniciar sesión, para poder confirmar!.

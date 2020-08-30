@@ -1,5 +1,5 @@
 ---
-id: sub-users
+id: sub-usuarios
 title: Add Sub-users To Your Panel
 hide_title: true
 hide_table_of_contents: false
