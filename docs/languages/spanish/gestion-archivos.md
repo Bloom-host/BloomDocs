@@ -1,34 +1,37 @@
 ---
 id: gestion-archivos
-title: File Manager Controls
+title: Controles del Gestor de Archivos
 hide_title: true
 hide_table_of_contents: false
-sidebar_label: File Manager Controls
-description: This guide will help you understand how to use the File Manager in your browser.
+sidebar_label: Gestor de Archivos
+description: Esta guía te ayudará a entender como usar el Gestor de Archivos en tu navegador.
 keywords:
   - BloomVPS
-  - File Manager Controls
+  - Controles
+  - Archivos
+  - Gestor de Archivos
   - Pterodactyl Panel
-  - Pterodactyl File Manager
-  - Minecraft File Controls
-image: ../static/img/file-manager-controls/filemanager1.png
+  - Pterodactyl
+  - Minecraft
+  - Español
+image: ../../../static/img/file-manager-controls/filemanager1.png
 ---
-# File Manager Controls
-![BloomVPS File Manager](../static/img/file-manager-controls/filemanger1.png)
-Hey there Bloomers! In this guide, we will go over the basic controls of the file manager and how to utilize it to its fullest!
+# Controles del Gestor de Archivos
+![BloomVPS File Manager](../../../static/img/file-manager-controls/filemanger1.png)
+¡Hola Bloomers! En esta guía, repasaremos los controles básicos del gestor de archivos y cómo usarlo por completo!
 
-## Getting to the File Manager
-![BloomVPS File Manager](../static/img/file-manager-controls/filemanger2.png)
-To find the file manager, go to the Minecraft panel, and go to your sidebar. Click File Managment folder, then File Explorer. 
+## Accediendo al Explorador de Archivos
+![BloomVPS File Manager](../../../static/img/file-manager-controls/filemanger2.png)
+Para encontrar el explorador de archivos, ve al panel de Minecraft, y mira la barra lateral. Click en Gestión de Archivos y luego File Explorer.
 
-## What everything does
-![BloomVPS File Manager](../static/img/file-manager-controls/filemanger3.png)
-### Blue Area
-The blue area shows where exactly you are in the files. So if you were to go into your plugins folder, it would change to /home/container/plugins
-### Red Area
-The red area is "The Bar". You can make new files, new folders, upload files, or use a mass action on several selected files or folders. 
-### Orange Area
-The orange area is your directory. This is the place where all your files are in. To open a file or folder, right click on it. To modify it, left click on it.
-### Left Click // Actions Area
-When you left click on a file or folder, you have several options on what to do with it, ranging from renaming to deleting it. 
-![BloomVPS File Manager](../static/img/file-manager-controls/filemanger4.png)
+## Qué hace todo
+![BloomVPS File Manager](../../../static/img/file-manager-controls/filemanger3.png)
+### Área Azul
+La área azul muestra donde exactamente te encuentras en tus archivos. De modo que si vas a la carpeta de plugins, cambia a /home/container/plugins
+### Área Roja
+La área roja es "La Barra". Puedes crear nuevos archivos, carpetas, subir archivos, o realizar acciones masivas en muchos archivos y carpetas seleccionadas. 
+### Área Anaranjada
+La área anaranjada es tu directorio. Este es el lugar en el cual encuentras todos tus archivos. Para abrir un archivo o una carpeta, presiona click izquierdo en él. Para modificarlo, click derecho en él.
+### Click Derecho // Área de Acciones
+Cuando presionas click derecho en un archivo o carpeta, aparecerán diferentes opciones disponibles, desde cambiarle de nombre a borrarlo por completo. 
+![BloomVPS File Manager](../../../static/img/file-manager-controls/filemanger4.png)
