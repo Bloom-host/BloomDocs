@@ -1,26 +1,26 @@
 ---
 id: id-servidor
-title: Find your Server ID
+title: Encuentra la ID de tu Servidor
 hide_title: true
 hide_table_of_contents: false
-sidebar_label: Find your Server ID
-description: This guide will help you find your Server ID
+sidebar_label: Encuentra la ID de tu Servidor
+description: Esta guía te ayudará a encontrar la ID de tu Servidor
 keywords:
   - BloomVPS
   - Pterodactyl Panel
-  - Server ID
+  - ID de Servidor
+  - Español
   - Pterodactyl ID
-  - Pterodactyl Server
-image: ../static/img/server-id/serverid1.png
+image: ../../../../static/img/server-id/serverid1.png
 ---
-# Server ID
-![BloomVPS Server ID](../static/img/server-id/serverid1.png)
-Hey there Bloomers! In this guide, we will help you find your server ID. A server ID is a random combination of letters and numbers, for example, 9ba0c727 would be a server ID. Your server ID is random and can’t be changed.
+# ID de Servidor
+![BloomVPS Server ID](../../../static/img/server-id/serverid1.png)
+¡Hola Bloomers! En esta guía te ayudaremos a encontrar la ID de tu servidor. La ID de un servidor es una combinación al azar de letras y números, por ejemplo, 9ba0c727 podría ser la ID de un servidor. Esta se genera al azar y no puede ser cambiada, además ayuda a identificar a tu servidor de los demás.
 
-## My Servers method
-![BloomVPS Server ID](../static/img/server-id/serverid2.png)
-The first way to find your server ID is to go to My Servers and find your server in the server list. In the first collum, your server ID will appear!
+## Método Mis Servidores
+![BloomVPS Server ID](../../../static/img/server-id/serverid2.png)
+La primera forma de encontrarlo es ir a la pestaña de Mis Servidores (My Servers) y buscar tu servidor en esa lista. En la primera columna, la ID de tu servidor aparecerá!
 
-## URL method
-![BloomVPS Server ID](../static/img/server-id/serverid3.png)
-Another way to find your server ID is to your console is through the URL. Simply go to your server console and head up to the URL. 
+## Método URL
+![BloomVPS Server ID](../../../static/img/server-id/serverid3.png)
+Otra forma de encontrarlo es simplemente ir a tu consola y ver la URL en el navegador. 
