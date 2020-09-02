@@ -1,55 +1,60 @@
 ---
 id: horarios
-title: Scheduling Actions
+title: Horarios
 hide_title: true
 hide_table_of_contents: false
-sidebar_label: Scheduling Actions
-description: This guide will help you understand how to set up schedules, like daily restarts using the pterodactyl panel.
+sidebar_label: Horarios
+description: Esta guía te ayudará a entender como preparar horarios, como reinicios diarios, por medio del panel de pterodactyl.
 keywords:
   - BloomVPS
-  - Daily Restarts
-  - Scheduling
+  - Reinicios Diarios
+  - Horarios
+  - Español
+  - Automático
+  - Panel
   - Pterodactyl Panel
 image: https://media.discordapp.net/attachments/738919680332529714/742944515513385060/fIrk0CBBQH9dEuHoPwkojXlgNO-ru7Jzy9kfK911iOagw4yKpYGKhpTX8Zj0mjxZ_wCf80PGxx4uvvxY9kAu7UBCm7NOwG1ZfmBZ.png
 ---
-# Scheduling Actions
-![BloomVPS Scheduling Actions](../static/img/scheduling-actions/scheduling-actions1.png)
+# Horarios
+![BloomVPS Scheduling Actions](../../../static/img/scheduling-actions/scheduling-actions1.png)
 
-Hey there Bloomers! In this guide, we will go over scheduling actions to go off at predetermined times for your server. 
+¡Hola Bloomers! En esta guía, repasaremos como usar el horario para preparar acciones en horas determinadas para tu servidor.
 
-![BloomVPS Scheduling Actions](../static/img/scheduling-actions/scheduling-actions2.png)
+![BloomVPS Scheduling Actions](../../../static/img/scheduling-actions/scheduling-actions2.png)
 
-First, you want to go to your server panel and go to its sidebar. There, you will find a tab called Schedules. The number next to it shows how many schedules you have set up so far. 
+Primero, necesitas ir al panel de tu servidor y luego a la barra lateral. Luego, encontrarás una sección llamada Horarios. El número al costado indica cuantas acciones has puesto hasta ahora. 
 
-![BloomVPS Scheduling Actions](../static/img/scheduling-actions/scheduling-actions3.png)
+![BloomVPS Scheduling Actions](../../../static/img/scheduling-actions/scheduling-actions3.png)
 
-Here is where all your schedules will be located in one convenient place. To add a new schedule, click the **Create New** button.
+Aquí es donde todos tus horarios se encuentran en un solo lugar. Para añadir uno nuevo, da click en el botón **Create New**.
 
-![BloomVPS Scheduling Actions](../static/img/scheduling-actions/scheduling-actions4.png)
+![BloomVPS Scheduling Actions](../../../static/img/scheduling-actions/scheduling-actions4.png)
 
-In the scheduling panel, there are 3 main sections of each schedule. Its name, the day it will go off and the time it will go off, and the action it will perform.
+En ese panel, hay 3 principales secciones para cada horario que crees. Su nombre, el día y la hora en que será activado, y la acción que hace.
 
-The name can be whatever you want it to be. It could be “Daily Restart”, “Tell Billy he is amazing!”, or “You are amazing!”.
+El nombre puede ser lo que desees. Puede ser “Reinicio Diario”, “¡Dile a Billy que es increíble!”, "BloomVPS es de lo mejor!” o "Eres Increíble!”.
 
-The second section is when it will go off. Keep in mind all Bloom servers run on Universal Standard Time (UTC), so make sure your schedules reflect that. The day it will go off can either be the day of the month or the day of the week. So, if you want it to restart every Saturday, you could click Saturday. If you want it to restart twice per month, you may pick the first day and the 15th day of a month. Additionally, you can add a wildcard to it, which is *. This means that it will do it for every value. This is very useful if you want to do something repeatedly, like daily restarts.
+La segunda sección es cuando será activado. Ten en cuenta que todos los servidores de Bloom corren en la zona horaria de Universal Standard Time (UTC), así que asegúrate de hacer el cálculo con la tuya. 
+El día en el cuál se activará puede ser un día del mes un el día de la semana. De modo que, si quieres que se active cada Sábado, das click en Saturday (Sábado en inglés). Si quieres que se active dos veces al més, puedes escoger el primero y el 15 del mes. Adicionalmente, puedes añadir un comodín, el cual es *. Esto significa que lo hará todos los días, útil para algo como reinicios diarios.
 
-The final section is what it will send as a command or as a power action. Commands should be used without the “/” in it and doesn’t accept variables. You could send a power action, which you can have turn off the server. If you use “stop”, the server will stop itself. Available power actions are:
+La última sección consiste en lo que va a realizar, si bien un comando o una acción de poder. Los comandos deberían ponerse sin la “/”, y no acepta variables. Puedes usar una acción de poder, por ejemplo, apagar el servidor. Si usas “stop”, el servidor se va a apagar.
+Las acciones de poder disponibles son:
 
-Start - Starts up the server
-Stop - Stops the server
-Restart - Stops then start up the server
-Kill - Kills the server (Not recommended!)
+Start - Inicia el servidor
+Stop - Apaga el servidor
+Restart - Apaga y luego inicia el servidor
+Kill - Termina el servidor (¡No recomendado!)
 
-## Examples
+## Ejemplos
 
-“Daily Restart”
+“Reinicio Diario”
 
-![BloomVPS Scheduling Actions](../static/img/scheduling-actions/scheduling-actions5.png)
+![BloomVPS Scheduling Actions](../../../static/img/scheduling-actions/scheduling-actions5.png)
 
-“Launch Day!”
+“¡Día de Lanzamiento!”
 
-![BloomVPS Scheduling Actions](../static/img/scheduling-actions/scheduling-actions6.png)
+![BloomVPS Scheduling Actions](../../../static/img/scheduling-actions/scheduling-actions6.png)
 
-“LoJoSho has to do something”
+“LoJoSho debe hacer algo”
 
-![BloomVPS Scheduling Actions](../static/img/scheduling-actions/scheduling-actions7.png)
+![BloomVPS Scheduling Actions](../../../static/img/scheduling-actions/scheduling-actions7.png)
