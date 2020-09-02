@@ -44,7 +44,7 @@ ViaRewind **needs** ViaVersion and ViaBackwards to work.
 :::
 
 
-![via Version/viabackwards chart](https://cdn.discordapp.com/attachments/716405933105872938/750734640800596008/unknown.png)
+![via Version/viabackwards chart](https://cdn.discordapp.com/attachments/737803938430189678/750862566192054282/viaversion-darkmode.png)
 # Usage
 Download the plugins, and upload into your **`Plugins`** folder, then restart your server, if you need help with installing plugins, check out [this guide!](https://docs.bloomvps.com/plugins)
 
