@@ -11,7 +11,7 @@ keywords:
   - 2FA Español
   - 2FA
   - 2FA Gameserver
-image: ../static/img/2fa/2fa1.png
+image: ../../../static/img/2fa/2fa1.png
 ---
 # 2-Factor Authentication
 ![BloomVPS 2FA](../../../static/img/2FA/2FA1.png)
