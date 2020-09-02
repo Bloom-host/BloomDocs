@@ -30,6 +30,6 @@ Gris es la consola. Aquí, puedes mandar cualquier coamdno y ver que es lo que e
 
 Morado es el menú de control de tu servidor, permitiéndote Iniciar (Start), Apagar (Stop) y Reiniciar (Restart) tu servidor. No es recomendado Abortar (Kill) el servidor puesto que los plugins y los mundos no se guardarán y se pueden corromper. Solo úsalo si el servidor deja de responder totalmente.
 
-Amarillo es la barra lateral, la cual permite navegar entre diferentes pestañas de tu panel. Estas These range from control panel accounts to manage your databases. If a tab has an arrow on it, it is a category with multiple different tabs hidden under it. To see those tabs, click on the category to open up the available tabs.
+Amarillo es la barra lateral, la cual permite navegar entre diferentes pestañas de tu panel. Estas opciones varían desde las cuentas en tu panel hasta tus bases de datos. Si una pestaña tiene una flecha, es una categoría con más pestañas ocultas debajo de ella. Para ver esas pestañas, click en la categoría y se mostrarán las pestañas disponibles.
 
 ![BloomVPS Basic Controls](../../../static/img/basic-controls/basic-controls3.png)
