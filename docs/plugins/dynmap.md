@@ -52,4 +52,19 @@ Now go into the BloomVPS discord and open a Support ticket and request that the 
 
 You can also request your Dynmap IP to be added to Blooms reverse proxy changing the website link from `123.456.67.2:8123` to `subdomain.yourdomain.com`, please read [this guide!](https://docs.bloomvps.com/reverse-proxy)
 
+# Rendering a map
+when you open up your dynmap for the first time it will be black because it has not been rendered yet, here is how to do this
+
+First you need to pregenerate your chunks, if you want a plugin to do this, checkout [this guide!](https://docs.bloomvps.com/plugins/chunky)
+
+once you have pregenerated your chunks you need to run the command
+
+    /dynmap fullrender
+   ![](https://cdn.discordapp.com/attachments/716405933105872938/750997843950698526/unknown.png)
+this will run a full render of the world your currently on,  This will take a **really** long time to render depending on the `configuration.txt`
+
+    deftemplatesuffix: hires
+
+After a while, your map will be rendered and thats it!
+
 
