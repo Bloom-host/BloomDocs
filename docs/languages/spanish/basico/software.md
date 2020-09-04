@@ -38,19 +38,19 @@ Tunity es una modificación de Paper que introduce cambios más experimentales c
 Spigot es una [modificación/bifurcación](https://es.wikipedia.org/wiki/Bifurcación_(desarrollo_de_software)) de Bukkit que comenzó en 2012. Después de que Bukkit empezó a deteriorarse, se convirtió en el nuevo estándar puesto que todos los plugins de Bukkit pueden usarse en Spigot. Es uno de los softwares más usados, y, hasta el 4/09/2020, [49% de los servidores de Minecraft usan Spigot](https://bstats.org/plugin/bukkit/_bukkit_/1).
 
 ### [Bukkit](https://bukkit.org/)
-Bukkit is an open source but defaunt jar that was used in the early days of Minecraft plugin development. In 2014, Bukkit Project lead Warren Loo announced the end of the Bukkit project. The project was then DMCA by a former developer causing massive amounts of code to no longer be apart of Bukkit. If you want to learn the whole situation, read [Justin Flory blog post](https://blog.jwf.io/2020/04/open-source-minecraft-bukkit-gpl/) about it. BukkitCraft is a continuation that is still supported by Spigot, but is not recommended for servers as it's old and rarely recieves updates.
+Bukkit es un proyecto de código abierto que fue usado durante los primeros días del desarrollo para plugins de Minecraft. En 2014, el líder del Bukkit Project, Warren Loo anunció el fin del proyecto Bukkit. El proyecto había sido denunciado por un desarrollador causando que muchas partes del código no sean partes de Bukkit. Si deseas leer más sobre la situación, puedes leer el [blog post de Justin Flory](https://blog.jwf.io/2020/04/open-source-minecraft-bukkit-gpl/) sobre ello. BukkitCraft es una continuación que aún es soportado por Spigot, pero no es recomendado pues es viejo y raramente recibe actualizaciones.
 
 ### [Yatopia](https://github.com/YatopiaMC/Yatopia)
-Yaptopia is a fork of Tuinity that bring together lots of forks into one jar, allowing you to take advantage of several jars optimizations they have made.
+Yatopia es una modificación de Tuinity que mezcla muchas modificaciones en un solo jar, permitiendo tener la ventaja de muchas optimizaciones que se van creando.
 
 ### [Purpur](https://github.com/pl3xgaming/Purpur)
-Purpur is a fork of paper that aims to bring more gameplay changes to Minecraft, such as driveable Minecarts.
+Purpur es una modificación de Paper que busca implementar cambios de jugabilidad a Minecraft, como Minecarts conducibles.
 
 ### [Origami](https://github.com/Minebench/Origami)
-Origami is a paper fork which has several performance enhancements to it.
+Origami es una modificación de paper que tiene muchas optimizaciónes de código.
 
 ### [NachoSpigot](https://github.com/CobbleSword/NachoSpigot)
-NachoSpigot is a open source fork of paper that aims to bring patches from later Paper versions to Minecraft 1.8.
+NachoSpigot es una versión de código abierto de Paper que busca traer las actualizaciones más recientes de Paper a Minecraft 1.8.
 
 ## Mods
 ## [Forge](https://files.minecraftforge.net/)
