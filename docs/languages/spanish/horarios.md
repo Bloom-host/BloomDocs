@@ -20,15 +20,15 @@ image: https://media.discordapp.net/attachments/738919680332529714/7429445155133
 
 ¡Hola Bloomers! En esta guía, repasaremos como usar el horario para preparar acciones en horas determinadas para tu servidor.
 
-![BloomVPS Scheduling Actions](../../../static/img/scheduling-actions/scheduling-actions2.png)
+![BloomVPS Scheduling Actions](img/horarios/horarios2.png)
 
 Primero, necesitas ir al panel de tu servidor y luego a la barra lateral. Luego, encontrarás una sección llamada Horarios. El número al costado indica cuantas acciones has puesto hasta ahora. 
 
-![BloomVPS Scheduling Actions](../../../static/img/scheduling-actions/scheduling-actions3.png)
+![BloomVPS Scheduling Actions](img/horarios/horarios3.png)
 
 Aquí es donde todos tus horarios se encuentran en un solo lugar. Para añadir uno nuevo, da click en el botón **Create New**.
 
-![BloomVPS Scheduling Actions](../../../static/img/scheduling-actions/scheduling-actions4.png)
+![BloomVPS Scheduling Actions](img/horarios/horarios4.png)
 
 En ese panel, hay 3 principales secciones para cada horario que crees. Su nombre, el día y la hora en que será activado, y la acción que hace.
 
@@ -49,12 +49,12 @@ Kill - Termina el servidor (¡No recomendado!)
 
 “Reinicio Diario”
 
-![BloomVPS Scheduling Actions](../../../static/img/scheduling-actions/scheduling-actions5.png)
+![BloomVPS Scheduling Actions](img/horarios/horarios5.png)
 
 “¡Día de Lanzamiento!”
 
-![BloomVPS Scheduling Actions](../../../static/img/scheduling-actions/scheduling-actions6.png)
+![BloomVPS Scheduling Actions](img/horarios/horarios6.png)
 
-“LoJoSho debe hacer algo”
+“LoJoSho debe terminar algo”
 
-![BloomVPS Scheduling Actions](../../../static/img/scheduling-actions/scheduling-actions7.png)
+![BloomVPS Scheduling Actions](img/horarios/horarios7.png)

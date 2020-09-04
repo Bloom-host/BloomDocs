@@ -18,11 +18,11 @@ image: ../../../../static/img/databases/databases1.png
 ![BloomVPS Databases](../../../static/img/databases/databases1.png)
 ¡Hola Bloomers! En esta guía, repasaremos como añadir Bases de Datos MySQL para tu servidor de Minecraft.
 
-![BloomVPS Databases](../../../static/img/databases/databases2.png)
+![BloomVPS Databases](img/databases/databases2.png)
 Aquí hay 2 secciones importantes. En la roja es donde todas tus bases de datos están. Aquí es donde puedes administrar cualquier cualquier base de datos existente. En la anaranjada, puedes crear nuevas bases de datos.
 En el primer recuadro, puedes asignar un nombre para tu base de datos. En el recuadro de abajo, puedes restringir conexiones MySQL. Si no planeas modificar eso, es recomendable solo dejarlo como % o poner la IP de tu servidor. En este tutorial, crearemos una base de datos. Escoje un nombre y dale a **Create Database**.
 
-![BloomVPS Databases](../../../static/img/databases/databases3.png)
+![BloomVPS Databases](img/databases/databases3.png)
 Una vez creada la base de datos, aparecerá en tu lista. Para poder usarla con plugins, simplemente copia los detalles que muestra la página hacia la configuración de los plugins. Usando esas credenciales, vamos a dar unos ejemplos.
 
 ## Ejemplos

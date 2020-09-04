@@ -15,10 +15,10 @@ image: ../../../static/img/server-id/serverid1.png
 ![BloomVPS Subusers](../../../static/img/subusers/subusers1.png)
 ¡Hola Bloomers! En esta guía, repasaremos como añadir sub-usuarios a tu panel.
 
-![BloomVPS Subusers](../../../static/img/subusers/subusers2.png)
+![BloomVPS Subusers](img/subusuarios/subusuarios2.png)
 Dirígete a tu panel y ve a la pestaña de Subusadores en la barra de la izquierda. Ahí podrás administrar a los subusuarios. Luego, click en **Create New** para comenzar con el procedimiento. 
 
-![BloomVPS Subusers](../../../static/img/subusers/subusers3.png)
+![BloomVPS Subusers](img/subusuarios/subusuarios3.png)
 Una ves dentro, ingresa el email de la persona. Luego, selecciona que permisos quieres darle al usuario. En la sección resaltada de azul, puedes seleccionar todos los permisos a la vez o quitarlos todos a la vez. En la sección resaltada de amarillo, puedes añadir el subusuario, lo cual enviará el email a su correo.
 
 ![BloomVPS Subusers](../../../static/img/subusers/subusers4.png)
