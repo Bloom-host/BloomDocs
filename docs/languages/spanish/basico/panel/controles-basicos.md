@@ -15,11 +15,11 @@ keywords:
 image: ../../../../static/img/basic-controls/basic-controls1.png
 ---
 # Controles Básicos
-![BloomVPS Basic Controls](../../../static/img/basic-controls/basic-controls1.png)
+![BloomVPS Basic Controls](../../../../../static/img/basic-controls/basic-controls1.png)
 
 ¡Hola Bloomers! Esta guía te ayudará a entender el ambiente de tu panel y que hace cada opción.
 
-![BloomVPS Basic Controls](img/controles-basicos/controles-basicos2.png)
+![BloomVPS Basic Controls](../../img/controles-basicos/controles-basicos2.png)
 
 Azul es la memoria que tu servidor está usando. Con las Aikar Flags, la mayoría del tiempo estarás usandotoda o casi toda. ¡Memoria sin usar es memoria desperdiciada!
 
@@ -32,5 +32,5 @@ Gris es la consola. Aquí, puedes mandar cualquier coamdno y ver que es lo que e
 Morado es el menú de control de tu servidor, permitiéndote Iniciar (Start), Apagar (Stop) y Reiniciar (Restart) tu servidor. No es recomendado Abortar (Kill) el servidor puesto que los plugins y los mundos no se guardarán y se pueden corromper. Solo úsalo si el servidor deja de responder totalmente.
 
 Amarillo es la barra lateral, la cual permite navegar entre diferentes pestañas de tu panel. Estas opciones varían desde las cuentas en tu panel hasta tus bases de datos.
-![BloomVPS Basic Controls](img/controles-basicos/controles-basicos3.png)
+![BloomVPS Basic Controls](../../img/controles-basicos/controles-basicos3.png)
  Si una pestaña tiene una flecha, es una categoría con más pestañas ocultas debajo de ella. Para ver esas pestañas, click en la categoría y se mostrarán las pestañas disponibles.
