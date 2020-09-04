@@ -16,6 +16,7 @@ module.exports = {
               {
                 'Controles del Panel': ['languages/spanish/basico/panel/controles-basicos', 'languages/spanish/basico/panel/horarios', 'languages/spanish/basico/panel/sftp', 'languages/spanish/basico/panel/sub-usuarios', 'languages/spanish/basico/panel/databases', 'languages/spanish/basico/panel/id-servidor', 'languages/spanish/basico/panel/gestion-archivos', 'languages/spanish/basico/panel/2fa']
               }, 'languages/spanish/basico/software', 'languages/spanish/basico/motd', 'languages/spanish/basico/instalar-plugins', 'languages/spanish/basico/configurar-un-dominio', 'languages/spanish/basico/configurar-whitelist'],
+            'Optimización:': [ 'languages/spanish/optimizacion/fabric', 'languages/spanish/optimizacion/paper'],
           },
         ],
       },
