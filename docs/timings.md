@@ -30,6 +30,6 @@ When you have waited 10m, then do the command `/timing paste`
 Once you have done the command it will paste a link like the one below
 ![enter image description here](https://cdn.discordapp.com/attachments/716405933105872938/751467828581761135/unknown.png)
 
-Open the link and you will see the Timings tab, anything in red is using a excess of resources you can also click the plugins tab to see, what plugins are using the most resources on your server.
+Open the link and you will see the Timings tab, anything in red is using a excess of resources. Also, you can also click the plugins tab to see what plugins are using the most resources on your server.
 
 If you require help with reading your timings, create a ticket in [BloomVPS Discord!](https://discord.gg/bloom)

@@ -40,7 +40,7 @@ Luego, entra al **`config.yml`** de Superbvote y añade que clase de premios qui
 ```YAML
     mysql:
      host: 123.456.789.10
-     username: u437_0KRtn59H5M
+     username: u420_billytheduck
      password: topsecret
      database: s420_Votifier
      table: votes
