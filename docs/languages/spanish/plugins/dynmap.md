@@ -54,6 +54,6 @@ Ahora ingresa la información de la base de datos, recordando eliminar el `#` al
 ```
 Ahora entra el discord de BloomVPS y abre un ticket y pide que el puerto de Dynmap sea abierto para tu servidor. Puedes [unirte desde aquí!](https://discord.com/invite/bloom)
 
-También puedes pedir que tu IP de Dynmap sea añadida al Proxy inverso de BloomVPS, cambiando el link del sitio web de `123.456.67.2:8123` a algo como `mapa.tuservidor.com`, puedes usar [esta guía!](https://docs.bloomvps.com/extras/reverse-proxy).
+También puedes pedir que tu IP de Dynmap sea añadida al Proxy inverso de BloomVPS, cambiando el link del sitio web de `123.456.67.2:8123` a algo como `mapa.tuservidor.com`, puedes usar [esta guía!](https://docs.bloomvps.com/languages/spanish/extras/reverse-proxy).
 
 
