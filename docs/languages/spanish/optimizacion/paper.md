@@ -22,10 +22,10 @@ image: https://bloomvps.com/assets/images/logo.png
 
   
 
-Actualizado hasta la Versión 1.16.2  
+*Actualizado hasta la Versión 1.16.2.*  
   
   
-Desde 1.13, los servidores de Minecraft han ido progresivamente más difíciles de mantener. Paper, una modificación de Spigot, ofrece muchas opciones que pueden mejorar el rendimiento. En esta guía, modificaremos algunos archivos principales, **Primero crea una copia de respaldo**. Ten en cuenta que esta guía solo se basa en sugerencias, y no deberían ser tomadas al pie de la letra, puesto que todo servidor es diferente.
+Desde 1.13, los servidores de Minecraft han ido progresivamente más difíciles de mantener. Paper, una modificación de Spigot, ofrece muchas opciones que pueden mejorar el rendimiento. En esta guía, modificaremos algunos archivos principales. **Primero crea una copia de respaldo**. Ten en cuenta que esta guía solo se basa en sugerencias, y no deberían ser tomadas al pie de la letra, puesto que todo servidor es diferente.
 
   
 
@@ -435,7 +435,7 @@ Desde 1.13, los servidores de Minecraft han ido progresivamente más difíciles 
   
   
 
-## Plugins Recomendados para Mejorar Rendimiento:
+## Plugins Recomendados para Mejorar Rendimiento
 
   
 

@@ -33,6 +33,6 @@ Después de que se haya cargado su plugin, reinicie su servidor. (No utilice el 
 ### Paso 5:
 Después de reiniciar su servidor, puede verificar si su plugin está instalado correctamente ejecutando el comando ‘pl’ en la consola o ‘/pl’ dentro de su servidor. Este comando mostrará los plugins actualmente instalados en el servidor.
 
-> [!IMPORTANT]
-> Si lo hizo correctamente, el plugin se mostrará en verde, lo que significa que está activado y listo para funcionar. Si está en rojo, el plugin está desactualizado, tiene errores, o no está utilizando la versión correcta del plugin o Minecraft.
-> 
+:::info
+Si lo hizo correctamente, el plugin se mostrará en verde, lo que significa que está activado y listo para funcionar. Si está en rojo, el plugin está desactualizado, tiene errores, o no está utilizando la versión correcta del plugin o Minecraft.
+::: 

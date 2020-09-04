@@ -64,9 +64,9 @@ Fabric es un software que permite crear mods de forma más fácil y rápida que 
 ### [Magma](https://magmafoundation.org/)
 Magma es un software que mezcla Forge con Paper, permitiendo usar plugins de Bukkit junto con mods. Aunque todavía se encuentra en mucho desarrollo, es bastante estable y tiene un desarrollo activo.
 
-## [Sponge](https://www.spongepowered.org/)
+### [Sponge](https://www.spongepowered.org/)
 Sponge es una API designada a ser un reemplazo a Bukkit que permite usar Forge con plugins Sponge. No puedes usar plugins de Bukkit o Spigot en Sponge. Actualmente, Sponge se encuentra en la versión 1.12.2.
 
 
-# [Vanilla](https://www.minecraft.net/en-us/download/server)
+## [Vanilla](https://www.minecraft.net/en-us/download/server)
 Vanilla es el software previsto por Mojang para poder usar servidores de Minecraft. Este es el software base para todos los servidores, sin plugins como Spigot o mods como Forge. No se encuentra muy bien optimizado y no es recomendable, solo si quieres jugar en un grupo pequeño lo más cercano a Minecraft vanilla posible.
