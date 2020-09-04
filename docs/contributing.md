@@ -32,6 +32,6 @@ Here are some more resources for you guys!
 
 [Github Repo](https://github.com/billy-bloom/bloomdocs)
 
-Right, one last thing. Make sure you know what you are talking about. Don't wright stuff and bullshit your way through it just for a role on Discord. Contribute useful information and you will be fine!
+Right, one last thing. Make sure you know what you are talking about. Don't write stuff and bullshit your way through it just for a role on Discord. Contribute useful information and you will be fine!
 
 Can't wait to see what you will contribute! See you soon!
