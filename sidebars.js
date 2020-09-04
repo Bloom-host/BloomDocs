@@ -6,7 +6,7 @@ module.exports = {
         'Panel Controls': ['basic-controls', 'scheduling-actions', 'how-to-use-sftp', 'sub-users', 'databases', 'server-id', 'file-manager-controls','2fa', 'motd']
       }, 'editing-account-details', 'plugins', 'pointing-a-domain', 'whichsoftwaretouse', 'setting-up-forge','server-resource-packs', 'datapacks','timings'],
     'Server Optimization': ['paper-server-optimization', 'fabric-server-optimization'],
-    'Plugins': ['plugins/chunky', 'plugins/luckperms', 'plugins/prism', 'plugins/geysermc', 'plugins/bungeeguard', 'plugins/viaversion', 'plugins/dynmap', 'plugins/votifier'],
+    'Plugins': ['plugins/chunky', 'plugins/luckperms', 'plugins/prism', 'plugins/geysermc', 'plugins/bungeeguard', 'plugins/viaversion', 'plugins/dynmap', 'plugins/votifier', 'plugins/craftingstore'],
     'Extras': ['mobile-app', 'reverse-proxy','adding-an-icon'],
     'Other Languages': [
       {
