@@ -16,6 +16,6 @@ image: https://media.discordapp.net/attachments/738919680332529714/7422393689195
 
 1. You’ll first need to add a cname record, and point it at `revproxy.bloomvps.com`. 
 :::caution
-Make sure you don't proxy it using cloudflare, as that may break things.
+Make sure you don't proxy it using cloudflare, as that may break things. A domain is also required for this step.  
 :::
 2. Once you’ve done that, open a support ticket on our discord. Provide your hostname + domain name (ex: map.example.com), and the ip & port you want to proxy (ex: 192.168.0.1:8123). You can find your ip + port by opening the configuration dropdown menu, and selecting “Allocation Settings”. After you’ve provided the information, we will handle the rest.  

@@ -29,4 +29,9 @@ Next, go to your domain provider. This will be different depending on what domai
 
 ![BloomVPS Pointing A Domain](../static/img/pointing-a-domain/pointing-a-domain3.png)
 
+:::warning
+Ensure that the server is grey cloud (not proxied by cloudflare). You can still use cloudflare, just make sure it has a grey cloud. The image has an orange cloud, MAKE SURE it is not proxied.
+:::
+
+
 For the name, it will bloom. This is the subdomain which we have assigned to it, so whatever name we put there will be put before the domain when we type it in. In this case, bloom.hollowseas.com. If you put play instead of bloom, it would be play.hollowseas.com. We will then put into the IP we got from our server before into the IPv4 address. Click Save. This process will now take up to 48 hours to apply, but in most cases, it will be under 24 hours. 
