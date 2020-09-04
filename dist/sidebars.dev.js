@@ -16,7 +16,7 @@ module.exports = {
         }, 'languages/spanish/basico/software', 'languages/spanish/basico/motd', 'languages/spanish/basico/instalar-plugins', 'languages/spanish/basico/configurar-un-dominio', 'languages/spanish/basico/configurar-whitelist'],
         'Optimización': ['languages/spanish/optimizacion/fabric', 'languages/spanish/optimizacion/paper'],
         'Plugins': ['languages/spanish/plugins/bungeeguard', 'languages/spanish/plugins/chunky', 'languages/spanish/plugins/dynmap', 'languages/spanish/plugins/geysermc', 'languages/spanish/plugins/luckperms', 'languages/spanish/plugins/prism', 'languages/spanish/plugins/viaversion', 'languages/spanish/plugins/votifier'],
-        'Extras': ['languages/spanish/extras/reverse-proxy']
+        'Extras': ['languages/spanish/extras/reverse-proxy', 'languages/spanish/extras/contributing']
       }]
     }]
   }
