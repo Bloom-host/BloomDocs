@@ -15,7 +15,7 @@ module.exports = {
             'Lo Básico': [
               {
                 'Controles del Panel': ['languages/spanish/basico/panel/controles-basicos', 'languages/spanish/basico/panel/horarios', 'languages/spanish/basico/panel/sftp', 'languages/spanish/basico/panel/sub-usuarios', 'languages/spanish/basico/panel/databases', 'languages/spanish/basico/panel/id-servidor', 'languages/spanish/basico/panel/gestion-archivos', 'languages/spanish/basico/panel/2fa']
-              }, 'languages/spanish/basico/software', 'languages/spanish/basico/motd', 'languages/spanish/basico/instalar-plugins', 'languages/spanish/basico/configurar-un-dominio', 'languages/spanish/basico/configurar-whitelist', 'languages/spanish/basico/datapacks'],
+              }, 'languages/spanish/basico/software', 'languages/spanish/basico/motd', 'languages/spanish/basico/instalar-plugins', 'languages/spanish/basico/configurar-un-dominio', 'languages/spanish/basico/configurar-whitelist', 'languages/spanish/basico/datapacks', 'languages/spanish/basico/resource-packs'],
             'Optimización': ['languages/spanish/optimizacion/fabric', 'languages/spanish/optimizacion/paper', 'languages/spanish/optimizacion/timings'],
             'Plugins': ['languages/spanish/plugins/bungeeguard', 'languages/spanish/plugins/chunky', 'languages/spanish/plugins/dynmap', 'languages/spanish/plugins/geysermc', 'languages/spanish/plugins/luckperms', 'languages/spanish/plugins/prism', 'languages/spanish/plugins/viaversion', 'languages/spanish/plugins/votifier'],
             'Extras': ['languages/spanish/extras/reverse-proxy', 'languages/spanish/extras/contributing']
