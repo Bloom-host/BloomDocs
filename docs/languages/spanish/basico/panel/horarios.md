@@ -40,10 +40,10 @@ El día en el cuál se activará puede ser un día del mes un el día de la sema
 La última sección consiste en lo que va a realizar, si bien un comando o una acción de poder. Los comandos deberían ponerse sin la “/”, y no acepta variables. Puedes usar una acción de poder, por ejemplo, apagar el servidor. Si usas “stop”, el servidor se va a apagar.
 Las acciones de poder disponibles son:
 
-**Start** - Inicia el servidor
-**Stop** - Apaga el servidor
-**Restart** - Apaga y luego inicia el servidor
-**Kill** - Termina el servidor (¡No recomendado!)
+- **Start** - Inicia el servidor
+- **Stop** - Apaga el servidor
+- **Restart** - Apaga y luego inicia el servidor
+- **Kill** - Termina el servidor (¡No recomendado!)
 
 ## Ejemplos
 

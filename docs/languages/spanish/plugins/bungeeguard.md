@@ -33,7 +33,7 @@ BungeeGuard es un plugin usado para proteger contra la falsificación de UUID de
 Asegúrate que BungeeCord está en la última versión, también asegúrate de usar la versión 1.2 o mayor de BungeeGuard, pues versiones anteriores tienen errores. 
 :::
 
-[Descarga el plugin](https://ci.lucko.me/job/BungeeGuard/lastBuild/artifact/bungeeguard-universal/target/BungeeGuard.jar), luego sube el jar en las carpetas de ``plugins`` de Spigot y Bungeecord, y reinicia los servidores. Si necesitas ayuda instalando plugins, puedes ir a [esta guía](https://docs.bloomvps.com/basico/instalar-plugins).
+[Descarga el plugin](https://ci.lucko.me/job/BungeeGuard/lastBuild/artifact/bungeeguard-universal/target/BungeeGuard.jar), luego sube el jar en las carpetas de ``plugins`` de Spigot y Bungeecord, y reinicia los servidores. Si necesitas ayuda instalando plugins, puedes ir a [esta guía](https://docs.bloomvps.com/languages/spanish/basico/instalar-plugins/).
 
 Una vez reiniciados los servidores con Bungeeguard, entra al archivo ``config.yml`` localizado en el directorio de Bungeeguard en el servidor de Bungeecord, y copia el token de autentificación. Luego pega este token dentro del archivo ``config.yml`` en el directorio de Bungeeguard en tu servidor de Spigot.
 

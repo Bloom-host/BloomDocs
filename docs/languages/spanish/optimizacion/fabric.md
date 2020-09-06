@@ -49,7 +49,7 @@ Carpet mod añade muchas mecánicas al juego, las cuales todas están desactivad
 ## Pregeneración de Chunks
 
 :::important
-Deberías hacer esto antes de abrir el servidor al público, pues va a causar mucho lag mientras procesa. También demora mucho tiempo (hasta varios días)
+Deberías hacer esto antes de abrir el servidor al público, pues va a causar mucho lag mientras procesa. También demora mucho tiempo (hasta varios días).
 :::
 
 Generar chunks por primera vez causa mucho lag, lo cual puede impactar mucho los TPS. Para pregenerar, usaremos [este mod](https://www.curseforge.com/minecraft/mc-mods/chunk-pregenerator-fabric). Para instalarlo, simplemente lo pondremos en nuestra carpeta de mods, y luego reinicia el servidor. Una vez esto termine, entra al servidor y escribe el siguiente comando en el mundo que quieras pregenerar (solo un mundo a la vez).

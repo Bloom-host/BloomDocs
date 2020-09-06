@@ -26,7 +26,7 @@ First in-game or in console run the command `/timings on` it will then say this.
 ![enter image description here](https://cdn.discordapp.com/attachments/716405933105872938/751466750729650237/unknown.png)
 Once you have enabled timings wait at least 10m then go onto the next step.
 
-When you have waited 10m, then do the command `/timing paste`
+When you have waited 10m, then do the command `/timings paste`
 Once you have done the command it will paste a link like the one below
 ![enter image description here](https://cdn.discordapp.com/attachments/716405933105872938/751467828581761135/unknown.png)
 

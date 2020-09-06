@@ -30,7 +30,7 @@ SuperbVote is a Vote Rewards plugin that you can customize to give rewards for v
 ## Usage
 First, Download the Nuvotifier plugin and install it into your **`plugins`** folder, and install the Superbvote plugin  into the same place, Restart your server and enter the Nuvotifer**`config.yml`** in the config, take a note of your port number
 
-Then go to the BloomVPS discord [join here!](discord.gg/bloom), and request that the port in your Nuvotifier Config be opened,
+Then go to the BloomVPS discord [join here!](https://discord.gg/bloom), and request that the port in your Nuvotifier Config be opened,
 
 
 Then,
