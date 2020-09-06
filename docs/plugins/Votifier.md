@@ -38,7 +38,7 @@ Enter your Superbvote **`config.yml`** and then add what rewards you want to giv
 ```YAML
     mysql:
      host: 123.456.789.10
-     username: u437_0KRtn59H5M
+     username: u420_abbylikesducks
      password: topsecret
      database: s420_Votifier
      table: votes
