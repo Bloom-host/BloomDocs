@@ -14,7 +14,7 @@ keywords:
   - Bases
 image: ../../../../../static/img/databases/databases1.png
 ---
-# Subusers
+# Añadiendo Bases de datos MySQL
 ![BloomVPS Databases](../../../../../static/img/databases/databases1.png)
 ¡Hola Bloomers! En esta guía, repasaremos como añadir Bases de Datos MySQL para tu servidor de Minecraft.
 
