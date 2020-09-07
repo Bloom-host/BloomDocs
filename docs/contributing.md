@@ -35,3 +35,6 @@ Here are some more resources for you guys!
 Right, one last thing. Make sure you know what you are talking about. Don't write stuff and bullshit your way through it just for a role on Discord. Contribute useful information and you will be fine!
 
 Can't wait to see what you will contribute! See you soon!
+
+## Wall of Ducks
+|  **Billy**  |  **Euan**  |  **Kaaale**  |  **LoJoSho**  |  **Virgil.Gunder**  |  **LGLover**  |  **Zeus**  | **Nessie** |
