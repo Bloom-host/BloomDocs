@@ -1,6 +1,6 @@
 # Docs Site
 
-Quick Link to the docs site: https://docs.bloomvps.com/
+Quick Link to the docs site: https://docs.bloom.host/
 
 # Website
 
