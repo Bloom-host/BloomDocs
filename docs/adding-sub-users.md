@@ -12,7 +12,6 @@ keywords:
 image: ../static/img/server-id/serverid1.png
 ---
 # Subusers
-![BloomVPS Subusers](../static/img/subusers/subusers1.png)
 Hey there Bloomers! In this guide, we will go over how to add subusers to your panel.
 
 ![BloomVPS Subusers](../static/img/subusers/subusers2.png)
