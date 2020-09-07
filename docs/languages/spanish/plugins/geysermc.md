@@ -36,7 +36,7 @@ GeyserMC permite que usuarios de Minecraft Bedrock Edition puedan unirse a tu se
 GeyserMC  necesita que tu servidor se encuentre en la última versión posible. 
 :::
 
-[Descarga el plugin](https://ci.nukkitx.com/job/GeyserMC/job/Geyser/job/master/lastSuccessfulBuild/artifact/bootstrap/spigot/target/Geyser-Spigot.jar), y sube el jar dentro de tu carpeta `plugins`, y reinicia el servidor. Si necesitas ayuda instalando plugins, puedes leer [esta guía](https://docs.bloomvps.com/languages/spanish/basico/instalar-plugins/). 
+[Descarga el plugin](https://ci.nukkitx.com/job/GeyserMC/job/Geyser/job/master/lastSuccessfulBuild/artifact/bootstrap/spigot/target/Geyser-Spigot.jar), y sube el jar dentro de tu carpeta `plugins`, y reinicia el servidor. Si necesitas ayuda instalando plugins, puedes leer [esta guía](https://docs.bloom.host/languages/spanish/basico/instalar-plugins/). 
 
 Una vez instalado, abre un ticket en nuestro [discord](https://discord.com/invite/2QxW8QY), y pide que el puerto 19132 sea añadido para bedrock. 
 
