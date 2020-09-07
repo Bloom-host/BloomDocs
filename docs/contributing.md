@@ -36,5 +36,8 @@ Right, one last thing. Make sure you know what you are talking about. Don't writ
 
 Can't wait to see what you will contribute! See you soon!
 
+
 ## Wall of Ducks
-|  **Billy**  |  **Euan**  |  **Kaaale**  |  **LoJoSho**  |  **Virgil.Gunder**  |  **LGLover**  |  **Zeus**  | **Nessie** |
+|  **Billy**  |  **Euan**  |  **Kaaale**  |  **LoJoSho** | **LGLover**  |  **Nessie** | **Virgil.Gunder**  |  **Zeus**  |
+
+
