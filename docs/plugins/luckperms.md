@@ -25,7 +25,7 @@ Unlike PermissionsEx, Luckperms stores in either MySQL or .db (database), which 
 
 To use this plugin, download the jar you need it for. Most commonly, for single servers, it would be the Bukkit jar. 
 
-Upload the jar into your `/plugins folder`. Restart the server. If you need help installing plugins, check [How to install plugins](https://docs.bloomvps.com/plugins).
+Upload the jar into your `/plugins folder`. Restart the server. If you need help installing plugins, check [How to install plugins](https://docs.bloom.host/plugins).
 
 To begin, simply do `/lp editor`. Once you have made your edits, click save and paste the link it gives you. If you need more help, consult with the [Luckperms wiki](https://luckperms.net/wiki/Home)
 

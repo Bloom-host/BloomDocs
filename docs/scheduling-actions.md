@@ -10,10 +10,10 @@ keywords:
   - Daily Restarts
   - Scheduling
   - Pterodactyl Panel
-image: https://media.discordapp.net/attachments/738919680332529714/742944515513385060/fIrk0CBBQH9dEuHoPwkojXlgNO-ru7Jzy9kfK911iOagw4yKpYGKhpTX8Zj0mjxZ_wCf80PGxx4uvvxY9kAu7UBCm7NOwG1ZfmBZ.png
+image: 
 ---
 # Scheduling Actions
-![BloomVPS Scheduling Actions](../static/img/scheduling-actions/scheduling-actions1.png)
+
 
 Hey there Bloomers! In this guide, we will go over scheduling actions to go off at predetermined times for your server. 
 

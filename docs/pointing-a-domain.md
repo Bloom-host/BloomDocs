@@ -13,11 +13,11 @@ keywords:
   - Pterodactyl Panel
   - Minecraft Domain
   - A Record
-image: https://cdn.discordapp.com/attachments/738919680332529714/742949816564449350/editingAccountDetails1.png
+image: 
 ---
 # Pointing A Domain
 
-![BloomVPS Pointing A Domain](../static/img/pointing-a-domain/pointing-a-domain1.png)
+
 
 Hello there Bloomers! In this guide, we will go over on how to make your server go from lots of numbers (148.251.209.38:25565) to a domain name (Bloom.HollowSeas.com).
 

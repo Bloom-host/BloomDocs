@@ -35,7 +35,7 @@ image: https://bloomvps.com/assets/images/logo.png
 Allows you to see your Minecraft world in 3D in real time, Like google maps and accessible from anywhere.
 ![Dynmap preview](https://cdn.discordapp.com/attachments/716405933105872938/750877749954084875/unknown.png)
 # Usage
-Download the Dynmap plugin and place into the **`plugins`** folder then restart your server to generate the **`configuration.txt`**, then create a MySQL database. if you are unsure [check out this guide!](https://docs.bloomvps.com/databases)
+Download the Dynmap plugin and place into the **`plugins`** folder then restart your server to generate the **`configuration.txt`**, then create a MySQL database. if you are unsure [check out this guide!](https://docs.bloom.host/databases)
 
 Now enter the database information into this section remembering to remove the `#`
 (Note: Don't enter the information below enter the information from your MySQL database)
@@ -50,6 +50,6 @@ Now enter the database information into this section remembering to remove the `
 ```
 Now go into the BloomVPS discord and open a Support ticket and request that the Dynmap port to be opened on your server.  [join here!](https://discord.com/invite/bloom)
 
-You can also request your Dynmap IP to be added to Blooms reverse proxy changing the website link from `123.456.67.2:8123` to `subdomain.yourdomain.com`, please read [this guide!](https://docs.bloomvps.com/reverse-proxy)
+You can also request your Dynmap IP to be added to Blooms reverse proxy changing the website link from `123.456.67.2:8123` to `subdomain.yourdomain.com`, please read [this guide!](https://docs.bloom.host/reverse-proxy)
 
 

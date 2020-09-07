@@ -11,10 +11,8 @@ keywords:
   - Server ID
   - Pterodactyl ID
   - Pterodactyl Server
-image: ../static/img/server-id/serverid1.png
 ---
 # Server ID
-![BloomVPS Server ID](../static/img/server-id/serverid1.png)
 Hey there Bloomers! In this guide, we will help you find your server ID. A server ID is a random combination of letters and numbers, for example, 9ba0c727 would be a server ID. Your server ID is random and can’t be changed.
 
 ## My Servers method

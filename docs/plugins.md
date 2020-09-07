@@ -21,6 +21,6 @@ This tutorial assumes you're using [Bukkit](https://bukkit.org) (or a fork of it
 
 You'll first need to find the plugin you wish to install. Downloads can be found on a variety of sites, common places are [Spigot's Resource forums](https://spigotmc.org/resources) or the [Bukkit Dev](https://dev.bukkit.org) website. Make sure you trust the source of your downloads, as plugins have high-level access to your server.
 
-In any case, save the plugin to your local machine. Plugins can either be uploaded via the [web panel](https://mc.bloomvps.com) or through [SFTP](https://docs.bloomvps.com/how-to-use-sftp). If you're uploading in bulk, go with the latter.
+In any case, save the plugin to your local machine. Plugins can either be uploaded via the [web panel](https://mc.bloom.host) or through [SFTP](https://docs.bloom.host/how-to-use-sftp). If you're uploading in bulk, go with the latter.
 
 In your server's root directory, locate the `/plugins` folder, if it's not there then create a new directory named `/plugins`. Navigate into this folder, and upload your plugin's file there! Most plugins will require you to restart your server before they take effect.

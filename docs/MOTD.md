@@ -20,7 +20,7 @@ image: https://bloomvps.com/assets/images/logo.png
 
 First you need to Write your MOTD, you can use [this website](https://mctools.org/motd-creator) to help you, once  you have your MOTD like you want it, copy the `server.properties`code, like the one shown below
 ![server.properties](https://cdn.discordapp.com/attachments/716405933105872938/751221395622723715/unknown.png)
-Open your server panel and head to File Explorer, if you need a hand, checkout [this guide!](https://docs.bloomvps.com/file-manager-controls). now enter your `server.properties` and head to the motd section and paste the copied text where the old one was, then restart your server and your changes will be made.
+Open your server panel and head to File Explorer, if you need a hand, checkout [this guide!](https://docs.bloom.host/file-manager-controls). now enter your `server.properties` and head to the motd section and paste the copied text where the old one was, then restart your server and your changes will be made.
 
 ## How to change your MOTD with Serverlistplus
 Serverlistplus is a plugin that changes your Motd through a plugin also adding features like custom MOTDs for seperate players, you can download it [here!](https://www.spigotmc.org/resources/serverlistplus.241/) 

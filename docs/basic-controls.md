@@ -12,7 +12,7 @@ keywords:
 image: ../static/img/basic-controls/basic-controls1.png
 ---
 # Basic Controls
-![BloomVPS Basic Controls](../static/img/basic-controls/basic-controls1.png)
+
 
 Hey there Bloomers! This guide will help you understand your panel environment and what everything means.
 
