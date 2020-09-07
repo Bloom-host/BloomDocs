@@ -13,7 +13,7 @@ keywords:
 image: ../static/img/2fa/2fa1.png
 ---
 # 2-Factor Authentication
-![BloomVPS 2FA](../static/img/2FA/2FA1.png)
+
 Hey there Bloomers! In this guide, we will go over how to setup 2FA on your account.
 
 :::caution
