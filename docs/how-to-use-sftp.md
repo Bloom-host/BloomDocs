@@ -14,11 +14,10 @@ keywords:
   - File Access
   - BloomVPS file access
   - Pterodactyl Panel
-image: https://media.discordapp.net/attachments/738919680332529714/742967911286702130/CAA1VWS9Ta498g4JwPdyyolKNawGouBUZH2Y_JmEAUHq7dTz-ZskKhDi2D1ARTmMff3RbD-SZz4i4nZC59qEZybXQKTlTB0Ef78V.png?width=1204&height=677
 ---
 # How to use SFTP to transfer files
 
-![BloomVPS How to use SFTP](../static/img/how-to-use-sftp/how-to-use-sftp1.png)
+
 
 Hey Bloomers! In this guide we will be using SFTP to import and export files. The SFTP client we will be using is called filezilla, which you can download from [here](https://filezilla-project.org/download.php?show_all=1). 
 
