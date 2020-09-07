@@ -10,16 +10,14 @@ keywords:
   - Forge
   - Minecraft
   - Modded
-image: ../static/img/setting-up-forge/forge1.png
 ---
-![BloomVPS Forge](../static/img/setting-up-forge/forge1.png)
 Hey there Bloomers! In this guide, we will go over how to setup Forge on your Minecraft server.
 
 To begin installing Forge, head over to their website to download their installer and launch the jar file. Have it open up in an empty directory and hit install server. Have something like the screenshot below.
 
 ![BloomVPS Forge](../static/img/setting-up-forge/forge2.png)
 
-After you have installed it, head over to an [SFTP client](https://docs.bloomvps.com/how-to-use-sftp) such as FileZilla and uplaod everything inside your folder to your server.
+After you have installed it, head over to an [SFTP client](https://docs.bloom.host/how-to-use-sftp) such as FileZilla and uplaod everything inside your folder to your server.
 
 Next, rename your forge-xxx file to server.jar or go to Startup Parameters and change the Server Jar File.
 
