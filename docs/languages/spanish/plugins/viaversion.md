@@ -50,6 +50,6 @@ ViaRewind **necesita** ViaVersion y ViaBackwards para funcionar.
 ![via Version/viabackwards chart](https://cdn.discordapp.com/attachments/737803938430189678/750862566192054282/viaversion-darkmode.png)
 
 # Uso
-Descarga los plugins y súbelos a tu carpeta **`plugins`**, luego reinicia el servidor. Si necesitas ayuda instalando plugins, puedes ver [esta guía](https://docs.bloomvps.com/languages/spanish/basico/instalar-plugins/).
+Descarga los plugins y súbelos a tu carpeta **`plugins`**, luego reinicia el servidor. Si necesitas ayuda instalando plugins, puedes ver [esta guía](https://docs.bloom.host/languages/spanish/basico/instalar-plugins/).
 
 Una vez completado el proceso, los jugadores de Java deberían poder unirse desde casi cualquier versión!
