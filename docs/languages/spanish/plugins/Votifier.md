@@ -35,7 +35,7 @@ Primero, descarga el plugin Nuvotifier e instálalo en tu carpeta de **`plugins`
 
 Luego entra al [Discord de BloomVPS](https://discord.gg/bloom), y pide que tu puerto de Nuvotifiersea abierto.
 
-Luego, entra al **`config.yml`** de Superbvote y añade que clase de premios quieres dar a tus jugadores. También puedes almacenar la información en una base de datos MySQL si lo deseas. Si no sabes cómo, puedes ir a [esta guía!](https://docs.bloomvps.com/languages/spanish/basico/panel/databases).
+Luego, entra al **`config.yml`** de Superbvote y añade que clase de premios quieres dar a tus jugadores. También puedes almacenar la información en una base de datos MySQL si lo deseas. Si no sabes cómo, puedes ir a [esta guía!](https://docs.bloom.host/languages/spanish/basico/panel/databases).
 
 ```YAML
     mysql:

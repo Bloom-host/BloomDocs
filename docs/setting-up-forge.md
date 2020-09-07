@@ -11,6 +11,7 @@ keywords:
   - Minecraft
   - Modded
 ---
+![BloomVPS Forge](../static/img/setting-up-forge/forge1.png)
 Hey there Bloomers! In this guide, we will go over how to setup Forge on your Minecraft server.
 
 To begin installing Forge, head over to their website to download their installer and launch the jar file. Have it open up in an empty directory and hit install server. Have something like the screenshot below.
