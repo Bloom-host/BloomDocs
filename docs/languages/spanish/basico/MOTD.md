@@ -21,7 +21,7 @@ Primero tienes que escribir tu MOTD, puedes usar [este sitio web](https://mctool
 
 ![server.properties](https://cdn.discordapp.com/attachments/716405933105872938/751221395622723715/unknown.png)
 
-Abre el panel de tu servidor y entra al Explorador de Archivos, si necesitas una mano, puedes ir a  [esta guía!](https://docs.bloomvps.com/languages/spanish/basico/panel/gestion-archivos). Ahora entra al archivo `server.properties`, en la sección de motd y pega el texto que copiaste antes. Reinicia tu servidor y los cambios deberían aplicarse.
+Abre el panel de tu servidor y entra al Explorador de Archivos, si necesitas una mano, puedes ir a  [esta guía!](https://docs.bloom.host/languages/spanish/basico/panel/gestion-archivos). Ahora entra al archivo `server.properties`, en la sección de motd y pega el texto que copiaste antes. Reinicia tu servidor y los cambios deberían aplicarse.
 
 ## Usando Serverlistplus
 Serverlistplus es un plugin que cambia tu MOTD, también añadiendo características como MOTDs para determinados jugadores. Puedes descargarlo [aquí](https://www.spigotmc.org/resources/serverlistplus.241/). 
