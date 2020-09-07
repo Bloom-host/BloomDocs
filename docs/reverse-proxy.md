@@ -14,7 +14,7 @@ image: https://media.discordapp.net/attachments/738919680332529714/7422393689195
 ---
 # Setting up a reverse proxy
 
-1. You’ll first need to add a cname record, and point it at `revproxy.bloomvps.com`. 
+1. You’ll first need to add a cname record, and point it at `revproxy.bloom.host`. 
 :::caution
 Make sure you don't proxy it using cloudflare, as that may break things. A domain is also required for this step.  
 :::
