@@ -1,7 +1,7 @@
 module.exports = {
   title: 'Bloom Docs',
   tagline: 'Docs for Bloom',
-  url: 'https://docs.bloomvps.com',
+  url: 'https://docs.bloom.host',
   baseUrl: '/',
   onBrokenLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -16,7 +16,7 @@ module.exports = {
       },
       items: [
         {
-          href: 'https://bloomvps.com',
+          href: 'https://bloom.host',
           label: 'Home',
           position: 'right',
         },
