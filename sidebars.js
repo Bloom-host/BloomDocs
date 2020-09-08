@@ -19,9 +19,9 @@ module.exports = {
             'Optimización': ['languages/spanish/optimizacion/fabric', 'languages/spanish/optimizacion/paper', 'languages/spanish/optimizacion/timings'],
             'Plugins': ['languages/spanish/plugins/bungeeguard', 'languages/spanish/plugins/craftingstore', 'languages/spanish/plugins/chunky', 'languages/spanish/plugins/dynmap', 'languages/spanish/plugins/geysermc', 'languages/spanish/plugins/luckperms', 'languages/spanish/plugins/prism', 'languages/spanish/plugins/viaversion', 'languages/spanish/plugins/votifier'],
             'Extras': ['languages/spanish/extras/reverse-proxy', 'languages/spanish/extras/contributing']
-          {
-            'Italiano': [
-              {
+       {
+          'Italiano': [
+            {
                 'Controles del Panel': ['languages/italiano/controlli/controlli-di-base']
               }, 
             ],
