@@ -1,4 +1,4 @@
-﻿---
+---
 id: timings
 title: timings
 hide_title: true

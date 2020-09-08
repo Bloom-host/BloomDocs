@@ -39,7 +39,7 @@ Permite ver tu mundo de Minecraft en 3D en tiempo real; Como Google Maps, puede 
 ![Dynmap preview](https://cdn.discordapp.com/attachments/716405933105872938/750877749954084875/unknown.png)
 
 # Uso
-Descarga el plugin Dynmap y ponlo en la carpeta **`plugins`** y reinicia el servidor para generar el archivo **`configuration.txt`**, luego crea una base de datos MySQL. Si tienes dudas en este paso, puedes ver [esta guía](https://docs.bloomvps.com/languages/spanish/basico/panel/databases).
+Descarga el plugin Dynmap y ponlo en la carpeta **`plugins`** y reinicia el servidor para generar el archivo **`configuration.txt`**, luego crea una base de datos MySQL. Si tienes dudas en este paso, puedes ver [esta guía](https://docs.bloom.host/languages/spanish/basico/panel/databases).
 
 Ahora ingresa la información de la base de datos, recordando eliminar el `#` al inicio de la línea.
 (Nota: **No ingreses** la información de abajo, ingresa la información de tu propia base de datos)
@@ -54,6 +54,6 @@ Ahora ingresa la información de la base de datos, recordando eliminar el `#` al
 ```
 Ahora entra el discord de BloomVPS y abre un ticket y pide que el puerto de Dynmap sea abierto para tu servidor. Puedes [unirte desde aquí!](https://discord.com/invite/bloom)
 
-También puedes pedir que tu IP de Dynmap sea añadida al Proxy inverso de BloomVPS, cambiando el link del sitio web de `123.456.67.2:8123` a algo como `mapa.tuservidor.com`, puedes usar [esta guía!](https://docs.bloomvps.com/languages/spanish/extras/reverse-proxy).
+También puedes pedir que tu IP de Dynmap sea añadida al Proxy inverso de BloomVPS, cambiando el link del sitio web de `123.456.67.2:8123` a algo como `mapa.tuservidor.com`, puedes usar [esta guía!](https://docs.bloom.host/languages/spanish/extras/reverse-proxy).
 
 

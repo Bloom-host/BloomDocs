@@ -10,11 +10,10 @@ keywords:
   - Mobile App
   - Pterodactyl Panel
   - Pterodactyl App
-image: https://media.discordapp.net/attachments/738919680332529714/738920590391377980/Mobile_APP.png?width=1204&height=677
 ---
 # Pterodactyl Mobile App
 
-![BloomVPS Mobile App](../static/img/mobile-app/mobile-app1.png)
+
 
 Hey bloomers! In this guide, we will be going over the mobile application. This allows you to manage your server from a mobile device. To download the pterodactyl mobile app, head to the [app store](https://apps.apple.com/us/app/pterodactyl-mobile/id1465354373), or the [play store](https://play.google.com/store/apps/details?id=io.pterodactyl.app&hl=en_US).
 

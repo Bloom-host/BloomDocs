@@ -22,7 +22,7 @@ image: https://bloomvps.com/assets/images/logo.png
 Crafting store es una página para crear Donaciones Automáticas y Tienda para servidores de Minecraft. Aquí podrás crear tu propia página y vender cosas a tus jugadores como Rangos, Llaves, Trails, etc.
 
 ## Uso
-Primero descarga la última versión del plugin [aquí](https://www.spigotmc.org/resources/craftingstore-net-free-minecraft-donation-system-1-16-compatible.31331/). Luego, mueve el earchivo dentro de tu carpeta `plugins` y reinicia el servidor. Si necesitas ayuda instalando plugins, puedes ir a [esta guía](https://docs.bloomvps.com/languages/spanish/basico/instalar-plugins/).
+Primero descarga la última versión del plugin [aquí](https://www.spigotmc.org/resources/craftingstore-net-free-minecraft-donation-system-1-16-compatible.31331/). Luego, mueve el earchivo dentro de tu carpeta `plugins` y reinicia el servidor. Si necesitas ayuda instalando plugins, puedes ir a [esta guía](https://docs.bloom.host/languages/spanish/basico/instalar-plugins/).
 
 Crea una cuenta en [https://craftingstore.net/register](https://craftingstore.net/register). Usa la herramienta Server Setup para crear el servidor como lo deseas.
 

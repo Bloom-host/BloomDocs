@@ -34,7 +34,7 @@ Then go to the BloomVPS discord [join here!](https://discord.gg/bloom), and requ
 
 
 Then,
-Enter your Superbvote **`config.yml`** and then add what rewards you want to give your players, also you can store the data in a MySQL database if you would like, if you don't know how [click here!](https://docs.bloomvps.com/databases)
+Enter your Superbvote **`config.yml`** and then add what rewards you want to give your players, also you can store the data in a MySQL database if you would like, if you don't know how [click here!](https://docs.bloom.host/plugins)
 ```YAML
     mysql:
      host: 123.456.789.10

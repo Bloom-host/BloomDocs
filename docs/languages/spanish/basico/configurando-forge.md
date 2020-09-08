@@ -19,7 +19,7 @@ Para comenzar con la instalación de Forge, dirígete a su página web para desc
 
 ![BloomVPS Forge](../../../../static/img/setting-up-forge/forge2.png)
 
-Una vez has terminado de instalarlo, usa un [Cliente SFTP](https://docs.bloomvps.com/languages/spanish/basico/panel/sftp) como FileZilla y sube todo hacia tu servidor.
+Una vez has terminado de instalarlo, usa un [Cliente SFTP](https://docs.bloom.host/languages/spanish/basico/panel/sftp) como FileZilla y sube todo hacia tu servidor.
 
 Luego, renombra tu archivo forge-xxx a server.jar o ve a los Parámetros de Inicio y cambia el valor Server Jar.
 
