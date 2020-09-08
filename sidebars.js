@@ -6,9 +6,9 @@ module.exports = {
         'Panel Controls': ['basic-controls', 'scheduling-actions', 'how-to-use-sftp', 'sub-users', 'databases', 'server-id', 'file-manager-controls','2fa', 'motd']
       }, 'editing-account-details', 'plugins', 'pointing-a-domain', 'whichsoftwaretouse', 'setting-up-forge','server-resource-packs', 'datapacks','timings'],
     'Server Optimization': ['paper-server-optimization', 'fabric-server-optimization'],
-    'Plugins': ['plugins/chunky', 'plugins/luckperms', 'plugins/prism', 'plugins/geysermc', 'plugins/bungeeguard', 'plugins/viaversion', 'plugins/dynmap', 'plugins/votifier', 'plugins/craftingstore', 'coreprotect'],
+    'Plugins': ['plugins/chunky', 'plugins/luckperms', 'plugins/prism', 'plugins/geysermc', 'plugins/bungeeguard', 'plugins/viaversion', 'plugins/dynmap', 'plugins/votifier', 'plugins/craftingstore', 'plugins/coreprotect],
     'Extras': ['mobile-app', 'reverse-proxy','adding-an-icon'],
-    'Other Languages': [
+    'Other Languages': [ 
       {
         'Español': [
           {
@@ -18,17 +18,17 @@ module.exports = {
               }, 'languages/spanish/basico/software', 'languages/spanish/basico/motd', 'languages/spanish/basico/instalar-plugins', 'languages/spanish/basico/configurar-un-dominio', 'languages/spanish/basico/configurar-whitelist', 'languages/spanish/basico/datapacks', 'languages/spanish/basico/resource-packs'],
             'Optimización': ['languages/spanish/optimizacion/fabric', 'languages/spanish/optimizacion/paper', 'languages/spanish/optimizacion/timings'],
             'Plugins': ['languages/spanish/plugins/bungeeguard', 'languages/spanish/plugins/craftingstore', 'languages/spanish/plugins/chunky', 'languages/spanish/plugins/dynmap', 'languages/spanish/plugins/geysermc', 'languages/spanish/plugins/luckperms', 'languages/spanish/plugins/prism', 'languages/spanish/plugins/viaversion', 'languages/spanish/plugins/votifier'],
-            'Extras': ['languages/spanish/extras/reverse-proxy', 'languages/spanish/extras/contributing'],
-                },
-            ],                 
-         'Italiano': [
-             {
-              'Controles del Panel': ['languages/italiano/controlli/controlli-di-base']
+            'Extras': ['languages/spanish/extras/reverse-proxy', 'languages/spanish/extras/contributing']
+          },
+        ],
+          {
+            'Italiano': [
+              {
+                'Controles del Panel': ['languages/italiano/controlli/controlli-di-base']
               }, 
-            ],
           },
         ],
       },
-    
-  ],
+    ],
+  },
 }
