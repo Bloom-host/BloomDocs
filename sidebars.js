@@ -6,7 +6,7 @@ module.exports = {
         'Panel Controls': ['basic-controls', 'scheduling-actions', 'how-to-use-sftp', 'sub-users', 'databases', 'server-id', 'file-manager-controls','2fa', 'motd']
       }, 'editing-account-details', 'plugins', 'pointing-a-domain', 'whichsoftwaretouse', 'setting-up-forge','server-resource-packs', 'datapacks','timings'],
     'Server Optimization': ['paper-server-optimization', 'fabric-server-optimization'],
-    'Plugins': ['plugins/chunky', 'plugins/luckperms', 'plugins/prism', 'plugins/geysermc', 'plugins/bungeeguard', 'plugins/viaversion', 'plugins/dynmap', 'plugins/votifier', 'plugins/craftingstore'],
+    'Plugins': ['plugins/chunky', 'plugins/luckperms', 'plugins/prism', 'plugins/geysermc', 'plugins/bungeeguard', 'plugins/viaversion', 'plugins/dynmap', 'plugins/votifier', 'plugins/craftingstore', 'coreprotect'],
     'Extras': ['mobile-app', 'reverse-proxy','adding-an-icon'],
     'Other Languages': [
       {
@@ -19,9 +19,6 @@ module.exports = {
             'Optimización': ['languages/spanish/optimizacion/fabric', 'languages/spanish/optimizacion/paper', 'languages/spanish/optimizacion/timings'],
             'Plugins': ['languages/spanish/plugins/bungeeguard', 'languages/spanish/plugins/craftingstore', 'languages/spanish/plugins/chunky', 'languages/spanish/plugins/dynmap', 'languages/spanish/plugins/geysermc', 'languages/spanish/plugins/luckperms', 'languages/spanish/plugins/prism', 'languages/spanish/plugins/viaversion', 'languages/spanish/plugins/votifier'],
             'Extras': ['languages/spanish/extras/reverse-proxy', 'languages/spanish/extras/contributing']
-          },
-        ],
-        '': [
           {
             'Italiano': [
               {
