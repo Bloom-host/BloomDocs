@@ -27,7 +27,7 @@ Download the latest build from [Spigot](https://www.spigotmc.org/resources/spark
 ## Usage
 There are only a few simple commands that you need to use in Spark. Running `/tps` in-game or in the console will display an output that looks somewhat like this:
 
-![Bloom.host Spark TPS](https://i.gyazo.com/b511a178d03dd828aa67639baf411385.png)  
+![Bloom.host Spark TPS](https://i.gyazo.com/5f8c04b4928b4ceab3a077c01877ce2a.png)  
 
 Running `/spark healthreport` will display an output that looks like this:
 
@@ -45,7 +45,7 @@ healthreport:
 - spark healthreport
 ```
 
-Boom! After you restart or turn on your server, running /healthreport will now show you /spark healthreport!
+Boom! After you restart or turn on your server, running `/healthreport` will now show you `/spark healthreport`!
 
 ## Info
 
