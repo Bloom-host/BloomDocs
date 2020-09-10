@@ -1,6 +1,6 @@
 ---
 id: coreprotect
-title: Coreprotect
+title: CoreProtect
 hide_title: true
 hide_table_of_contents: false
 sidebar_label: CoreProtect
@@ -17,7 +17,7 @@ keywords:
   - Minecraft
 image: https://bloomvps.com/assets/images/logo.png
 ---
-# Coreprotect
+# CoreProtect
 
 ### What does the plugin do?
 
