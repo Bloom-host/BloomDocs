@@ -55,5 +55,7 @@ Another command you can use is `/co rollback u:<user> t:<time> r:<radius> a:<act
 There are, of course, more commands in the plugin, which you can check out [here](https://www.minerealm.com/community/viewtopic.php?f=32&t=6781).  
 
 ## Info
-[Spigot Page](https://www.spigotmc.org/resources/coreprotect.8631/)
-[Commands Help](https://www.minerealm.com/community/viewtopic.php?f=32&t=6781)
+
+[Spigot Page](https://www.spigotmc.org/resources/coreprotect.8631/)  
+
+[Commands](https://www.minerealm.com/community/viewtopic.php?f=32&t=6781)
