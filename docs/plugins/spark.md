@@ -42,10 +42,13 @@ Open the file manager in the panel or login via SFTP. Open the file in the root 
 
 ```yml
 healthreport:
-- spark healthreport```
+- spark healthreport
+```
 
 Boom! After you restart or turn on your server, running /healthreport will now show you /spark healthreport!
 
 ## Info
+
 [Spigot](https://www.spigotmc.org/resources/spark.57242)  
+
 [Github](https://github.com/lucko/spark)
