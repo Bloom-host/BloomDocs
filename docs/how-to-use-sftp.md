@@ -27,8 +27,8 @@ To find the login details, navigate to the sidebar of the server, then open the 
 
 ![BloomVPS How to use SFTP](../static/img/how-to-use-sftp/how-to-use-sftp3.png)
 
-The connection address(host) is highlighted in purple, while the username that you login with is highlighted in green.The password is the same password you use to login to the panel.
+The connection address (host) is highlighted in purple, while the username that you login with is highlighted in green. The password is the same password you use to login to the panel.
 
 ![BloomVPS How to use SFTP](../static/img/how-to-use-sftp/how-to-use-sftp4.png)
 
-After this, open up your sftp client (in this case filezilla). You input your login details in the top left, which is shown in purple.The left side contains the files stored on your computer (red), and the right(yellow) contains the files on the server. The bottom, shown in blue, gives you information on the file transfer. 
+After this, open up your sftp client (in this case filezilla). You input your login details in the top left, which is shown in purple. The left side contains the files stored on your computer (red), and the right (yellow) contains the files on the server. The bottom, shown in blue, gives you information on the file transfer. 

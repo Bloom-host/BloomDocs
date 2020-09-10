@@ -14,13 +14,13 @@ keywords:
   - Minecraft
 image: https://bloomvps.com/assets/images/logo.png
 ---
-# Luckperms
+# LuckPerms
 
 ### What does the plugin do?
 
 LuckPerms is a permission plugin built for Minecraft servers to handle permissions from all your plugins. It is considered to be one of the best permission plugins due to it's accessibility and how it handles data.  
 
-Unlike PermissionsEx, Luckperms stores in either MySQL or .db (database) file, which makes it much faster than the yml file that PermissionsEx uses.  
+Unlike PermissionsEx which has not been updated since January 2016, LuckPerms is regularly updated by the developer Luck who is the developer for Spark as well.
 
 ## Usage
 
