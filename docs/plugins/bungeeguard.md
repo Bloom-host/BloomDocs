@@ -20,7 +20,7 @@ image: https://bloomvps.com/assets/images/logo.png
 
 ### What does the plugin do?
 
-BungeeGuard is a plugin used to protect against BungeeCord's UUID spoof exploit which would allow users to join without authenticating through the BungeeCord proxy, allowing them to join as any user.  
+BungeeGuard is a plugin used to protect against BungeeCord's UUID spoof exploit which allows users to join without authenticating through the BungeeCord proxy, allowing them to join as any user.  
 
 ## Usage
 
