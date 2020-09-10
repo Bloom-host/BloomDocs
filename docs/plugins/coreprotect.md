@@ -1,6 +1,6 @@
 ---
 id: coreprotect
-title: Coreprotect
+title: CoreProtect
 hide_title: true
 hide_table_of_contents: false
 sidebar_label: CoreProtect
@@ -17,7 +17,7 @@ keywords:
   - Minecraft
 image: https://bloomvps.com/assets/images/logo.png
 ---
-# Coreprotect
+# CoreProtect
 
 ### What does the plugin do?
 
@@ -55,5 +55,7 @@ Another command you can use is `/co rollback u:<user> t:<time> r:<radius> a:<act
 There are, of course, more commands in the plugin, which you can check out [here](https://www.minerealm.com/community/viewtopic.php?f=32&t=6781).  
 
 ## Info
-[Spigot Page](https://www.spigotmc.org/resources/coreprotect.8631/)
-[Commands Help](https://www.minerealm.com/community/viewtopic.php?f=32&t=6781)
+
+[Spigot Page](https://www.spigotmc.org/resources/coreprotect.8631/)  
+
+[Commands](https://www.minerealm.com/community/viewtopic.php?f=32&t=6781)
