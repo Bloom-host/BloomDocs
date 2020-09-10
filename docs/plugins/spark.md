@@ -40,7 +40,7 @@ To make things simpler, you can link `/healthreport` to run `/spark healthreport
 
 Open the file manager in the panel or login via SFTP. Open the file in the root directory named `commands.yml`. Under `aliases`, add the follow text using correct YML indentation.
 
-```
+```yml
 healthreport:
 - spark healthreport```
 
