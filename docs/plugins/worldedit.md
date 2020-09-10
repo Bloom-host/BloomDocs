@@ -4,7 +4,7 @@ title: WorldEdit
 hide_title: true
 hide_table_of_contents: false
 sidebar_label: WorldEdit
-description: A performance profiling plugin to display server information like TPS and memory usage.
+description: An in-game world editing plugin to manipulate blocks
 keywords:
   - WorldEdit
   - Performance
