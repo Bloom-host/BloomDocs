@@ -26,7 +26,7 @@ Then click **Create New** and give it some relevant description that you will re
 ![SRVControl](../static/img/srvcontrol/pteroapi-creds-list.png)
 
 :::caution
-Please keep this key secure as anyone with this key can access any servers on your account. 
+Please keep this key secure as anyone with this API key can utilize it to do anything to the servers that you are on your account. 
 :::
 
 SRVControl is a reputable discord bot so I would trust them.
