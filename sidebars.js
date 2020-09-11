@@ -7,7 +7,7 @@ module.exports = {
       }, 'editing-account-details', 'plugins', 'pointing-a-domain', 'whichsoftwaretouse', 'setting-up-forge','server-resource-packs', 'datapacks','timings', 'motd'],
     'Server Optimization': ['paper-server-optimization', 'fabric-server-optimization'],
     'Plugins': ['plugins/chunky', 'plugins/luckperms', 'plugins/prism', 'plugins/geysermc', 'plugins/bungeeguard', 'plugins/viaversion', 'plugins/dynmap', 'plugins/votifier', 'plugins/craftingstore', 'plugins/coreprotect', 'plugins/multiverse', 'plugins/spark'],
-    'Extras': ['mobile-app', 'reverse-proxy','adding-an-icon'],
+    'Extras': ['mobile-app', 'reverse-proxy','adding-an-icon', 'srvcontrol'],
     'Other Languages': [ 
       {
         'Español': [
