@@ -27,8 +27,8 @@ Please keep this key secure as anyone with this key can access any servers on yo
 :::
 SRVControl is a reputable discord bot so I would trust them.
 
-After inviting it to your server with the proper permissions, go to your discord server and type ```.register``` in one of the channels. This will initiate the API key registration. The bot will DM you asking for your api key and be aware you only have 60 seconds to send it, so just paste it and send it. This will complete the API registration and you should receieve a **"Success"** message if you followed this documentation correctly.
+After inviting it to your server with the proper permissions, go to your discord server and type ```<preifx>register``` (by default prefix is ```.```) in one of the channels. This will initiate the API key registration. The bot will DM you asking for your api key and be aware you only have 60 seconds to send it, so just paste it and send it. This will complete the API registration and you should receieve a **"Success"** message if you followed this documentation correctly.
 
-Now, back in your discord server you can do type ```.help``` by default (if you did not change the prefix in the SRVControl dashboard) to show you all the commands you can do which interacts with your server.
+Now, back in your discord server you can do type ```<prefix>help``` by default (if you did not change the prefix in the SRVControl dashboard) to show you all the commands you can do which interacts with your server.
 
 You are now done! You are able to control your servers via the SRVControl discord bot in your discord server.
