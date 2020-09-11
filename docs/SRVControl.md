@@ -22,9 +22,11 @@ After we have done this, we now want to create the API Key that SRVControl can u
 ![SRVControl](../static/img/srvcontrol/account-api-dashboard.png)
 
 Then click **Create New** and give it some relevant description that you will remember what this API key is for. Do not put anything in allowed ips as SRVControl does not state the ip address used for their bot. Once you are done, click **create**. Now there will be a list of API keys, in your case there will only be one so just click the key icon to reveal the long key and copy it. 
+
 :::caution
 Please keep this key secure as anyone with this key can access any servers on your account. 
 :::
+
 SRVControl is a reputable discord bot so I would trust them.
 
 After inviting it to your server with the proper permissions, go to your discord server and type ```<preifx>register``` (by default prefix is ```.```) in one of the channels. This will initiate the API key registration. The bot will DM you asking for your api key and be aware you only have 60 seconds to send it, so just paste it and send it. This will complete the API registration and you should receieve a **"Success"** message if you followed this documentation correctly.
