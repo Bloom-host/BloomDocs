@@ -23,6 +23,8 @@ After we have done this, we now want to create the API Key that SRVControl can u
 
 Then click **Create New** and give it some relevant description that you will remember what this API key is for. Do not put anything in allowed ips as SRVControl does not state the ip address used for their bot. Once you are done, click **create**. Now there will be a list of API keys, in your case there will only be one so just click the key icon to reveal the long key and copy it. 
 
+![SRVControl](../static/img/srvcontrol/pteroapi-creds-list.png)
+
 :::caution
 Please keep this key secure as anyone with this key can access any servers on your account. 
 :::
