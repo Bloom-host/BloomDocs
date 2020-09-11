@@ -21,14 +21,14 @@ Write new articles in your preferred format, and make a support ticket in our [d
 Hey! This is LoJo, one of the contributors. Here is how to make it easy for us to import your document and for you to have it the way you want when we import it!
 
 1. Fork the [Github](https://github.com/Billy-Bloom/BloomDocs).
-2. Make any edits. Remember we run in markdown. If you add a page, make sure to also add it in `sidebars.js`. 
-3. Make Pull Request to have it added. 
+2. Make any edits. Remember we run in markdown. If you add a page, make sure to also add it in `sidebars.js`.
+3. Make Pull Request to have it added.
 
 Easy as that.
 
 Here are some more resources for you guys!
 
-[Raw MD Template](https://raw.githubusercontent.com/Billy-Bloom/BloomDocs/master/docs/template.md) and [this is what it turned out to be](https://docs.bloomvps.com/template/)! 
+[Raw MD Template](https://raw.githubusercontent.com/Billy-Bloom/BloomDocs/master/docs/template.md) and [this is what it turned out to be](https://docs.bloomvps.com/template/)!
 
 [Github Repo](https://github.com/billy-bloom/bloomdocs)
 
@@ -38,6 +38,4 @@ Can't wait to see what you will contribute! See you soon!
 
 
 ## Wall of Ducks
-|  **Billy**  |  **Euan**  |  **Kaaale**  |  **LoJoSho** | **LGLover**  |  **Nessie** | **Virgil.Gunder**  |  **Zeus**  |
-
-
+|  **Billy**  |  **Euan**  |  **Kaaale**  |  **LoJoSho** | **LGLover**  |  **Nessie** | **Virgil.Gunder**  |  **Zeus**  |  **waterswimmer111**  |

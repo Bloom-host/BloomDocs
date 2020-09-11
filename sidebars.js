@@ -6,9 +6,9 @@ module.exports = {
         'Panel Controls': ['basic-controls', 'scheduling-actions', 'how-to-use-sftp', 'sub-users', 'databases', 'server-id', 'file-manager-controls','2fa']
       }, 'editing-account-details', 'plugins', 'pointing-a-domain', 'whichsoftwaretouse', 'setting-up-forge','server-resource-packs', 'datapacks','timings', 'motd'],
     'Server Optimization': ['paper-server-optimization', 'fabric-server-optimization'],
-    'Plugins': ['plugins/chunky', 'plugins/luckperms', 'plugins/prism', 'plugins/geysermc', 'plugins/bungeeguard', 'plugins/viaversion', 'plugins/dynmap', 'plugins/votifier', 'plugins/craftingstore', 'plugins/coreprotect', 'plugins/multiverse', 'plugins/spark'],
+    'Plugins': ['plugins/chunky', 'plugins/luckperms', 'plugins/prism', 'plugins/geysermc', 'plugins/bungeeguard', 'plugins/viaversion', 'plugins/dynmap', 'plugins/votifier', 'plugins/craftingstore', 'plugins/coreprotect', 'plugins/multiverse', 'plugins/spark', 'plugins/worldedit'],
     'Extras': ['mobile-app', 'reverse-proxy','adding-an-icon', 'srvcontrol'],
-    'Other Languages': [ 
+    'Other Languages': [
       {
         'Español': [
           {
@@ -21,7 +21,7 @@ module.exports = {
             'Extras': ['languages/spanish/extras/reverse-proxy', 'languages/spanish/extras/contributing']
           },
         ],
-          
+
             'Italiano': [
               {
                 'Controles del Panel': ['languages/italiano/controlli/controlli-di-base']
