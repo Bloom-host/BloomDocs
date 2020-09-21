@@ -1,10 +1,10 @@
 ---
-id: reset_worlds
-title: Resetting World
+id: reset-worlds
+title: Resetting World(s)
 hide_title: true
 hide_table_of_contents: false
-sidebar_label: Resetting your world
-description: How to reset the world on your Minecraft server.
+sidebar_label: Resetting your world(s)
+description: How to reset world(s)  on your Minecraft server.
 keywords:
   - Template
   - BloomVPS
