@@ -11,11 +11,11 @@ keywords:
   - Lag
   - Server
   - Plugin
-  - BloomVPS
+  - Bloom.host
   - Pterodactyl Panel
   - Minecraft
   - Español
-image: https://bloomvps.com/assets/images/logo.png
+image: https://bloom.host/assets/images/logo.png
 ---
 # Datapacks
 
@@ -42,4 +42,4 @@ Click en el botón **Upload** arriba a la derecha y selecciona el datapack en tu
 
 ![Datapacks](../img/datapacks/datapacks4.png)
 
-Ahora reinicia tu servidor y el datapack debería estar funcionando. Siéntete libre de abrir un ticket en el [Discord de BloomVPS](https://discord.gg/bloom) si necesitas apoyo.
+Ahora reinicia tu servidor y el datapack debería estar funcionando. Siéntete libre de abrir un ticket en el [Discord de Bloom.host](https://discord.gg/bloom) si necesitas apoyo.

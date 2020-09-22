@@ -7,10 +7,10 @@ sidebar_label: Configurar Whitelist
 description: How do I find you when I cannot solve this problem
 keywords:
   - Template
-  - BloomVPS
+  - Bloom.host
   - Pterodactyl Panel
   - Minecraft
-image: https://bloomvps.com/assets/images/logo.png
+image: https://bloom.host/assets/images/logo.png
 ---
 # Cómo configurar whitelist en tu servidor
 

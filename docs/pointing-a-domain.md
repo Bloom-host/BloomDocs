@@ -6,13 +6,13 @@ hide_table_of_contents: false
 sidebar_label: Pointing A Domain
 description: This guide will help you point your domain at the ip address of your minecraft server.
 keywords:
-  - BloomVPS
   - Cloudflare
   - Domain
   - Minecraft Server
   - Pterodactyl Panel
   - Minecraft Domain
   - A Record
+  - Bloom.host
 image: 
 ---
 # Pointing A Domain
@@ -21,13 +21,13 @@ image:
 
 Hello there Bloomers! In this guide, we will go over on how to make your server go from lots of numbers (148.251.209.38:25565) to a domain name (Bloom.HollowSeas.com).
 
-![BloomVPS Pointing A Domain](../static/img/pointing-a-domain/pointing-a-domain2.png)
+![Bloom.host Pointing A Domain](../static/img/pointing-a-domain/pointing-a-domain2.png)
 
 First, go to **Your Servers** and under connection, find your IP. All bloom servers come with a dedicated IP, so you only need the IP and not any of the ports (25565). 
 
 Next, go to your domain provider. This will be different depending on what domain you have. In this case, we are going to go with CloudFlare. Go to your DNS and click add record. For a Minecraft server, we will be going with an A record.
 
-![BloomVPS Pointing A Domain](../static/img/pointing-a-domain/pointing-a-domain3.png)
+![Bloom.host Pointing A Domain](../static/img/pointing-a-domain/pointing-a-domain3.png)
 
 :::warning
 Ensure that the server is grey cloud (not proxied by cloudflare). You can still use cloudflare, just make sure it has a grey cloud. The image has an orange cloud, MAKE SURE it is not proxied.

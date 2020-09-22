@@ -11,11 +11,11 @@ keywords:
   - Server
   - Optimización
   - Optimizacion
-  - BloomVPS
+  - Bloom.host
   - Pterodactyl Panel
   - Minecraft
   - Español
-image: https://bloomvps.com/assets/images/logo.png
+image: https://bloom.host/assets/images/logo.png
 ---
 # Guía de Optimización de Paper 
 ## Escrito por saintjust, Traducido por Amgelo

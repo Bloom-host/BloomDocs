@@ -6,10 +6,10 @@ hide_table_of_contents: false
 sidebar_label: Scheduling Actions
 description: This guide will help you understand how to set up schedules, like daily restarts using the pterodactyl panel.
 keywords:
-  - BloomVPS
   - Daily Restarts
   - Scheduling
   - Pterodactyl Panel
+  - Bloom.host
 image: 
 ---
 # Scheduling Actions
@@ -17,15 +17,15 @@ image:
 
 Hey there Bloomers! In this guide, we will go over scheduling actions to go off at predetermined times for your server. 
 
-![BloomVPS Scheduling Actions](../static/img/scheduling-actions/scheduling-actions2.png)
+![Bloom.host Scheduling Actions](../static/img/scheduling-actions/scheduling-actions2.png)
 
 First, you want to go to your server panel and go to its sidebar. There, you will find a tab called Schedules. The number next to it shows how many schedules you have set up so far. 
 
-![BloomVPS Scheduling Actions](../static/img/scheduling-actions/scheduling-actions3.png)
+![Bloom.host Scheduling Actions](../static/img/scheduling-actions/scheduling-actions3.png)
 
 Here is where all your schedules will be located in one convenient place. To add a new schedule, click the **Create New** button.
 
-![BloomVPS Scheduling Actions](../static/img/scheduling-actions/scheduling-actions4.png)
+![Bloom.host Scheduling Actions](../static/img/scheduling-actions/scheduling-actions4.png)
 
 In the scheduling panel, there are 3 main sections of each schedule. Its name, the day it will go off and the time it will go off, and the action it will perform.
 
@@ -44,12 +44,12 @@ Kill - Kills the server (Not recommended!)
 
 “Daily Restart”
 
-![BloomVPS Scheduling Actions](../static/img/scheduling-actions/scheduling-actions5.png)
+![Bloom.host Scheduling Actions](../static/img/scheduling-actions/scheduling-actions5.png)
 
 “Launch Day!”
 
-![BloomVPS Scheduling Actions](../static/img/scheduling-actions/scheduling-actions6.png)
+![Bloom.host Scheduling Actions](../static/img/scheduling-actions/scheduling-actions6.png)
 
 “LoJoSho has to do something”
 
-![BloomVPS Scheduling Actions](../static/img/scheduling-actions/scheduling-actions7.png)
+![Bloom.host Scheduling Actions](../static/img/scheduling-actions/scheduling-actions7.png)

@@ -7,10 +7,10 @@ sidebar_label: Template :)
 description: How do I find you when I cannot solve this problem
 keywords:
   - Template
-  - BloomVPS
   - Pterodactyl Panel
   - Minecraft
-image: https://bloomvps.com/assets/images/logo.png
+  - Bloom.host
+image: https://bloom.host/assets/images/logo.png
 ---
 
 You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).

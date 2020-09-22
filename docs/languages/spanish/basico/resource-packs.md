@@ -8,11 +8,11 @@ description: Cómo añadir un Paquete de Recursos para todo tu servidor de Minec
 keywords:
   - Paquete de Recursos
   - Server
-  - BloomVPS
+  - Bloom.host
   - Pterodactyl Panel
   - Minecraft
   - Español
-image: https://bloomvps.com/assets/images/logo.png
+image: https://bloom.host/assets/images/logo.png
 ---
 # Paquete de Recursos en Servidores
 
@@ -43,4 +43,4 @@ Busca la línea que inicia con **resource-pack=** y pega el URL. Guarda el archi
 
 ![Resource Pack](../img/resource/resource5.png)  
 
-Reinicia el servidor y ya debería estar aplicado. No olvides de aceptar la confirmación que aparezca al entrar al servidor. Siéntete libre de abrir un ticket en el [Discord de BloomVPS](https://discord.gg/bloom) si necesitas ayuda.
+Reinicia el servidor y ya debería estar aplicado. No olvides de aceptar la confirmación que aparezca al entrar al servidor. Siéntete libre de abrir un ticket en el [Discord de Bloom.host](https://discord.gg/bloom) si necesitas ayuda.
