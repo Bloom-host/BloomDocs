@@ -6,10 +6,10 @@ hide_table_of_contents: false
 sidebar_label: Reverse Proxy
 description: This guide will help you set up a reverse proxy for your minecraft server.
 keywords:
-  - BloomVPS
   - Reverse Proxy
   - Minecraft Server
   - Pterodactyl Panel
+  - Bloom.host
 image: https://media.discordapp.net/attachments/738919680332529714/742239368919515207/ReverseProxy.png?width=1204&height=677
 ---
 # Setting up a reverse proxy

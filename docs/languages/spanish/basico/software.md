@@ -6,7 +6,7 @@ hide_table_of_contents: false
 sidebar_label: Softwares y cual utilizar
 description: Esta guía te ayudará a escoger cual jar usar.
 keywords:
-  - BloomVPS
+  - Bloom.host
   - Spigot
   - Paper
   - Bukkit

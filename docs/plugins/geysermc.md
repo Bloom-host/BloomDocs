@@ -11,11 +11,10 @@ keywords:
   - Geyser
   - geyserMC
   - Spigot
-  - BloomVPS
   - Bloom.host
   - Pterodactyl Panel
   - Minecraft
-image: https://bloomvps.com/assets/images/logo.png
+image: https://bloom.host/assets/images/logo.png
 ---
 # GeyserMC
 

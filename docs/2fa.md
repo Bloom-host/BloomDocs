@@ -7,6 +7,7 @@ sidebar_label: 2-Factor Authentication
 description: This guide will help you secure your account through 2-Factor Authentication
 keywords:
   - BloomVPS
+  - Bloom.host
   - Pterodactyl Panel
   - 2FA
   - 2FA Gameserver
@@ -22,17 +23,17 @@ Only use 2FA on devices you trust. It's not recommended to setup 2FA on a shared
 
 ## Billing Area 2FA
 
-To setup 2FA in the billing area, head over to the [billing area and login](https://www.bloomvps.com/portal/clientarea.php)
+To setup 2FA in the billing area, head over to the [billing area and login](https://www.bloom.host/portal/clientarea.php)
 
-Next, head over to [Security Settings](https://www.bloomvps.com/portal/clientarea.php?action=security) which you can find here: 
+Next, head over to [Security Settings](https://www.bloom.host/portal/clientarea.php?action=security) which you can find here: 
 
-![BloomVPS 2FA](../static/img/2FA/2FA2.png)
+![Bloom.host 2FA](../static/img/2FA/2FA2.png)
 
 You can then follow the instruction on the screen, as you will need to download Google Authenticator or DUO from the android or IOS app store.
 
 ## Game Panel 2FA
 
-To setup 2FA in the game panel area, head over to [Account Security](https://mc.bloomvps.com/account/security) in the game panel area.
+To setup 2FA in the game panel area, head over to [Account Security](https://mc.bloom.host/account/security) in the game panel area.
 
 Hit **Enable 2-Factor Authentication** to show a QR code that you can scan. 
 
@@ -40,6 +41,6 @@ For this, download an app on your phone that is a 2FA app, such as [Authy](https
 
 Then, add a new account and scan the QR code. Once it is scanned, type the token that you have on the app into the Authentication Token box.
 
-![BloomVPS 2FA](../static/img/2FA/2FA3.png)
+![Bloom 2FA](../static/img/2FA/2FA3.png)
 
 You are set and fully protected! Rememeber to keep the device near you when you login so can authenticate yourself!
