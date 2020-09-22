@@ -6,7 +6,6 @@ hide_table_of_contents: false
 sidebar_label: Server jars and which one to use
 description: This guide will help you add choose which jar to use.
 keywords:
-  - BloomVPS
   - Spigot
   - Paper
   - Bukkit
@@ -23,6 +22,7 @@ keywords:
   - Minecraft
   - Modded Server Jars
   - Plugin Server Jars
+  - Bloom.host
 image: ../static/img/WhichSoftwaretoUse/WhichSoftwaretoUse1.png
 ---
 # Which jar to use?

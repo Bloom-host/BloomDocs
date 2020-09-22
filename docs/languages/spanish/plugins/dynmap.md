@@ -14,12 +14,12 @@ keywords:
   - Google Maps
   - Sitio Web
   - Spigot
-  - BloomVPS
+  - Bloom.host
   - Pterodactyl Panel
   - Minecraft
   - Español
   - Plugins
-image: https://bloomvps.com/assets/images/logo.png
+image: https://bloom.host/assets/images/logo.png
 ---
 # **Dynmap**
 
@@ -52,8 +52,8 @@ Ahora ingresa la información de la base de datos, recordando eliminar el `#` al
      userid: u12323402
      password:  123456789
 ```
-Ahora entra el discord de BloomVPS y abre un ticket y pide que el puerto de Dynmap sea abierto para tu servidor. Puedes [unirte desde aquí!](https://discord.com/invite/bloom)
+Ahora entra el discord de Bloom.host y abre un ticket y pide que el puerto de Dynmap sea abierto para tu servidor. Puedes [unirte desde aquí!](https://discord.com/invite/bloom)
 
-También puedes pedir que tu IP de Dynmap sea añadida al Proxy inverso de BloomVPS, cambiando el link del sitio web de `123.456.67.2:8123` a algo como `mapa.tuservidor.com`, puedes usar [esta guía!](https://docs.bloom.host/languages/spanish/extras/reverse-proxy).
+También puedes pedir que tu IP de Dynmap sea añadida al Proxy inverso de Bloom.host, cambiando el link del sitio web de `123.456.67.2:8123` a algo como `mapa.tuservidor.com`, puedes usar [esta guía!](https://docs.bloom.host/languages/spanish/extras/reverse-proxy).
 
 

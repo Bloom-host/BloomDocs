@@ -4,15 +4,15 @@ title: contributing
 hide_title: true
 hide_table_of_contents: false
 sidebar_label: How to contribute to the docs
-description: How to contribute to the BloomVPS documentation.
+description: How to contribute to the Bloom.host documentation.
 keywords:
   - Template
-  - BloomVPS
+  - Bloom.host
   - Pterodactyl Panel
   - Minecraft
-image: https://bloomvps.com/assets/images/logo.png
+image: https://bloom.host/assets/images/logo.png
 ---
-# Contributing to the BloomVPS documentation
+# Contributing to the Bloom.host documentation
 
 ## Simple
 Write new articles in your preferred format, and make a support ticket in our [discord](https://discord.com/invite/2QxW8QY), and we will convert it over for you. The recommended format would be Markdown.
@@ -28,7 +28,7 @@ Easy as that.
 
 Here are some more resources for you guys!
 
-[Raw MD Template](https://raw.githubusercontent.com/Billy-Bloom/BloomDocs/master/docs/template.md) and [this is what it turned out to be](https://docs.bloomvps.com/template/)!
+[Raw MD Template](https://raw.githubusercontent.com/Billy-Bloom/BloomDocs/master/docs/template.md) and [this is what it turned out to be](https://docs.bloom.host/template/)!
 
 [Github Repo](https://github.com/billy-bloom/bloomdocs)
 
@@ -38,4 +38,4 @@ Can't wait to see what you will contribute! See you soon!
 
 
 ## Wall of Ducks
-|  **Billy**  |  **Euan**  |  **Kaaale**  |  **LoJoSho** | **LGLover**  |  **Nessie** | **Virgil.Gunder**  |  **Zeus**  |  **waterswimmer111**  |
+|  **Billy**  |  **Euan**  |  **Kaaale**  |  **LoJoSho** | **LGLover**  |  **Nessie** | **Virgil.Gunder**  |  **Zeus**  |  **waterswimmer111**  | **just a random person** |

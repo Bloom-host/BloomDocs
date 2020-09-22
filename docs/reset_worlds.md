@@ -7,12 +7,12 @@ sidebar_label: Resetting your world
 description: How to reset the world on your Minecraft server.
 keywords:
   - Template
-  - BloomVPS
   - Pterodactyl Panel
   - Minecraft
   - Spigot
   - Plugins
-image: https://bloomvps.com/assets/images/logo.png
+  - Bloom.host
+image: https://bloom.host/assets/images/logo.png
 ---
 # Resetting your world
 

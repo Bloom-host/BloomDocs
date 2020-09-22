@@ -11,8 +11,8 @@ keywords:
   - Spigot
   - 1.16
   - Minecraft
-  - BloomVPS
-image: https://bloomvps.com/assets/images/logo.png
+  - Bloom.host
+image: https://bloom.host/assets/images/logo.png
 ---
 # **How to change your MOTD**
 

@@ -8,10 +8,10 @@ description: How to add a serverwide resource pack to your minecraft server
 keywords:
   - Resource Pack
   - Server
-  - BloomVPS
   - Pterodactyl Panel
   - Minecraft
-image: https://bloomvps.com/assets/images/logo.png
+  - Bloom.host
+image: https://bloom.host/assets/images/logo.png
 ---
 # Serverwide Resource Packs
 Once you found the resource pack you want on your server you need to upload the resource pack to a website and get the direct download link of it. You can use [this website](https://mc-packs.net/).  

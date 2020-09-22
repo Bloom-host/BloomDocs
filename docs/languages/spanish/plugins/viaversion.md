@@ -19,13 +19,13 @@ keywords:
   - 1.9
   - 1.8
   - Spigot
-  - BloomVPS
+  - Bloom.host
   - Pterodactyl Panel
   - Versions
   - Spanish
   - Plugins
   - Minecraft
-image: https://bloomvps.com/assets/images/logo.png
+image: https://bloom.host/assets/images/logo.png
 ---
 # **ViaVersion/ViaBackwards/ViaRewind**
 

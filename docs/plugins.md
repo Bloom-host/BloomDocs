@@ -7,12 +7,13 @@ sidebar_label: Installing plugins
 description: How to install minecraft plugins on your server.
 keywords:
   - Template
-  - BloomVPS
+  - Bloom.host
   - Pterodactyl Panel
   - Minecraft
   - Spigot
   - Plugins
-image: https://bloomvps.com/assets/images/logo.png
+  - Bloom.host
+image: https://bloom.host/assets/images/logo.png
 ---
 # Installing Plugins on your server
 :::note

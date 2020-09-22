@@ -10,12 +10,12 @@ keywords:
   - Superbvote
   - Votaciones
   - Spigot
-  - BloomVPS
+  - Bloom.host
   - Pterodactyl Panel
   - Plugins
   - Español
   - Minecraft
-image: https://bloomvps.com/assets/images/logo.png
+image: https://bloom.host/assets/images/logo.png
 ---
 # **Votifier**
 
@@ -33,7 +33,7 @@ SuperbVote es un plugin de Premios que puedes personalizar para dar premios a lo
 ## Uso
 Primero, descarga el plugin Nuvotifier e instálalo en tu carpeta de **`plugins`**, lo mismo con el plugin Superbvote. Reinicia el servidor y entra al **`config.yml`** de Nuvotifier, anota el puerto que te aparezca.
 
-Luego entra al [Discord de BloomVPS](https://discord.gg/bloom), y pide que tu puerto de Nuvotifiersea abierto.
+Luego entra al [Discord de Bloom.host](https://discord.gg/bloom), y pide que tu puerto de Nuvotifiersea abierto.
 
 Luego, entra al **`config.yml`** de Superbvote y añade que clase de premios quieres dar a tus jugadores. También puedes almacenar la información en una base de datos MySQL si lo deseas. Si no sabes cómo, puedes ir a [esta guía!](https://docs.bloom.host/languages/spanish/basico/panel/databases).
 

@@ -11,10 +11,11 @@ keywords:
   - Lag
   - Server
   - Server Optimization
-  - BloomVPS
+  - Bloom.host
   - Pterodactyl Panel
   - Minecraft
-image: https://bloomvps.com/assets/images/logo.png
+  - Bloom.host
+image: https://bloom.host/assets/images/logo.png
 ---
 # Paper Optimization Guide
 ## By saintjust
