@@ -4,17 +4,17 @@ title: Contribuyendo
 hide_title: true
 hide_table_of_contents: false
 sidebar_label: Cómo contribuir a los docs
-description: Cómo contribuir a la documentación de BloomVPS.
+description: Cómo contribuir a la documentación de Bloom.host.
 keywords:
   - Template
-  - BloomVPS
+  - Bloom.host
   - Pterodactyl Panel
   - Minecraft
   - Contribuir
   - Español
-image: https://bloomvps.com/assets/images/logo.png
+image: https://bloom.host/assets/images/logo.png
 ---
-# Contribuyendo a la documentación de BloomVPS
+# Contribuyendo a la documentación de Bloom.host
 
 ## Simple
 Escribe nuevos artículos en el formato de tu elección, abre un ticket en nuestro [discord](https://discord.com/invite/2QxW8QY), y lo convertiremos por ti. El formato recomendado es Markdown.
@@ -30,7 +30,7 @@ Así de fácil.
 
 ¡Aquí hay algunos recursos que puedes revisar!
 
-[Plantilla MD en Bruto](https://raw.githubusercontent.com/Billy-Bloom/BloomDocs/master/docs/template.md),  [así es como se ve en realidad](https://docs.bloomvps.com/template/)! 
+[Plantilla MD en Bruto](https://raw.githubusercontent.com/Billy-Bloom/BloomDocs/master/docs/template.md),  [así es como se ve en realidad](https://docs.bloom.host/template/)! 
 
 [Github Repo](https://github.com/billy-bloom/bloomdocs)
 

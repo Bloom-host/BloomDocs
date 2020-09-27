@@ -14,8 +14,8 @@ keywords:
   - Spigot
   - 1.16
   - Minecraft
-  - BloomVPS
-image: https://bloomvps.com/assets/images/logo.png
+  - Bloom.host
+image: https://bloom.host/assets/images/logo.png
 ---
 # **How to take a Timings Report**
 
@@ -32,4 +32,4 @@ Once you have done the command it will paste a link like the one below
 
 Open the link and you will see the Timings tab, anything in red is using a excess of resources. Also, you can also click the plugins tab to see what plugins are using the most resources on your server.
 
-If you require help with reading your timings, create a ticket in [BloomVPS Discord!](https://discord.gg/bloom)
+If you require help with reading your timings, create a ticket in [Bloom.host Discord!](https://discord.gg/bloom)

@@ -6,7 +6,7 @@ hide_table_of_contents: false
 sidebar_label: Basic Controls
 description: This guide will help you understand your panel environment and what everything means.
 keywords:
-  - BloomVPS
+  - Bloom.host
   - Basic Panel Controls
   - Pterodactyl Panel
 image: ../static/img/basic-controls/basic-controls1.png
@@ -16,7 +16,7 @@ image: ../static/img/basic-controls/basic-controls1.png
 
 Hey there Bloomers! This guide will help you understand your panel environment and what everything means.
 
-![BloomVPS Basic Controls](../static/img/basic-controls/basic-controls2.png)
+![Bloom.host Basic Controls](../static/img/basic-controls/basic-controls2.png)
 
 Blue is the memory usage your server is using. With Akair flags, you will be using most of this. Unused memory is wasted memory!
 
@@ -30,4 +30,4 @@ Purple is the server control menu, allowing you to start, stop, and restart your
 
 Yellow is the sidebar, which allows you to flip between different tabs on your panel. These range from control panel accounts to manage your databases. If a tab has an arrow on it, it is a category with multiple different tabs hidden under it. To see those tabs, click on the category to open up the available tabs.
 
-![BloomVPS Basic Controls](../static/img/basic-controls/basic-controls3.png)
+![Bloom.host Basic Controls](../static/img/basic-controls/basic-controls3.png)

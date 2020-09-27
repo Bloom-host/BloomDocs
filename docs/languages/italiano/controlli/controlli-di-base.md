@@ -6,17 +6,17 @@ hide_table_of_contents: false
 sidebar_label: Controlli di base
 description: Questa guida vi aiuterà a comprendere appieno il pannello di controllo e tutti gli elementi relativi ad esso.
 keywords:
-  - BloomVPS
+  - Bloom.host
   - Basic Panel Controls
   - Pterodactyl Panel
 image: ../static/img/basic-controls/basic-controls1.png
 ---
 # Controlli di base
-![BloomVPS Basic Controls](../../../../static/img/basic-controls/basic-controls1.png)
+![Bloom.host Basic Controls](../../../../static/img/basic-controls/basic-controls1.png)
 
 Ciao, bloomers! Questa guida vi aiuterà a comprendere appieno il pannello di controllo e tutti gli elementi relativi ad esso.
 
-![BloomVPS Basic Controls](../../../../static/img/basic-controls/basic-controls2.png)
+![Bloom.host Basic Controls](../../../../static/img/basic-controls/basic-controls2.png)
 
 Il rettangolo blu indica la memoria RAM che il server sta utilizzando. Con i parametri di avvio di Aikar, noterai un utilizzo quasi totale di questa, il che è buono, dato che memoria non utilizzata è memoria sprecata
 
@@ -30,6 +30,6 @@ Nel rettangolo viola c'è il menu di controllo per il server dove puoi controlla
 
 In giallo c'è la barra laterale, che ti permette di accedere a opzioni aggiuntive relative al server. Queste variano da sezioni del tuo account a opzioni per aggiungere database esterni (MySQL). Se una sezione ha una freccia accanto, significa che detta sezione ha delle opzioni nascoste. Per vedere le opzioni, clicca sulla categoria per scoprirle.
 
-![BloomVPS Basic Controls](../static/img/basic-controls/basic-controls3.png)
+![Bloom.host Basic Controls](../static/img/basic-controls/basic-controls3.png)
 
 

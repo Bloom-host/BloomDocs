@@ -16,7 +16,7 @@ module.exports = {
       },
       items: [
         {
-          href: 'https://bloomvps.com',
+          href: 'https://bloom.host',
           label: 'Home',
           position: 'right',
         },

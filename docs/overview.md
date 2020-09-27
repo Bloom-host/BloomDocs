@@ -8,8 +8,8 @@ description: Overview on the bloom documentation.
 keywords:
   - Overview
   - Minecraft
-  - BloomVPS
-image: https://bloomvps.com/assets/images/logo.png
+  - Bloom.host
+image: https://bloom.host/assets/images/logo.png
 ---
 # Bloom Docs Overview
 ## Help Sections
