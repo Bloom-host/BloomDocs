@@ -3,7 +3,7 @@ id: faq
 title: FAQ
 hide_title: true
 hide_table_of_contents: false
-sidebar_label: A few answers for some frequently asked questions!
+sidebar_label: FAQ
 description: A few answers for some frequently asked questions!
 keywords:
   - FAQ
@@ -15,7 +15,7 @@ keywords:
   - BloomVPS
 image: https://bloom.host/assets/images/logo.png
 ---
-# **FAQs**
+# **FAQ**
 
 ### How can I check my ping to the different servers?  
 Open your terminal and run `ping [IP]`. You will then be told your ping (in milliseconds) to the server. Alternatively, you can use [this tool](https://tools.keycdn.com/ping) to check the approximate ping from multiple different locations. Below is a list of what IP to ping for each server.  
