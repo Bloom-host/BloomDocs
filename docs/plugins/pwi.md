@@ -12,7 +12,6 @@ keywords:
   - Spigot
   - Bloom.host
   - Bloom Host
-  - Pterodactyl Panel
   - Minecraft
 image: https://bloom.host/assets/images/logo.png
 ---
@@ -24,10 +23,11 @@ Per world inventory is useful plugin for seperating stastics between worlds when
 
 ## How?
 
-[This guide](https://github.com/EbonJaeger/perworldinventory-kt/wiki) outlines how to set up setup the plugin so you can have multiple inventories/stats per world and per gamemode.
+The [GitHub](https://github.com/EbonJaeger/perworldinventory-kt/wiki) can help you setup Per World Inventories to your liking. It includes the commands the plugin uses and the permissions you may need to give players to have the plugin work to your liking. 
 
-That's about it for Per World Inventory! If you need any more help, feel free to make a ticket in the [discord](discord.gg/bloom) :)  
+If you have any questions or concerns, feel free to make a ticket in the [discord](discord.gg/bloom) :)  
 
 ## Info
 
 [Spigot Page](https://www.spigotmc.org/resources/per-world-inventory.4482/)
+[GitHub](https://github.com/EbonJaeger/perworldinventory-kt)
