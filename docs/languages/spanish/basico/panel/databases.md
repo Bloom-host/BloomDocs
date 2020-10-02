@@ -12,7 +12,7 @@ keywords:
   - Bases de datos
   - Español
   - Bases
-image: ../../../../../static/img/databases/databases1.png
+image: https://bloom.host/assets/images/logo.png
 ---
 # Añadiendo Bases de datos MySQL
 ![Bloom.host Databases](../../../../../static/img/databases/databases1.png)

@@ -11,10 +11,9 @@ keywords:
   - 2FA Español
   - 2FA
   - 2FA Gameserver
-image: ../../../../../static/img/2fa/2fa1.png
+image: https://bloom.host/assets/images/logo.png
 ---
 # 2-Factor Authentication
-![Bloom.host 2FA](../../../../../static/img/2FA/2FA1.png)
 ¡Hola Bloomers! En esta guía, repasaremos como configurar 2FA en tu cuenta.
 
 :::caution

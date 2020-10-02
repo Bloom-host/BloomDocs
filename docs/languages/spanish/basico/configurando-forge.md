@@ -10,9 +10,9 @@ keywords:
   - Forge
   - Minecraft
   - Modded
-image: ../../../static/img/setting-up-forge/forge1.png
+image: https://bloom.host/assets/images/logo.png
 ---
-![Bloom.host Forge](../../../../static/img/setting-up-forge/forge1.png)
+# Configurando Forge
 ¡Hola Bloomers! En esta guía, repasaremos como instalar Forge en tu servidor de Minecraft.
 
 Para comenzar con la instalación de Forge, dirígete a su página web para descargar su instalador, y guárdalo en una carpeta vacía. Ábrelo y selecciona Install Server. Debería quedar como la imagen de abajo:

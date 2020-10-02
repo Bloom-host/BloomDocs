@@ -9,10 +9,9 @@ keywords:
   - Bloom.host
   - Basic Panel Controls
   - Pterodactyl Panel
-image: ../static/img/basic-controls/basic-controls1.png
+image: https://bloom.host/assets/images/logo.png
 ---
 # Controlli di base
-![Bloom.host Basic Controls](../../../../static/img/basic-controls/basic-controls1.png)
 
 Ciao, bloomers! Questa guida vi aiuterà a comprendere appieno il pannello di controllo e tutti gli elementi relativi ad esso.
 

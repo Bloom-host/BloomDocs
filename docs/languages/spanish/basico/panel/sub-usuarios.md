@@ -9,7 +9,7 @@ keywords:
   - Bloom.host
   - Pterodactyl Panel
   - Subusers
-image: ../../../../../static/img/server-id/serverid1.png
+image: https://bloom.host/assets/images/logo.png
 ---
 # Subusers
 ![Bloom.host Subusers](../../../../../static/img/subusers/subusers1.png)

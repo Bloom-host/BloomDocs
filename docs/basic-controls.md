@@ -9,7 +9,7 @@ keywords:
   - Bloom.host
   - Basic Panel Controls
   - Pterodactyl Panel
-image: ../static/img/basic-controls/basic-controls1.png
+image: https://bloom.host/assets/images/logo.png
 ---
 # Basic Controls
 

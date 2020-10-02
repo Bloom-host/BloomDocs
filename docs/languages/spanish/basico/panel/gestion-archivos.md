@@ -14,7 +14,7 @@ keywords:
   - Pterodactyl
   - Minecraft
   - Español
-image: ../../../../../static/img/file-manager-controls/filemanager1.png
+image: https://bloom.host/assets/images/logo.png
 ---
 # Controles del Gestor de Archivos
 ![Bloom.host File Manager](../../../../../static/img/file-manager-controls/filemanger1.png)
