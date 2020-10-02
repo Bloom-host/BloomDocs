@@ -8,6 +8,7 @@ module.exports = {
     'Server Optimization': ['paper-server-optimization', 'fabric-server-optimization'],
     'Plugins': ['plugins/chunky', 'plugins/luckperms', 'plugins/prism', 'plugins/geysermc', 'plugins/bungeeguard', 'plugins/viaversion', 'plugins/dynmap', 'plugins/votifier', 'plugins/craftingstore', 'plugins/coreprotect', 'plugins/multiverse', 'plugins/spark', 'plugins/worldedit'],
     'Extras': ['mobile-app', 'reverse-proxy', 'adding-an-icon', 'srvcontrol'],
+    'Extras': ['mobile-app', 'reverse-proxy','adding-an-icon', 'srvcontrol'],
     'Other Languages': [
       {
         'Español': [
