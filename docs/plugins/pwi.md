@@ -16,7 +16,7 @@ keywords:
   - Minecraft
 image: https://bloom.host/assets/images/logo.png
 ---
-# Multiverse-Core
+# Per World Inventory
 
 ## What does it do?
 
