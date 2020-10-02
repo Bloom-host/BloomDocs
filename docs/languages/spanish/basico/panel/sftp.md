@@ -16,11 +16,10 @@ keywords:
   - Bloom.host Archivos
   - Pterodactyl Panel
   - Español
-image: https://media.discordapp.net/attachments/738919680332529714/742967911286702130/CAA1VWS9Ta498g4JwPdyyolKNawGouBUZH2Y_JmEAUHq7dTz-ZskKhDi2D1ARTmMff3RbD-SZz4i4nZC59qEZybXQKTlTB0Ef78V.png?width=1204&height=677
+image: https://bloom.host/assets/images/logo.png
 ---
 # Cómo usar SFTP para transferir archivos
 
-![Bloom.host How to use SFTP](../../../../../static/img/how-to-use-sftp/how-to-use-sftp1.png)
 
 ¡Hola Bloomers! En esta guía usaremos SFTP para importar y exportar archivos. El cliente SFTP que usaremos será Filezilla, el cual puedes descargar [aquí](https://filezilla-project.org/download.php?show_all=1). 
 
