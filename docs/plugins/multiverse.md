@@ -27,6 +27,8 @@ This example shows some of the worlds being our very own and also some of the wo
 
 [This guide](https://github.com/Multiverse/Multiverse-Core/wiki/Basics) outlines how to set up worlds, import worlds, and some basic settings for the plugin.  
 
+[This other guide](/plugins/pwi) outlines how to setup Per World Inventory, a plugin for seperating inventories per world.
+
 That's about it for multiverse! If you need any more help, feel free to make a ticket in the [discord](discord.gg/bloom) :)  
 
 ## Info
