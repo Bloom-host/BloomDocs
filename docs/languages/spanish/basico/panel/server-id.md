@@ -11,7 +11,7 @@ keywords:
   - ID de Servidor
   - Español
   - Pterodactyl ID
-image: ../../../../../static/img/server-id/serverid1.png
+image: https://bloom.host/assets/images/logo.png
 ---
 # ID de Servidor
 ![Bloom.host Server ID](../../../../../static/img/server-id/serverid1.png)

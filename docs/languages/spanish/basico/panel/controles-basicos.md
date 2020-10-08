@@ -12,10 +12,9 @@ keywords:
   - Consola
   - Español
   - Pterodactyl Panel
-image: ../../../../static/img/basic-controls/basic-controls1.png
+image: https://bloom.host/assets/images/logo.png
 ---
 # Controles Básicos
-![Bloom.host Basic Controls](../../../../../static/img/basic-controls/basic-controls1.png)
 
 ¡Hola Bloomers! Esta guía te ayudará a entender el ambiente de tu panel y que hace cada opción.
 

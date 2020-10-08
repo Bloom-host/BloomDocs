@@ -13,7 +13,7 @@ keywords:
   - Automático
   - Panel
   - Pterodactyl Panel
-image: https://media.discordapp.net/attachments/738919680332529714/742944515513385060/fIrk0CBBQH9dEuHoPwkojXlgNO-ru7Jzy9kfK911iOagw4yKpYGKhpTX8Zj0mjxZ_wCf80PGxx4uvvxY9kAu7UBCm7NOwG1ZfmBZ.png
+image: https://bloom.host/assets/images/logo.png
 ---
 # Horarios
 ![Bloom.host Scheduling Actions](../../../../../static/img/scheduling-actions/scheduling-actions1.png)

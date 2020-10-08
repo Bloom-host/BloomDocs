@@ -22,7 +22,7 @@ keywords:
   - Minecraft
   - Software
   - Español
-image: ../../../../static/img/WhichSoftwaretoUse/WhichSoftwaretoUse1.png
+image: https://bloom.host/assets/images/logo.png
 ---
 # ¿Cuál Software usar?
 ¡Hola Bloomers! En esta guía, repasaremos cual software es el necesario para tu servidor.

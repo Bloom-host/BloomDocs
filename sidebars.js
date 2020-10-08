@@ -1,12 +1,13 @@
 module.exports = {
   someSidebar: {
-    'Overview': ['overview', 'faq'],
-    'Basics': [
+    'Overview': ['overview', 'faq', 'editing-account-details'],
+    'Using the Panel': ['basic-controls', 'scheduling-actions', 'how-to-use-sftp', 'sub-users', 'databases', 'server-id', 'file-manager-controls', '2fa'],
+    'Running a Server': [
       {
-        'Panel Controls': ['basic-controls', 'scheduling-actions', 'how-to-use-sftp', 'sub-users', 'databases', 'server-id', 'file-manager-controls','2fa']
-      }, 'editing-account-details', 'plugins', 'pointing-a-domain', 'whichsoftwaretouse', 'setting-up-forge','server-resource-packs', 'datapacks','timings', 'motd', 'reset-worlds'],
-    'Server Optimization': ['paper-server-optimization', 'fabric-server-optimization'],
+        'Server Optimization': ['paper-server-optimization', 'fabric-server-optimization'],
+      }, 'plugins', 'pointing-a-domain', 'whichsoftwaretouse', 'setting-up-forge', 'server-resource-packs', 'datapacks', 'timings', 'motd', 'reset-worlds'],
     'Plugins': ['plugins/chunky', 'plugins/luckperms', 'plugins/prism', 'plugins/geysermc', 'plugins/bungeeguard', 'plugins/viaversion', 'plugins/dynmap', 'plugins/votifier', 'plugins/craftingstore', 'plugins/coreprotect', 'plugins/multiverse', 'plugins/spark', 'plugins/worldedit'],
+    'Extras': ['mobile-app', 'reverse-proxy', 'adding-an-icon', 'srvcontrol'],
     'Extras': ['mobile-app', 'reverse-proxy','adding-an-icon', 'srvcontrol'],
     'Other Languages': [
       {
@@ -22,10 +23,10 @@ module.exports = {
           },
         ],
 
-            'Italiano': [
-              {
-                'Controles del Panel': ['languages/italiano/controlli/controlli-di-base']
-              },
+        'Italiano': [
+          {
+            'Controles del Panel': ['languages/italiano/controlli/controlli-di-base']
+          },
         ],
       },
     ],
