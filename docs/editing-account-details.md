@@ -13,8 +13,6 @@ image: https://cdn.discordapp.com/attachments/738919680332529714/742949816564449
 ---
 # Editing Account Details
 
-![Bloom.host Editing Account Details]
-
 Hello Bloomers! This guide will go over how to change your account details in your client area and minecraft panel, allowing you to change your name, email, and payment details.
 
 ## Client Area
