@@ -17,20 +17,18 @@ image: https://bloom.host/assets/images/logo.png
 ---
 # Conditional Commands
 
-### What does the plugin do?
-
-But first, and introduction to how all anticheat plugins work:
+### Introduction to how all anticheat plugins work:
 - Anticheat plugins have various "checks" that detect cheating (say if a player is going above a certain speed limit)
   - When these checks are triggered, the anticheat adds "VL" or violation level points to the offender
   - All anticheats are configurable to execute a certain command (notify, kicking, or banning a player) at a certain violation level
 - However, sometimes a player may be lagging, and the kicking/banning command by itself does not account for this lag, resulting in false kicks/bans and complaints
 
-Why you should use conditional commands and what it does:
+### Why you should use conditional commands and what it does:
 - Conditional commands are a command that has parameters like ping, tps, etc. tied to an actual executed command
 - Let's say you wanted a player to be kicked for hacking when they reach a certail violation level (VL) in your anticheat configuration, conditional commands will let you kick that player ONLY if their ping is below a certain threshold
   - This means that you are able to exempt laggy players with high ping or when server TPS is low from getting false kicked/banned
 
-## Usage
+### Usage
 :::caution
 Although the plugin page says the plugin was only tested up to 1.12, conditional commands works without issue on all server versions due to its simplicity. Versions such as 1.16.3 have been tested to work on numerous servers
 :::
@@ -42,15 +40,19 @@ Basic commands you can use are:
 /cc <player> if <condition> do <command>
 /cc help
 
-These are the conditions you can use in place of <condition>
-- ping - The latency of the tested player.
-- tps - Server TPS average over the last 2 seconds
-- time_online - Player's online time in milliseconds
-- uptime - Server uptime in ticks
-- player_count - Number of players on the server
-- perm:<permission> - 1.0 if the player has the permission, 0.0 otherwise. e.g. -perm:essentials.home-
-- aacvl:<check> - AAC violation level of the given check (internal name). e.g. -aacvl:speed-
-- chance:<percentage>% - Will be 1.0 percentage% of the time. e.g. -chance:34.5%-
+These are the conditions you can use:
+- `ping` - The latency of the tested player.
+- `tps` - Server TPS average over the last 2 seconds
+- `time_online` - Player's online time in milliseconds
+- `uptime` - Server uptime in ticks
+- `player_count` - Number of players on the server
+- `perm:<permission>` - returns 1.0 if the player has the permission, returns 0.0 otherwise. e.g. -perm:essentials.home-
+- `aacvl:<check>` - AAC violation level of the given check (internal name). e.g. -aacvl:speed-
+- `chance:<percentage>%` - Will be 1.0 percentage% of the time. e.g. -chance:34.5%-
+
+What you will use in place of <condition>
+-`insert one of the condtions from above here`-`insert operator here``insert integer here`
+- Eg. -ping->200
 
 Examples of conditional commands:
 - /cc iLoveDucks unless -ping->200 do kick iLoveDucks
