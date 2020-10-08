@@ -19,19 +19,24 @@ image: https://bloom.host/assets/images/logo.png
 
 ### What does the plugin do?
 
-AAC protects your server from the following hacks:
+AAC protects your server from gamebreaking hacks and unfair advantages such as:
+- Kill-aura (attacks players/entities for you, huge combat advantage)
+- Reach (increases reach of hacker beyond fair vanilla reach of 3 blocks)
+- Fly (allows players to fly in survival, potentially at speed that will crash your server)
+- Other unfair advantages that harm your legitamate playerbase
 
 ## Usage
-
 :::caution
 Advanced Anti-Cheat is user configurable, and as a result of this, is highly sensitive. Using the default configuration will result in false positives and is not recommended to be deployed in a production environment!
 :::
 
+Install AAC by dragging it into your plugin folder, and restart your server.
+
+Edit the config YAML to configure your commands to execute at a specific violation level.
 
 :::important
 It's best practice to have a test server (even a local one if getting a hosted one isn't an option) to test your anti-cheat configuration before deploying 
 :::
-
 
 :::tip
 Many server owners use Celebrimbor's optimized config, which costs an additional $14
