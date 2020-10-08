@@ -36,9 +36,9 @@ Although the plugin page says the plugin was only tested up to 1.12, conditional
 Install conditional commands by dragging it into your plugin folder, and restart your server.
 
 Basic commands you can use are:
-`/cc <player> unless <condition> do <command>
-/cc <player> if <condition> do <command>
-/cc help`
+`/cc <player> unless <condition> do <command>`
+`/cc <player> if <condition> do <command>`
+`/cc help`
 
 These are the conditions you can use:
 - `ping` - The latency of the tested player.
