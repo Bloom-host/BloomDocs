@@ -50,9 +50,11 @@ These are the conditions you can use:
 - `aacvl:<check>` - AAC violation level of the given check (internal name). e.g. -aacvl:speed-
 - `chance:<percentage>%` - Will be 1.0 percentage% of the time. e.g. -chance:34.5%-
 
-What you will use in place of <condition>
--`insert one of the condtions from above here`-`insert operator here` `insert integer here`
-- Eg. -ping->200
+:::important
+
+You need to surround your "condition" (tps, ping, etc.) that you chose from the list above with dashes, so if you were to check for ping for example, "-ping-" would be what the syntax is
+
+:::
 
 Examples of conditional commands:
 - /cc iLoveDucks unless -ping->200 do kick iLoveDucks
