@@ -1,13 +1,14 @@
 ---
-id: chunky
-title: Chunky
+id: advancedanticheat
+title: AAC (Advanced AntiCheat)
 hide_title: true
 hide_table_of_contents: false
-sidebar_label: Chunky
-description: A cool plugin called chunky, which lets you pre generate a minecraft world quickly and efficiently to avoid lag.
+sidebar_label: AAC (Advanced AntiCheat)
+description: One of the most well known and efficient anticheats out there, blocking numerous gamebreaking exploits and unfair advantages
 keywords:
-  - Chunky
-  - Server Pregeneration
+  - AAC
+  - Advanced Anticheat
+  - Anticheat
   - Spigot
   - Bloom.host
   - Pterodactyl Panel
