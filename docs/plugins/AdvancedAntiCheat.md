@@ -100,6 +100,7 @@ Fixing config related false positives:
 Advanced Anti-Cheat is very user configurable, and as a result of this, is highly sensitive. Using the default configuration will result in false positives and is not recommended to be deployed in a production environment! READ THE SPIGOT PAGE BEFORE PURCHASING!
 
 :::
+
 [Spigot Page](https://www.spigotmc.org/resources/aac-advanced-anti-cheat-hack-kill-aura-blocker.6442/)  
 
 [Optimized Config](https://www.spigotmc.org/threads/%E2%9A%94-optimized-aac-setups-%E2%9A%94-500-customer-promo-%E2%9A%94.126333/)
