@@ -94,6 +94,7 @@ Fixing config related false positives:
  - Check your config values, perhaps add more leniency? Perhaps increase the violation level decay? Perhaps use conditional commands? 
  - If the above three don't work, there are always people in Bloom.host's discord willing to help you out!
 
+[Bloom.host Discord](https://discord.gg/bloom)
 ## Info
 :::warning
 
