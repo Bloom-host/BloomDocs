@@ -67,16 +67,16 @@ fastbow:
 # So what do all the numbers mean?
 A "check" in an anticheat is a part of the plugin that analyzes if the player is cheating or not, or if they are displaying suspiscious interactions/behavior. In AAC, each seperate check in the config.yml can be individually configured, the above "fastbow" check being an example.
 
-`lenience: 200` is one of the "check-specific" configuration options, every check may have a different value that you can modify which specifically pertains to that check
+- `lenience: 200` is one of the "check-specific" configuration options, every check may have a different value that you can modify which specifically pertains to that check
 
 The decay section of every check determines how much "VLs" or violation levels will go down (ms)
-`interval: 100` means every 100 ms, the violation level of a player will go down by the amount
-`delay: 100` how long to delay the decay of the violation level
-`amount: 1` how much the violation level decays
+- `interval: 100` means every 100 ms, the violation level of a player will go down by the amount
+- `delay: 100` how long to delay the decay of the violation level
+- `amount: 1` how much the violation level decays
 
 The thresholds section is pretty simple, it just determines what commands should be run when a player/potential-hacker reaches a certain violation level (VL)
-See [Conditional Commands](https://docs.bloom.host/plugins/conditionalcommands) for info on reducing lag related kicks/bans
-See [AAC Optimization Guide](https://www.spigotmc.org/threads/%E2%9A%A1-aac-o%E1%B4%98%E1%B4%9B%C9%AA%E1%B4%8D%C9%AA%E1%B4%A2%E1%B4%80%E1%B4%9B%C9%AA%E1%B4%8F%C9%B4-g%E1%B4%9C%C9%AA%E1%B4%85%E1%B4%87-anticheat-%E2%9A%A1.109418/) for a detailed and advanced explaination of what conditional commands are
+- See [Conditional Commands](https://docs.bloom.host/plugins/conditionalcommands) for info on reducing lag related kicks/bans
+- See [AAC Optimization Guide](https://www.spigotmc.org/threads/%E2%9A%A1-aac-o%E1%B4%98%E1%B4%9B%C9%AA%E1%B4%8D%C9%AA%E1%B4%A2%E1%B4%80%E1%B4%9B%C9%AA%E1%B4%8F%C9%B4-g%E1%B4%9C%C9%AA%E1%B4%85%E1%B4%87-anticheat-%E2%9A%A1.109418/) for a detailed and advanced explaination of what conditional commands are
 
 :::tip
 Many server owners use Celebrimbor's optimized config, which costs an additional $14. This configuration consists of numerous optimized changes that Celebrimbor has made over the years, and it is highly recommended to get it as a base for you to use with AAC on your server. 
