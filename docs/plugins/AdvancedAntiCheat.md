@@ -17,7 +17,7 @@ image: https://bloom.host/assets/images/logo.png
 ---
 # Advanced Anti-Cheat
 
-### What does the plugin do?
+## What does the plugin do?
 
 AAC protects your server from gamebreaking hacks and unfair advantages such as:
 - Kill-aura (attacks players/entities for you, huge combat advantage)
@@ -25,7 +25,7 @@ AAC protects your server from gamebreaking hacks and unfair advantages such as:
 - Fly (allows players to fly in survival, potentially at speed that will crash your server)
 - Other unfair advantages that harm your legitamate playerbase
 
-### Usage
+## Usage
 :::caution
 Advanced Anti-Cheat is very user configurable, and as a result of this, is highly sensitive. Using the default configuration will result in false positives and is not recommended to be deployed in a production environment!
 :::
@@ -64,7 +64,7 @@ fastbow:
     13: aackick %aac_player%
 ```
 
-# So what do all the numbers mean?
+## So what do all the numbers mean?
 A "check" in an anticheat is a part of the plugin that analyzes if the player is cheating or not, or if they are displaying suspiscious interactions/behavior. In AAC, each seperate check in the config.yml can be individually configured, the above "fastbow" check being an example.
 
 - `lenience: 200` is one of the "check-specific" configuration options, every check may have a different value that you can modify which specifically pertains to that check
@@ -82,7 +82,7 @@ The thresholds section is pretty simple, it just determines what commands should
 Many server owners use Celebrimbor's optimized config, which costs an additional $14. This configuration consists of numerous optimized changes that Celebrimbor has made over the years, and it is highly recommended to get it as a base for you to use with AAC on your server. 
 :::
 
-# There's a false positive, what do I do?
+## There's a false positive, what do I do?
 No worries, AAC's configurability means that false positives are easily fixed. There are two types of false positives:
  - Plugin related false positives: report to [AAC Github Issue Tracker](https://github.com/konsolas/AAC-Issues/issues) so the developer can fix it
  - Configuration related false positives: false positives that you can fix
