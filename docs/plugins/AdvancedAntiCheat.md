@@ -83,6 +83,16 @@ Many server owners use Celebrimbor's optimized config, which costs an additional
 :::
 
 # There's a false positive, what do I do?
+No worries, AAC's configurability means that false positives are easily fixed. There are two types of false positives:
+ - Plugin related false positives: report to [AAC Github Issue Tracker] (https://github.com/konsolas/AAC-Issues/issues) so the developer can fix it
+ - Configuration related false positives: false positives that you can fix
+ 
+Fixing config related false positives:
+ - First, collect some information on the false positive, like what might cause it and some verbose data
+   - To collect verbose data, do /aac verbose and reproduce the false positive, or look in your AAC's plugin log folder
+ - The verbose data will show what part of the check is causing the false positive, you can specifically focus on that part in AAC's config.yml, go to the config
+ - Check your config values, perhaps add more leniency? Perhaps increase the violation level decay? Perhaps use conditional commands? 
+ - If the above three don't work, there are always people in Bloom.host's discord willing to help you out!
 
 ## Info
 :::warning
