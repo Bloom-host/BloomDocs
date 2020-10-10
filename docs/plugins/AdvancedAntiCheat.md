@@ -84,7 +84,7 @@ Many server owners use Celebrimbor's optimized config, which costs an additional
 
 # There's a false positive, what do I do?
 No worries, AAC's configurability means that false positives are easily fixed. There are two types of false positives:
- - Plugin related false positives: report to [AAC Github Issue Tracker] (https://github.com/konsolas/AAC-Issues/issues) so the developer can fix it
+ - Plugin related false positives: report to [AAC Github Issue Tracker](https://github.com/konsolas/AAC-Issues/issues) so the developer can fix it
  - Configuration related false positives: false positives that you can fix
  
 Fixing config related false positives:
