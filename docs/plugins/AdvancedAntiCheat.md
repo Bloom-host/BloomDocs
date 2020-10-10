@@ -25,7 +25,6 @@ AAC protects your server from gamebreaking hacks and unfair advantages such as:
 - Fly (allows players to fly in survival, potentially at speed that will crash your server)
 - Other unfair advantages that harm your legitamate playerbase
 
-## Usage
 :::caution
 Advanced Anti-Cheat is very user configurable, and as a result of this, is highly sensitive. Using the default configuration will result in false positives and is not recommended to be deployed in a production environment!
 :::
