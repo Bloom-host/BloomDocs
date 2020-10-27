@@ -37,5 +37,7 @@ Dark mode panel
 
 If you want to check out the panel for yourself, simply go to [mc.bloom.host](https://mc.bloom.host) and login with the demo user credentials (username `demo`, password `demo`).  
 
-### How does Bloom's waitlist work?  
-When Bloom is about to launch a new node, they will put it on a waitlist. You can either purchase a server with the waitlist location selected or order a server in an in-stock location and ask to be moved. If you decide to purchase a server with the waitlist location selected, you will not have access to a server and you will not be billed until the new node is launched. If you decide to instead purchase an in-stock server, you can ask to be moved later on. Bloom staff will move you to the new location once it is launched, you won't need to do anything. You will be given a new IP and you will once again have access to your server.  
+### How does Bloom's waitlist/pre-order system work?  
+When Bloom is preparing to launch a new node, a waitlist will be opened allowing you to reserve a spot and pre-order your first month of service. While you do have to pre-pay to reserve your spot, your billing cycle does not begin until the day your server is activated so you are not paying for any unused time. If you are an existing customer that will  be transferring your server to the new node, you will also be given a pro-rated credit for the unused time on your old server at the time of transfer. 
+
+At any point, you can cancel your reservation and receive a full refund for any amounts prepaid. 
