@@ -39,7 +39,7 @@ module.exports = {
         lightIconStyle: {
           marginLeft: '1px',
         },
-    }
+    },
     navbar: {
       title: 'Bloom Docs',
       logo: {
