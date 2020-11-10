@@ -187,7 +187,7 @@ Importance: Medium
 
 Explanation: Having many entities in one area can cause extreme lag on a server through entity collisions. If you plan on disabling it completely, this means that players won't be able to push mobs, so you'll need to find some other way for them to push mobs (like being able to lead villagers).
 
-### paper.yml
+## paper.yml
 
 max-auto-save-chunks-per-tick
 
