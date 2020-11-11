@@ -26,10 +26,10 @@ keywords:
 image: ../static/img/WhichSoftwaretoUse/WhichSoftwaretoUse1.png
 ---
 # Which jar to use?
-Hey there Bloomers! In this guide, we will go over which jar is right for your server. The overall recommend jars would be Paper, as it's the most stable of the jars and has a reputation of being great.
+Hey there Bloomers! In this guide, we will go over which jar is right for your server. The overall recommended jars would be Paper as it's the most stable of the jars and it has a reputation of being great.
 
 ## [Paper](https://github.com/PaperMC/Paper)
-Paper is a fork of Spigot and aims to have better performance and stability. It also has a expanded API, allowing plugins to become even faster. This jar is highly recommended as it's fixes exploits, bugs, and more as well as greatly improves performance and stability of any Minecraft server. 
+Paper is a fork of Spigot and aims to have better performance and stability. It also has an expanded API, allowing plugins to become even faster. This jar is highly recommended as it fixes exploits, bugs, and more as well as it greatly improves performance and stability of any Minecraft server. 
 
 ## [Tuinity](https://github.com/Spottedleaf/Tuinity)
 Tunity is a fork of paper that brings more experimental changes for servers to play around with. It is known to increase TPS on high player count servers, allowing a smoother experience on bigger servers.
@@ -44,13 +44,10 @@ Forge is a jar that adds a modding API for developers to tap into. It is much mo
 Sponge is a API designed to be an overhaul of the Bukkit API that allows you to run Forge as well as plugins. It doesn't run Bukkit or any of its fork plugins. Currently, Sponge is on version 1.12.2 and is recommended for if you want modpacks and plugins together as smoothly as possible.
 
 ## [Fabric](https://fabricmc.net/)
-Fabric is a jar that makes modding easier and smoother than Forge. Fabric is considered superior to Forge due to a better API that is more documented, however, has less mods to play around with. 
+Fabric is a jar that makes modding easier and smoother than Forge. Fabric is considered superior to Forge due to a better API that is more documented. However, it has less mods to play around with. 
 
 ## [Bukkit](https://bukkit.org/)
-Bukkit is an open source but defaunt jar that was used in the early days of Minecraft plugin development. In 2014, Bukkit Project lead Warren Loo announced the end of the Bukkit project. The project was then DMCA by a former developer causing massive amounts of code to no longer be apart of Bukkit. If you want to learn the whole situation, read [Justin Flory blog post](https://blog.jwf.io/2020/04/open-source-minecraft-bukkit-gpl/) about it. BukkitCraft is a continuation that is still supported by Spigot, but is not recommended for servers as it's old and rarely recieves updates.
-
-### [Yatopia](https://github.com/YatopiaMC/Yatopia)
-Yaptopia is a fork of Tuinity that bring together lots of forks into one jar, allowing you to take advantage of several jars optimizations they have made.
+Bukkit is an open source but defunct jar that was used in the early days of Minecraft plugin development. In 2014, Bukkit Project lead Warren Loo announced the end of the Bukkit project. The project was then DMCA by a former developer causing massive amounts of code to no longer be apart of Bukkit. If you want to learn the whole situation, read [Justin Flory blog post](https://blog.jwf.io/2020/04/open-source-minecraft-bukkit-gpl/) about it. BukkitCraft is a continuation that is still supported by Spigot, but is not recommended for servers as it's old and rarely recieves updates.
 
 ### [Akarin](https://github.com/Akarin-project/Akarin)
 Akarin is a jar that focuses on multi-threading Minecraft. It has so far been unstable and it not recommended for use on production servers.
@@ -65,7 +62,7 @@ Origami is a paper fork which has several performance enhancements to it.
 NachoSpigot is a open source fork of paper that aims to bring patches from later Paper versions to Minecraft 1.8.
 
 ### [Magma](https://magmafoundation.org/)
-Magma is a jar that integrates Forge and Paper jars, allowing you to run Bukkit and it's forks plugins with mods. It is considered unstable and is not recommended to use unless you know what you are doing.
+Magma is a jar that integrates Forge and Paper jars, allowing you to run Bukkit and its forks plugins with mods. It is considered unstable and is not recommended to use unless you know what you are doing.
 
 ## [Vanilla](https://www.minecraft.net/en-us/download/server)
 Vanilla is the jar provided by Mojang to run Minecraft servers. This is the bare minimum for servers with no plugin API for plugins to hook into or a modding API like forge. It is not greatly optimized and only recommended for small groups of friends who want to play plain vanilla.
