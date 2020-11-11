@@ -23,7 +23,7 @@ Once downloaded, put **mc.bloom.host** for the server url (as shown in red), and
 
 ![Bloom.host Mobile App](../static/img/mobile-app/mobile-app3.png)
 
-TThe hamburger menu on the top left corner lets you access the settings (hint: dark mode), while clicking on the server will bring you to the server menu. 
+The hamburger menu on the top left corner lets you access the settings (hint: dark mode), while clicking on the server will bring you to the server menu. 
 
 ![Bloom.host Mobile App](../static/img/mobile-app/mobile-app4.png)
 
