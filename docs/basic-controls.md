@@ -18,9 +18,9 @@ Hey there Bloomers! This guide will help you understand your panel environment a
 
 ![Bloom.host Basic Controls](../static/img/basic-controls/basic-controls2.png)
 
-Blue is the memory usage your server is using. With Akair flags, you will be using most of this. Unused memory is wasted memory!
+Blue is the memory usage your server is using. With Aikar's flags, you will be using most of this. Unused memory is wasted memory!
 
-Orange is the CPU usage between your two cores. Minecraft Paper will only utilize 2 cores, meaning, having more doesn’t mean better performance. If you wish to have more, consider getting a VPS.
+Orange is the CPU usage of your two cores. Minecraft Paper will only utilize 2 cores, meaning, having more doesn’t mean better performance. If you wish to have more, consider getting a VPS.
 
 Red is the disk space that you have used. Plugins that store a lot of data such as Dynmap may take up lots of storage, so it’s recommended to keep an eye on the amount of storage you have left. If you reach the maximum amount of storage, your server will shut down and wait until you have enough storage to restart again.
 
