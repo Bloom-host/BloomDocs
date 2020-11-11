@@ -27,7 +27,7 @@ Now, click **Update** under Your Info.
 
 ![Bloom.host Editing Account Details](../static/img/editing-account-details/editing-account-details4.png)
 
-This area lets you edit any details about your account, from payment methods to emails sent to changing your password. Once done, click **Save Changes** for all your changes to take effect. 
+This area lets you edit any details about your account from payment methods to emails sent to changing your password. Once done, click **Save Changes** for all your changes to take effect. 
 
 ## Minecraft Panel
 

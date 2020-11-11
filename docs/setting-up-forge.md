@@ -18,7 +18,7 @@ To begin installing Forge, head over to their website to download their installe
 
 ![Bloom.host Forge](../static/img/setting-up-forge/forge2.png)
 
-After you have installed it, head over to an [SFTP client](https://docs.bloom.host/how-to-use-sftp) such as FileZilla and uplaod everything inside your folder to your server.
+After you have installed it, head over to an [SFTP client](https://docs.bloom.host/how-to-use-sftp) such as FileZilla and upload everything inside your folder to your server.
 
 Next, rename your forge-xxx file to server.jar or go to Startup Parameters and change the Server Jar File.
 

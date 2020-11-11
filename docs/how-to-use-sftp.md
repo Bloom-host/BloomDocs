@@ -19,7 +19,7 @@ keywords:
 
 
 
-Hey Bloomers! In this guide we will be using SFTP to import and export files. The SFTP client we will be using is called filezilla, which you can download from [here](https://filezilla-project.org/download.php?show_all=1). 
+Hey Bloomers! In this guide we will be using SFTP to import and export files. The SFTP client we will be using is called FileZilla, which you can download from [here](https://filezilla-project.org/download.php?show_all=1). 
 
 ![Bloom.host How to use SFTP](../static/img/how-to-use-sftp/how-to-use-sftp2.png)
 
@@ -31,4 +31,4 @@ The connection address (host) is highlighted in purple, while the username that 
 
 ![Bloom.host How to use SFTP](../static/img/how-to-use-sftp/how-to-use-sftp4.png)
 
-After this, open up your sftp client (in this case filezilla). You input your login details in the top left, which is shown in purple. The left side contains the files stored on your computer (red), and the right (yellow) contains the files on the server. The bottom, shown in blue, gives you information on the file transfer. 
+After this, open up your SFTP client (in this case FileZilla). Input your login details in the top left, which is shown in purple. The left side contains the files stored on your computer (red), and the right (yellow) contains the files on the server. The bottom, shown in blue, gives you information on the file transfer. 

@@ -24,7 +24,7 @@ Then click on the “Upload Image” button.
 
 ![Bloom.host 2FA](../static/img/adding-an-icon/adding-an-icon2.png)
 
-Your image should pop up in the upper right-hand corner. As seen below
+Your image should pop up in the upper right-hand corner as seen below
 
 ![Bloom.host 2FA](../static/img/adding-an-icon/adding-an-icon3.png)
 
@@ -48,7 +48,7 @@ Click upload and pick the icon you made, make sure you name the file exactly ser
 ![Bloom.host 2FA](../static/img/adding-an-icon/adding-an-icon7.png)
 
 
-Now restart your server, feel free to open a ticket if you need any assistance. 
+Now, restart your server. Feel free to open a ticket if you need any assistance. 
 
 
 
