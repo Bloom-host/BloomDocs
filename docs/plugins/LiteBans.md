@@ -21,7 +21,7 @@ image: https://bloom.host/assets/images/logo.png
 
 ## What does the plugin do?
 
-Litebans is a plugin that allows you and your server staff to manage and distribute punishments to your players.
+Litebans is a premium plugin that allows you and your server staff to manage and distribute punishments to your players.
 
 ## Usage
 First, download the [Litebans](https://www.spigotmc.org/resources/nuvotifier.13449/) plugin and install it into your `plugins` folder.   
@@ -63,4 +63,6 @@ You may notice some of the commands have a (-s) in the syntax, if you put -s in 
 ## Links
 
 [Litebans Spigot](https://www.spigotmc.org/resources/nuvotifier.13449/), Requires Account.
+
+[Litebans Official Wiki](https://gitlab.com/ruany/LiteBans/-/wikis/home)
 
