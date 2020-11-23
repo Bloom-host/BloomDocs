@@ -189,7 +189,7 @@ Explanation: Having many entities in one area can cause extreme lag on a server 
 
 ## paper.yml
 
-max-auto-save-chunks-per-tick
+### max-auto-save-chunks-per-tick
 
 Default:  24
 
