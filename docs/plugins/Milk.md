@@ -39,6 +39,6 @@ SetMilkSaturation will change how much saturation Milk Gives
 
 ## Links
 
-[Litebans Spigot](https://www.spigotmc.org/resources/milk.84531/), Requires Account.
+[Milk Spigot Page](https://www.spigotmc.org/resources/milk.84531/)
 
 
