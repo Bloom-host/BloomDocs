@@ -24,7 +24,7 @@ image: https://bloom.host/assets/images/logo.png
 Litebans is a premium plugin that allows you and your server staff to manage and distribute punishments to your players.
 
 ## Usage
-First, download the [Litebans](https://www.spigotmc.org/resources/nuvotifier.13449/) plugin and install it into your `plugins` folder.   
+First, download the [Litebans](https://www.spigotmc.org/resources/litebans.3715/) plugin and install it into your `plugins` folder.   
 
 Next, you have to decide what type of storage you want for all your punishments, your options are H2, MySQL, MariaDB, and PostgreSQL. On Bloom you are going to want to use H2, or MySQL. H2 will store the information on your server, while MySQL will store it on a separate database. MySQL allows you to sync data accross a network if you are running one. Otherwise its your choice.
 
@@ -62,7 +62,7 @@ You may notice some of the commands have a (-s) in the syntax, if you put -s in 
 
 ## Links
 
-[Litebans Spigot](https://www.spigotmc.org/resources/nuvotifier.13449/), Requires Account.
+[Litebans Spigot](https://www.spigotmc.org/resources/litebans.3715/), Requires Account.
 
 [Litebans Official Wiki](https://gitlab.com/ruany/LiteBans/-/wikis/home)
 
