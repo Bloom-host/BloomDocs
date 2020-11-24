@@ -6,7 +6,7 @@ module.exports = {
       {
         'Server Optimization': ['paper-server-optimization', 'fabric-server-optimization'],
       }, 'plugins', 'pointing-a-domain', 'whichsoftwaretouse', 'setting-up-forge', 'server-resource-packs', 'datapacks', 'timings', 'motd', 'reset-worlds'],
-    'Plugins': ['plugins/chunky', 'plugins/luckperms', 'plugins/prism', 'plugins/geysermc', 'plugins/bungeeguard', 'plugins/viaversion', 'plugins/dynmap', 'plugins/votifier', 'plugins/craftingstore', 'plugins/coreprotect', 'plugins/multiverse', 'plugins/spark', 'plugins/worldedit', 'plugins/advancedanticheat', 'plugins/conditionalcommands', 'plugins/Litebans', 'plugins/Milk'],
+    'Plugins': ['plugins/chunky', 'plugins/luckperms', 'plugins/prism', 'plugins/geysermc', 'plugins/bungeeguard', 'plugins/viaversion', 'plugins/dynmap', 'plugins/votifier', 'plugins/craftingstore', 'plugins/coreprotect', 'plugins/multiverse', 'plugins/spark', 'plugins/worldedit', 'plugins/advancedanticheat', 'plugins/conditionalcommands', 'plugins/Litebans', 'plugins/Milk', 'plugins/ServerNPC'],
     'Extras': ['mobile-app', 'reverse-proxy', 'adding-an-icon', 'srvcontrol'],
     'Extras': ['mobile-app', 'reverse-proxy','adding-an-icon', 'srvcontrol'],
     'Other Languages': [
