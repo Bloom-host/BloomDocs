@@ -58,6 +58,7 @@ To create an NPC run the "/npc create {ID} {Skin}" command. ID is the name of th
 ## Editing Wand
 If you open the menu that appears in /npc, and right click the "See NPC's" button, it will give you an editing wand. This has many functions.
 ![A view of the Editing Wand Menu](https://imgur.com/lDWNO3K.png)
+
 Within the editing wand you can do the following (from left to right in the menu shown above)
 ```
  1. Change the NPC's Skin
