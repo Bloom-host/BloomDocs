@@ -60,9 +60,31 @@ The syntax for the history command is /history {Pllayer}
 
 You may notice some of the commands have a (-s) in the syntax, if you put -s in that spot when executing the command it will silently execute the command. When done silently only players with a certain permission will see the punishment, otherwise everyone online will see it. 
 
+**Litebans Web**
+
+Litebans web is a very powerfull tool to sync your bans, mutes, warns and kicks right to a webpage for all to use. Most of the time people use this to show people that you will get punished for breaking the rules and enforce them more.
+
+## How to install
+
+Firstly you can choose between a theme, Here are a free one: [Litebans Material UI](https://www.spigotmc.org/resources/litebans-material-ui.46648/) and there are many paid ones on MC-Market, Spigot ect.. 
+
+Next you will need a web host, you can get a VPS or a webhost. It really doesnt matter. [Blooms VPS's](https://bloom.host/vps) 
+
+*Please note you must use MySQL for this to work. With Bloom you get a free MySQL Database. Change your Litebans config to use MySQL as its database and fill in the information.* 
+
+Upload your files to the host and navaigate to the file `/inc/settings.php` and fill in your MySQL or PGSQL information. 
+
+Once done, navigate to your website and done!
+
+
+
 ## Links
 
 [Litebans Spigot](https://www.spigotmc.org/resources/litebans.3715/), Requires Account.
 
 [Litebans Official Wiki](https://gitlab.com/ruany/LiteBans/-/wikis/home)
+
+[Litebans Free Web](https://www.spigotmc.org/resources/litebans-material-ui.46648/)
+
+
 
