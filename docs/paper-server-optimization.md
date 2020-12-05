@@ -35,6 +35,15 @@ Importance: Very Low
 
 Explanation: Stops players from getting kicked for flying, hack clients will normally bypass this anyway.
 
+### spawn-protection
+Default: 16
+
+Recommended: 0
+
+Importance: Medium
+
+Explanation: Vanilla spawn protection will protect a certain amount of chunks surrounding your world spawn. The vanilla implementation is buggy, and something such as WorldGuard or GriefPrevention should be used instead.
+
 ### view-distance
 
 Default: 10
