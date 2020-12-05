@@ -13,6 +13,8 @@ keywords:
   - Minecraft
   - Bloom.host
   - BloomVPS
+  - Question
+  
 image: https://bloom.host/assets/images/logo.png
 ---
 # **FAQ**
@@ -41,3 +43,8 @@ If you want to check out the panel for yourself, simply go to [mc.bloom.host](ht
 When Bloom is preparing to launch a new node, a waitlist will be opened allowing you to reserve a spot and pre-order your first month of service. While you do have to pre-pay to reserve your spot, your billing cycle does not begin until the day your server is activated so you are not paying for any unused time. If you are an existing customer that will  be transferring your server to the new node, you will also be given a pro-rated credit for the unused time on your old server at the time of transfer. 
 
 At any point, you can cancel your reservation and receive a full refund for any amounts prepaid. 
+
+
+Blooms waitlist uses a seperate discord server, you can find it at https://discord.gg/tPXcm5wQh4
+
+You can join the queue at any moment, you will open a ticket in that server and give them the server you would like to get in line for. It uses a first come first serve system. You can change your queue or leave at any time. When your spot opens up you will be pinged in your ticket and will have **24 hours** to claim your spor or else it will be givin up. 
