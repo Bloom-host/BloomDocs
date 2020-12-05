@@ -18,9 +18,9 @@ keywords:
 image: https://bloom.host/assets/images/logo.png
 ---
 # Paper Optimization Guide
-## By saintjust
+## By Sancires
 
-Updated for Version 1.16.2  
+Updated for Version 1.16.4  
 
 Since 1.13, Minecraft servers have gotten progressively harder to run. Paper, a fork of Spigot, offers many settings that greatly improve performance. For this guide, we will be dealing with four main files. Keep in mind, this guide merely provides suggestions, and should not be taken exactly, as every server is different.
 
@@ -49,9 +49,9 @@ Explanation: This is a big performance setting as it sets how many chunks around
 
 ### spawn-limits
 
-Default: monsters:70, animals:10, water-animals:15, ambient:15
+Default: monsters:70, animals:10, water-animals:15, water-ambient: 2, ambient:15
 
-Recommended: monsters:30, animals:8, water-animals:2, water-ambient: 2, ambient:0
+Recommended: monsters:15, animals:6, water-animals:2, water-ambient: 2, ambient:0
 
 Importance: High
 
@@ -273,7 +273,7 @@ Explanation: Having many entities in one area can cause extreme lag on a server.
 
 Default: 1
 
-Recommended: 4
+Recommended: 4-6
 
 Importance: Medium
 
@@ -357,7 +357,7 @@ Recommended: true
 
 Importance: Low
 
-Explanation: This option will effectively stop X-raying on your server, with a slight performance cost. Engine 1 is less heavy, but can be bypassed, so Engine 2 is recommended for survival servers.
+Explanation: This option will effectively stop X-raying on your server, with a slight performance cost. Engine 1 is less heavy, but can be bypassed, so Engine 2 is recommended for survival servers. For more information regarding Xray settings, see [here](https://gist.github.com/stonar96/ba18568bd91e5afd590e8038d14e245e).
 
 ## Recommended Plugins for Performance:
 
