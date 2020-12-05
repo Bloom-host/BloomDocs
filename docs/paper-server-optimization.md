@@ -18,7 +18,7 @@ keywords:
 image: https://bloom.host/assets/images/logo.png
 ---
 # Paper Optimization Guide
-## By saintjust
+## By Sancires
 
 Updated for Version 1.16.4  
 
