@@ -33,12 +33,15 @@ The name can be whatever you want it to be. It could be “Daily Restart”, “
 
 The second section is when it will go off. Keep in mind all Bloom servers run on Universal Standard Time (UTC), so make sure your schedules reflect that. The day it will go off can either be the day of the month or the day of the week. So, if you want it to restart every Saturday, you could click Saturday. If you want it to restart twice per month, you may pick the first day and the 15th day of a month. Additionally, you can add a wildcard to it, which is *. This means that it will do it for every value. This is very useful if you want to do something repeatedly, like daily restarts.
 
-The final section is what it will send as a command or as a power action. Commands should be used without the “/” in it and doesn’t accept variables. You could send a power action, which you can have turn off the server. If you use “stop”, the server will stop itself. Available power actions are:
+The final section is what it will send as a command or as a power action. Commands should be used without the “/” in it and doesn’t accept variables. You could send a power action, which you can have turn off the server. If you use “stop”, the server will stop itself. Available power actions (case-sensitive) are:
 
-Start - Starts up the server
-Stop - Stops the server
-Restart - Stops then start up the server
-Kill - Kills the server (Not recommended!)
+| Command | Description                         | 
+| :------ | :---------------------------------- |
+| start   | Starts up the server                |
+| stop    | Stops the server                    |
+| restart | Stops then start up the server      |
+| kill    | Kills the server (Not recommended!) |
+
 
 ## Examples
 
