@@ -45,7 +45,7 @@ Per World Inventory is useful plugin for seperating stastics between worlds when
 The [GitHub](https://github.com/EbonJaeger/perworldinventory-kt/wiki) can help you setup Per World Inventories to your liking. It includes the commands that Per World Inventory uses and how to setup world groups. 
 
 
-That's about it for Multiverse! If you need any more help, feel free to make a ticket in the [discord](discord.gg/bloom) :)  
+That's about it for Multiverse! If you need any more help, feel free to make a ticket in the [discord](https://discord.gg/bloom) :)  
 
 ## Info
 

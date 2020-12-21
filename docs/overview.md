@@ -14,7 +14,7 @@ image: https://bloom.host/assets/images/logo.png
 # Bloom Docs Overview
 ## Help Sections
 ### Basics
-The basics to getting started with your minecraft server, includes navigating the panel and file access
+The basics to getting started with your Minecraft server. This guide includes navigating the panel and file access
 
 **[Click here to view :point_left:](basic-controls.md)**
 ### Optimizations

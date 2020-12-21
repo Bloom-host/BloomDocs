@@ -29,7 +29,7 @@ Next, head over to [Security Settings](https://www.bloom.host/portal/clientarea.
 
 ![Bloom.host 2FA](../static/img/2FA/2FA2.png)
 
-You can then follow the instruction on the screen, as you will need to download Google Authenticator or DUO from the android or IOS app store.
+You can then follow the instruction on the screen. You will need to download Google Authenticator or DUO from the android or IOS app store.
 
 ## Game Panel 2FA
 

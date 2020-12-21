@@ -8,6 +8,9 @@ module.exports = {
   organizationName: 'billy-bloom', // Usually your GitHub org/user name.
   projectName: 'bloomdocs', // Usually your repo name.
   themeConfig: {
+    colorMode: {
+      defaultMode: 'dark',
+    },
     navbar: {
       title: 'Bloom Docs',
       logo: {

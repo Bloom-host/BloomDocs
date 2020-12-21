@@ -15,7 +15,7 @@ keywords:
 
 
 
-Hey bloomers! In this guide, we will be going over the mobile application. This allows you to manage your server from a mobile device. To download the pterodactyl mobile app, head to the [app store](https://apps.apple.com/us/app/pterodactyl-mobile/id1465354373), or the [play store](https://play.google.com/store/apps/details?id=io.pterodactyl.app&hl=en_US).
+Hey Bloomers! In this guide, we will be going over the mobile application. This allows you to manage your server from a mobile device. To download the pterodactyl mobile app, head to the [app store](https://apps.apple.com/us/app/pterodactyl-mobile/id1465354373), or the [play store](https://play.google.com/store/apps/details?id=io.pterodactyl.app&hl=en_US).
 
 ![Bloom.host Mobile App](../static/img/mobile-app/mobile-app2.png)
 
@@ -23,7 +23,7 @@ Once downloaded, put **mc.bloom.host** for the server url (as shown in red), and
 
 ![Bloom.host Mobile App](../static/img/mobile-app/mobile-app3.png)
 
-TThe hamburger menu on the top left corner lets you access the settings (hint: dark mode), while clicking on the server will bring you to the server menu. 
+The hamburger menu on the top left corner lets you access the settings (hint: dark mode), while clicking on the server will bring you to the server menu. 
 
 ![Bloom.host Mobile App](../static/img/mobile-app/mobile-app4.png)
 

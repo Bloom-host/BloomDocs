@@ -18,7 +18,7 @@ Hey there Bloomers! In this guide, we will go over how to add subusers to your p
 Head over to your panel and go to subusers tab found on the left sidebar. Here you can manage all your subusers. Now, click **Create New** button to begin setting up a subuser. 
 
 ![Bloom.host Subusers](../static/img/subusers/subusers3.png)
-Once you have entered, enter the person email account. Then, select which permissions you want to grant the user. In the Blue Box, you can select all permissions or clear your permissions. In the yellow box, you can add the subuser, which will send the email to them.
+Once you have entered, enter the person's email account. Then, select which permissions you want to grant the user. In the Blue Box, you can select all permissions or clear your permissions. In the yellow box, you can add the subuser, which will send the email to them.
 
 ![Bloom.host Subusers](../static/img/subusers/subusers4.png)
 
