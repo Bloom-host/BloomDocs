@@ -9,32 +9,40 @@ keywords:
   - Bloom.host
   - Edit Account Details
   - Pterodactyl Panel
-image: https://cdn.discordapp.com/attachments/738919680332529714/742949816564449350/editing-account-details1.png
+image: https://bloom.host/assets/images/logo.png
 ---
 # Editing Account Details
 
-Hello Bloomers! This guide will go over how to change your account details in your client area and minecraft panel, allowing you to change your name, email, and payment details.
+Hello Bloomers! 👋
+
+This guide will go over how to change your account details in your client area and minecraft panel, allowing you to change your name, email, and payment details.
+
+---
 
 ## Client Area
 
-![Bloom.host Editing Account Details](../static/img/editing-account-details/editing-account-details2.png)
+![Bloom.host Editing Account Details](../static/img/editing-account-details/editing-account-details1.png)
 
 Head on over to the billing area by going to the header, hovering over support, then clicking Billing Login. Login to your account or register an account from there. 
 
-![Bloom.host Editing Account Details](../static/img/editing-account-details/editing-account-details3.png)
+![Bloom.host Editing Account Details](../static/img/editing-account-details/editing-account-details2.png)
 
 Now, click **Update** under Your Info. 
 
-![Bloom.host Editing Account Details](../static/img/editing-account-details/editing-account-details4.png)
+![Bloom.host Editing Account Details](../static/img/editing-account-details/editing-account-details3.png)
 
 This area lets you edit any details about your account from payment methods to emails sent to changing your password. Once done, click **Save Changes** for all your changes to take effect. 
 
+---
+
 ## Minecraft Panel
 
-![Bloom.host Editing Account Details](../static/img/editing-account-details/editing-account-details5.png)
+![Bloom.host Editing Account Details](../static/img/editing-account-details/editing-account-details4.png)
 
 To start, head over to your sidebar and click the My Account tab. 
 
-![Bloom.host Editing Account Details](../static/img/editing-account-details/editing-account-details6.png)
+![Bloom.host Editing Account Details](../static/img/editing-account-details/editing-account-details5.png)
 
 Simply edit any details that you need. Once you have completed a section, click the Update button below it to apply the changes needed. 
+
+---
