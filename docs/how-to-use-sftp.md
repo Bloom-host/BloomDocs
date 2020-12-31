@@ -3,8 +3,8 @@ id: how-to-use-sftp
 title: How to use SFTP to transfer files
 hide_title: true
 hide_table_of_contents: false
-sidebar_label: How to use SFTP to transfer files
-description: This guide will help you use SFTP (filezilla) to transfer files.
+sidebar_label: Using SFTP For Files
+description: This guide will help you use SFTP (FileZilla/WinSCP) to transfer files.
 keywords:
   - Bloom.host
   - Import Files
@@ -19,16 +19,36 @@ keywords:
 
 
 
-Hey Bloomers! In this guide we will be using SFTP to import and export files. The SFTP client we will be using is called FileZilla, which you can download from [here](https://filezilla-project.org/download.php?show_all=1). 
+Hey Bloomers! 👋
+
+In this guide we will be using SFTP to import and export files. The SFTP client we will be using is called FileZilla, which you can download from [here](https://filezilla-project.org/download.php?show_all=1). Alternatively you could try using [WinSCP](https://winscp.net/) or even [MobaXterm](https://mobaxterm.mobatek.net/)!
+
+---
+
+To find the login details, navigate to the sidebar of the server, then open the 'Settings' section.
 
 ![Bloom.host How to use SFTP](../static/img/how-to-use-sftp/how-to-use-sftp2.png)
 
-To find the login details, navigate to the sidebar of the server, then open the file management section, and then click on “SFTP settings”, which is highlighted in yellow.
+---
+
+Here you will be able to see your server's SFTP host name (red), and SFTP username (cyan). 
+
+*With our new panel if you have WinSCP installed, you can launch straight away by clicking `Launch SFTP` (green)*
 
 ![Bloom.host How to use SFTP](../static/img/how-to-use-sftp/how-to-use-sftp3.png)
 
-The connection address (host) is highlighted in purple, while the username that you login with is highlighted in green. The password is the same password you use to login to the panel.
+---
+
+In case you aren't using WinSCP like in our case, input your login details in the top left. 
+- Host: This can be seen on the panel, without the prefix or suffix. As an example: `sftp://testnode.bloom.host:2022` would be `testnode.bloom.host`
+- Username: Just your SFTP username from the Settings Section.
+- Password: Your game panel password. <u>Not your billing password!</u>
+- Port: This will be `2022` for everyone. 
 
 ![Bloom.host How to use SFTP](../static/img/how-to-use-sftp/how-to-use-sftp4.png)
 
-After this, open up your SFTP client (in this case FileZilla). Input your login details in the top left, which is shown in purple. The left side contains the files stored on your computer (red), and the right (yellow) contains the files on the server. The bottom, shown in blue, gives you information on the file transfer. 
+The left side contains the files stored on your computer (yellow), and the right (orange) contains the files on the server. The bottom, shown in blue, gives you information on the file transfer. 
+
+If you wish to archive or unarchive files, please check out or [guide](file-manager-controls.md) on file management through the panel.
+
+---
