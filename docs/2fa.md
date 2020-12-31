@@ -15,7 +15,10 @@ image: ../static/img/2fa/2fa1.png
 ---
 # 2-Factor Authentication
 
-Hey there Bloomers! In this guide, we will go over how to setup 2FA on your account.
+Hey there Bloomers! 👋
+In this guide, we will go over how to setup 2FA on your account.
+
+---
 
 :::caution
 Only use 2FA on devices you trust. It's not recommended to setup 2FA on a shared or compromised device.
@@ -31,6 +34,8 @@ Next, head over to [Security Settings](https://www.bloom.host/portal/clientarea.
 
 You can then follow the instruction on the screen. You will need to download Google Authenticator or DUO from the android or IOS app store.
 
+---
+
 ## Game Panel 2FA
 
 To setup 2FA in the game panel area, head over to [Account Security](https://mc.bloom.host/account/security) in the game panel area.
@@ -44,3 +49,5 @@ Then, add a new account and scan the QR code. Once it is scanned, type the token
 ![Bloom 2FA](../static/img/2FA/2FA3.png)
 
 You are set and fully protected! Rememeber to keep the device near you when you login so can authenticate yourself!
+
+---
