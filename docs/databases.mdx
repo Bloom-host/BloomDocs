@@ -1,29 +1,43 @@
 ---
 id: databases
-title: Add MySQL databases
+title: Adding MySQL Databases
 hide_title: true
 hide_table_of_contents: false
-sidebar_label: Add MySQL databases
+sidebar_label: Adding MySQL Databases
 description: This guide will help you add MySQL databases to your server
 keywords:
   - Bloom.host
   - Pterodactyl Panel
   - MySQL
   - Databases
-image: ../static/img/databases/databases1.png
+image: https://bloom.host/assets/images/logo.png
 ---
-# Subusers
-![Bloom.host Databases]
-Hey there Bloomers! In this guide, we will go over how to create MySQL databases for your Minecraft server.
+# Adding MySQL Databases
+
+Hey there Bloomers! 👋
+
+In this guide, we will go over how to create MySQL databases for your Minecraft server.
+
+---
+
+First, go to your [game panel](https://mc.bloom.host/) and on the left sidebar, select 'Databases'.
+
+
+![Bloom.host Databases](../static/img/databases/databases1.png)
+
+The red highlighted area is where you can manage any existing databases. Click 'New Database' to create your first!
 
 ![Bloom.host Databases](../static/img/databases/databases2.png)
-In here, there are 2 sections that are important. In the red is where all your databases are. These are were you can manage any existing databases. In the orange, you can create any new database. In the first box, you assign the database a name. In the box below it, you can restrict MySQL connections. If you don't plan on using it, it's recommended to leave it as % or put it as your server IP. In this tutorial, we will create a database. Pick a name and hit **Create Database**.
-
 ![Bloom.host Databases](../static/img/databases/databases3.png)
+
+In the first box, you assign the database a name. In the box below it, you can restrict MySQL connections. If you don't plan on using it, it's recommended to leave it as % or put it as your server IP. In this tutorial, we will create a database. Pick a name and hit **Create Database**.
+
 Once you have created the database, it will appear in your list. In order to use it for plugins, simply copy the details it shows into the configuration files for the plugins. Using those credentials, lets give some examples.
 
+---
+
 ## Examples
-### Luckperms:
+### • Luckperms:
 ```YAML
 storage-method: MySQL
 
@@ -47,7 +61,7 @@ data:
   username: u178_uIxN5UjEZy
   password: '@CSyH7IV8r4TUnaA3A7lu^2T'
 ```
-### LiteBans
+### • LiteBans
 ```YAML
 sql:
   # H2, MySQL, MariaDB, and PostgreSQL are supported database drivers.
@@ -65,7 +79,7 @@ sql:
   username: 'u178_uIxN5UjEZy'
   password: '@CSyH7IV8r4TUnaA3A7lu^2T'
 ```
-### CoreProtect
+### • CoreProtect
 ```YAML
 use-mysql: true
 table-prefix: co_
@@ -75,7 +89,7 @@ mysql-database: s178_test
 mysql-username: u178_uIxN5UjEZy
 mysql-password: @CSyH7IV8r4TUnaA3A7lu^2T
 ```
-### PLAN
+### • Plan
 ```YAML
 Database:
     Type: MySQL
@@ -90,3 +104,5 @@ Database:
 ```
 
 Remember to switch out the credentials for what you need!
+
+---
