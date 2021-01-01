@@ -24,8 +24,6 @@ Welcome to our docs! Here you can find useful information about using our panel,
 >
 > - **[Plugins](plugins/chunky.md)**: Interesting, cool, and useful plugins.
 >
-> - **[FAQ](faq.md)**: Some answers to a few frequently asked questions.
->
 > - **[Contributing to the Docs](contributing.md)**: We aim to provide fast highly quality support and a good set of docs are crucial for that. Volunteers are very welcome! 
 
 If you can't seem to find answers for your questions, be sure to get in touch! 
