@@ -1,6 +1,6 @@
 module.exports = {
   someSidebar: {
-    'Overview': ['overview', 'faq', 'editing-account-details'],
+    'Overview': ['overview', 'editing-account-details'],
     'Using the Panel': ['basic-controls', 'scheduling-actions', 'how-to-use-sftp', 'sub-users', 'databases', 'file-manager-controls', '2fa'],
     'Running a Server': [
       {
