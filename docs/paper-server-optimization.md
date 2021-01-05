@@ -42,14 +42,14 @@ Keep in mind, this guide merely provides suggestions, and should not be taken ex
 ### `spawn-protection`
 - Default: 16
 - Recommended: 0
-- Iportance: Medium
-Explanation: Vanilla spawn protection will protect a certain amount of chunks surrounding your world spawn. The vanilla implementation is buggy, and something such as WorldGuard or GriefPrevention should be used instead.
+- Importance: Medium
+- Explanation: Vanilla spawn protection will protect a certain amount of chunks surrounding your world spawn. The vanilla implementation is buggy, and something such as WorldGuard or GriefPrevention should be used instead.
 
 ### `view-distance`
 - Default: 10
 - Recommended: 4-7
 - Importance: Very High
-Explanation: This is a big performance setting as it sets how many chunks around the player should be “active” at any given moment. This is not how far the player can see. (See paper.yml’s “no-tick-view-distance”.
+- Explanation: This is a big performance setting as it sets how many chunks around the player should be “active” at any given moment. This is not how far the player can see. (See paper.yml’s “no-tick-view-distance”.
 
 ---
 
