@@ -3,7 +3,7 @@ id: plugins
 title: Plugins
 hide_title: true
 hide_table_of_contents: false
-sidebar_label: Installing plugins
+sidebar_label: Installing Plugins
 description: How to install minecraft plugins on your server.
 keywords:
   - Template
@@ -17,7 +17,7 @@ image: https://bloom.host/assets/images/logo.png
 ---
 # Installing Plugins on your server
 :::note
-This tutorial assumes you're using [Bukkit](https://bukkit.org) (or a fork of it, such as [Spigot](https://spigotmc.org) or [Paper](https://papermc.io)).
+This tutorial assumes you're using [Bukkit](https://bukkit.org) (or a fork of it, such as [Spigot](https://spigotmc.org) or [Paper](https://papermc.io).
 :::
 
 You'll first need to find the plugin you wish to install. Downloads can be found on a variety of sites. Common places are [Spigot's Resource forums](https://spigotmc.org/resources) or the [Bukkit Dev](https://dev.bukkit.org) website. Make sure you trust the source of your downloads, as plugins have high-level access to your server.
