@@ -1,7 +1,21 @@
 module.exports = {
   someSidebar: {
-    'Overview': ['overview', 'editing-account-details'],
-    'Using the Panel': ['basic-controls', 'scheduling-actions', 'how-to-use-sftp', 'sub-users', 'databases', 'file-manager-controls', '2fa'],
+    'Overview': [
+      'overview',
+      'editing-account-details'
+    ],
+    
+    'Using the Panel': [
+      'basic-controls', 
+      'scheduling-actions', 
+      'how-to-use-sftp', 
+      'sub-users', 
+      'databases', 
+      'file-manager-controls', 
+      'backups',
+      '2fa'
+    ],
+    
     'Running a Server': [
       {
         'Server Optimization': ['general-server-optimization', 'fabric-server-optimization'],
@@ -13,7 +27,6 @@ module.exports = {
     'Plugins': [
       'plugins/advancedanticheat', 
       'plugins/bungeeguard', 
-
       'plugins/chunky', 
       'plugins/citizens2',
       'plugins/conditionalcommands', 
@@ -33,8 +46,19 @@ module.exports = {
       'plugins/votifier', 
       'plugins/worldedit', 
     ],
-    'Extras': ['mobile-app', 'reverse-proxy', 'adding-an-icon', 'srvcontrol'],
-    'Extras': ['mobile-app', 'reverse-proxy','adding-an-icon', 'srvcontrol'],
+    
+    'Mods': [
+      'fabric-mods', 
+      'forge-mods',
+    ],
+    
+    'Extras': [
+      'mobile-app', 
+      'reverse-proxy', 
+      'adding-an-icon', 
+      'srvcontrol'
+    ],
+    
     'Other Languages': [
       {
         'Español': [
