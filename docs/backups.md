@@ -81,7 +81,7 @@ To exclude a folder or file in the root directory:
 To exclude a file or folder in a subfolder:  
 *foldername/folder_or_file_name*
 
-### Here are a few examples to help you understand:  
+**Here are a few examples to help you understand:**  
 cache  
 server.properties  
 plugins/CoreProtect/config.yml  
