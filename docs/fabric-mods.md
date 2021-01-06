@@ -26,7 +26,7 @@ In any case, save the mod to your local machine. Mods can either be uploaded via
 In your server's root directory, locate the `/mods` folder, if it's not there then create a new directory named `/mods`. Navigate into this folder, and upload your mods' file there! The vast majority of mods require you to restart your server to take effect.
 
 :::note
-Be sure to use the correct version of the mod. Unlike Spigot/Paper, mods are likely not compatible cross version.
+Be sure to use the correct version of the mod. Unlike Spigot/Paper, mods are likely not across minecraft versions.
 :::
 Additionally, many Fabric mods require the [Fabric-API](https://www.curseforge.com/minecraft/mc-mods/fabric-api). Download the relevant Fabric API for you server version, and put this file in the `/mods` directory as well.
 

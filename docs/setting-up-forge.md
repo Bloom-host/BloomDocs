@@ -31,3 +31,7 @@ A new folder will appear named `mods`. Place any jars of mods you want in here a
 In the end, it should look like this: 
 
 ![Bloom.host Forge](../static/img/setting-up-forge/forge3.png)
+
+## Installing Forge mods 
+ 
+Refer to [this](forge-mods) guide.

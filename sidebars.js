@@ -21,9 +21,13 @@ module.exports = {
         'Server Optimization': ['general-server-optimization', 'fabric-server-optimization'],
       },
       {
-        'Install Plugins/Mods': ['bukkit-plugins', 'fabric-mods'],
+        'Other Server Jars': ['whichsoftwaretouse', 'setting-up-fabric', 'setting-up-forge'],
       },
-      'pointing-a-domain', 'whichsoftwaretouse', 'setting-up-forge', 'server-resource-packs', 'datapacks', 'timings', 'motd', 'reset-worlds'],
+      {
+        'Install Plugins/Mods': ['bukkit-plugins', 'fabric-mods', 'forge-mods'],
+      },
+      'pointing-a-domain', 'server-resource-packs', 'datapacks', 'timings', 'motd', 'reset-worlds'
+    ],
     'Plugins': [
       'plugins/advancedanticheat', 
       'plugins/bungeeguard', 
@@ -45,11 +49,6 @@ module.exports = {
       'plugins/viaversion', 
       'plugins/votifier', 
       'plugins/worldedit', 
-    ],
-    
-    'Mods': [
-      'fabric-mods', 
-      'forge-mods',
     ],
     
     'Extras': [
