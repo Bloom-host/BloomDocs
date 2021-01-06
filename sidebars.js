@@ -4,8 +4,12 @@ module.exports = {
     'Using the Panel': ['basic-controls', 'scheduling-actions', 'how-to-use-sftp', 'sub-users', 'databases', 'file-manager-controls', '2fa'],
     'Running a Server': [
       {
-        'Server Optimization': ['paper-server-optimization', 'fabric-server-optimization'],
-      }, 'plugins', 'pointing-a-domain', 'whichsoftwaretouse', 'setting-up-forge', 'server-resource-packs', 'datapacks', 'timings', 'motd', 'reset-worlds'],
+        'Server Optimization': ['general-server-optimization', 'fabric-server-optimization'],
+      },
+      {
+        'Install Plugins/Mods': ['bukkit-plugins', 'fabric-mods'],
+      },
+      'pointing-a-domain', 'whichsoftwaretouse', 'setting-up-forge', 'server-resource-packs', 'datapacks', 'timings', 'motd', 'reset-worlds'],
     'Plugins': [
       'plugins/advancedanticheat', 
       'plugins/bungeeguard', 

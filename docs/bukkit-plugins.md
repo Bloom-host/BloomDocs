@@ -1,9 +1,9 @@
 ---
-id: plugins
-title: Plugins
+id: bukkit-plugins
+title: Bukkit Plugins
 hide_title: true
 hide_table_of_contents: false
-sidebar_label: Installing Plugins
+sidebar_label: Installing Spigot Plugins
 description: How to install minecraft plugins on your server.
 keywords:
   - Template
