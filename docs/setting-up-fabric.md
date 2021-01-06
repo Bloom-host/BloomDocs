@@ -42,7 +42,7 @@ It's a server without mods though, so it's still purely vanilla at this point, k
 You'll first need to find the mods you wish to install. Most mods can be found on [CurseForge](https://www.curseforge.com/minecraft/mc-mods/fabric).  
 Make sure to use mods for the correct minecraft version, mods made for minecraft 1.12 will not work on 1.16 unless specifically stated otherwise.  
 Also make sure you get mods that say they work on the serverside, clientside mods will do nothing on a server.  
-You can also check the list of Fabric mods on this knowledge base if you want a few recommendations.
+You can also check the [list of Fabric mods](https://docs.bloom.host/mods/fabric-mods) on this knowledge base if you want a few recommendations.
 
 Place the mods you want in the *mods* folder in your server's root directory.  
 Restart your server.
