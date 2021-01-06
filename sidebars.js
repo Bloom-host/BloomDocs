@@ -6,13 +6,13 @@ module.exports = {
     ],
     
     'Using the Panel': [
-      'backups',
       'basic-controls', 
       'scheduling-actions', 
       'how-to-use-sftp', 
       'sub-users', 
       'databases', 
       'file-manager-controls', 
+      'backups',
       '2fa'
     ],
     
