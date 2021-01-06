@@ -1,9 +1,9 @@
 ---
-id: paper-server-optimization
+id: general-server-optimization
 title: Paper Server Optimization
 hide_title: true
 hide_table_of_contents: true
-sidebar_label: Paper Server Optimization
+sidebar_label: General Server Optimization
 description: How to optimize your paper minecraft server.
 keywords:
   - Template
@@ -17,22 +17,25 @@ keywords:
   - Bloom.host
 image: https://bloom.host/assets/images/logo.png
 ---
-# Paper Optimization Guide
+# Server Optimization Guide
 #### `By Sancires`
 
 Updated for version 1.16.4! 
 
-Since 1.13, Minecraft servers have gotten progressively harder to run. Paper, a fork of Spigot, offers many settings that greatly improve performance. For this guide, we will be dealing with four main files. 
+Since 1.13, Minecraft servers have gotten progressively harder to run. Paper, a fork of Spigot, offers many settings that greatly improve performance. For this guide, we will be dealing with four main files.
+
 
 Download Paper: [papermc.io](https://papermc.io/)
 
 
 Keep in mind, this guide merely provides suggestions, and should not be taken exactly, as every server is different.
 
+#### ~ While Paper is reccomended, many optimizations here can be done without the need for it.
+
 ---
 
 ## server.properties
-
+#### ~ Applies to Vanilla, Bukkit, Spigot and Paper.
 ### `allow-flight`
 - Default: false
 - Recommended: true
@@ -54,7 +57,7 @@ Keep in mind, this guide merely provides suggestions, and should not be taken ex
 ---
 
 ## bukkit.yml
-
+#### ~ Only applies to Bukkit, Spigot and Paper.
 ### `spawn-limits`
 - Default: monsters:70, animals:10, water-animals:15, water-ambient: 2, ambient:15
 - Recommended: monsters:15, animals:6, water-animals:2, water-ambient: 2, ambient:0
@@ -76,7 +79,7 @@ Keep in mind, this guide merely provides suggestions, and should not be taken ex
 ---
 
 ## spigot.yml
-
+#### ~ Only applies to Spigot and Paper.
 ### `save-user-cache-on-stop-only`
 - Default: true
 - Recommended: False
@@ -146,7 +149,7 @@ Keep in mind, this guide merely provides suggestions, and should not be taken ex
 ---
 
 ## paper.yml
-
+#### ~ Only applies to Paper.
 ### `max-auto-save-chunks-per-tick`
 - Default:  24
 - Recommended:  6-8

@@ -27,7 +27,7 @@ You can access your server's main control panel [here](https://mc.bloom.host/)! 
 ![Basic Controls](../static/img/basic-controls/basic-controls1.png)
 ---
 
-### **Ontop of the panel you can view live information about your server!**
+### **On top of the panel you can view live information about your server!**
 - Here you can see your server's public IP address which is used to connect to your server (Purple) and your server's ID which is crucial when reciving support! (Blue)
 - Green is your memory the memory usage your server is using. With Aikar's flags, you will be using most of this. Unused memory is wasted memory!
 - Orange is the CPU usage of your two cores. Minecraft Paper will only utilize 2 cores, meaning, having more doesn’t mean better performance. If you wish to have more, consider getting a VPS.
