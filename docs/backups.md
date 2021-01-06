@@ -4,7 +4,7 @@ title: Backups
 hide_title: true
 hide_table_of_contents: false
 sidebar_label: How to create backups
-description: his guide will show you how to make backups in the panel.
+description: This guide will show you how to make backups in the panel.
 keywords:
   - Backups
   - Pterodactyl Panel
