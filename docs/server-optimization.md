@@ -1,5 +1,5 @@
 ---
-id: general-server-optimization
+id: server-optimization
 title: Paper Server Optimization
 hide_title: true
 hide_table_of_contents: true
