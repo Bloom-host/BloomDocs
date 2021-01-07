@@ -15,11 +15,11 @@ image: https://bloom.host/assets/images/logo.png
 ---
 # Performance Mods
 
-Make sure to also check out the [Server Optimization Guide](https://docs.bloom.host/general-server-optimization)
+Make sure to also check out the [Server Optimization Guide](../server-optimization.md)
 
 ## How to install these mods
 
-Check out the [Installing Fabric Mods](https://docs.bloom.host/fabric-mods) page.
+Check out the [Installing Fabric Mods](../fabric-mods.md) page.
 
 ## The mod list
 
@@ -34,7 +34,7 @@ Carpet mod adds several new features to the game, which are all disabled by defa
 ### Chunky 
 
 Chunk pregenerating mod by Pop4959 that pregenerates chunks very quickly and efficiently, which is helpful for reducing server lag.  
-See [Fabric Mods: Chunky](https://docs.bloom.host/fabric-mods/chunky_fabric.md)
+See [Fabric Mods: Chunky](chunky_fabric.md)
 
 ### Lithium
 
