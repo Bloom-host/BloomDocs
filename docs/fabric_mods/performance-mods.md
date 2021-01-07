@@ -4,7 +4,7 @@ title: Performance Mods
 hide_title: true
 hide_table_of_contents: false
 sidebar_label: Performance Mods
-description: A list of plugins that will help combat lag on paper servers.
+description: A list of mods that will help combat lag on paper servers.
 keywords:
   - Performance
   - Fabric
