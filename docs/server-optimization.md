@@ -23,7 +23,7 @@ image: https://bloom.host/assets/images/logo.png
 Updated for version 1.16.4! 
 
 Since 1.13, Minecraft servers have gotten progressively harder to run. Paper, a fork of Spigot, offers many settings that greatly improve performance. For this guide, we will be dealing with four main files.  
-(If you use fabric make sure to also check out [Fabric Performance Mods](performance-mods))
+(If you use fabric make sure to also check out [Fabric Performance Mods](fabric_mods/performance-mods.md))
 
 Download Paper: [papermc.io](https://papermc.io/)
 
