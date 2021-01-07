@@ -2,32 +2,30 @@
 id: overview
 title: Docs Overview
 hide_title: true
-hide_table_of_contents: false
+hide_table_of_contents: true
 sidebar_label: Docs Overview
 description: Overview on the bloom documentation.
 keywords:
   - Overview
   - Minecraft
-  - BloomVPS
-image: https://bloomvps.com/assets/images/logo.png
+  - Bloom.host
+image: https://bloom.host/assets/images/logo.png
 ---
 # Bloom Docs Overview
-## Help Sections
-### Basics
-The basics to getting started with your minecraft server, includes navigating the panel and file access
 
-**[Click here to view:point_left:](basic-controls.md)**
-### Optimizations
-Optimizing your server to perform better
+Hey Bloomers! 👋
 
-**[Click here to view:point_left:](fabric-server-optimization.md)**
-### Plugins
-Interesting, cool, and useful plugins
+Welcome to our docs! Here you can find useful information about using our panel, running servers, frequently asked questions and more! 
 
-**[Click here to view:point_left:](plugins/chunky.md)**
-### Extras
-Other related guides that don't really fit any other category.
+### Quick links: 
+> - **[Basics](basic-controls)**: The basics to getting started with your Minecraft server. This guide includes navigating the panel and file access.
+>
+> - **[Optimizations](fabric-server-optimization.md)**: Optimizing your server to perform better.
+>
+> - **[Plugins](plugins/chunky.md)**: Interesting, cool, and useful plugins.
+>
+> - **[Contributing to the Docs](contributing.md)**: We aim to provide fast highly quality support and a good set of docs are crucial for that. Volunteers are very welcome! 
 
-**[Click here to view:point_left:](mobile-app.md)**
-## Contributing to the Docs
-**[Click here to view:point_left:](contributing.md)**
+If you can't seem to find answers for your questions, be sure to get in touch! 
+
+The fastest way is to join our [Discord server](https://discord.gg/bloom) and open a ticket in `#support-tickets`

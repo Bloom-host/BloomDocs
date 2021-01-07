@@ -14,9 +14,9 @@ keywords:
   - Spigot
   - 1.16
   - Minecraft
-  - BloomVPS
+  - Bloom.host
   - Español
-image: https://bloomvps.com/assets/images/logo.png
+image: https://bloom.host/assets/images/logo.png
 ---
 # **Como crear un Reporte de Timings**
 
@@ -33,4 +33,4 @@ Una vez esperado, ejecuta el comando `/timings paste`. Deberías recibir un link
 
 Abre el link y verás tu página de Timings. Cualquier cosa en rojo está usando un exceso de recursos. También, puedes buscar en la pestaña de plugins para ver cuales están usando más recursos en tu servidor.
 
-Si necesitas ayuda leyendo tus timings, puedes entrar al servidor de [Discord de BloomVPS](https://discord.gg/bloom).
+Si necesitas ayuda leyendo tus timings, puedes entrar al servidor de [Discord de Bloom.host](https://discord.gg/bloom).

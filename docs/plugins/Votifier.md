@@ -4,37 +4,31 @@ title: Votifier
 hide_title: true
 hide_table_of_contents: false
 sidebar_label: Votifier
-description: Votifier allows you to be put on voting sites, which increases your servers visibility. Superbvote allows you to give rewards for players to vote. 
+description: Votifier allows you to be put on voting sites, which increases your servers visibility. Superbvote allows you to give rewards for players to vote.
 keywords:
   - Votifier
   - Superbvote
   - Set up voting
   - Spigot
-  - BloomVPS
+  - Bloom.host
   - Pterodactyl Panel
   - Minecraft
-image: https://bloomvps.com/assets/images/logo.png
+image: https://bloom.host/assets/images/logo.png
 ---
 # **Votifier**
 
-## Info
-
-[Nuvotifier Spigot](https://www.spigotmc.org/resources/nuvotifier.13449/)
-
-[Superbvote Spigot](https://www.spigotmc.org/resources/superbvote.11626/)
-
 ## What does the plugin do?
-Votifier is a plugin that allows players to receive rewards when voting for your server on server list sites.
 
-SuperbVote is a Vote Rewards plugin that you can customize to give rewards for voting on Voting sites.
+Votifier is a plugin that allows players to receive rewards when voting for your server on server list sites.  
+
+SuperbVote is a vote rewards plugin that you can customize to give rewards for voting on Voting sites.  
+
 ## Usage
-First, Download the Nuvotifier plugin and install it into your **`plugins`** folder, and install the Superbvote plugin  into the same place, Restart your server and enter the Nuvotifer**`config.yml`** in the config, take a note of your port number
+First, download the [NuVotifier](https://www.spigotmc.org/resources/nuvotifier.13449/) plugin and install it into your `plugins` folder. Install the [SuperbVote](https://www.spigotmc.org/resources/superbvote.11626/) plugin into the same place. Restart your server and enter the NuVotifer `config.yml` in its folder. Take a note of your port number.  
 
-Then go to the BloomVPS discord [join here!](https://discord.gg/bloom), and request that the port in your Nuvotifier Config be opened,
+Next, go to the Bloom.host discord [here](https://discord.gg/bloom) and open a ticket requesting for the port in your NuVotifier config to be opened.  
 
-
-Then,
-Enter your Superbvote **`config.yml`** and then add what rewards you want to give your players, also you can store the data in a MySQL database if you would like, if you don't know how [click here!](https://docs.bloom.host/plugins)
+Enter your SuperbVote `config.yml` and add what rewards you want to give your players. You can also store the data in a MySQL database if you would like. If you don't know how, [click here](https://docs.bloom.host/plugins) or ask in the discord.  
 ```YAML
     mysql:
      host: 123.456.789.10
@@ -45,5 +39,10 @@ Enter your Superbvote **`config.yml`** and then add what rewards you want to giv
      read-only: false
 ```
 
-Finally, save both Configs and Restart your server.
+Finally, save both configs and restart your server.  
 
+## Info
+
+[Nuvotifier Spigot](https://www.spigotmc.org/resources/nuvotifier.13449/)  
+
+[Superbvote Spigot](https://www.spigotmc.org/resources/superbvote.11626/)

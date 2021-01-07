@@ -10,12 +10,12 @@ keywords:
   - BungeeCord
   - Java
   - Spigot
-  - BloomVPS
+  - Bloom.host
   - Pterodactyl Panel
   - Minecraft
   - Español
   - Plugins
-image: https://bloomvps.com/assets/images/logo.png
+image: https://bloom.host/assets/images/logo.png
 ---
 # BungeeGuard
 ## Info

@@ -6,7 +6,7 @@ hide_table_of_contents: false
 sidebar_label: Softwares y cual utilizar
 description: Esta guía te ayudará a escoger cual jar usar.
 keywords:
-  - BloomVPS
+  - Bloom.host
   - Spigot
   - Paper
   - Bukkit
@@ -22,7 +22,7 @@ keywords:
   - Minecraft
   - Software
   - Español
-image: ../../../../static/img/WhichSoftwaretoUse/WhichSoftwaretoUse1.png
+image: https://bloom.host/assets/images/logo.png
 ---
 # ¿Cuál Software usar?
 ¡Hola Bloomers! En esta guía, repasaremos cual software es el necesario para tu servidor.

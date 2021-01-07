@@ -1,13 +1,16 @@
 module.exports = {
   title: 'Bloom Docs',
   tagline: 'Docs for Bloom',
-  url: 'https://docs.bloomvps.com',
+  url: 'https://docs.bloom.host',
   baseUrl: '/',
   onBrokenLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'billy-bloom', // Usually your GitHub org/user name.
   projectName: 'bloomdocs', // Usually your repo name.
   themeConfig: {
+    colorMode: {
+      defaultMode: 'dark',
+    },
     navbar: {
       title: 'Bloom Docs',
       logo: {
@@ -16,7 +19,7 @@ module.exports = {
       },
       items: [
         {
-          href: 'https://bloomvps.com',
+          href: 'https://bloom.host',
           label: 'Home',
           position: 'right',
         },
@@ -35,7 +38,7 @@ module.exports = {
           items: [
             {
               label: 'Discord',
-              href: 'https://discordapp.com/invite/2QxW8QY',
+              href: 'https://discord.com/invite/8UGXqNBDt6',
             },
           ],
         },

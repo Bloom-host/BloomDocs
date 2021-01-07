@@ -6,10 +6,10 @@ hide_table_of_contents: false
 sidebar_label: Reverse Proxy
 description: This guide will help you set up a reverse proxy for your minecraft server.
 keywords:
-  - BloomVPS
   - Reverse Proxy
   - Minecraft Server
   - Pterodactyl Panel
+  - Bloom.host
 image: https://media.discordapp.net/attachments/738919680332529714/742239368919515207/ReverseProxy.png?width=1204&height=677
 ---
 # Setting up a reverse proxy
@@ -18,4 +18,4 @@ image: https://media.discordapp.net/attachments/738919680332529714/7422393689195
 :::caution
 Make sure you don't proxy it using cloudflare, as that may break things. A domain is also required for this step.  
 :::
-2. Once you’ve done that, open a support ticket on our discord. Provide your hostname + domain name (ex: map.example.com), and the ip & port you want to proxy (ex: 192.168.0.1:8123). You can find your ip + port by opening the configuration dropdown menu, and selecting “Allocation Settings”. After you’ve provided the information, we will handle the rest.  
+2. Once you’ve done that, open a support ticket on our discord. Provide your hostname + domain name (ex: map.example.com), and the IP & port you want to proxy (ex: 192.168.0.1:8123). You can find your IP + port by opening the configuration dropdown menu, and selecting “Allocation Settings”. After you’ve provided the information, we will handle the rest.  

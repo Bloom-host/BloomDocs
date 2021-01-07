@@ -10,8 +10,8 @@ keywords:
   - MOTD
   - Spigot
   - Minecraft
-  - BloomVPS
-image: https://bloomvps.com/assets/images/logo.png
+  - Bloom.host
+image: https://bloom.host/assets/images/logo.png
 ---
 # Cómo cambiar tu MOTD
 
