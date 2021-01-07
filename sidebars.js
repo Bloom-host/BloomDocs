@@ -23,7 +23,7 @@ module.exports = {
       {
         'Install Plugins/Mods': ['bukkit-plugins', 'fabric-mods', 'forge-mods'],
       },
-      'general-server-optimization'
+      'general-server-optimization',
       'pointing-a-domain', 
       'server-resource-packs', 
       'datapacks', 
