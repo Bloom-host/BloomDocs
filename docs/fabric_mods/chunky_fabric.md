@@ -22,7 +22,7 @@ Chunky pregenerates chunks very quickly and efficiently, which is helpful for re
 
 ## How to install
 
-Check out the [Installing Fabric Mods](https://docs.bloom.host/fabric-mods) page.
+Check out the [Installing Fabric Mods](../fabric-mods.md) page.
 
 ## Usage
 
