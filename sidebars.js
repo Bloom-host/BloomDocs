@@ -18,37 +18,51 @@ module.exports = {
     
     'Running a Server': [
       {
-        'Server Optimization': ['general-server-optimization', 'fabric-server-optimization'],
-      },
-      {
         'Other Server Jars': ['whichsoftwaretouse', 'setting-up-fabric', 'setting-up-forge'],
       },
       {
         'Install Plugins/Mods': ['bukkit-plugins', 'fabric-mods', 'forge-mods'],
       },
-      'pointing-a-domain', 'server-resource-packs', 'datapacks', 'timings', 'motd', 'reset-worlds'
+      'server-optimization',
+      'pointing-a-domain', 
+      'server-resource-packs', 
+      'datapacks', 
+      'timings', 
+      'motd', 
+      'reset-worlds'
     ],
-    'Plugins': [
-      'plugins/advancedanticheat', 
-      'plugins/bungeeguard', 
-      'plugins/chunky', 
-      'plugins/citizens2',
-      'plugins/conditionalcommands', 
-      'plugins/coreprotect', 
-      'plugins/craftingstore', 
-      'plugins/discordsrv', 
-      'plugins/dynmap', 
-      'plugins/geysermc', 
-      'plugins/Litebans', 
-      'plugins/luckperms', 
-      'plugins/Milk', 
-      'plugins/multiverse', 
-      'plugins/prism', 
-      'plugins/ServerNPC', 
-      'plugins/spark', 
-      'plugins/viaversion', 
-      'plugins/votifier', 
-      'plugins/worldedit', 
+    
+    'Server Modifications (Plugins/Mods)': [
+      {
+        'Plugins': [
+          'plugins/advancedanticheat',
+          'plugins/bungeeguard', 
+          'plugins/chunky', 
+          'plugins/citizens2',
+          'plugins/conditionalcommands', 
+          'plugins/coreprotect', 
+          'plugins/craftingstore', 
+          'plugins/discordsrv', 
+          'plugins/dynmap', 
+          'plugins/geysermc', 
+          'plugins/Litebans', 
+          'plugins/luckperms', 
+          'plugins/Milk', 
+          'plugins/multiverse', 
+          'plugins/prism', 
+          'plugins/ServerNPC', 
+          'plugins/spark', 
+          'plugins/viaversion', 
+          'plugins/votifier', 
+          'plugins/worldedit',
+        ],
+      },
+      {
+        'Fabric Mods': [
+          'fabric_mods/performance-mods',
+          'fabric_mods/chunky_fabric', 
+        ],
+      },
     ],
     
     'Extras': [
