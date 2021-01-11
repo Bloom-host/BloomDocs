@@ -13,7 +13,8 @@ keywords:
 ---
 # Pterodactyl Mobile App
 
-Unfortunatly as of January 2020, Pterodactyl hasn't released a mobile module for the panel. :( Be sure to check back later for updates!
+Unfortunatly as of January 2021(Pterodactyl 1.0), Pterodactyl hasn't released a mobile module for the panel. :( Be sure to check back later for updates!
 <p align="center">
   <img src="https://i.imgur.com/Pcr4vNk.gif" />
 </p>
+In the meantime, you can still access it through the normal link
