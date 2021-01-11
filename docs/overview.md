@@ -20,7 +20,7 @@ Welcome to our docs! Here you can find useful information about using our panel,
 ### Quick links: 
 > - **[Basics](basic-controls)**: The basics to getting started with your Minecraft server. This guide includes navigating the panel and file access.
 >
-> - **[Optimizations](fabric-server-optimization.md)**: Optimizing your server to perform better.
+> - **[Optimizations](server-optimization.md)**: Optimizing your server to perform better.
 >
 > - **[Plugins](plugins/chunky.md)**: Interesting, cool, and useful plugins.
 >
