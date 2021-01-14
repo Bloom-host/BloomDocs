@@ -60,7 +60,8 @@ module.exports = {
       {
         'Fabric Mods': [
           'fabric_mods/performance-mods',
-          'fabric_mods/chunky_fabric', 
+          'fabric_mods/chunky_fabric',
+          'fabric_mods/luckperms_fabric',
         ],
       },
     ],
