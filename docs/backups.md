@@ -6,11 +6,11 @@ hide_table_of_contents: false
 sidebar_label: How to create backups
 description: This guide will show you how to make backups in the panel.
 keywords:
-- Backups
-- Pterodactyl Panel
-- Schedules
-- Bloom.host
-  image: https://bloom.host/assets/images/logo.png
+  - Backups
+  - Pterodactyl Panel
+  - Schedules
+  - Bloom.host
+image: https://bloom.host/assets/images/logo.png
 ---
 
 # Creating Backups
@@ -18,7 +18,7 @@ Hey there Bloomers! 👋
 
 In this guide, we will go over how create backups in the panel.  
 We will go over automating these backups.  
-And we will show you how to exclude files and folders from these backups.
+And we will show you how to exclude files and folders from these backups.  
 
 
 ## Manual backups
@@ -49,7 +49,7 @@ To do this, head over to the Schedules tab on the panel.
 
 ![The Schedules tab](../static/img/scheduling-actions/scheduling-actions1.png)
 
-Here is where all your schedules are located. We are going to add a schedule that starts a backup, but these schedules can do way more! Find some examples at [Scheduling Actions](https://docs.bloom.host/scheduling-actions/).
+Here is where all your schedules are located. We are going to add a schedule that starts a backup, but these schedules can do way more! Find some examples at [Scheduling Actions](https://docs.bloom.host/scheduling-actions/). 
 
 For now we are just going to create a backup, but be sure to check out the other schedule options too!  
 To make a new schedule, click the **Create New** button. Enter a name for your schedule and enter a valid timing for it.  
@@ -61,7 +61,7 @@ Keep in mind all Bloom servers run on Universal Standard Time (UTC), so make sur
 Once finished, click create and open it from the list.  
 Click 'New Task'  
 And set Action to **Create backup*
-
+ 
 ![Backup options](../static/img/backups/backups4.png)
 
 And you're done!  
@@ -87,7 +87,7 @@ To exclude a file or folder in a subfolder:
 cache  
 server.properties  
 plugins/CoreProtect/config.yml  
-plugins/LuckPerms
+plugins/LuckPerms  
 
 This list will (from top to bottom) exclude the cache folder, the server.properties file, the CoreProtect config file and the whole LuckPerms folder.
 
