@@ -75,6 +75,8 @@ If you have reached the backup limit, the oldest backup will be rotated.
 It's also possible to ignore some specific files or folders in your backups!  
 Put these exclusions in the Ignored Files box, keep in mind that they are case sensitive!
 
+Pterodactyl follows the same format as ``.gitignore``, for a relevant guide, check out [this page](https://git-scm.com/docs/gitignore).
+
 To exclude a folder or file in the root directory:  
 *folder_or_file_name*
 
