@@ -9,7 +9,7 @@ keywords:
   - Bloom.host
   - Pterodactyl Panel
   - Reverse Proxy
-  image: https://bloom.host/assets/images/logo.png
+image: https://bloom.host/assets/images/logo.png
 ---
 # Creating a Reverse Proxy
 
