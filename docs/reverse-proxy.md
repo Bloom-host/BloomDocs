@@ -31,6 +31,8 @@ The DNS record required for a reverse proxy is a CNAME (canonical name). You wil
 
 :::note
 CNAME records can take some time to propagate, though this depends on you ISP and other factors.
+
+For more information, check out [this page](https://dnschecker.org/#CNAME).
 :::
 
 :::warning
