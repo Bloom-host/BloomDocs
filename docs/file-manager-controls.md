@@ -15,7 +15,7 @@ image: https://bloom.host/assets/images/logo.png
 ---
 # File Manager Controls
 
-Hey Bloomers! 👋 
+Hey there Bloomers! 👋 
 
 In this guide, we will go over the basic controls of the file manager and how to utilize it to its fullest! Check out our next page for information about SFTP!
 
