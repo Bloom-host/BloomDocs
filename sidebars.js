@@ -10,7 +10,8 @@ module.exports = {
       'scheduling-actions', 
       'how-to-use-sftp', 
       'sub-users', 
-      'databases', 
+      'databases',
+      'reverse-proxy',
       'file-manager-controls', 
       'backups',
       '2fa'
@@ -67,8 +68,7 @@ module.exports = {
     ],
     
     'Extras': [
-      'mobile-app', 
-      'reverse-proxy', 
+      'mobile-app',
       'adding-an-icon', 
       'srvcontrol'
     ],
