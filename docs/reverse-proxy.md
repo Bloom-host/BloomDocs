@@ -29,6 +29,10 @@ First, you will want to head over to your domain's DNS settings panel, in this d
 
 The DNS record required for a reverse proxy is a CNAME (canonical name). You will want to create an identical CNAME record as the one pictured above, but you will replace the 'Name' field with the subdomain of your choice.
 
+:::note
+CNAME records can take some time to propagate, though this depends on you ISP and other factors.
+:::
+
 :::warning
 If you do use Cloudflare for DNS, make sure to set the 'Proxy status' as **DNS only** as it won't work if it's proxied.
 :::
