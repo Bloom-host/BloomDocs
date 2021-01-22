@@ -10,7 +10,8 @@ module.exports = {
       'scheduling-actions', 
       'how-to-use-sftp', 
       'sub-users', 
-      'databases', 
+      'databases',
+      'reverse-proxy',
       'file-manager-controls', 
       'backups',
       '2fa'
@@ -60,14 +61,14 @@ module.exports = {
       {
         'Fabric Mods': [
           'fabric_mods/performance-mods',
-          'fabric_mods/chunky_fabric', 
+          'fabric_mods/chunky_fabric',
+          'fabric_mods/luckperms_fabric',
         ],
       },
     ],
     
     'Extras': [
-      'mobile-app', 
-      'reverse-proxy', 
+      'mobile-app',
       'adding-an-icon', 
       'srvcontrol'
     ],
