@@ -15,14 +15,17 @@ keywords:
   - Pterodactyl Panel
 image: https://bloom.host/assets/images/logo.png
 ---
+
 # Horarios
-![Bloom.host Scheduling Actions](../../../../../static/img/scheduling-actions/scheduling-actions1.png)
 
-¡Hola Bloomers! En esta guía, repasaremos como usar el horario para preparar acciones en horas determinadas para tu servidor.
+¡Hola Bloomers! 👋
+En esta guía, repasaremos como usar el horario para preparar acciones en horas determinadas para tu servidor.
 
-![Bloom.host Scheduling Actions](../../img/horarios/horarios2.png)
+--- 
 
-Primero, necesitas ir al panel de tu servidor y luego a la barra lateral. Luego, encontrarás una sección llamada Horarios. El número al costado indica cuantas acciones has puesto hasta ahora. 
+Primero, necesitas ir al panel de tu servidor y mira la barra lateral, encontrarás una sección llamada Schedules (Horarios).
+
+![Bloom.host Scheduling Actions](../static/img/scheduling-actions/scheduling-actions1.png) 
 
 ![Bloom.host Scheduling Actions](../../img/horarios/horarios3.png)
 
