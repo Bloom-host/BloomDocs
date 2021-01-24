@@ -25,39 +25,45 @@ En esta guía, repasaremos como usar el horario para preparar acciones en horas 
 
 Primero, necesitas ir al panel de tu servidor y mira la barra lateral, encontrarás una sección llamada Schedules (Horarios).
 
-![Bloom.host Scheduling Actions](../static/img/scheduling-actions/scheduling-actions1.png) 
+![Bloom.host Scheduling Actions](../../../../../static/img/scheduling-actions/scheduling-actions1.png) 
 
-![Bloom.host Scheduling Actions](../../img/horarios/horarios3.png)
+Aquí es donde todos tus horarios se encuentran en un solo lugar. Para añadir uno nuevo, da click en el botón **Create New** (Crear Nuevo).
 
-Aquí es donde todos tus horarios se encuentran en un solo lugar. Para añadir uno nuevo, da click en el botón **Create New**.
+Aquí, vas a ingresar un nombre para tu acción y una hora válida. Básicamente, tienes que especificar qué día o qué semana de qué mes se va a activar y a qué hora. También puedes especificar acciones para cada hora y mucho más.
 
-![Bloom.host Scheduling Actions](../../img/horarios/horarios4.png)
+:::tip Tip
+Sugerimos usar un [generador](https://crontab.guru/) para asegurarte que tienes el formato correcto. También toma en cuenta que todos los servidores de Bloom corren en la zona horaria UTC, así que tendrás que convertir tus horas locales a ella.
+:::
 
-En ese panel, hay 3 principales secciones para cada horario que crees. Su nombre, el día y la hora en que será activado, y la acción que hace.
+![Bloom.host Scheduling Actions](../../../../../static/img/scheduling-actions/scheduling-actions2.png)
 
-El nombre puede ser lo que desees. Puede ser “Reinicio Diario”, “¡Dile a Billy que es increíble!”, "Bloom.host es de lo mejor!” o "Eres Increíble!”.
+Una vez terminado, click en **Create** (Crear) y ábrelo de la lista. Aquí, click en **New Task** (Nueva Acción).
 
-La segunda sección es cuando será activado. Ten en cuenta que todos los servidores de Bloom corren en la zona horaria de Universal Standard Time (UTC), así que asegúrate de hacer el cálculo con la tuya. 
-El día en el cuál se activará puede ser un día del mes un el día de la semana. De modo que, si quieres que se active cada Sábado, das click en Saturday (Sábado en inglés). Si quieres que se active dos veces al més, puedes escoger el primero y el 15 del mes. Adicionalmente, puedes añadir un comodín, el cual es *. Esto significa que lo hará todos los días, útil para algo como reinicios diarios.
+![Bloom.host Scheduling Actions](../../../../../static/img/scheduling-actions/scheduling-actions3.png)
 
-La última sección consiste en lo que va a realizar, si bien un comando o una acción de poder. Los comandos deberían ponerse sin la “/”, y no acepta variables. Puedes usar una acción de poder, por ejemplo, apagar el servidor. Si usas “stop”, el servidor se va a apagar.
-Las acciones de poder disponibles son:
+![Bloom.host Scheduling Actions](../../../../../static/img/scheduling-actions/scheduling-actions4.png)
 
-- **Start** - Inicia el servidor
-- **Stop** - Apaga el servidor
-- **Restart** - Apaga y luego inicia el servidor
-- **Kill** - Termina el servidor (¡No recomendado!)
+La sección final es qué se va a hacer cuando llegue la hora. Puede ser un comando o una acción. Los comandos deben de ejecutarse sin el / y no aceptan variables. Puedes enviar una acción, como apagar el servidor. Las acciones disponibles son:
+
+| Comando | Descripción                         | 
+| :------ | :---------------------------------- |
+| start   | Inicia el servidor                  |
+| stop    | Apaga el servidor                   |
+| restart | Apaga y luego inicia el servidor    |
+| kill    | Mata el servidor (¡No recomendado!) |
+
+También puedes especificar un delay (retraso). Esto es útil por ejemplo, si quieres darles a tus jugadores una advertencia 5 minutos antes de un reinicio. 
+
+---
 
 ## Ejemplos
 
-“Reinicio Diario”
+### • ¡Día de Lanzamiento!
 
-![Bloom.host Scheduling Actions](../../img/horarios/horarios5.png)
+![Bloom.host Scheduling Actions](../../../../../static/img/scheduling-actions/scheduling-actions5.png)
 
-“¡Día de Lanzamiento!”
+### • Reinicio Diario
 
-![Bloom.host Scheduling Actions](../../img/horarios/horarios6.png)
+![Bloom.host Scheduling Actions](../../../../../static/img/scheduling-actions/scheduling-actions6.png)
 
-“LoJoSho debe terminar algo”
-
-![Bloom.host Scheduling Actions](../../img/horarios/horarios7.png)
+---

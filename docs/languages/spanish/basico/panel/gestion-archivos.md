@@ -27,7 +27,7 @@ En esta guía, repasaremos los controles básicos del gestor de archivos y cómo
 ### Accediendo al Explorador de Archivos
 
 
-![Bloom.host File Manager](../../../../../file-manager-controls/filemanager1.png)
+![Bloom.host File Manager](../../../../../img/file-manager-controls/filemanager1.png)
 
 
 ¡Para encontrar el explorador de archivos, ve al panel de Minecraft, y da click en **File Explorer** (Explorador de Archivos) como en la imagen!
