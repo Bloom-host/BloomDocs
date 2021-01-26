@@ -19,6 +19,7 @@ image: https://bloom.host/assets/images/logo.png
 # Horarios
 
 ¡Hola Bloomers! 👋
+
 En esta guía, repasaremos como usar el horario para preparar acciones en horas determinadas para tu servidor.
 
 --- 

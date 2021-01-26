@@ -17,6 +17,7 @@ image: https://bloom.host/assets/images/logo.png
 # 2-Factor Authentication
 
 ¡Hola Bloomers! 👋
+
 En esta guía, repasaremos como configurar 2FA en tu cuenta.
 
 ---

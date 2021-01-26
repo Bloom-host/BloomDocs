@@ -18,6 +18,7 @@ image: https://bloom.host/assets/images/logo.png
 # Añadiendo Bases de datos MySQL
 
 ¡Hola Bloomers! 👋
+
 En esta guía, repasaremos cómo añadir Bases de Datos MySQL para tu servidor de Minecraft.
 
 ---

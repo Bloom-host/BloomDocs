@@ -20,6 +20,7 @@ image: https://bloom.host/assets/images/logo.png
 # Controles del Gestor de Archivos
 
 ¡Hola Bloomers! 👋
+
 En esta guía, repasaremos los controles básicos del gestor de archivos y cómo usarlo por completo. ¡Revisa la siguiente página para tener información sobre SFTP!
 
 ---
