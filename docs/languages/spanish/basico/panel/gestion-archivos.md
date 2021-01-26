@@ -28,7 +28,7 @@ En esta guía, repasaremos los controles básicos del gestor de archivos y cómo
 ### Accediendo al Explorador de Archivos
 
 
-![Bloom.host File Manager](../../../../../img/file-manager-controls/filemanager1.png)
+![Bloom.host File Manager](../../../../../static/img/file-manager-controls/filemanager1.png)
 
 
 ¡Para encontrar el explorador de archivos, ve al panel de Minecraft, y da click en **File Explorer** (Explorador de Archivos) como en la imagen!
@@ -37,7 +37,7 @@ En esta guía, repasaremos los controles básicos del gestor de archivos y cómo
 
 ## Qué hace todo
 
-![Bloom.host File Manager](../../../../../img/file-manager-controls/filemanager2.png)
+![Bloom.host File Manager](../../../../../static/img/file-manager-controls/filemanager2.png)
 
 - **La área azul** muestra donde exactamente te encuentras en tus archivos. De modo que si vas a la carpeta de plugins, cambia a /home/container/plugins
 - **La área roja** es "La Barra". Puedes crear nuevos archivos, carpetas, subir archivos, o realizar acciones masivas en muchos archivos y carpetas seleccionadas. 
