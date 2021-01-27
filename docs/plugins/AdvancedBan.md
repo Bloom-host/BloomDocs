@@ -34,7 +34,7 @@ If you decide to use MySQL for AdvancedBan, you can [learn how to setup a MySQL 
 ## Usage 
 AdvancedBan has many commands to be able to moderate and punish rule-breakers, the most important commands are here:
 
-Note: Command arguments in square brackets are \[required.] Command arguments in left/right arrows are \<optional>.
+Note: Command arguments in square brackets are required. Command arguments in left/right arrows are optional.
 
 * `/ban <-s> [PLAYER] <REASON | @LAYOUT>` - permanently bans a player for the reason you specify
 * `/tempban <-s> [PLAYER] [Xmo|Xd|Xh|Xm|Xs|#TIMELAYOUT] <REASON | @LAYOUT>` - Temporarily bans a player for the duration and reason you specify
