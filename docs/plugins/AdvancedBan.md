@@ -34,14 +34,16 @@ If you decide to use MySQL for AdvancedBan, you can [learn how to setup a MySQL 
 ## Usage 
 AdvancedBan has many commands to be able to moderate and punish rule-breakers, the most important commands are here:
 
-* `/ban (-s) [player] [REASON[` - permanently bans a player for the reason you specify
-* `/tempban (-s) [player] [Duration] <Reason>` - Temporarily bans a player for the duration and reason you specify
-* `/kick (-s) [player] <reason>` - Kicks a player you specify
-* `/mute (-s) [player] <reason>` - permanently mutes a player for the reason you specify
-* `/tempmute (-s) [player] [Duration] <Reason>` - Temporarily mutes a player for the duration and reason you specify
-* `/warn (-s) [player] <reason>` - Temporarily bans a player for the duration and reason you specify
-* `/tempwarn  (-s) [player] [Duration] <Reason>` - Temporarily warns a player for the duration and reason you specify
-* `/history [player] <page>` - View moderation actions taken against a player 
+Note: Command arguments in square brackets are \[required.] Command arguments in left/right arrows are \<optional>.
+
+* `/ban <-s> [PLAYER] <REASON | @LAYOUT>` - permanently bans a player for the reason you specify
+* `/tempban <-s> [PLAYER] [Xmo|Xd|Xh|Xm|Xs|#TIMELAYOUT] <REASON | @LAYOUT>` - Temporarily bans a player for the duration and reason you specify
+* `/kick <-s> [PLAYER] <REASON | @LAYOUT>` - Kicks a player you specify
+* `/mute <-s> [PLAYER] <REASON | @LAYOUT>` - permanently mutes a player for the reason you specify
+* `/tempmute <-s> [PLAYER] [Xmo|Xd|Xh|Xm|Xs|#TIMELAYOUT] <REASON | @LAYOUT>` - Temporarily mutes a player for the duration and reason you specify
+* `/warn <-s> [PLAYER] <REASON | @LAYOUT>` - Temporarily bans a player for the duration and reason you specify
+* `/tempwarn  <-s> [PLAYER] [Xmo|Xd|Xh|Xm|Xs|#TIMELAYOUT] <REASON | @LAYOUT>` - Temporarily warns a player for the duration and reason you specify
+* `/history [PLAYER] <PAGE>` - View moderation actions taken against a player 
 
 You can add -s to most of the punishment commands to make their outputs silent - this makes it so that people won't see an announcement when someone gets punished.
 
