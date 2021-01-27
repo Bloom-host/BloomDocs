@@ -30,6 +30,10 @@ Upload the jar into your `plugins` folder. Turn on or restart the server. If you
 
 To begin, simply run `/lp editor`. Once you have made your edits in the GUI, click save and run the command it gives you. If you need more help, consult the [LuckPerms wiki](https://luckperms.net/wiki/Home).  
 
+## Migration from other plugins
+
+You can migrate your permissions setup from various other permissions plugins (including PermissionsEx) and it is, in most cases a simple process. For more information on how to do this, refer to the [LuckPerms wiki](https://luckperms.net/wiki/Migration)
+
 ## Info
 
 [Website](https://luckperms.net/)  

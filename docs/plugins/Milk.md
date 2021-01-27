@@ -19,7 +19,7 @@ image: https://bloom.host/assets/images/logo.png
 
 ## What does the plugin do?
 
-Milk causes milk buckets to restore hunger and saturation upon consumption.
+The Milk plugin causes milk buckets to restore hunger and saturation upon consumption.
 
 ## Usage
 First, download the [Milk](https://www.spigotmc.org/resources/milk.84531/) plugin and install it into your `plugins` folder.   
@@ -27,7 +27,7 @@ First, download the [Milk](https://www.spigotmc.org/resources/milk.84531/) plugi
 Next start your server! Milk has been successfully installed.
 
 ## Commands
-Litebans offers two commands to customize the plugin
+The Milk plugin offers two commands to customize the plugin
 ```
 /setmilkfood
 /setmilksaturation
