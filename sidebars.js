@@ -37,6 +37,7 @@ module.exports = {
       {
         'Plugins': [
           'plugins/advancedanticheat',
+          'plugins/AdvancedBan',
           'plugins/bungeeguard', 
           'plugins/chunky', 
           'plugins/citizens2',
@@ -46,6 +47,7 @@ module.exports = {
           'plugins/discordsrv', 
           'plugins/dynmap', 
           'plugins/geysermc', 
+          'plugins/GriefPrevention',
           'plugins/Litebans', 
           'plugins/luckperms', 
           'plugins/Milk', 
