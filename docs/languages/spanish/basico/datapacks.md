@@ -32,14 +32,8 @@ Instalar un datapack es bastante simple:
 Primero necesitas descargar el datapack que deseas y navegar hasta el Administrador de Archivos de tu servidor.
 Una vez dentro, elige tu mundo para añadir el datapack. Por defecto, es la carpeta llamada `world`.
 
-![Datapacks](../img/datapacks/datapacks2.png)
-
 Abre la carpeta llamada `datapacks`, que es donde los pondrás.
 
-![Datapacks](../img/datapacks/datapacks3.png)
-
 Click en el botón **Upload** arriba a la derecha y selecciona el datapack en tu computadora que quieras subir al servidor.
-
-![Datapacks](../img/datapacks/datapacks4.png)
 
 Ahora reinicia tu servidor y el datapack debería estar funcionando. Siéntete libre de abrir un ticket en el [Discord de Bloom.host](https://discord.gg/bloom) si necesitas apoyo.

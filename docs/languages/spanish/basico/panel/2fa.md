@@ -13,8 +13,14 @@ keywords:
   - 2FA Gameserver
 image: https://bloom.host/assets/images/logo.png
 ---
+
 # 2-Factor Authentication
-¡Hola Bloomers! En esta guía, repasaremos como configurar 2FA en tu cuenta.
+
+¡Hola Bloomers! 👋
+
+En esta guía, repasaremos como configurar 2FA en tu cuenta.
+
+---
 
 :::caution
 Solo usa 2FA en dispositivos que confies. No es recomendado usar 2FA en un dispositivo comprometido o compartido.
@@ -43,3 +49,5 @@ Luego, añade una nueva cuenta y escanea el código QR. Una vez que esté escane
 ![Bloom.host 2FA](../../../../../static/img/2FA/2FA3.png)
 
 ¡Ya has terminado y tu cuenta está protegida! ¡Recuerda mantener el dispositivo cerca cuando desees iniciar sesión, para poder confirmar!.
+
+---
