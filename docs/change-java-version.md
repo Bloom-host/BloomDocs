@@ -42,6 +42,7 @@ Next, find the Java Version tab (usually on the top right of the page)
 
 :::important
 If you are unable to change this next setting and you see a message such as "This server's Docker image has been manually set by an administrator and cannot be changed through this UI.", please [open a ticket on the support Discord.](https://discord.com/invite/bloom) and Bloom.host staff will need to change this for you.
+
 ![Bloom.host change-java-version](../static/img/change-java-version/change-java-version-locked.PNG)
 :::
 
