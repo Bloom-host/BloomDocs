@@ -47,6 +47,7 @@ module.exports = {
           'plugins/craftingstore', 
           'plugins/discordsrv', 
           'plugins/dynmap', 
+          'plugins/essentialsx',
           'plugins/geysermc', 
           'plugins/griefprevention',
           'plugins/Litebans', 
