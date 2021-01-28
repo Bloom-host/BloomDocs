@@ -23,7 +23,7 @@ image: https://bloom.host/assets/images/logo.png
 Vault provides a common API to give plugins access to chat, permission and economy systems easily and quickly. Instead of plugin developers needing to write support for each individual plugin providing these features, they will only need to write a Vault hook and they can support all plugins providing chat, permission and/or economy systems (provided that the plugin supports Vault).
 
 ## Installation Instructions
-Download Vault from its [Spigot Resource page](https://www.spigotmc.org/resources/vault.34315/), its [BukkitDev page](https://dev.bukkit.org/projects/vault) or directly from its [GitHub repo](https://github.com/MilkBowl/Vault/releases).
+Download Vault from its [Spigot Resource page](https://www.spigotmc.org/resources/vault.34315/) or its [BukkitDev page](https://dev.bukkit.org/projects/vault) or directly from its [GitHub repo](https://github.com/MilkBowl/Vault/releases).
 
 Next, install the plugin into the `plugins` folder in your server. Need help? Check out [this guide](https://docs.bloom.host/bukkit-plugins).
 
