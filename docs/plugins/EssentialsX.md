@@ -16,6 +16,8 @@ keywords:
   - Bloom.host
 image: https://bloom.host/assets/images/logo.png
 ---
+# EssentialsX
+
 :::important
 This guide does not cover any of EssentialsX's modules, such as EssentialsXChat, EssentialsXAntiBuild or EssentialsXGeoIP. Please check the [EssentialsX wiki](https://essentialsx.net/wiki/Module-Breakdown.html) for information on these modules.
 
@@ -25,8 +27,6 @@ Please note that any EssentialsX modules requires the core EssentialsX plugin ja
 :::caution
 This guide does not cover all of EssentialsX's features, please check the [EssentialsX wiki](https://essentialsx.net/wiki/Home.html) for more information on its features
 :::
-
-# EssentialsX
 
 ## What does this plugin do? 
 This is a plugin that offers basic commands and features such as a mail system, request tp system,  economy systems (sign shops, command costs), player nicknames and moderation tools if you don't want to install plugins such as [LiteBans](https://docs.bloom.host/plugins/Litebans) or [AdvancedBan](https://docs.bloom.host/plugins/advancedban).
