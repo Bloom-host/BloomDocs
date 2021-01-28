@@ -35,7 +35,7 @@ First, go to the official [Discord Developer Portal](https://discordapp.com/deve
 
 Enable the **SERVER MEMBERS INTENT** option under "Privileged Gateway Intents" and copy the bot's token on the bot tab, as it is need to make DiscordSRV work properly.
 
-Install the [DiscordSRV](https://www.spigotmc.org/resources/discordsrv.18494/) plugin and install it into your `plugins` folder (If you need help installing plugins, check out [this guide](https://docs.bloom.host/plugins/)). Start and stop the server and then open the configuration file for DiscordSRV.
+Install the [DiscordSRV](https://www.spigotmc.org/resources/discordsrv.18494/) plugin and install it into your `plugins` folder (If you need help installing plugins, check out [this guide](https://docs.bloom.host/bukkit-plugins)). Start and stop the server and then open the configuration file for DiscordSRV.
 
 Paste the bot's token that was taken from the Discord Developers website into the `BotToken` value and then invite your newly created Discord bot using the client ID on the website.
 
