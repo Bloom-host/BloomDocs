@@ -28,7 +28,7 @@ GeyserMC enables clients from Minecraft Bedrock Edition to join your Minecraft J
 GeyserMC requires your server to be on the latest version.
 :::
 
-[Download the plugin](https://ci.nukkitx.com/job/GeyserMC/job/Geyser/job/master/lastSuccessfulBuild/artifact/bootstrap/spigot/target/Geyser-Spigot.jar) and upload the jar into your `plugins` folder. Restart or turn on the server. If you need help installing plugins, check out [this guide](https://docs.bloom.host/plugins).  
+[Download the plugin](https://ci.nukkitx.com/job/GeyserMC/job/Geyser/job/master/lastSuccessfulBuild/artifact/bootstrap/spigot/target/Geyser-Spigot.jar) and upload the jar into your `plugins` folder. Restart or turn on the server. If you need help installing plugins, check out [this guide](https://docs.bloom.host/bukkit-plugins).  
 
 Once you've installed it, make a ticket in Bloom's [discord](https://discord.com/invite/bloom) and request a 19132 port for Bedrock.  
 
