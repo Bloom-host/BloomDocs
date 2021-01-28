@@ -46,6 +46,10 @@ If you are unable to change this next setting and you see a message such as "Thi
 ![Bloom.host change-java-version](../static/img/change-java-version/change-java-version-locked.PNG)
 :::
 
+:::caution
+The OpenJ9 image is **not** recommended for Minecraft servers, you should be using hotspot (the other Java images) instead!
+:::
+
 You should be able to change the Java version to a version of Java you need. In this image you can see that we can change between these versions:
  * Java 8 (`quay.io/pterodactyl/core:java`)
  * Java 11 (`quay.io/parkervcp/pterodactyl-images:debian_openjdk-11`)
@@ -53,10 +57,6 @@ You should be able to change the Java version to a version of Java you need. In 
  * Java 15 (`quay.io/parkervcp/pterodactyl-images:debian_openjdk-15`)
  * Java 11 OpenJ9 (`quay.io/parkervcp/pterodactyl-images:debian_openjdk-11-openj9`)
 ![Bloom.host change-java-version](../static/img/change-java-version/change-java-version-3.png)
-
-:::caution
-The OpenJ9 image is **not** recommended for Minecraft servers, you should be using hotspot (the other Java images) instead!
-:::
 
 Simply change this to the version of Java that you need and then restart the server.
 You have successfully changed the version of Java your server uses.
