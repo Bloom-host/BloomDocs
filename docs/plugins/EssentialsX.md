@@ -3,7 +3,7 @@ id: essentialsx
 title: EssentialsX
 hide_title: true
 hide_table_of_contents: false
-sidebar_label: Template :)
+sidebar_label: EssentialsX
 description: Plugin offering essential commands to servers
 keywords:
   - Essentials
@@ -92,6 +92,7 @@ enabledSigns:
 ```
 3. Remove the `#` symbol from each type of sign you want to use.
 4. Save the configuration file and reload Essentials (`/essentials reload`). 
+:::
 
 There are various right-clickable signs that you can use (and can be enabled in the section above.)
 For example, warp signs can take your player to a warp you defined with `/setwarp` and the mail sign can show the player's mail.
