@@ -28,7 +28,7 @@ Prism is a highly configurable, powerful, high-performance grief management (rol
 Before you get started, you need to have created a MySQL database. More info on that can be found [here](https://docs.bloom.host/databases).
 :::
 
-[Download the plugin](https://jenkins.addstar.com.au/job/Prism-Bukkit%201.16/) and upload the jar into your `plugins` folder. Restart or turn on the server. If you need help installing plugins, check out [this guide](https://docs.bloom.host/plugins).  
+[Download the plugin](https://jenkins.addstar.com.au/job/Prism-Bukkit%201.16/) and upload the jar into your `plugins` folder. Restart or turn on the server. If you need help installing plugins, check out [this guide](https://docs.bloom.host/bukkit-plugins).  
 
 After that, go to the `Prism` folder, which can be found inside the `plugins` folder. From there, edit the `config.yml` file.  
 

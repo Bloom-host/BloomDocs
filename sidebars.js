@@ -1,36 +1,83 @@
 module.exports = {
   someSidebar: {
-    'Overview': ['overview', 'editing-account-details'],
-    'Using the Panel': ['basic-controls', 'scheduling-actions', 'how-to-use-sftp', 'sub-users', 'databases', 'file-manager-controls', '2fa'],
+    'Overview': [
+      'overview',
+      'editing-account-details'
+    ],
+    
+    'Using the Panel': [
+      'basic-controls', 
+      'scheduling-actions', 
+      'how-to-use-sftp', 
+      'sub-users', 
+      'databases',
+      'reverse-proxy',
+      'file-manager-controls', 
+      'backups',
+      '2fa'
+    ],
+    
     'Running a Server': [
       {
-        'Server Optimization': ['paper-server-optimization', 'fabric-server-optimization'],
-      }, 'plugins', 'pointing-a-domain', 'whichsoftwaretouse', 'setting-up-forge', 'server-resource-packs', 'datapacks', 'timings', 'motd', 'reset-worlds'],
-    'Plugins': [
-      'plugins/advancedanticheat', 
-      'plugins/bungeeguard', 
-
-      'plugins/chunky', 
-      'plugins/citizens2',
-      'plugins/conditionalcommands', 
-      'plugins/coreprotect', 
-      'plugins/craftingstore', 
-      'plugins/discordsrv', 
-      'plugins/dynmap', 
-      'plugins/geysermc', 
-      'plugins/Litebans', 
-      'plugins/luckperms', 
-      'plugins/Milk', 
-      'plugins/multiverse', 
-      'plugins/prism', 
-      'plugins/ServerNPC', 
-      'plugins/spark', 
-      'plugins/viaversion', 
-      'plugins/votifier', 
-      'plugins/worldedit', 
+        'Other Server Jars': ['whichsoftwaretouse', 'setting-up-fabric', 'setting-up-forge'],
+      },
+      {
+        'Install Plugins/Mods': ['bukkit-plugins', 'fabric-mods', 'forge-mods'],
+      },
+      'server-optimization',
+      'pointing-a-domain', 
+      'server-resource-packs',
+      'change-java-version', 
+      'datapacks', 
+      'timings', 
+      'motd', 
+      'reset-worlds'
     ],
-    'Extras': ['mobile-app', 'reverse-proxy', 'adding-an-icon', 'srvcontrol'],
-    'Extras': ['mobile-app', 'reverse-proxy','adding-an-icon', 'srvcontrol'],
+    
+    'Server Modifications (Plugins/Mods)': [
+      {
+        'Plugins': [
+          'plugins/advancedanticheat',
+          'plugins/advancedban',
+          'plugins/bungeeguard', 
+          'plugins/chunky', 
+          'plugins/citizens2',
+          'plugins/conditionalcommands', 
+          'plugins/coreprotect', 
+          'plugins/craftingstore', 
+          'plugins/discordsrv', 
+          'plugins/dynmap', 
+          'plugins/essentialsx',
+          'plugins/geysermc', 
+          'plugins/griefprevention',
+          'plugins/Litebans', 
+          'plugins/luckperms', 
+          'plugins/Milk', 
+          'plugins/multiverse', 
+          'plugins/prism', 
+          'plugins/ServerNPC', 
+          'plugins/spark', 
+          'plugins/viaversion',
+          'plugins/vault', 
+          'plugins/votifier', 
+          'plugins/worldedit',
+        ],
+      },
+      {
+        'Fabric Mods': [
+          'fabric_mods/performance-mods',
+          'fabric_mods/chunky_fabric',
+          'fabric_mods/luckperms_fabric',
+        ],
+      },
+    ],
+    
+    'Extras': [
+      'mobile-app',
+      'adding-an-icon', 
+      'srvcontrol'
+    ],
+    
     'Other Languages': [
       {
         'Español': [

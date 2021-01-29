@@ -22,7 +22,7 @@ image: https://bloom.host/assets/images/logo.png
 Spark is a performance profiling plugin that can display server information, such as TPS, memory, tick durations, CPU usage, and disk usage. It does not require any configuration and is incredibly easy to install, and as such there is not much of a reason to not have it.
 
 ### Setup
-Download the latest build from [Spigot](https://www.spigotmc.org/resources/spark.57242/updates) and drop it into your plugins folder. Turn on or restart the server, and you're done! If you need help installing plugins, check [How to install plugins](https://docs.bloom.host/plugins).
+Download the latest build from [Spigot](https://www.spigotmc.org/resources/spark.57242/updates) and drop it into your plugins folder. Turn on or restart the server, and you're done! If you need help installing plugins, check [How to install plugins](https://docs.bloom.host/bukkit-plugins).
 
 ## Usage
 There are only a few simple commands that you need to use in Spark. Running `/tps` in-game or in the console will display an output that looks somewhat like this:

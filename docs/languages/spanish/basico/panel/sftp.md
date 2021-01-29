@@ -18,20 +18,39 @@ keywords:
   - Español
 image: https://bloom.host/assets/images/logo.png
 ---
+
 # Cómo usar SFTP para transferir archivos
 
+¡Hola Bloomers! 👋
 
-¡Hola Bloomers! En esta guía usaremos SFTP para importar y exportar archivos. El cliente SFTP que usaremos será Filezilla, el cual puedes descargar [aquí](https://filezilla-project.org/download.php?show_all=1). 
+En esta guía usaremos SFTP para importar y exportar archivos. El cliente SFTP que usaremos será WinSCP, el cual puedes descargar [aquí](https://winscp.net). ¡También puedes usar [Filezilla](https://filezilla-project.org/download.php?show_all=1) o [MobaXterm](https://mobaxterm.mobatek.net/)!
 
-![Bloom.host How to use SFTP](../../img/sftp/sftp2.png)
+---
 
-Para encontrar los datos de login, navega a la barra lateral, luego abre la sección de Gestión de Archivos y click en **“SFTP Login Info”**, el cual está encerrado de amarillo.
+Para encontrar los datos de login, navega a la barra lateral y luego abre la sección de **Settings** (Ajustes).
 
-![Bloom.host How to use SFTP](../../img/sftp/sftp3.png)
+![Bloom.host How to use SFTP](../../../../../static/img/how-to-use-sftp/how-to-use-sftp2.png)
 
-La dirección del servidor (Servidor) está encerrada de morado, mientras que el Nombre de usuario está encerrado de verde. La contraseña es la misma que usas para entrar al panel.
+---
 
-![Bloom.host How to use SFTP](../../img/sftp/sftp4.png)
+Aquí podrás ver el nombre de host del servidor SFTP (rojo) y tu usuario SFTP (cian). 
 
-Luego de ver estos datos, abre tu cliente SFTP (en este caso Filezilla). Pones los detalles de login en la parte de arriba, que está encerrada de morado. El lado izquierdo contiene los archivos en tu computadora (rojo), y el derecho (amarillo) contiene los archivos en el servidor. La parte de abajo (azul) da información acerca de las transferencias de archivos. 
-Si necesitas transferir archivos desde tu computadora hacia el servidor, simplemente arrastra el archivo de la parte izquierda a la derecha, y la transferencia comenzará. De la misma forma pero inversa, para transferir del servidor a tu computadora.
+*Con nuestro nuevo panel, si tienes WinSCP instalado, puedes conectarte con un click presionando `Launch SFTP` (verde)*
+
+![Bloom.host How to use SFTP](../../../../../static/img/how-to-use-sftp/how-to-use-sftp3.png)
+
+---
+
+En caso que no estás usando WinSCP, ingresa tus datos de login en la parte de arriba a la izquierda. 
+- **Host**: Esto puedes verlo en el panel; Pégalo sin el prefijo. Por ejemplo, `sftp://testnode.bloom.host:2022` sería `testnode.bloom.host`
+- **Username** (Usuario): Tu usuario SFTP de la sección Settings.
+- **Password** (Contraseña): Tu contraseña al panel de juego. <u>¡No tu contraseña de facturación!</u>
+- **Port** (Puerto): Este es `2022` para todos. 
+
+![Bloom.host How to use SFTP](../../../../../static/img/how-to-use-sftp/how-to-use-sftp4.png)
+
+El lado izquierdo muestra los archivos en tu computadora (amarillo), y el de la derecha, los archivos en tu servidor (naranja). Abajo, en azul, información sobre transferencias de archivos recientes. 
+
+Si deseas archivar o desarchivar archivos, revisa nuestra [guía](controles-basicos.md) sobre el panel.
+
+---

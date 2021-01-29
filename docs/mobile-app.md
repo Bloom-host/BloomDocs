@@ -13,7 +13,8 @@ keywords:
 ---
 # Pterodactyl Mobile App
 
-Unfortunatly as of January 2020, Pterodactyl hasn't released a mobile module for the panel. :( Be sure to check back later for updates!
+Unfortunately as of January 2021, there is no updated version of the Pterodactyl app that supports our new Duck Panel (Pterodactyl 1.0). :( Be sure to check back later for updates!
 <p align="center">
   <img src="https://i.imgur.com/Pcr4vNk.gif" />
 </p>
+In the meantime, you can still access it at https://mc.bloom.host.
