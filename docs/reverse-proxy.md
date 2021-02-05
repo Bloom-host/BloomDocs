@@ -19,7 +19,7 @@ In this guide, we will go over how to create a reverse proxy for your Minecraft 
 
 ---
 :::warning
-Reverse proxies can only be used for web connections (eg. HTTPS). If you wan't to join your minecraft server using your domain, check [this page](pointing-a-domain.md)
+Reverse proxies can only be used for web connections (eg. HTTPS). If you want to join your minecraft server using your domain, check [this page](pointing-a-domain.md)
 :::
 :::note
 For this guide, you must have access to a domain and the ability to alter that domain's DNS settings. For this guide, we assume you have a domain with Cloudflare, but most registrars will work.
