@@ -65,11 +65,11 @@ The thresholds section is pretty simple, it just determines what commands should
 - See [Conditional Commands](https://docs.bloom.host/plugins/conditionalcommands) for info on reducing lag related kicks/bans
 
 ## There's a false positive, what do I do?
-AAC's configurability means that false positives are easily fixed. There are two types of false positives:
+### AAC's configurability means that false positives are easily fixed. There are two types of false positives:
  - Plugin related false positives: report to [AAC Github Issue Tracker](https://github.com/konsolas/AAC-Issues/issues) so the developer can fix it
  - Configuration related false positives: false positives that you can fix
  
-Fixing config related false positives:
+### Fixing config related false positives:
  - First, collect some information on the false positive, like what might cause it and some verbose data
    - To collect verbose data, `do /aac debug <player>` and reproduce the false positive, or look in your console and copy the output into a paste service like pastebin
  - The data will show what part of the check is causing the false positive, you can specifically focus on that part in AAC's config.yml, go to the config
