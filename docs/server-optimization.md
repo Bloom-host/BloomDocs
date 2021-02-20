@@ -160,7 +160,7 @@ Keep in mind, this guide merely provides suggestions, and should not be taken ex
 - Default:  false
 - Recommended:  true
 - Importance: Medium
-Explanation: Paper will very efficiently optimize and clean up explosions. This will have no impact on game play, so there is no reason to keep this disabled.  
+- Explanation: Paper will very efficiently optimize and clean up explosions. This will have no impact on game play, so there is no reason to keep this disabled.  
 
 ### `mob-spawner-tick-rate`
 - Default:  1

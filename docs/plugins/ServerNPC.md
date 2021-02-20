@@ -4,7 +4,7 @@ title: ServerNPC
 hide_title: true
 hide_table_of_contents: false
 sidebar_label: ServerNPC
-description: Litebans is a premium plugin to manage and distribute punishments on your server or network.
+description: ServerNPC is a plugin that allows you to create non player characters, or NPC's, and have them do certain actions.
 keywords:
   - ServerNPC
   - NPC

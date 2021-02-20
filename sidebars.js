@@ -12,6 +12,7 @@ module.exports = {
       'sub-users', 
       'databases',
       'reverse-proxy',
+      'split-server',
       'file-manager-controls', 
       'backups',
       '2fa'

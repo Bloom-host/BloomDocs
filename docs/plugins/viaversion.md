@@ -36,7 +36,7 @@ ViaVersion **needs** to be installed for ViaBackwards and ViaRewind to work and 
 ![poggers in the chat](https://cdn.discordapp.com/attachments/737803938430189678/750862566192054282/viaversion-darkmode.png)  
 
 # Usage
-Download the plugins and upload them into your `plugins` folder. Restart or turn on your server. If you need help with installing plugins, check out [this guide](https://docs.bloom.host/plugins).  
+Download the plugins and upload them into your `plugins` folder. Restart or turn on your server. If you need help with installing plugins, check out [this guide](https://docs.bloom.host/bukkit-plugins).  
 
 Once you have installed the plugins and restarted your server, Java players should be able to join from any version!  
 
