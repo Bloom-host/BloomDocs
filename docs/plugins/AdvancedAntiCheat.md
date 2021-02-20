@@ -77,6 +77,12 @@ Fixing config related false positives:
  - If the above three don't work, there are always people in Bloom.host's discord willing to help you out!
 
 [Bloom.host Discord](https://discord.gg/bloom)
+
+## Optimized Configurations
+Configuring Advanced Anti-Cheat will be time consuming, there are premade configurations available:
+- [Chibo's Configuration](https://www.mc-market.org/resources/18783/)
+- [Celebrimbor's Configuration](https://www.spigotmc.org/threads/%E2%9A%94-optimized-aac-setups-%E2%9A%94-500-customer-promo-%E2%9A%94.126333/)
+
 ## Info
 :::warning
 
@@ -85,5 +91,3 @@ Advanced Anti-Cheat is very user configurable, and as a result of this, is highl
 :::
 
 [Spigot Page](https://www.spigotmc.org/resources/aac-advanced-anti-cheat-hack-kill-aura-blocker.6442/)  
-
-[Optimized Config](https://www.spigotmc.org/threads/%E2%9A%94-optimized-aac-setups-%E2%9A%94-500-customer-promo-%E2%9A%94.126333/)
