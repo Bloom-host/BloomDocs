@@ -1,3 +1,33 @@
 [[redirects]]
   from = "/faq"
   to = "https://bloom.host/faqs"
+  
+
+# I have set up some basic redirects in order to make frequently used old links on pages redirect to the new ones
+# Note: when setting up new pages, it is recommended to use the links to new pages.
+# Thanks - ali8888
+
+# Redirects the bukkit plugin tutorial page to the new one
+[[redirects]]
+  from = "/bukkit-plugins"
+  to = "/running-a-server/bukkit-plugins"
+
+#Redirects the fabric mod tutorial page to the new one
+[[redirects]]
+  from = "/fabric-mods"
+  to = "/running-a-server/fabric-mods"
+
+# Bukkit plugin pages -> server-mods/bukkit-plugins pages
+[[redirects]]
+  from = "/plugins/*" # asterisk indicates a wildcard
+  to = "/server-mods/bukkit-plugins/:splat" # the :splat is to indicate where it should redirect to - for example '/plugins/luckperms.md' would now point to "/server-mods/bukkit-plugins/luckperms.md"
+
+# Same thing as the Bukkit-plugins one however this one is for fabric mods
+[[redirects]]
+  from = "/fabric_mods/*"
+  to = "/server-mods/fabric_mods/:splat"
+
+# Database help page
+[[redirects]]
+  from = "/databases"
+  to = "/panel/databases"
