@@ -93,12 +93,6 @@ module.exports = {
             'Extras': ['languages/spanish/extras/reverse-proxy', 'languages/spanish/extras/contributing']
           },
         ],
-
-        'Italiano': [
-          {
-            'Controles del Panel': ['languages/italiano/controlli/controlli-di-base']
-          },
-        ],
       },
     ],
   },
