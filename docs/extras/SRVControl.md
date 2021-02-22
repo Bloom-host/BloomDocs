@@ -19,11 +19,11 @@ We can start by heading over to their [website](https://srvcontrol.xyz/) and inv
 
 After we have done this, we now want to create the API Key that SRVControl can use to access your servers. To do this, simple head over to the [panel](https://mc.bloom.host/) and once you are logged in, click **Account API** on the left.
 
-![SRVControl](/static/img/srvcontrol/account-api-dashboard.png)
+![SRVControl](../../static/img/srvcontrol/account-api-dashboard.png)
 
 Then click **Create New** and give it some relevant description that you will remember what this API key is for. Do not put anything in allowed IPs as SRVControl does not state the IP address used for their bot. Once you are done, click **create**. Now there will be a list of API keys, in your case there will only be one so just click the key icon to reveal the long key and copy it. 
 
-![SRVControl](/static/img/srvcontrol/pteroapi-creds-list.png)
+![SRVControl](../../static/img/srvcontrol/pteroapi-creds-list.png)
 
 :::caution
 Please keep this key secure as anyone with this API key can utilize it to do anything to the servers that you are on your account. 

@@ -27,7 +27,7 @@ In this guide we will be using SFTP to import and export files. The SFTP client 
 
 To find the login details, navigate to the sidebar of the server, then open the 'Settings' section.
 
-![Bloom.host How to use SFTP](/static/img/how-to-use-sftp/how-to-use-sftp2.png)
+![Bloom.host How to use SFTP](../../static/img/how-to-use-sftp/how-to-use-sftp2.png)
 
 ---
 
@@ -35,7 +35,7 @@ Here you will be able to see your server's SFTP host name (red), and SFTP userna
 
 *With our new panel if you have WinSCP installed, you can launch straight away by clicking `Launch SFTP` (green)*
 
-![Bloom.host How to use SFTP](/static/img/how-to-use-sftp/how-to-use-sftp3.png)
+![Bloom.host How to use SFTP](../../static/img/how-to-use-sftp/how-to-use-sftp3.png)
 
 ---
 
@@ -45,10 +45,10 @@ In case you aren't using WinSCP like in our case, input your login details in th
 - Password: Your game panel password. <u>Not your billing password!</u>
 - Port: This will be `2022` for everyone. 
 
-![Bloom.host How to use SFTP](/static/img/how-to-use-sftp/how-to-use-sftp4.png)
+![Bloom.host How to use SFTP](../../static/img/how-to-use-sftp/how-to-use-sftp4.png)
 
 The left side contains the files stored on your computer (yellow), and the right (orange) contains the files on the server. The bottom, shown in blue, gives you information on the file transfer. 
 
-If you wish to archive or unarchive files, please check out or [guide](file-manager-controls.md) on file management through the panel.
+If you wish to archive or unarchive files, please check out or [guide](../../docs/panel/file-manager-controls.md) on file management through the panel.
 
 ---

@@ -17,7 +17,7 @@ image: https://bloom.host/assets/images/logo.png
 
 Para comenzar con la instalación de Forge, dirígete a su página web para descargar su instalador, y guárdalo en una carpeta vacía. Ábrelo y selecciona Install Server. Debería quedar como la imagen de abajo:
 
-![Bloom.host Forge](////static/img/setting-up-forge/forge2.png)
+![Bloom.host Forge](../../../../../../../static/img/setting-up-forge/forge2.png)
 
 Una vez has terminado de instalarlo, usa un [Cliente SFTP](https://docs.bloom.host/languages/spanish/basico/panel/sftp) como FileZilla y sube todo hacia tu servidor.
 
@@ -29,4 +29,4 @@ Una nueva carpeta llamada `mods` aparecerá. Pon los mods que quieras ahí y rei
 
 Al final, se debería ver algo como esto: 
 
-![Bloom.host Forge](////static/img/setting-up-forge/forge3.png)
+![Bloom.host Forge](../../../../../../../static/img/setting-up-forge/forge3.png)

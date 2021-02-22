@@ -26,7 +26,7 @@ LuckPerms is regularly updated by the developer Luck who is the developer for Sp
 
 To use this mod, [download](https://luckperms.net/download) the Fabric jar.  
 
-Upload the jar into your `mods` folder. Turn on or restart the server. If you need help installing mods, check out [this guide](./fabric-mods.md).  
+Upload the jar into your `mods` folder. Turn on or restart the server. If you need help installing mods, check out [this guide](../../fabric-mods.md).  
 
 To begin, simply run `/lp editor`. Once you have made your edits in the GUI, click save and run the command it gives you. If you need more help, consult the [LuckPerms wiki](https://luckperms.net/wiki/Home).  
 

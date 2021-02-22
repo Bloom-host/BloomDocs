@@ -24,7 +24,7 @@ In this guide, we will go over the basic controls of the file manager and how to
 ### Getting to the File Manager
 
 
-![File Manager](/static/img/file-manager-controls/filemanager1.png)
+![File Manager](../../static/img/file-manager-controls/filemanager1.png)
 
 
 To find the file manager, go to the Minecraft panel, and go to your sidebar then File Manager as shown above!
@@ -34,7 +34,7 @@ To find the file manager, go to the Minecraft panel, and go to your sidebar then
 ### What everything does
 
 
-![File Manager](/static/img/file-manager-controls/filemanager2.png)
+![File Manager](../../static/img/file-manager-controls/filemanager2.png)
 
 - **The blue area** shows where exactly you are in the files. So if you were to go into your plugins folder, it would change to `/home/container/plugins` - Some plugin configurations may require this!
 - **The red area** is "The Bar". You can make new files, new folders, upload files, or use a mass action on several selected files or folders. 

@@ -15,11 +15,11 @@ image: https://bloom.host/assets/images/logo.png
 ---
 # Performance Mods
 
-Make sure to also check out the [Server Optimization Guide](/docs/running-a-server/server-optimization.md)
+Make sure to also check out the [Server Optimization Guide](../../docs/running-a-server/server-optimization.md)
 
 ## How to install these mods
 
-Check out the [Installing Fabric Mods](/docs/running-a-server/fabric-mods.md) page.
+Check out the [Installing Fabric Mods](../../docs/running-a-server/fabric-mods.md) page.
 
 ## The mod list
 

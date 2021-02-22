@@ -22,7 +22,7 @@ Chunky pregenerates chunks very quickly and efficiently, which is helpful for re
 
 ## How to install
 
-Check out the [Installing Fabric Mods](/docs/running-a-server/fabric-mods.md) page.
+Check out the [Installing Fabric Mods](../../docs/running-a-server/fabric-mods.md) page.
 
 ## Usage
 

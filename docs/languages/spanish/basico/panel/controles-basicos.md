@@ -27,7 +27,7 @@ Esta guía te ayudará a entender el ambiente de tu panel y que hace cada opció
 
 ### **¡Este es un ejemplo de la página principal!**
 
-![Bloom.host Basic Controls](/static/img/basic-controls/basic-controls1.png)
+![Bloom.host Basic Controls](../../../../../../../static/img/basic-controls/basic-controls1.png)
 ---
 
 ### **¡En la parte superior del panel puedes ver información en vivo de tu servidor!**
@@ -37,7 +37,7 @@ Esta guía te ayudará a entender el ambiente de tu panel y que hace cada opció
 - Tu uso de espacio en disco es de color Rojo. Algunos plugins como Dynmap pueden tomar bastante espacio, asi que es recomendable echar un ojo en el uso de almacenamiento restante de vez en cuando. Si tu almacenamiento se acaba, el servidor se apagará y no iniciará de nuevo hasta que tengas espacio suficiente de nuevo.
 
 
-![Basic Controls](/static/img/basic-controls/basic-controls2.png)
+![Basic Controls](../../../../../../../static/img/basic-controls/basic-controls2.png)
 
 ---
 
@@ -47,7 +47,7 @@ Aquí, puedes mandar cualquier comando y ver que es lo que está pasando en tu s
 ### **¡Justo abajo de tu consola puedes ver el menú de control!**
 El menú de control de tu servidor te permite Iniciar (Start), Apagar (Stop) y Reiniciar (Restart) tu servidor. No es recomendado Abortar (Kill) el servidor puesto que los plugins y mundos no se guardarán y se pueden corromper. Solo úsalo si el servidor deja de responder totalmente.
 
-![Basic Controls](/static/img/basic-controls/basic-controls3.png)
+![Basic Controls](../../../../../../../static/img/basic-controls/basic-controls3.png)
 
 ---
 
@@ -55,6 +55,6 @@ El menú de control de tu servidor te permite Iniciar (Start), Apagar (Stop) y R
 ### **Por último, ¡Puedes ver el uso de RAM y CPU en vivo en gráficos!** 
 Como se mencionó anteriormente, con Aikar flags, la RAM estará siendo usada casi en su totalidad durante la mayoría del tiempo. 
 
-![Basic Controls](/static/img/basic-controls/basic-controls4.png)
+![Basic Controls](../../../../../../../static/img/basic-controls/basic-controls4.png)
 
 ---
