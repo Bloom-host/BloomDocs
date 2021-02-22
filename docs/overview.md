@@ -18,11 +18,11 @@ Hey Bloomers! 👋
 Welcome to our docs! Here you can find useful information about using our panel, running servers, frequently asked questions and more! 
 
 ### Quick links: 
-> - **[Basics](docs/panel/basic-controls)**: The basics to getting started with your Minecraft server. This guide includes navigating the panel and file access.
+> - **[Basics](panel/basic-controls)**: The basics to getting started with your Minecraft server. This guide includes navigating the panel and file access.
 >
-> - **[Optimizations](docs/running-a-server/server-optimization.md)**: Optimizing your server to perform better.
+> - **[Optimizations](running-a-server/server-optimization.md)**: Optimizing your server to perform better.
 >
-> - **[Plugins](docs/server-mods/bukkit-plugins/chunky.md)**: Interesting, cool, and useful plugins.
+> - **[Plugins](/server-mods/bukkit-plugins/chunky.md)**: Interesting, cool, and useful plugins.
 >
 > - **[Contributing to the Docs](contributing.md)**: We aim to provide fast highly quality support and a good set of docs are crucial for that. Volunteers are very welcome! 
 
