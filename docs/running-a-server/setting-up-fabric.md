@@ -22,11 +22,11 @@ Run the Fabric Installer jar you downloaded, select the Server tab and select th
 
 **NOTE** You need to click **show snapshots** if you want it to also show fabric for minecraft snapshots.
 
-![Bloom.host Fabric](../static/img/setting-up-fabric/setting-up-fabric1.png)
+![Bloom.host Fabric](/static/img/setting-up-fabric/setting-up-fabric1.png)
   
 Click install, this will download a *fabric-server-launch.jar*, it will also show you a button for *Download server jar*, press that one too.
 
-![Bloom.host Fabric](../static/img/setting-up-fabric/setting-up-fabric2.png)
+![Bloom.host Fabric](/static/img/setting-up-fabric/setting-up-fabric2.png)
 
 
 You can now close the fabric launcher, you should have a *fabric-server-launch.jar* and a *server.jar* file.  

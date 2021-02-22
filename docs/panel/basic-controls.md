@@ -24,7 +24,7 @@ You can access your server's main control panel [here](https://mc.bloom.host/)! 
 
 ### **Here is an example of the main page!**
 
-![Basic Controls](../static/img/basic-controls/basic-controls1.png)
+![Basic Controls](/static/img/basic-controls/basic-controls1.png)
 ---
 
 ### **On top of the panel you can view live information about your server!**
@@ -34,7 +34,7 @@ You can access your server's main control panel [here](https://mc.bloom.host/)! 
 - Red is the disk space that you have used. Plugins that store a lot of data such as Dynmap may take up lots of storage, so it’s recommended to keep an eye on the amount of storage you have left. If you reach the maximum amount of storage, your server will shut down and wait until you have enough storage to restart again.
 
 
-![Basic Controls](../static/img/basic-controls/basic-controls2.png)
+![Basic Controls](/static/img/basic-controls/basic-controls2.png)
 
 ---
 
@@ -44,7 +44,7 @@ In here, you can send any command and see what everyone on your server is doing.
 ### **Right below your console you can see the server control menu!**
 This allows you to start, stop, and restart your server. It is not recommended to kill your server as plugins and worlds won’t save and may become corrupted. Only use it if your server becomes unresponsive.
 
-![Basic Controls](../static/img/basic-controls/basic-controls3.png)
+![Basic Controls](/static/img/basic-controls/basic-controls3.png)
 
 ---
 
@@ -52,6 +52,6 @@ This allows you to start, stop, and restart your server. It is not recommended t
 ### **Lastly, you can see view the server's live RAM and CPU usage in a form of graphs!** 
 As mentioned above, with Aikar's flags, it will show up as if you were using most of this. 
 
-![Basic Controls](../static/img/basic-controls/basic-controls4.png)
+![Basic Controls](/static/img/basic-controls/basic-controls4.png)
 
 ---

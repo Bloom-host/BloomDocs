@@ -24,11 +24,11 @@ And we will show you how to exclude files and folders from these backups.
 ## Manual backups
 To create a manual backup, head over to the Backups tab on the panel.
 
-![The Backups tab](../static/img/backups/backups1.png)
+![The Backups tab](/static/img/backups/backups1.png)
 
 Here you will find your current backups, and a **Create Backup** button. When you click the create backup button, you will get this screen:
 
-![The creating a backup screen](../static/img/backups/backups2.png)
+![The creating a backup screen](/static/img/backups/backups2.png)
 
 Here you can give your backup a name and ignore some files/folders if you want (the ignoring will be explained a bit further down).
 
@@ -36,7 +36,7 @@ Press the **Start Backup** button to continue
 The backup will start in the background, this may take some time depending on the size of your server.   
 When the backup is finished you can click the three dots to get a few options.
 
-![Backup options](../static/img/backups/backups3.png)
+![Backup options](/static/img/backups/backups3.png)
 
 Download will download the file  
 Checksum will show you the sha1 checksum of the file, you can use this to double check file integrity after downloading.  
@@ -47,7 +47,7 @@ Delete will delete the backup - Watch out though, it will be permanently gone if
 It's also possible to automate these backups! You can make a backup at a specific time of day for example.  
 To do this, head over to the Schedules tab on the panel.
 
-![The Schedules tab](../static/img/scheduling-actions/scheduling-actions1.png)
+![The Schedules tab](/static/img/scheduling-actions/scheduling-actions1.png)
 
 Here is where all your schedules are located. We are going to add a schedule that starts a backup, but these schedules can do way more! Find some examples at [Scheduling Actions](https://docs.bloom.host/scheduling-actions/). 
 
@@ -56,13 +56,13 @@ To make a new schedule, click the **Create New** button. Enter a name for your s
 Basically, you have to specify which day or which week of which month get triggered and in what hours. You can also specify actions which get triggered every hour and so on. - We would suggest using a [generator](https://crontab.guru/) to make sure you can set the timing of the schedule perfectly.  
 Keep in mind all Bloom servers run on Universal Standard Time (UTC), so make sure your schedules reflect that.
 
-![Bloom.host Scheduling Actions](../static/img/scheduling-actions/scheduling-actions2.png)
+![Bloom.host Scheduling Actions](/static/img/scheduling-actions/scheduling-actions2.png)
 
 Once finished, click create and open it from the list.  
 Click 'New Task'  
 And set Action to **Create backup*
  
-![Backup options](../static/img/backups/backups4.png)
+![Backup options](/static/img/backups/backups4.png)
 
 And you're done!  
 Your files will now automatically get backed up at the time you specified.
@@ -93,5 +93,5 @@ This list will (from top to bottom) exclude the cache folder, the server.propert
 
 It will look something like this when finished, this schedule will make a backup, excluding those items, every day at 9AM UTC.
 
-![Backup options](../static/img/backups/backups5.png)
+![Backup options](/static/img/backups/backups5.png)
 

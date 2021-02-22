@@ -26,12 +26,12 @@ En esta guía, repasaremos cómo añadir Bases de Datos MySQL para tu servidor d
 Primero, ve al [panel del servidor](https://mc.bloom.host/), y en la barra lateral selecciona 'Databases' (Bases de Datos).
 
 
-![Bloom.host Databases](../../../../../static/img/databases/databases1.png)
+![Bloom.host Databases](/static/img/databases/databases1.png)
 
 La área resaltada con rojo es donde puedes manejar todas tus bases de datos existentes. ¡Da click en 'New Database' (Nueva Base de Datos) para crear una!
 
-![Bloom.host Databases](../../../../../static/img/databases/databases2.png)
-![Bloom.host Databases](../../../../../static/img/databases/databases3.png)
+![Bloom.host Databases](/static/img/databases/databases2.png)
+![Bloom.host Databases](/static/img/databases/databases3.png)
 
 En el primer recuadro, le darás un nombre a tu base de datos. En el recuadro de abajo, puedes restringir conexiones MySQL. Si no planeas modificar eso, déjalo como % o pon la IP de tu servidor. Para terminar de crear la base de datos, da click en **Create Database** (Crear Base de Datos).
 

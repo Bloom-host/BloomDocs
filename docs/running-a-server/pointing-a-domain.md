@@ -23,7 +23,7 @@ In this guide, we will go over on how to make your server go from lots of number
 
 First, go to the [game panel](https://mc.bloom.host) and select your server. On the main page, above your console you will be able to find your IP. All bloom servers come with a dedicated IP, so you only need the IP and not any of the ports (`25565`). 
 
-![Bloom.host Pointing A Domain](../static/img/pointing-a-domain/pointing-a-domain1.png)
+![Bloom.host Pointing A Domain](/static/img/pointing-a-domain/pointing-a-domain1.png)
 
 In this guide we're going use CloudFlare to point our domain to the server. Simply register [here](https://dash.cloudflare.com/sign-up). After registration, they will guide you through the process of connecting your domain to CloudFlare.
 
@@ -33,7 +33,7 @@ Alternatively, some domain providers allow you to use their own systems for DNS.
 Ensure that the server is grey cloud (not proxied by cloudflare). You can still use cloudflare, just make sure it has a grey cloud so it's <u>not proxied</u>.
 :::
 
-![Bloom.host Pointing A Domain](../static/img/pointing-a-domain/pointing-a-domain2.png)
+![Bloom.host Pointing A Domain](/static/img/pointing-a-domain/pointing-a-domain2.png)
 
 ---
 

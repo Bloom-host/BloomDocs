@@ -25,11 +25,11 @@ Splitting your server will use resources (Disk space and RAM) from your main ser
 
 Firstly from the [game panel](https://mc.bloom.host/), navigate your server and select the 'Server split' option.
 
-![Split server](../static/img/split-server/split-server-1.png)
+![Split server](/static/img/split-server/split-server-1.png)
 
 Secondly, in the box on the right (highlighted with a red border), there are several options there for selecting the type of server and the amount of resources that you want to give to the split server. For example, if you wanted to make a seperate (not modded) server for a new gamemode, select `Minecraft - Paper` as the server type and enter the amount of RAM and disk storage space you want to allocate for your server.
 
-![Split server](../static/img/split-server/split-server-2.png)
+![Split server](/static/img/split-server/split-server-2.png)
 
 Click on `Split server` and you will see a window confirming wether you want to continue with the server split.
 
@@ -43,4 +43,4 @@ You can interact and manage this new server in the same way as you would with yo
 
 When you login to the game panel, you can see your new server in the list of servers you can manage.
 
-![Split server](../static/img/split-server/split-server-3.png)
+![Split server](/static/img/split-server/split-server-3.png)

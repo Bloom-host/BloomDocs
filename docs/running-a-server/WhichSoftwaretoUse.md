@@ -23,7 +23,7 @@ keywords:
   - Modded Server Jars
   - Plugin Server Jars
   - Bloom.host
-image: ../static/img/WhichSoftwaretoUse/WhichSoftwaretoUse1.png
+image: /static/img/WhichSoftwaretoUse/WhichSoftwaretoUse1.png
 ---
 # Server Jars 
 Hey Bloomers! 👋 

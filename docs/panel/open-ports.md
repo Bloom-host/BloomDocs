@@ -22,11 +22,11 @@ To open ports for your server you can do this by following these instructions:
 
 1. From the [game panel](https://mc.bloom.host/), navigate your server and select the 'Ports & Proxies' option.
 
-![ports 1]((../static/img/open-ports/ports.png)
+![ports 1]((/static/img/open-ports/ports.png)
 
 2. From the page that appears, select 'Create new allocation'.
 
-![ports 2]((../static/img/open-ports/ports.png)
+![ports 2]((/static/img/open-ports/ports.png)
 
 3. Enter the port number that you want to open.
 

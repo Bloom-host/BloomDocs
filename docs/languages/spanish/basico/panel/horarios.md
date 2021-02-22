@@ -26,7 +26,7 @@ En esta guía, repasaremos como usar el horario para preparar acciones en horas 
 
 Primero, necesitas ir al panel de tu servidor y mira la barra lateral, encontrarás una sección llamada Schedules (Horarios).
 
-![Bloom.host Scheduling Actions](../../../../../static/img/scheduling-actions/scheduling-actions1.png) 
+![Bloom.host Scheduling Actions](/static/img/scheduling-actions/scheduling-actions1.png) 
 
 Aquí es donde todos tus horarios se encuentran en un solo lugar. Para añadir uno nuevo, da click en el botón **Create New** (Crear Nuevo).
 
@@ -36,13 +36,13 @@ Aquí, vas a ingresar un nombre para tu acción y una hora válida. Básicamente
 Sugerimos usar un [generador](https://crontab.guru/) para asegurarte que tienes el formato correcto. También toma en cuenta que todos los servidores de Bloom corren en la zona horaria UTC, así que tendrás que convertir tus horas locales a ella.
 :::
 
-![Bloom.host Scheduling Actions](../../../../../static/img/scheduling-actions/scheduling-actions2.png)
+![Bloom.host Scheduling Actions](/static/img/scheduling-actions/scheduling-actions2.png)
 
 Una vez terminado, click en **Create** (Crear) y ábrelo de la lista. Aquí, click en **New Task** (Nueva Acción).
 
-![Bloom.host Scheduling Actions](../../../../../static/img/scheduling-actions/scheduling-actions3.png)
+![Bloom.host Scheduling Actions](/static/img/scheduling-actions/scheduling-actions3.png)
 
-![Bloom.host Scheduling Actions](../../../../../static/img/scheduling-actions/scheduling-actions4.png)
+![Bloom.host Scheduling Actions](/static/img/scheduling-actions/scheduling-actions4.png)
 
 La sección final es qué se va a hacer cuando llegue la hora. Puede ser un comando o una acción. Los comandos deben de ejecutarse sin el / y no aceptan variables. Puedes enviar una acción, como apagar el servidor. Las acciones disponibles son:
 
@@ -61,10 +61,10 @@ También puedes especificar un delay (retraso). Esto es útil por ejemplo, si qu
 
 ### • ¡Día de Lanzamiento!
 
-![Bloom.host Scheduling Actions](../../../../../static/img/scheduling-actions/scheduling-actions5.png)
+![Bloom.host Scheduling Actions](/static/img/scheduling-actions/scheduling-actions5.png)
 
 ### • Reinicio Diario
 
-![Bloom.host Scheduling Actions](../../../../../static/img/scheduling-actions/scheduling-actions6.png)
+![Bloom.host Scheduling Actions](/static/img/scheduling-actions/scheduling-actions6.png)
 
 ---
