@@ -30,7 +30,7 @@ GeyserMC requires your server to be on the latest version.
 
 [Download the plugin](https://ci.nukkitx.com/job/GeyserMC/job/Geyser/job/master/lastSuccessfulBuild/artifact/bootstrap/spigot/target/Geyser-Spigot.jar) and upload the jar into your `plugins` folder. Restart or turn on the server. If you need help installing plugins, check out [this guide](https://docs.bloom.host/bukkit-plugins).  
 
-Once you've installed it, make a ticket in Bloom's [discord](https://discord.com/invite/bloom) and request a 19132 port for Bedrock.  
+Once you've installed it, create the allocation 19132 under the ports & proxies on the panel.  
 
 After that, just restart the server, and Bedrock players should now be able to connect to your Java server.  
 
