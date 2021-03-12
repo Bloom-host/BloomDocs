@@ -21,25 +21,31 @@ image: https://bloom.host/assets/images/logo.png
 
 Votifier is a plugin that allows players to receive rewards when voting for your server on server list sites.  
 
-SuperbVote is a vote rewards plugin that you can customize to give rewards for voting on Voting sites.  
+SuperbVote is a vote rewards plugin that you can customize to give rewards for voting on Voting sites.
 
-## Usage
-First, download the [NuVotifier](https://www.spigotmc.org/resources/nuvotifier.13449/) plugin and install it into your `plugins` folder. Install the [SuperbVote](https://www.spigotmc.org/resources/superbvote.11626/) plugin into the same place. Restart your server and enter the NuVotifer `config.yml` in its folder. Take a note of your port number.  
+##Usage - Single Server Setup
 
-Next, go to the Bloom.host discord [here](https://discord.gg/bloom) and open a ticket requesting for the port in your NuVotifier config to be opened.  
+First, download the [NuVotifier](https://www.spigotmc.org/resources/nuvotifier.13449/) plugin and install it into your `plugins` folder.
+Secondly, download and install [SuperbVote](https://www.spigotmc.org/resources/superbvote.11626/) plugin into the same place.
+Restart your server and enter the NuVotifier `config.yml` in its folder. Take a look at your port and remember this.
 
-Enter your SuperbVote `config.yml` and add what rewards you want to give your players. You can also store the data in a MySQL database if you would like. If you don't know how, [click here](https://docs.bloom.host/plugins) or ask in the discord.  
+Next you should head on over to your Minecraft Panel @ [click here](https://mc.bloom.host/), Click on the server you put NuVotifier on and click `Ports & Proxies`, find the button with `Create Allocation` on it. Click that and type in the port that is in your `config.yml`
+
+Open up your SuperbVote `config.yml` and add any rewards you want to give your players. You can also store any of the data in a MySQL database if you would like to.
+If you don't know how to do this, [click here](https://docs.bloom.host/databases) or ask in the discord.
+
 ```YAML
     mysql:
-     host: 123.456.789.10
-     username: u420_abbylikesducks
-     password: topsecret
-     database: s420_Votifier
-     table: votes
-     read-only: false
+      host: 123.456.789.10
+      username: u420_abbylikesducks
+      password: topsecret
+      database: s420_Votifier
+      table: votes
+      streaks-table: streaks
+      read-only: false
 ```
 
-Finally, save both configs and restart your server.  
+Next, save both configurations and restart your server.
 
 ## Info
 
