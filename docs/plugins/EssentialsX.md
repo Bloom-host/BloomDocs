@@ -61,7 +61,7 @@ EssentialsX also has a number of signs that you can use to allow your players to
 :::important
 All EssentialsX signs are **disabled by default**. If you want to use a sign, you will need to enable it in the config. To do this:
 1. Open the config file in the EssentialsX plugin folder (usually `/plugins/Essentials`)
-2. Scroll down untill you see a section that looks like this:
+2. Scroll down until you see a section that looks like this:
 ```yaml
 # Essentials Sign Control
 # See http://wiki.ess3.net/wiki/Sign_Tutorial for instructions on how to use these.
