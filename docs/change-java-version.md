@@ -50,10 +50,10 @@ The OpenJ9 image is **not** recommended for Minecraft servers, you should be usi
 
 You should be able to change the Java version to a version of Java you need. In this image you can see that we can change between these versions:
  * Java 8 (`quay.io/pterodactyl/core:java`)
- * Java 11 (`quay.io/parkervcp/pterodactyl-images:debian_openjdk-11`)
+ * Java 11 (`quay.io/parkervcp/pterodactyl-images:debian_openjdk-11` or `quay.io/pterodactyl/core:java-11`)
  * Java 14 (`quay.io/parkervcp/pterodactyl-images:debian_openjdk-14`)
  * Java 15 (`quay.io/parkervcp/pterodactyl-images:debian_openjdk-15`)
- * Java 11 OpenJ9 (`quay.io/parkervcp/pterodactyl-images:debian_openjdk-11-openj9`)
+ * Java 11 OpenJ9 - not recommended! (`quay.io/parkervcp/pterodactyl-images:debian_openjdk-11-openj9`)
 ![Bloom.host change-java-version](../static/img/change-java-version/change-java-version-3.png)
 
 Simply change this to the version of Java that you need and then restart the server.
