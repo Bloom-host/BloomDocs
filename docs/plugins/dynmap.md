@@ -41,7 +41,7 @@ Now enter the database information into this section remembering to remove the `
      userid: u12323402
      password:  123456789
 ```
-Now go into the Bloom.host discord, click the "Ports" tab, and create a new port. This port is randomly generated, so you will have to change the port in the config file.  
+Now go into the Bloom.host discord, click the "Ports" tab, and create a new port. You will be able to choose a port that you want to use and enter the port number you just opened into the config file.
 
 You can also request your Dynmap IP to be added to Bloom's reverse proxy, changing the website link from `123.456.67.2:8123` to `subdomain.yourdomain.com`. Please read [this guide](https://docs.bloom.host/reverse-proxy).  
 
