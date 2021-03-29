@@ -9,36 +9,54 @@ keywords:
   - Spigot
   - Paper
   - Bukkit
-  - Tunity
+  - Tuinity
   - Forge
   - Fabric
   - Yatopia
-  - Akarin
   - Purpur
   - Airplane
-  - Origami
-  - NachoSpigot
-  - Magma
   - Server Jars
   - Minecraft
   - Modded Server Jars
   - Plugin Server Jars
   - Bloom.host
+  - Minestom
 image: ../static/img/WhichSoftwaretoUse/WhichSoftwaretoUse1.png
 ---
 # Server Jars 
 Hey Bloomers! 👋 
 
-In this guide, we will go over which jar is right for your server. The overall recommended jars would be Paper as it's the most stable of the jars and it has a reputation of being great.
+In this guide, we will go over which jar is right for your server.
 
 ---
 ## Recommended Software:
 
-### • [Paper](https://github.com/PaperMC/Paper)
-Paper is a [fork](https://en.wikipedia.org/wiki/Fork_(software_development)) of Spigot and aims to have better performance and stability. It also has an expanded API, allowing plugins to become even faster. This jar is highly recommended as it fixes exploits, bugs, and more as well as it greatly improves performance and stability of any Minecraft server. 
+### • [Paper](https://papermc.io/)
+Paper is a [fork](https://en.wikipedia.org/wiki/Fork_(software_development)) of Spigot and aims to have better performance and stability. It also has an expanded API, allowing plugins to become even faster. This jar is highly recommended as it fixes exploits, bugs, and more as well as it greatly improves performance and stability of any Minecraft server.  
+Paper works with Bukkit and Spigot plugins and is the recommended default jar.
+
+---
+
+## Other popular options: 
+
+### • [Vanilla](https://www.minecraft.net/en-us/download/server)
+Vanilla is the jar provided by Mojang to run Minecraft servers. This is the bare minimum for servers with no plugin API for plugins to hook into or a modding API like forge. It is not optimized and only recommended for small groups of friends who want to play plain vanilla.
+
+### • [Bukkit](https://bukkit.org/)
+Bukkit is an open source but defunct jar that was used in the early days of Minecraft plugin development. In 2014, Bukkit Project lead Warren Loo announced the end of the Bukkit project. The project was then DMCA by a former developer causing massive amounts of code to no longer be apart of Bukkit. If you want to learn the whole situation, read [Justin Flory blog post](https://blog.jwf.io/2020/04/open-source-minecraft-bukkit-gpl/) about it. BukkitCraft is a continuation that is still supported by Spigot, but is not recommended for servers as it's old and rarely recieves updates. 
+
+### • [Spigot](https://www.spigotmc.org/)
+Spigot is a fork of Bukkit that began in 2012. After Bukkit defuncted, it became the new standard as Bukkit plugins could all run on Spigot. Spigot is not recommended anymore as Paper has far surpassed it in performance and options.
 
 ### • [Tuinity](https://github.com/Spottedleaf/Tuinity)
-Tunity is a fork of paper that brings more experimental changes for servers to play around with. It is known to increase TPS on high player count servers, allowing a smoother experience on bigger servers.
+Tunity is a high performance fork of paper (and as such also includes all of the improvements paper adds) that brings more experimental changes for servers to play around with. It is known to increase TPS, allowing a smoother experience, especially on bigger servers. 
+
+### • [Airplane](https://airplane.gg/)
+Airplane is a fork of tuinity (and as such also includes all of the improvements paper and tuinity add) that brings even more performance oriented features. 
+
+### • [Purpur](https://purpur.pl3x.net/)
+"Purpur is a fork of Paper, Tuinity, and Airplane with the goal of providing new and interesting configuration options, which allow for creating a unique gameplay experience not seen anywhere else"  
+Purpurs goal is to bring more (off by default) configuration options to your server, it adds these on top of the paper, tuinity and airplane improvements.
 
 ### • [Forge](https://files.minecraftforge.net/)
 Forge is a jar that adds a modding API for developers to tap into. It is much more expansive than Bukkit, as players also have to install mods on their end, allowing for more possibilites. It's recommended for mods and modpacks. Mostly used for older versions of the game. (pre1.12)
@@ -46,43 +64,16 @@ Forge is a jar that adds a modding API for developers to tap into. It is much mo
 \> [Installation Guide](setting-up-forge)
 
 ### • [Fabric](https://fabricmc.net/)
-Fabric is a jar that makes modding easier and smoother than Forge. Fabric is considered superior to Forge due to a better API that is more documented. However, it has less mods to play around with. Mostly used for more modern versions of the game.
+Fabric is a jar that makes modding easier and smoother than Forge. Fabric is considered superior to Forge due to a better API that is more documented. However, it currently has less mods to play around with. It's mostly used for more modern versions of the game.   
+Fabric, with a few performance mods added, is recommended if you want to run a modern technical MC server.
 
 \> [Installation Guide](setting-up-fabric)
 
-
----
-
-## Other popular options: 
-
-### • [Spigot](https://www.spigotmc.org/)
-Spigot is a fork of Bukkit that began in 2012. After Bukkit began defunct, it became the new standard as Bukkit plugins could all run on Spigot. Spigot is the most commonly used jar, and as of 12/31, [45% of Minecraft servers use Spigot](https://bstats.org/plugin/bukkit/_bukkit_/1).
-
-### • [Bukkit](https://bukkit.org/)
-Bukkit is an open source but defunct jar that was used in the early days of Minecraft plugin development. In 2014, Bukkit Project lead Warren Loo announced the end of the Bukkit project. The project was then DMCA by a former developer causing massive amounts of code to no longer be apart of Bukkit. If you want to learn the whole situation, read [Justin Flory blog post](https://blog.jwf.io/2020/04/open-source-minecraft-bukkit-gpl/) about it. BukkitCraft is a continuation that is still supported by Spigot, but is not recommended for servers as it's old and rarely recieves updates. 
-
 ### • [Sponge](https://www.spongepowered.org/)
-Sponge is a API designed to be an overhaul of the Bukkit API that allows you to run Forge as well as plugins. It doesn't run Bukkit or any of its fork plugins. Currently, Sponge is on version 1.12.2 and is recommended for if you want modpacks and plugins together as smoothly as possible.
+Sponge is an API designed to be an overhaul of the Bukkit API that allows you to run Forge as well as plugins. It doesn't run Bukkit or any of its fork plugins. Currently, Sponge is on version 1.12.2 and is recommended for if you want modpacks and plugins together as smoothly as possible.
 
-### • [Akarin](https://github.com/Akarin-project/Akarin)
-Akarin is a jar that focuses on multi-threading Minecraft. It has so far been unstable and it not recommended for use on production servers.
-
-### • [Purpur](https://github.com/pl3xgaming/Purpur)
-Purpur is a fork of paper that aims to bring more gameplay changes to Minecraft, such as driveable Minecarts.
-
-### • [Airplane](https://github.com/TECHNOVE/Airplane)
-Airplane is a fork of Tuinity, which itself is a fork of Paper. As such, Airplane contains all performance and gameplay optimizations from Paper and Tuinity. Optimizations oriented towards large servers. Whether you have large amounts of players, entities, or chunks, Airplane will try to keep your server running as smoothly as can be!
-
-### • [Origami](https://github.com/Minebench/Origami)
-Origami is a paper fork which has several performance enhancements to it.
-
-### • [NachoSpigot](https://github.com/CobbleSword/NachoSpigot)
-NachoSpigot is a open source fork of paper that aims to bring patches from later Paper versions to Minecraft 1.8.
-
-### • [Magma](https://magmafoundation.org/)
-Magma is a jar that integrates Forge and Paper jars, allowing you to run Bukkit and its forks plugins with mods. It is considered unstable and is not recommended to use unless you know what you are doing.
-
-### • [Vanilla](https://www.minecraft.net/en-us/download/server)
-Vanilla is the jar provided by Mojang to run Minecraft servers. This is the bare minimum for servers with no plugin API for plugins to hook into or a modding API like forge. It is not greatly optimized and only recommended for small groups of friends who want to play plain vanilla.
+### • [Minestom](https://minestom.com/)
+"Minestom is a complete rewrite of Minecraft server software, open-source and without any code from Mojang."  
+Minestom is a *very* experimental developer API not meant to be used by end-users. Replacing Paper with this will not work since it does not implement the Bukkit API. It's very fast and can handle a lot of players. Only try if you like tinkering with code and are prepared to put in the work.
 
 ---

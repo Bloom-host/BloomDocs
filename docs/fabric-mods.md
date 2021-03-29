@@ -19,7 +19,7 @@ image: https://bloom.host/assets/images/logo.png
 This tutorial is for [Fabric](https://fabricmc.org) servers.
 :::
 
-You'll first need to find the mod you wish to install. Downloads can be found on a variety of sites. Many mods can be found on [CurseForge](https://www.curseforge.com/minecraft/mc-mods/fabric). Make sure you trust the source of your downloads.
+You'll first need to find the mod you wish to install. Downloads can be found on a variety of sites. Many mods can be found on [Modrinth](https://modrinth.com/mods) and [CurseForge](https://www.curseforge.com/minecraft/mc-mods/fabric). Make sure you trust the source of your downloads.
 
 In any case, save the mod to your local machine. Mods can either be uploaded via the [web panel](https://mc.bloom.host) or through [SFTP](https://docs.bloom.host/how-to-use-sftp). If you're uploading in bulk, go with the latter.
 
