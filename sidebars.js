@@ -6,16 +6,16 @@ module.exports = {
     ],
     
     'Using the Panel': [
-      'basic-controls', 
-      'scheduling-actions', 
-      'how-to-use-sftp', 
-      'sub-users', 
-      'databases',
-      'reverse-proxy',
-      'split-server',
-      'file-manager-controls', 
+      '2fa',
       'backups',
-      '2fa'
+      'basic-controls', 
+      'databases',
+      'file-manager-controls', 
+      'how-to-use-sftp', 
+      'reverse-proxy',
+      'scheduling-actions', 
+      'split-server',
+      'sub-users',
     ],
     
     'Running a Server': [
@@ -25,14 +25,14 @@ module.exports = {
       {
         'Install Plugins/Mods': ['bukkit-plugins', 'fabric-mods', 'forge-mods'],
       },
-      'server-optimization',
-      'pointing-a-domain', 
-      'server-resource-packs',
       'change-java-version', 
-      'datapacks', 
-      'timings', 
+      'datapacks',
       'motd', 
-      'reset-worlds'
+      'pointing-a-domain', 
+      'reset-worlds',
+      'server-optimization',
+      'server-resource-packs', 
+      'timings',
     ],
     
     'Server Modifications (Plugins/Mods)': [
@@ -66,16 +66,16 @@ module.exports = {
       },
       {
         'Fabric Mods': [
-          'fabric_mods/performance-mods',
           'fabric_mods/chunky_fabric',
           'fabric_mods/luckperms_fabric',
+          'fabric_mods/performance-mods',
         ],
       },
     ],
     
     'Extras': [
-      'mobile-app',
       'adding-an-icon', 
+      'mobile-app',
       'srvcontrol'
     ],
     
