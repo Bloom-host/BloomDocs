@@ -12,7 +12,6 @@ keywords:
   - Tuinity
   - Forge
   - Fabric
-  - Yatopia
   - Purpur
   - Airplane
   - Server Jars

@@ -31,7 +31,7 @@ Next, install the plugin into the `plugins` folder in your server. Need help? Ch
 
 Vault works out of the box without configuration in most cases. Plugins that hook into Vault (e.g. [LuckPerms](https://docs.bloom.host/plugins/luckperms)) will automatically find Vault and connect to it and provides a hook for plugins to work with it.
 
-Other plugins, such as [DiscordSRV](https://docs.bloom.host/plugins/discordsrv) can use the information provided by Vault (e.g. DiscordSRV can get the group names from your permissions plugin)
+Other plugins, such as [DiscordSRV](https://docs.bloom.host/plugins/discordsrv) and [EssentialsX](https://docs.bloom.host/plugins/essentialsx) can use the information provided by Vault (e.g. DiscordSRV can get the group names from your permissions plugin and EssentialsX uses the group info from Vault and uses Vault for permission checks.)
 
 ### Commands
 
