@@ -46,4 +46,16 @@ html[data-theme='dark'] {
 
 .footer {
     background-color: #0e0e17;
+
+}
+
+.margin-vert--xl {
+    display: none;
+}
+
+blockquote {
+    border-left: 5px solid #ff6300;
+    color: var(--ifm-blockquote-color);
+    line-height: 1.5;
+    padding: 10px;
 }

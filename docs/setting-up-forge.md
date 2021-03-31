@@ -12,26 +12,28 @@ keywords:
   - Bloom.host
 ---
 # Setting Up Forge
-Hey there Bloomers! 👋
 
-In this guide, we will go over how to setup Forge on your Minecraft server.
+### What is Forge?
+> 
+### Installing Forge
+> To begin installing Forge, head over to their [website](http://files.minecraftforge.net/) to download their installer and launch the jar file. Have it open up in an empty directory and hit install server. Have something like the screenshot below.
+> 
+> ![Bloom.host Forge](../static/img/setting-up-forge/forge2.png)
 
-To begin installing Forge, head over to their website to download their installer and launch the jar file. Have it open up in an empty directory and hit install server. Have something like the screenshot below.
+> After you have installed it, head over to an [SFTP client](https://docs.bloom.host/how-to-use-sftp) such as FileZilla and upload everything inside your folder to your server.
 
-![Bloom.host Forge](../static/img/setting-up-forge/forge2.png)
+> Next, rename your forge-xxx file to server.jar or go to Startup Parameters and change the Server Jar File.
 
-After you have installed it, head over to an [SFTP client](https://docs.bloom.host/how-to-use-sftp) such as FileZilla and upload everything inside your folder to your server.
+> Restart your server and let the files generate. This may take a few minutes. 
 
-Next, rename your forge-xxx file to server.jar or go to Startup Parameters and change the Server Jar File.
+> A new folder will appear named `mods`. Place any jars of mods you want in here and restart. Make sure you also have the mods if needed. Then, login to the server!
 
-Restart your server and let the files generate. This may take a few minutes. 
+> In the end, it should look like this: 
+> 
+> ![Bloom.host Forge](../static/img/setting-up-forge/forge3.png)
 
-A new folder will appear named `mods`. Place any jars of mods you want in here and restart. Make sure you also have the mods if needed. Then, login to the server!
+### Installing Forge Mods 
+> 
+> Refer to [this](forge-mods) guide.
 
-In the end, it should look like this: 
-
-![Bloom.host Forge](../static/img/setting-up-forge/forge3.png)
-
-## Installing Forge mods 
- 
-Refer to [this](forge-mods) guide.
+---
