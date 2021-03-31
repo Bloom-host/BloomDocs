@@ -1,10 +1,10 @@
 ---
 id: how-to-use-sftp
-title: How to use SFTP to transfer files
+title: Using SFTP
 hide_title: true
 hide_table_of_contents: false
 sidebar_label: Using SFTP For Files
-description: This guide will help you use SFTP (FileZilla/WinSCP) to transfer files.
+description: This guide will help you use SFTP (MobaXTerm/WinSCP/FileZilla) to transfer files.
 keywords:
   - Bloom.host
   - Import Files
@@ -17,38 +17,60 @@ keywords:
 ---
 # How to use SFTP to transfer files
 
+### What is SFTP? 
+> **S**SH **F**ile **T**ransfer **P**rotocol is one of the most popular methods of securely transferring files to remote servers.
 
 
-Hey Bloomers! 👋
+### More Actions
+>
+> If you wish to archive, unarchive or mass delete files, please check out or [guide](file-manager-controls.md) on file management through the panel.
 
-In this guide we will be using SFTP to import and export files. The SFTP client we will be using is called FileZilla, which you can download from [here](https://filezilla-project.org/download.php?show_all=1). Alternatively you could try using [WinSCP](https://winscp.net/) or even [MobaXterm](https://mobaxterm.mobatek.net/)!
+
+### Using SFTP
+> 
+> There are several so called *SFTP Clients* few of the more popular ones being [WinSCP](https://winscp.net/), [MobaXTerm](https://mobaxterm.mobatek.net/) or [FileZilla](https://filezilla-project.org/). 
+> 
+> To find the login details, navigate to the sidebar of the server, then open the 'Settings' section.
+> 
+> ![Bloom.host How to use SFTP](../static/img/how-to-use-sftp/how-to-use-sftp1.png)
+> 
+
+> 
+> ![Bloom.host How to use SFTP](../static/img/how-to-use-sftp/how-to-use-sftp2.png)
+>
+> Here you will be able to see your server's SFTP host IP address and port as well as your username! Your SFTP password is the same as your game panel password.
+> 
+> *With our new panel if you have WinSCP installed, you can launch straight away by clicking `Launch SFTP`.*
+
 
 ---
 
-To find the login details, navigate to the sidebar of the server, then open the 'Settings' section.
+### Using WinSCP
+> Firstly, you'll have to download [WinSCP](https://winscp.net/eng/download.php) to your computer. - This should be simple with their installation wizard.
+>
+> With our new panel, you can simply head over to the [Duck Panel](https://mc.bloom.host/) and click 'Launch SFTP' under 'Settings' on the left side of the screen. You'll simply need to enter your panel password and you are good to go!
+> 
 
-![Bloom.host How to use SFTP](../static/img/how-to-use-sftp/how-to-use-sftp2.png)
+> 
+> ![Bloom.host How to use SFTP](../static/img/how-to-use-sftp/how-to-use-sftp3.png)
+> WinSCP is very similar to your basic Windows Explorer. However, on the right side of the screen (green area) you can see your local files and on the left side (blue area), you can see the remote server's files.
+> You can drag, drop, rename and delete files as you wish. 
 
 ---
 
-Here you will be able to see your server's SFTP host name (red), and SFTP username (cyan). 
-
-*With our new panel if you have WinSCP installed, you can launch straight away by clicking `Launch SFTP` (green)*
-
-![Bloom.host How to use SFTP](../static/img/how-to-use-sftp/how-to-use-sftp3.png)
-
----
-
-In case you aren't using WinSCP like in our case, input your login details in the top left. 
-- Host: This can be seen on the panel, without the prefix or suffix. As an example: `sftp://testnode.bloom.host:2022` would be `testnode.bloom.host`
-- Username: Just your SFTP username from the Settings Section.
-- Password: Your game panel password. <u>Not your billing password!</u>
-- Port: This will be `2022` for everyone. 
-
-![Bloom.host How to use SFTP](../static/img/how-to-use-sftp/how-to-use-sftp4.png)
-
-The left side contains the files stored on your computer (yellow), and the right (orange) contains the files on the server. The bottom, shown in blue, gives you information on the file transfer. 
-
-If you wish to archive or unarchive files, please check out or [guide](file-manager-controls.md) on file management through the panel.
+### Using MobaXTerm
+> Firstly, you'll have to download [MobaXTerm](https://mobaxterm.mobatek.net/download.html). They do have a free edition and also a professional, paid one. - This should be simple with their installation wizard.
+> 
+> Once that's done, simply launch the application. Right-click on the left side of the screen and click 'New Session'!
+> Here, select 'SFTP' in the middle.
+> ![Bloom.host How to use SFTP](../static/img/how-to-use-sftp/how-to-use-sftp4.png) 
+> You'll have to enter your host's IP, port and SFTP username (as discussed above). Once that's done, simply click 'Ok'.
+> 
+> You'll be asked for your panel password. By default, this password will be stored.
+> 
+ 
+> ![Bloom.host How to use SFTP](../static/img/how-to-use-sftp/how-to-use-sftp5.png)
+> On the left side (green area) of your screen, you can see your local file tree and files and on the left side (blue area) you can see your remote files.
+> You can drag, drop, rename and delete files as you wish.
 
 ---

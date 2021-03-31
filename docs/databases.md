@@ -2,7 +2,7 @@
 id: databases
 title: Adding MySQL Databases
 hide_title: true
-hide_table_of_contents: false
+hide_table_of_contents: true
 sidebar_label: Adding MySQL Databases
 description: This guide will help you add MySQL databases to your server
 keywords:
@@ -12,32 +12,29 @@ keywords:
   - Databases
 image: https://bloom.host/assets/images/logo.png
 ---
-# Adding MySQL Databases
 
-Hey there Bloomers! 👋
+# MySQL Databases
 
-In this guide, we will go over how to create MySQL databases for your Minecraft server.
+### What is a database?
+> "*A database is an organized collection of structured information, or data, typically stored electronically in a computer system.*" - [oracle.com](https://oracle.com)
 
----
+### Adding MySQL Databases
+> 
+> First, go to your [game panel](https://mc.bloom.host/) and on the left sidebar, select 'Databases'.
+> ![Bloom.host Databases](../static/img/databases/databases1.png)
 
-First, go to your [game panel](https://mc.bloom.host/) and on the left sidebar, select 'Databases'.
+> The red highlighted area is where you can manage any existing databases. Click 'New Database' to create your first!
+> ![Bloom.host Databases](../static/img/databases/databases2.png)
 
-
-![Bloom.host Databases](../static/img/databases/databases1.png)
-
-The red highlighted area is where you can manage any existing databases. Click 'New Database' to create your first!
-
-![Bloom.host Databases](../static/img/databases/databases2.png)
-![Bloom.host Databases](../static/img/databases/databases3.png)
-
-In the first box, you assign the database a name. In the box below it, you can restrict MySQL connections. If you don't plan on using it, it's recommended to leave it as % or put it as your server IP. In this tutorial, we will create a database. Pick a name and hit **Create Database**.
-
-Once you have created the database, it will appear in your list. In order to use it for plugins, simply copy the details it shows into the configuration files for the plugins. Using those credentials, lets give some examples.
+> ![Bloom.host Databases](../static/img/databases/databases3.png)
+> In the first box, you assign the database a name. In the box below it, you can restrict MySQL connections. If you don't plan on using it, it's recommended to leave it as % or put it as your server IP. In this tutorial, we will create a database. Pick a name and hit **Create Database**.
+> 
+> Once you have created the database, it will appear in your list. In order to use it for plugins, simply copy the details it shows into the configuration files for the plugins. Using those credentials, lets give some examples.
 
 ---
 
-## Examples
-### • Luckperms:
+### Examples
+#### ➤ Luckperms:
 ```YAML
 storage-method: MySQL
 
@@ -61,7 +58,7 @@ data:
   username: u178_uIxN5UjEZy
   password: '@CSyH7IV8r4TUnaA3A7lu^2T'
 ```
-### • LiteBans
+#### ➤ LiteBans
 ```YAML
 sql:
   # H2, MySQL, MariaDB, and PostgreSQL are supported database drivers.
@@ -79,7 +76,7 @@ sql:
   username: 'u178_uIxN5UjEZy'
   password: '@CSyH7IV8r4TUnaA3A7lu^2T'
 ```
-### • CoreProtect
+#### ➤ CoreProtect
 ```YAML
 use-mysql: true
 table-prefix: co_
@@ -89,7 +86,7 @@ mysql-database: s178_test
 mysql-username: u178_uIxN5UjEZy
 mysql-password: @CSyH7IV8r4TUnaA3A7lu^2T
 ```
-### • Plan
+#### ➤ Plan
 ```YAML
 Database:
     Type: MySQL
@@ -102,7 +99,7 @@ Database:
         # Launch options to append after mysql driver address
         Launch_options: "?rewriteBatchedStatements=true&useSSL=false&serverTimezone=UTC"
 ```
-### • AdvancedBan
+#### ➤ AdvancedBan
 ```YAML
 # If set to false all bans will be saved locally in a HSQLDB-Database
 UseMySQL: true
@@ -116,6 +113,8 @@ MySQL:
   Properties: 'verifyServerCertificate=false&useSSL=false&useUnicode=true&characterEncoding=utf8'
 ```
 
-Remember to switch out the credentials for what you need!
+### ⚠ Warning:
+> Remember to switch out the credentials for what you need!
+
 
 ---

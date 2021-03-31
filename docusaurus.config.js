@@ -44,26 +44,6 @@ module.exports = {
     },
     footer: {
       style: "dark",
-      links: [
-        {
-          title: "Community",
-          items: [
-            {
-              label: "Discord",
-              href: "https://discord.com/invite/8UGXqNBDt6",
-            },
-          ],
-        },
-        {
-          title: "More",
-          items: [
-            {
-              label: "GitHub",
-              href: "https://github.com/billy-bloom/bloomdocs",
-            },
-          ],
-        },
-      ],
       copyright: `Copyright © ${new Date().getFullYear()} Super Duper Broccoli, Inc. Built with Docusaurus.`,
     },
   },
