@@ -1,20 +1,20 @@
 ---
-id: luckperms
-title: LuckPerms
+id: venturechat
+title: VentureChat
 hide_title: true
 hide_table_of_contents: false
 sidebar_label: LuckPerms
-description: An essential plugin named LuckPerms that handles server permissions.
+description: An easy to use and customisable plugin for your Chat-based needs.
 keywords:
-  - Luckperms
-  - Permissions
+  - VentureChat
+  - Chat
   - Spigot
   - Bloom.host
   - Pterodactyl Panel
   - Minecraft
 image: https://bloom.host/assets/images/logo.png
 ---
-# LuckPerms
+# VentureChat
 
 ### What does the plugin do?
 
@@ -24,20 +24,80 @@ Unlike PermissionsEx which has not been updated since January 2016, LuckPerms is
 
 ## Usage
 
-To use this plugin, [download](https://luckperms.net/download) the jar you need it for. Most commonly, for single servers, it would be the Bukkit jar.  
+To use this plugin, [download](https://www.spigotmc.org/resources/venturechat.771/) the jar file you will use for installation. This plugin can be used on Bungeecord servers by placing it into the relative plugins folder too.
 
-Upload the jar into your `plugins` folder. Turn on or restart the server. If you need help installing plugins, check out [this guide](https://docs.bloom.host/bukkit-plugins).  
+Once you have downloaded the .jar file, upload it into your `plugins` folder then either start or restart the server. If you need assistance in installing plugins, check out [this guide](https://docs.bloom.host/bukkit-plugins).  
 
-To begin, simply run `/lp editor`. Once you have made your edits in the GUI, click save and run the command it gives you. If you need more help, consult the [LuckPerms wiki](https://luckperms.net/wiki/Home).  
+To begin, simply edit the `config.yml` channels below. Here is an example from the [VentureChat Wiki](https://www.spigotmc.org/wiki/venturechat-wiki/)
 
-## Migrating from other plugins
+```
+Build:
+    color: dark_green
+    chatcolor: white
+    mutable: true
+    filter: true
+    autojoin: true
+    default: true
+    distance: 0
+    cooldown: 0
+    bungeecord: true
+    alias: b
+    permissions: None
+    format: '&2 Build &7┃ {groupprefix}{nickname}&7 :'
+```
 
-You can migrate your permissions setup from various other permissions plugins (including PermissionsEx) and it is, in most cases a simple process. For more information on how to do this, refer to the [LuckPerms wiki](https://luckperms.net/wiki/Migration)
+### Defining the more complicated terms
+
+Here are a list of key terms you have seen in the above configuration that can be important in the setup of your channels.
+
+`alias` - This shortens the command to join and send messages in a channel/s. E.g. Instead of running /build in this example, you can do /b <text> instead.
+`distance` - This is the radius in which people will see your message. E.g. If it is set to five, people only within five blocks from all directions of you will see a message you have sent.
+`cooldown` - Defines how quickly you can send messages in seconds. E.g. If you set this option to 3, people can only send a message per 3 seconds.
+`bungeecord` - This enables cross-server messages. Due to the complexities of this function, read the relevent wiki page [here](https://www.spigotmc.org/wiki/venturechat-wiki/) 
+`autojoin` - Defines whether or not this channel is the first channel you enter on join. It is recommended you only enable autojoin for one channel only to avoid conflicts.
+
+
+## How to use VentureChat Broadcast and Messaging
+
+Unfortunately with plugins such as [EssentialsX](https://www.spigotmc.org/resources/essentialsx.9089/), you may be unable to use `/msg` and `/broadcast` functions due to conflicting plugins. In order to fix said conflicts, make the following adjustements below.
+
+Add to the bukkit `commands.yml` (found at `/`)
+```
+  msg:
+  - vmessage $$1 $2-
+  reply:
+  - vreply $$1 $2-
+  r:
+  - vreply $$1 $2-
+  message:
+  - vmessage $$1 $2-
+  tell:
+  - vtell $$1 $2-
+  broadcast:
+  - vbroadcast $$1 $2-
+```
+
+If you have EssentialsX add to the plugin's `config.yml` (found at `/plugins/EssentialsX/`)
+
+```
+disabled-commands:
+- nick
+- broadcast
+- essentials:broadcast
+- ignore
+- essentials:ignore
+- msgtoggle
+- essentials:msgtoggle
+- unignore
+- essentials:ignore
+```
+
+Once the above additions are added save the following files and run `/essentials reload` before restarting your server, or start your server. Now you should be able to use VentureChat's broadcast and messaging funcitons while overriding EssentialsX's default ones if you have EssentialsX also.
 
 ## Info
 
-[Website](https://luckperms.net/)  
+[VentureChat Spigot](https://www.spigotmc.org/resources/venturechat.771/)  
 
-[Github](https://github.com/lucko/LuckPerms)  
+[BitBucket](https://bitbucket.org/Aust1n46/venturechat/)  
 
-[Support](https://discord.com/invite/luckperms)
+[Wiki](https://www.spigotmc.org/wiki/venturechat-wiki/)
