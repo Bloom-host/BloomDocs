@@ -3,7 +3,7 @@ id: venturechat
 title: VentureChat
 hide_title: true
 hide_table_of_contents: false
-sidebar_label: LuckPerms
+sidebar_label: VentureChat
 description: An easy to use and customisable plugin for your Chat-based needs.
 keywords:
   - VentureChat
@@ -18,9 +18,7 @@ image: https://bloom.host/assets/images/logo.png
 
 ### What does the plugin do?
 
-LuckPerms is a permission plugin built for Minecraft servers to handle permissions from all your plugins. It is considered to be one of the best permission plugins due to it's accessibility and how it handles data.  
-
-Unlike PermissionsEx which has not been updated since January 2016, LuckPerms is regularly updated by the developer Luck who is the developer for Spark as well.
+VentureChat is the #1 Bukkit chat resource on Spigot which is a do-it-all chat plugin, from chat format to customisable channels, you can accomplish this all with VentureChat. Unlike competing plugins like HeroChat Pro and EssentialsX, you can customise to your liking for free and easily!
 
 ## Usage
 
