@@ -4,7 +4,7 @@ title: VentureChat
 hide_title: true
 hide_table_of_contents: false
 sidebar_label: VentureChat
-description: An easy to use and customisable plugin for your Chat-based needs.
+description: An easy to use and customisable plugin for your chat needs.
 keywords:
   - VentureChat
   - Chat
