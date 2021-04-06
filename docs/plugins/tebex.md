@@ -42,7 +42,7 @@ Do not share your Secret Key with **anyone**!
 
 See below for an example on where to find your Secret Key. 
 
-![img](.../static/img/tebex/key.png)
+![img](../../static/img/tebex/key.png)
 
 Once you have obtained your Secret Key, run the following command in your server’s console, being sure to replace `key` with your Secret Key.
 
