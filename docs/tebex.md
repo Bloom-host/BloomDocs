@@ -36,7 +36,7 @@ Once you have logged in, proceed to the sidebar on the left of your page and cli
 
 :::warning
 
-Do not share your Secret Key with **anyone**!
+Do not share your Secret Key with **anyone**, otherwise you risk the chance of someone else adding your store.
 
 :::
 
