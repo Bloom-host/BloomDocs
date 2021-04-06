@@ -48,7 +48,7 @@ Build:
 
 Here are a list of key terms you have seen in the above configuration that can be important in the setup of your channels.
 
-`alias` - This shortens the command to join and send messages in a channel(s). E.g. Instead of running /build in this example, you can do /b <text> instead.
+`alias` - This shortens the command to join and send messages in a channel(s). E.g. Instead of running `/build` in this example, you can do `/b <text>` instead.
 
 `distance` - This is the radius in which people will see your message. E.g. If it is set to five, people only within five blocks from all directions of you will see a message you have sent.
 
