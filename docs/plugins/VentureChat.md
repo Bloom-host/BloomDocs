@@ -1,4 +1,3 @@
-
 ---
 id: venturechat
 title: VentureChat
