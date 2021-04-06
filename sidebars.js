@@ -67,7 +67,7 @@ module.exports = {
           'plugins/ServerNPC',
           'plugins/spark',
           'plugins/tebex',
-          'plugins/VentureChat',
+          'plugins/venturechat',
           'plugins/viaversion',
           'plugins/vault',
           'plugins/votifier',
