@@ -72,7 +72,6 @@ module.exports = {
           'plugins/vault',
           'plugins/votifier',
           'plugins/worldedit',
-          
         ],
       },
       {
