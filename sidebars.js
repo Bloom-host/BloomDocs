@@ -66,6 +66,8 @@ module.exports = {
           'plugins/prism',
           'plugins/ServerNPC',
           'plugins/spark',
+          'plugins/tebex',
+          'plugins/VentureChat',
           'plugins/viaversion',
           'plugins/vault',
           'plugins/votifier',
