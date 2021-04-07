@@ -23,7 +23,7 @@ image: https://bloom.host/assets/images/logo.png
 ## What does the plugin do?
 Pl3xmap allows you to see your Minecraft world in 2D in real time, like Google Maps. This plugin is most alike to Dynmap, however uses less storage with the trade off of a lower quality map. 
 
-![img](../static/img/pl3xmap/map.png)
+![img](../../static/img/pl3xmap/map.png)
 
 # Usage
 Download the Pl3xmap plugin and place into the `plugins` folder then restart your server. A file named `config.yml` among other files will be generated in the `/pl3xmap` folder. This file contains options to customise the appearance of your map as well as the web server your map will be on. 
