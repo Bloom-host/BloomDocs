@@ -63,6 +63,7 @@ module.exports = {
           'plugins/luckperms',
           'plugins/Milk',
           'plugins/multiverse',
+          'plugins/pl3xmap',
           'plugins/prism',
           'plugins/ServerNPC',
           'plugins/spark',
