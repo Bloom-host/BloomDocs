@@ -20,10 +20,10 @@ image: https://bloom.host/assets/images/logo.png
 # Server Optimization Guide
 #### `By Sancires`
 
-Updated for version 1.16.4! 
+Updated for version 1.16.5! 
 
 Since 1.13, Minecraft servers have gotten progressively harder to run. Paper, a fork of Spigot, offers many settings that greatly improve performance. For this guide, we will be dealing with four main files.  
-(If you use fabric make sure to also check out [Fabric Performance Mods](fabric_mods/performance-mods.md))
+(If you use Fabric make sure to also check out [Fabric Performance Mods](fabric_mods/performance-mods.md))
 
 Download Paper: [papermc.io](https://papermc.io/)
 
@@ -72,7 +72,7 @@ Keep in mind, this guide merely provides suggestions, and should not be taken ex
 
 ### `ticks-per.monster-spawns`
 - Default: 1
-- Recommended: 4
+- Recommended: 4-6
 - Importance: Medium
 - Explanation: This option will increase how often (in ticks) the server tries to spawn a hostile mob. Slightly increasing the time in between monster spawns will not impact spawn rates, and if you are noticing substantial TPS loss due to mobs, you can try raising this option even more.
 
@@ -82,9 +82,9 @@ Keep in mind, this guide merely provides suggestions, and should not be taken ex
 #### ~ Only applies to Spigot and Paper.
 ### `save-user-cache-on-stop-only`
 - Default: true
-- Recommended: False
-- Importance: Medium
-- Explanation: Toggles whether to constantly save new user cache data to disk or only to do so when the server stops.
+- Recommended: false
+- Importance: Low
+- Explanation: Toggles whether to constantly save new user cache data to disk or only to do so when the server stops. If you have a large playercount, you may want to keep this enabled to prevent data loss.
 
 ### `moved-wrongly-threshold`
 - Default: 0.0625
@@ -206,7 +206,7 @@ Keep in mind, this guide merely provides suggestions, and should not be taken ex
 
 ### `despawn-ranges`
 - Default: soft: 32, hard: 128
-- Recommended: soft: 28, hard: 96
+- Recommended: soft: 32, hard: 72
 - Importance: High
 - Explanation: This option will clear mobs and allow more to be spawned near players. You should experiment with this option and see what works best with your respective view-distance.
 
@@ -239,6 +239,18 @@ Keep in mind, this guide merely provides suggestions, and should not be taken ex
 - Recommended: true
 - Importance: Very High
 - Explanation: This option is critical to servers and better represent single-player behavior. Additionally, this option will evenly distribute mob spawns so that one player does not receive all spawns.
+
+### `update-pathfinding-on-block-update`
+- Default: true
+- Recommended: false
+- Importance: Low
+- Explanation: Disabling this option will simply make mobs pathfind less often, increasing performance. This option can potentially make mobs appear to be lagging.
+
+### `fix-climbing-bypassing-cramming-rule`
+- Default: false
+- Recommended: true
+- Importance: Low
+- Explanation: Enabling this option will prevent mobs such as spiders from being able to bypass cramming to death by climbing, and prevent a large build up of them in a small area.
 
 ### `no-tick-view-distance`
 - Default:
