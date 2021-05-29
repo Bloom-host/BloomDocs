@@ -79,7 +79,7 @@ Add to the bukkit `commands.yml` (found at `/`)
   - vbroadcast $$1 $2-
 ```
 
-If you have EssentialsX add to the plugin's `config.yml` (found at `/plugins/EssentialsX/`)
+If you have EssentialsX add to the plugin's `config.yml` (found at `/plugins/Essentials/`)
 
 ```
 disabled-commands:
