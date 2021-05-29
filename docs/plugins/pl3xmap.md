@@ -63,6 +63,6 @@ Your server needs to be restarted after the port has been allocated.
 
 [pl3xmap Download](https://ci.pl3x.net/job/Pl3xMap/)  
 
-[pl3xmap Discord](https://discord.com/invite/mtAAnkk )  
+[pl3xmap Discord](https://discord.gg/B8WpDPXeBh )  
 
 [pl3xmap Wiki](https://github.com/pl3xgaming/Pl3xMap/wiki )
