@@ -1,19 +1,23 @@
-# Docs Site
+# Document Format: 
+```yaml
 
-Quick Link to the docs site: https://docs.bloom.host/
+---
+id: <id>
+title: <title>
+slug: <id>
+hide_title: true
+hide_table_of_contents: true
+sidebar_label: <sidebar title>
+description: <short description>
+image: https://bloom.host/assets/images/logo.png
+---
+```
+```html
+<div class="text--center">
+<img src="https://bloom.host/assets/images/logo.png" alt="logo" height="50%" width="50%"/>
+<h1>[sidebar title]</h1>
+</div>
 
-# Website
-
-This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
-
-### Local Development
+... rest of the document ...
 
 ```
-$ yarn start
-```
-
-Note: After cloning the repository, you may need to run `yarn install` before running `yarn start` to get the Docusaurus dependencies installed.
-
-This command starts a local development server and open up a browser window. Most changes are reflected live without having to restart the server.
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/ae13244d-2e40-494c-ad2a-407e798e8dea/deploy-status)](https://app.netlify.com/sites/bloomdocs/deploys)

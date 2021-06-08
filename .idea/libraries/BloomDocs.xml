@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="BloomDocs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/BloomDocs.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
