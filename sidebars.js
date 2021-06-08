@@ -1,93 +1,156 @@
 module.exports = {
-  docs: {
-    'Overview': [
-      'overview',
-      'editing-account-details'
-    ],
 
-    'Using the Panel': [
-      'basic-controls',
-      'scheduling-actions',
-      'how-to-use-sftp',
-      'sub-users',
-      'databases',
-      'reverse-proxy',
-      'split-server',
-      'file-manager-controls',
-      'backups',
-      '2fa'
-    ],
 
-    'Running a Server': [
-      {
-        'Server Jars': [
-          'serverjars',
-          'setting-up-fabric',
-          'setting-up-forge'
-        ],
-      },
-      {
-        'Install Plugins/Mods': [
-          'spigot-plugins',
-          'fabric-mods',
-          'forge-mods'
-        ],
-      },
-      'server-optimization',
-      'pointing-a-domain',
-      'server-resource-packs',
-      'change-java-version',
-      'datapacks',
-      'timings',
-      'motd',
-      'reset-worlds'
-    ],
+    docs: [
 
-    'Server Modifications (Plugins/Mods)': [
-      {
-        'Plugins': [
-          'plugins/advancedanticheat',
-          'plugins/advancedban',
-          'plugins/bungeeguard',
-          'plugins/chunky',
-          'plugins/citizens2',
-          'plugins/conditionalcommands',
-          'plugins/coreprotect',
-          'plugins/craftingstore',
-          'plugins/discordsrv',
-          'plugins/dynmap',
-          'plugins/essentialsx',
-          'plugins/geysermc',
-          'plugins/griefprevention',
-          'plugins/Litebans',
-          'plugins/luckperms',
-          'plugins/Milk',
-          'plugins/multiverse',
-          'plugins/pl3xmap',
-          'plugins/prism',
-          'plugins/ServerNPC',
-          'plugins/spark',
-          'plugins/venturechat',
-          'plugins/viaversion',
-          'plugins/vault',
-          'plugins/votifier',
-          'plugins/tebex',
-          'plugins/worldedit',
-        ],
-      },
-      {
-        'Fabric Mods': [
-          'fabric_mods/performance-mods',
-          'fabric_mods/chunky_fabric',
-          'fabric_mods/luckperms_fabric',
-        ],
-      },
-    ],
+        {
+            type: 'link',
+            label: 'Website',
+            href: 'https://bloom.host/'
+        },
 
-    'Extras': [
-      'mobile-app',
-      'adding-an-icon',
-      'srvcontrol'
+        {
+            type: 'link',
+            label: 'Support Discord',
+            href: 'https://bloom.host/discord',
+        },
+
+
+        {
+            type: 'doc',
+            id: "running_a_server/1.17",
+        },
+
+
+        {
+            type: 'category',
+            label: 'Getting Started',
+            items: [
+                'getting_started/overview',
+                {
+                    type: 'link',
+                    label: 'Frequently Asked Questions',
+                    href: 'https://bloom.host/faqs',
+                },
+            ],
+        },
+
+        {
+            type: 'category',
+            label: 'Using the Panel',
+            collapsed: false,
+            items: [
+                {
+                    type: 'link',
+                    label: 'Feature Summary',
+                    href: 'https://bloom.host/duck-panel',
+                },
+                'using_the_panel/basic-controls',
+                'using_the_panel/file-manager-controls',
+                'using_the_panel/databases',
+                'using_the_panel/schedules',
+                'using_the_panel/users',
+                'using_the_panel/backups',
+                'using_the_panel/ports-and-proxies',
+                'using_the_panel/sftp',
+                'using_the_panel/split-server',
+                'using_the_panel/2fa'
+            ],
+        },
+
+        {
+            type: 'category',
+            label: 'Running a Server',
+            collapsed: true,
+            items: [
+                'running_a_server/1.17',
+                'running_a_server/jars',
+                'running_a_server/optimization',
+                'running_a_server/domain',
+                'running_a_server/resourcepack',
+                'running_a_server/java-version',
+                'running_a_server/datapacks',
+                'running_a_server/timings',
+                'running_a_server/motd',
+                'running_a_server/world-reset'
+            ],
+        },
+
+        {
+            type: 'category',
+            label: 'Plugins & Modification',
+            collapsed: true,
+            items: [
+                {
+                    type: 'doc',
+                    id: "plugins_and_modifications/installing-plugin",
+                },
+                {
+                    type: 'doc',
+                    id: "plugins_and_modifications/fabric-setup",
+                },
+                {
+                    type: 'doc',
+                    id: "plugins_and_modifications/forge-setup",
+                },
+                {
+                    type: 'doc',
+                    id: "plugins_and_modifications/fabric-mods",
+                },
+                {
+                    type: 'doc',
+                    id: "plugins_and_modifications/forge-mods",
+                },
+                {
+                    type: 'category',
+                    label: "Plugins",
+                    items: [
+                        'plugins_and_modifications/plugins/advancedanticheat',
+                        'plugins_and_modifications/plugins/advancedban',
+                        'plugins_and_modifications/plugins/bungeeguard',
+                        'plugins_and_modifications/plugins/chunky',
+                        'plugins_and_modifications/plugins/citizens2',
+                        'plugins_and_modifications/plugins/conditionalcommands',
+                        'plugins_and_modifications/plugins/coreprotect',
+                        'plugins_and_modifications/plugins/craftingstore',
+                        'plugins_and_modifications/plugins/discordsrv',
+                        'plugins_and_modifications/plugins/dynmap',
+                        'plugins_and_modifications/plugins/essentialsx',
+                        'plugins_and_modifications/plugins/geysermc',
+                        'plugins_and_modifications/plugins/griefprevention',
+                        'plugins_and_modifications/plugins/litebans',
+                        'plugins_and_modifications/plugins/luckperms',
+                        'plugins_and_modifications/plugins/milk',
+                        'plugins_and_modifications/plugins/multiverse',
+                        'plugins_and_modifications/plugins/pl3xmap',
+                        'plugins_and_modifications/plugins/prism',
+                        'plugins_and_modifications/plugins/spark',
+                        'plugins_and_modifications/plugins/servernpc',
+                        'plugins_and_modifications/plugins/tebex',
+                        'plugins_and_modifications/plugins/venturechat',
+                        'plugins_and_modifications/plugins/viaversion',
+                        'plugins_and_modifications/plugins/vault',
+                        'plugins_and_modifications/plugins/votifier',
+                        'plugins_and_modifications/plugins/worldedit',
+                    ]
+                },
+            ]
+        },
+
+
+        {
+            type: 'category',
+            label: 'Extras',
+            collapsed: true,
+            items: [
+                'extras/account-details',
+                'extras/mobile-app',
+                'extras/srvcontrol',
+                'extras/contributing',
+                'extras/template'
+            ],
+        },
+
     ]
-  }
 }
+//'editing-account-details'

@@ -44,18 +44,26 @@ html[data-theme='dark'] {
     --ifm-breadcrumb-separator-filter: invert(64%) sepia(11%) saturate(0%) hue-rotate(149deg) brightness(99%) contrast(95%);
 }
 
-.footer {
-    background-color: #0e0e17;
-
+.menu__link--sublist {
+    font-size: 18px;
 }
 
-.margin-vert--xl {
+.menu__list {
+    font-size: 14px;
+}
+
+.margin-vert--xl, .pagination-nav, .footer, .react-toggle {
     display: none;
 }
 
 blockquote {
     border-left: 5px solid #ff6300;
-    color: var(--ifm-blockquote-color);
+    color: var(--ifm-color);
     line-height: 1.5;
     padding: 10px;
+}
+
+.float-right {
+    margin-left: 5%;
+    float: right;
 }
