@@ -19,29 +19,31 @@ image: https://bloom.host/assets/images/logo.png
 
 ### What does the plugin do?
 
-Chunky pregenerates chunks very quickly and efficiently, which is helpful for reducing server lag.  
+Chunky is a fast, easy, and safe tool for pre-generating chunks on your server.
+
+Chunk generation in Minecraft is slow, which can sometimes cause server lag or slow chunk loading for players. Generating them upfront will help improve performance and gameplay on almost any server.
 
 ## Usage
 
 :::caution
-While you will normally notice a significant boost in server performance after you are done pregenerating your chunks, the process is quite intensive, and you may see server lag while generating. Generating large maps can also use a lot of storage space.
+While you will normally notice a significant boost in server performance after you are done pre-generating your chunks, the process is quite intensive, and you may see server lag while generating. Generating large worlds can also use a lot of storage space.
 :::
 
-To start generation, you should first select a world and a radius by using `chunky world <world>`, and then `chunky radius <radius in blocks>`.  
+To start generation, you should first select a world by using `chunky world <world>`, and then the radius with `chunky radius <blocks>`.
 
-After that, you can run `chunky start` to start the generation.  
+After that, you can run `chunky start` to start generating.
 
 :::important
-It's normally good to enforce this pregeneration with a world border so that people don't generate new chunks and cause more lag. It's also good to increase the radius of Chunky by ~ 256 blocks (16 chunks) so that you have some buffer when people are right next to the border.
+It's a good idea to reinforce the pre-generated area by using a world border so that players don't explore too far in your world and generate new chunks. When doing this, you can also increase the radius by ~200 blocks (10 chunks) so that there is some buffer when players are right next to the border.
 :::
 
-If you wish to pause or cancel the pregeneration, you can run `chunky cancel` or `chunky pause`.  
+If you wish to pause or cancel pre-generation, you can run `chunky pause` or `chunky cancel`.
 
-To continue pregeneration after you've paused it, run `chunky continue`.  
+If it is paused, you can run `chunky continue` to resume pre-generation.
 
 
 :::tip
-You can use the table below to estimate the file size of your world after you generate it. The values below are for 2k by 2k blocks (1k radius).
+The table below can be used to estimate the file size of your world after you generate it. The values below are for 2k by 2k blocks (1k radius). Note that every time you double the radius, the area (and correspondingly the disk space / time taken) increases by 4x.
 :::
 
 | World         | File Size |
