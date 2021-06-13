@@ -34,8 +34,11 @@ Carpet mod adds several new features to the game, which are all disabled by defa
 
 ### Chunky 
 
-Chunk pregenerating mod by Pop4959 that pregenerates chunks very quickly and efficiently, which is helpful for reducing server lag.  
+Chunk pre-generation mod, which is helpful for reducing server lag caused by chunk loading.  
 See [Fabric Mods: Chunky](../fabric_mods/chunky_fabric.md)
+
+[Modrinth Page](https://modrinth.com/mod/chunky)  
+[CurseForge Page](https://www.curseforge.com/minecraft/mc-mods/chunky-pregenerator)
 
 ### Lithium
 
