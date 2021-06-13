@@ -5,7 +5,7 @@ module.exports = {
   baseUrl: "/",
   onBrokenLinks: "warn",
   favicon: "imgs/favicon.ico",
-  organizationName: "billy-bloom",
+  organizationName: "bloom-host",
   projectName: "bloomdocs",
 
   themeConfig: {
