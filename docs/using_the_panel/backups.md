@@ -28,7 +28,7 @@ To create a manual backup, head over to the Backups tab on the panel.
 
 Here you will find your current backups, and a **Create Backup** button. When you click the create backup button, you will get this screen:
 
-<div class="text--center"><img src="../../static/imgs/using_the_panel/backups/1.png" alt="img"/></div>
+<div class="text--center"><img src={require('../../static/imgs/using_the_panel/backups/1.png').default}"img"/></div>
 
 Simply give it a name and press the **Start Backup** button to continue. The backup then will start in the background, this may take some time depending on the size of your server.
 
@@ -39,9 +39,9 @@ Simply give it a name and press the **Start Backup** button to continue. The bac
 1. Head over to the Schedules tab on the panel.
 2. We are going to add a schedule that starts a backup, but these schedules can do way more! Find some examples at [Schedules](schedules.md). Simply click 'Create Schedule'. 
 3. Select when you wish to have a backup and click 'Create Schedule'. In this case we do one every 8 hours using all 3 daily backups.
-<div class="text--center"><img src="../../static/imgs/using_the_panel/backups/2.png" alt="img"/></div>
+<div class="text--center"><img src={require('../../static/imgs/using_the_panel/backups/2.png').default}"img"/></div>
 4. Then, simply add the commands and actions you wish to have. Here, we stop the server before and start it after the backup is created. This isn't a neccessary step but it's a better practice.
-<div class="text--center"><img src="../../static/imgs/using_the_panel/backups/3.png" alt="img"/></div>
+<div class="text--center"><img src={require('../../static/imgs/using_the_panel/backups/3.png').default}"img"/></div>
 
 
 Keep in mind that you can store up to 5 backups at any time with a max of 3 backups within a 24 hour period.  
@@ -53,7 +53,7 @@ If you have reached the backup limit, the oldest backup will be rotated.
 
 To restore a backup, simply head to the backups page, select the backup and click 'Restore'. Do note, this will overwrite any files with matching names. 
 
-<div class="text--center"><img src="../../static/imgs/using_the_panel/backups/4.png" alt="img"/></div>
+<div class="text--center"><img src={require('../../static/imgs/using_the_panel/backups/4.png').default}"img"/></div>
 
 ---
 

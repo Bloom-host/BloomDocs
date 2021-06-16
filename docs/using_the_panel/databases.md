@@ -24,7 +24,7 @@ First, go to your [game panel](https://mc.bloom.host/) and on the left sidebar, 
 
 Click 'New Database' to create your first!
 In the first box, you assign the database a name. In the box below it, you can restrict MySQL connections. If you are unsure, it's recommended to leave it as % or put it as your server IP. In this tutorial, we will create a database. Pick a name and hit **Create Database**.
-<div class="text--center"><img src="../../static/imgs/using_the_panel/databases/1.png" alt="img"/></div>
+<div class="text--center"><img src={require('../../static/imgs/using_the_panel/databases/1.png" alt="img"/></div>
 
 ---
 
@@ -32,7 +32,7 @@ In the first box, you assign the database a name. In the box below it, you can r
 
 Once you have created the database, it will appear in your list. In order to use it for plugins, simply copy the details it shows into the configuration files for the plugins. Using those credentials, lets give some examples.
 
-<div class="text--center"><img src="../../static/imgs/using_the_panel/databases/2.png" alt="img"/></div>
+<div class="text--center"><img src={require('../../static/imgs/using_the_panel/databases/2.png" alt="img"/></div>
 
 ---
 
