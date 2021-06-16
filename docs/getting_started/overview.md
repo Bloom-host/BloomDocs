@@ -9,12 +9,12 @@ image: https://bloom.host/assets/images/logo.png
 ---
 
 <div class="text--center">
-<img src="https://bloom.host/assets/images/logo.png" alt="logo" height="50%" width="50%"/>
+<img src="https://bloom.host/assets/images/logo.png').default} alt="logo" height="50%" width="50%"/>
 <h1>Documentation Overview</h1>
 </div>
 
 ## Introduction
-<img src="../../static/imgs/getting_started/overview/2.png" alt="search function" height="30%" width="30%" class="float-right"/>
+<img src={require('../../static/imgs/getting_started/overview/2.png').default} alt="search function" height="30%" width="30%" class="float-right"/>
 Welcome to the Bloom Docs! Here you can find useful information about our services and panel, running servers, frequently asked questions and more! For the sake of easy navigation, we've created a list of few of the more frequently used documents below.
 
 Throughout all documentations you will see common syntaxes.
