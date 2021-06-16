@@ -34,12 +34,12 @@ image: https://bloom.host/assets/images/logo.png
 
 
 ### Modded Minecraft:
->#### • [Forge](https://files.minecraftforge.net/) ([Installation Guide](setting-up-forge))
+>#### • [Forge](https://files.minecraftforge.net/) ([Installation Guide](forge-setup))
 >Forge is a jar that adds a modding API for developers to tap into. It is much more expansive than Bukkit, as players also have to install mods on their end, allowing for more possibilites. It's recommended for mods and modpacks. Mostly used for older versions of the game. (pre1.12)
 >
 
 > 
->#### • [Fabric](https://fabricmc.net/) ([Installation Guide](setting-up-fabric))
+>#### • [Fabric](https://fabricmc.net/) ([Installation Guide](fabric-setup))
 >Fabric is a jar that makes modding easier and smoother than Forge. Fabric is considered superior to Forge due to a better API that is more documented. However, it currently has less mods to play around with. It's mostly used for more modern versions of the game.   
 >Fabric, with a few performance mods added, is recommended if you want to run a modern technical MC server.
 
