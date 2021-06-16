@@ -124,6 +124,7 @@ module.exports = {
                         'plugins_and_modifications/plugins/multiverse',
                         'plugins_and_modifications/plugins/pl3xmap',
                         'plugins_and_modifications/plugins/prism',
+                        'plugins_and_modifications/plugins/plan',
                         'plugins_and_modifications/plugins/spark',
                         'plugins_and_modifications/plugins/servernpc',
                         'plugins_and_modifications/plugins/tebex',
