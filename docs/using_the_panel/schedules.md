@@ -26,11 +26,11 @@ First, go to your [game panel](https://mc.bloom.host/) and on the left sidebar, 
 
 Here is where all your schedules will be located in one convenient place. To add a new schedule, click the **Create New** button. Here, enter a name for your schedule and select when you wish for it to run. In case you would like to use the more advanced syntax, crontab, click the 'Advanced' tab!  
 
-<div class="text--center"><img src={require('../../static/imgs/using_the_panel/schedules/1.png').default}/></div>
+<div class="text--center"><img src={require('../../static/imgs/using_the_panel/schedules/1.png').default} alt="img"/></div>
 
 Once finished, click create and open it from the list. Here, click 'New Task'
 
-<div class="text--center"><img src={require('../../static/imgs/using_the_panel/schedules/2.png').default}/></div>
+<div class="text--center"><img src={require('../../static/imgs/using_the_panel/schedules/2.png').default} alt="img"/></div>
 
 The final section is what it will send as a command or as a power action. Commands should be used without the “/” in it and doesn’t accept variables. You can send a power action, with which can have turn the server on or off.
 

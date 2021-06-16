@@ -22,7 +22,7 @@ We would highly suggest using an SFTP client over the built-in file manager in m
 ### Basic Rundown
 By default you will be able to see the main/root folder of your server. You can click other folders to view their content. On the top left corner you can see your current path.
 
-<div class="text--center"><img src={require('../../static/imgs/using_the_panel/file_manager_controls/1.png').default}"console"/></div>
+<div class="text--center"><img src={require('../../static/imgs/using_the_panel/file_manager_controls/1.png').default} alt="console"/></div>
 
 #### Without selecting any files you can:
 - download files from a link (if the link directly leads to a file!)
