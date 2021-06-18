@@ -34,7 +34,11 @@ These plugins allow Java users to connect to your server from versions below and
 ViaVersion **needs** to be installed for ViaBackwards and ViaRewind to work and ViaRewind **needs** ViaVersion and ViaBackwards to work.
 :::
 
-![poggers in the chat](https://cdn.discordapp.com/attachments/737803938430189678/750862566192054282/viaversion-darkmode.png)  
+:::note
+Confused about which Via* plugin you need to use to support certain versions? Use this [website](https://jo0001.github.io/ViaSetup/?lang=en) to know which Via* plugins you need to install.
+:::
+
+<div class="text--center"><img src={require('../../static/imgs/plugins_and_modifications/plugins/viaversion.png').default} alt="img"/></div>
 
 # Usage
 Download the plugins and upload them into your `plugins` folder. Restart or turn on your server. If you need help with installing plugins, check out [this guide](https://docs.bloom.host/bukkit-plugins).  

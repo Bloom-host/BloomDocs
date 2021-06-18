@@ -17,7 +17,7 @@ image: https://bloom.host/assets/images/logo.png
 ---
 
 # **CraftingStore**
-![PogChamp 420](https://craftingstore.net/assets/img/logo/dark.png)
+![PogChamp 420](https://dash.craftingstore.net/assets/img/logo/light.png)
 
 ## What is CraftingStore?
 

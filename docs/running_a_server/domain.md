@@ -48,7 +48,7 @@ Click Save. This process will now take up to 48 hours to apply, but in most case
 ---
 # Pointing a domain to a split server
 
-Split servers created using the Duck Panel don't have a 25565 port and if you want to join to them directly you will need to use an ip like this: `survival.example.com:25566`. We can get around this by using a **DNS SRV record** that points to the split server port.
+Split servers don't have a 25565 port and if you want to join to them directly you will need to use something similar to this: `survival.example.com:25566`. We can get around this by using a **DNS SRV record** that points to the split server port.
 
 :::warning
 For the following steps we assume you already have created an A record pointing to your server IP. If you haven't done so, please follow the steps above to create another A record before you create the SRV Record.
