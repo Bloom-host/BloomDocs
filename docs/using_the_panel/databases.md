@@ -39,6 +39,8 @@ Once you have created the database, it will appear in your list. In order to use
 
 To import a database you first have to create a new database in your Bloom server, then click on the import button (the third one). Fill in the form with the database connection details from your old host. Keep in mind that database imports are limited to **5GB**.
 
+<div class="text--center"><img src={require('../../static/imgs/using_the_panel/databases/4.png').default} alt="img"/></div>
+
 <div class="text--center"><img src={require('../../static/imgs/using_the_panel/databases/3.png').default} alt="img"/></div>
 
 ---
