@@ -20,7 +20,13 @@ This guide will show you how to change the version of Java if it does not work f
 1. Firstly you want to go to the [Minecraft server control panel](https://mc.bloom.host/) and select the server that you want to change the Java version of.
 2. On the left side, select 'Startup'.
 3. Next, find the Java Version tab (usually on the top right of the page)
+
+:::caution
+All Minecraft 1.17+ versions require Java 16 to work. Use the openjdk-16 option to use Java 16 on your server.
+:::
+
 ![java version](../../static/imgs/running_a_server/java_version/1.png)
+
 :::important
 If you are unable to change this next setting and you see a message such as "This server's Docker image has been manually set by an administrator and cannot be changed through this UI.", please [open a ticket on the support Discord.](https://discord.com/invite/bloom) and Bloom.host staff will need to change this for you.
 :::

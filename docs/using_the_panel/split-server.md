@@ -35,7 +35,7 @@ Secondly, in the box on the right (highlighted with a red border), there are sev
 Click on `Split server` and you will see a window confirming wether you want to continue with the server split.
 
 :::caution
-Your main server will be stopped by splitting your server as resources will be taken from it to make your new server.
+Your main server will be restarted by splitting your server as resources will be taken from it to make your new server.
 :::
 
 Click on `confirm` and your server will be split. Success! You have successfully split your server.
