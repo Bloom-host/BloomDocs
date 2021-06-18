@@ -19,6 +19,10 @@ Duck Panel has an easy-to-use server importer feature. The server importer allow
 
 This feature connects to your old host FTP server and downloads all your files into your new Bloom server.
 
+:::important
+You can also import the databases hosted on your old host! Follow this [guide](https://docs.bloom.host/databases#importing-mysql-databases) to see how to import databases.
+:::
+
 ---
 
 ### Getting your old host FTP credentials
