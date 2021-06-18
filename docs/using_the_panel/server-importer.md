@@ -13,11 +13,11 @@ image: https://bloom.host/assets/images/logo.png
 <h1>Server Importer</h1>
 </div>
 
-### Importing your server files
+### How it works
 
 Duck Panel has an easy-to-use server importer feature. The server importer allows you to easily import your server into Bloom and start gaming in a short amount of time. 
 
-This feature connects to your old host FTP server and imports all your files into your new Bloom server.
+This feature connects to your old host FTP server and downloads all your files into your new Bloom server.
 
 ---
 

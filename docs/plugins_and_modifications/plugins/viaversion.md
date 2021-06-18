@@ -35,7 +35,7 @@ ViaVersion **needs** to be installed for ViaBackwards and ViaRewind to work and 
 :::
 
 :::note
-Confused about which Via* plugin you need to use to support certain versions? Use this [website](https://jo0001.github.io/ViaSetup/?lang=en) to know which Via* plugins you need to install.
+Confused about which Via plugin you need to use to support certain versions? Use this [website](https://jo0001.github.io/ViaSetup/?lang=en) to know which Via plugins you need to install.
 :::
 
 <div class="text--center"><img src={require('../../../static/imgs/plugins_and_modifications/plugins/viaversion/1.png').default} alt="img"/></div>
