@@ -35,8 +35,15 @@ Once you have created the database, it will appear in your list. In order to use
 <div class="text--center"><img src={require('../../static/imgs/using_the_panel/databases/2.png').default} alt="img"/></div>
 
 ---
+### Importing MySQL Databases
 
-### Examples
+To import a database you first have to create a new database in your Bloom server, then click on the import button (the third one). Fill in the form with your database connection details of your old host. Keep in mind that databases imports are limited to **5GB**.
+
+<div class="text--center"><img src={require('../../static/imgs/using_the_panel/databases/3.png').default} alt="img"/></div>
+
+---
+
+### Examples of how to configure a database in different plugins
 #### ➤ Luckperms:
 ```YAML
 storage-method: MySQL
@@ -115,4 +122,3 @@ MySQL:
   Port: 3306
   Properties: 'verifyServerCertificate=false&useSSL=false&useUnicode=true&characterEncoding=utf8'
 ```
----

@@ -33,7 +33,7 @@ First, you will want to head over to your domain's DNS settings panel. In this d
 
 The DNS record usually used for a reverse proxy is a CNAME (canonical name). Different DNS providers may use different methods to reference the root of a domain. In most cases, you should put an `@` inside the Name box. 
 
-You will want to create an identical CNAME record as the one pictured above, but you will replace the '**Target**' field with the revproxy address corresponding to your location. For US servers it is: **revproxy-us.bloom.host** and for EU servers it is **revproxy-eu.bloom.host**. 
+You will want to create an identical CNAME record as the one pictured above, but you will replace the '**Target**' field with the revproxy address corresponding to your location. For US servers it is: `revproxy-us.bloom.host` and for EU servers it is `revproxy-eu.bloom.host`. 
 
 ---
 
@@ -43,7 +43,7 @@ Go to your domain's DNS settings. We will use Cloudflare for this demo and **sub
 
 ![portsandproxies](../../static/imgs/using_the_panel/ports_and_proxies/2.png)
 
-In this case, create a new CNAME record, identical to the one above. You will replace the word "**subdomain**" with the actual subdomain you want to use. In '**Target**' you will write the revproxy address corresponding to your location. For US servers it is: **revproxy-us.bloom.host** and for EU servers it is **revproxy-eu.bloom.host**
+In this case, create a new CNAME record, identical to the one above. You will replace the word "**subdomain**" with the actual subdomain you want to use. In '**Target**' you will write the revproxy address corresponding to your location. For US servers it is: `revproxy-us.bloom.host` and for EU servers it is `revproxy-eu.bloom.host`
 
 ---
 :::note
@@ -61,7 +61,7 @@ Once you've created your CNAME record, go to your [game panel](https://mc.bloom.
 
 ![portsandproxies](../../static/imgs/using_the_panel/ports_and_proxies/3.png)
 
-More than likely, you will have one allocation, but to create a reverse proxy, you will need to create a new allocation, to do so, just click '**Create Allocation**'. A popup will appear asking you to write the port you want to use for your new allocation, you can use any port in the **8100-25600** range.
+More than likely, you will have one allocation, but to create a reverse proxy, you will need to create a new allocation, to do so, just click '**Create Allocation**'. A popup will appear asking you to write the port you want to use for your new allocation, you can use any port in the `8100-25600` range.
 
 After creating the allocation and the DNS record, write the subdomain or domain you want to use for the reverse proxy in the "**Reverse Proxy Domain**" field in the **Ports & Proxies** section of our panel.
 
