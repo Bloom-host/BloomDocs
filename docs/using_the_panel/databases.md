@@ -41,8 +41,6 @@ To import a database you first have to create a new database in your Bloom serve
 
 <div class="text--center"><img src={require('../../static/imgs/using_the_panel/databases/4.png').default} alt="img"/></div>
 
-Click on import database (third button)
-
 <div class="text--center"><img src={require('../../static/imgs/using_the_panel/databases/3.png').default} alt="img"/></div>
 
 ---
