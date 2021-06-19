@@ -22,8 +22,6 @@ image: https://bloom.host/assets/images/logo.png
 <h1>Milk</h1>
 </div>
 
-# **Milk**
-
 ## What does the plugin do?
 
 The Milk plugin causes milk buckets to restore hunger and saturation upon consumption.

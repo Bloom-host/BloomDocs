@@ -21,8 +21,6 @@ image: https://bloom.host/assets/images/logo.png
 <h1>LuckPerms</h1>
 </div>
 
-# LuckPerms
-
 ### What does the plugin do?
 
 LuckPerms is a permission plugin built for Minecraft servers to handle permissions from all your plugins. It is considered to be one of the best permission plugins due to it's accessibility and how it handles data.  

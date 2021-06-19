@@ -23,8 +23,6 @@ image: https://bloom.host/assets/images/logo.png
 <h1>CoreProtect</h1>
 </div>
 
-# CoreProtect
-
 ### What does the plugin do?
 
 CoreProtect is a fast, efficient, data logging and anti-griefing tool. Rollback and restore any amount of damage.

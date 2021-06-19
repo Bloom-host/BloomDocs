@@ -24,8 +24,6 @@ image: https://bloom.host/assets/images/logo.png
 <h1>DiscordSRV</h1>
 </div>
 
-# **DiscordSRV**
-
 ## What does the plugin do?
 
 DiscordSRV gives players the ability to chat in-game with users in a Discord server as well as allowing users in a Discord server to chat with players in-game.

@@ -24,8 +24,6 @@ image: https://bloom.host/assets/images/logo.png
 <h1>Litebans</h1>
 </div>
 
-# **Litebans**
-
 ## What does the plugin do?
 
 Litebans is a premium plugin that allows you and your server staff to manage and distribute punishments to your players.

@@ -31,8 +31,6 @@ image: https://bloom.host/assets/images/logo.png
 <h1>ViaVersion / ViaBackwards / ViaRewind</h1>
 </div>
 
-# **ViaVersion / ViaBackwards / ViaRewind**
-
 ## What does the plugin do?
 These plugins allow Java users to connect to your server from versions below and above what your server is currently running.  
 

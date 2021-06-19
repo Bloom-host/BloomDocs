@@ -21,8 +21,6 @@ image: https://bloom.host/assets/images/logo.png
 <h1>AAC - Advanced Anti-Cheat</h1>
 </div>
 
-# Advanced Anti-Cheat
-
 ## What does the plugin do?
 
 AAC protects your server from gamebreaking hacks and unfair advantages such as:

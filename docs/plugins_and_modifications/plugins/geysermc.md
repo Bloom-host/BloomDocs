@@ -23,8 +23,6 @@ image: https://bloom.host/assets/images/logo.png
 <h1>GeyserMC</h1>
 </div>
 
-# GeyserMC
-
 ### What does the plugin do?
 
 GeyserMC enables clients from Minecraft Bedrock Edition to join your Minecraft Java server.  

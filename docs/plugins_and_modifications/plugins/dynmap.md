@@ -26,8 +26,6 @@ image: https://bloom.host/assets/images/logo.png
 <h1>Dynmap</h1>
 </div>
 
-# **Dynmap**
-
 ## What does the plugin do?
 Dynmap allows you to see your Minecraft world in 3D in real time, like Google Maps.  
 

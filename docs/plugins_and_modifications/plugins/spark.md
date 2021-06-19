@@ -23,8 +23,6 @@ image: https://bloom.host/assets/images/logo.png
 <h1>Spark</h1>
 </div>
 
-# Spark
-
 ### What does the plugin do?
 Spark is a performance profiling plugin that can display server information, such as TPS, memory, tick durations, CPU usage, and disk usage. It does not require any configuration and is incredibly easy to install, and as such there is not much of a reason to not have it.
 

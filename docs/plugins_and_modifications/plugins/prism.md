@@ -23,8 +23,6 @@ image: https://bloom.host/assets/images/logo.png
 <h1>Prism</h1>
 </div>
 
-# Prism
-
 ### What does the plugin do?
 
 Prism is a highly configurable, powerful, high-performance grief management (rollbacks, restores, etc) plugin for your server.  

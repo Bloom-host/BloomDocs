@@ -22,8 +22,6 @@ image: https://bloom.host/assets/images/logo.png
 <h1>Votifier</h1>
 </div>
 
-# **Votifier**
-
 ## What does the plugin do?
 
 Votifier is a plugin that allows players to receive rewards when voting for your server on server list sites.  

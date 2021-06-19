@@ -22,8 +22,6 @@ image: https://bloom.host/assets/images/logo.png
 <h1>Tebex (BuyCraft)</h1>
 </div>
 
-# Tebex (BuyCraft)
-
 ## What does the plugin do?
 
 Tebex (BuyCraft) is a plugin that links your Tebex Donation Store to your Minecraft Server. You can use this plugin to automate the giving of permissions, groups, items, etc to players on the store for purchase via this integration.
