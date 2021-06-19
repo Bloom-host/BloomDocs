@@ -11,7 +11,7 @@ image: https://bloom.host/assets/images/logo.png
 <div class="text--center">
 <img src="https://bloom.host/assets/images/logo.png" alt="logo" height="50%" width="50%"/>
 <h1>Documentation Overview</h1>
-Most of the articles in this documentation are created by members of our community. You can help us too! Visit guide on [how to contribute to the docs](../extras/contributing.md) to learn more.
+Most of the articles in this documentation are created by our community. You can help us too! Visit our guide on [how to contribute to the docs](../extras/contributing.md) to learn more.
 </div>
 
 ## Introduction
