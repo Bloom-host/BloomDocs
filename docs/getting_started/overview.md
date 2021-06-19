@@ -11,8 +11,9 @@ image: https://bloom.host/assets/images/logo.png
 <div class="text--center">
 <img src="https://bloom.host/assets/images/logo.png" alt="logo" height="50%" width="50%"/>
 <h1>Documentation Overview</h1>
-Most of the articles in this documentation are created by our community. You can help us too! Visit our guide on [how to contribute to the docs](../extras/contributing.md) to learn more.
 </div>
+
+Most of the articles in this documentation are created by our community. You can help us too! Visit our guide on [How to contribute to our docs](../extras/contributing.md) to learn more. 
 
 ## Introduction
 <img src={require('../../static/imgs/getting_started/overview/2.png').default} alt="search function" height="30%" width="30%" class="float-right"/>
