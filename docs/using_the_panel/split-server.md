@@ -51,11 +51,11 @@ When you login to the game panel, you can see your new server in the list of ser
 ![split](../../static/imgs/using_the_panel/split_server/3.png)
 
 :::important
-The server list sorts servers by alphabetical order, if you want to arrange your server list you can rename your servers using numbers like this: `1. Proxy` `2. Lobby`. You can rename servers in the settings tab.
+The server list sorts servers by alphabetical order, you can rename your servers using numbers like this to arrange them: `1. Proxy` `2. Lobby`. You can rename servers in the settings tab.
 :::
 
 ## Split Server options
 
-You can change your main server, edit ports, change server type and edit RAM/Storage in the Server Split section.
+You can change your main server, edit ports, change server type and edit RAM/Storage in the Server Split section. Keep in mind that you can also open new allocations (ports) using the Ports & Proxies section.
 
 <div class="text--center"><img src={require('../../static/imgs/using_the_panel/split_server/4.png').default} alt="console"/></div>
