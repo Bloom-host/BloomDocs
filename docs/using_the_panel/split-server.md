@@ -44,8 +44,19 @@ Your main server will be restarted by splitting your server as resources will be
 
 Click on `confirm` and your server will be split. Success! You have successfully split your server.
 
+
+## Split Server options
+
+You can change your main server, edit ports, change server type and edit RAM/Storage in the Server Split section.
+
+<div class="text--center"><img src={require('../../static/imgs/using_the_panel/server-importer/4.png').default} alt="console"/></div>
+
 You can interact and manage this new server in the same way as you would with your main server.
 
 When you login to the game panel, you can see your new server in the list of servers you can manage.
 
 ![split](../../static/imgs/using_the_panel/split_server/3.png)
+
+:::important
+The server list sorts servers by alphabetical order, if you want to arrange your server list you can rename your servers using numbers like this: `1. Proxy` `2. Lobby` `3. Survival`. You can rename servers in the settings tab.
+:::
