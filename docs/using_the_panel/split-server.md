@@ -49,7 +49,7 @@ Click on `confirm` and your server will be split. Success! You have successfully
 
 You can change your main server, edit ports, change server type and edit RAM/Storage in the Server Split section.
 
-<div class="text--center"><img src={require('../../static/imgs/using_the_panel/server-importer/4.png').default} alt="console"/></div>
+<div class="text--center"><img src={require('../../static/imgs/using_the_panel/split_server/4.png').default} alt="console"/></div>
 
 You can interact and manage this new server in the same way as you would with your main server.
 
