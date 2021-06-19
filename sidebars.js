@@ -109,8 +109,8 @@ module.exports = {
                     label: "Fabric mods",
                     items: [
                         'plugins_and_modifications/fabric_mods/chunky_fabric',
-                        'plugins_and_modifications/plugins/luckperms_fabric',
-                        'plugins_and_modifications/plugins/performance-mods',
+                        'plugins_and_modifications/fabric_mods/luckperms_fabric',
+                        'plugins_and_modifications/fabric_mods/performance-mods',
                     ]
                 },
                 {
