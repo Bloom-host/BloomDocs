@@ -26,17 +26,17 @@ This guide will go over how to change your account details in your client area a
 ## Client Area
 
 <div class="text--center">
-<img src={require('../../static/imgs/extras/accounts_details/1.png').default} alt="img"/></div>
+<img src={require('../../static/imgs/extras/account_details/1.png').default} alt="img"/></div>
 
 Head on over to the billing area by going to the header, hovering over support, then clicking Billing Login. Login to your account or register an account from there. 
 
 <div class="text--center">
-<img src={require('../../static/imgs/extras/accounts_details/2.png').default} alt="img"/></div>
+<img src={require('../../static/imgs/extras/account_details/2.png').default} alt="img"/></div>
 
 Now, click **Update** under Your Info. 
 
 <div class="text--center">
-<img src={require('../../static/imgs/extras/accounts_details/3.png').default} alt="img"/></div>
+<img src={require('../../static/imgs/extras/account_details/3.png').default} alt="img"/></div>
 
 This area lets you edit any details about your account from payment methods to emails sent to changing your password. Once done, click **Save Changes** for all your changes to take effect. 
 
@@ -45,12 +45,12 @@ This area lets you edit any details about your account from payment methods to e
 ## Minecraft Panel
 
 <div class="text--center">
-<img src={require('../../static/imgs/extras/accounts_details/4.png').default} alt="img"/></div>
+<img src={require('../../static/imgs/extras/account_details/4.png').default} alt="img"/></div>
 
 To start, head over to your sidebar and click the My Account tab. 
 
 <div class="text--center">
-<img src={require('../../static/imgs/extras/accounts_details/5.png').default} alt="img"/></div>
+<img src={require('../../static/imgs/extras/account_details/5.png').default} alt="img"/></div>
 
 Simply edit any details that you need. Once you have completed a section, click the Update button below it to apply the changes needed. 
 
