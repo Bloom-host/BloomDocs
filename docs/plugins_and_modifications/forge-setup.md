@@ -18,8 +18,6 @@ keywords:
 <h1>Setting Up Forge</h1>
 </div>
 
-# Setting Up Forge
-
 ### What is Forge?
 > 
 ### Installing Forge

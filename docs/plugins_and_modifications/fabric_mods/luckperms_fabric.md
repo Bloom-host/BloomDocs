@@ -21,8 +21,6 @@ image: https://bloom.host/assets/images/logo.png
 <h1>LuckPerms</h1>
 </div>
 
-# LuckPerms
-
 ### What does the mod do?
 
 LuckPerms is a permission mod built for Minecraft servers that handles permissions for all your mods. It is considered to be one of the best permission mods due to it's accessibility and how it handles data.  

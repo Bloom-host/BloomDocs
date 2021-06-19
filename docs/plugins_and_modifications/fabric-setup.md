@@ -3,7 +3,7 @@ id: fabric-setup
 title: Setting up Fabric
 slug: /fabric-setup
 hide_title: true
-hide_table_of_contents: false
+hide_table_of_contents: true
 sidebar_label: Setting up Fabric
 description: This guide will help you setup Fabric on your Minecraft server
 keywords:
@@ -17,8 +17,6 @@ keywords:
 <img src="https://bloom.host/assets/images/logo.png" alt="logo" height="50%" width="50%"/>
 <h1>Setting Up Fabric</h1>
 </div>
-
-# Setting Up Fabric
 
 ### What is Fabric?
 > "*Fabric is a lightweight, experimental modding toolchain for Minecraft.*"

@@ -20,9 +20,9 @@ image: https://bloom.host/assets/images/logo.png
 <h1>Performance Mods for Fabric</h1>
 </div>
 
-# Performance Mods
-
+:::note
 Make sure to also check out the [Server Optimization Guide](../../running_a_server/optimization.md)
+:::
 
 ## How to install these mods
 

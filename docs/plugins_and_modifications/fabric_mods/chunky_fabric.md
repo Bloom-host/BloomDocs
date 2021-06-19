@@ -21,8 +21,6 @@ image: https://bloom.host/assets/images/logo.png
 <h1>Chunky</h1>
 </div>
 
-# Chunky
-
 ## What does the mod do?
 
 Chunky is a fast, easy, and safe tool for pre-generating chunks on your server.
