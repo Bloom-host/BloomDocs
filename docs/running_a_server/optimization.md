@@ -36,7 +36,7 @@ Download Paper: [papermc.io](https://papermc.io/)
 
 Keep in mind, this guide merely provides suggestions, and should not be taken exactly, as every server is different.
 
-#### ~ While Paper is reccomended, many optimizations here can be done without the need for it.
+#### ~ While Paper is recommended, many optimizations here can be done without the need for it.
 
 ---
 
