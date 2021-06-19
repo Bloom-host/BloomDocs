@@ -66,3 +66,9 @@ To mount a backup:
 2. On the right side, click other options
 3. Click 'Mount', select the folder or leave it as default and click 'Mount Backup' to confirm.
 4. Head over to 'File Manager' and you should be able to view a new folder with all the files from that backup!
+
+### How to restore specific files/folders
+
+You can restore specific files from a backup by mounting it. Once you have mounted the backup, you can go to the file you want to restore. click on the `...` at the right of the file, and click on restore. This will restore the file to its original directory.
+
+<div class="text--center"><img src={require('../../static/imgs/using_the_panel/backups/5.png').default} alt="img"/></div>

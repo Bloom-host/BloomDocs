@@ -51,7 +51,7 @@ When you login to the game panel, you can see your new server in the list of ser
 ![split](../../static/imgs/using_the_panel/split_server/3.png)
 
 :::important
-The server list sorts servers by alphabetical order, you can rename your servers using numbers like this to arrange them: `1. Proxy` `2. Lobby`. You can rename servers in the settings tab.
+The server list sorts servers by alphabetical order, you can rename your servers using numbers to arrange them. Here is an example: `1. Proxy` `2. Lobby`. You can rename servers in the settings tab.
 :::
 
 ## Split Server options
