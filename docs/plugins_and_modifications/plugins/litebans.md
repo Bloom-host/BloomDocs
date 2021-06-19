@@ -18,7 +18,11 @@ keywords:
   - Minecraft
 image: https://bloom.host/assets/images/logo.png
 ---
-# **Litebans**
+
+<div class="text--center">
+<img src="https://bloom.host/assets/images/logo.png" alt="logo" height="50%" width="50%"/>
+<h1>Litebans</h1>
+</div>
 
 ## What does the plugin do?
 

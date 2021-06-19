@@ -3,7 +3,7 @@ id: domain
 title: Using A Domain
 slug: /domain
 hide_title: true
-hide_table_of_contents: false
+hide_table_of_contents: true
 sidebar_label: Using A Domain
 description: This guide will help you point your domain at the ip address of your minecraft server.
 keywords:
@@ -16,7 +16,11 @@ keywords:
   - Bloom.host
 image: 
 ---
-# Using A Domain
+
+<div class="text--center">
+<img src="https://bloom.host/assets/images/logo.png" alt="logo" height="50%" width="50%"/>
+<h1>Using a Domain</h1>
+</div>
 
 Hello there Bloomers! 👋 
 

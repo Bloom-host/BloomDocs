@@ -17,7 +17,11 @@ keywords:
   - Bloom.host
 image: https://bloom.host/assets/images/logo.png
 ---
-# AdvancedBan
+
+<div class="text--center">
+<img src="https://bloom.host/assets/images/logo.png" alt="logo" height="50%" width="50%"/>
+<h1>AdvancedBan</h1>
+</div>
 
 ### What does the plugin do?
 

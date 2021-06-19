@@ -16,11 +16,19 @@ keywords:
   - Minecraft
 image: https://bloom.host/assets/images/logo.png
 ---
-# WorldEdit
+
+<div class="text--center">
+<img src="https://bloom.host/assets/images/logo.png" alt="logo" height="50%" width="50%"/>
+<h1>WorldEdit</h1>
+</div>
 
 ### What does the plugin do?
 
 WorldEdit is an in-game world editing plugin. You can select areas, fill them in with a block (or multiple types of blocks), save the area as a schematic, and more.  
+
+:::warning
+Pasting huge schematics or constructions with WorldEdit consumes a lot of server resources and as a result the server can lag and crash. We recommend you use [AsyncWorldEdit](https://www.spigotmc.org/resources/asyncworldedit.327/) for better performance. Keep in mind that you have to install both (AsyncWorldEdit and WorldEdit), and that AsyncWorldEdit is only compatible with specific WorldEdit versions. Check [AsyncWorldEdit](https://www.spigotmc.org/resources/asyncworldedit.327/) Spigot page for more information.
+:::
 
 ### Setup
 

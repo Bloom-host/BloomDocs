@@ -14,9 +14,15 @@ keywords:
   - Minecraft
 image: https://bloom.host/assets/images/logo.png
 ---
-# Performance Mods
 
+<div class="text--center">
+<img src="https://bloom.host/assets/images/logo.png" alt="logo" height="50%" width="50%"/>
+<h1>Performance Mods for Fabric</h1>
+</div>
+
+:::note
 Make sure to also check out the [Server Optimization Guide](../../running_a_server/optimization.md)
+:::
 
 ## How to install these mods
 

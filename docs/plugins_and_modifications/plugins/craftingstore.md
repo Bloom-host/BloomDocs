@@ -16,8 +16,10 @@ keywords:
 image: https://bloom.host/assets/images/logo.png
 ---
 
-# **CraftingStore**
-![PogChamp 420](https://dash.craftingstore.net/assets/img/logo/light.png)
+<div class="text--center">
+<img src="https://bloom.host/assets/images/logo.png" alt="logo" height="50%" width="50%"/>
+<h1>CraftingStore</h1>
+</div>
 
 ## What is CraftingStore?
 

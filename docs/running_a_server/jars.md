@@ -3,7 +3,7 @@ id: jars
 title: Server Jars
 slug: /jars
 hide_title: true
-hide_table_of_contents: false
+hide_table_of_contents: true
 sidebar_label: Server Softwares
 description: This guide will help you add choose which jar to use.
 keywords:
@@ -24,7 +24,11 @@ keywords:
   - Minestom 
 image: https://bloom.host/assets/images/logo.png
 ---
-# Server Jars
+
+<div class="text--center">
+<img src="https://bloom.host/assets/images/logo.png" alt="logo" height="50%" width="50%"/>
+<h1>Server Jars</h1>
+</div>
 
 ### Recommended Software:
 

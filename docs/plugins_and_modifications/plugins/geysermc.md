@@ -17,7 +17,11 @@ keywords:
   - Minecraft
 image: https://bloom.host/assets/images/logo.png
 ---
-# GeyserMC
+
+<div class="text--center">
+<img src="https://bloom.host/assets/images/logo.png" alt="logo" height="50%" width="50%"/>
+<h1>GeyserMC</h1>
+</div>
 
 ### What does the plugin do?
 

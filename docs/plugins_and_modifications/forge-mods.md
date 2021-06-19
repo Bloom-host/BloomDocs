@@ -3,7 +3,7 @@ id: forge-mods
 title: Forge Mods
 slug: /forge-mods
 hide_title: true
-hide_table_of_contents: false
+hide_table_of_contents: true
 sidebar_label: Installing Forge Mods
 description: How to install minecraft mods on your forge server.
 keywords:
@@ -15,6 +15,12 @@ keywords:
   - Mods
 image: https://bloom.host/assets/images/logo.png
 ---
+
+<div class="text--center">
+<img src="https://bloom.host/assets/images/logo.png" alt="logo" height="50%" width="50%"/>
+<h1>Installing Forge mods</h1>
+</div>
+
 # Installing Forge mods on your server
 :::note
 This tutorial is for [Forge](https://forums.minecraftforge.net/) servers.

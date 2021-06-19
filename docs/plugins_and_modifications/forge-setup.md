@@ -3,7 +3,7 @@ id: forge-setup
 title: Setting up Forge
 slug: /forge-setup
 hide_title: true
-hide_table_of_contents: false
+hide_table_of_contents: true
 sidebar_label: Setting up Forge
 description: This guide will help you setup Forge on your Minecraft server
 keywords:
@@ -12,7 +12,11 @@ keywords:
   - Modded
   - Bloom.host
 ---
-# Setting Up Forge
+
+<div class="text--center">
+<img src="https://bloom.host/assets/images/logo.png" alt="logo" height="50%" width="50%"/>
+<h1>Setting Up Forge</h1>
+</div>
 
 ### What is Forge?
 > 

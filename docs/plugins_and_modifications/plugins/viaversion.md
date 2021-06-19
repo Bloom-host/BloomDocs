@@ -25,7 +25,11 @@ keywords:
   - Minecraft
 image: https://bloom.host/assets/images/logo.png
 ---
-# **ViaVersion / ViaBackwards / ViaRewind**
+
+<div class="text--center">
+<img src="https://bloom.host/assets/images/logo.png" alt="logo" height="50%" width="50%"/>
+<h1>ViaVersion / ViaBackwards / ViaRewind</h1>
+</div>
 
 ## What does the plugin do?
 These plugins allow Java users to connect to your server from versions below and above what your server is currently running.  

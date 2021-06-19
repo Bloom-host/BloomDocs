@@ -16,7 +16,11 @@ keywords:
   - Minecraft
 image: https://bloom.host/assets/images/logo.png
 ---
-# BungeeGuard
+
+<div class="text--center">
+<img src="https://bloom.host/assets/images/logo.png" alt="logo" height="50%" width="50%"/>
+<h1>BungeeGuard</h1>
+</div>
 
 ### What does the plugin do?
 

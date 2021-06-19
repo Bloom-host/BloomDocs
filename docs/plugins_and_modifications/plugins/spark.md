@@ -17,7 +17,11 @@ keywords:
   - Minecraft
 image: https://bloom.host/assets/images/logo.png
 ---
-# Spark
+
+<div class="text--center">
+<img src="https://bloom.host/assets/images/logo.png" alt="logo" height="50%" width="50%"/>
+<h1>Spark</h1>
+</div>
 
 ### What does the plugin do?
 Spark is a performance profiling plugin that can display server information, such as TPS, memory, tick durations, CPU usage, and disk usage. It does not require any configuration and is incredibly easy to install, and as such there is not much of a reason to not have it.

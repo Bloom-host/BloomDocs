@@ -73,7 +73,9 @@ module.exports = {
                 'running_a_server/datapacks',
                 'running_a_server/timings',
                 'running_a_server/motd',
-                'running_a_server/world-reset'
+                'running_a_server/world-reset',
+                'running_a_server/converting-worlds',
+                'running_a_server/icon'
             ],
         },
 
@@ -101,6 +103,15 @@ module.exports = {
                 {
                     type: 'doc',
                     id: "plugins_and_modifications/forge-mods",
+                },
+                {
+                    type: 'category',
+                    label: "Fabric mods",
+                    items: [
+                        'plugins_and_modifications/fabric_mods/chunky_fabric',
+                        'plugins_and_modifications/fabric_mods/luckperms_fabric',
+                        'plugins_and_modifications/fabric_mods/performance-mods',
+                    ]
                 },
                 {
                     type: 'category',

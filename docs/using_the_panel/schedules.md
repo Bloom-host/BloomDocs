@@ -20,6 +20,11 @@ Schedules are ways to automate doing certain tasks through the panel such as sta
 
 ---
 
+---
+:::important
+The schedule system and our nodes use the UTC time zone. Please keep this in mind while creating schedules. You can use this [website](https://www.timeanddate.com/worldclock/converter.html) to convert time zones. 
+:::
+
 ### Creating A Schedule
 
 First, go to your [game panel](https://mc.bloom.host/) and on the left sidebar, select 'Schedules'.

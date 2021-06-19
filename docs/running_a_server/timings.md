@@ -3,7 +3,7 @@ id: timings
 slug: /timings
 title: timings
 hide_title: true
-hide_table_of_contents: false
+hide_table_of_contents: true
 sidebar_label: How to take a Timings Report
 description: How to run a timings report, which is useful for identifying causes of lag on your server.
 keywords:
@@ -18,6 +18,12 @@ keywords:
   - Bloom.host
 image: https://bloom.host/assets/images/logo.png
 ---
+
+<div class="text--center">
+<img src="https://bloom.host/assets/images/logo.png" alt="logo" height="50%" width="50%"/>
+<h1>Timings</h1>
+</div>
+
 # **How to take a Timings Report**
 
 ## What is a Timings Report

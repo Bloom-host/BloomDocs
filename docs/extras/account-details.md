@@ -11,7 +11,11 @@ keywords:
   - Pterodactyl Panel
 image: https://bloom.host/assets/images/logo.png
 ---
-# Editing Account Details
+
+<div class="text--center">
+<img src="https://bloom.host/assets/images/logo.png" alt="logo" height="50%" width="50%"/>
+<h1>Editing Account Details</h1>
+</div>
 
 Hello Bloomers! 👋
 
@@ -21,15 +25,18 @@ This guide will go over how to change your account details in your client area a
 
 ## Client Area
 
-![Bloom.host Editing Account Details](../../static/imgs/extras/account_details/1.png)
+<div class="text--center">
+<img src={require('../../static/imgs/extras/account_details/1.png').default} alt="img"/></div>
 
 Head on over to the billing area by going to the header, hovering over support, then clicking Billing Login. Login to your account or register an account from there. 
 
-![Bloom.host Editing Account Details](../../static/imgs/extras/account_details/2.png)
+<div class="text--center">
+<img src={require('../../static/imgs/extras/account_details/2.png').default} alt="img"/></div>
 
 Now, click **Update** under Your Info. 
 
-![Bloom.host Editing Account Details](../../static/imgs/extras/account_details/3.png)
+<div class="text--center">
+<img src={require('../../static/imgs/extras/account_details/3.png').default} alt="img"/></div>
 
 This area lets you edit any details about your account from payment methods to emails sent to changing your password. Once done, click **Save Changes** for all your changes to take effect. 
 
@@ -37,11 +44,13 @@ This area lets you edit any details about your account from payment methods to e
 
 ## Minecraft Panel
 
-![Bloom.host Editing Account Details](../../static/imgs/extras/account_details/4.png)
+<div class="text--center">
+<img src={require('../../static/imgs/extras/account_details/4.png').default} alt="img"/></div>
 
 To start, head over to your sidebar and click the My Account tab. 
 
-![Bloom.host Editing Account Details](../../static/imgs/extras/account_details/5.png)
+<div class="text--center">
+<img src={require('../../static/imgs/extras/account_details/5.png').default} alt="img"/></div>
 
 Simply edit any details that you need. Once you have completed a section, click the Update button below it to apply the changes needed. 
 

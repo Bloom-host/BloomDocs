@@ -17,7 +17,11 @@ keywords:
   - Bloom.host
 image: https://bloom.host/assets/images/logo.png
 ---
-# EssentialsX
+
+<div class="text--center">
+<img src="https://bloom.host/assets/images/logo.png" alt="logo" height="50%" width="50%"/>
+<h1>EssentialsX</h1>
+</div>
 
 :::important
 This guide does not cover any of EssentialsX's modules, such as EssentialsXChat, EssentialsXAntiBuild or EssentialsXGeoIP. Please check the [EssentialsX wiki](https://essentialsx.net/wiki/Module-Breakdown.html) for information on these modules.

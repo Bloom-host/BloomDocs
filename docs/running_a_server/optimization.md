@@ -18,7 +18,12 @@ keywords:
   - Bloom.host
 image: https://bloom.host/assets/images/logo.png
 ---
-# Server Optimization Guide
+
+<div class="text--center">
+<img src="https://bloom.host/assets/images/logo.png" alt="logo" height="50%" width="50%"/>
+<h1>Server Optimization Guide</h1>
+</div>
+
 #### `By Sancires`
 
 Updated for version 1.16.4! 

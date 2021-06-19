@@ -3,7 +3,7 @@ id: luckperms_fabric
 title: LuckPerms
 slug: /f_luckperms
 hide_title: true
-hide_table_of_contents: false
+hide_table_of_contents: true
 sidebar_label: LuckPerms
 description: A mod named LuckPerms that handles server permissions.
 keywords:
@@ -15,7 +15,11 @@ keywords:
   - Minecraft
 image: https://bloom.host/assets/images/logo.png
 ---
-# LuckPerms
+
+<div class="text--center">
+<img src="https://bloom.host/assets/images/logo.png" alt="logo" height="50%" width="50%"/>
+<h1>LuckPerms</h1>
+</div>
 
 ### What does the mod do?
 

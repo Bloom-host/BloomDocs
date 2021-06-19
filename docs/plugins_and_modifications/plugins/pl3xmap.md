@@ -19,7 +19,11 @@ keywords:
   - Minecraft
 image: https://bloom.host/assets/images/logo.png
 ---
-# **Pl3xmap**
+
+<div class="text--center">
+<img src="https://bloom.host/assets/images/logo.png" alt="logo" height="50%" width="50%"/>
+<h1>Pl3xmap</h1>
+</div>
 
 ## What does the plugin do?
 Pl3xmap allows you to see your Minecraft world in 2D in real time, like Google Maps. This plugin is most alike to Dynmap, however uses less storage with the trade off of a lower quality map. 

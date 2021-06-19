@@ -17,7 +17,10 @@ keywords:
 image: https://bloom.host/assets/images/logo.png
 ---
 
-# Tebex (BuyCraft)
+<div class="text--center">
+<img src="https://bloom.host/assets/images/logo.png" alt="logo" height="50%" width="50%"/>
+<h1>Tebex (BuyCraft)</h1>
+</div>
 
 ## What does the plugin do?
 
