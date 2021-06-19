@@ -74,6 +74,7 @@ module.exports = {
                 'running_a_server/timings',
                 'running_a_server/motd',
                 'running_a_server/world-reset'
+                'running_a_server/icon'
             ],
         },
 

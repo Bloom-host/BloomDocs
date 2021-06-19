@@ -11,9 +11,13 @@ keywords:
   - Pterodactyl Panel
   - Pterodactyl App
 ---
-# Pterodactyl Mobile App
 
-Unfortunately as of January 2021, there is no updated version of the Pterodactyl app that supports our new Duck Panel (Pterodactyl 1.0). :( Be sure to check back later for updates!
+<div class="text--center">
+<img src="https://bloom.host/assets/images/logo.png" alt="logo" height="50%" width="50%"/>
+<h1>Pterodactyl Mobile App</h1>
+</div>
+
+Unfortunately as of June 2021, there is no updated version of the Pterodactyl app that supports our new Duck Panel (Pterodactyl 1.0). :( Be sure to check back later for updates!
 <p align="center">
   <img src="https://i.imgur.com/Pcr4vNk.gif" />
 </p>

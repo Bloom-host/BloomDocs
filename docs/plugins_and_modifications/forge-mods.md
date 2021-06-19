@@ -15,6 +15,12 @@ keywords:
   - Mods
 image: https://bloom.host/assets/images/logo.png
 ---
+
+<div class="text--center">
+<img src="https://bloom.host/assets/images/logo.png" alt="logo" height="50%" width="50%"/>
+<h1>Installing Forge mods</h1>
+</div>
+
 # Installing Forge mods on your server
 :::note
 This tutorial is for [Forge](https://forums.minecraftforge.net/) servers.

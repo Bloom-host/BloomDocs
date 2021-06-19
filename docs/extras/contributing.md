@@ -12,10 +12,14 @@ keywords:
   - Minecraft
 image: https://bloom.host/assets/images/logo.png
 ---
-# Contributing to the Bloom.host documentation
 
-## Simple
-Write new articles in your preferred format, and make a support ticket in our [discord](https://discord.com/invite/2QxW8QY), and we will convert it over for you. The recommended format would be Markdown.
+<div class="text--center">
+<img src="https://bloom.host/assets/images/logo.png" alt="logo" height="50%" width="50%"/>
+<h1>How to contribute</h1>
+</div>
+
+## The simple way
+Write new articles in your preferred format, and make a support ticket in our [discord](https://discord.gg/bloom), and we will convert it over for you. The recommended format would be Markdown. You can also send a Word or Google Docs document and we will upload it to our documentation.
 
 ## Editing Github stuffs (Advanced)
 Hey! This is LoJo, one of the contributors. Here is how to make it easy for us to import your document and for you to have it the way you want when we import it!
@@ -28,9 +32,9 @@ Easy as that.
 
 Here are some more resources for you guys!
 
-[Raw MD Template](https://raw.githubusercontent.com/Billy-Bloom/BloomDocs/master/docs/template.md) and [this is what it turned out to be](https://docs.bloom.host/template/)!
+[Raw MD Template](https://raw.githubusercontent.com/Billy-Bloom/BloomDocs/master/docs/extras/template.md) and [this is what it turned out to be](https://docs.bloom.host/extras/template/)!
 
-[Github Repo](https://github.com/billy-bloom/bloomdocs)
+[Github Repo](https://github.com/Bloom-host/BloomDocs)
 
 Right, one last thing. Make sure you know what you are talking about. Don't write stuff and bullshit your way through it just for a role on Discord. Contribute useful information and you will be fine!
 

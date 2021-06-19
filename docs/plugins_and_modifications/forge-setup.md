@@ -12,6 +12,12 @@ keywords:
   - Modded
   - Bloom.host
 ---
+
+<div class="text--center">
+<img src="https://bloom.host/assets/images/logo.png" alt="logo" height="50%" width="50%"/>
+<h1>Setting Up Forge</h1>
+</div>
+
 # Setting Up Forge
 
 ### What is Forge?

@@ -18,6 +18,12 @@ keywords:
   - Bloom.host
 image: https://bloom.host/assets/images/logo.png
 ---
+
+<div class="text--center">
+<img src="https://bloom.host/assets/images/logo.png" alt="logo" height="50%" width="50%"/>
+<h1>Timings</h1>
+</div>
+
 # **How to take a Timings Report**
 
 ## What is a Timings Report

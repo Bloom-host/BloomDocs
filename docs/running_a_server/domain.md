@@ -16,6 +16,12 @@ keywords:
   - Bloom.host
 image: 
 ---
+
+<div class="text--center">
+<img src="https://bloom.host/assets/images/logo.png" alt="logo" height="50%" width="50%"/>
+<h1>Using a Domain</h1>
+</div>
+
 # Using A Domain
 
 Hello there Bloomers! 👋 

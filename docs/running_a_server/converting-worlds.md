@@ -17,6 +17,12 @@ keywords:
 
 image: https://bloom.host/assets/images/logo.png
 ---
+
+<div class="text--center">
+<img src="https://bloom.host/assets/images/logo.png" alt="logo" height="50%" width="50%"/>
+<h1>Converting Worlds</h1>
+</div>
+
 # Converting Bukkit Worlds to vanilla
 If you upload or generate a world on a Bukkit/Spigot/Paper server, you will notice that when the server loads it splits the world into three folders: `world`, `world_nether` and `world_the_end`, or one for each dimension. This is fine until you want to download the world and run it in singleplayer or switch to a vanilla/Fabric/Forge server. This guide shows you how to convert Bukkit/Spigot/Paper worlds back to ones that can be used on vanilla or other server types. Note that the screenshots provided were taken on macOS, but the method should work for all platforms.
 

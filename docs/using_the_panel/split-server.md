@@ -14,6 +14,12 @@ keywords:
   - Bloom.host
 image: https://bloom.host/assets/images/logo.png
 ---
+
+<div class="text--center">
+<img src="https://bloom.host/assets/images/logo.png" alt="logo" height="50%" width="50%"/>
+<h1>Splitting Servers</h1>
+</div>
+
 # Splitting your server 
 
 Bloom.host allows you to split the server that you have with them, for example to run more Minecraft servers for different gamemodes or to run a Discord bot off of your server.

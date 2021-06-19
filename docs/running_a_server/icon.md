@@ -14,6 +14,12 @@ keywords:
   - server-icon
 image: https://bloom.host/assets/images/logo.png
 ---
+
+<div class="text--center">
+<img src="https://bloom.host/assets/images/logo.png" alt="logo" height="50%" width="50%"/>
+<h1>Adding an icon to your server</h1>
+</div>
+
 # Adding an icon to your server.
 
 Grab the picture you want to use and head over to http://www.genfavicon.com/

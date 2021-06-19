@@ -16,6 +16,12 @@ keywords:
   - Minecraft
 image: https://bloom.host/assets/images/logo.png
 ---
+
+<div class="text--center">
+<img src="https://bloom.host/assets/images/logo.png" alt="logo" height="50%" width="50%"/>
+<h1>Votifier</h1>
+</div>
+
 # **Votifier**
 
 ## What does the plugin do?

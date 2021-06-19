@@ -13,6 +13,11 @@ keywords:
 image: https://bloom.host/assets/images/logo.png
 ---
 
+<div class="text--center">
+<img src="https://bloom.host/assets/images/logo.png" alt="logo" height="50%" width="50%"/>
+<h1>Template</h1>
+</div>
+
 You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).
 
 ## Markdown Syntax

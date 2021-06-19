@@ -16,6 +16,12 @@ keywords:
   - Bloom.host file access
   - Pterodactyl Panel
 ---
+
+<div class="text--center">
+<img src="https://bloom.host/assets/images/logo.png" alt="logo" height="50%" width="50%"/>
+<h1>Using SFTP for files</h1>
+</div>
+
 # How to use SFTP to transfer files
 
 ### What is SFTP? 
