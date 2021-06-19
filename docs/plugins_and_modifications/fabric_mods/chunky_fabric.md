@@ -3,7 +3,7 @@ id: chunky_fabric
 title: Chunky
 slug: /f_chunky
 hide_title: true
-hide_table_of_contents: false
+hide_table_of_contents: true
 sidebar_label: Chunky 
 description: A cool mod called chunky, which lets you pre generate a minecraft world quickly and efficiently to avoid lag.
 keywords:

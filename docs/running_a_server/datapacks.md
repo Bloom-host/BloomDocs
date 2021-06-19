@@ -3,7 +3,7 @@ id: datapacks
 title: Datapacks
 slug: /datapacks
 hide_title: true
-hide_table_of_contents: false
+hide_table_of_contents: true
 sidebar_label: Datapacks
 description: How to install a datapack onto your minecraft server.
 keywords:
@@ -22,8 +22,6 @@ image: https://bloom.host/assets/images/logo.png
 <img src="https://bloom.host/assets/images/logo.png" alt="logo" height="50%" width="50%"/>
 <h1>Datapacks</h1>
 </div>
-
-# Datapacks
 
 :::warning
 Datapacks normally use something called functions, which run every tick, and can cause a lot of lag. It's recommended to find a plugin alternative whenever possible.

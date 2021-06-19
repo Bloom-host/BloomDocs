@@ -3,7 +3,7 @@ id: split-server
 title: Splitting servers
 slug: /split-server
 hide_title: true
-hide_table_of_contents: false
+hide_table_of_contents: true
 sidebar_label: Splitting servers
 description: This guide shows you how to split your Minecraft server.
 keywords:
@@ -19,8 +19,6 @@ image: https://bloom.host/assets/images/logo.png
 <img src="https://bloom.host/assets/images/logo.png" alt="logo" height="50%" width="50%"/>
 <h1>Splitting Servers</h1>
 </div>
-
-# Splitting your server 
 
 Bloom.host allows you to split the server that you have with them, for example to run more Minecraft servers for different gamemodes or to run a Discord bot off of your server.
 

@@ -11,10 +11,9 @@ image: https://bloom.host/assets/images/logo.png
 
 <div class="text--center">
 <img src="https://bloom.host/assets/images/logo.png" alt="logo" height="50%" width="50%"/>
-<h1>Basic Panel Controls</h1>
+<h1>Creating a Reverse Proxy</h1>
 </div>
 
-### Creating A Reverse Proxy
 ---
 :::warning
 Reverse proxies can only be used for web connections (eg. HTTPS). If you want to join your minecraft server using your domain, check [this page](../running_a_server/domain.md)

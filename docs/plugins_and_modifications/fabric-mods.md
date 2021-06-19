@@ -3,7 +3,7 @@ id: fabric-mods
 title: Fabric Mods
 slug: /fabric-mods
 hide_title: true
-hide_table_of_contents: false
+hide_table_of_contents: true
 sidebar_label: Installing Fabric Mods
 description: How to install minecraft mods on your fabric server.
 keywords:

@@ -3,7 +3,7 @@ id: 2fa
 title: 2-Factor Authentication
 slug: /2fa
 hide_title: true
-hide_table_of_contents: false
+hide_table_of_contents: true
 sidebar_label: 2-Factor Authentication
 description: This guide will help you secure your account through 2-Factor Authentication
 keywords:
@@ -19,8 +19,6 @@ image: ../static/img/2fa/2fa1.png
 <img src="https://bloom.host/assets/images/logo.png" alt="logo" height="50%" width="50%"/>
 <h1>2-Factor Authentication</h1>
 </div>
-
-# 2-Factor Authentication
  
 Hey there Bloomers! 👋
 In this guide, we will go over how to setup 2FA on your account.

@@ -3,7 +3,7 @@ id: icon
 title: Adding an icon
 slug: /icon
 hide_title: true
-hide_table_of_contents: false
+hide_table_of_contents: true
 sidebar_label: Adding an icon
 description: How to add a server icon to your minecraft server
 keywords:
@@ -19,8 +19,6 @@ image: https://bloom.host/assets/images/logo.png
 <img src="https://bloom.host/assets/images/logo.png" alt="logo" height="50%" width="50%"/>
 <h1>Adding an icon to your server</h1>
 </div>
-
-# Adding an icon to your server.
 
 Grab the picture you want to use and head over to http://www.genfavicon.com/
 

@@ -3,7 +3,7 @@ id: world-reset
 slug: /world-reset
 title: Resetting your World(s)
 hide_title: true
-hide_table_of_contents: false
+hide_table_of_contents: true
 sidebar_label: Resetting your world(s)
 description: How to reset the world(s) on your Minecraft server.
 keywords:
@@ -15,7 +15,11 @@ keywords:
   - Bloom.host
 image: https://bloom.host/assets/images/logo.png
 ---
-# Resetting your world
+
+<div class="text--center">
+<img src="https://bloom.host/assets/images/logo.png" alt="logo" height="50%" width="50%"/>
+<h1>Resetting your world</h1>
+</div>
 
 You'll need a way to access your server files. This tutorial references the [web panel](https://mc.bloom.host), but you can also use [SFTP](https://docs.bloom.host/how-to-use-sftp). **Shutdown your server before proceeding!**
 

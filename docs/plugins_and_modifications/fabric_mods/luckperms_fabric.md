@@ -3,7 +3,7 @@ id: luckperms_fabric
 title: LuckPerms
 slug: /f_luckperms
 hide_title: true
-hide_table_of_contents: false
+hide_table_of_contents: true
 sidebar_label: LuckPerms
 description: A mod named LuckPerms that handles server permissions.
 keywords:

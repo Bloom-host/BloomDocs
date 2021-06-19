@@ -24,7 +24,6 @@ image: https://bloom.host/assets/images/logo.png
 <h1>Server Optimization Guide</h1>
 </div>
 
-# Server Optimization Guide
 #### `By Sancires`
 
 Updated for version 1.16.4! 
