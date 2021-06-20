@@ -32,7 +32,7 @@ Most features can be turned on or off through the config.
 ## Installation
 
 To install this plugin, download the server jar from its [Spigot resource page](https://www.spigotmc.org/resources/griefprevention.1884/) and install it into the `plugins` folder.
-For assistance on how to install plugins, please refer to the [plugin installation page](https://docs.bloom.host/bukkit-plugins).
+For assistance on how to install plugins, please refer to the [plugin installation page](https://docs.bloom.host/installing-plugins).
 
 ## Usage
 
