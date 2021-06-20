@@ -37,7 +37,7 @@ Need help importing your server files? Contact us through [Discord](https://disc
 :::
 
 :::note
-We recommend you zip all the server files that you want to transfer from your old host. Not zipping your server files will make the server import process take much longer, because our system will need to go file by file to transfer everything. By zipping all files the system only has to transfer one .zip file, which greatly increases transfer speed.
+We recommend you zip all the server files that you want to transfer from your old host. Not zipping your server files will make the server import process take much longer, because our system will need to go file by file to transfer everything. By zipping all files the system only has to transfer one .zip file, which greatly increases transfer speed. You can zip all your server files using your old host web file manager located in their control panel.
 :::
 
 #### How to start the server import
