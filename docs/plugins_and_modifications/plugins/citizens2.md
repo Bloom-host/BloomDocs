@@ -29,7 +29,7 @@ Citizens2 is an advanced NPC plugin for Spigot that allows developers to extend 
 1. Upload the jar(s) to your `/plugins` folder.
 1. Restart the server. 
 
-If you need help installing plugins, check [How to install plugins](https://docs.bloom.host/bukkit-plugins).
+If you need help installing plugins, check [How to install plugins](https://docs.bloom.host/installing-plugins).
 
 :::note
 You may also want to look at installing the Denzien, Sentinel, and dtlTraders plugins for Citizens.
