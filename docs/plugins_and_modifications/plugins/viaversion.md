@@ -45,7 +45,7 @@ Confused about which Via plugin you need to use to support certain versions? Use
 <div class="text--center"><img src={require('../../../static/imgs/plugins_and_modifications/plugins/viaversion/1.png').default} alt="img"/></div>
 
 # Usage
-Download the plugins and upload them into your `plugins` folder. Restart or turn on your server. If you need help with installing plugins, check out [this guide](https://docs.bloom.host/bukkit-plugins).
+Download the plugins and upload them into your `plugins` folder. Restart or turn on your server. If you need help with installing plugins, check out [this guide](https://docs.bloom.host/installing-plugins).
 
 Once you have installed the plugins and restarted your server, Java players should be able to join from any version!
 

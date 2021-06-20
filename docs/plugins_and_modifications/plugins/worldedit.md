@@ -32,7 +32,7 @@ Pasting huge schematics or constructions with WorldEdit consumes a lot of server
 
 ### Setup
 
-Download the latest version for your Minecraft version (e.g. if your server is 1.16.2, download the latest one compatible with 1.16.2). Drop it in your plugins folder. Turn on or restart the server, and it should be working! If you need help installing plugins, check [How to install plugins](https://docs.bloom.host/bukkit-plugins).  
+Download the latest version for your Minecraft version (e.g. if your server is 1.16.2, download the latest one compatible with 1.16.2). Drop it in your plugins folder. Turn on or restart the server, and it should be working! If you need help installing plugins, check [How to install plugins](https://docs.bloom.host/installing-plugins).  
 
 ## Commands
 
