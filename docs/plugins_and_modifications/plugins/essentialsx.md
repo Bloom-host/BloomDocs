@@ -42,7 +42,7 @@ This plugin also hooks into [Vault](https://docs.bloom.host/plugins/vault) to pr
 
 You can either download stable builds from its [Spigot Resource page](https://www.spigotmc.org/resources/essentialsx.9089/) or you can download dev, experimental builds directly from [its website.](https://essentialsx.net/downloads.html)
 
-Next, place the EssentialsX jar file into the `plugins` folder in your server. If you need help with installing plugins, [click here for a guide.](https://docs.bloom.host/bukkit-plugins)
+Next, place the EssentialsX jar file into the `plugins` folder in your server. If you need help with installing plugins, [click here for a guide.](https://docs.bloom.host/installing-plugins)
 
 ## Usage
 There are a lot of features of EssentialsX, here are a few of the simple commands for your players
