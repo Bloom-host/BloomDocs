@@ -164,7 +164,7 @@ forge_support: true
 remote_ping_cache: -1
 log_commands: false
 log_pings: true
-ip_forward: false
+ip_forward: true
 disabled_commands:
 - disabledcommandhere
 groups:
@@ -190,6 +190,10 @@ listeners:
   - skyblock
 online_mode: true
 ```
+
+:::important
+Make sure `ip_forward` is set to `true` Waterfall `config.yml`
+:::
 
 ## Configure backend servers
 
