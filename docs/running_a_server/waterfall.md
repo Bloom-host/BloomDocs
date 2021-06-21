@@ -21,10 +21,9 @@ image: https://bloom.host/assets/images/logo.png
 <h1>Setting Up Waterfall</h1>
 </div>
 
-## Important
-
-### When running your servers behind a proxy like Velocity or Waterfall, it requires them to be set to offline-mode. Normally hosting companies will not provide support for offline mode servers, but in this case it is required for the proxy to function properly. It will act as the gateway to your servers and handle authentication for you.
-
+:::important
+When running your servers behind a proxy like Velocity or Waterfall, it requires them to be set to offline-mode. Normally hosting companies will not provide support for offline mode servers, but in this case it is required for the proxy to function properly. It will act as the gateway to your servers and handle authentication for you.
+:::
 
 ## Downloading Waterfall
 
@@ -165,7 +164,7 @@ forge_support: true
 remote_ping_cache: -1
 log_commands: false
 log_pings: true
-ip_forward: false
+ip_forward: true
 disabled_commands:
 - disabledcommandhere
 groups:
@@ -191,6 +190,10 @@ listeners:
   - skyblock
 online_mode: true
 ```
+
+:::important
+Make sure `ip_forward` is set to `true` Waterfall `config.yml`
+:::
 
 ## Configure backend servers
 
