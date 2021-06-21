@@ -33,17 +33,17 @@ To get started with Velocity, you first need to download the latest version of V
 
 ![img](../../static/imgs/running_a_server/velocity/velocity-dl-page.PNG)
 
-Once you have downloaded Velocity you may proceed to the next step in the setup process, creating a server split to run Velocity off of. Velocity is it's own server jar file and will require it's own server to run from.
+Once you have downloaded Velocity you may proceed to the next step in the setup process: creating a server split to run Velocity off of. Velocity is it's own server jar file and will require it's own server to run from.
 
 ## Creating a Velocity Server Split
 
 :::note
 
-It is recommended that you give Velocity at least 524 to 750 megabytes of RAM to operate off of, for servers with a lot of traffic it is probably better to allocate 1 gigabyte of RAM for Velocity to ensure a smooth experience for your users
+It is recommended that you give Velocity at least 524 to 750 megabytes of RAM to operate off of, for servers with a lot of traffic it is probably better to allocate 1 gigabyte of RAM for Velocity to ensure a smooth experience for your users.
 
 :::
 
-First you will need to head to your server split section via Duck Panel's sidebar, the button should look like this:
+First you will need to head to your server split section via the server panel sidebar, the button should look like this.
 
 ![img](../../static/imgs/running_a_server/velocity/velocity-server-split-sidebar.PNG)
 
@@ -51,7 +51,7 @@ Next you need to select the type of server split you want to create, name your s
 
 ![img](../../static/imgs/running_a_server/velocity/velocity-server-split-setup.PNG)
 
-After you create your split for Velocity it will appear in that section with all its details, just like your other server splits:
+After you create your split for Velocity it will appear in that section with all its details, just like your other server splits.
 
 ![img](../../static/imgs/running_a_server/velocity/velocity-server-details.PNG)
 
@@ -59,11 +59,11 @@ Rename your velocity jar that you downloaded in the previous section to `velocit
 
 ![img](../../static/imgs/running_a_server/velocity/velocity-startup-options.PNG)
 
-Now you need to start up the Velocity server and then shut it down once it's loaded, this will initialize the filesystem for Velocity and setup Velocity's folders and configuration file. Your `/home` directory should now look something like this:
+Now you need to start up the Velocity server and then shut it down once it's loaded, this will initialize the filesystem for Velocity and setup Velocity's folders and configuration file. Your `/home` directory should now look something like this.
 
 ![img](../../static/imgs/running_a_server/velocity/velocity-initial-fs.PNG)
 
-The `velocity.toml` file is the config file for Velocity, we will be editing this and more in the follwing sections.
+The `velocity.toml` file is the config file for Velocity, we will be editing this and more in the following sections.
 
 ## Setting up the [servers] section in velocity.toml
 
@@ -89,7 +89,7 @@ try = [
 ]
 ```
 
-The `try` section you see in the above example is extremely important, essentially this is the order of servers in which Velocity will try to connect incoming players to. If you have it setup like `try = ["survival", "creative", "minigames"]` then players will connect to `survival` by default, then `creative` if `survival` is down, and then `minigames` if the first two are down. Set up your preferred order and then we will continue our editing.
+The `try` section you see in the above example is extremely important, essentially this is the order of servers in which Velocity will try to connect incoming players to. If you have it setup like `try = ["survival", "creative", "minigames"]` then players will connect to `survival` by default, then `creative` if `survival` is down, and then `minigames` if the first two are down. Setup your preferred order and then we will continue our editing.
 
 ## Configuring server.properties on your backend servers
 
@@ -108,9 +108,15 @@ It is HIGHLY recommended that your Velocity server is set to online-mode, this i
 
 :::
 
-Part of what makes Velocity more secure than Bungee would be it's modern player information forwarding mode, it is much more secure than Bungee and doesn't require an additional such as BungeeGuard to secure connections between your front-end and back-end servers. This is pretty simple to setup, you need to locate the option for `player-info-forwarding` inside `velocity.toml` and set it to `modern`. Now you need to do additional steps depending on the type of servers that are running behind Velocity.
+Part of what makes Velocity more secure than Bungee would be it's modern player information forwarding mode, it is much more secure than Bungee and doesn't require an additional plugin such as BungeeGuard to secure connections between your front-end and back-end servers. This is pretty simple to setup, you need to locate the option for `player-info-forwarding` inside `velocity.toml` and set it to `modern`. Next you need to perform additional steps depending on the type of server jar that you're running behind Velocity.
 
 ### Modern Forwarding for Paper
+
+:::note
+
+This section also applies to forks based upon Paper such as Purpur and Tuinity
+
+:::
 
 `Paper 1.14+` and above, along with `Paper 1.13.1/1.13.2 build 377` and above support Velocity modern forwarding natively.
 
@@ -133,20 +139,19 @@ The following table contains additional noteworthy configuration options for `ve
 | **forwarding-secret**| Do not change this. This is the secret you need to insert into configuration files on your backend servers | `forwarding-secret: "someRandomStringHere"` |
 | **bind** | This is the default IP address that players will connect to when connecting to Velocity, it's recommended to set it like the example here so that it uses Minecraft's default port | `bind: "0.0.0.0:25565"`|
 
-You can find documentation for other settings in `velocity.toml` [right here](https://velocitypowered.com/wiki/users/configuration/)!
+You can find documentation for other settings in the `velocity.toml` file [right here](https://velocitypowered.com/wiki/users/configuration/)!
 
 ## Finishing up
 
 Now that you have configured your backend servers to communicate with Velocity correctly you are ready to start Velocity. Start your Velocity Server and make sure that you have restarted all of your backend servers and you should now have a working Velocity network!
 
-:::tip
-
-The server-icon.png file you upload to your Velocity server is the icon that will show up on the multiplayer menu in Minecraft
-
-:::
-
 If you are interested in installing additional functionality for Velocity, they have a `Plugins` section [on their website](https://forums.velocitypowered.com/c/plugins/5) where you can go to find Velocity compatible plugins!
 
+:::tip
+
+The server-icon.png file you upload to your Velocity server is the icon that will show up on the multiplayer menu in Minecraft.
+
+:::
 
 
 
