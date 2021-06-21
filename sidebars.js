@@ -75,7 +75,8 @@ module.exports = {
                 'running_a_server/motd',
                 'running_a_server/world-reset',
                 'running_a_server/converting-worlds',
-                'running_a_server/icon'
+                'running_a_server/icon',
+                'running_a_server/velocity'
             ],
         },
 
