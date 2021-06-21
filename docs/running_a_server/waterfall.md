@@ -25,6 +25,10 @@ image: https://bloom.host/assets/images/logo.png
 When running your servers behind a proxy like Velocity or Waterfall, it requires them to be set to offline-mode. Normally hosting companies will not provide support for offline mode servers, but in this case it is required for the proxy to function properly. It will act as the gateway to your servers and handle authentication for you.
 :::
 
+:::important
+We recommend you configure BungeeGuard to secure your backend servers. Follow this [guide](../plugins_and_modifications/plugins/bungeeguard.md) to learn how to configure BungeeGuard.
+:::
+
 ## Downloading Waterfall
 
 To get started with Waterfall, you need to download their latest jar from their [downloads page](https://velocitypowered.com/downloads).
@@ -192,16 +196,12 @@ online_mode: true
 ```
 
 :::warning
-Make sure `ip_forward` is set to `true` in Waterfall `config.yml` and `bungeecord` is set to `true` in `spigot.yml` in all your backend servers.
+Make sure `ip_forward` is set to `true` in Waterfall `config.yml` and `bungeecord` is set to `true` in `spigot.yml` on all your backend servers. 
 :::
 
 ## Configure backend servers
 
 On the backend server, you'll need to go into `server.properties` and set `online-mode` to `false` and afterwards go into `spigot.yml` and change `bungeecord` to `true`.
-
-:::important
-We recommend you configure BungeeGuard to secure your backend servers. Follow this [guide](../plugins_and_modifications/plugins/bungeeguard.md) to learn how to configure BungeeGuard.
-:::
 
 ## Finishing the network setup
 
