@@ -31,7 +31,7 @@ We recommend you configure BungeeGuard to secure your backend servers. Follow th
 
 ## Downloading Waterfall
 
-To get started with Waterfall, you need to download their latest jar from their [downloads page](https://velocitypowered.com/downloads).
+To get started with Waterfall, you need to download their latest jar from their [downloads page](https://papermc.io/downloads#Waterfall).
 
 ![img](../../static/imgs/running_a_server/waterfall/waterfall-dl-page.png)
 
