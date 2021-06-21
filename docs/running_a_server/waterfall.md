@@ -30,7 +30,7 @@ image: https://bloom.host/assets/images/logo.png
 
 To get started with Waterfall, you need to download their latest jar from their [downloads page](https://velocitypowered.com/downloads).
 
-![img](../../static/imgs/running_a_server/waterfall/waterfall-dl-page.PNG)
+![img](../../static/imgs/running_a_server/waterfall/waterfall-dl-page.png)
 
 When you have downloaded their latest jar file, then you can upload it to your waterfall server when it's created on the next step.
 
@@ -38,11 +38,11 @@ When you have downloaded their latest jar file, then you can upload it to your w
 You can use the Server Split feature that Bloom has developed to create a proxy server on bloom's panel.
 You can see in the below image on how you can do so. You need to click on one of your servers to be able to see the server split menu on the left side.
 
-![img](../../static/imgs/running_a_server/waterfall/waterfall-server-split-menu.PNG)
+![img](../../static/imgs/running_a_server/waterfall/waterfall-server-split-menu.png)
 
 This is how it looks when you're creating your waterfall server in the server split menu.
 
-![img](../../static/imgs/running_a_server/waterfall/waterfall-server-split.PNG)
+![img](../../static/imgs/running_a_server/waterfall/waterfall-server-split.png)
 
 After you've created the waterfall server in your server split, you'll be able to see the server on your server overview on Bloom's panel.
 
@@ -50,13 +50,13 @@ After you've created the waterfall server in your server split, you'll be able t
 
 *Before you setup this section, change the primary port for your backend servers to something other than 25565. 25565 is the default minecraft port and should be reserved for your Waterfall server as it is what players are actually connecting to when they try and connect to your network.*
 
-![img](../../static/imgs/running_a_server/waterfall/waterfall-fs-initial.PNG)
+![img](../../static/imgs/running_a_server/waterfall/waterfall-fs-initial.png)
 
 You need to start it one time and shut it down afterwards to generate all the files needed to be able to configure waterfall.
 
 Afterwards it will look like this:
 
-![img](../../static/imgs/running_a_server/waterfall/waterfall-fs.PNG)
+![img](../../static/imgs/running_a_server/waterfall/waterfall-fs.png)
 
 We'll configure waterfall in the `config.yml` file. 
 
