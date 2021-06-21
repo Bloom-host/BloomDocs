@@ -191,13 +191,17 @@ listeners:
 online_mode: true
 ```
 
-:::important
-Make sure `ip_forward` is set to `true` Waterfall `config.yml`
+:::warning
+Make sure `ip_forward` is set to `true` in Waterfall `config.yml` and `bungeecord` is set to `true` in `spigot.yml` in all your backend servers.
 :::
 
 ## Configure backend servers
 
 On the backend server, you'll need to go into `server.properties` and set `online-mode` to `false` and afterwards go into `spigot.yml` and change `bungeecord` to `true`.
+
+:::important
+We recommend you configure BungeeGuard to secure your backend servers. Follow this [guide](../plugins_and_modifications/plugins/bungeeguard.md) to learn how to configure BungeeGuard.
+:::
 
 ## Finishing the network setup
 
