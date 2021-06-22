@@ -55,7 +55,7 @@ image: https://bloom.host/assets/images/logo.png
 
 >
 > #### • [Bukkit](https://bukkit.org/)
->Bukkit is an open source but defunct jar that was used in the early days of Minecraft plugin development. In 2014, Bukkit Project lead Warren Loo announced the end of the Bukkit project. The project was then DMCA by a former developer causing massive amounts of code to no longer be apart of Bukkit. If you want to learn the whole situation, read [Justin Flory blog post](https://blog.jwf.io/2020/04/open-source-minecraft-bukkit-gpl/) about it. BukkitCraft is a continuation that is still supported by Spigot, but is not recommended for servers as it's old and rarely recieves updates. 
+>Bukkit is an open source but defunct jar that was used in the early days of Minecraft plugin development. In 2014, Bukkit Project lead Warren Loo announced the end of the Bukkit project. The project was then DMCA'd by a former developer causing massive amounts of code to no longer be apart of Bukkit. If you want to learn the whole situation, read [Justin Flory blog post](https://blog.jwf.io/2020/04/open-source-minecraft-bukkit-gpl/) about it. CraftBukkit is a continuation that is still supported by Spigot, but is not recommended for servers as it's old and rarely recieves updates. 
 >
 
 >
@@ -65,7 +65,7 @@ image: https://bloom.host/assets/images/logo.png
 
 >
 > #### • [Tuinity](https://github.com/Spottedleaf/Tuinity)
->Tunity is a high performance fork of paper (and as such also includes all of the improvements paper adds) that brings more experimental changes for servers to play around with. It is known to increase TPS, allowing a smoother experience, especially on bigger servers. 
+>Tuinity is a high performance fork of paper (and as such also includes all of the improvements paper adds) that brings more performance changes for servers to play around with. It can greatly increase TPS, allowing a smoother experience, especially on bigger servers. 
 >
 
 >
@@ -75,13 +75,13 @@ image: https://bloom.host/assets/images/logo.png
 
 >
 > #### • [Purpur](https://purpur.pl3x.net/)
->"Purpur is a fork of Paper, Tuinity, and Airplane with the goal of providing new and interesting configuration options, which allow for creating a unique gameplay experience not seen anywhere else"  
-Purpurs goal is to bring more (off by default) configuration options to your server, it adds these on top of the paper, tuinity and airplane improvements.
+>"Purpur is a drop-in replacement for Paper servers designed for configurability, new fun & exciting gameplay features, and high performance built on top of Tuinity"  
+Purpurs goal is to bring more (off by default) configuration options to your server, it adds these on top of the paper and tuinity improvements.
 >
 
 >
 > #### • [Sponge](https://www.spongepowered.org/)
-> Sponge is an API designed to be an overhaul of the Bukkit API that allows you to run Forge as well as plugins. It doesn't run Bukkit or any of its fork plugins. Currently, Sponge is on version 1.12.2 and is recommended for if you want modpacks and plugins together as smoothly as possible.
+> Sponge is an API designed to be an overhaul of the Bukkit API, it also allows you to run Forge mods together with Sponge plugins. It doesn't run Bukkit or any of its fork plugins. Currently, Sponge is on version 1.12.2 and is recommended for if you want modpacks and plugins together as smoothly as possible.
 > 
 
 > 
