@@ -41,6 +41,6 @@ These buttons allow you to start, stop, and restart your server. It is not recom
 ---
 
 ### Graphs
-Lastly, you can see view the server's live RAM, CPU and network usage in a form of graphs! As mentioned above, with Aikar's flags, it will show up as if you were using most of this. 
+Lastly, you can see the server's live RAM, CPU and network usage in a form of graphs! As mentioned above, with Aikar's flags, it will show up as if you were using most of this. 
 
 <div class="text--center"><img src={require('../../static/imgs/using_the_panel/basic_controls/4.png').default} alt="graphs"/></div>
