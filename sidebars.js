@@ -78,6 +78,7 @@ module.exports = {
                 'running_a_server/icon',
                 'running_a_server/waterfall',
                 'running_a_server/velocity'
+                'running_a_server/binarysearch'
             ],
         },
 
