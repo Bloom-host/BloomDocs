@@ -1,9 +1,10 @@
 ---
 id: binarysearch
-title: Troubleshooting: Binary Search
+title: "Troubleshooting: Binary Search"
+slug: /binarysearch
 hide_title: true
-hide_table_of_contents: false
-sidebar_label: Template :)
+hide_table_of_contents: true
+sidebar_label: "Troubleshooting: Binary Search"
 description: How do I fix an obscure error caused by an unknown plugin?
 keywords:
   - Binary search
