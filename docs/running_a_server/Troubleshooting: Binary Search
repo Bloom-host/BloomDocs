@@ -21,6 +21,12 @@ image: https://bloom.host/assets/images/logo.png
 
 A common problem that server owners encounter is that they have a bug on their server that is not caused by the server JAR or any of its configurations, server settings, and other external factors. When you are certain that it is a plugin causing the issue but not sure which **among** your plugins are causing the issue, one of the best things to do is conduct a binary search.
 
+:::warning
+
+While it is technically possible to use plugins such as ServerUtils to unload and load the plugins, doing so is unreliable and is very likely to break something.
+
+:::
+
 ## Step 0
 
 First, you need to be 100% sure that this bug is not caused by the server JAR you are using. If you are using forks of Paper such as Tuinity, Purpur, or Airplane, switch back to Paper first or check if you set something in the JAR configuration that you did not mean to. Also check if it is not an issue with your startup flags, database details, ports and proxies, etc.
@@ -35,4 +41,5 @@ If the bug is not fixed after that, now you know that the bug is among the plugi
 
 ## Step 3
 
-Rinse and repeat. After you have finally found the culprit, you can fix the bug 
+Rinse and repeat. After you have finally found the culprit, you can fix the bug and then bring back all the plugins to your server. 
+
