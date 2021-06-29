@@ -22,4 +22,4 @@ Unfortunately as of June 2021, there is no updated version of the Pterodactyl ap
   <img src="https://i.imgur.com/Pcr4vNk.gif" />
 </p>
 
-In the meantime, you can still access it at https://mc.bloom.host
+In the meantime, you can still access it from your mobile device at https://mc.bloom.host

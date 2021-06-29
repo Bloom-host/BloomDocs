@@ -19,12 +19,12 @@ image: https://bloom.host/assets/images/logo.png
 </div>
 
 ## The simple way
-Write new articles in your preferred format, and make a support ticket in our [discord](https://discord.gg/bloom), and we will convert it over for you. The recommended format would be Markdown. You can also send a Word or Google Docs document and we will upload it to our documentation.
+Write new articles in your preferred format, and make a support ticket in our [Discord](https://discord.gg/bloom), and we will convert it over for you. The recommended format would be Markdown. You can also send a Word or Google Docs document and we will upload it to our documentation.
 
 ## Editing Github stuffs (Advanced)
 Hey! This is LoJo, one of the contributors. Here is how to make it easy for us to import your document and for you to have it the way you want when we import it!
 
-1. Fork the [Github](https://github.com/Billy-Bloom/BloomDocs).
+1. Fork the [Github Repository](https://github.com/Billy-Bloom/BloomDocs).
 2. Make any edits. Remember we run in markdown. If you add a page, make sure to also add it in `sidebars.js`.
 3. Make Pull Request to have it added.
 
@@ -36,10 +36,10 @@ Here are some more resources for you guys!
 
 [Github Repo](https://github.com/Bloom-host/BloomDocs)
 
-Right, one last thing. Make sure you know what you are talking about. Don't write stuff and bullshit your way through it just for a role on Discord. Contribute useful information and you will be fine!
+Right, one last thing. Make sure you know what you are talking about. Don't write stuff and ramble your way through it just for a role on Discord. Contribute useful information and you will be fine!
 
 We can't wait to see what you will contribute! See you soon!
 
 
 ## Wall of Ducks
-|  **Billy**  |  **Euan**  |  **Kaaale**  |  **LoJoSho** | **LGLover**  |  **Nessie** | **Virgil.Gunder**  |  **Zeus**  |  **waterswimmer111**  | **just a random person** | **Rei** 
+|  **Billy**  |  **Euan**  |  **Kaaale**  |  **LoJoSho** | **LGLover**  |  **Nessie** | **Virgil.Gunder**  |  **Zeus**  |  **waterswimmer111**  | **just a random person** | **Rei** | **Simonee**
