@@ -24,7 +24,7 @@ module.exports = {
       title: "Bloom Docs",
       logo: {
         alt: "Bloom Logo",
-        src: "imgs/logo.svg",
+        src: "imgs/favicon.ico"
       },
     },
 

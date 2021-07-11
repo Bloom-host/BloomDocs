@@ -16,7 +16,7 @@ image: ../static/img/2fa/2fa1.png
 ---
 
 <div class="text--center">
-<img src="https://bloom.host/assets/images/logo.png" alt="logo" height="50%" width="50%"/>
+<img src="https://bloom.host/logo-white.svg" alt="logo" height="50%" width="50%"/>
 <h1>2-Factor Authentication</h1>
 </div>
  

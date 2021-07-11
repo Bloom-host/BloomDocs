@@ -1,6 +1,5 @@
 module.exports = {
 
-
     docs: [
 
         {
@@ -27,11 +26,6 @@ module.exports = {
             label: 'Getting Started',
             items: [
                 'getting_started/overview',
-                {
-                    type: 'link',
-                    label: 'Frequently Asked Questions',
-                    href: 'https://bloom.host/faqs',
-                },
             ],
         },
 
