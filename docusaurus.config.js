@@ -21,10 +21,10 @@ module.exports = {
     },
 
     navbar: {
-      title: "",
+      title: "Bloom Docs",
       logo: {
         alt: "Bloom Logo",
-        src: "imgs/logo.png",
+        src: "imgs/favicon.ico"
       },
     },
 
