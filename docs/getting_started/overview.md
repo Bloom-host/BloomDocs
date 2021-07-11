@@ -17,9 +17,9 @@ Most of the articles in this documentation were created by our community. You ca
 
 ## Introduction
 <img src={require('../../static/imgs/getting_started/overview/2.png').default} alt="search function" height="30%" width="30%" class="float-right"/>
-Welcome to the Bloom Docs! Here you can find useful information about our services and panel, running servers, frequently asked questions and more! For the sake of easy navigation, we've created a list of few of the more frequently used documents below.
+Welcome to the Bloom Docs! Here you can find useful information about our services and panel, running servers, frequently asked questions, and more! For the sake of easy navigation, we've created a list of few of the more frequently used documents below.
 
-Throughout all documentations you will see common syntaxes.
+Throughout all documentations you will see common syntaxes:
 - `<something>` - A 'variable', something you are supposed to change to your needs.
 - [Orange texts](.) and documents with ![icon](../../static/imgs/getting_started/overview/1.png) lead to other guides or external websites.
 

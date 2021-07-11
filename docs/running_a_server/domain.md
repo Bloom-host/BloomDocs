@@ -14,7 +14,7 @@ keywords:
   - Minecraft Domain
   - A Record
   - Bloom.host
-image: 
+image: https://bloom.host/assets/images/logo.png
 ---
 
 <div class="text--center">

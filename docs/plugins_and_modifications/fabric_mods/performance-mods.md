@@ -52,8 +52,8 @@ Performance enhancing mod by Jellysquid that optimizes general-purpose systems.
 
 "Lithium is a general-purpose optimization mod for Minecraft which works to improve a number of systems (game physics, mob AI, block ticking, etc) without changing any behavior. It works on both the client and server, and can be installed on servers without requiring clients to also have the mod. With the mod installed, you can see on average a 45% improvement to server tick times, resulting in a much leaner game."
 
-[Modrinth Page](https://modrinth.com/mod/phosphor)  
-[CurseForge Page](https://www.curseforge.com/minecraft/mc-mods/phosphor/)  
+[Modrinth Page](https://modrinth.com/mod/lithium)  
+[CurseForge Page](https://www.curseforge.com/minecraft/mc-mods/lithium/)  
 
 ### Phosphor
 
@@ -61,7 +61,7 @@ Performance enhancing mod by Jellysquid that optimizes the lighting engine.
 
 "Phosphor is a Minecraft mod which works to optimize one of game's most inefficient areas-- the lighting engine. It works on both the client and server, and can be installed on servers without requiring clients to also have the mod. With Phosphor, the amount of time the game takes to generate chunks can be halved for some dimensions, and frame stuttering experienced while traversing the world can be significantly reduced. It's a no-compromises solution for improving performance either in single-player or large multi-player servers, and changes no features or behaviors of the vanilla game."
 
-[Modrinth Page](https://modrinth.com/mod/lithium)  
+[Modrinth Page](https://modrinth.com/mod/phosphor)  
 [CurseForge Page](https://www.curseforge.com/minecraft/mc-mods/phosphor/)
 
 ### Starlight
