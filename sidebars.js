@@ -11,7 +11,7 @@ module.exports = {
         {
             type: 'link',
             label: 'Support Discord',
-            href: 'https://bloom.host/discord',
+            href: 'https://discord.gg/bloom',
         },
 
 
