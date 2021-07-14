@@ -5,7 +5,7 @@ slug: /plugins/DeluxeHub
 hide_title: true
 hide_table_of_contents: false
 sidebar_label: DeluxeHub 3
-description: DeluxeHub 3 Docs
+description: Your all-in-one, essential and professional hub core solution
 keywords:
   - DeluxeHub
   - dhub
