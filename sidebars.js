@@ -119,6 +119,7 @@ module.exports = {
                         'plugins_and_modifications/plugins/bungeeguard',
                         'plugins_and_modifications/plugins/chunky',
                         'plugins_and_modifications/plugins/citizens2',
+                        'plugins_and_modifications/plugins/commandredirect',
                         'plugins_and_modifications/plugins/conditionalcommands',
                         'plugins_and_modifications/plugins/coreprotect',
                         'plugins_and_modifications/plugins/craftingstore',
