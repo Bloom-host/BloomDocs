@@ -122,6 +122,7 @@ module.exports = {
                         'plugins_and_modifications/plugins/conditionalcommands',
                         'plugins_and_modifications/plugins/coreprotect',
                         'plugins_and_modifications/plugins/craftingstore',
+                        'plugins_and_modifications/plugins/deluxehub3',
                         'plugins_and_modifications/plugins/discordsrv',
                         'plugins_and_modifications/plugins/dynmap',
                         'plugins_and_modifications/plugins/essentialsx',
