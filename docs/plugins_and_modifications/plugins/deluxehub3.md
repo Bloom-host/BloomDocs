@@ -5,7 +5,7 @@ slug: /plugins/DeluxeHub
 hide_title: true
 hide_table_of_contents: false
 sidebar_label: DeluxeHub 3
-description: How do I find you when I cannot solve this problem
+description: DeluxeHub 3 Docs
 keywords:
   - DeluxeHub
   - dhub
@@ -59,6 +59,7 @@ If you need help installing plugins, check [How to install plugins](https://docs
 - The template for menus is located at `/plugins/DeluxeHub/menus/serverselector.yml` 
 - The command to open the menu is `/dhub open (filename)` so for “serverselector.yml” it would be `/dhub open serverselector` 
 - PlaceholderAPI placeholders can be used in each items “lore”.
+
 :::note It is very important for each menu’s “slots” option to be a valid Minecraft gui slot count. For example, if one of the menus had “slots” set to 1000, you would get an error when loading that menu.:::
 
 
