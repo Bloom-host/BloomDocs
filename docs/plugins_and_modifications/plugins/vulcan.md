@@ -44,7 +44,7 @@ It's best practice to have a test server (even a local one if getting a hosted o
 ## There's a false positive, what do I do?
 With all anticheats, false postives are expected. Please get as much information as possible to help with fixing the check, and then report the bug on Vulcans [Support Discord](https://discord.gg/SCNuwUG). Vulcan is well known for thier quick and helpful support, and the false positive should be fixed quickly.
 
-[Spigot Page](https://www.spigotmc.org/resources/vulcan-advanced-cheat-detection-1-7-1-17-1.83626/)
+
 
 ## Info
 :::warning
@@ -53,5 +53,7 @@ As with every anti-cheat, there is always the possibility for false positives an
 
 :::
 
-Need help? Join Bloom's [Discord Server](https://discord.gg/bloom)
+[Spigot Page](https://www.spigotmc.org/resources/vulcan-advanced-cheat-detection-1-7-1-17-1.83626/)
+
+[Join Bloom's Discord for help](https://discord.gg/bloom)
 
