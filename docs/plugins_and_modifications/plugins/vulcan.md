@@ -32,9 +32,10 @@ Cheats detected by Vulcan:
 
 
 ## Setup & Configuration:
-First, download the plugin on thier [Spigot Page](https://www.spigotmc.org/resources/vulcan-advanced-cheat-detection-1-7-1-17-1.83626/)(Please note that this plugin is premium, and you will need to pay to use it). Then, drop the plugin into your `/plugins` folder, and restart the server. If you want to use this plugin with bungeecord, check out extra steps on Vulcan's [Bungee Page](https://www.spigotmc.org/resources/vulcanbungee-bungee-hook-for-vulcan-anti-cheat.94194/).
+First, download the plugin on thier [Spigot Page](https://www.spigotmc.org/resources/vulcan-advanced-cheat-detection-1-7-1-17-1.83626/) (Please note that this plugin is premium, and you will need to pay to use it). Then, drop the plugin into your `/plugins` folder, and restart the server. If you want to use this plugin with bungeecord, check out extra steps on Vulcan's [Bungee Page](https://www.spigotmc.org/resources/vulcanbungee-bungee-hook-for-vulcan-anti-cheat.94194/).
 
 Vulcan is pre-configured to be almost plug and play. Most configuation options can be edited ingame (with /vulcan gui), and checks are being constantly optimised and changed to best fit all servers.
+
 :::important
 
 It's best practice to have a test server (even a local one if getting a hosted one isn't an option) to test your anti-cheat configuration before deploying. It is important that you are aware of the checks enabled for your server, as long as the reprocussions given with them. 
