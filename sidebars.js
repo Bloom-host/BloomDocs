@@ -154,6 +154,7 @@ module.exports = {
             collapsed: true,
             items: [
                 'extras/account-details',
+				'extras/grafana',
                 'extras/mobile-app',
                 'extras/srvcontrol',
                 'extras/contributing',
