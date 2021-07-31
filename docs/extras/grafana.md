@@ -40,7 +40,7 @@ We're now done with UnifiedMetrics, onto Prometheus :)
 
 ## Prometheus
 
-Now we're going to setup a Prometheus server, you're gonna want to split a Prometheus instance which is located under the "NO SUPPORT SERVERS" category with 150MB of RAM and 10GB of Storage (you may have to give Prometheus more storage down the line, as it's database that is constantly being filled). 
+Now we're going to setup a Prometheus server, you're gonna want to split a Prometheus instance which is located under the "NO SUPPORT SERVERS" category with 150MB of RAM and 10GB of Storage (may need to be adjusted to your needs).
 For assistance on how the server splitter works, please refer to the [server splitter page](https://docs.bloom.host/split-server).
 
 Once the server is created, change it to the default Prometheus port (9090) under the Server Split tab.
