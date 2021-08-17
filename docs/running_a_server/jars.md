@@ -65,7 +65,8 @@ image: https://bloom.host/assets/images/logo.png
 
 >
 > #### • [Tuinity](https://github.com/Spottedleaf/Tuinity)
->Tuinity is a high performance fork of paper (and as such also includes all of the improvements paper adds) that brings more performance changes for servers to play around with. It can greatly increase TPS, allowing a smoother experience, especially on bigger servers. 
+>~~Tuinity is a high performance fork of paper (and as such also includes all of the improvements paper adds) that brings more performance changes for servers to play around with. It can greatly increase TPS, allowing a smoother experience, especially on bigger servers.~~
+>Tuinity has now been merged into Paper with all of its improvements and optimizations, and as such Tuinity as a jar is now obsolete. 
 >
 
 >
