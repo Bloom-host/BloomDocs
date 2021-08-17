@@ -19,8 +19,12 @@ image: https://bloom.host/assets/images/logo.png
 
 <div class="text--center">
 <img src="https://bloom.host/logo-white.svg" alt="logo" height="50%" width="50%"/>
-<h1>GeyserMC</h1>
+<h1>GeyserAddons</h1>
 </div>
+
+You need to have GeyserMC installed to use these addons!
+
+Read about it [**here**](https://docs.bloom.host/plugins/geysermc)
 
 ## How to install the addons
 
