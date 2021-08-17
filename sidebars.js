@@ -142,6 +142,7 @@ module.exports = {
                         'plugins_and_modifications/plugins/vault',
                         'plugins_and_modifications/plugins/votifier',
                         'plugins_and_modifications/plugins/worldedit',
+			'plugins_and_modifications/plugins/geyseraddons',
                     ]
                 },
             ]
