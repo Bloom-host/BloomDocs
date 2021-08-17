@@ -126,6 +126,7 @@ module.exports = {
                         'plugins_and_modifications/plugins/dynmap',
                         'plugins_and_modifications/plugins/essentialsx',
                         'plugins_and_modifications/plugins/geysermc',
+			'plugins_and_modifications/plugins/geyseraddons',
                         'plugins_and_modifications/plugins/griefprevention',
                         'plugins_and_modifications/plugins/litebans',
                         'plugins_and_modifications/plugins/luckperms',
