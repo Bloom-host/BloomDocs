@@ -142,7 +142,6 @@ module.exports = {
                         'plugins_and_modifications/plugins/venturechat',
                         'plugins_and_modifications/plugins/viaversion',
                         'plugins_and_modifications/plugins/votifier',
-			'plugins_and_modifications/plugins/vulcan',
                         'plugins_and_modifications/plugins/worldedit',
                     ]
                 },
