@@ -45,7 +45,7 @@ Ensure that the server is grey cloud (not proxied by cloudflare). You can still 
 - For the name, it will be `bloom`. This is the subdomain which we have assigned to it, so whatever name we put there will be put before the domain when we type it in. In this case, it's `play.example.com`. If you put `bloom` instead of `play`, it would be `bloom.example.com`. 
 - You can use `@` in the **Name** field if you want your root domain to point to your Minecraft server. A root domain is a one like this: **example.com**
 - We will then put into the IP we got from our server into the IPv4 address. Remember that you don't need to write your server port here.
-- Lastly, double check that the cloud icon is set to 'DNS only'!
+- Finally, double check that the cloud icon is set to 'DNS only'!
 
 Click Save. This process will now take up to 48 hours to apply, but in most cases, it will be under a couple of minutes with Cloudflare!
 
