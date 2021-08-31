@@ -114,7 +114,7 @@ Part of what makes Velocity more secure than Bungee would be it's modern player 
 
 :::note
 
-This section also applies to forks based upon Paper such as Purpur and Tuinity
+This section also applies to forks based upon Paper such as Purpur or Airplane
 
 :::
 

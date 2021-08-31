@@ -30,7 +30,7 @@ While it is technically possible to use plugins such as ServerUtils to unload an
 
 ## Step 0
 
-First, you need to be 100% sure that this bug is not caused by the server JAR you are using. If you are using forks of Paper such as Tuinity, Purpur, or Airplane, switch back to Paper first or check if you set something in the JAR configuration that you did not mean to. Also check if it is not an issue with your startup flags, database details, ports and proxies, etc.
+First, you need to be 100% sure that this bug is not caused by the server JAR you are using. If you are using forks of Paper such as Purpur or Airplane, switch back to Paper first or check if you set something in the JAR configuration that you did not mean to. Also check if it is not an issue with your startup flags, database details, ports and proxies, etc.
 
 ## Step 1
 
