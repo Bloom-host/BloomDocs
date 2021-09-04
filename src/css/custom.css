@@ -20,6 +20,7 @@
     --ifm-color-danger-contrast-background: #fa383e;
     --ifm-color-sucess-contrast-background: #00a400;
     --ifm-color-note-contrast-backgrounde: #fff;
+    --ifm-color-secondary-contrast-backgrounde: #fff;
   }
   
   .docusaurus-highlight-code-line {
