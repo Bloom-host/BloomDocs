@@ -49,6 +49,7 @@
       --ifm-color-sucess-contrast-background: #00a400;
       --ifm-color-note-contrast-background: #fff;
       --ifm-color-secondary-contrast-background: #fff;
+      --ifm-color-info-contrast-foreground: #000000;
   }
   
   .menu__link--sublist {
