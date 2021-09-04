@@ -23,6 +23,8 @@ module.exports = {
         lightIcon: '\u{1F602}',
         lightIconStyle: {
           marginLeft: '1px',
+        },
+      },    
     },
 
     algolia: {
