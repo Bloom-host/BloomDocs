@@ -15,12 +15,7 @@
     --ifm-color-primary-lighter: #ff7a26;
     --ifm-color-primary-lightest: #ff924d;
     --ifm-code-font-size: 95%;
-    --ifm-color-info-contrast-background: #54c7ec;
-    --ifm-color-warning-contrast-background: #ffba00;
-    --ifm-color-danger-contrast-background: #fa383e;
-    --ifm-color-sucess-contrast-background: #00a400;
-    --ifm-color-note-contrast-backgrounde: #fff;
-    --ifm-color-secondary-contrast-backgrounde: #fff;
+
   }
   
   .docusaurus-highlight-code-line {
@@ -52,8 +47,8 @@
       --ifm-color-warning-contrast-background: #ffba00;
       --ifm-color-danger-contrast-background: #fa383e;
       --ifm-color-sucess-contrast-background: #00a400;
-      --ifm-color-note-contrast-backgrounde: #fff;
-      --ifm-color-secondary-contrast-backgrounde: #fff;
+      --ifm-color-note-contrast-background: #fff;
+      --ifm-color-secondary-contrast-background: #fff;
   }
   
   .menu__link--sublist {
