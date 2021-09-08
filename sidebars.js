@@ -138,7 +138,7 @@ module.exports = {
                         'plugins_and_modifications/plugins/servernpc',
                         'plugins_and_modifications/plugins/spark',
                         'plugins_and_modifications/plugins/tebex',
-			'plugins_and_modifications/plugins/vault',
+                        'plugins_and_modifications/plugins/vault',
                         'plugins_and_modifications/plugins/venturechat',
                         'plugins_and_modifications/plugins/viaversion',
                         'plugins_and_modifications/plugins/votifier',
