@@ -1,6 +1,6 @@
 ---
 id: pl3xmap
-title: Pl3xmap
+title: Pl3xMap 
 slug: /plugins/pl3xmap
 hide_title: true
 hide_table_of_contents: false
