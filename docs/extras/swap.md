@@ -25,9 +25,11 @@ image: https://bloom.host/assets/images/logo.png
 
 Hello! This guide will walk you through disabling swap, and issues that may arise with doing so.
 
-:::note First off, 99% of customers DO NOT NEED to touch this. If you'd like to play around with it, please read this documentation fully. :::
+:::note
+First off, 99% of customers DO NOT NEED to touch this. If you'd like to play around with it, please read this documentation fully.
+:::
 
-I want to make this especially clear. There may be a slight benefit in some scenarios, but if you're happy with your performance as it is there is NO NEED to disable swap. You're just making more work for yourself.
+**I want to make this especially clear. There may be a slight benefit in some scenarios, but if you're happy with your performance as it is there is NO NEED to disable swap. You're just making more work for yourself.
 
 #### Okay let's start off with, what is swap?
 
