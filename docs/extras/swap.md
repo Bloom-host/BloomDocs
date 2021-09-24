@@ -29,9 +29,11 @@ Hello! This guide will walk you through disabling swap, and issues that may aris
 First off, 99% of customers DO NOT NEED to touch this. If you'd like to play around with it, please read this documentation fully.
 :::
 
-**I want to make this especially clear. There may be a slight benefit in some scenarios, but if you're happy with your performance as it is there is NO NEED to disable swap. You're just making more work for yourself.
+**I want to make this especially clear. There may be a slight benefit in some scenarios, but if you're happy with your performance as it is there is NO NEED to disable swap. You're just making more work for yourself.**
 
-#### Okay let's start off with, what is swap?
+___
+
+### Okay let's start off with, what is swap?
 
 Swap is virtual memory stored on a disk, rather than physical memory. So it acts as memory but is not as fast as physical memory (RAM).
 
