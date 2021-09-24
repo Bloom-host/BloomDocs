@@ -1,13 +1,13 @@
 ---
 id: pl3xmap
-title: Pl3xmap
+title: Pl3xMap 
 slug: /plugins/pl3xmap
 hide_title: true
 hide_table_of_contents: false
-sidebar_label: Pl3xmap
-description: Pl3xmap is a plugin which shows a map of Minecraft worlds in a webpage that can be easily accessed by a player.
+sidebar_label: Pl3xMap
+description: Pl3xMap is a plugin which shows a map of Minecraft worlds in a webpage that can be easily accessed by a player.
 keywords:
-  - Pl3xmap
+  - Pl3xMap
   - Map
   - Plugin
   - Google Earth
@@ -22,20 +22,20 @@ image: https://bloom.host/assets/images/logo.png
 
 <div class="text--center">
 <img src="https://bloom.host/logo-white.svg" alt="logo" height="50%" width="50%"/>
-<h1>Pl3xmap</h1>
+<h1>Pl3xMap</h1>
 </div>
 
 ## What does the plugin do?
-Pl3xmap allows you to see your Minecraft world in 2D in real time, like Google Maps. This plugin is most alike to Dynmap, however uses less storage with the trade off of a lower quality map. 
+Pl3xMap allows you to see your Minecraft world in 2D in real time, like Google Maps. This plugin is most alike to Dynmap, however uses less storage with the trade off of a lower quality map. 
 
 <!--![img](static/imgs/plugins/pl3xmap/1.png)-->
 
 # Usage
-Download the Pl3xmap plugin and place into the `plugins` folder then restart your server. A file named `config.yml` among other files will be generated in the `/pl3xmap` folder. This file contains options to customise the appearance of your map as well as the web server your map will be on. 
+Download the Pl3xMap plugin and place into the `plugins` folder then restart your server. A file named `config.yml` among other files will be generated in the `/pl3xmap` folder. This file contains options to customise the appearance of your map as well as the web server your map will be on. 
 
 :::tip
 
-By default, pl3xmap will use an internal web server. It is recommended you stay with the internal web server unless you know what you are doing.
+By default, Pl3xMap will use an internal web server. It is recommended you stay with the internal web server unless you know what you are doing.
 
 :::
 
@@ -48,7 +48,7 @@ Once you see your `config.yml` file generated, enter the file and find the follo
     port: 8080
 ```
 
-Here, you can set the port you wish to use for your pl3xmap to be served on. By default, you can see it is `8080` but you need to change to something higher of your choice!
+Here, you can set the port you wish to use for your Pl3xMap to be served on. By default, you can see it is `8080` but you need to change to something higher of your choice!
 
 :::important
 
@@ -66,8 +66,8 @@ Your server needs to be restarted after the port has been allocated.
 
 ## Info
 
-[pl3xmap Download](https://ci.pl3x.net/job/Pl3xMap/)  
+[Pl3xMap Download](https://ci.pl3x.net/job/Pl3xMap/)  
 
-[pl3xmap Discord](https://discord.com/invite/mtAAnkk )  
+[Pl3xMap Discord](https://discord.gg/B8WpDPXeBh)  
 
-[pl3xmap Wiki](https://github.com/pl3xgaming/Pl3xMap/wiki )
+[Pl3xMap Wiki](https://github.com/pl3xgaming/Pl3xMap/wiki)
