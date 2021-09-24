@@ -159,6 +159,7 @@ module.exports = {
 				'extras/grafana',
                 'extras/mobile-app',
                 'extras/srvcontrol',
+		'extras/swap',
                 'extras/contributing',
                 'extras/template'
             ],
