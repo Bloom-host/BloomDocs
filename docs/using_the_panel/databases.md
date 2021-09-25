@@ -60,7 +60,7 @@ data:
   # - The standard DB engine port is used by default
   #   (MySQL: 3306, PostgreSQL: 5432, MongoDB: 27017)
   # - Specify as "host:port" if differs
-  address: 168.119.0.38:3306
+  address: prophet6.bloom.host:3306
 
   # The name of the database to store LuckPerms data in.
   # - This must be created already. Don't worry about this setting if you're using MongoDB.
@@ -81,7 +81,7 @@ sql:
   # and most of these settings won't apply.
 
   # Database server address.
-  address: 168.119.0.38:3306
+  address: prophet6.bloom.host:3306
 
   # Database name, username and password.
   database: 's178_test'
@@ -92,7 +92,7 @@ sql:
 ```YAML
 use-mysql: true
 table-prefix: co_
-mysql-host: 168.119.0.38
+mysql-host: prophet6.bloom.host
 mysql-port: 3306
 mysql-database: s178_test
 mysql-username: u178_uIxN5UjEZy
@@ -103,7 +103,7 @@ mysql-password: @CSyH7IV8r4TUnaA3A7lu^2T
 Database:
     Type: MySQL
     MySQL:
-        Host: 168.119.0.38
+        Host: prophet6.bloom.host
         Port: 3306
         User: u178_uIxN5UjEZy
         Password: @CSyH7IV8r4TUnaA3A7lu^2T
@@ -117,7 +117,7 @@ Database:
 UseMySQL: true
 
 MySQL:
-  IP: 168.119.0.38
+  IP: prophet6.bloom.host
   DB-Name: s178_test
   Username: u178_uIxN5UjEZy
   Password: @CSyH7IV8r4TUnaA3A7lu^2T

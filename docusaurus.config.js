@@ -9,8 +9,11 @@ module.exports = {
   projectName: "bloomdocs",
 
   themeConfig: {
+    image: 'imgs/meta.png',
     colorMode: {
       defaultMode: "dark",
+      disableSwitch: false,
+      
     },
 
     algolia: {

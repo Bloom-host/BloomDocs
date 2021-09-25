@@ -17,7 +17,7 @@ image: https://bloom.host/assets/images/logo.png
 
 > #### Requirements
 > 
-> In order to run plugins on your server, you have to be using a fork of Bukkit. (such as Spigot, Paper, Tuinity, etc. See our [guide on server jars](../running_a_server/jars.md) for more information.) If you wish to make client-side modifications (as well), see our guide on [Forge](.) or [Fabric](.)!
+> In order to run plugins on your server, you have to be using a fork of Bukkit. (such as Spigot, Paper, Pupur, Airplane, etc. See our [guide on server jars](../running_a_server/jars.md) for more information.) If you wish to make client-side modifications (as well), see our guide on [Forge](.) or [Fabric](.)!
 
 > #### What are plugins?
 >
