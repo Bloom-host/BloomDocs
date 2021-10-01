@@ -102,6 +102,10 @@ module.exports = {
                     id: "plugins_and_modifications/forge-mods",
                 },
                 {
+                    type: 'doc',
+                    id: "plugins_and_modifications/simple-voice-chat",
+                },
+                {
                     type: 'category',
                     label: "Fabric mods",
                     items: [
