@@ -52,9 +52,10 @@ In order to run Simple Voice Chat on your server, you need one of the following 
 ### Bukkit/Spigot/Paper
 
 1. Download the Bukkit based version of [Simple Voice Chat](https://www.curseforge.com/minecraft/bukkit-plugins/simple-voice-chat/files/all)
+2. Download [ProtocolLib](https://www.spigotmc.org/resources/protocollib.1997/)
 3. Open the [file manager](/file-manager-controls) in your dashboard
 4. Open the **plugins** folder or create it if it doesn't exist
-5. Drag and drop the the **Simple Voice Chat jar** into the browser window.
+5. Drag and drop the the **Simple Voice Chat jar** and the **ProtocolLib jar** into the browser window.
 6. Continue with the [common installation](#common)
 
 ### Common
