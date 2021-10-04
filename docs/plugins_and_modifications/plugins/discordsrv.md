@@ -58,4 +58,4 @@ Finally, start your server! DiscordSRV has been installed and you will see your 
 
 [DiscordSRV GitHub Page](https://github.com/DiscordSRV/DiscordSRV)
 
-[DiscordSRV Official Wiki](https://github.com/DiscordSRV/DiscordSRV/wiki)
+[DiscordSRV Official Wiki](https://docs.discordsrv.com/)
