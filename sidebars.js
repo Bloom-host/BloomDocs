@@ -163,7 +163,8 @@ module.exports = {
 				'extras/grafana',
                 'extras/mobile-app',
                 'extras/srvcontrol',
-		'extras/swap',
+		        'extras/swap',
+                'extras/clumsyloader',
                 'extras/contributing',
                 'extras/template'
             ],
