@@ -3,7 +3,7 @@ id: stripe
 title: Stripe Subscriptions
 hide_title: true
 hide_table_of_contents: false
-sidebar_label: Stripe Subscription
+sidebar_label: Stripe Subscriptions
 description: This guide will show you how to setup a Stripe subscription and how to cancel it if neccesary.
 keywords:
   - stripe

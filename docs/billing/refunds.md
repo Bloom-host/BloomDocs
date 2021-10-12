@@ -2,7 +2,7 @@
 id: refunds
 title: How to request a refund
 hide_title: true
-hide_table_of_contents: true
+hide_table_of_contents: false
 sidebar_label: How to request a refund
 description: This guide will show you how to request a refund.
 keywords:
@@ -30,7 +30,7 @@ You may request a refund on the basis that you have submitted an "Immediate" can
 
 Refund requests that fall outside of the aforementioned 72 hours may be considered by the Company on a case-by-case basis and judged at the sole discretion of the Company.
 
-# How to request a refund
+## How to request a refund
 
 Refund requests should be requested via a ticket through our [billing panel](https://billing.bloom.host/submitticket.php?step=2&deptid=3).
 
@@ -46,7 +46,7 @@ Download a backup of all your files before submitting a refund request. Once the
 <div class="text--center">
 <img src={require('../../static/imgs/billing/refunds/2.png').default} alt="img"/></div>
 
-# PayPal Subscriptions (Recurring Payments) need to be cancelled manually
+## PayPal Subscriptions (Recurring Payments) need to be cancelled manually
 
 :::caution
 IMPORTANT: You have to manually cancel your PayPal Subscription (Recurring Payment) after you request a refund or cancellation, otherwise PayPal will continue to send us the payment for your server. Please refer to our guide on [how to cancel a PayPal Subscription](https://docs.bloom.host/billing/paypal) to avoid overpayments.

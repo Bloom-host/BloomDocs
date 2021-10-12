@@ -2,7 +2,7 @@
 id: cancellations
 title: How to request a cancellation
 hide_title: true
-hide_table_of_contents: true
+hide_table_of_contents: false
 sidebar_label: How to request a cancellation
 description: This guide will show you how to request a cancellation.
 keywords:
@@ -32,7 +32,7 @@ Download a backup of all your files before submitting a cancellation request. On
 <div class="text--center">
 <img src={require('../../static/imgs/billing/cancellations/2.png').default} alt="img"/></div>
 
-# Refunds
+## Refunds
 
 :::caution
 You may request a refund on the basis that you have submitted an "Immediate" cancellation request and fall within 72 hours of the initial payment, and activation of your service. Refund requests should be requested via a ticket through our [billing panel](https://billing.bloom.host/supporttickets.php). These refunds are only issued on a one-time per customer basis.

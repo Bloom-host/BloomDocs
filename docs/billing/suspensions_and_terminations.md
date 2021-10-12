@@ -2,7 +2,7 @@
 id: suspensions_and_terminations
 title: Suspensions and Terminations
 hide_title: true
-hide_table_of_contents: true
+hide_table_of_contents: false
 sidebar_label: Suspensions and Terminations
 description: This guide will explain how Suspensions and Terminations work on Bloom.
 keywords:
