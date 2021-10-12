@@ -150,22 +150,21 @@ module.exports = {
                         'plugins_and_modifications/plugins/worldedit',
                     ]
                 },
-                {
-                    type: 'category',
-                    label: 'Billing',
-                    collapsed: true,
-                    items: [
-                        'billing/billing_subusers',
-                        'billing/cancellations',
-                        'billing/suspensions_and_terminations',
-                        'billing/refunds',
-                        'billing/paypal'
-                    ],
-                },
             ]
         },
 
-
+        {
+            type: 'category',
+            label: 'Billing',
+            collapsed: true,
+            items: [
+                'billing/billing_subusers',
+                'billing/cancellations',
+                'billing/suspensions_and_terminations',
+                'billing/refunds',
+                'billing/paypal'
+            ],
+        },
         {
             type: 'category',
             label: 'Extras',
