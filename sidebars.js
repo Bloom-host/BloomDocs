@@ -160,8 +160,8 @@ module.exports = {
             items: [
                 'billing/billing_subusers',
                 'billing/cancellations',
-                'billing/suspensions_and_terminations',
                 'billing/refunds',
+                'billing/suspensions_and_terminations',
                 'billing/paypal',
                 'billing/stripe'
             ],
