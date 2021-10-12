@@ -50,7 +50,7 @@ Remember that you need to upload the .zip datapack file, you don't need to unzip
 <div class="text--center">
 <img src={require('../../static/imgs/running_a_server/datapacks/3.png').default} alt="img"/></div>
 
-Now restart your server, feel free to open a ticket if you need any assistance.\
+Now restart your server, feel free to open a ticket if you need any assistance.
 
 :::note
 You can verify if the datapack was correctly installed by using the command `/datapack list enabled`.
