@@ -44,7 +44,7 @@ Simply give it a name and press the **Start Backup** button to continue. The bac
 <div class="text--center"><img src={require('../../static/imgs/using_the_panel/backups/3.png').default} alt="img"/></div>
 
 
-Keep in mind that you can store up to 5 backups at any time with a max of 3 backups within a 24 hour period.  
+Keep in mind that you can store up to 8 backups at any time with a max of 3 backups within a 24 hour period.  
 If you have reached the backup limit, the oldest backup will be rotated.
 
 ---

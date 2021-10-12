@@ -60,7 +60,7 @@ Once you've created your CNAME record, go to your [game panel](https://mc.bloom.
 
 ![portsandproxies](../../static/imgs/using_the_panel/ports_and_proxies/3.png)
 
-More than likely, you will have one allocation, but to create a reverse proxy, you will need to create a new allocation, to do so, just click '**Create Allocation**'. A popup will appear asking you to write the port you want to use for your new allocation, you can use any port in the `8100-25600` range.
+More than likely, you will have one allocation, but to create a reverse proxy, you will need to create a new allocation, to do so, just click '**Create Allocation**'. A popup will appear asking you to write the port you want to use for your new allocation, you can use any port.
 
 After creating the allocation and the DNS record, write the subdomain or domain you want to use for the reverse proxy in the "**Reverse Proxy Domain**" field in the **Ports & Proxies** section of our panel.
 
