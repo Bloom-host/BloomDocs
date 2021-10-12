@@ -2,7 +2,7 @@
 id: paypal
 title: PayPal Subscriptions
 hide_title: true
-hide_table_of_contents: true
+hide_table_of_contents: false
 sidebar_label: PayPal Subscriptions
 description: This guide will show you how to setup a PayPal subscription and how to cancel it if neccesary.
 keywords:
@@ -33,7 +33,7 @@ If you have already a plan with us you will need to wait until the next invoice 
 <div class="text--center">
 <img src={require('../../static/imgs/billing/paypal/2.png').default} alt="img"/></div>
 
-# How to cancel a PayPal Subscription (Recurring Payment)
+## How to cancel a PayPal Subscription (Recurring Payment)
 
 :::caution
 If you cancel a service with us you need to manually cancel the Subscription (Recurring Payment) via PayPal, or PayPal will continue to send the recurring payment. PayPal doesn't deactivate the Subscription when you cancel the payment, so please follow the steps outlined below if you cancelled your service with us or if you want to cancel your automatic payments with PayPal.
