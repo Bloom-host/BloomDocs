@@ -162,7 +162,8 @@ module.exports = {
                 'billing/cancellations',
                 'billing/suspensions_and_terminations',
                 'billing/refunds',
-                'billing/paypal'
+                'billing/paypal',
+                'billing/stripe'
             ],
         },
         {

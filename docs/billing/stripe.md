@@ -6,9 +6,9 @@ hide_table_of_contents: false
 sidebar_label: Stripe Subscription
 description: This guide will show you how to setup a Stripe subscription and how to cancel it if neccesary.
 keywords:
-  - Stripe
-  - Subscriptions
-  - Stripe Recurring
+  - stripe
+  - subscriptions
+  - stripe recurring
 ---
 
 <div class="text--center">
