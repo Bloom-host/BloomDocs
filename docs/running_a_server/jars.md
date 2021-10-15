@@ -71,13 +71,14 @@ image: https://bloom.host/assets/images/logo.png
 
 >
 > #### • [Airplane](https://airplane.gg/)
->Airplane is a fork of tuinity (and as such also includes all of the improvements paper and tuinity add) that brings even more performance oriented features. 
+>"A stable, optimized, well supported 1.16.5 & 1.17 Paper fork."  
+>Airplane is a fork of paper (and as such also includes all of the improvements paper adds) that aims to add even more performance optimizations over paper. 
 >
 
 >
 > #### • [Purpur](https://purpur.pl3x.net/)
->"Purpur is a drop-in replacement for Paper servers designed for configurability, new fun & exciting gameplay features, and high performance built on top of Tuinity"  
-Purpurs goal is to bring more (off by default) configuration options to your server, it adds these on top of the paper and tuinity improvements.
+>"Purpur is a drop-in replacement for Paper servers designed for configurability, new fun and exciting gameplay features, and high performance built on top of Airplane."  
+>Purpur aims bring more (off by default) configuration options to your server (there are A LOT of them), it adds these on top of the paper and airplane improvements.
 >
 
 >
