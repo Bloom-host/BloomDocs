@@ -177,6 +177,7 @@ module.exports = {
                 'extras/srvcontrol',
 		        'extras/swap',
                 'extras/clumsyloader',
+		'extras/caddyserver',
                 'extras/contributing',
                 'extras/template'
             ],
