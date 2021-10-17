@@ -8,7 +8,6 @@ description: This guide will help you create a Caddy split server.
 keywords:
   - Caddy
   - Caddy Server
-image: https://bloom.host/assets/images/logo.png
 ---
 
 <div class="text--center">
