@@ -3,12 +3,11 @@ id: caddy-server
 title: Creating a Caddy Split Server
 hide_title: true
 hide_table_of_contents: false
-sidebar_label: caddy-server
+sidebar_label: Caddy Server
 description: This guide will help you create a Caddy split server.
 keywords:
-  - Bloom.host
+  - Caddy
   - Caddy Server
-  - Pterodactyl Panel
 image: https://bloom.host/assets/images/logo.png
 ---
 
@@ -17,7 +16,7 @@ image: https://bloom.host/assets/images/logo.png
 <h1>Creating a Caddy Split Server</h1>
 </div>
 
-Hello Ducklings! 👋
+Hello Ducklings!
 
 This guide will create a Caddy split server on Bloom.host.
 
@@ -34,6 +33,7 @@ Head on over to "Server Splitter" tab in your Minecraft control panel.
 <img src={require('../../static/imgs/extras/caddy_server/2.PNG').default} alt="img"/></div>
 
 Now, enter a name for you server and choose "NO SUPPORT SERVERS" under "SERVER CATEGORY". Then choose "Caddy Server" under "SERVER TYPE". Set MEMORY to 100mb and DISK to how much storage your Caddy server needs. After that, press **SPLIT SERVER***.
+
 <div class="text--center">
 <img src={require('../../static/imgs/extras/caddy_server/3.PNG').default} alt="img"/></div>
 
