@@ -40,4 +40,4 @@ After you press **SPLIT SERVER** confirm you would like to split your server by 
 ## Configuring the Caddy server.
 
 To start, drop your html/php files into the "/public" directory of the caddy server. Then start the server.
-If you would like to use a domain for this server follow these instructions to setup a reverse proxy. [Instructions](https://docs.bloom.host/ports-and-proxies/)
+If you would like to use a domain for this server follow these [instructions](https://docs.bloom.host/ports-and-proxies/) to setup a reverse proxy.
