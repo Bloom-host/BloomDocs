@@ -3,7 +3,7 @@ id: caddy-server
 title: Creating a Caddy Split Server
 hide_title: true
 hide_table_of_contents: false
-sidebar_label: Caddy Server
+sidebar_label: caddy-server
 description: This guide will help you create a Caddy split server.
 keywords:
   - Bloom.host
