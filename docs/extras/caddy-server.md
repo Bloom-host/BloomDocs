@@ -31,7 +31,7 @@ Head on over to "Server Splitter" tab in your Minecraft control panel.
 <div class="text--center">
 ![caddyserver](../../static/imgs/extras/caddy_server/2.PNG)</div>
 
-Now, enter a name for you server and choose "NO SUPPORT SERVERS" under "SERVER CATEGORY". Then choose "Caddy Server" under "SERVER TYPE". Set MEMORY to 100mb and DISK to how much storage your Caddy server needs. After that, press **SPLIT SERVER***.
+Now, enter a name for you server and choose "NO SUPPORT SERVERS" under "SERVER CATEGORY". Then choose "Caddy Server" under "SERVER TYPE". Set MEMORY to 100MB and DISK to how much storage your Caddy server needs. After that, press **SPLIT SERVER***.
 
 <div class="text--center">
 ![caddyserver](../../static/imgs/extras/caddy_server/3.PNG)</div>
