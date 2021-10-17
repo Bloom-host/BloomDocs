@@ -3,7 +3,7 @@ id: caddy-server
 title: Creating a Caddy Split Server
 hide_title: true
 hide_table_of_contents: false
-sidebar_label: caddy-server
+sidebar_label: Caddy Server
 description: This guide will help you create a Caddy split server.
 keywords:
   - Bloom.host
@@ -17,7 +17,7 @@ image: https://bloom.host/assets/images/logo.png
 <h1>Creating a Caddy Split Server</h1>
 </div>
 
-Hello Ducklings! 👋
+Hello Ducklings!
 
 This guide will create a Caddy split server on Bloom.host.
 
