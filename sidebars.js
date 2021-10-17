@@ -172,11 +172,12 @@ module.exports = {
             collapsed: true,
             items: [
                 'extras/account-details',
-				'extras/grafana',
+	        'extras/grafana',
                 'extras/mobile-app',
                 'extras/srvcontrol',
-		        'extras/swap',
+		'extras/swap',
                 'extras/clumsyloader',
+		'extras/caddy-server',
                 'extras/contributing',
                 'extras/template'
             ],
