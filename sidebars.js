@@ -130,7 +130,7 @@ module.exports = {
                         'plugins_and_modifications/plugins/dynmap',
                         'plugins_and_modifications/plugins/essentialsx',
                         'plugins_and_modifications/plugins/geysermc',
-			            'plugins_and_modifications/plugins/geyseraddons',
+			'plugins_and_modifications/plugins/geyseraddons',
                         'plugins_and_modifications/plugins/griefprevention',
                         'plugins_and_modifications/plugins/litebans',
                         'plugins_and_modifications/plugins/luckperms',
@@ -146,7 +146,7 @@ module.exports = {
                         'plugins_and_modifications/plugins/venturechat',
                         'plugins_and_modifications/plugins/viaversion',
                         'plugins_and_modifications/plugins/votifier',
-			            'plugins_and_modifications/plugins/vulcan',
+			'plugins_and_modifications/plugins/vulcan',
                         'plugins_and_modifications/plugins/worldedit',
                     ]
                 },
@@ -172,12 +172,12 @@ module.exports = {
             collapsed: true,
             items: [
                 'extras/account-details',
-		        'extras/grafana',
+	        'extras/grafana',
                 'extras/mobile-app',
                 'extras/srvcontrol',
-		        'extras/swap',
+		'extras/swap',
                 'extras/clumsyloader',
-		        'extras/caddy-server',
+		'extras/caddy-server',
                 'extras/contributing',
                 'extras/template'
             ],
