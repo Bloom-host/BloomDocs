@@ -62,4 +62,8 @@ There are, of course, more commands in the plugin, which you can check out [here
 
 [Spigot Page](https://www.spigotmc.org/resources/coreprotect.8631/)  
 
-[Commands](https://www.minerealm.com/community/viewtopic.php?f=32&t=6781)
+[Commands](https://docs.coreprotect.net/commands/)
+
+[Permissions](https://docs.coreprotect.net/permissions/)
+
+[Configuration](https://docs.coreprotect.net/config/)

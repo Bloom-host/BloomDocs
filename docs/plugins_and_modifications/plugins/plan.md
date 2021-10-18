@@ -42,3 +42,9 @@ This guide will teach you how to set it up for the first time and how to secure 
 
 That’s it! You can now go to plan.YOURDOMAIN.com and click “Create Account” to make your account!
 
+### Info 
+
+[Spigot resource page](https://www.spigotmc.org/resources/plan-player-analytics.32536/)
+
+[GitHub repository](https://github.com/plan-player-analytics/Plan)
+

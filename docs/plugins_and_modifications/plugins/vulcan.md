@@ -22,7 +22,7 @@ image: https://bloom.host/assets/images/logo.png
 </div>
 
 ## What does the plugin do?
-Vulcan is an advanced cheat detection system that operates at the packet level with version support for 1.7 all the way to 1.16.5. Vulcan provides extra features with it's plugin, such as Discord bot support, banwaves, an ingame GUI, and [BungeeCord](https://www.spigotmc.org/resources/vulcanbungee-bungee-hook-for-vulcan-anti-cheat.94194/) support.
+Vulcan is an advanced cheat detection system that operates at the packet level with version support for 1.7 all the way to 1.17.1. Vulcan provides extra features with it's plugin, such as Discord bot support, banwaves, an ingame GUI, and [BungeeCord](https://www.spigotmc.org/resources/vulcanbungee-bungee-hook-for-vulcan-anti-cheat.94194/) support.
 
 Cheats detected by Vulcan:
 
@@ -32,7 +32,7 @@ Cheats detected by Vulcan:
 
 
 ## Setup & Configuration:
-First, download the plugin on thier [Spigot Page](https://www.spigotmc.org/resources/vulcan-advanced-cheat-detection-1-7-1-17-1.83626/) (Please note that this plugin is premium, and you will need to pay to use it). Then, drop the plugin into your `/plugins` folder, and restart the server. If you want to use this plugin with bungeecord, check out extra steps on Vulcan's [Bungee Page](https://www.spigotmc.org/resources/vulcanbungee-bungee-hook-for-vulcan-anti-cheat.94194/).
+First, download the plugin on their [Spigot Page](https://www.spigotmc.org/resources/vulcan-advanced-cheat-detection-1-7-1-17-1.83626/) (Please note that this plugin is premium, and you will need to pay to use it). Then, drop the plugin into your `/plugins` folder, and restart the server. If you want to use this plugin with bungeecord, check out extra steps on Vulcan's [Bungee Page](https://www.spigotmc.org/resources/vulcanbungee-bungee-hook-for-vulcan-anti-cheat.94194/).
 
 Vulcan is pre-configured to be almost plug and play. Most configuation options can be edited ingame (with /vulcan gui), and checks are being constantly optimised and changed to best fit all servers.
 
