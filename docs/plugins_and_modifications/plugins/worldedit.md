@@ -61,3 +61,5 @@ If you feel like making a cylinder, run `//cyl [block] [radii] [height]`. This w
 [Github](https://github.com/EngineHub/WorldEdit)  
 
 [Wiki](https://worldedit.enginehub.org/en/latest/)
+
+[Support Discord](https://discord.gg/enginehub)
