@@ -1,4 +1,4 @@
-# Contributing to the documentation.
+# Contributing to the documentation
 
 You can help contribute to the Bloom.host documentation by one of two ways:
 
