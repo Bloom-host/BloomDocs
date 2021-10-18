@@ -21,3 +21,5 @@ image: https://bloom.host/assets/images/logo.png
 ... rest of the document ...
 
 ```
+
+There is also embeds.toml which is used for BloomBot's embeds. Feel free to PR any additions/changes.
