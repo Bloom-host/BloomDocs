@@ -14,6 +14,7 @@ keywords:
   - Timings
   - Spigot
   - 1.16
+  - 1.17
   - Minecraft
   - Bloom.host
 image: https://bloom.host/assets/images/logo.png

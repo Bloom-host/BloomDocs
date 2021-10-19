@@ -159,7 +159,7 @@ Notes:
 - [Citizens Docs](https://wiki.citizensnpcs.co/Configuration)
 - [Sentinel Docs](https://github.com/mcmonkeyprojects/Sentinel/blob/master/README.md)
 - [dtlTraders Docs](https://www.spigotmc.org/resources/dtltraders.35890/)
-- [dtlTradersPlus (Premium Version) Docs](https://www.spigotmc.org/resources/dtltradersplus.63690/)
+- [dtlTradersPlus (Premium Version) Docs](https://www.spigotmc.org/resources/dtltradersplus.63690/) – Requires Spigot account!
 
 ### Need Help
 
