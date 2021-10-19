@@ -2,7 +2,7 @@
 id: vnc
 title: Connecting via VNC
 hide_title: true
-hide_table_of_contents: false
+hide_table_of_contents: true
 sidebar_label: Connecting via VNC
 description: This guide will show you how to connect to your VPS via VNC
 keywords:
