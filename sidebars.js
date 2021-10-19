@@ -176,12 +176,12 @@ module.exports = {
             label: 'VPS',
             collapsed: true,
             items: [
-                'vps/starting-with-vps',
-                'vps/vnc',
-                'vps/credentials'
+                'VPS/starting-with-vps',
+                'VPS/vnc',
+                'VPS/credentials'
             ],
         },
-        
+
         {
             type: 'category',
             label: 'Extras',
