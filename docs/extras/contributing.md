@@ -30,11 +30,11 @@ Hey! This is LoJo, one of the contributors. Here is how to make it easy for us t
 
 Easy as that.
 
-Here are some more resources for you guys!
+# Help Resources
 
-[Raw MD Template](https://raw.githubusercontent.com/Billy-Bloom/BloomDocs/master/docs/extras/template.md) and [this is what it turned out to be](https://docs.bloom.host/extras/template/)!
-
-[Github Repo](https://github.com/Bloom-host/BloomDocs)
+- [Raw MD Template](https://raw.githubusercontent.com/Billy-Bloom/BloomDocs/master/docs/extras/template.md) and [this is what it turned out to be](https://docs.bloom.host/extras/template/)!
+- [BloomBot Embed Gist](https://gist.github.com/NotGeri/cb11552ab7a12e20ab495a20826c341f)
+- [Github Repo](https://github.com/Bloom-host/BloomDocs)
 
 Right, one last thing. Make sure you know what you are talking about. Don't write stuff and ramble your way through it just for a role on Discord. Contribute useful information and you will be fine!
 
