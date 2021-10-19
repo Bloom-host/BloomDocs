@@ -42,4 +42,4 @@ We can't wait to see what you will contribute! See you soon!
 
 
 ## Wall of Ducks
-|  **Billy**  |  **Euan**  |  **Kaaale**  |  **LoJoSho** | **LGLover**  |  **Nessie** | **Virgil.Gunder**  |  **Zeus**  |  **waterswimmer111**  | **just a random person** | **Rei** | **Simonee**
+|  **Billy**  |  **Euan**  |  **Kaaale**  |  **LoJoSho** | **LGLover**  |  **Nessie** | **Virgil.Gunder**  |  **Zeus**  |  **waterswimmer111**  | **just a random person** | **Rei** | **Simonee** | **Geri**
