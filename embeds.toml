@@ -151,6 +151,8 @@ title = "VPS - Virtual Private Servers"
 description = """Our VPS plans come with a bare Linux command line installation. This means that you will not be able to use our personalized Minecraft control panel and you will need Linux command line experience to be able to manage your VPS. VPS plans are unmanaged and support for configuring and managing the server isn't provided.
 
 If you don't have any experience with Linux we recommend you go with our [Minecraft plans](https://bloom.host/minecraft).
+
+Check out our [Get Started Guide for VPS](https://docs.bloom.host/VPS/starting-with-vps)
 """
 
 [waitlist]
@@ -353,6 +355,11 @@ title = "📜 Bloom Docs - Backups"
 description = "Check out our comprehensive guide on automatic and manual backups [here](https://docs.bloom.host/backups/)! Should you have any questions or concerns, be sure to let us know or open a ticket in <#777907843214737440>!"
 thumbnail = "https://tickets.bloom.host/tickets/assets/tY6IAF.png"
 image = "https://tickets.bloom.host/tickets/assets/8K5up1.png"
+
+[vnc]
+title = "📜 Bloom Docs - VNC"
+description = "Check out our comprehensive guide on how to connect via VNC [here](https://docs.bloom.host/VPS/vnc/)! Should you have any questions or concerns, be sure to let us know or open a ticket in <#777907843214737440>!"
+thumbnail = "https://tickets.bloom.host/tickets/assets/tY6IAF.png"
 
 [2fa]
 title = "📜 Bloom Docs - 2-Factor Authentication"
