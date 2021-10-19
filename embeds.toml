@@ -152,7 +152,7 @@ description = """Our VPS plans come with a bare Linux command line installation.
 
 If you don't have any experience with Linux we recommend you go with our [Minecraft plans](https://bloom.host/minecraft).
 
-Check out our [Get Started Guide for VPS](https://docs.bloom.host/VPS/starting-with-vps)
+Are you new to VPS? Check out our [Get Started with VPS guide](https://docs.bloom.host/VPS/starting-with-vps)!
 """
 
 [waitlist]
