@@ -1,6 +1,6 @@
 # Pre-Defined Embed Messages.
 # For more information and detailed settings please check:
-# https://github.com/NotGeri/BloomBot/wiki/Embeds
+# https://gist.github.com/NotGeri/cb11552ab7a12e20ab495a20826c341f
 
 [billing]
 text = "https://billing.bloom.host"
@@ -614,35 +614,23 @@ enabled = false
 footer-icon = true
 description = """
 If you wish to contribute to <@739984621135069355> without coding knowledge, you can help by creating commands using the TOML format, which is very similar to the more commonly used YAML syntax.
-"""
-[embedtest.fields]
-1 = ["❓ A Simple Example", """
+
+✨ **A Simple Example**
 ```toml
-[test] # <-- This is the name of the commands
+[test] # <-- This is the name of the command
 title = "text"
 colour = "#FFFFF1"
 description = "text"
 ```
-Below it, these are all properties. Their name must be written exactly as seen otherwise it will not apply properly.
+To test an embed code, simply type `!embedtest <code>` and the bot will try to evaluate and create the embed.
 
-To test an embed code, simply type `!embedtest <code>`. The bot try to evaluate and create the embed.
+View all properties and an example [here](https://gist.github.com/NotGeri/cb11552ab7a12e20ab495a20826c341f)!
 
-View all other examples [here](https://gist.github.com/NotGeri/8be62124343d7e3c99960c221d079141)!
-""", "true"]
-2 = ["⚙️ All Properties", """
-```
-• title (max: 256 characters)
-• colour (Example: #FFFFF1)
-• description (max: 2048 characters)
-• footer (max: 2048 characters)
-• image (direct link)
-• thumbnail (direct link)
-• author-thumbnail (true/false)
-• title-icon (true/false)
-• footer-icon (true/false)
-• enabled (true/false)
-```
-""", "true"]
+Once you have an embed you like, simply create a pull request by following the [docs](https://docs.bloom.host/extras/contributing#editing-github-stuffs-advanced)!
+"""
+[embedtest.buttons]
+a = ["Open Help Gist", "https://gist.github.com/NotGeri/cb11552ab7a12e20ab495a20826c341f", "🔗"]
+b = ["Read Contribrution Docs", "https://docs.bloom.host/extras/contributing#editing-github-stuffs-advanced", "🔗"]
 
 # ┌───────────────┐
 # │ Ticket Embeds │
