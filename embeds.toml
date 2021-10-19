@@ -497,6 +497,8 @@ The first emergency restore is free, but after that is $5 each one.
 Please open a ticket on our [billing panel](https://billing.bloom.host/supporttickets.php) requesting the emergency restore. In the ticket include the server ID and the approximate time you want your server restored to, please write the time in UTC, you can use [Dateful](https://dateful.com/time-zone-converter) to convert timezones.
 
 Emergency restores are done manually, so it can take us up to 24 hours to process the restore.
+
+In the future please make use of our backup system, it's free and you can schedule backups. Take a look at how our backup system works here: [How are backups handled?](https://docs.bloom.host/backups)
 """
 thumbnail = "https://tickets.bloom.host/tickets/assets/tY6IAF.png"
 
