@@ -170,6 +170,7 @@ module.exports = {
                 'billing/stripe'
             ],
         },
+
         {
             type: 'category',
             label: 'VPS',
@@ -180,6 +181,7 @@ module.exports = {
                 'vps/credentials'
             ],
         },
+        
         {
             type: 'category',
             label: 'Extras',
