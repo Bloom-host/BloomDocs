@@ -178,7 +178,7 @@ module.exports = {
             items: [
                 'VPS/starting-with-vps',
                 'VPS/vnc',
-                'VPS/credentials'
+                'VPS/credentials-vps'
             ],
         },
 
