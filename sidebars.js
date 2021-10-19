@@ -159,6 +159,17 @@ module.exports = {
 
         {
             type: 'category',
+            label: 'VPS',
+            collapsed: true,
+            items: [
+                'VPS/starting-with-vps',
+                'VPS/vnc',
+                'VPS/credentials-vps'
+            ],
+        },
+
+        {
+            type: 'category',
             label: 'Billing',
             collapsed: true,
             items: [
@@ -168,17 +179,6 @@ module.exports = {
                 'billing/suspensions_and_terminations',
                 'billing/paypal',
                 'billing/stripe'
-            ],
-        },
-
-        {
-            type: 'category',
-            label: 'VPS',
-            collapsed: true,
-            items: [
-                'VPS/starting-with-vps',
-                'VPS/vnc',
-                'VPS/credentials-vps'
             ],
         },
 
