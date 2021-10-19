@@ -427,6 +427,12 @@ description = "Check out our comprehensive guide on installing Fabric to your se
 thumbnail = "https://tickets.bloom.host/tickets/assets/tY6IAF.png"
 image = "https://tickets.bloom.host/tickets/assets/cTEy1Q.png"
 
+[modpacks]
+aliases = ["modpack", "serverpack", "serverpacks"]
+title = "📜 Bloom Docs - Installing a modpack on your server"
+description = "Check out our comprehensive guide on installing Modpacks to your server [here](https://docs.bloom.host/modpacks/)! Should you have any questions or concerns, be sure to let us know or open a ticket in <#777907843214737440>!"
+thumbnail = "https://tickets.bloom.host/tickets/assets/tY6IAF.png"
+
 [forge]
 title = "📜 Bloom Docs - Forge"
 description = "Check out our comprehensive guide on installing Forge to your server [here](https://docs.bloom.host/forge-setup/)! Should you have any questions or concerns, be sure to let us know or open a ticket in <#777907843214737440>!"
