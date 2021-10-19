@@ -489,8 +489,15 @@ image = "https://tickets.bloom.host/tickets/assets/a0Oz1b.png"
 
 [emergencyrestore]
 title = "📜 Bloom Docs - Emergency Restores"
-description = "We have emergency node backups we can restore your server from. The first emergency restore is free, but after that is $5 each one. Please open a ticket on our [billing panel](https://billing.bloom.host/supporttickets.php) requesting the emergency restore. Please in the ticket include the server ID and the aproximate time you want your server restored to, please write the time in UTC, you can use [Dateful](https://dateful.com/time-zone-converter) to convert timezones.
-Emergency restores are done manually, so it can take us up to 24 hours to process the restore."
+description = """
+We have emergency node backups we can restore your server from. 
+
+The first emergency restore is free, but after that is $5 each one. 
+
+Please open a ticket on our [billing panel](https://billing.bloom.host/supporttickets.php) requesting the emergency restore. In the ticket include the server ID and the approximate time you want your server restored to, please write the time in UTC, you can use [Dateful](https://dateful.com/time-zone-converter) to convert timezones.
+
+Emergency restores are done manually, so it can take us up to 24 hours to process the restore.
+"""
 thumbnail = "https://tickets.bloom.host/tickets/assets/tY6IAF.png"
 
 [datapack]
