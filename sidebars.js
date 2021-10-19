@@ -172,6 +172,16 @@ module.exports = {
         },
         {
             type: 'category',
+            label: 'VPS',
+            collapsed: true,
+            items: [
+                'vps/starting-with-vps',
+                'vps/vnc',
+                'vps/credentials'
+            ],
+        },
+        {
+            type: 'category',
             label: 'Extras',
             collapsed: true,
             items: [
