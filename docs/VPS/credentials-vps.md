@@ -20,7 +20,7 @@ Hey Bloomers! In this guide we will be going over how to change your VPS passwor
 
 ## How to change your VPS SSH password?
 
-Head over to our [VPS Panel](https://vps.bloom.host), sign in, and select the VPS.
+Head over to our [VPS Panel](https://VPS.bloom.host), sign in, and select the VPS.
 
 The change password option is under the "settings" tab. 
 
@@ -29,16 +29,16 @@ You need to Poweroff and START your VPS for the password change to take effect.
 :::
 
 <div class="text--center">
-<img src={require('../../static/imgs/vps/credentials/1.png').default} alt="img"/></div>
+<img src={require('../../static/imgs/VPS/credentials/1.png').default} alt="img"/></div>
 
 ## How to change your VPS VNC password?
 
-Head over to our [VPS Panel](https://vps.bloom.host), sign in, and select the VPS.
+Head over to our [VPS Panel](https://VPS.bloom.host), sign in, and select the VPS.
 
 The VNC Password option is under the "settings" tab.
 
 <div class="text--center">
-<img src={require('../../static/imgs/vps/vnc/2.png').default} alt="img"/></div>
+<img src={require('../../static/imgs/VPS/credentials/2.png').default} alt="img"/></div>
 
 :::important
 You may need to Poweroff and START your VPS for the VNC password change to take effect.
