@@ -103,6 +103,10 @@ module.exports = {
                 },
                 {
                     type: 'doc',
+                    id: "plugins_and_modifications/modpacks",
+                },
+                {
+                    type: 'doc',
                     id: "plugins_and_modifications/simple-voice-chat",
                 },
                 {
