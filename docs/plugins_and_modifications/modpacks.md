@@ -20,7 +20,7 @@ keywords:
 </div>
 
 :::note
-This tutorial can also be used to update your server mod pack, just replace the old files with the new generates files. Always take a backup before updating your server.
+This tutorial can also be used to update your server mod pack, just replace the old files with the new generated files. Always take a backup before updating your server.
 :::
 
 # Downloading the server pack
