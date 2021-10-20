@@ -536,6 +536,14 @@ description = "Check out our comprehensive guide on how to reset your world [her
 thumbnail = "https://tickets.bloom.host/tickets/assets/tY6IAF.png"
 image = "https://tickets.bloom.host/tickets/assets/dCHgqO.gif"
 
+[caddy]
+aliases = ["caddysplit", "caddyserver"]
+title = "📜 Bloom Docs - Caddy Split Server"
+description = "Check out our comprehensive guide on how to split your server into a Caddy Server [here](https://docs.bloom.host/extras/caddy-server/)! This is a unsupported server split, which means you will not receive any support from staff, although you may ask for help in <#720081782980083816>!"
+thumbnail = "https://tickets.bloom.host/tickets/assets/tY6IAF.png"
+image = "https://caddyserver.com/resources/images/caddy-open-graph.jpg"
+enabled = true
+
 [plan]
 title = "📜 Bloom Docs - Plan"
 description = "Check out our comprehensive guide on how to install Plan - Player Analytics [here](https://docs.bloom.host/plan)! Should you have any questions or concerns, be sure to let us know or open a ticket in <#777907843214737440>!"
