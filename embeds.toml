@@ -2,7 +2,7 @@
 # For more information and detailed settings please check:
 # https://gist.github.com/NotGeri/cb11552ab7a12e20ab495a20826c341f
 
-[billing]
+[billing
 text = "https://billing.bloom.host"
 [billing.buttons]
 1 = ["Billing Ticket", "https://billing.bloom.host/"]
