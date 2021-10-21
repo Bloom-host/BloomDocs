@@ -1,13 +1,7 @@
-name: tomlchecker
-on: [push]
+on: push
+name: TOML Checker
 jobs:
-  Explore-GitHub-Actions:
-    runs-on: ubuntu-latest
-    steps:
-name: GitHub Actions Demo
-on: [push]
-jobs:
-  Explore-GitHub-Actions:
+  TOML Checker:
     runs-on: ubuntu-latest
     steps:
     - name: TOML linter
