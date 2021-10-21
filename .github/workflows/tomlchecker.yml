@@ -6,5 +6,3 @@ jobs:
     steps:
     - name: TOML linter
       uses: yisonPylkita/gh-action-toml-linter@0.1.3
-      with:
-        path: #
