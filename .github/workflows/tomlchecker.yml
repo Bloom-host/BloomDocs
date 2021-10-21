@@ -6,7 +6,6 @@ on:
 name: TOML-Checker
 jobs:
   TOML-Checker:
-    runs-on: ubuntu-latest
     steps:
     - name: TOML linter
       uses: yisonPylkita/gh-action-toml-linter@0.1.3
