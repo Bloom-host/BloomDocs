@@ -539,7 +539,7 @@ image = "https://tickets.bloom.host/tickets/assets/dCHgqO.gif"
 [caddy]
 aliases = ["caddysplit", "caddyserver"]
 title = "📜 Bloom Docs - Caddy Split Server"
-description = "Check out our comprehensive guide on how to split your server into a Caddy Server [here](https://docs.bloom.host/extras/caddy-server/)!\As Caddy is an unsupported server split (which means you will not receive any support from staff), you can ask for community help in <#737803938430189678>!"
+description = "Check out our comprehensive guide on how to split your server into a Caddy Server [here](https://docs.bloom.host/extras/caddy-server/)! This is a unsupported server split, which means you will not receive any support from staff, although you may ask for help in <#720081782980083816>!"
 thumbnail = "https://tickets.bloom.host/tickets/assets/tY6IAF.png"
 image = "https://caddyserver.com/resources/images/caddy-open-graph.jpg"
 enabled = true
