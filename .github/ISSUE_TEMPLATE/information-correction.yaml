@@ -1,9 +1,10 @@
 name: Information Correction
+title: "[Info Correction]: "
 description: Have incorrect/outdated information found on the docs corrected
 body:
   - type: markdown # only displayed to the user when filling out the form
     attributes:
-      value: You can open an issue to have outdated or incorrect information on the documentation updated
+      value: You can open an issue to have outdated or incorrect information on the documentation updated.
 
   - type: input
     attributes:
