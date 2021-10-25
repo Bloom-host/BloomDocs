@@ -23,6 +23,7 @@ c = ["Bukkit", "https://dev.bukkit.org/projects/simple-voice-chat"]
 d = ["Docs", "https://docs.bloom.host/installing-simple-voice-chat/"]
 
 [demo]
+aliases = ["demopanel"]
 title = "<:aaaduck:755553395363938344> Bloom.host Demo Panel"
 image = "https://tickets.bloom.host/tickets/assets/demo.png"
 description = """
@@ -103,16 +104,18 @@ thumbnail = "https://tickets.bloom.host/tickets/assets/tY6IAF.png"
 image = "https://tickets.bloom.host/tickets/assets/documentation.png"
 
 [fbi]
+aliases = ["fbimeme"]
 text = "https://i.clumsy.host/fbi.mp4"
 
 [fbiinfo]
+aliases = ["offlinemode", "blackspigot"]
 title = "🚫 Piracy Is Bad"
 colour = "#dd2e44"
 thumbnail = "https://tickets.bloom.host/tickets/assets/85dAco.png"
-description = "In case you are doing any of the following, you will __not recieve any support__ from Bloom community or staff members."
+description = "In case you are doing any of the following, you will __not recieve any support__ from Bloom community, staff members, most plugin developers and server/proxy software staff."
 enabled = false
 [fbiinfo.fields]
-1 = ["<:warn:849551085873135657> Cracked Servers", "Using offline-mode on servers bypasses Mojang's authentication system entirely meaning there are __countless security exploits__ people can use. This feature is meant to be used for developers and proxies. (In case you *are* using an online-mode pr  oxy, you seriously need to check your configuration - See `!security`)", "false"]
+1 = ["<:warn:849551085873135657> Cracked Servers", "Using offline-mode on servers bypasses Mojang's authentication system entirely meaning there are __countless security exploits__ people can use. This feature is meant to be used for developers and proxies. (In case you *are* using an online-mode proxy, you seriously need to check your configuration - See `!security`)", "false"]
 2 = ["🏴‍☠ Pirated Software", "Using any kind of software obtained from unofficial sites such as BlackSpigot has a high chance of containing viruses, force-op and more. If you wish to use Premium software, pay for it. ", "false"]
 
 [winmtr]
@@ -132,7 +135,7 @@ You can use a software such as [WinMTR](https://sourceforge.net/projects/winmtr/
 **5**. Take a screenshot of the results so we can analyze your route.
 """, "false"]
 2 = ["<:apple:849551086028849152> Other Operating Systems", """
-    In case you are using another operating system such as MacOS or Linux, be sure to let us know we'll guide you through the process!
+    In case you are using another operating system such as macOS or Linux, be sure to let us know we'll guide you through the process!
 """, "false"]
 
 [grafana]
@@ -226,6 +229,7 @@ thumbnail = "https://tickets.bloom.host/tickets/assets/velocity.png"
 """, "false"]
 
 [security]
+aliases = ["proxysecurity"]
 title = "✅ Secure Your Servers"
 footer = "BloomBot - Bloom.host"
 colour = "#77b255"
@@ -235,6 +239,20 @@ When using a proxy software such as BungeeCord or Waterfall, make sure:
 • `online-mode=` is set to `false` in server.properties
 • `bungeecord:` is set to `true` in spigot.yml
 • you have BungeeGuard installed (!`bungeeguard`) or have backends firewalled off.
+""", "false"]
+2 = ["Using Velocity with modern forwarding","""
+When using Velocity with using modern forwarding as your proxy, make sure:
+• `online-mode=` is set to `false` in server.properties
+• `bungeecord:` is set to `false` in spigot.yml
+• `enabled:` and `online-mode` under `velocity-support` is set to true in paper.yml
+• `secret` under `velocity-support` is set to Velocity's `forwarding-secret` setting. Both of these must be exactly the same or you will be unable to connect to your server!
+""", "false"]
+3 = ["Using Velocity with BungeeGuard forwarding","""
+When using Velocity with BungeeGuard forwarding as your proxy, make sure:
+• `online-mode=` is set to `false` in server.properties
+• `bungeecord:` is set to `true` in spigot.yml
+• `enabled:` under `velocity-support` is set to false in paper.yml – This setting is for Velocity modern forwarding and you will not be able to join your server with both this and bungeecord forwarding enabled!
+• you have BungeeGuard installed (!`bungeeguard`) and that your token in the BungeeGuard plugin on the backend servers matches what is set for Velocity's `forwarding-secret` setting.
 """, "false"]
 
 [details]
@@ -294,7 +312,7 @@ thumbnail = "https://tickets.bloom.host/tickets/assets/tY6IAF.png"
 image = "https://tickets.bloom.host/tickets/assets/I5X0x8.png"
 
 [documentation]
-aliases = []
+aliases = ["docs"]
 title = "📜 Bloom Docs"
 description = "Check out our documentation [here](https://docs.bloom.host)! Should you have any questions or concerns, be sure to let us know or open a ticket in <#777907843214737440>!"
 thumbnail = "https://tickets.bloom.host/tickets/assets/tY6IAF.png"
@@ -446,8 +464,8 @@ description = "Check out our comprehensive guide on installing Forge to your ser
 thumbnail = "https://tickets.bloom.host/tickets/assets/tY6IAF.png"
 image = "https://tickets.bloom.host/tickets/assets/SylbcQ.png"
 
-[plugins]
-aliases = ["plugin"]
+[plugins] # Refers to Bukkit/Spigot/Paper plugins
+aliases = ["plugin", "spigotplugins", "bukkitplugins", "paperplugins"] # Bukkit, Spigot and Paper
 title = "📜 Bloom Docs - Spigot Plugins"
 description = "Check out our comprehensive guide on installing Spigot Plugins [here](https://docs.bloom.host/installing-plugins/)! Should you have any questions or concerns, be sure to let us know or open a ticket in <#777907843214737440>!"
 thumbnail = "https://tickets.bloom.host/tickets/assets/tY6IAF.png"
@@ -468,7 +486,7 @@ thumbnail = "https://tickets.bloom.host/tickets/assets/tY6IAF.png"
 image = "https://tickets.bloom.host/tickets/assets/y3ISVE.png"
 
 [optimization]
-aliases = ["optimize", "lowtps"]
+aliases = ["optimize", "lowtps", "optimisation", "optimise"] # 'optimisation' and 'optimise' are British English spelling
 title = "📜 Bloom Docs - Server Optimizations"
 description = "Check out our comprehensive guide on server optimizations [here](https://docs.bloom.host/optimization/)! Should you have any questions or concerns, be sure to let us know or open a ticket in <#777907843214737440>!"
 thumbnail = "https://tickets.bloom.host/tickets/assets/tY6IAF.png"
@@ -489,6 +507,7 @@ thumbnail = "https://tickets.bloom.host/tickets/assets/tY6IAF.png"
 image = "https://tickets.bloom.host/tickets/assets/K3v1x4.png"
 
 [java]
+aliases = ["jvm"]
 title = "📜 Bloom Docs - Java Version"
 description = "Check out our comprehensive guide on changing your server's Java version [here](https://docs.bloom.host/java-version/)! Should you have any questions or concerns, be sure to let us know or open a ticket in <#777907843214737440>!"
 thumbnail = "https://tickets.bloom.host/tickets/assets/tY6IAF.png"

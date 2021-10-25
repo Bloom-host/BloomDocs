@@ -1,6 +1,6 @@
 # Contributing to the documentation
 
-You can help contribute to the Bloom.host documentation by one of two ways:
+You can help contribute to the Bloom.host documentation in one of two ways:
 
 ## Option one:
 
@@ -51,6 +51,16 @@ image: https://bloom.host/assets/images/logo.png
 There is a [Markdown Template](https://raw.githubusercontent.com/Billy-Bloom/BloomDocs/master/docs/extras/template.md) which has some examples of markdown formatting elements (and how to use them) such as bold text, strikethrough, headings and links.
 
 You can also see [a formatted version of the template](https://docs.bloom.host/extras/template/) to see what the formatted elements will look like when imported into the documentation website. 
+
+## BloomBot embeds 
+
+You can also contribute to the embeds used by BloomBot in the Discord where a command is used and it can provide troubleshooting information or quick information to users such as those who are requesting support. 
+
+You can edit [`embeds.toml`](/embeds.toml) and this can be contributed along with documentation changes and can be contributed in the same PR.
+
+If you are attempting to add something to add something to these, please see the [formatting guide](https://gist.github.com/NotGeri/cb11552ab7a12e20ab495a20826c341f) on how to add embeds (there is a specific format the embed must follow.)
+
+Please note that changes are not instant and may take up to 24 hours to apply.
 
 ## Note
 
