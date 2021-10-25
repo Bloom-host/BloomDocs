@@ -18,10 +18,10 @@ body:
   - type: dropdown
     attributes:
       label: Are you willing to write this article?
-      description: If you are willing to write this article, please select '‘Yes’', otherwise select '‘No’'.
+      description: If you are willing to write this article, please select ‘Yes’, otherwise select ‘No’.
       options:
-        - Yes
-        - No
+        - 'Yes'
+        - 'No'
     validations:
       required: true
 
