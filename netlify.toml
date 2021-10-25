@@ -1,3 +1,7 @@
 [[redirects]]
   from = "/faq"
   to = "https://bloom.host/faqs"
+
+[[redirects]]
+  from = "/plugins/papi"
+  to = "/plugins/placeholderapi"
