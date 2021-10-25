@@ -24,7 +24,7 @@ Write new articles in your preferred format, and make a support ticket in our [D
 ## Editing Github stuffs (Advanced)
 Hey! This is LoJo, one of the contributors. Here is how to make it easy for us to import your document and for you to have it the way you want when we import it!
 
-1. Fork the [Github Repository](https://github.com/Billy-Bloom/BloomDocs).
+1. Fork the [Github Repository](https://github.com/Bloom-host/BloomDocs).
 2. Make any edits. Remember we run in markdown. If you add a page, make sure to also add it in `sidebars.js`.
 3. Make Pull Request to have it added.
 
@@ -32,7 +32,7 @@ Easy as that.
 
 # Help Resources
 
-- [Raw MD Template](https://raw.githubusercontent.com/Billy-Bloom/BloomDocs/master/docs/extras/template.md) and [this is what it turned out to be](https://docs.bloom.host/extras/template/)!
+- [Raw MD Template](https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/docs/extras/template.md) and [this is what it turned out to be](https://docs.bloom.host/extras/template/)!
 - [BloomBot Embed Gist](https://gist.github.com/NotGeri/cb11552ab7a12e20ab495a20826c341f)
 - [Github Repo](https://github.com/Bloom-host/BloomDocs)
 
