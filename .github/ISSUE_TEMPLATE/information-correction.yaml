@@ -1,0 +1,35 @@
+name: Information Correction
+title: "[Info Correction]: "
+labels: ["bug"]
+description: Have incorrect/outdated information found on the docs corrected
+body:
+  - type: markdown # only displayed to the user when filling out the form
+    attributes:
+      value: You can open an issue to have outdated or incorrect information on the documentation updated.
+
+  - type: input
+    attributes:
+      label: Page name
+      description: On which page is the problem found in? 
+      placeholder: Enter page name here
+    validations:
+      required: true  # Form cannot be submitted unless this field is not blank
+
+  - type: dropdown
+    attributes:
+      label: Type
+      description: Select the problem with the information on the selected page
+      multiple: false
+      options: # multiple choices
+        - The information on that page is outdated
+        - The information on that page is incorrect
+    validations:
+      required: true
+  
+  - type: textarea
+    attributes:
+      label: More information
+      description: Add details of what’s wrong with the information on that page
+      placeholder: Provide as much details as you can about that page. Make sure to provide reasoning and evidence of the changes you add here.
+    validations:
+      required: true
