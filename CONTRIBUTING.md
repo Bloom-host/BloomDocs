@@ -21,7 +21,7 @@ This method makes it easier to import the document(s) and to make sure that the 
 ### Document format:
 When adding new pages to the documentation, be sure to use the document format.
 
-The document format is listed below, and also listed in `README.md` in the root of the repo.
+The document format is listed below, and also listed in [`README.md`](/README.md) in the root of the repo.
 
 ```yaml
 
