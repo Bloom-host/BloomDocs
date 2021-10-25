@@ -11,7 +11,7 @@ body:
     attributes:
       label: Article purpose
       description: What is the purpose of the article you are suggesting?
-      placeholder: Ex: I would like an article on how to set up the Multiverse-Core spigot plugin.
+      placeholder: "Ex: I would like an article on how to set up the Multiverse-Core spigot plugin."
     validations:
       required: true
 
