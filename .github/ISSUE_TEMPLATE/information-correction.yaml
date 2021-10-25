@@ -1,5 +1,6 @@
 name: Information Correction
 title: "[Info Correction]: "
+labels: ["bug"]
 description: Have incorrect/outdated information found on the docs corrected
 body:
   - type: markdown # only displayed to the user when filling out the form
@@ -10,7 +11,7 @@ body:
     attributes:
       label: Page name
       description: On which page is the problem found in? 
-      placeholder: Page name
+      placeholder: Enter page name here
     validations:
       required: true  # Form cannot be submitted unless this field is not blank
 

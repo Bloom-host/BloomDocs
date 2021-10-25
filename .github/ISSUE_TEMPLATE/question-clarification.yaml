@@ -1,0 +1,24 @@
+name: Question
+title: "[Question] "
+labels: ["question"]
+description: Ask a question about the documentation or the infomation on the documentation site
+body:
+  - type: markdown
+    attributes:
+      value: If you have a question about the documentation or infomation on the docs site, you can ask it here
+
+  - type: input
+    id: input
+    attributes:
+      label: Question
+      description: Ask your question here. More detailed information can be entered in the 'More information' box below.
+      placeholder: Type here to enter your question
+    validations:
+        required: true
+
+  - type: textarea
+    id: moreinfo
+    attributes:
+      label: More information (Optional)
+      description: You can type here to supply more detailed information to the question
+      placeholder: More detailed information, such as documentation for other plugins can be supplied here
