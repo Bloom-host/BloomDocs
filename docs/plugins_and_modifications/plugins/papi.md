@@ -9,12 +9,12 @@ description: Information about PlaceholderAPI Bukkit plugin
 image: https://bloom.host/assets/images/logo.png
 ---
 
-```html
+
 <div class="text--center">
 <img src="https://bloom.host/logo-white.svg" alt="logo" height="50%" width="50%"/>
 <h1>PlaceholderAPI</h1>
 </div>
-```
+
 ## Introduction
 
 PlaceholderAPI (sometimes referred to as PAPI) is a plugin library that allows servers to display information from many plugins using a common format. 
