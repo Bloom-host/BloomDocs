@@ -29,5 +29,5 @@ body:
       label: More information
       description: Add details of what’s wrong with the information on that page
       placeholder: Provide as much details as you can about that page. Make sure to provide reasoning and evidence of the changes you add here.
-    validation:
+    validations:
       required: true
