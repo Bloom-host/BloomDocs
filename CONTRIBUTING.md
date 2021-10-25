@@ -12,11 +12,11 @@ You can also contribute to the docs directly by doing the following:
 
 This method makes it easier to import the document(s) and to make sure that the formatting is correct and to make it look the way you want it when it is imported.
 
-1. Create a fork of the [GitHub Repository](https://github.com/Billy-Bloom/BloomDocs)
+1. Create a fork of the [GitHub Repository](https://github.com/Bloom-host/BloomDocs)
 2. Make edits to your fork of this repository. Note that there is a document format when creating new pages, see below for details.
 3. Create a pull request to have the changes added into the repository.
 
-**Note:** If you are adding new pages, be sure to add it into `sidebars.js` (located in the root of the repo)
+**Note:** If you are adding new pages, be sure to add it into [`sidebars.js`](/sidebars.js) (located in the root of the repo)
 
 ### Document format:
 When adding new pages to the documentation, be sure to use the document format.
