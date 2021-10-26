@@ -33,7 +33,7 @@ To get started with Velocity, you first need to download the latest version of V
 
 ![img](../../static/imgs/running_a_server/velocity/velocity-dl-page.PNG)
 
-Once you have downloaded Velocity you may proceed to the next step in the setup process: creating a server split to run Velocity off of. Velocity is it's own server jar file and will require it's own server to run from.
+Once you have downloaded Velocity you may proceed to the next step in the setup process: creating a server split to run Velocity off of. Velocity is it’s own server jar file and will require it’s own server to run from.
 
 ## Creating a Velocity Server Split
 
@@ -104,7 +104,7 @@ After you configure and save your `server.properties` file along with completing
 
 :::warning
 
-It is HIGHLY recommended that your Velocity server is set to online-mode, this is the most secure option for running your server and will reduce hackers and exploits by a ton simply by having it turned on. You can also visit [Velocity's documentation](https://velocitypowered.com/wiki/users/forwarding/) for more setup help, but it highly recommended that you use modern forwarding.
+It is HIGHLY recommended that your Velocity server is set to online-mode, this is the most secure option for running your server and will reduce hackers and exploits by a ton simply by having it turned on. You can also visit [Velocity’s documentation](https://velocitypowered.com/wiki/users/forwarding/) for more setup help, but it highly recommended that you use modern forwarding.
 
 :::
 
@@ -128,6 +128,25 @@ In `paper.yml`, set `settings.velocity-support.enabled` to `true` and `settings.
 
 A mod called [FabricProxy-Lite](https://www.curseforge.com/minecraft/mc-mods/fabricproxy-lite) allows you to use Velocity modern forwarding with a modded server using Fabric.
 
+### BungeeGuard Forwarding for Spigot/Paper
+
+:::caution
+Legacy BungeeCord forwarding mode is less secure than modern Velocity forwarding mode and may result in security issues if not setup properly. 
+
+If you need to use legacy BungeeCord forwarding mode, make sure you setup BungeeGuard to ensure people do not connect directly to your backend servers.
+
+Note that the `bungeeguard` forwarding mode uses legacy BungeeCord forwarding with the `forwarding-secret` as the BungeeGuard token.
+:::
+
+:::note
+This section also applies to forks based upon Paper such as Purpur or Airplane
+:::
+
+If you cannot use modern forwarding (for example, your server jar doesn’t support Velocity modern forwarding), you might be able to use BungeeGuard instead.
+
+To set this up, see the guide [on how to set up BungeeGuard](/docs/plugins_and_modifications/plugins/bungeeguard.md).
+
+
 ## Additional configuation options for velocity.toml
 
 The following table contains additional noteworthy configuration options for `velocity.toml`
@@ -137,7 +156,7 @@ The following table contains additional noteworthy configuration options for `ve
 | **[forced-hosts]**  | This lets you setup your custom domain with velocity, set the right side up to match your **try** section from earlier | `"host.name" = ["lobby", "survival", "creative"]` |
 | **show-max-players** | The max player count that displays in the multiplayer menu | `show-max-players: 100` |
 | **forwarding-secret**| Do not change this. This is the secret you need to insert into configuration files on your backend servers | `forwarding-secret: "someRandomStringHere"` |
-| **bind** | This is the default IP address that players will connect to when connecting to Velocity, it's recommended to set it like the example here so that it uses Minecraft's default port | `bind: "0.0.0.0:25565"`|
+| **bind** | This is the default IP address that players will connect to when connecting to Velocity, it's recommended to set it like the example here so that it uses Minecraft’s default port | `bind: "0.0.0.0:25565"`|
 
 You can find documentation for other settings in the `velocity.toml` file [right here](https://velocitypowered.com/wiki/users/configuration/)!
 
