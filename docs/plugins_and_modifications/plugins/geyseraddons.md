@@ -74,7 +74,7 @@ The only problem with this plugin is that it will allow hackers to phase through
 You can download it [**here**](https://github.com/Camotoy/BambooCollisionFix/releases)
 
 ### GeyserBlockPlatform
-GeyserBlockPlatform stops certian devices from joining your server.
+GeyserBlockPlatform stops certain devices from joining your server.
 I don't see many uses for this but say you really hate Apple iPhone users and wanted to restrict them from joining your server. You can do it with GeyserBlockPlatform!
 
 You can download it [**here**](https://github.com/Camotoy/GeyserBlockPlatform/releases)
