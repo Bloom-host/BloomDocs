@@ -69,7 +69,7 @@ Unfortunately with plugins such as [EssentialsX](https://www.spigotmc.org/resour
 
 Add to the bukkit `commands.yml` (found at `/`)
 
-```
+```yml
   msg:
   - vmessage $$1 $2-
   reply:
@@ -86,7 +86,7 @@ Add to the bukkit `commands.yml` (found at `/`)
 
 If you have EssentialsX add to the plugin's `config.yml` (found at `/plugins/EssentialsX/`)
 
-```
+```yml
 disabled-commands:
 - nick
 - broadcast
