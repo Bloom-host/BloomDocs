@@ -1,0 +1,31 @@
+name: Article Suggestion
+description: Suggest an article for the Bloom docs
+title: "[Article] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: You can suggest new articles to the Bloom docs using this form.
+
+  - type: input
+    attributes:
+      label: Article purpose
+      description: What is the purpose of the article you are suggesting?
+      placeholder: "Ex: I would like an article on how to set up the Multiverse-Core spigot plugin."
+    validations:
+      required: true
+
+  - type: dropdown
+    attributes:
+      label: Are you willing to write this article?
+      description: If you are willing to write this article, please select ‘Yes’, otherwise select ‘No’.
+      options:
+        - 'Yes'
+        - 'No'
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Additional info
+      description: Add any other info or screenshots about the feature request here.
