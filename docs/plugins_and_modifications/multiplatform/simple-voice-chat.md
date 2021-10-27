@@ -1,10 +1,10 @@
 ---
 id: simple-voice-chat
-title: Installing Simple Voice Chat
+title: Simple Voice Chat
 slug: /multiplatform/simple-voice-chat
 hide_title: true
 hide_table_of_contents: true
-sidebar_label: Installing Simple Voice Chat
+sidebar_label: Simple Voice Chat
 image: https://bloom.host/assets/images/logo.png
 ---
 
