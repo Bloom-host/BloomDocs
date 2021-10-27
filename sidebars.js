@@ -119,7 +119,7 @@ module.exports = {
 
                 {
                     type: 'category',
-                    label: "Multiplatform plugins & mods",
+                    label: "Multi-platform plugins & mods",
                     items: [
                         'plugins_and_modifications/multiplatform/chunky',
                         'plugins_and_modifications/multiplatform/luckperms',
