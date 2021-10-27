@@ -35,9 +35,9 @@ In order to run Simple Voice Chat on your server, you need one of the following 
 2. Download the Fabric version of [Simple Voice Chat](https://www.curseforge.com/minecraft/mc-mods/simple-voice-chat/files/all?filter-status=1&filter-game-version=2020709689%3A7499)
 3. Open the [file manager](/file-manager-controls) in your dashboard
 4. Open the **mods** folder or create it if it doesn't exist
-<div class="text--center"><img src={require('../../../../static/imgs/plugins_and_modifications/simple_voice_chat/1.png').default} alt="console"/></div>
+<div class="text--center"><img src={require('../../../static/imgs/plugins_and_modifications/simple_voice_chat/1.png').default} alt="console"/></div>
 5. Drag and drop the **Fabric API jar** and the **Simple Voice Chat jar** into the browser window.
-<div class="text--center"><img src={require('../../../../static/imgs/plugins_and_modifications/simple_voice_chat/2.png').default} alt="console"/></div>
+<div class="text--center"><img src={require('../../../static/imgs/plugins_and_modifications/simple_voice_chat/2.png').default} alt="console"/></div>
 6. Continue with the [common installation](#common)
 
 ### Forge
@@ -45,7 +45,7 @@ In order to run Simple Voice Chat on your server, you need one of the following 
 1. Download the Forge version of [Simple Voice Chat](https://www.curseforge.com/minecraft/mc-mods/simple-voice-chat/files/all?filter-status=1&filter-game-version=2020709689%3A7498)
 3. Open the [file manager](/file-manager-controls) in your dashboard
 4. Open the **mods** folder or create it if it doesn't exist
-<div class="text--center"><img src={require('../../../../static/imgs/plugins_and_modifications/simple_voice_chat/1.png').default} alt="console"/></div>
+<div class="text--center"><img src={require('../../../static/imgs/plugins_and_modifications/simple_voice_chat/1.png').default} alt="console"/></div>
 5. Drag and drop the the **Simple Voice Chat jar** into the browser window.
 6. Continue with the [common installation](#common)
 
