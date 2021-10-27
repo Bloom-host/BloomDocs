@@ -124,7 +124,7 @@ module.exports = {
                     label: "Multiplatform plugins & mods",
                     items: [
                         'plugins_and_modifications/multiplatform/luckperms',
-                        'plugins_and_modifications/multiplatform/simplevoicechat',
+                        'plugins_and_modifications/multiplatform/simple-voice-chat',
                     ]
                 },
 
