@@ -6,6 +6,12 @@
   from = "/plugins/papi"
   to = "/plugins/placeholderapi"
 
+############# 
+# These redirects were added when the multi-platform category for plugins and mods was added.
+# Some existing plugin/mod pages were moved (and in some cases, merged) from the platform-specific folder into the mult-platform folder.
+# These redirect rules are to allow old links to continue to work as they get redirected to the new locations.
+
+
 [[redirects]] # LuckPerms for Fabric page
   from = "/f_luckperms"
   to = "/multiplatform/luckperms"
@@ -25,3 +31,9 @@
 [[redirects]] # Simple Voice Chat page
   from = "/installing-simple-voice-chat"
   to = "/multiplatform/simple-voice-chat"
+
+[[redirects]] # LiteBans page
+  from = "/plugins/litebans"
+  to = "/multiplatform/litebans"
+
+#############

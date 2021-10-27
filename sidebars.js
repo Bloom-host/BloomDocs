@@ -118,6 +118,7 @@ module.exports = {
                     label: "Multi-platform plugins & mods",
                     items: [
                         'plugins_and_modifications/multiplatform/chunky',
+                        'plugins_and_modifications/multiplatform/litebans', // Can be run on both Spigot/Paper and BungeeCord servers
                         'plugins_and_modifications/multiplatform/luckperms',
                         'plugins_and_modifications/multiplatform/simple-voice-chat'
                     ]
@@ -126,7 +127,7 @@ module.exports = {
                 {
                     type: 'category',
                     label: "Plugins", // Bukkit/Spigot/Paper plugins
-                    items: [ // Note: Chunky and LuckPerms pages were moved to multiplatform category
+                    items: [ // Note: Chunky, LiteBans and LuckPerms pages were moved to multiplatform category
                         'plugins_and_modifications/plugins/advancedanticheat',
                         'plugins_and_modifications/plugins/advancedban',
                         'plugins_and_modifications/plugins/bungeeguard',
@@ -140,7 +141,6 @@ module.exports = {
                         'plugins_and_modifications/plugins/geysermc',
                         'plugins_and_modifications/plugins/geyseraddons',
                         'plugins_and_modifications/plugins/griefprevention',
-                        'plugins_and_modifications/plugins/litebans',
                         'plugins_and_modifications/plugins/milk',
                         'plugins_and_modifications/plugins/multiverse',
                         'plugins_and_modifications/plugins/pl3xmap',
