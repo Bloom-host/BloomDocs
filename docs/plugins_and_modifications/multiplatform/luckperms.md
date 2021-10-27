@@ -32,7 +32,7 @@ LuckPerms is a multi-platform permissions plugin (or mod) for Minecraft servers.
 
 LuckPerms is regularly updated by the developer Luck who is the developer for Spark as well.
 
-Unlike PermissionsEx (Bukkit/Spigot) which has not been updated since January 2016 and [has an unresolved crash exploit](https://github.com/PEXPlugins/PermissionsEx/issues/2923), LuckPerms is regularly updated by the developer Luck who is the developer for Spark as well.
+Unlike PermissionsEx (Bukkit/Spigot) which has not been updated since January 2016, LuckPerms is regularly updated by the developer Luck who is the developer for Spark as well.
 
 ## Install
 
