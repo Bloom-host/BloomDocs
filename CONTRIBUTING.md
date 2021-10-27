@@ -20,7 +20,6 @@ This method makes it easier to import the document(s) and to make sure that the 
 
 ### Document format:
 When adding new pages to the documentation, be sure to use the document format.
-
 The document format is listed below, and also listed in [`README.md`](/README.md) in the root of the repo.
 
 ```yaml
@@ -48,7 +47,7 @@ image: https://bloom.host/assets/images/logo.png
 
 ### Templates and formatting help:
 
-There is a [Markdown Template](https://raw.githubusercontent.com/Billy-Bloom/BloomDocs/master/docs/extras/template.md) which has some examples of markdown formatting elements (and how to use them) such as bold text, strikethrough, headings and links.
+There is a [Markdown template](https://raw.githubusercontent.com/Billy-Bloom/BloomDocs/master/docs/extras/template.md) which has some examples of markdown formatting elements (and how to use them) such as bold text, strikethrough, headings and links.
 
 You can also see [a formatted version of the template](https://docs.bloom.host/extras/template/) to see what the formatted elements will look like when imported into the documentation website. 
 
@@ -65,3 +64,9 @@ Please note that changes are not instant and may take up to 24 hours to apply.
 ## Note
 
 When contributing information, make sure that the information is useful and that you know what you are talking about. Do not ramble or write useless information into articles as this is not helpful to users who may look at the wiki for information about the user panel or information about running Minecraft servers.
+
+## Useful resources
+[Markdown template](https://raw.githubusercontent.com/Billy-Bloom/BloomDocs/master/docs/extras/template.md)
+[Formatted Markdown template](https://docs.bloom.host/extras/template/)
+[BloomBot embed formatting guide](https://gist.github.com/NotGeri/cb11552ab7a12e20ab495a20826c341f)
+

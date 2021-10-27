@@ -107,7 +107,7 @@ module.exports = {
                 },
                 {
                     type: 'doc',
-                    id: "plugins_and_modifications/simple-voice-chat",
+                    id: "plugins_and_modifications/multiplatform/simple-voice-chat",
                 },
                 {
                     type: 'category',
@@ -118,9 +118,19 @@ module.exports = {
                         'plugins_and_modifications/fabric_mods/performance-mods',
                     ]
                 },
+
                 {
                     type: 'category',
-                    label: "Plugins",
+                    label: "Multiplatform plugins & mods",
+                    items: [
+                        'plugins_and_modifications/multiplatform/luckperms',
+                        'plugins_and_modifications/multiplatform/simplevoicechat',
+                    ]
+                },
+
+                {
+                    type: 'category',
+                    label: "Plugins", // Bukkit/Spigot/Paper plugins
                     items: [
                         'plugins_and_modifications/plugins/advancedanticheat',
                         'plugins_and_modifications/plugins/advancedban',
@@ -196,7 +206,7 @@ module.exports = {
                 'extras/clumsyloader',
 		'extras/caddy-server',
                 'extras/contributing',
-                'extras/template'
+                'extras/template', 
             ],
         },
 

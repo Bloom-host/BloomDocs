@@ -35,9 +35,9 @@ In order to run Simple Voice Chat on your server, you need one of the following 
 2. Download the Fabric version of [Simple Voice Chat](https://www.curseforge.com/minecraft/mc-mods/simple-voice-chat/files/all?filter-status=1&filter-game-version=2020709689%3A7499)
 3. Open the [file manager](/file-manager-controls) in your dashboard
 4. Open the **mods** folder or create it if it doesn't exist
-<div class="text--center"><img src={require('../../static/imgs/plugins_and_modifications/simple_voice_chat/1.png').default} alt="console"/></div>
+<div class="text--center"><img src={require('../../../../static/imgs/plugins_and_modifications/simple_voice_chat/1.png').default} alt="console"/></div>
 5. Drag and drop the **Fabric API jar** and the **Simple Voice Chat jar** into the browser window.
-<div class="text--center"><img src={require('../../static/imgs/plugins_and_modifications/simple_voice_chat/2.png').default} alt="console"/></div>
+<div class="text--center"><img src={require('../../../../static/imgs/plugins_and_modifications/simple_voice_chat/2.png').default} alt="console"/></div>
 6. Continue with the [common installation](#common)
 
 ### Forge
@@ -45,7 +45,7 @@ In order to run Simple Voice Chat on your server, you need one of the following 
 1. Download the Forge version of [Simple Voice Chat](https://www.curseforge.com/minecraft/mc-mods/simple-voice-chat/files/all?filter-status=1&filter-game-version=2020709689%3A7498)
 3. Open the [file manager](/file-manager-controls) in your dashboard
 4. Open the **mods** folder or create it if it doesn't exist
-<div class="text--center"><img src={require('../../static/imgs/plugins_and_modifications/simple_voice_chat/1.png').default} alt="console"/></div>
+<div class="text--center"><img src={require('../../../../static/imgs/plugins_and_modifications/simple_voice_chat/1.png').default} alt="console"/></div>
 5. Drag and drop the the **Simple Voice Chat jar** into the browser window.
 6. Continue with the [common installation](#common)
 
@@ -63,13 +63,13 @@ In order to run Simple Voice Chat on your server, you need one of the following 
 1. Make sure you followed the steps for [Fabric](#fabric), [Forge](#forge) or [Bukkit/Spigot/Paper](#bukkitspigotpaper)
 2. Open the **Ports & Proxies** section in your dashboard
 3. Click on **CREATE ALLOCATION**
-<div class="text--center"><img src={require('../../static/imgs/plugins_and_modifications/simple_voice_chat/3.png').default} alt="console"/></div>
+<div class="text--center"><img src={require('../../../static/imgs/plugins_and_modifications/simple_voice_chat/3.png').default} alt="console"/></div>
 4. Enter the number `24454` in the port field and click on **CREATE ALLOCATION**
-<div class="text--center"><img src={require('../../static/imgs/plugins_and_modifications/simple_voice_chat/4.png').default} alt="console"/></div>
+<div class="text--center"><img src={require('../../../static/imgs/plugins_and_modifications/simple_voice_chat/4.png').default} alt="console"/></div>
 5. If your server is already running, you will be prompted to restart your server - If this is the case, click on **RESTART NOW**
-<div class="text--center"><img src={require('../../static/imgs/plugins_and_modifications/simple_voice_chat/5.png').default} alt="console"/></div>
+<div class="text--center"><img src={require('../../../static/imgs/plugins_and_modifications/simple_voice_chat/5.png').default} alt="console"/></div>
 6. Go to the **Console** section of your dashboard
 7. If you didn't get the prompt to restart the server, click on **RESTART**
-<div class="text--center"><img src={require('../../static/imgs/plugins_and_modifications/simple_voice_chat/6.png').default} alt="console"/></div>
+<div class="text--center"><img src={require('../../../static/imgs/plugins_and_modifications/simple_voice_chat/6.png').default} alt="console"/></div>
 8. After the server has restarted, check your logs for the line **Server started at port 24454** - If this line exists, you successfully installed Simple Voice Chat!
-<div class="text--center"><img src={require('../../static/imgs/plugins_and_modifications/simple_voice_chat/7.png').default} alt="console"/></div>
+<div class="text--center"><img src={require('../../../static/imgs/plugins_and_modifications/simple_voice_chat/7.png').default} alt="console"/></div>

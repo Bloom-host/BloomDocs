@@ -1,0 +1,65 @@
+---
+id: luckperms
+title: LuckPerms
+slug: /multiplatform/luckperms
+hide_title: true
+hide_table_of_contents: false
+sidebar_label: LuckPerms
+description: An essential plugin/mod designed to handle Minecraft server permissions.
+keywords:
+  - LuckPerms
+  - Permissions
+  - Spigot
+  - Fabric
+  - Paper
+  - Bukkit
+  - BungeeCord
+  - Velocity
+  - Bloom.host
+  - Pterodactyl Panel
+  - Minecraft
+image: https://bloom.host/assets/images/logo.png
+---
+
+<div class="text--center">
+<img src="https://bloom.host/logo-white.svg" alt="logo" height="50%" width="50%"/>
+<h1>LuckPerms</h1>
+</div>
+
+## Introduction
+
+LuckPerms is a multi-platform permissions plugin (or mod) for Minecraft servers. It is considered to be one of the best permission plugins/mods due to it's accessibility and how it handles data.
+
+LuckPerms is regularly updated by the developer Luck who is the developer for Spark as well.
+
+Unlike PermissionsEx (Bukkit/Spigot) which has not been updated since January 2016 and [has an unresolved crash exploit](https://github.com/PEXPlugins/PermissionsEx/issues/2923), LuckPerms is regularly updated by the developer Luck who is the developer for Spark as well.
+
+## Install
+
+### Bukkit/Spigot/Paper and forks 
+
+To use this plugin, [download](https://luckperms.net/download) the jar you need it for. Most commonly, for single servers, it would be the Bukkit jar.  
+
+Upload the jar into your `plugins` folder. Turn on or restart the server. If you need help installing plugins, check out [this guide](https://docs.bloom.host/installing-plugins).  
+
+### Fabric
+
+To use this mod, [download](https://luckperms.net/download) the Fabric jar.  
+
+Upload the jar into your `mods` folder. Turn on or restart the server. If you need help installing mods, check out [this guide](../fabric-mods.md).  
+
+## Usage
+
+To begin, simply run `/lp editor`. Once you have made your edits in the GUI, click save and run the command it gives you. If you need more help, consult the [LuckPerms wiki](https://luckperms.net/wiki/Home).  
+
+There are many commands that can be used to manage the permissions on your server(s) - see the [LuckPerms wiki](https://luckperms.net/wiki/Home) for more info.
+
+## Info
+
+[Website](https://luckperms.net/)  
+
+[Github](https://github.com/lucko/LuckPerms)  
+
+[Support](https://discord.com/invite/luckperms)
+
+[LuckPerms wiki](https://luckperms.net/wiki/Home).

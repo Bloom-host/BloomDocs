@@ -64,7 +64,7 @@ Afterwards it will look like this:
 We'll configure waterfall in the `config.yml` file. 
 
 This is how a standard waterfall configuration will look like:
-```
+```yml
 connection_throttle: 4000
 connection_throttle_limit: 3
 timeout: 30000
