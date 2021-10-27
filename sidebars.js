@@ -123,7 +123,7 @@ module.exports = {
                     type: 'category',
                     label: "Multiplatform plugins & mods",
                     items: [
-                        'plugins_and_modifications/multiplatform/chunky-multi',
+                        'plugins_and_modifications/multiplatform/chunky',
                         'plugins_and_modifications/multiplatform/luckperms',
                         'plugins_and_modifications/multiplatform/simple-voice-chat',
                     ]
