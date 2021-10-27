@@ -112,9 +112,7 @@ module.exports = {
                 {
                     type: 'category',
                     label: "Fabric mods",
-                    items: [
-                        'plugins_and_modifications/fabric_mods/chunky_fabric',
-                        'plugins_and_modifications/fabric_mods/luckperms_fabric',
+                    items: [ // Note: Chunky and LuckPerms pages were moved to multiplatform category
                         'plugins_and_modifications/fabric_mods/performance-mods',
                     ]
                 },
@@ -132,11 +130,10 @@ module.exports = {
                 {
                     type: 'category',
                     label: "Plugins", // Bukkit/Spigot/Paper plugins
-                    items: [
+                    items: [ // Note: Chunky and LuckPerms pages were moved to multiplatform category
                         'plugins_and_modifications/plugins/advancedanticheat',
                         'plugins_and_modifications/plugins/advancedban',
                         'plugins_and_modifications/plugins/bungeeguard',
-                        'plugins_and_modifications/plugins/chunky',
                         'plugins_and_modifications/plugins/citizens2',
                         'plugins_and_modifications/plugins/conditionalcommands',
                         'plugins_and_modifications/plugins/coreprotect',
@@ -148,7 +145,6 @@ module.exports = {
                         'plugins_and_modifications/plugins/geyseraddons',
                         'plugins_and_modifications/plugins/griefprevention',
                         'plugins_and_modifications/plugins/litebans',
-                        'plugins_and_modifications/plugins/luckperms',
                         'plugins_and_modifications/plugins/milk',
                         'plugins_and_modifications/plugins/multiverse',
                         'plugins_and_modifications/plugins/pl3xmap',
