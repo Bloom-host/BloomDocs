@@ -109,7 +109,7 @@ module.exports = {
                     type: 'category',
                     label: "Fabric mods",
                     items: [ // Note: Chunky and LuckPerms pages were moved to multiplatform category
-                        'plugins_and_modifications/fabric_mods/performance-mods',
+                        'plugins_and_modifications/fabric_mods/performance-mods'
                     ]
                 },
 
@@ -119,7 +119,7 @@ module.exports = {
                     items: [
                         'plugins_and_modifications/multiplatform/chunky',
                         'plugins_and_modifications/multiplatform/luckperms',
-                        'plugins_and_modifications/multiplatform/simple-voice-chat',
+                        'plugins_and_modifications/multiplatform/simple-voice-chat'
                     ]
                 },
 
@@ -155,7 +155,7 @@ module.exports = {
                         'plugins_and_modifications/plugins/viaversion',
                         'plugins_and_modifications/plugins/votifier',
                         'plugins_and_modifications/plugins/vulcan',
-                        'plugins_and_modifications/plugins/worldedit',
+                        'plugins_and_modifications/plugins/worldedit'
                     ]
                 },
             ]
@@ -199,7 +199,7 @@ module.exports = {
                 'extras/clumsyloader',
 		'extras/caddy-server',
                 'extras/contributing',
-                'extras/template', 
+                'extras/template'
             ],
         },
 
