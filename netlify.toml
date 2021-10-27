@@ -5,3 +5,23 @@
 [[redirects]]
   from = "/plugins/papi"
   to = "/plugins/placeholderapi"
+
+[[redirects]] # LuckPerms for Fabric page
+  from = "/f_luckperms"
+  to = "/multiplatform/luckperms"
+
+[[redirects]] # Chunky for Fabric page
+  from = "/f_chunky"
+  to = "/multiplatform/chunky"
+
+[[redirects]] # Chunky for Bukkit/Spigot/Paper page
+  from = "/plugins/chunky"
+  to = "/multiplatform/chunky"
+
+[[redirects]] # LuckPerms for Bukkit/Spigot/Paper page
+  from = "/plugins/luckperms"
+  to = "/multiplatform/luckperms"
+
+[[redirects]] # Simple Voice Chat page
+  from = "/installing-simple-voice-chat"
+  to = "/multiplatform/simple-voice-chat"

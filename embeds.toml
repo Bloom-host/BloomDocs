@@ -112,7 +112,7 @@ aliases = ["offlinemode", "blackspigot", "piracyisbad", "crackedserver", "cracke
 title = "🚫 Piracy Is Bad"
 colour = "#dd2e44"
 thumbnail = "https://tickets.bloom.host/tickets/assets/85dAco.png"
-description = "In case you are doing any of the following, you will  __recieve any support__ from Bloom community, staff members, most plugin developers and server/proxy software staff."
+description = "In case you are doing any of the following, you will  __not recieve any support__ from Bloom community, staff members, most plugin developers and server/proxy software staff."
 enabled = false
 [fbiinfo.fields]
 1 = ["<:warn:849551085873135657> Cracked Servers", "Using offline-mode on servers bypasses Mojang's authentication system entirely meaning there are __countless security exploits__ people can use. This feature is meant to be used for developers and proxies. (In case you *are* using an online-mode proxy, you seriously need to check your configuration - See `!security`)", "false"]

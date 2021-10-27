@@ -1,15 +1,16 @@
 ---
 id: chunky
 title: Chunky
-slug: /plugins/chunky
+slug: /multiplatform/chunky
 hide_title: true
 hide_table_of_contents: false
 sidebar_label: Chunky
-description: A cool plugin called chunky, which lets you pre generate a minecraft world quickly and efficiently to avoid lag.
+description: A cool plugin/mod called chunky, which lets you pre generate a minecraft world quickly and efficiently to avoid lag.
 keywords:
   - Chunky
   - Server Pregeneration
   - Spigot
+  - Fabric
   - Bloom.host
   - Pterodactyl Panel
   - Minecraft
@@ -21,11 +22,18 @@ image: https://bloom.host/assets/images/logo.png
 <h1>Chunky</h1>
 </div>
 
-### What does the plugin do?
+### What does the plugin/mod do?
 
 Chunky is a fast, easy, and safe tool for pre-generating chunks on your server.
 
 Chunk generation in Minecraft is slow, which can sometimes cause server lag or slow chunk loading for players. Generating them upfront will help improve performance and gameplay on almost any server.
+
+## How to install
+
+For Bukkit/Spigot/Paper servers, check out the [Installing Bukkit/Spigot/Paper plugins](../installing-plugins.md) page.
+
+For Fabric servers, check out the [Installing Fabric Mods](../fabric-mods.md) page.
+
 
 ## Usage
 
@@ -60,4 +68,7 @@ The table below can be used to estimate the file size of your world after you ge
 
 [Spigot Page](https://www.spigotmc.org/resources/chunky.81534/)  
 
+[CurseForge Page (Fabric version)](https://www.curseforge.com/minecraft/mc-mods/chunky-pregenerator/)
+
 [Wiki](https://github.com/pop4959/Chunky/wiki)
+
