@@ -1,7 +1,7 @@
 ---
 id: simple-voice-chat
 title: Installing Simple Voice Chat
-slug: /installing-simple-voice-chat
+slug: /multiplatform/simple-voice-chat
 hide_title: true
 hide_table_of_contents: true
 sidebar_label: Installing Simple Voice Chat

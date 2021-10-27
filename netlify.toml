@@ -21,3 +21,7 @@
 [[redirects]] # LuckPerms for Bukkit/Spigot/Paper page
   from = "/plugins/luckperms"
   to = "/multiplatform/luckperms"
+
+[[redirects]] # Simple Voice Chat page
+  from = "/installing-simple-voice-chat"
+  to = "/multiplatform/simple-voice-chat"
