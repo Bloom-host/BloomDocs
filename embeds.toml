@@ -20,7 +20,7 @@ Simple Voice Chat is an easy-to-use and reliable in-game voice chat modification
 a = ["Website", "https://modrepo.de/minecraft/voicechat/wiki/?t=setup"]
 b = ["CurseForge", "https://www.curseforge.com/minecraft/mc-mods/simple-voice-chat/"]
 c = ["Bukkit", "https://dev.bukkit.org/projects/simple-voice-chat"]
-d = ["Docs", "https://docs.bloom.host/installing-simple-voice-chat/"]
+d = ["Docs", "https://docs.bloom.host/multiplatform/simple-voice-chat/"]
 
 [demo]
 aliases = ["demopanel"]
