@@ -4,7 +4,7 @@ title: Installing Plugins
 slug: /installing-plugins
 hide_title: true
 hide_table_of_contents: true
-sidebar_label: Spigot Plugins
+sidebar_label: Installing Spigot Plugins
 image: https://bloom.host/assets/images/logo.png
 ---
 
@@ -13,11 +13,14 @@ image: https://bloom.host/assets/images/logo.png
 <h1>Spigot Plugins</h1>
 </div>
 
-### The Basics
+:::important
+This guide is for Bukkit/Spigot/Paper servers. If you are looking for instructions on how to install plugins on a BungeeCord/Waterfall or Velocity proxy, please see [this guide](proxy-plugins.md)
+:::
 
+### The Basics
 > #### Requirements
 > 
-> In order to run plugins on your server, you have to be using a fork of Bukkit. (such as Spigot, Paper, Pupur, Airplane, etc. See our [guide on server jars](../running_a_server/jars.md) for more information.) If you wish to make client-side modifications (as well), see our guide on [Forge](.) or [Fabric](.)!
+> In order to run plugins on your server, you have to be using a fork of Bukkit. (such as Spigot, Paper, Pupur, Airplane, etc. See our [guide on server jars](../running_a_server/jars.md) for more information.) If you wish to make client-side modifications (as well), see our guide on [Forge](forge-mods.md) or [Fabric](fabric-mods.md)!
 
 > #### What are plugins?
 >

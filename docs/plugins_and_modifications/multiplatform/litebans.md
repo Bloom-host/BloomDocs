@@ -1,7 +1,7 @@
 ---
 id: litebans
 title: LiteBans
-slug: /plugins/litebans
+slug: /multiplatform/litebans
 hide_title: true
 hide_table_of_contents: false
 sidebar_label: LiteBans
@@ -26,11 +26,27 @@ image: https://bloom.host/assets/images/logo.png
 
 ## What does the plugin do?
 
-LiteBans is a premium plugin that allows you and your server staff to manage and distribute punishments to your players.
+LiteBans is a premium plugin that allows you and your server staff to manage and distribute punishments to your players. It is a plugin that can be used on Spigot/Paper or BungeeCord/Waterfall servers. 
+
 
 ## Usage
-First, download the [LiteBans](https://www.spigotmc.org/resources/litebans.3715/) plugin and install it into your `plugins` folder.   
+First, download the [LiteBans](https://www.spigotmc.org/resources/litebans.3715/) plugin and install it into your `plugins` folder.
 
+### Usage on a BungeeCord network
+
+:::note
+This section also applies to forks of BungeeCord such as Waterfall.
+:::
+
+You can also download LiteBans for a Bungee network and it is installed in almost the same way as a Spigot install however the plugin is installed into the `plugins` folder of the Bungee, not the backend servers.
+
+:::important
+If LiteBans is installed onto a BungeeCord/Waterfall proxy, bans, mutes and other punishments will need to be issued from the proxy’s console, not from the console of your backend servers.
+
+In-game punishments can still be issued as normal.
+:::
+
+## Punishment storage
 Next, you have to decide what type of storage you want for all your punishments, your options are H2, MySQL, MariaDB, and PostgreSQL. On Bloom you are going to want to use H2, or MySQL. H2 will store the information on your server, while MySQL will store it on a separate database. MySQL allows you to sync data accross a network if you are running one. Otherwise its your choice.
 
 If you are using MySQL, you can see how to set up LiteBans with MySQL [HERE](https://docs.bloom.host/databases)
