@@ -85,6 +85,12 @@ module.exports = {
                     type: 'doc',
                     id: "plugins_and_modifications/installing-plugin",
                 },
+
+                {
+                    type: 'doc',
+                    id: "plugins_and_modifications/install-proxy-plugin",
+                },
+
                 {
                     type: 'doc',
                     id: "plugins_and_modifications/fabric-setup",
