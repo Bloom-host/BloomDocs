@@ -72,7 +72,7 @@ module.exports = {
                 'running_a_server/icon',
                 'running_a_server/waterfall',
                 'running_a_server/velocity',
-                'running_a_server/binarysearch'
+                'running_a_server/binarysearch' // Troubleshooting errors caused by plugins
             ],
         },
 
@@ -83,12 +83,12 @@ module.exports = {
             items: [
                 {
                     type: 'doc',
-                    id: "plugins_and_modifications/installing-plugin",
+                    id: "plugins_and_modifications/installing-plugin", // Bukkit/Spigot/Paper plugin installation guide
                 },
 
                 {
                     type: 'doc',
-                    id: "plugins_and_modifications/install-proxy-plugin",
+                    id: "plugins_and_modifications/install-proxy-plugin", // BungeeCord/Velocity proxy plugin install guide
                 },
 
                 {
@@ -123,9 +123,11 @@ module.exports = {
                     type: 'category',
                     label: "Multi-platform plugins & mods",
                     items: [
-                        'plugins_and_modifications/multiplatform/chunky',
+                        'plugins_and_modifications/multiplatform/chunky', // World pre-generation plugin (Bukkit, Fabric)
+                        'plugins_and_modifications/plugins/dynmap', // Dynamic web map of Minecraft worlds (Spigot/Paper, Forge, Fabric)
                         'plugins_and_modifications/multiplatform/litebans', // Can be run on both Spigot/Paper and BungeeCord servers
-                        'plugins_and_modifications/multiplatform/luckperms',
+                        'plugins_and_modifications/multiplatform/luckperms', // Permissions (Bukkit/Spigot/Paper, BungeeCord, Sponge, Fabric, Nukkit, Velocity)
+                        'plugins_and_modifications/plugins/plan', // Player Analytics, (Bukkit/Spigot/Paper, Sponge, Nukkit, Fabric)
                         'plugins_and_modifications/multiplatform/simple-voice-chat'
                     ]
                 },
@@ -133,7 +135,7 @@ module.exports = {
                 {
                     type: 'category',
                     label: "Plugins", // Bukkit/Spigot/Paper plugins
-                    items: [ // Note: Chunky, LiteBans and LuckPerms pages were moved to multiplatform category
+                    items: [ // Note: Chunky, LiteBans, LuckPerms and PLAN pages were moved to multiplatform category
                         'plugins_and_modifications/plugins/advancedanticheat',
                         'plugins_and_modifications/plugins/advancedban',
                         'plugins_and_modifications/plugins/bungeeguard',
@@ -141,17 +143,15 @@ module.exports = {
                         'plugins_and_modifications/plugins/conditionalcommands',
                         'plugins_and_modifications/plugins/coreprotect',
                         'plugins_and_modifications/plugins/craftingstore',
-                        'plugins_and_modifications/plugins/discordsrv',
-                        'plugins_and_modifications/plugins/dynmap',
+                        'plugins_and_modifications/plugins/discordsrv', //Discord <-> Minecraft bridge
                         'plugins_and_modifications/plugins/essentialsx',
                         'plugins_and_modifications/plugins/geysermc',
                         'plugins_and_modifications/plugins/geyseraddons',
                         'plugins_and_modifications/plugins/griefprevention',
                         'plugins_and_modifications/plugins/milk',
-                        'plugins_and_modifications/plugins/multiverse',
+                        'plugins_and_modifications/plugins/multiverse', //Bukkit multi-world manager
                         'plugins_and_modifications/plugins/pl3xmap',
                         'plugins_and_modifications/plugins/papi', // PlaceholderAPI
-                        'plugins_and_modifications/plugins/plan',
                         'plugins_and_modifications/plugins/prism',
                         'plugins_and_modifications/plugins/servernpc',
                         'plugins_and_modifications/plugins/spark',
