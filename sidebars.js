@@ -135,12 +135,12 @@ module.exports = {
                     type: 'category',
                     label: "Multi-platform plugins & mods",
                     items: [
-                        'plugins_and_modifications/plugins/advancedban', // Bans and punishment manager (Bukkit/Spigot/Paper, BungeeCord)
+                        'plugins_and_modifications/multiplatform/advancedban', // Bans and punishment manager (Bukkit/Spigot/Paper, BungeeCord)
                         'plugins_and_modifications/multiplatform/chunky', // World pre-generation plugin (Bukkit, Fabric)
-                        'plugins_and_modifications/plugins/dynmap', // Dynamic web map of Minecraft worlds (Spigot/Paper, Forge, Fabric)
+                        'plugins_and_modifications/multiplatform/dynmap', // Dynamic web map of Minecraft worlds (Spigot/Paper, Forge, Fabric)
                         'plugins_and_modifications/multiplatform/litebans', // Bans and punishment manager (Spigot/Paper, BungeeCord)
                         'plugins_and_modifications/multiplatform/luckperms', // Permissions (Bukkit/Spigot/Paper, BungeeCord, Sponge, Fabric, Nukkit, Velocity)
-                        'plugins_and_modifications/plugins/plan', // Player Analytics, (Bukkit/Spigot/Paper, Sponge, Nukkit, Fabric)
+                        'plugins_and_modifications/multiplatform/plan', // Player Analytics, (Bukkit/Spigot/Paper, Sponge, Nukkit, Fabric)
                         'plugins_and_modifications/multiplatform/simple-voice-chat' // Voice chat (Bukkit/Spigot/Paper, Forge, Fabric)
                     ]
                 },
