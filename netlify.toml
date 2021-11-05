@@ -40,4 +40,7 @@
   from = "/plan"
   to = "/multiplatform/plan"
 
+[[redirects]] # Dynmap page
+  from = "/plugins/dynmap"
+  to = "/multiplatform/dynmap"
 #############
