@@ -1,3 +1,15 @@
+/*
+When adding pages to the sidebar, make sure you use the page ID, not the file name of the page
+For example, to add a page which had a filename of 'chunky-multi' and a page ID of 'chunky', you would add the following under the appropiate category: 
+
+'plugins_and_modifications/multiplatform/chunky'
+
+'plugins_and_modifications/multplatform/' is the path to the file and '/chunky' is the page ID.
+
+The page ID can be found at the top of each document (usually the second line) where it will say 'id: <pageid>' (<pageid> would be the page ID you put into `sidebars.js`) 
+
+Not following this can cause the website build to fail!
+*/
 module.exports = {
 
     docs: [
@@ -126,7 +138,7 @@ module.exports = {
                         'plugins_and_modifications/plugins/advancedban', // Bans and punishment manager (Bukkit/Spigot/Paper, BungeeCord)
                         'plugins_and_modifications/multiplatform/chunky', // World pre-generation plugin (Bukkit, Fabric)
                         'plugins_and_modifications/plugins/dynmap', // Dynamic web map of Minecraft worlds (Spigot/Paper, Forge, Fabric)
-                        'plugins_and_modifications/multiplatform/litebans', // Can be run on both Spigot/Paper and BungeeCord servers
+                        'plugins_and_modifications/multiplatform/litebans', // Bans and punishment manager (Spigot/Paper, BungeeCord)
                         'plugins_and_modifications/multiplatform/luckperms', // Permissions (Bukkit/Spigot/Paper, BungeeCord, Sponge, Fabric, Nukkit, Velocity)
                         'plugins_and_modifications/plugins/plan', // Player Analytics, (Bukkit/Spigot/Paper, Sponge, Nukkit, Fabric)
                         'plugins_and_modifications/multiplatform/simple-voice-chat' // Voice chat (Bukkit/Spigot/Paper, Forge, Fabric)
@@ -145,7 +157,7 @@ module.exports = {
                         'plugins_and_modifications/plugins/craftingstore',
                         'plugins_and_modifications/plugins/discordsrv', //Discord <-> Minecraft bridge
                         'plugins_and_modifications/plugins/essentialsx',
-                        'plugins_and_modifications/plugins/geysermc',
+                        'plugins_and_modifications/plugins/geysermc', // Minecraft Bedrock player bridge
                         'plugins_and_modifications/plugins/geyseraddons',
                         'plugins_and_modifications/plugins/griefprevention',
                         'plugins_and_modifications/plugins/milk',
