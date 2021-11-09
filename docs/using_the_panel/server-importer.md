@@ -15,38 +15,31 @@ image: https://bloom.host/assets/images/logo.png
 
 ### How it works
 
-DuckPanel has an easy-to-use server importer feature. The server importer allows you to easily import your server into Bloom and start gaming in a short amount of time. 
+Duck Panel has a convenient server importer feature. The server importer allows you to easily import your server into Bloom, saving time and avoiding having to download/upload files yourself.
 
-This feature connects to your old host FTP server and downloads all your files into your new Bloom server.
-
-:::important
+:::note
 You can also import the databases hosted on your old host! Follow this [guide](https://docs.bloom.host/databases#importing-mysql-databases) to see how to import databases.
 :::
 
 ---
 
-### Getting your old host FTP credentials
-First you will need the credentials to connect to your old host FTP server. This are usually found is the game panel. You will need the following details:
-- Server type (FTP, FTPS or SFTP) - If you don't know which one it its, you can contact us via our [Discord](http://discord.gg/bloom) and we can guide you through the process.
+### Remote S/FTP credentials
+First you will need the credentials to connect to the remote S/FTP server. If you are importing from another game host, this information should be located in their panel. You will need the following details:
+- Server type (FTP, FTPS or SFTP)
 - Host and Port
 - Username
 - Password
 
-:::important
-Need help importing your server files? Contact us through [Discord](https://discord.gg/bloom) and we can guide you through the process!
-:::
-
 :::note
-We recommend you zip all the server files that you want to transfer from your old host. Not zipping your server files will make the server import process take much longer, because our system will need to go file by file to transfer everything. By zipping all files the system only has to transfer one .zip file, which greatly increases transfer speed. You can zip all your server files using your old host web file manager located in their control panel.
-:::
+We recommend you compress all the server files that you want to import before starting. Many game host panels support the ability to compress your files. This will greatly increase the speed of the server import.
 
 #### How to start the server import
 - First go to our [Duck Panel](https://mc.bloom.host)
 - Select the server to which you want to import the files.
-- Click on "*Server Importer*" at the left.
-- Fill in the form with your old host FTP, FTPS or SFTP credentials.
-- You can leave the "Base Directory" on `/` if you want to import all the files. If you want to import an specific file or folder, you will need to import the directory path here.
+- Click on "*Server Importer*" on the navigation bar.
+- Fill in the form with your the appropriate credentials.
+- Leave the "Base Directory" on `/` if you want to import all the files. If you want to import a specific file or folder, you can specify that in this box.
 
-That's it! Now wait for the server importer to finish downloading all the files into your new Bloom server.
+Once the import begins, you an navigate to the Console page to view the current progress.
 
 <div class="text--center"><img src={require('../../static/imgs/using_the_panel/server-importer/1.png').default} alt="console"/></div>
