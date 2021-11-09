@@ -30,4 +30,4 @@ For easier navigation, you can use the 'search' function! Simply click the butto
 
 If you can't seem to find answers for your questions, be sure to get in touch!
 
-The fastest way is to join our [Discord server](https://discord.gg/bloom) and open a ticket in `#support-tickets`!
+The fastest way is to join our [Discord server](https://discord.gg/bloom) and ask in `#support-chat`!
