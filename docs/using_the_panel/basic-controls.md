@@ -15,7 +15,7 @@ image: https://bloom.host/assets/images/logo.png
 
 ### Accessing The Panel
 
-You can access your server's main control panel [here](https://mc.bloom.host/)! - If you have several servers, you will have to select the one you wish to modify.
+You can access your server's main control panel [here](https://mc.bloom.host/). If you have multiple servers, you can choose which you want to modify from the manel page. Or, simply choose the server you want to control from the drop-down box of each page within the panel.
 
 <div class="text--center"><img src={require('../../static/imgs/using_the_panel/basic_controls/1.png').default} alt="console"/></div>
 
@@ -24,10 +24,12 @@ You can access your server's main control panel [here](https://mc.bloom.host/)! 
 
 ### Live Information
 <div class="text--center"><img src={require('../../static/imgs/using_the_panel/basic_controls/2.png').default} alt="console"/></div>
-- Here you can see your server's public IP address which is used to connect to your server (Purple) and your server's ID which is crucial when reciving support! (Blue)
-- Green is your memory the memory usage your server is using. With Aikar's flags, you will be using most of this. Unused memory is wasted memory!
-- Orange is the CPU usage of your two cores. Minecraft Paper will only utilize 2 cores, meaning, having more doesn’t mean better performance. If you wish to have more, consider getting a VPS.
-- Red is the disk space that you have used. Plugins that store a lot of data such as Dynmap may take up lots of storage, so it’s recommended to keep an eye on the amount of storage you have left. If you reach the maximum amount of storage, your server will shut down and wait until you have enough storage to restart again.
+<br>
+Purple - Your server's IP address and port.<br>
+Blue - Your server's ID which is needed when opening a support ticket.<br>
+Green - The amount of RAM your server is using. Do not be alarmed if this is maxed out, as many of our servers utilize Aikar's optimized JVM flags.<br>
+Orange - The amount of CPU your server is using. The max amount is equivalent to 100% multiplied by the number of logical cores your plan has.<br>
+Red - The amount of storage your server is using. If you reach the maximum amount of storage, your server will not boot until space is cleared.
 
 ---
 
