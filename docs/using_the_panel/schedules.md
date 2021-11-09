@@ -16,28 +16,28 @@ image: https://bloom.host/assets/images/logo.png
 
 ### What Are Schedules?
 
-Schedules are ways to automate doing certain tasks through the panel such as starting, stopping or restarting the server, executing commands or even creating a backup. Using a user-friendly click format!
+Schedules are ways to automate certain tasks through the Duck Panel such as starting/stopping/restarting the server, executing commands or even creating a backup.
 
 ---
-:::important
+:::note
 The schedule system and our nodes use the UTC time zone. Please keep this in mind while creating schedules. You can use this [website](https://www.timeanddate.com/worldclock/converter.html) to convert time zones. 
 :::
 
 ### Creating A Schedule
 
-First, go to your [game panel](https://mc.bloom.host/) and on the left sidebar, select 'Schedules'.
+First, go to your [Duck Panel](https://mc.bloom.host/) and select **Schedules** on the navigation bar.
 
-Here is where all your schedules will be located in one convenient place. To add a new schedule, click the **Create New** button. Here, enter a name for your schedule and select when you wish for it to run. In case you would like to use the more advanced syntax, crontab, click the 'Advanced' tab!  
+The main page will list all of our current schedules. To add a schedule, click the **Create New** button. Enter a name for your schedule and select when and how often you would like it to run. For advanced users familiar with cron syntax, click the **Advanced** tab.
 
 <div class="text--center"><img src={require('../../static/imgs/using_the_panel/schedules/1.png').default} alt="img"/></div>
 
-Once finished, click create and open it from the list. Here, click 'New Task'
+Once created, click the schedule on the main list to view the tasks. Then, click **New Task** to add your first schedule action.
 
 <div class="text--center"><img src={require('../../static/imgs/using_the_panel/schedules/2.png').default} alt="img"/></div>
 
-The final section is what it will send as a command or as a power action. Commands should be used without the “/” in it and doesn’t accept variables. You can send a power action, with which can have turn the server on or off.
+The final section is what will be sent as a command or as a power action. Commands should be used without the `/`. You can also choose a power action or create a backup.
 
-Here you can also specify a delay. This is useful in cases where you have to give a warning to your players 5 minutes before a restart for example.
+Here you can also specify a delay. This is useful if you would like to send a timed warning to your players before a restart for example.
 
 <div class="text--center"><img src={require('../../static/imgs/using_the_panel/schedules/3.png').default}/></div>
 
