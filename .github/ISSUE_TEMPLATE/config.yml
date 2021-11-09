@@ -1,0 +1,5 @@
+blank_issues_enabled: false # Does not allow blank issues to be created
+contact_links:
+  - name: Discord
+    url: https://discord.gg/bloom
+    about: You can contact us on Discord for questions or for help.
