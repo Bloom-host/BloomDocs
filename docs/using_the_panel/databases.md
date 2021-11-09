@@ -13,31 +13,32 @@ image: https://bloom.host/assets/images/logo.png
 <h1>MySQL Databases</h1>
 </div>
 
-### What Are Databases?
-"*A database is an organized collection of structured information, or data, typically stored electronically in a computer system.*" - [oracle.com](https://oracle.com)
-
+### Overview
+Databases can be used by certain plugins to allow for a more efficient, organized method of storing large amounts of data. Common plugins that can utilize MySQL databases are Dynmap, CoreProtect, and LuckPerms.
 ---
 
 ### Adding MySQL Databases
  
-First, go to your [game panel](https://mc.bloom.host/) and on the left sidebar, select 'Databases'.
+From the [Duck Panel](https://mc.bloom.host/) select the **Databases** tab on the navigation bar.
 
-Click 'New Database' to create your first!
-In the first box, you assign the database a name. In the box below it, you can restrict MySQL connections. If you are unsure, it's recommended to leave it as % or put it as your server IP. In this tutorial, we will create a database. Pick a name and hit **Create Database**.
+Click **New Database** to start the process.
+
+In the first box, you assign the database a name. In the second, you can specify what IP addresses can connect to the database. We recommend leaving it as the default wildcard of `%`, which will allow all IP addresses to connect.
+
 <div class="text--center"><img src={require('../../static/imgs/using_the_panel/databases/1.png').default} alt="img"/></div>
 
 ---
 
 ### Managing Databases
 
-Once you have created the database, it will appear in your list. In order to use it for plugins, simply copy the details it shows into the configuration files for the plugins. Using those credentials, lets give some examples.
+Once you have created the database, it will appear in your database list. From here you can view basic details, advanced details, import to the database, export from the database, or delete the database.
 
 <div class="text--center"><img src={require('../../static/imgs/using_the_panel/databases/2.png').default} alt="img"/></div>
 
 ---
 ### Importing MySQL Databases
 
-To import a database you first have to create a new database in your Bloom server, then click on the import button (the third one). Fill in the form with the database connection details from your old host. Keep in mind that database imports are limited to **5GB**.
+To import a database you first have to create a new database in your Bloom server. Once it is created, you can then click on the import button which will open a prompt. Fill in the form with the database connection details from the remote MySQL server. Keep in mind that database imports are limited to **5GB**.
 
 <div class="text--center"><img src={require('../../static/imgs/using_the_panel/databases/4.png').default} alt="img"/></div>
 
