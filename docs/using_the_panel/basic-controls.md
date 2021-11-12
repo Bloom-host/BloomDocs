@@ -24,7 +24,7 @@ You can access your server's main control panel [here](https://mc.bloom.host/). 
 
 ### Live Information
 <div class="text--center"><img src={require('../../static/imgs/using_the_panel/basic_controls/2.png').default} alt="console"/></div>
-<br>
+
 Purple - Your server's IP address and port.<br>
 Blue - Your server's ID which is needed when opening a support ticket.<br>
 Green - The amount of RAM your server is using. Do not be alarmed if this is maxed out, as many of our servers utilize Aikar's optimized JVM flags.<br>
