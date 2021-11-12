@@ -36,15 +36,4 @@
   from = "/plugins/litebans"
   to = "/multiplatform/litebans"
 
-[[redirects]] # PLayer ANalytics page
-  from = "/plan"
-  to = "/multiplatform/plan"
-
-[[redirects]] # Dynmap page
-  from = "/plugins/dynmap"
-  to = "/multiplatform/dynmap"
-
-[[redirects]] # AdvancedBan page
-  from = "/plugins/advancedban"
-  to = "/multiplatform/advancedban"
 #############

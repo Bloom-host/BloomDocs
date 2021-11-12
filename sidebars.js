@@ -1,15 +1,3 @@
-/*
-When adding pages to the sidebar, make sure you use the page ID, not the file name of the page
-For example, to add a page which had a filename of 'chunky-multi' and a page ID of 'chunky', you would add the following under the appropiate category: 
-
-'plugins_and_modifications/multiplatform/chunky'
-
-'plugins_and_modifications/multplatform/' is the path to the file and '/chunky' is the page ID.
-
-The page ID can be found at the top of each document (usually the second line) where it will say 'id: <pageid>' (<pageid> would be the page ID you put into `sidebars.js`) 
-
-Not following this can cause the website build to fail!
-*/
 module.exports = {
 
     docs: [
@@ -84,7 +72,7 @@ module.exports = {
                 'running_a_server/icon',
                 'running_a_server/waterfall',
                 'running_a_server/velocity',
-                'running_a_server/binarysearch' // Troubleshooting errors caused by plugins
+                'running_a_server/binarysearch'
             ],
         },
 
@@ -95,12 +83,12 @@ module.exports = {
             items: [
                 {
                     type: 'doc',
-                    id: "plugins_and_modifications/installing-plugin", // Bukkit/Spigot/Paper plugin installation guide
+                    id: "plugins_and_modifications/installing-plugin",
                 },
 
                 {
                     type: 'doc',
-                    id: "plugins_and_modifications/install-proxy-plugin", // BungeeCord/Velocity proxy plugin install guide
+                    id: "plugins_and_modifications/install-proxy-plugin",
                 },
 
                 {
@@ -135,35 +123,35 @@ module.exports = {
                     type: 'category',
                     label: "Multi-platform plugins & mods",
                     items: [
-                        'plugins_and_modifications/multiplatform/advancedban', // Bans and punishment manager (Bukkit/Spigot/Paper, BungeeCord)
-                        'plugins_and_modifications/multiplatform/chunky', // World pre-generation plugin (Bukkit, Fabric)
-                        'plugins_and_modifications/multiplatform/dynmap', // Dynamic web map of Minecraft worlds (Spigot/Paper, Forge, Fabric)
-                        'plugins_and_modifications/multiplatform/litebans', // Bans and punishment manager (Spigot/Paper, BungeeCord)
-                        'plugins_and_modifications/multiplatform/luckperms', // Permissions (Bukkit/Spigot/Paper, BungeeCord, Sponge, Fabric, Nukkit, Velocity)
-                        'plugins_and_modifications/multiplatform/plan', // Player Analytics, (Bukkit/Spigot/Paper, Sponge, Nukkit, Fabric)
-                        'plugins_and_modifications/multiplatform/simple-voice-chat' // Voice chat (Bukkit/Spigot/Paper, Forge, Fabric)
+                        'plugins_and_modifications/multiplatform/chunky',
+                        'plugins_and_modifications/multiplatform/litebans', // Can be run on both Spigot/Paper and BungeeCord servers
+                        'plugins_and_modifications/multiplatform/luckperms',
+                        'plugins_and_modifications/multiplatform/simple-voice-chat'
                     ]
                 },
 
                 {
                     type: 'category',
                     label: "Plugins", // Bukkit/Spigot/Paper plugins
-                    items: [ // Note: Chunky, LiteBans, LuckPerms and PLAN pages were moved to multiplatform category
+                    items: [ // Note: Chunky, LiteBans and LuckPerms pages were moved to multiplatform category
                         'plugins_and_modifications/plugins/advancedanticheat',
+                        'plugins_and_modifications/plugins/advancedban',
                         'plugins_and_modifications/plugins/bungeeguard',
                         'plugins_and_modifications/plugins/citizens2',
                         'plugins_and_modifications/plugins/conditionalcommands',
                         'plugins_and_modifications/plugins/coreprotect',
                         'plugins_and_modifications/plugins/craftingstore',
-                        'plugins_and_modifications/plugins/discordsrv', //Discord <-> Minecraft bridge
+                        'plugins_and_modifications/plugins/discordsrv',
+                        'plugins_and_modifications/plugins/dynmap',
                         'plugins_and_modifications/plugins/essentialsx',
-                        'plugins_and_modifications/plugins/geysermc', // Minecraft Bedrock player bridge
+                        'plugins_and_modifications/plugins/geysermc',
                         'plugins_and_modifications/plugins/geyseraddons',
                         'plugins_and_modifications/plugins/griefprevention',
                         'plugins_and_modifications/plugins/milk',
-                        'plugins_and_modifications/plugins/multiverse', //Bukkit multi-world manager
+                        'plugins_and_modifications/plugins/multiverse',
                         'plugins_and_modifications/plugins/pl3xmap',
                         'plugins_and_modifications/plugins/papi', // PlaceholderAPI
+                        'plugins_and_modifications/plugins/plan',
                         'plugins_and_modifications/plugins/prism',
                         'plugins_and_modifications/plugins/servernpc',
                         'plugins_and_modifications/plugins/spark',

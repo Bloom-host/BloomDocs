@@ -8,7 +8,7 @@ text = "https://billing.bloom.host"
 1 = ["Billing Ticket", "https://billing.bloom.host/"]
 
 [voicechat]
-aliases = ["vc", "simplevoicechat", "svc"]
+aliases = ["vc", "simplevoicechat"]
 thumbnail = "https://tickets.bloom.host/tickets/assets/voicechat.png"
 image = "https://tickets.bloom.host/tickets/assets/voicechat-2.png"
 title = "Sponsored by Bloom: Simple Voice Chat"
@@ -252,7 +252,7 @@ When using Velocity with BungeeGuard forwarding as your proxy, make sure:
 • `online-mode=` is set to `false` in server.properties
 • `bungeecord:` is set to `true` in spigot.yml
 • `enabled:` under `velocity-support` is set to false in paper.yml – This setting is for Velocity modern forwarding and you will not be able to join your server with both this and bungeecord forwarding enabled!
-• you have BungeeGuard installed (!`bungeeguard`) and that your token in the BungeeGuard plugin on the backend servers matches what is set for Velocity's `forwarding-secret` setting or you will be unable to connect to your server!
+• you have BungeeGuard installed (!`bungeeguard`) and that your token in the BungeeGuard plugin on the backend servers matches what is set for Velocity's `forwarding-secret` setting.
 """, "false"]
 
 [details]
@@ -500,7 +500,7 @@ thumbnail = "https://tickets.bloom.host/tickets/assets/tY6IAF.png"
 image = "https://tickets.bloom.host/tickets/assets/97nYMU.gif"
 
 [resourcepack]
-aliases = ["texturepack", "serverpack", "serverresource"]
+aliases = ["texturepack", "serverpack"]
 title = "📜 Bloom Docs - Server-Side Resourcepack"
 description = "Check out our comprehensive guide on installing a server-side resourcepack [here](https://docs.bloom.host/resourcepack/)! Should you have any questions or concerns, be sure to let us know or open a ticket in <#777907843214737440>!"
 thumbnail = "https://tickets.bloom.host/tickets/assets/tY6IAF.png"
