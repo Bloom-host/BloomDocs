@@ -144,7 +144,7 @@ This section also applies to forks based upon Paper such as Purpur or Airplane
 
 If you cannot use modern forwarding (for example, your server jar doesn’t support Velocity modern forwarding), you might be able to use BungeeGuard instead.
 
-To set this up, see the guide [on how to set up BungeeGuard](/docs/plugins_and_modifications/plugins/bungeeguard.md).
+To set this up, see the guide [on how to set up BungeeGuard](/docs/plugins_and_modifications/multiplatform/bungeeguard.md).
 
 
 ## Additional configuation options for velocity.toml

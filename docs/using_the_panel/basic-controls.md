@@ -25,11 +25,11 @@ You can access your server's main control panel [here](https://mc.bloom.host/). 
 ### Live Information
 <div class="text--center"><img src={require('../../static/imgs/using_the_panel/basic_controls/2.png').default} alt="console"/></div>
 
-Purple - Your server's IP address and port.
-Blue - Your server's ID which is needed when opening a support ticket.
-Green - The amount of RAM your server is using. Do not be alarmed if this is maxed out, as many of our servers utilize Aikar's optimized JVM flags.
-Orange - The amount of CPU your server is using. The max amount is equivalent to 100% multiplied by the number of logical cores your plan has.
-Red - The amount of storage your server is using. If you reach the maximum amount of storage, your server will not boot until space is cleared.
+- Purple - Your server's IP address and port.
+- Blue - Your server's ID which is needed when opening a support ticket.
+- Green - The amount of RAM your server is using. Do not be alarmed if this is maxed out, as many of our servers utilize Aikar's optimized JVM flags.
+- Orange - The amount of CPU your server is using. The max amount is equivalent to 100% multiplied by the number of logical cores your plan has.
+- Red - The amount of storage your server is using. If you reach the maximum amount of storage, your server will not boot until space is cleared.
 
 ---
 

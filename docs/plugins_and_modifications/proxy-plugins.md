@@ -22,7 +22,7 @@ This guide is for BungeeCord/Velocity proxies. If you are looking for instructio
 
 > #### Requirements
 > 
-> In order to run plugins on your proxy, you must be using BungeeCord (or a fork such as [Waterfall](/docs/running_a_server/waterfall.md))) or [Velocity](/docs/running_a_server/velocity.md).
+> In order to run plugins on your proxy, you must be using BungeeCord (or a fork such as [Waterfall](/waterfall.md))) or [Velocity](/velocity.md).
 
 > #### What are plugins?
 >

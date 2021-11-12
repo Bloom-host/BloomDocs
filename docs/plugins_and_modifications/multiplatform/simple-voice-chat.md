@@ -21,11 +21,11 @@ You also need to install **Simple Voice Chat** on your game client!
 
 In order to run Simple Voice Chat on your server, you need one of the following [server jars](./jars) installed:
 
-- [Fabric](./jars#-fabric-installation-guide)
-- [Forge](./jars#-forge-installation-guide)
-- [Bukkit](./jars#-bukkit)
-- [Spigot](./jars#-spigot)
-- [Paper](./jars#-paper)
+- [Fabric](./#fabric-installation-guide)
+- [Forge](./#forge-installation-guide)
+- [Bukkit](./#bukkit)
+- [Spigot](./#spigot)
+- [Paper](./#paper)
 
 ## Installation
 

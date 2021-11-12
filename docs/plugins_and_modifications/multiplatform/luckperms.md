@@ -49,7 +49,7 @@ To use this mod, [download](https://luckperms.net/download) the Fabric jar.
 Upload the jar into your `mods` folder. Turn on or restart the server. If you need help installing mods, check out [this guide](../fabric-mods.md).  
 
 ### Network install
-Refer to the [LuckPerms wiki](https://luckperms.net/wiki/Network-Installation) for instructions on how to complete a network installation (A [MySQL database](/docs/using_the_panel/databases.md) is required.)
+Refer to the [LuckPerms wiki](https://luckperms.net/wiki/Network-Installation) for instructions on how to complete a network installation (A [MySQL database](/databases.md) is required.)
 ### Other platforms
 
 Refer to the [LuckPerms wiki](https://luckperms.net/wiki/Installation) for information on how to install on other platforms. 
