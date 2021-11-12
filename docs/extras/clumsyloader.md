@@ -33,7 +33,7 @@ Then click **Create New** and give it a relevant description so that you will re
 <img src={require('../../static/imgs/extras/srvcontrol/2.png').default} alt="img"/></div>
 
 :::caution
-Please keep this key secure as anyone with this API key can utilize it to do anything to the servers that you are on your account. 
+Please keep this key secure! Anyone with this API key can utilize it to do anything to the servers hosted under your account. 
 :::
 
 After creating the API key, go back to the folder containing the executable file and create a new file named ``.env``. Then open this file with a text or code editor and copy and paste the following. Remember to put your server ID and API key: 
