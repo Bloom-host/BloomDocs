@@ -25,12 +25,12 @@ image: https://bloom.host/assets/images/logo.png
 
 ### What does the plugin do?
 
-Allows your server staff to issue punishments to players who break your server's rules, and can be used as an free alternative to [LiteBans](https://docs.bloom.host/plugins/Litebans).
+Allows your server staff to issue punishments to players who break your server's rules, and can be used as an free alternative to [LiteBans](/multiplatform/litebans).
 
 ## Installation
 
 Download the plugin off the [Spigot resource page](https://www.spigotmc.org/resources/advancedban.8695/) and install it in the `plugins` folder on either your backend Bukkit/Spigot/Paper server or your BungeeCord proxy.
-For assistance on how to install plugins, please refer to the [Bukkit plugin installation page](https://docs.bloom.host/installing-plugins) or the [BungeeCord plugin install page](/installing-proxy-plugins.md).
+For assistance on how to install plugins, please refer to the [Bukkit plugin installation page](/installing-plugins) or the [BungeeCord plugin install page](/installing-proxy-plugins).
 
 You will then need to decide if you are going to be using internal storage (HSQLDB) or external storage (MySQL).
 

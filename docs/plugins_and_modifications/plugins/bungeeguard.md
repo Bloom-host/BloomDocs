@@ -32,7 +32,7 @@ BungeeGuard is a plugin used to protect against BungeeCord's UUID spoof exploit 
 Make sure your BungeeCord is on the latest version. Also, make sure to use version 1.2 or later of BungeeGuard as previous versions have an issue.
 :::
 
-[Download the plugin](https://ci.lucko.me/job/BungeeGuard/lastBuild/artifact/bungeeguard-universal/target/BungeeGuard.jar) then upload the jar into both your BungeeCord and Spigot `plugins` folder. Restart the servers. If you need help installing plugins, check out [this guide](https://docs.bloom.host/installing-plugins).  
+[Download the plugin](https://ci.lucko.me/job/BungeeGuard/lastBuild/artifact/bungeeguard-universal/target/BungeeGuard.jar) then upload the jar into both your BungeeCord and Spigot `plugins` folder. Restart the servers. If you need help installing plugins, check out [this guide](/installing-plugins).  
 
 After you have restarted the servers you installed BungeeGuard on, enter the `config.yml` file located in your BungeeCord's BungeeGuard directory and copy the authentication token. Paste this authentication token into the `config.yml` file within your Spigot servers' BungeeGuard directory.  
 
@@ -59,7 +59,7 @@ To enable BungeeCord forwarding mode correctly you must:
 - have `settings.velocity-support.enabled` set to `false` in `paper.yml`, if you are running a Paper (or a fork of it like Purpur or Airplane) server.
 :::
 
-1. [Download the plugin](https://ci.lucko.me/job/BungeeGuard/lastBuild/artifact/bungeeguard-universal/target/BungeeGuard.jar) then upload the jar into your Spigot `plugins` folder. Restart the server. If you need help installing plugins, check out [this guide](https://docs.bloom.host/installing-plugins).
+1. [Download the plugin](https://ci.lucko.me/job/BungeeGuard/lastBuild/artifact/bungeeguard-universal/target/BungeeGuard.jar) then upload the jar into your Spigot `plugins` folder. Restart the server. If you need help installing plugins, check out [this guide](/installing-plugins).
 2. Make sure that `player-info-forwarding` is set to `bungeeguard`.
 3. Enter the `forwarding-secret` in `velocity.toml` into the `config.yml` in the Spigot/Paper server's BungeeGuard directory. Both of these must match exactly or you will not be able to join the server!
 
