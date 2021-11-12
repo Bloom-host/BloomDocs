@@ -1,7 +1,7 @@
 ---
 id: dynmap
 title: Dynmap
-slug: /plugins/dynmap
+slug: /multiplatform/dynmap
 hide_title: true
 hide_table_of_contents: false
 sidebar_label: Dynmap
@@ -15,6 +15,8 @@ keywords:
   - Google Maps
   - Website
   - Spigot
+  - Forge
+  - Fabric
   - Bloom.host
   - Pterodactyl Panel
   - Minecraft
@@ -32,7 +34,9 @@ Dynmap allows you to see your Minecraft world in 3D in real time, like Google Ma
 ![Dynmap preview](https://cdn.discordapp.com/attachments/716405933105872938/750877749954084875/unknown.png)  
 
 # Usage
-Download the Dynmap plugin and place into the `plugins` folder then restart your server to generate `configuration.txt`. Create a MySQL database. If you are unsure, [check out this guide](https://docs.bloom.host/databases).  
+Spigot/Paper: Download the Dynmap plugin and place into the `plugins` folder then restart your server to generate `configuration.txt`. Create a MySQL database. If you are unsure, [check out this guide](https://docs.bloom.host/databases).
+
+For other platforms, refer to the [Dynmap installation guide](https://github.com/webbukkit/dynmap/wiki/Installation)
 
 Now enter the database information into this section remembering to remove the `#`
 (Note: Don't enter the information below enter the information from your MySQL database)  
