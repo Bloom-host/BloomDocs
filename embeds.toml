@@ -828,6 +828,7 @@ description = """
 """, "true"]
 
 [time-warn]
+enabled = false
 colour = "#ffdc5d"
 title = ":wave: Heads up!"
 description = """
