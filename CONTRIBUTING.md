@@ -67,6 +67,8 @@ When contributing information, make sure that the information is useful and that
 
 ## Useful resources
 [Markdown template](https://raw.githubusercontent.com/Billy-Bloom/BloomDocs/master/docs/extras/template.md)
+
 [Formatted Markdown template](https://docs.bloom.host/extras/template/)
+
 [BloomBot embed formatting guide](https://gist.github.com/NotGeri/cb11552ab7a12e20ab495a20826c341f)
 
