@@ -1,0 +1,153 @@
+[
+        {
+                "name": "Advanced-Kind",
+                "ip": "play.advanced-kind.com",
+                "type": "PC"
+        },
+        {
+                "name": "NostalgiaCraft",
+                "ip": "mc.nostalgiacraft.fun",
+                "type": "PC"
+        },
+        {
+                "name": "DemocracyCraft",
+                "ip": "play.democracycraft.net",
+                "type": "PC"
+        },
+        {
+                "name": "HardcoreCraft",
+                "ip": "play.hardcorecraft.net",
+                "type": "PC"
+        },
+        {
+                "name": "RapidzMC",
+                "ip": "play.rapidzmc.com",
+                "type": "PC"
+        },
+        {
+                "name": "HearthCraft",
+                "ip": "play.hearthcraft.net",
+                "type": "PC"
+        },
+        {
+                "name": "VictoriaMC",
+                "ip": "Play.VictoriaMC.xyz",
+                "type": "PC"
+        },
+        {
+                "name": "ImperiumMC",
+                "ip": "23.158.176.26",
+                "type": "PC"
+        },
+        {
+                "name": "Vibezone",
+                "ip": "134.195.42.25",
+                "type": "PC"
+        },
+        {
+                "name": "ClubhouseMC",
+                "ip": "clubhousemc.com",
+                "type": "PC"
+        },
+        {
+                "name": "AetherisMC",
+                "ip": "play.aetherismc.com",
+                "type": "PC"
+        },
+        {
+                "name": "PopCraft",
+                "ip": "23.158.176.54",
+                "type": "PC"
+        },
+        {
+                "name": "Hobo Craft",
+                "ip": "23.158.176.62",
+                "type": "PC"
+        },
+        {
+                "name": "CentileHCF",
+                "ip": "play.centilemc.me",
+                "port": 19132,
+                "type": "PE"
+        },
+        {
+                "name": "CuberaMC",
+                "ip": "134.195.42.62",
+                "type": "PC"
+        },
+        {
+                "name": "ChumCraft",
+                "ip": "play.ChumCraft.com",
+                "type": "PC"
+        },
+        {
+                "name": "CXMC",
+                "ip": "cxmc.online",
+                "type": "PC"
+        },
+        {
+                "name": "Forgotten Times",
+                "ip": "forgottentimes.minecraft.best",
+                "type": "PC"
+        },
+        {
+                "name": "LightRealms",
+                "ip": "play.lightrealms.co",
+                "type": "PC"
+        },
+        {
+                "name": "CottageCraft",
+                "ip": "23.158.176.119",
+                "type": "PC"
+        },
+        {
+                "name": "Bloof.xyz",
+                "ip": "Bloof.xyz",
+                "type": "PC"
+        },
+        {
+                "name": "StarWarsMC",
+                "ip": "play.starwarsmc.org",
+                "type": "PC"
+        },
+        {
+                "name": "PogDream",
+                "ip": "evildream.net",
+                "type": "PC"
+        },
+        {
+                "name": "EterniaServer Survival",
+                "ip": "jogar.eterniaserver.com.br",
+                "type": "PC"
+        },
+        {
+                "name": "CatCraft Survival",
+                "ip": "mc.catcraft.net",
+                "type": "PC"
+        },
+        {
+                "name": "Versenity Games",
+                "ip": "play.versenitygames.net",
+                "type": "PC"
+        },
+        {
+                "name": "RiftMC",
+                "ip": "riftmc.co",
+                "type": "PC"
+        },
+        {
+                "name":  "No Mans Land MC",
+                "ip": "Play.nmlmc.com",
+                "type": "PC"
+        },
+        {
+                "name": "TerraeMC",
+                "ip": "play.terraemc.net",
+                "type": "PC"
+        },
+        {
+                "name":  "LegionMC",
+                "ip": "legionmc.club",
+                "type": "PC"
+        }
+]
