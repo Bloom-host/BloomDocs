@@ -32,7 +32,7 @@ This guide is for BungeeCord/Velocity proxies. If you are looking for instructio
 
 ### Warning
 
-Make sure you trust the source of your plugin. Plugins have high-level access to your server. Do not attempt to use plugins from leak websites or similar. In some cases malicious plugins may even corrupt other plugins installed on your server or your world. 
+Make sure you trust the source of your plugin. Plugins have high-level access to your server. Do not attempt to use plugins from leak websites or similar. In some cases malicious plugins may even corrupt other plugins installed on your proxy. 
 
 ---
 
