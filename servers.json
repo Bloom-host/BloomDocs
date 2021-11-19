@@ -149,5 +149,10 @@
                 "name":  "LegionMC",
                 "ip": "legionmc.club",
                 "type": "PC"
+        },
+        {
+                "name":  "HavenMC",
+                "ip": "play.haven-mc.net",
+                "type": "PC"
         }
 ]
