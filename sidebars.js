@@ -71,7 +71,7 @@ module.exports = {
             collapsed: true,
             items: [
                 'running_a_server/1.17', // 1.17 update information
-                'running_a_server/jars',
+                'running_a_server/jars', // Explains the different server JAR file options
                 'running_a_server/optimization', // Server optimisation information
                 'running_a_server/domain',
                 'running_a_server/resourcepack',
@@ -136,7 +136,7 @@ module.exports = {
                     label: "Multi-platform plugins & mods",
                     items: [
                         'plugins_and_modifications/multiplatform/advancedban', // Bans and punishment manager (Bukkit/Spigot/Paper, BungeeCord)
-                        'plugins_and_modifications/multiplatform/chunky', // World pre-generation plugin (Bukkit, Fabric)
+                        'plugins_and_modifications/multiplatform/chunky', // World pre-generation plugin (Bukkit, Fabric, Forge)
                         'plugins_and_modifications/multiplatform/dynmap', // Dynamic web map of Minecraft worlds (Spigot/Paper, Forge, Fabric)
                         'plugins_and_modifications/multiplatform/litebans', // Bans and punishment manager (Spigot/Paper, BungeeCord)
                         'plugins_and_modifications/multiplatform/luckperms', // Permissions (Bukkit/Spigot/Paper, BungeeCord, Sponge, Fabric, Nukkit, Velocity)
