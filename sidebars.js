@@ -29,7 +29,7 @@ module.exports = {
 
         {
             type: 'doc',
-            id: "running_a_server/1.17",
+            id: "running_a_server/1.17", // 1.17 update information
         },
 
 
@@ -70,9 +70,9 @@ module.exports = {
             label: 'Running a Server',
             collapsed: true,
             items: [
-                'running_a_server/1.17',
+                'running_a_server/1.17', // 1.17 update information
                 'running_a_server/jars',
-                'running_a_server/optimization',
+                'running_a_server/optimization', // Server optimisation information
                 'running_a_server/domain',
                 'running_a_server/resourcepack',
                 'running_a_server/java-version',
@@ -80,9 +80,9 @@ module.exports = {
                 'running_a_server/timings',
                 'running_a_server/motd',
                 'running_a_server/world-reset',
-                'running_a_server/converting-worlds',
+                'running_a_server/converting-worlds', // Converting worlds used on Bukkit (and forks) servers to allow for use in singleplayer/other server software
                 'running_a_server/icon',
-                'running_a_server/waterfall',
+                'running_a_server/waterfall', // BungeeCord fork
                 'running_a_server/velocity',
                 'running_a_server/binarysearch' // Troubleshooting errors caused by plugins
             ],
@@ -127,7 +127,7 @@ module.exports = {
                     type: 'category',
                     label: "Fabric mods",
                     items: [ // Note: Chunky and LuckPerms pages were moved to multiplatform category
-                        'plugins_and_modifications/fabric_mods/performance-mods'
+                        'plugins_and_modifications/fabric_mods/performance-mods' // Mods intended to improve client/server performance
                     ]
                 },
 
@@ -150,8 +150,8 @@ module.exports = {
                     type: 'category',
                     label: "Plugins", // Bukkit/Spigot/Paper plugins
                     items: [ // Note: Chunky, LiteBans, LuckPerms and PLAN pages were moved to multiplatform category
-                        'plugins_and_modifications/plugins/advancedanticheat',
-                        'plugins_and_modifications/plugins/bungeeguard',
+                        'plugins_and_modifications/plugins/advancedanticheat', // anticheat
+                        'plugins_and_modifications/plugins/bungeeguard', // BungeeCord security (prevents UUID spoof exploit)
                         'plugins_and_modifications/plugins/citizens2',
                         'plugins_and_modifications/plugins/conditionalcommands',
                         'plugins_and_modifications/plugins/coreprotect',
@@ -159,7 +159,7 @@ module.exports = {
                         'plugins_and_modifications/plugins/discordsrv', //Discord <-> Minecraft bridge
                         'plugins_and_modifications/plugins/essentialsx',
                         'plugins_and_modifications/plugins/geysermc', // Minecraft Bedrock player bridge
-                        'plugins_and_modifications/plugins/geyseraddons',
+                        'plugins_and_modifications/plugins/geyseraddons', // GeyserMC addons
                         'plugins_and_modifications/plugins/griefprevention',
                         'plugins_and_modifications/plugins/milk',
                         'plugins_and_modifications/plugins/multiverse', //Bukkit multi-world manager
@@ -170,10 +170,10 @@ module.exports = {
                         'plugins_and_modifications/plugins/spark',
                         'plugins_and_modifications/plugins/tebex',
                         'plugins_and_modifications/plugins/vault',
-                        'plugins_and_modifications/plugins/venturechat',
+                        'plugins_and_modifications/plugins/venturechat', // Chat handler
                         'plugins_and_modifications/plugins/viaversion',
-                        'plugins_and_modifications/plugins/votifier',
-                        'plugins_and_modifications/plugins/vulcan'
+                        'plugins_and_modifications/plugins/votifier', // Minecraft server vote site listener
+                        'plugins_and_modifications/plugins/vulcan' // anticheat
                     ]
                 },
             ]
