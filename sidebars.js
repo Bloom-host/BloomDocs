@@ -141,7 +141,8 @@ module.exports = {
                         'plugins_and_modifications/multiplatform/litebans', // Bans and punishment manager (Spigot/Paper, BungeeCord)
                         'plugins_and_modifications/multiplatform/luckperms', // Permissions (Bukkit/Spigot/Paper, BungeeCord, Sponge, Fabric, Nukkit, Velocity)
                         'plugins_and_modifications/multiplatform/plan', // Player Analytics, (Bukkit/Spigot/Paper, Sponge, Nukkit, Fabric)
-                        'plugins_and_modifications/multiplatform/simple-voice-chat' // Voice chat (Bukkit/Spigot/Paper, Forge, Fabric)
+                        'plugins_and_modifications/multiplatform/simple-voice-chat', // Voice chat (Bukkit/Spigot/Paper, Forge, Fabric)
+                        'plugins_and_modifications/multiplatform/worldedit' // World management (Bukkit, Forge, Fabric, Sponge)
                     ]
                 },
 
@@ -172,8 +173,7 @@ module.exports = {
                         'plugins_and_modifications/plugins/venturechat',
                         'plugins_and_modifications/plugins/viaversion',
                         'plugins_and_modifications/plugins/votifier',
-                        'plugins_and_modifications/plugins/vulcan',
-                        'plugins_and_modifications/plugins/worldedit'
+                        'plugins_and_modifications/plugins/vulcan'
                     ]
                 },
             ]

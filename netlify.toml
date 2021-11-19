@@ -47,4 +47,8 @@
 [[redirects]] # AdvancedBan page
   from = "/plugins/advancedban"
   to = "/multiplatform/advancedban"
+
+[[redirects]] # WorldEdit page
+  from = "/plugins/worldedit"
+  to = "/multiplatform/worldedit"
 #############
