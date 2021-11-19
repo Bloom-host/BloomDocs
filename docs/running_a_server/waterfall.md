@@ -122,7 +122,7 @@ You need to have 3 servers in total to be able to use a proxy server. 1 proxy se
 We need to add the backend servers to under the servers menu and the priorities list in the `config.yml` file.
 
 If for example, one of your backend servers is a survival server, you'll need to add this under your server section:
-```
+```yaml
 survival:
     motd: '&1Survival Server'
     address: <survival serverip>:port
@@ -132,7 +132,7 @@ survival:
 Afterwards you'll need to add the survival server to under priorities.
 
 When you're done with adding backend servers it might look like this:
-```
+```yaml
 connection_throttle: 4000
 connection_throttle_limit: 3
 timeout: 30000
