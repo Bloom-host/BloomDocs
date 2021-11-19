@@ -3,7 +3,7 @@ id: forge-setup
 title: Setting up Forge
 slug: /forge-setup
 hide_title: true
-hide_table_of_contents: true
+hide_table_of_contents: false
 sidebar_label: Setting up Forge
 description: This guide will help you setup Forge on your Minecraft server
 keywords:
