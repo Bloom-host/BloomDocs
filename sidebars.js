@@ -4,7 +4,7 @@ For example, to add a page which had a filename of 'chunky-multi' and a page ID 
 
 'plugins_and_modifications/multiplatform/chunky'
 
-'plugins_and_modifications/multplatform/' is the path to the file and '/chunky' is the page ID.
+'plugins_and_modifications/multiplatform/' is the path to the file and '/chunky' is the page ID.
 
 The page ID can be found at the top of each document (usually the second line) where it will say 'id: <pageid>' (<pageid> would be the page ID you put into `sidebars.js`) 
 
