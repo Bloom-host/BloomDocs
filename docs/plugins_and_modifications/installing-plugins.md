@@ -52,4 +52,4 @@ In case you can't seem to be able to install a plugin properly, be sure to do th
 1. **Check if the plugin has any dependencies**: In a lot of cases, plugins require other plugins to run. These should be listed on the website you got the plugin from. Simply download and install them the same way.
 2. **Check for additional settings**: In some cases plugins require additional configuration before they can be loaded properly.
 3. **Check for the plugin's version**: Even though most plugins after 1.13+ should be compatible with newer versions, this may not be the case with more sophisticated plugins. Be sure to check whether the plugin officially supports your Minecraft versions.
-4. **Check your startup logs**
+4. **Check your startup logs**: You should also check the startup logs as this can usually give you a hint to what’s wrong and causing a particular plugin to not start up properly. 
