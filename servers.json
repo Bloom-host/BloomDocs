@@ -110,6 +110,7 @@
                 "ip": "play.starwarsmc.org",
                 "type": "PC"
         },
+        
         {
                 "name": "PogDream",
                 "ip": "evildream.net",
@@ -153,6 +154,11 @@
         {
                 "name":  "HavenMC",
                 "ip": "play.haven-mc.net",
+                "type": "PC"
+        },
+        {
+                "name": "The Spot SMP",
+                "ip": "thespotsmp.com",
                 "type": "PC"
         }
 ]
