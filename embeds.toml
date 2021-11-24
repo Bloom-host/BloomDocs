@@ -61,7 +61,7 @@ These first 1.17 releases will be unstable and can have performance issues.
 
 [bungeeguard]
 title = "📜 Bloom Docs - BungeeGuard"
-description = "Check out our comprehensive guide on BungeeGuard [here](https://docs.bloom.host/plugins/bungeeguard/)! Should you have any questions or concerns, be sure to let us know or open a ticket in <#777907843214737440>!"
+description = "Check out our comprehensive guide on BungeeGuard [here](https://docs.bloom.host/plugins/bungeeguard/)."
 thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png"
 image = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/ZvaY5o.png"
 
@@ -170,8 +170,6 @@ To enter the Bloom.host waitlist, follow these steps:
 **4.** Transfer or purchase your server!
 
 Thanks again for your interest in our plans!
-
-**Do note that there currently is no ETA for when you'll receive a server, it could take a while!**
 """
 
 [rate]
@@ -187,7 +185,7 @@ description = "If you're having a good experience with Bloom.host, rate us!"
 """, "false"]
 
 [chunky]
-title = "Sponsored by Bloom: Chunky"
+title = "Chunky"
 title-icon = true
 description = """
 Chunky is a fast, easy and safe tool for pre-generating chunks on your server.
@@ -217,7 +215,7 @@ title = "Velocity"
 description = """
 Velocity is a next-generation Minecraft proxy focused on scalability and flexibility created by the initial developer of Waterfall and RedisBungee. Velocity uses less CPU and RAM, leaving more resources for your server. Velocity also features modern forwarding, leaving your back-end servers safe.
 
-Check out our comprehensive guide on Velocity [here](https://docs.bloom.host/velocity)! Should you have any questions or concerns, be sure to let us know or open a ticket in <#777907843214737440>!
+Check out our comprehensive guide on Velocity [here](https://docs.bloom.host/velocity).
 
 **Velocity is not a BungeeCord fork, BungeeCord plugins will not work unless stated that they do.**
 """
@@ -258,7 +256,7 @@ When using Velocity with BungeeGuard forwarding as your proxy, make sure:
 [details]
 aliases = ["accountdetails", "ad"]
 title = "📜 Bloom Docs - Editing Account Details"
-description = "Check out our comprehensive guide on editing your accounts' details [here](https://docs.bloom.host/extras/account-details/)! Should you have any questions or concerns, be sure to let us know or open a ticket in <#777907843214737440>!"
+description = "Check out our comprehensive guide on editing your accounts' details [here](https://docs.bloom.host/extras/account-details/)."
 thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png"
 
 [welcome]
@@ -281,107 +279,107 @@ If you don't receive the email, you can click on 'Forgot Password?' and it will 
 
 [waterfall]
 title = "📜 Bloom Docs - Setting up a Waterfall Proxy Server"
-description = "Check out our comprehensive guide on Setting up a Waterfall Proxy Server' details [here](https://docs.bloom.host/waterfall)! Should you have any questions or concerns, be sure to let us know or open a ticket in <#777907843214737440>!"
+description = "Check out our comprehensive guide on Setting up a Waterfall Proxy Server' details [here](https://docs.bloom.host/waterfall)."
 thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png"
 
 [binarysearch]
 aliases = ["binary"]
 title = "📜 Bloom Docs - Binary Search"
-description = "Check out our comprehensive guide on how to do a binary search [here](https://docs.bloom.host/binarysearch)! Should you have any questions or concerns, be sure to let us know or open a ticket in <#777907843214737440>!"
+description = "Check out our comprehensive guide on how to do a binary search [here](https://docs.bloom.host/binarysearch)."
 thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png"
 
 [importserver]
 aliases = ["import", "importer", "serverimporter", "importserver", "serverimport", "servertransfer"]
 title = "📜 Bloom Docs - Server Importer"
-description = "Check out our comprehensive guide on our Server Importer feature - An easy way to import your server files from your old host. Details [here](https://docs.bloom.host/server-importer)! Should you have any questions or concerns, be sure to let us know or open a ticket in <#777907843214737440>!"
+description = "Check out our comprehensive guide on our Server Importer feature - An easy way to import your server files from your old host. Details [here](https://docs.bloom.host/server-importer)."
 thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png"
 image = "https://docs.bloom.host/assets/images/1-f63d21b5dd3fbb0392aa5c30a55e6650.png"
 
 [importdatabase]
 aliases = ["importdatabases", "importdatabase", "importdb"]
 title = "📜 Bloom Docs - Import Databases"
-description = "Check out our comprehensive guide on how to import databases. Details [here](https://docs.bloom.host/databases#importing-mysql-databases)! Should you have any questions or concerns, be sure to let us know or open a ticket in <#777907843214737440>!"
+description = "Check out our comprehensive guide on how to import databases. Details [here](https://docs.bloom.host/databases#importing-mysql-databases)."
 thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png"
 image = "https://docs.bloom.host/assets/images/3-c203038839d42eb177a6608cf37bcae6.png"
 
 [panel]
 aliases = ["basiccontrols", "bc"]
 title = "📜 Bloom Docs - Duck Panel"
-description = "Check out our showcase of the Duckpanel [here](https://Bloom.host/duck-panel) and our in-depth documentation of it [here](https://docs.bloom.host/basic-controls/)! Should you have any questions or concerns, be sure to let us know or open a ticket in <#777907843214737440>!"
+description = "Check out our showcase of the Duckpanel [here](https://Bloom.host/duck-panel) and our in-depth documentation of it [here](https://docs.bloom.host/basic-controls/)."
 thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png"
 image = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/I5X0x8.png"
 
 [documentation]
 aliases = ["docs-link", "doc-link"] # Original 'docs' alias conflicted with a different command
 title = "📜 Bloom Docs"
-description = "Check out our documentation [here](https://docs.bloom.host)! Should you have any questions or concerns, be sure to let us know or open a ticket in <#777907843214737440>!"
+description = "Check out our documentation [here](https://docs.bloom.host)."
 thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png"
 image = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/docs.png"
 
 [schedules]
 aliases = ["schedule"]
 title = "📜 Bloom Docs - Schedules"
-description = "Check out our comprehensive guide on scheduling actions using the Duckpanel [here](https://docs.bloom.host/schedules)! Should you have any questions or concerns, be sure to let us know or open a ticket in <#777907843214737440>!"
+description = "Check out our comprehensive guide on scheduling actions using the Duckpanel [here](https://docs.bloom.host/schedules)."
 thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png"
 image = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/rgabRH.png"
 
 [sftp]
 aliases = ["ftp"]
 title = "📜 Bloom Docs - SFTP"
-description = "Check out our comprehensive guide on using file transfer protocol applications [here](https://docs.bloom.host/sftp)! Should you have any questions or concerns, be sure to let us know or open a ticket in <#777907843214737440>!"
+description = "Check out our comprehensive guide on using file transfer protocol applications [here](https://docs.bloom.host/sftp)."
 thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png"
 image = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/6IBNVE.png"
 
 [subusers]
 aliases = ["users", "sb"]
 title = "📜 Bloom Docs - Subusers"
-description = "Check out our comprehensive guide on subusers [here](https://docs.bloom.host/users)! Should you have any questions or concerns, be sure to let us know or open a ticket in <#777907843214737440>!"
+description = "Check out our comprehensive guide on subusers [here](https://docs.bloom.host/users)."
 thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png"
 image = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/ARyhBo.png"
 
 [database]
 aliases = ["databases", "mysql"]
 title = "📜 Bloom Docs - MySQL"
-description = "Check out our comprehensive guide on MySQL databases [here](https://docs.bloom.host/databases/)! Should you have any questions or concerns, be sure to let us know or open a ticket in <#777907843214737440>!"
+description = "Check out our comprehensive guide on MySQL databases [here](https://docs.bloom.host/databases/)."
 thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png"
 image = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/ZAYTsz.png"
 
 [revproxy]
 aliases = ["reverseproxy", "rp"]
 title = "📜 Bloom Docs - Reverse-Proxy"
-description = "Check out our comprehensive guide on reverse-proxying web applications [here](https://docs.bloom.host/ports-and-proxies/)! Should you have any questions or concerns, be sure to let us know or open a ticket in <#777907843214737440>!"
+description = "Check out our comprehensive guide on reverse-proxying web applications [here](https://docs.bloom.host/ports-and-proxies/)."
 thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png"
 image = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/ZIT9nf.png"
 
 [split]
 aliases = ["splitserver", "serversplit"]
 title = "📜 Bloom Docs - Split Servers"
-description = "Check out our comprehensive guide on server splitting [here](https://docs.bloom.host/split-server/)! Should you have any questions or concerns, be sure to let us know or open a ticket in <#777907843214737440>!"
+description = "Check out our comprehensive guide on server splitting [here](https://docs.bloom.host/split-server/)."
 thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png"
 image = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/xLXWBT.png"
 
 [filemanager]
 aliases = ["files", "file", "manager"]
 title = "📜 Bloom Docs - File Manager"
-description = "Check out our comprehensive guide on our built-in file manager [here](https://docs.bloom.host/file-manager-controls/)! Should you have any questions or concerns, be sure to let us know or open a ticket in <#777907843214737440>!"
+description = "Check out our comprehensive guide on our built-in file manager [here](https://docs.bloom.host/file-manager-controls/)."
 thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png"
 image = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/twkYen.png"
 
 [backup]
 aliases = ["backups"]
 title = "📜 Bloom Docs - Backups"
-description = "Check out our comprehensive guide on automatic and manual backups [here](https://docs.bloom.host/backups/)! Should you have any questions or concerns, be sure to let us know or open a ticket in <#777907843214737440>!"
+description = "Check out our comprehensive guide on automatic and manual backups [here](https://docs.bloom.host/backups/)."
 thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png"
 image = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/8K5up1.png"
 
 [vnc]
 title = "📜 Bloom Docs - VNC"
-description = "Check out our comprehensive guide on how to connect via VNC [here](https://docs.bloom.host/VPS/vnc/)! Should you have any questions or concerns, be sure to let us know or open a ticket in <#777907843214737440>!"
+description = "Check out our comprehensive guide on how to connect via VNC [here](https://docs.bloom.host/VPS/vnc/)."
 thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png"
 
 [2fa]
 title = "📜 Bloom Docs - 2-Factor Authentication"
-description = "Check out our comprehensive guide on how to protect your accounts with 2FA [here](https://docs.bloom.host/2fa/)! Should you have any questions or concerns, be sure to let us know or open a ticket in <#777907843214737440>!"
+description = "Check out our comprehensive guide on how to protect your accounts with 2FA [here](https://docs.bloom.host/2fa/)."
 thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png"
 image = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/dpomnF.png"
 
@@ -393,123 +391,123 @@ image = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/im
 [jars]
 aliases = ["serverjars", "whichjar"]
 title = "📜 Bloom Docs - Server Jars"
-description = "Check out our comprehensive guide on picking the right server software [here](https://docs.bloom.host/jars/)! Should you have any questions or concerns, be sure to let us know or open a ticket in <#777907843214737440>!"
+description = "Check out our comprehensive guide on picking the right server software [here](https://docs.bloom.host/jars/)."
 thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png"
 image = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/NniDCP.png"
 
 [clumsyloader]
 aliases = ["bloomloader", "loader"]
 title = "📜 Bloom Docs - ClumsyLoader"
-description = "Check out our comprehensive guide on using ClumsyLoader [here](https://docs.bloom.host/extras/clumsyloader)! ClumsyLoader provides an alternative way to download your server backups to your VPS or computer. Should you have any questions or concerns, be sure to let us know or open a ticket in <#777907843214737440>!"
+description = "Check out our comprehensive guide on using ClumsyLoader [here](https://docs.bloom.host/extras/clumsyloader)! ClumsyLoader provides an alternative way to download your server backups to your VPS or computer."
 [clumsyloader.buttons]
 1 = ["Open Docs", "https://docs.bloom.host/extras/clumsyloader/", "❔"]
 
 [stripe]
 aliases = []
 title = "📜 Bloom Docs - Stripe Subscriptions"
-description = "Check out our comprehensive guide on how to configure a Stripe Subscription or how to cancel automatic payments [here](https://docs.bloom.host/billing/stripe). Should you have any questions or concerns, be sure to let us know or open a ticket in <#777907843214737440>!"
+description = "Check out our comprehensive guide on how to configure a Stripe Subscription or how to cancel automatic payments [here](https://docs.bloom.host/billing/stripe)."
 [stripe.buttons]
 1 = ["Open Docs", "https://docs.bloom.host/billing/stripe", "❔"]
 
 [paypal]
 aliases = []
 title = "📜 Bloom Docs - PayPal Subscriptions"
-description = "Check out our comprehensive guide on how to configure a PayPal Subscription or how to cancel automatic payments [here](https://docs.bloom.host/billing/paypal). Should you have any questions or concerns, be sure to let us know or open a ticket in <#777907843214737440>!"
+description = "Check out our comprehensive guide on how to configure a PayPal Subscription or how to cancel automatic payments [here](https://docs.bloom.host/billing/paypal)."
 [paypal.buttons]
 1 = ["Open Docs", "https://docs.bloom.host/billing/paypal", "❔"]
 
 [suspensions]
 aliases = ["suspension", "termination", "terminations"]
 title = "📜 Bloom Docs - Suspensions and Terminations"
-description = "Check out our comprehensive guide on how Suspensions and Terminations work at Bloom [here](https://docs.bloom.host/billing/suspensions_and_terminations). Should you have any questions or concerns, be sure to let us know or open a ticket in <#777907843214737440>!"
+description = "Check out our comprehensive guide on how Suspensions and Terminations work at Bloom [here](https://docs.bloom.host/billing/suspensions_and_terminations)."
 [suspensions.buttons]
 1 = ["Open Docs", "https://docs.bloom.host/billing/suspensions_and_terminations", "❔"]
 
 [billingsubusers]
 aliases = ["billingsubuser"]
 title = "📜 Bloom Docs - Billing Subusers"
-description = "Check out our comprehensive guide on how to create billing subusers [here](https://docs.bloom.host/billing/billing_subusers). Should you have any questions or concerns, be sure to let us know or open a ticket in <#777907843214737440>!"
+description = "Check out our comprehensive guide on how to create billing subusers [here](https://docs.bloom.host/billing/billing_subusers)."
 [billingsubusers.buttons]
 1 = ["Open Docs", "https://docs.bloom.host/billing/billing_subusers", "❔"]
 
 [cancellation]
 aliases = ["cancellations"]
 title = "📜 Bloom Docs - Cancellations"
-description = "Check out our comprehensive guide on how to request a service cancellation [here](https://docs.bloom.host/billing/cancellations). Should you have any questions or concerns, be sure to let us know or open a ticket in <#777907843214737440>!"
+description = "Check out our comprehensive guide on how to request a service cancellation [here](https://docs.bloom.host/billing/cancellations)."
 [cancellations.buttons]
 1 = ["Open Docs", "https://docs.bloom.host/billing/cancellations", "❔"]
 
 [refunds]
 aliases = ["refund"]
 title = "📜 Bloom Docs - How to request a refund"
-description = "Check out our comprehensive guide on how to request a refund [here](https://docs.bloom.host/billing/refunds). Should you have any questions or concerns, be sure to let us know or open a ticket in <#777907843214737440>!"
+description = "Check out our comprehensive guide on how to request a refund [here](https://docs.bloom.host/billing/refunds)."
 [refunds.buttons]
 1 = ["Open Docs", "https://docs.bloom.host/billing/refunds", "❔"]
 
 [fabric]
 title = "📜 Bloom Docs - Fabric"
-description = "Check out our comprehensive guide on installing Fabric to your server [here](https://docs.bloom.host/fabric-setup/)! Should you have any questions or concerns, be sure to let us know or open a ticket in <#777907843214737440>!"
+description = "Check out our comprehensive guide on installing Fabric to your server [here](https://docs.bloom.host/fabric-setup/)."
 thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png"
 image = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/cTEy1Q.png"
 
 [modpacks]
 aliases = ["modpack", "serverpack", "serverpacks"]
 title = "📜 Bloom Docs - Installing a modpack on your server"
-description = "Check out our comprehensive guide on installing Modpacks to your server [here](https://docs.bloom.host/modpacks/)! Should you have any questions or concerns, be sure to let us know or open a ticket in <#777907843214737440>!"
+description = "Check out our comprehensive guide on installing Modpacks to your server [here](https://docs.bloom.host/modpacks/)."
 thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png"
 
 [forge]
 title = "📜 Bloom Docs - Forge"
-description = "Check out our comprehensive guide on installing Forge to your server [here](https://docs.bloom.host/forge-setup/)! Should you have any questions or concerns, be sure to let us know or open a ticket in <#777907843214737440>!"
+description = "Check out our comprehensive guide on installing Forge to your server [here](https://docs.bloom.host/forge-setup/)."
 thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png"
 image = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/SylbcQ.png"
 
 [plugins] # Refers to Bukkit/Spigot/Paper plugins
 aliases = ["plugin", "spigotplugins", "bukkitplugins", "paperplugins"] # Bukkit, Spigot and Paper
 title = "📜 Bloom Docs - Spigot Plugins"
-description = "Check out our comprehensive guide on installing Spigot Plugins [here](https://docs.bloom.host/installing-plugins/)! Should you have any questions or concerns, be sure to let us know or open a ticket in <#777907843214737440>!"
+description = "Check out our comprehensive guide on installing Spigot Plugins [here](https://docs.bloom.host/installing-plugins/)."
 thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png"
 image = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/Y9KelU.png"
 
 [fabricmods]
 aliases = ["fabricmod"]
 title = "📜 Bloom Docs - Fabric Mods"
-description = "Check out our comprehensive guide on installing Fabric Mods [here](https://docs.bloom.host/fabric-mods/)! Should you have any questions or concerns, be sure to let us know or open a ticket in <#777907843214737440>!"
+description = "Check out our comprehensive guide on installing Fabric Mods [here](https://docs.bloom.host/fabric-mods/)."
 thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png"
 image = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/wHrhIR.png"
 
 [forgemods]
 aliases = ["forgemod"]
 title = "📜 Bloom Docs - Forge Mods"
-description = "Check out our comprehensive guide on installing Forge Mods [here](https://docs.bloom.host/forge-mods/)! Should you have any questions or concerns, be sure to let us know or open a ticket in <#777907843214737440>!"
+description = "Check out our comprehensive guide on installing Forge Mods [here](https://docs.bloom.host/forge-mods/)."
 thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png"
 image = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/y3ISVE.png"
 
 [optimization]
 aliases = ["optimize", "lowtps", "optimisation", "optimise"] # 'optimisation' and 'optimise' are British English spelling
 title = "📜 Bloom Docs - Server Optimizations"
-description = "Check out our comprehensive guide on server optimizations [here](https://docs.bloom.host/optimization/)! Should you have any questions or concerns, be sure to let us know or open a ticket in <#777907843214737440>!"
+description = "Check out our comprehensive guide on server optimizations [here](https://docs.bloom.host/optimization/)."
 thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png"
 image = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/FcHN3O.png"
 
 [domain]
 aliases = ["ip"]
 title = "📜 Bloom Docs - Domain"
-description = "Check out our comprehensive guide on connecting your server with your domain [here](https://docs.bloom.host/domain/)! Should you have any questions or concerns, be sure to let us know or open a ticket in <#777907843214737440>!"
+description = "Check out our comprehensive guide on connecting your server with your domain [here](https://docs.bloom.host/domain/)."
 thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png"
 image = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/97nYMU.gif"
 
 [resourcepack]
 aliases = ["texturepack", "serverpack", "serverresource"]
 title = "📜 Bloom Docs - Server-Side Resourcepack"
-description = "Check out our comprehensive guide on installing a server-side resourcepack [here](https://docs.bloom.host/resourcepack/)! Should you have any questions or concerns, be sure to let us know or open a ticket in <#777907843214737440>!"
+description = "Check out our comprehensive guide on installing a server-side resourcepack [here](https://docs.bloom.host/resourcepack/)."
 thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png"
 image = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/K3v1x4.png"
 
 [java]
 aliases = ["jvm"]
 title = "📜 Bloom Docs - Java Version"
-description = "Check out our comprehensive guide on changing your server's Java version [here](https://docs.bloom.host/java-version/)! Should you have any questions or concerns, be sure to let us know or open a ticket in <#777907843214737440>!"
+description = "Check out our comprehensive guide on changing your server's Java version [here](https://docs.bloom.host/java-version/)."
 thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png"
 image = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/a0Oz1b.png"
 
@@ -531,27 +529,27 @@ thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/stati
 [datapack]
 aliases = ["datapacks"]
 title = "📜 Bloom Docs - Datapacks"
-description = "Check out our comprehensive guide on installing datapacks to your server [here](https://docs.bloom.host/datapacks/)! Should you have any questions or concerns, be sure to let us know or open a ticket in <#777907843214737440>!"
+description = "Check out our comprehensive guide on installing datapacks to your server [here](https://docs.bloom.host/datapacks/)."
 thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png"
 image = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/Qryijp.png"
 
 [timings]
 aliases = ["timing"]
 title = "📜 Bloom Docs - Timings"
-description = "Check out our comprehensive guide on creating a timings report to debug TPS issues on your server [here](https://docs.bloom.host/timings/)! Should you have any questions or concerns, be sure to let us know or open a ticket in <#777907843214737440>!"
+description = "Check out our comprehensive guide on creating a timings report to debug TPS issues on your server [here](https://docs.bloom.host/timings/)."
 thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png"
 image = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/ZX46Vs.png"
 
 [motd]
 title = "📜 Bloom Docs - MOTD"
-description = "Check out our comprehensive guide on how to change your server's message of the day [here](https://docs.bloom.host/motd/)! Should you have any questions or concerns, be sure to let us know or open a ticket in <#777907843214737440>!"
+description = "Check out our comprehensive guide on how to change your server's message of the day [here](https://docs.bloom.host/motd/)."
 thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png"
 image = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/swkTMA.png"
 
 [reset]
 aliases = ["resetworld", "worldreset"]
 title = "📜 Bloom Docs - World Reset"
-description = "Check out our comprehensive guide on how to reset your world [here](https://docs.bloom.host/world-reset/)! Should you have any questions or concerns, be sure to let us know or open a ticket in <#777907843214737440>!"
+description = "Check out our comprehensive guide on how to reset your world [here](https://docs.bloom.host/world-reset/)."
 thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png"
 image = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/dCHgqO.gif"
 
@@ -565,13 +563,13 @@ enabled = true
 
 [plan]
 title = "📜 Bloom Docs - Plan"
-description = "Check out our comprehensive guide on how to install Plan - Player Analytics [here](https://docs.bloom.host/plan)! Should you have any questions or concerns, be sure to let us know or open a ticket in <#777907843214737440>!"
+description = "Check out our comprehensive guide on how to install Plan - Player Analytics [here](https://docs.bloom.host/plan)."
 thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png"
 
 [icon]
 title = "📜 Bloom Docs - Server Favicon"
 aliases = ["favicon"]
-description = "Check out our comprehensive guide on how to add a favicon to your server [here](https://docs.bloom.host/icon/)! Should you have any questions or concerns, be sure to let us know or open a ticket in <#777907843214737440>!"
+description = "Check out our comprehensive guide on how to add a favicon to your server [here](https://docs.bloom.host/icon/)."
 thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png"
 image = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/swkTMA.png"
 
@@ -705,28 +703,28 @@ Our standard support hours are between 8AM and 8PM US Eastern, although we are o
 enabled = false
 title = "🦆 New Ticket"
 colour = "#FFFFF1"
-description = "Thank you %username% for opening a ticket! We will be with you as soon as possible. In the meantime, please describe your issue or request."
+description = "Thank you %username% for opening a ticket! We will be with you as soon as possible. In order for us to best assist you, please provide your server ID and a description of your issue below."
 footer = "Tickets - Bloom.host"
 
 [tickets-general]
 enabled = false
 title = "🦆 General Ticket"
 colour = "#FFFFF1"
-description = "Thank you %username% for opening a ticket! We will be with you as soon as possible. In the meantime, please describe your issue or request."
+description = "Thank you %username% for opening a ticket! We will be with you as soon as possible. In order for us to best assist you, please provide your server ID and a description of your issue below."
 footer = "Tickets - Bloom.host"
 
 [tickets-billing]
 enabled = false
 title = "💰 Billing Ticket"
 colour = "#fdd888"
-description = "Thank you %username% for opening a ticket! We will be with you as soon as possible. In the meantime, please describe your issue or request."
+description = "Thank you %username% for opening a ticket! We will be with you as soon as possible. In order for us to best assist you, please provide your server ID and a description of your issue below."
 footer = "Tickets - Bloom.host"
 
 [tickets-minecraft]
 enabled = false
 title = "⛏️ Minecraft Ticket"
 colour = "#3ba55d"
-description = "Thank you %username% for opening a ticket! We will be with you as soon as possible. In the meantime, please describe your issue or request."
+description = "Thank you %username% for opening a ticket! We will be with you as soon as possible. In order for us to best assist you, please provide your server ID and a description of your issue below."
 footer = "Tickets - Bloom.host"
 
 [minecraft-perf]
@@ -833,7 +831,7 @@ colour = "#ffdc5d"
 title = ":wave: Heads up!"
 description = """
 Our standard support hours today are between %to% and %from% US Eastern. Current time: %time%.
-Though, we are often available outside of these hours, responses may be delayed.
+Though we are often available outside of these hours, responses may be delayed until support hours resume.
 """
 [time-warn.buttons]
 1 = ["Open Billing Ticket", "https://billing.bloom.host", ":moneybag:"]
