@@ -512,7 +512,7 @@ image = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/im
 [java17]
 aliases = ["jvm2"]
 title = "📜 Minecraft 1.18 needs Java 17"
-description = "With the release of Minecraft 1.18 the game now needs Java 17 to run. To use Java 17 on your server, head to the Duck Panel and click on the "Startup" tab on the menu, then on the right under 'Java Version' select Java 17 and start your server. You can also follow our comprehensive guide on how to change Java Versions [here](https://docs.bloom.host/java-version/)."
+description = "With the release of Minecraft 1.18 the game now needs Java 17 to run. To use Java 17 on your server, head to the Duck Panel and click on the 'Startup' tab on the menu, then on the right under 'Java Version' select Java 17 and start your server. You can also follow our comprehensive guide on how to change Java Versions [here](https://docs.bloom.host/java-version/)."
 thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png"
 image = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/a0Oz1b.png"
 
