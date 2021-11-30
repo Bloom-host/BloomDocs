@@ -40,7 +40,7 @@ title-icon = true
 thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/OcDKml.png"
 image = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tT9ujN.jpg"
 description = """
-With the release of 1.18, the second part of the Caves & Cliffs servers will have to be **__updated to Java 17__**.
+With the release of 1.18, the second part of the Caves & Cliffs, servers will have to be **__updated to Java 17__**.
 
 Due to this change, some plugins may be **incompatible** and may **require an update**.
 
@@ -53,7 +53,7 @@ For more information about updating your server to the second part of the Caves 
 :x: Paper - NOT RELEASED
 :x: Purpur - NOT RELEASED
 
-These first 1.18 releases will be unstable and can have performance issues.
+These first 1.18 releases will be unstable and can have performance issues. Please make sure to create a backup before upgrading your server.
 
 """, "false"]
 
