@@ -512,7 +512,12 @@ image = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/im
 [java17]
 aliases = ["jvm17"]
 title = "📜 Minecraft 1.18+ needs Java 17"
-description = "The new release of Minecraft 1.18 needs Java 17. You can change your Java version by going to the startup tab and selecting Java 17 under the Java Version section. You can see our comprehensive guide on changing your server's Java version [here](https://docs.bloom.host/java-version/)."
+description = """
+
+The new release of Minecraft 1.18 needs Java 17.
+
+You can change your Java version by going to the startup tab and selecting Java 17 under the Java Version section. You can see our comprehensive guide on changing your server's Java version [here](https://docs.bloom.host/java-version/).
+"""
 thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png"
 image = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/java.png"
 
