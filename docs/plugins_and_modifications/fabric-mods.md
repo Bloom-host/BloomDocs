@@ -24,6 +24,8 @@ image: https://bloom.host/assets/images/logo.png
 # Installing Fabric mods on your server
 :::note
 This tutorial is for [Fabric](https://fabricmc.org) servers.
+
+For Forge servers, see the [Forge mod installation guide](forge-mods)
 :::
 
 You'll first need to find the mod that you wish to install. Downloads can be found on a variety of sites. Many mods can be found on [Modrinth](https://modrinth.com/mods) and [CurseForge](https://www.curseforge.com/minecraft/mc-mods/fabric). Make sure you trust the source of your downloads.

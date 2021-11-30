@@ -1,7 +1,7 @@
 ---
 id: worldedit
 title: WorldEdit
-slug: /plugins/worldedit
+slug: /multiplatform/worldedit
 hide_title: true
 hide_table_of_contents: false
 sidebar_label: WorldEdit
@@ -27,12 +27,14 @@ image: https://bloom.host/assets/images/logo.png
 WorldEdit is an in-game world editing plugin. You can select areas, fill them in with a block (or multiple types of blocks), save the area as a schematic, and more.  
 
 :::warning
-Pasting huge schematics or constructions with WorldEdit consumes a lot of server resources and as a result the server can lag and crash. We recommend you use [AsyncWorldEdit](https://www.spigotmc.org/resources/asyncworldedit.327/) for better performance. Keep in mind that you have to install both (AsyncWorldEdit and WorldEdit), and that AsyncWorldEdit is only compatible with specific WorldEdit versions. Check [AsyncWorldEdit Spigot page](https://www.spigotmc.org/resources/asyncworldedit.327/) for more information.
+Pasting huge schematics or constructions with WorldEdit consumes a lot of server resources and as a result the server can lag and crash. We recommend you use [AsyncWorldEdit](https://www.spigotmc.org/resources/asyncworldedit.327/) for better performance (Bukkit/Spigot/Paper only). Keep in mind that you have to install both (AsyncWorldEdit and WorldEdit), and that AsyncWorldEdit is only compatible with specific WorldEdit versions. Check [AsyncWorldEdit Spigot page](https://www.spigotmc.org/resources/asyncworldedit.327/) for more information.
 :::
 
 ### Setup
 
-Download the latest version for your Minecraft version (e.g. if your server is 1.16.2, download the latest one compatible with 1.16.2). Drop it in your plugins folder. Turn on or restart the server, and it should be working! If you need help installing plugins, check [How to install plugins](https://docs.bloom.host/installing-plugins).  
+Download the latest version for your Minecraft version (e.g. if your server is 1.16.2, download the latest one compatible with 1.16.2). Drop it in your plugins folder. Turn on or restart the server, and it should be working! If you need help installing plugins, check [How to install plugins](https://docs.bloom.host/installing-plugins).
+
+For other platforms (such as Forge or Fabric,) refer to [EngineHub’s guide on installing WorldEdit](https://worldedit.enginehub.org/en/latest/install/).
 
 ## Commands
 

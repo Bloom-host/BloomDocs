@@ -34,6 +34,7 @@ For Bukkit/Spigot/Paper servers, check out the [Installing Bukkit/Spigot/Paper p
 
 For Fabric servers, check out the [Installing Fabric Mods](../fabric-mods.md) page.
 
+For Forge servers, check out the [Installing Forge Mods](../forge-mods.md) page.
 
 ## Usage
 
@@ -69,6 +70,8 @@ The table below can be used to estimate the file size of your world after you ge
 [Spigot Page](https://www.spigotmc.org/resources/chunky.81534/)  
 
 [CurseForge Page (Fabric version)](https://www.curseforge.com/minecraft/mc-mods/chunky-pregenerator/)
+
+[CurseForge Page (Forge version)](https://www.curseforge.com/minecraft/mc-mods/chunky-pregenerator-forge)
 
 [Wiki](https://github.com/pop4959/Chunky/wiki)
 

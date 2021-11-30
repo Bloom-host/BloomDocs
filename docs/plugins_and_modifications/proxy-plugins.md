@@ -3,7 +3,7 @@ id: install-proxy-plugin
 title: Installing Proxy Plugins (BungeeCord/Velocity)
 slug: /installing-proxy-plugins
 hide_title: true
-hide_table_of_contents: true
+hide_table_of_contents: false
 sidebar_label: Proxy (BungeeCord/Velocity) Plugins
 image: https://bloom.host/assets/images/logo.png
 ---
@@ -32,7 +32,7 @@ This guide is for BungeeCord/Velocity proxies. If you are looking for instructio
 
 ### Warning
 
-Make sure you trust the source of your plugin. Plugins have high-level access to your server. Do not attempt to use plugins from leak websites or similar. In some cases malicious plugins may even corrupt other plugins installed on your server or your world. 
+Make sure you trust the source of your plugin. Plugins have high-level access to your server. Do not attempt to use plugins from leak websites or similar. In some cases malicious plugins may even corrupt other plugins installed on your proxy. 
 
 ---
 

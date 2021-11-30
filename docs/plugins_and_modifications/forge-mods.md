@@ -24,6 +24,8 @@ image: https://bloom.host/assets/images/logo.png
 # Installing Forge mods on your server
 :::note
 This tutorial is for [Forge](https://forums.minecraftforge.net/) servers.
+
+For Fabric servers, see the [Fabric mod installation guide](fabric-mods)
 :::
 
 You'll first need to find the mod you wish to install. Downloads can be found on a variety of sites. Many mods can be found on [CurseForge](https://www.curseforge.com/minecraft/mc-mods). Make sure you trust the source of your downloads.

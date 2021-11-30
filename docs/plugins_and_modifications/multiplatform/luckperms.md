@@ -58,7 +58,7 @@ Refer to the [LuckPerms wiki](https://luckperms.net/wiki/Installation) for infor
 
 To begin, simply run `/lp editor`. Once you have made your edits in the GUI, click save and run the command it gives you. If you need more help, consult the [LuckPerms wiki](https://luckperms.net/wiki/Home).  
 
-There are many commands that can be used to manage the permissions on your server(s) - see the [LuckPerms wiki](https://luckperms.net/wiki/Home) for more info.
+There are many commands that can be used to manage the permissions on your server(s) – see the [LuckPerms wiki](https://luckperms.net/wiki/Home) for more info.
 
 ## Info
 
