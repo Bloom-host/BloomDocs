@@ -50,7 +50,7 @@ For more information about updating your server to the second part of the Caves 
 1 = ["Available Software", """
 :white_check_mark: Vanilla - Download [here](https://www.minecraft.net/en-us/download/server)!
 :white_check_mark: Spigot - Download [here](https://www.spigotmc.org/threads/9-years-of-spigotmc-spigot-bungeecord-1-18.534760/)!
-:x: Paper - NOT RELEASED
+:white_check_mark: Paper - Download [here](https://papermc.io/downloads#Paper-1.18)
 :x: Purpur - NOT RELEASED
 
 These first 1.18 releases will be unstable and can have performance issues. Please make sure to create a backup before upgrading your server.
