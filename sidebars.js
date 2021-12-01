@@ -70,7 +70,7 @@ module.exports = {
             label: 'Running a Server',
             collapsed: true,
             items: [
-                'running_a_server/1.17', // 1.17 update information
+                'running_a_server/1.18', // 1.18 update information
                 'running_a_server/jars', // Explains the different server JAR file options
                 'running_a_server/optimization', // Server optimisation information
                 'running_a_server/domain',
