@@ -44,7 +44,12 @@ Simply give it a name and press the **Start Backup** button to continue. The bac
 <div class="text--center"><img src={require('../../static/imgs/using_the_panel/backups/3.png').default} alt="img"/></div>
 
 
-Keep in mind that you can store up to 8 backups at any time with a max of 3 backups within a 24 hour period.  
+Keep in mind that you can you can generate up to 3 backups within a 25 hours period.
+
+**Essentials** plans can store a maximum of **3** backups.
+**Performance** plans can store a maximum of **5** backups.
+**Performance+** plans can store a maximum of **10** backups.
+
 If you have reached the backup limit, the oldest backup will be rotated.
 
 ---
