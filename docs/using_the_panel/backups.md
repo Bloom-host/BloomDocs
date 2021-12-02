@@ -19,7 +19,7 @@ image: https://bloom.host/assets/images/logo.png
 
 - You can create manual and even automatic backups and later restore, download, mount or delete them.
 
-You can you can generate up to 3 backups within a 25 hours period.
+You can you can generate up to 3 backups within a 24 hour period.
 
 **Essentials** plans can store a maximum of **3** backups.
 **Performance** plans can store a maximum of **5** backups.
