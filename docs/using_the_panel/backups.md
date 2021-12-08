@@ -19,7 +19,11 @@ image: https://bloom.host/assets/images/logo.png
 
 - You can create manual and even automatic backups and later restore, download, mount or delete them.
 
-- You may create 3 backups every 24 hours and store up to 8 at a time. In case all backup slots are used, automatic backups will rotate meaning the oldest one will be deleted and replaced with the newest one.
+You can you can generate up to 3 backups within a 24 hour period.
+
+**Essentials** plans can store a maximum of **3** backups.
+**Performance** plans can store a maximum of **5** backups.
+**Performance+** plans can store a maximum of **10** backups.
 
 ---
 
@@ -44,7 +48,12 @@ Simply give it a name and press the **Start Backup** button to continue. The bac
 <div class="text--center"><img src={require('../../static/imgs/using_the_panel/backups/3.png').default} alt="img"/></div>
 
 
-Keep in mind that you can store up to 8 backups at any time with a max of 3 backups within a 24 hour period.  
+Keep in mind that you can you can generate up to 3 backups within a 25 hours period.
+
+**Essentials** plans can store a maximum of **3** backups.
+**Performance** plans can store a maximum of **5** backups.
+**Performance+** plans can store a maximum of **10** backups.
+
 If you have reached the backup limit, the oldest backup will be rotated.
 
 ---
