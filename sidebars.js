@@ -196,6 +196,7 @@ module.exports = {
             collapsed: true,
             items: [
                 'billing/billing_subusers',
+                'billing/email_change',
                 'billing/cancellations',
                 'billing/refunds',
                 'billing/suspensions_and_terminations',

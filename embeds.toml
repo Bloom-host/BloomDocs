@@ -342,6 +342,13 @@ description = "Check out our comprehensive guide on using file transfer protocol
 thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png"
 image = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/6IBNVE.png"
 
+[emailchange]
+aliases = ["email", "changemail", "emailaddress", "changemailaddress"]
+title = "📜 Bloom Docs - How to change your email address"
+description = "Check out our comprehensive guide that shows you how to change your email address [here](https://docs.bloom.host/billing/email_change)."
+thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png"
+image = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/billing/email_change/2.png"
+
 [subusers]
 aliases = ["users", "sb"]
 title = "📜 Bloom Docs - Subusers"
