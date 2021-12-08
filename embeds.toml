@@ -315,7 +315,7 @@ thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/stati
 image = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/billing_ticket.png"
 
 [upgrade]
-aliases = ["upgrades"]
+aliases = ["upgrades", "downgrade", "downgrades"]
 title = "📜 Plan changes need to be requested through the Billing Panel"
 description = "To request a plan upgrade or downgrade go to the support section of our Billing Panel located [here](https://billing.bloom.host/supporttickets.php), sign in with your Billing Account and open a Billing Ticket requesting the plan change you want."
 thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png"
