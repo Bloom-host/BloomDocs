@@ -17,7 +17,7 @@ a = ["❔ Help Commands", """
 • `!hastebin` - For all your pasting needs!
 """, "true"]
 
-b = ["\uD83D\uDD17 Links", """
+b = ["🔗 Links", """
 • [Website](https://bloom.host/)
 • [Billing Panel](https://bloom.host/billing)
 • [Duck Panel](https://mc.bloom.host/)
@@ -34,7 +34,7 @@ c = ["⚙ Misc Commands", """
 • `!edit <id> <fixed idea>` - Modify your suggestion
 """, "false"]
 
-d = ["\uD83C\uDFF7 Ticket Commands", """
+d = ["🏷️ Ticket Commands", """
 • `!close [reason]` - Close your ticket
 • `!rename <name>` - Rename a ticket
 • `!transfer <@tag | userid>` - Transfer a ticket to another user
