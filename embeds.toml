@@ -2,6 +2,46 @@
 # For more information and detailed settings please check:
 # https://gist.github.com/NotGeri/cb11552ab7a12e20ab495a20826c341f
 
+[help]
+title = "BloomBot Help"
+title-icon = true
+thumbnail = "https://cdn.discordapp.com/icons/720081782980083813/a_b14b3675972cae4aa909387ee4b7995f.gif"
+footer = "BloomBot - Bloom.host"
+[help.fields]
+a = ["❔ Help Commands", """
+• `!help` - Here you are!
+• `!waitlist` - Join the waitlist
+• `!rate` - Satisfied with Bloom?
+• `!chunky` - Pre-generate your map!
+• `!docs` - List of all other documents
+• `!hastebin` - For all your pasting needs!
+""", "true"]
+
+b = ["\uD83D\uDD17 Links", """
+• [Website](https://bloom.host/)
+• [Billing Panel](https://bloom.host/billing)
+• [Duck Panel](https://mc.bloom.host/)
+• [VPS Panel](https://vps.bloom.host/)
+• [FAQ](https://bloom.host/faqs)
+""", "true"]
+
+c = ["⚙ Misc Commands", """
+• `!stats` - Some stats
+• `!duck` - Get a random duck!
+• `!suggest <idea>` - Create a suggestion
+• `!fbi` | `!fbiinfo` - Cracked software?
+• `!steal <link | emoji>` - Add a new emoji
+• `!edit <id> <fixed idea>` - Modify your suggestion
+""", "false"]
+
+d = ["\uD83C\uDFF7 Ticket Commands", """
+• `!close [reason]` - Close your ticket
+• `!rename <name>` - Rename a ticket
+• `!transfer <@tag | userid>` - Transfer a ticket to another user
+• `!add <@user/role | user/roleid>` - Add a user to your ticket
+• `!remove <@user/role | user/roleid>` - Remove a user from your ticket
+""", "true"]
+
 [billing]
 text = "https://billing.bloom.host"
 [billing.buttons]
