@@ -72,6 +72,15 @@ We recommend everyone to update to the latest stable release and build of their 
 
 You can find more information on PaperMC Discord server https://discord.gg/papermc.
 
+"""
+[exploit2]
+aliases = ["exploits2"]
+colour = "#926cd1"
+title = "Severe Exploit found on a library being used by Minecraft server jars"
+title-icon = true
+thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/OcDKml.png"
+description = """
+
 **Jars that have already updated to include a fix for the exploit**
 
 :white_check_mark: Spigot - See [here](https://www.spigotmc.org/threads/security-releases-%E2%80%94-1-8-8%E2%80%931-18.537204/)!
