@@ -59,7 +59,8 @@ These first 1.18 releases will be unstable and can have performance issues. Plea
 
 [exploit]
 title = "📜 SEVERE EXPLOIT FOUND ON MINECRAFT"
-description = "We have published documentation about the severe exploit that was recently discovered. You can find instructions on how to patch it and update [here](https://docs.bloom.host/exploitfix/)."
+aliases = ["exploit2"]
+description = "We have published documentation about the severe exploit that was recently discovered. You can find instructions on how to update and patch the exploit [here](https://docs.bloom.host/exploitfix/)."
 thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png"
 
 [bungeeguard]
