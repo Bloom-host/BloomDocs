@@ -82,10 +82,10 @@ thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/stati
 description = """
 
 :white_check_mark: Spigot - See [here](https://www.spigotmc.org/threads/security-releases-%E2%80%94-1-8-8%E2%80%931-18.537204/)!
-:white_check_mark: Paper - Download the latest build [here](https://papermc.io/downloads) The exploit fix is in **Build #64** and newer for MC 1.18 / **Build #398** and newer for MC 1.17.1.
-:white_check_mark: Waterfall - Download the latest build [here](https://papermc.io/downloads#Waterfall) The exploit fix is in **Build #467** and newer.
-:white_check_mark: Velocity - Download the latest build [here](https://papermc.io/downloads#Velocity) The exploit fix is in **Build 97** and newer.
-:white_check_mark: Purpur - Download [here](https://purpurmc.org/downloads?v=1.18) The exploit fix is in **Build #1432** and newer for MC 1.18
+:white_check_mark: Paper - Download the latest build [here](https://papermc.io/downloads) - The exploit fix is in **Build #64** and newer for MC 1.18 / **Build #398** and newer for MC 1.17.1.
+:white_check_mark: Waterfall - Download the latest build [here](https://papermc.io/downloads#Waterfall) - The exploit fix is in **Build #467** and newer.
+:white_check_mark: Velocity - Download the latest build [here](https://papermc.io/downloads#Velocity) - The exploit fix is in **Build 97** and newer.
+:white_check_mark: Purpur - Download [here](https://purpurmc.org/downloads?v=1.18) - The exploit fix is in **Build #1432** and newer for MC 1.18
 
 You should be able to download one of the jars above (make sure you download a build with the fix) and upload it to your server jar.
 
