@@ -550,6 +550,7 @@ image = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/im
 
 [emergencyrestore]
 title = "📜 Bloom Docs - Emergency Restores"
+aliases = ["emergencyrestores", "emergencybackup", "emergencybackups"]
 description = """
 We have emergency node backups we can restore your server from. 
 
