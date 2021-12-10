@@ -69,6 +69,8 @@ A fix for the exploit was released by the PaperMC team and subsequently they wer
 
 We recommend everyone to update to the latest stable release and build of their respective server jars to get the fixes for this exploit. Right now Paper and other servers jars are only issuing fixes for **1.17.1** and **1.18**. Paper should be backporting the exploit fix to 1.16.5 soon, but we recommend you update to at least the latest build of **1.17.1** until **1.18** is stable.
 
+We have edited all servers startup commands to include **-Dlog4j2.formatMsgNoLookups=true** in their startup flags, which is supposed to be a temporary fix which prevents the exploit from being abused. If you don't have this flag in your startup command you can add it in the startup tab under the startup flags box.
+
 You can find more information on PaperMC Discord server https://discord.gg/papermc.
 
 """
