@@ -71,8 +71,9 @@ A notice and exploit fixes were released by the PaperMC team and subsquently the
 We recommend everyone to update to the latest stable release and build of their respective server jars to get the fixes for this exploit. Right now Paper and other servers jars are only issuing fixes for 1.17.1 and 1.18. Paper should be backporting the exploit fix to 1.16.5 soon, but we recommend you update to at least the latest build of 1.17.1 until 1.18 is stable.
 
 You can find more information on PaperMC Discord server https://discord.gg/papermc.
+
 """
-[update.fields]
+[exploit.fields]
 1 = ["Jars that have already updated to include a fix for the exploit", """
 :white_check_mark: Spigot - See [here](https://www.spigotmc.org/threads/security-releases-%E2%80%94-1-8-8%E2%80%931-18.537204/)!
 :white_check_mark: Paper - Download the latest build [here](https://papermc.io/downloads) The exploit fix is in **Build #64** and newer for MC 1.18 / **Build #398** and newer for MC 1.17.1.
