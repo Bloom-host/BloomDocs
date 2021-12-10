@@ -63,7 +63,7 @@ colour = "#926cd1"
 title = "Severe Exploit found on a library being used by Minecraft server jars"
 title-icon = true
 description = """
-On December 9, 2022 a exploit was found on one of the logging libraries being used by Minecraft server jars.
+On December 9, 2021 a exploit was found on one of the logging libraries being used by Minecraft server jars.
 
 A fix for the exploit was released by the PaperMC team and subsquently they were also merged by the different forks of Paper.
 
