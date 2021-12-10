@@ -89,11 +89,11 @@ description = """
 
 You should be able to download one of the jars above (make sure you download a build with the fix) and upload it to your server jar.
 
-You can also update your server using our Server Type selector. Just go to the settings page on your server, then select the jar you want to download and select the latest build. Make sure you reference the build # listed above so you know you are downloading a build that has includes the exploit fix. You may also see and make use of an **Update to the latest build** button if you have used our Server Type selector in the past.
+You can also update your server using our Server Type selector. Just go to the settings page on your server, then select the jar you want to download and select the latest build. Make sure you reference the build # listed above so you know you are downloading a build that includes the fix. You may also make use of an **Update to the latest build** button if you have used our Server Type selector in the past.
 
-As a reminder, it's recommended you run a server backup before updating or doing any changes. Check our guide on [How backups works and how to use them](https://docs.bloom.host/backups).
+It's recommended you run a server backup before updating or doing any changes. Check our guide on [How backups works and how to use them](https://docs.bloom.host/backups).
 
-If you need help updating your server please refer to our [Updating](https://docs.bloom.host/1.18) guide and the #support-chat channel on our Discord.
+If you need help updating your server please refer to our [Updating](https://docs.bloom.host/1.18) guide and #support-chat channel.
 
 """
 
