@@ -65,7 +65,7 @@ title-icon = true
 description = """
 On December 9, 2021 a exploit was found on one of the logging libraries being used by Minecraft server jars.
 
-A fix for the exploit was released by the PaperMC team and subsquently they were also merged by the different forks of Paper.
+A fix for the exploit was released by the PaperMC team and subsequently they were also merged by the different forks of Paper.
 
 We recommend everyone to update to the latest stable release and build of their respective server jars to get the fixes for this exploit. Right now Paper and other servers jars are only issuing fixes for **1.17.1** and **1.18**. Paper should be backporting the exploit fix to 1.16.5 soon, but we recommend you update to at least the latest build of **1.17.1** until **1.18** is stable.
 
