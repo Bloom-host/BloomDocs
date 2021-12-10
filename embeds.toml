@@ -51,14 +51,20 @@ For more information about updating your server to the second part of the Caves 
 :white_check_mark: Vanilla - Download [here](https://www.minecraft.net/en-us/download/server)!
 :white_check_mark: Spigot - Download [here](https://www.spigotmc.org/threads/9-years-of-spigotmc-spigot-bungeecord-1-18.534760/)!
 :white_check_mark: Paper - Download [here](https://papermc.io/downloads#Paper-1.18)
-:x: Purpur - NOT RELEASED
+:white_check_mark: Purpur - Download [here](https://purpurmc.org/downloads?v=1.18)
 
 These first 1.18 releases will be unstable and can have performance issues. Please make sure to create a backup before upgrading your server.
 
 """, "false"]
 
+[exploit]
+title = "📜 SEVERE EXPLOIT FOUND ON MINECRAFT"
+aliases = ["exploit2"]
+description = "We have published documentation about the severe exploit that was recently discovered. You can find instructions on how to update and patch the exploit [here](https://docs.bloom.host/exploitfix/)."
+thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png"
+
 [bungeeguard]
-title = "📜 Bloom Docs - BungeeGuard"
+title = ":warning: Bloom Docs - BungeeGuard"
 description = "Check out our comprehensive guide on BungeeGuard [here](https://docs.bloom.host/plugins/bungeeguard/)."
 thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png"
 image = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/ZvaY5o.png"
@@ -160,7 +166,7 @@ Are you new to VPS? Check out our [Get Started with VPS guide](https://docs.bloo
 aliases = ["wl"]
 title = "About the Waitlist"
 description = """
-To enter the Bloom.host waitlist, follow these steps:
+To enter the Bloom.host waitlist, follow these steps
 
 **1.** Join the Waitlist Discord server [here](https://Bloom.host/waitlist).
 **2.** Create a ticket and let us know what plan/location you want to wait for.
@@ -310,14 +316,14 @@ image = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/im
 [billingticket]
 aliases = ["ticket"]
 title = "📜 Upgrades and Changes to services and accounts need Billing Account verification"
-description = "The staff needs to confirm you are the account holder to be able to process upgrades and changes on your services and accounts. Please go to the support section of our Billing Panel located [here](https://billing.bloom.host/supporttickets.php), sign in with your Billing Account and open a Billing Ticket requesting the change or plan upgrade you want. "
+description = "The staff needs to confirm you are the account holder to be able to process upgrades and changes on your services and accounts. Please go to the support section of our Billing Panel located [here](https://billing.bloom.host/supporttickets.php), sign in with your Billing Account and open a Billing Ticket requesting the change or plan upgrade. "
 thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png"
 image = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/billing_ticket.png"
 
 [upgrade]
-aliases = ["upgrades"]
-title = "📜 Plan upgrades need to be requested through the Billing Panel"
-description = "To request a plan upgrade please go to the support section of our Billing Panel located [here](https://billing.bloom.host/supporttickets.php), sign in with your Billing Account and open a Billing Ticket requesting the plan upgrade you want."
+aliases = ["upgrades", "downgrade", "downgrades"]
+title = "📜 Plan changes need to be requested through the Billing Panel"
+description = "To request a plan upgrade or downgrade go to the support section of our Billing Panel located [here](https://billing.bloom.host/supporttickets.php), sign in with your Billing Account and open a Billing Ticket requesting the plan change you want."
 thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png"
 image = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/billing_ticket.png"
 
@@ -341,6 +347,13 @@ title = "📜 Bloom Docs - SFTP"
 description = "Check out our comprehensive guide on using file transfer protocol applications [here](https://docs.bloom.host/sftp)."
 thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png"
 image = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/6IBNVE.png"
+
+[emailchange]
+aliases = ["email", "changemail", "emailaddress", "changemailaddress"]
+title = "📜 Bloom Docs - How to change your email address"
+description = "Check out our comprehensive guide that shows you how to change your email address [here](https://docs.bloom.host/billing/email_change)."
+thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png"
+image = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/billing/email_change/2.png"
 
 [subusers]
 aliases = ["users", "sb"]

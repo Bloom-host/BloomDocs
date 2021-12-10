@@ -31,6 +31,11 @@ module.exports = {
             type: 'doc',
             id: "running_a_server/1.18", // 1.18 update information
         },
+        
+        {
+            type: 'doc',
+            id: "running_a_server/exploitfix",
+        },
 
 
         {
@@ -196,6 +201,7 @@ module.exports = {
             collapsed: true,
             items: [
                 'billing/billing_subusers',
+                'billing/email_change',
                 'billing/cancellations',
                 'billing/refunds',
                 'billing/suspensions_and_terminations',
