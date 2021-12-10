@@ -72,9 +72,8 @@ We recommend everyone to update to the latest stable release and build of their 
 
 You can find more information on PaperMC Discord server https://discord.gg/papermc.
 
-"""
-[exploit.fields]
-1 = ["Jars that have already updated to include a fix for the exploit", """
+**Jars that have already updated to include a fix for the exploit**
+
 :white_check_mark: Spigot - See [here](https://www.spigotmc.org/threads/security-releases-%E2%80%94-1-8-8%E2%80%931-18.537204/)!
 :white_check_mark: Paper - Download the latest build [here](https://papermc.io/downloads) The exploit fix is in **Build #64** and newer for MC 1.18 / **Build #398** and newer for MC 1.17.1.
 :white_check_mark: Waterfall - Download the latest build [here](https://papermc.io/downloads#Waterfall) The exploit fix is in **Build #467** and newer.
@@ -89,7 +88,7 @@ As a reminder, it's recommended you run a server backup before updating or doing
 
 If you need help updating your server please refer to our [Updating](https://docs.bloom.host/1.18) guide and the #support-chat channel on our Discord.
 
-""", "false"]
+"""
 
 [bungeeguard]
 title = "📜 Bloom Docs - BungeeGuard"
