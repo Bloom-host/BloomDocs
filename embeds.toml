@@ -62,7 +62,6 @@ aliases = ["exploits"]
 colour = "#926cd1"
 title = "Severe Exploit found on a library being used by Minecraft server jars"
 title-icon = true
-thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/OcDKml.png"
 description = """
 On December 9, 2022 a exploit was found on one of the logging libraries being used by Minecraft server jars.
 
@@ -78,7 +77,6 @@ aliases = ["exploits2"]
 colour = "#926cd1"
 title = "Jars that have already updated to include a fix for the exploit"
 title-icon = true
-thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/OcDKml.png"
 description = """
 
 :white_check_mark: Spigot - See [here](https://www.spigotmc.org/threads/security-releases-%E2%80%94-1-8-8%E2%80%931-18.537204/)!
