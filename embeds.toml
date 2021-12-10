@@ -2,46 +2,6 @@
 # For more information and detailed settings please check:
 # https://gist.github.com/NotGeri/cb11552ab7a12e20ab495a20826c341f
 
-[help]
-title = "BloomBot Help"
-title-icon = true
-thumbnail = "https://cdn.discordapp.com/icons/720081782980083813/a_b14b3675972cae4aa909387ee4b7995f.gif"
-footer = "BloomBot - Bloom.host"
-[help.fields]
-a = ["❔ Help Commands", """
-• `!help` - Here you are!
-• `!waitlist` - Join the waitlist
-• `!rate` - Satisfied with Bloom?
-• `!chunky` - Pre-generate your map!
-• `!docs` - List of all other documents
-• `!hastebin` - For all your pasting needs!
-""", "true"]
-
-b = ["🔗 Links", """
-• [Website](https://bloom.host/)
-• [Billing Panel](https://bloom.host/billing)
-• [Duck Panel](https://mc.bloom.host/)
-• [VPS Panel](https://vps.bloom.host/)
-• [FAQ](https://bloom.host/faqs)
-""", "true"]
-
-c = ["⚙ Misc Commands", """
-• `!stats` - Some stats
-• `!duck` - Get a random duck!
-• `!suggest <idea>` - Create a suggestion
-• `!fbi` | `!fbiinfo` - Cracked software?
-• `!steal <link | emoji>` - Add a new emoji
-• `!edit <id> <fixed idea>` - Modify your suggestion
-""", "false"]
-
-d = ["🏷️ Ticket Commands", """
-• `!close [reason]` - Close your ticket
-• `!rename <name>` - Rename a ticket
-• `!transfer <@tag | userid>` - Transfer a ticket to another user
-• `!add <@user/role | user/roleid>` - Add a user to your ticket
-• `!remove <@user/role | user/roleid>` - Remove a user from your ticket
-""", "true"]
-
 [billing]
 text = "https://billing.bloom.host"
 [billing.buttons]
@@ -91,9 +51,43 @@ For more information about updating your server to the second part of the Caves 
 :white_check_mark: Vanilla - Download [here](https://www.minecraft.net/en-us/download/server)!
 :white_check_mark: Spigot - Download [here](https://www.spigotmc.org/threads/9-years-of-spigotmc-spigot-bungeecord-1-18.534760/)!
 :white_check_mark: Paper - Download [here](https://papermc.io/downloads#Paper-1.18)
-:x: Purpur - NOT RELEASED
+:white_check_mark: Purpur - Download [here](https://purpurmc.org/downloads?v=1.18)
 
 These first 1.18 releases will be unstable and can have performance issues. Please make sure to create a backup before upgrading your server.
+
+""", "false"]
+
+[exploit]
+aliases = ["exploits"]
+colour = "#926cd1"
+title = "Severe Exploit found on a library being used by Minecraft server jars"
+title-icon = true
+thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/OcDKml.png"
+description = """
+On December 9, 2022 the a exploit was found on one of the logging libraries being used by Minecraft server jars.
+
+A notice and exploit fixes were released by the PaperMC team and subsquently they were also merged by the different forks of Paper.
+
+We recommend everyone to update to the latest stable release and build of their respective server jars to get the fixes for this exploit. Right now Paper and other servers jars are only issuing fixes for 1.17.1 and 1.18. Paper should be backporting the exploit fix to 1.16.5 soon, but we recommend you update to at least the latest build of 1.17.1 until 1.18 is stable.
+
+You can find more information on PaperMC Discord server https://discord.gg/papermc.
+
+"""
+[update.fields]
+1 = ["Jars that have already updated to include a fix for the exploit", """
+:white_check_mark: Spigot - See [here](https://www.spigotmc.org/threads/security-releases-%E2%80%94-1-8-8%E2%80%931-18.537204/)!
+:white_check_mark: Paper - Download the latest build [here](https://papermc.io/downloads) The exploit fix is in **Build #64** and newer for MC 1.18 / **Build #398** and newer for MC 1.17.1.
+:white_check_mark: Waterfall - Download the latest build [here](https://papermc.io/downloads#Waterfall) The exploit fix is in **Build #467** and newer.
+:white_check_mark: Velocity - Download the latest build [here](https://papermc.io/downloads#Velocity) The exploit fix is in **Build 97** and newer.
+:white_check_mark: Purpur - Download [here](https://purpurmc.org/downloads?v=1.18) The exploit fix is in **Build #1432** and newer for MC 1.18
+
+You should be able to download one of the jars above (make sure you download a build with the fix) and upload it to your server jar.
+
+You can also update your server using our Server Type selector. Just go to the settings page on your server, then select the jar you want to download and select the latest build. Make sure you reference the build # listed above so you know you are downloading a build that has includes the exploit fix. You may also see and make use of an **Update to the latest build** button if you have used our Server Type selector in the past.
+
+As a reminder, it's recommended you run a server backup before updating or doing any changes. Check our guide on [How backups works and how to use them](https://docs.bloom.host/backups).
+
+If you need help updating your server please refer to our [Updating](https://docs.bloom.host/1.18) guide and the #support-chat channel on our Discord.
 
 """, "false"]
 
@@ -200,7 +194,7 @@ Are you new to VPS? Check out our [Get Started with VPS guide](https://docs.bloo
 aliases = ["wl"]
 title = "About the Waitlist"
 description = """
-To enter the Bloom.host waitlist, follow these steps:
+To enter the Bloom.host waitlist, follow these steps
 
 **1.** Join the Waitlist Discord server [here](https://Bloom.host/waitlist).
 **2.** Create a ticket and let us know what plan/location you want to wait for.
