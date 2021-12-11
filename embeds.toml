@@ -68,7 +68,7 @@ title = "📜 How to apply the exploit fix"
 aliases = ["applyfix", "exploitfix", "fixexploit"]
 description = "We have updated the panel to add a one-click exploit fix for Minecraft versions 1.12 - 1.16, versions 1.17+ already have the flag applied. **All Minecraft versions should update to the last stable version and build to fix the exploit**. To apply the fix, just go to the settings tab of your server and click on **Minecraft Versions 1.12 - 1.16** under the **FIX MINECRAFT LOG4J VULNERABILITY**. If for any reason you need to remove this flag or your server doesn't start after applying the fix, you can click on the **Remove** button."
 thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png"
-image = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/exploitfix.png"
+image = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/exploitfix2.png"
 
 [bungeeguard]
 title = ":warning: Bloom Docs - BungeeGuard"
