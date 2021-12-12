@@ -58,7 +58,7 @@ These first 1.18 releases will be unstable and can have performance issues. Plea
 """, "false"]
 
 [updating]
-aliases = ["update"]
+aliases = ["update", "changeversion", "changingversions", "changingjar", "changingjars"]
 title = "📜 How to update, change versions or change server jar"
 description = "Check out our comprehensive guide on how to update, change versions or server jar [here](https://docs.bloom.host/updating/)."
 thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png"
