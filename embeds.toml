@@ -32,7 +32,7 @@ Check out our demo panel with all the Duck panel's features and looks!
 [demo.buttons]
 1 = ["Open Demo", "https://demo.bloom.host", "<:aaaduck:755553395363938344>"]
 
-[update]
+[update118]
 aliases = ["1.18"]
 colour = "#926cd1"
 title = "1.18 - Caves & Cliffs Part II"
@@ -46,7 +46,7 @@ Due to this change, some plugins may be **incompatible** and may **require an up
 
 For more information about updating your server to the second part of the Caves & Cliffs update, be sure to check out our **comprehensive guide** on updating to 1.18 **[here](https://docs.bloom.host/1.18)**!
 """
-[update.fields]
+[update118.fields]
 1 = ["Available Software", """
 :white_check_mark: Vanilla - Download [here](https://www.minecraft.net/en-us/download/server)!
 :white_check_mark: Spigot - Download [here](https://www.spigotmc.org/threads/9-years-of-spigotmc-spigot-bungeecord-1-18.534760/)!
@@ -56,6 +56,13 @@ For more information about updating your server to the second part of the Caves 
 These first 1.18 releases will be unstable and can have performance issues. Please make sure to create a backup before upgrading your server.
 
 """, "false"]
+
+[updating]
+aliases = ["update"]
+title = "📜 How to update, change versions or change server jar"
+description = "Check out our comprehensive guide on how to update, change versions or server jar [here](https://docs.bloom.host/updating/)."
+thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png"
+image = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/running_a_server/updating/1.png"
 
 [exploit]
 title = "📜 SEVERE EXPLOIT FOUND ON MINECRAFT"
