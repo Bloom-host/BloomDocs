@@ -173,7 +173,7 @@ module.exports = {
                         'plugins_and_modifications/plugins/prism',
                         'plugins_and_modifications/plugins/servernpc',
                         'plugins_and_modifications/plugins/spark',
-                        'plugins_and_modifications/plugins/tebex',
+                        'plugins_and_modifications/plugins/tebex', // Minecraft server donation store integration, formerly known as BuyCraft
                         'plugins_and_modifications/plugins/vault',
                         'plugins_and_modifications/plugins/venturechat', // Chat handler
                         'plugins_and_modifications/plugins/viaversion',

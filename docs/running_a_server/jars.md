@@ -5,7 +5,7 @@ slug: /jars
 hide_title: true
 hide_table_of_contents: true
 sidebar_label: Server Softwares
-description: This guide will help you add choose which jar to use.
+description: This guide will help you choose which jar to use.
 keywords:
   - Spigot
   - Paper

@@ -47,7 +47,7 @@ image: https://bloom.host/assets/images/logo.png
 
 ### Templates and formatting help:
 
-There is a [Markdown template](https://raw.githubusercontent.com/Billy-Bloom/BloomDocs/master/docs/extras/template.md) which has some examples of markdown formatting elements (and how to use them) such as bold text, strikethrough, headings and links.
+There is a [Markdown template](https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/docs/extras/template.md) which has some examples of markdown formatting elements (and how to use them) such as bold text, strikethrough, headings and links.
 
 You can also see [a formatted version of the template](https://docs.bloom.host/extras/template/) to see what the formatted elements will look like when imported into the documentation website. 
 
@@ -66,7 +66,7 @@ Please note that changes are not instant and may take up to 24 hours to apply.
 When contributing information, make sure that the information is useful and that you know what you are talking about. Do not ramble or write useless information into articles as this is not helpful to users who may look at the wiki for information about the user panel or information about running Minecraft servers.
 
 ## Useful resources
-[Markdown template](https://raw.githubusercontent.com/Billy-Bloom/BloomDocs/master/docs/extras/template.md)
+[Markdown template](https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/docs/extras/template.md)
 
 [Formatted Markdown template](https://docs.bloom.host/extras/template/)
 
