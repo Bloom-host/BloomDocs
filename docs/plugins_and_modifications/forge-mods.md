@@ -30,7 +30,7 @@ For Fabric servers, see the [Fabric mod installation guide](fabric-mods)
 
 You'll first need to find the mod you wish to install. Downloads can be found on a variety of sites. Many mods can be found on [CurseForge](https://www.curseforge.com/minecraft/mc-mods). Make sure you trust the source of your downloads.
 
-In any case, save the mod to your local machine. Mods can either be uploaded via the [web panel](https://mc.bloom.host) or through [SFTP](https://docs.bloom.host/how-to-use-sftp). If you're uploading in bulk, go with the latter.
+In any case, save the mod to your local machine. Mods can either be uploaded via the [web panel](https://mc.bloom.host) or through [SFTP](sftp.md). If you're uploading in bulk, go with the latter.
 
 In your server's root directory, locate the `/mods` folder, if it's not there then create a new directory named `/mods`. Navigate into this folder, and upload your mods' file there! The vast majority of mods require you to restart your server to take effect.
 
