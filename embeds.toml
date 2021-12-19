@@ -870,7 +870,7 @@ You will receive a ping when your spot is ready. In the mean time feel free to a
 title = "Join the waitlist"
 enabled = false
 description = """
-:orange_circle: to join the **Minecraft Essentials** waitlist
+:white_circle: to join the **Minecraft Essentials** waitlist
 :red_circle: to join the **Minecraft Performance** waitlist
 :blue_circle: to join the **Minecraft Performance+** waitlist
 :green_circle: to join the **VPS Performance** waitlist
