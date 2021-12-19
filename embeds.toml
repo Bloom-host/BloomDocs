@@ -781,6 +781,23 @@ colour = "#3ba55d"
 description = "Thank you %username% for opening a ticket! We will be with you as soon as possible. In order for us to best assist you, please provide your server ID and a description of your issue below."
 footer = "Tickets - Bloom.host"
 
+[minecraft-ess]
+enabled = false
+title = "Minecraft Essentials"
+description = """
+:wave:
+Thank you for joining the **Minecraft Essentials** waitlist!
+
+**Please respond with the following choices:**
+```YAML
+Location: Dallas (US Central), Ashburn (US East), Los Angeles (US West), Germany
+Size: 4GB, 6GB
+```
+**Note: selecting multiple options can decrease your wait time significantly.**
+
+You will receive a ping when your spot is ready. In the mean time feel free to ask us any questions and don't forget to join our main Bloom discord at https://discord.gg/bloom
+"""
+
 [minecraft-perf]
 enabled = false
 title = "Minecraft Performance"
@@ -853,6 +870,7 @@ You will receive a ping when your spot is ready. In the mean time feel free to a
 title = "Join the waitlist"
 enabled = false
 description = """
+:orange_circle: to join the **Minecraft Essentials** waitlist
 :red_circle: to join the **Minecraft Performance** waitlist
 :blue_circle: to join the **Minecraft Performance+** waitlist
 :green_circle: to join the **VPS Performance** waitlist
