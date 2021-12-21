@@ -79,15 +79,16 @@ Before you setup this section, change the primary port for your backend servers 
 [servers]
 # Configure your servers here. Each key represents the server's name, and the value
 # represents the IP address of the server to connect to.
-lobby = "127.0.0.1:30066"
-factions = "127.0.0.1:30067"
-minigames = "127.0.0.1:30068"
+lobby = "yourserveripgoeshere:25566"
+factions = "yourserveripgoeshere:25567"
+minigames = "yourserveripgoeshere:25568"
 
 # In what order we should try servers when a player logs in or is kicked from a server.
 try = [
   "lobby"
 ]
 ```
+Replace "yourserveripgoeshere" with your actual server IP. The section after the : is the port, so replace that too with the ports your backend servers are using.
 
 The `try` section you see in the above example is extremely important, essentially this is the order of servers in which Velocity will try to connect incoming players to. If you have it setup like `try = ["survival", "creative", "minigames"]` then players will connect to `survival` by default, then `creative` if `survival` is down, and then `minigames` if the first two are down. Setup your preferred order and then we will continue our editing.
 
