@@ -29,7 +29,7 @@ Make sure to also check out the [Server Optimization Guide](../../running_a_serv
 Check out the [Installing Fabric Mods](../fabric-setup.md) page.
 
 ## The mod list
-> In alphabetical order, updated on 2021-08-02
+
 ### Carpet Mod
 
 Carpet mod adds several new features to the game, which are all disabled by default. It also has several modules that can be enabled, which can optimize the game. To start, download it from [here](https://www.curseforge.com/minecraft/mc-mods/carpet), and put it in your mods folder. Then restart the server, and type the following commands.
