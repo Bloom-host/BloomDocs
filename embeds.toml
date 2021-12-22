@@ -871,8 +871,8 @@ title = "Join the waitlist"
 enabled = false
 description = """
 :white_circle: to join the **Minecraft Essentials** waitlist
-:red_circle: to join the **Minecraft Performance** waitlist
-:blue_circle: to join the **Minecraft Performance+** waitlist
+:blue_circle: to join the **Minecraft Performance** waitlist
+:red_circle: to join the **Minecraft Performance+** waitlist
 :green_circle: to join the **VPS Performance** waitlist
 :orange_circle: to join the **VPS Performance+** waitlist
 """
