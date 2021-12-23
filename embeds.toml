@@ -617,7 +617,7 @@ enabled = true
 
 [plan]
 title = "📜 Bloom Docs - Plan"
-description = "Check out our comprehensive guide on how to install Plan - Player Analytics [here](https://docs.bloom.host/plan)."
+description = "Check out our comprehensive guide on how to install Plan - Player Analytics [here](https://docs.bloom.host/multiplatform/plan/)."
 thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png"
 
 [icon]
