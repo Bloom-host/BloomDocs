@@ -159,6 +159,10 @@
                 "name": "GHS++",
                 "ip": "ghspp.minecraft.best",
                 "type": "PC"
-        }
-        
+        },
+        {
+                "name": "Parallel",
+                "ip": "play.parallelmc.org",
+                "type": "PC"
+        }        
 ]
