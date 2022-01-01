@@ -159,5 +159,15 @@
                 "name": "The Spot SMP",
                 "ip": "thespotsmp.com",
                 "type": "PC"
+        },
+        {
+                "name": "StriderCraft",
+                "ip": "play.stridercraft.net",
+                "type": "PC"
+        },
+        {
+                "name": "OneBlock France",
+                "ip": "oneblockfrance.fr",
+                "type": "PC"
         }
 ]
