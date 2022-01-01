@@ -20,18 +20,8 @@
                 "type": "PC"
         },
         {
-                "name": "RapidzMC",
-                "ip": "play.rapidzmc.com",
-                "type": "PC"
-        },
-        {
                 "name": "HearthCraft",
                 "ip": "play.hearthcraft.net",
-                "type": "PC"
-        },
-        {
-                "name": "VictoriaMC",
-                "ip": "Play.VictoriaMC.xyz",
                 "type": "PC"
         },
         {
@@ -78,11 +68,6 @@
         {
                 "name": "ChumCraft",
                 "ip": "play.ChumCraft.com",
-                "type": "PC"
-        },
-        {
-                "name": "CXMC",
-                "ip": "cxmc.online",
                 "type": "PC"
         },
         {
