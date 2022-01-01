@@ -154,5 +154,11 @@
                 "name": "OneBlock France",
                 "ip": "oneblockfrance.fr",
                 "type": "PC"
+        },
+        {
+                "name": "GHS++",
+                "ip": "ghspp.minecraft.best",
+                "type": "PC"
         }
+        
 ]
