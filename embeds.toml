@@ -918,7 +918,7 @@ enabled = false
 colour = "#ffdc5d"
 title = ":warning: Ticket created outside standard support hours"
 description = """
-Our standard support hours today are between %to% and %from% US Eastern. Current time: %time%.
+Our standard support hours today are between %to% and %from% US Eastern. **Current time: %time%.**
 
 Though we are often available outside of these hours, responses may be delayed until support hours resume. Please consider using <#737803938430189678> for non-technical issues.
 """
