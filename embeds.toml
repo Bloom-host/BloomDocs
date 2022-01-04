@@ -764,7 +764,7 @@ title = "Click the button open a ticket"
 description = """
 Click the button below to open a ticket.
 
-For billing inquiries such as upgrades, downgrades, or refunds, please open a ticket on our billing panel: https://billing.bloom.host/submitticket.php
+**For billing inquiries such as upgrades, downgrades, or refunds, please open a ticket on our billing panel: https://billing.bloom.host/submitticket.php**
 
 Our standard support hours are between 8AM and 8PM US Eastern, although we are often available outside of these hours, responses may be delayed until support hours resume. Please consider using <#737803938430189678> for non-technical issues.
 """
