@@ -769,7 +769,7 @@ Our standard support hours are between 8AM and 8PM US Eastern, although we are o
 Please consider using <#737803938430189678> for non-technical issues.
 """
 [ticket-panel.buttons]
-2 = ["Open Billing Ticket", "https://billing.bloom.host/submitticket.php", ":moneybag:"]
+1 = ["Open Billing Ticket", "https://billing.bloom.host/submitticket.php", ":moneybag:"]
 
 [tickets-default]
 enabled = false
