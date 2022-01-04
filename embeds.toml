@@ -913,7 +913,7 @@ Our standard support hours today are between %to% and %from% US Eastern. Current
 Though we are often available outside of these hours, responses may be delayed until support hours resume. Please consider using <#737803938430189678> for non-technical issues.
 """
 [time-warn.buttons]
-1 = ["Open Billing Ticket", "https://billing.bloom.host/submitticket.php", ":moneybag:"]
+1 = ["Use #support-chat", "https://discord.com/channels/720081782980083813/737803938430189678", ":moneybag:"]
 
 [claims]
 enabled = false
