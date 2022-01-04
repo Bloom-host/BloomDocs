@@ -37,7 +37,7 @@ To request a modpack make sure that the modpack has a server pack under the "Fil
 
 Grab the link to the Modpack CurseForge page and make a suggestion on our [Discord server](https://discord.gg/bloom).
 
-To create a suggestion go to the [#bot-commands](https://discord.gg/pTUkQ2Dmbw) and type !suggest (suggestion goes here), make sure that you include the link to the modpack.
+To create a suggestion go to the [#bot-commands](https://discord.gg/pTUkQ2Dmbw) channel of our [Discord server](https://discord.gg/bloom) and type !suggest (suggestion goes here), make sure that you include the link to the modpack.
 
 ## Modpacks currently available (list is updated manually)
 
