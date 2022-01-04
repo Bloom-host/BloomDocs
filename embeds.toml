@@ -744,9 +744,9 @@ b = ["Read Contribrution Docs", "https://docs.bloom.host/extras/contributing#edi
 # └───────────────┘
 [ticket-panel]
 enabled = false
-title = "React to open a ticket"
+title = "Click the button open a ticket"
 description = """
-React to this message with :duck: to open a ticket!
+Click the button below to open a ticket.
 
 For billing inquiries such as upgrades, downgrades, or refunds, please open a ticket on our billing panel: https://billing.bloom.host/submitticket.php
 
@@ -757,15 +757,15 @@ Our standard support hours are between 8AM and 8PM US Eastern, although we are o
 enabled = false
 title = "🦆 New Ticket"
 colour = "#FFFFF1"
-description = "Thank you %username% for opening a ticket! We will be with you as soon as possible. In order for us to best assist you, please provide your server ID and a description of your issue below."
+description = "Thank you %username% for opening a ticket! We will be with you as soon as possible. For us to better assist you, please provide your server ID and a description of your issue."
 footer = "Tickets - Bloom.host"
 
 [tickets-general]
 enabled = false
-title = "🦆 Ticket"
+title = "🦆 Ticket Created"
 colour = "#FFFFF1"
 description = """
-Thank you, %username% for opening a ticket! We will be with you as soon as possible. In order for us to best assist you, please provide your server ID and a description of your issue below.
+Thank you, %username% for opening a ticket! We will be with you as soon as possible. For us to better assist you, please provide your server ID and a description of your issue.
 
 For billing inquiries such as upgrades, downgrades, or refunds, please open a ticket on our billing panel: https://billing.bloom.host/submitticket.php.
 """
@@ -906,7 +906,7 @@ description = """
 [time-warn]
 enabled = false
 colour = "#ffdc5d"
-title = ":wave: Heads up!"
+title = ":warning: Ticket created outside standard support hours"
 description = """
 Our standard support hours today are between %to% and %from% US Eastern. Current time: %time%.
 
