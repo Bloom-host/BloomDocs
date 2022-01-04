@@ -19,6 +19,14 @@ keywords:
 <h1>Installing Modpacks from CurseForge</h1>
 </div>
 
+## New One-Click Modpack Installer from Bloom
+
+:::Warning
+Before following this guide, make sure that the modpack that you want to install isn't on the 'Modpacks' tab of our Minecraft panel. If the modpack is there, you can just click it and it will be automatically installed for you. 
+
+To see a list of available modpacks please visit our [Modpack list page](https://docs.bloom.host/extras/available-modpacks), in that page we also explain the process you have to follow if you want us to add a modpack to our One-Click Modpack installer.
+:::
+
 :::note
 This tutorial can also be used to update your server mod pack, just replace the old files with the new generated files. Always take a backup before updating your server.
 :::
