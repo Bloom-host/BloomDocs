@@ -216,6 +216,7 @@ module.exports = {
             collapsed: true,
             items: [
                 'extras/account-details',
+                'extras/available-modpacks',
 	        'extras/grafana',
                 'extras/mobile-app',
                 'extras/srvcontrol',

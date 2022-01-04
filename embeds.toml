@@ -497,6 +497,19 @@ title = "📜 Bloom Docs - Installing a modpack on your server"
 description = "Check out our comprehensive guide on installing Modpacks to your server [here](https://docs.bloom.host/modpacks/)."
 thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png"
 
+[modpacklist]
+aliases = ["modpackslist"]
+title = "📜 List of available modpacks on Bloom's One-Click Modpack Installer"
+description = """
+Check out the list of available modpacks on Bloom's One-Click Modpack Installer [here](https://docs.bloom.host/extras/available-modpacks). 
+
+You can also request a modpack to be added by making a suggestion at #732447339393843251 by using !suggest (Suggestion goes here). 
+
+Make sure that you include a link to your modpack and that it it's a Forge pack with a serverpack version under the 'Files' tab of CurseForge.
+"""
+thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png"
+image = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/modpacklist.png"
+
 [forge]
 title = "📜 Bloom Docs - Forge"
 description = "Check out our comprehensive guide on installing Forge to your server [here](https://docs.bloom.host/forge-setup/)."
