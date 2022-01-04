@@ -762,9 +762,13 @@ footer = "Tickets - Bloom.host"
 
 [tickets-general]
 enabled = false
-title = "🦆 General Ticket"
+title = "🦆 Ticket"
 colour = "#FFFFF1"
-description = "Thank you %username% for opening a ticket! We will be with you as soon as possible. In order for us to best assist you, please provide your server ID and a description of your issue below."
+description = """
+Thank you, %username% for opening a ticket! We will be with you as soon as possible. In order for us to best assist you, please provide your server ID and a description of your issue below.
+
+For billing inquiries such as upgrades, downgrades, or refunds, please open a ticket on our billing panel: https://billing.bloom.host.
+"""
 footer = "Tickets - Bloom.host"
 
 [tickets-billing]
@@ -906,7 +910,7 @@ Our standard support hours today are between %to% and %from% US Eastern. Current
 Though we are often available outside of these hours, responses may be delayed until support hours resume.
 """
 [time-warn.buttons]
-1 = ["Open Billing Ticket", "https://billing.bloom.host", ":moneybag:"]
+1 = ["Open Billing Ticket", "https://billing.bloom.host/submitticket.php?step=2&deptid=3", ":moneybag:"]
 
 [claims]
 enabled = false
