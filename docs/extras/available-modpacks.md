@@ -4,7 +4,7 @@ title: Available Modpacks on our One-Click Installer and Updater
 hide_title: true
 hide_table_of_contents: true
 sidebar_label: Available Modpacks on our One-Click Installer
-description: This guide will help show you the available modpacks on Bloom's Modpack One-Click Installer
+description: List of available modpacks on Bloom's Modpack One-Click Installer
 keywords:
   - Bloom.host
   - Bloom.host mods
