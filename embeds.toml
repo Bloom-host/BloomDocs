@@ -764,23 +764,7 @@ footer = "Tickets - Bloom.host"
 enabled = false
 title = "🦆 General Ticket"
 colour = "#FFFFF1"
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-description = """
-Thank you, %username% for opening a ticket! We will be with you as soon as possible. In order for us to best assist you, please provide your server ID and a description of your issue below.
-
-For billing inquiries such as upgrades, downgrades, or refunds, please open a ticket on our billing panel: https://billing.bloom.host.
-"""
-=======
 description = "Thank you %username% for opening a ticket! We will be with you as soon as possible. In order for us to best assist you, please provide your server ID and a description of your issue below."
->>>>>>> parent of a648bca3 (Update embeds.toml)
-=======
-description = "Thank you %username% for opening a ticket! We will be with you as soon as possible. In order for us to best assist you, please provide your server ID and a description of your issue below."
->>>>>>> parent of a648bca3 (Update embeds.toml)
-=======
-description = "Thank you %username% for opening a ticket! We will be with you as soon as possible. In order for us to best assist you, please provide your server ID and a description of your issue below."
->>>>>>> parent of a648bca3 (Update embeds.toml)
 footer = "Tickets - Bloom.host"
 
 [tickets-billing]
