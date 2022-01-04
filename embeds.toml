@@ -337,7 +337,10 @@ image = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/im
 [billingticket]
 aliases = ["ticket"]
 title = "📜 Upgrades and Changes to services and accounts need Billing Account verification"
-description = "The staff needs to confirm you are the account holder to be able to process upgrades and changes on your services and accounts. Please go to the support section of our Billing Panel located [here](https://billing.bloom.host/supporttickets.php), sign in with your Billing Account and open a Billing Ticket requesting the change or plan upgrade. "
+description = """The staff needs to confirm you are the account holder to be able to process upgrades and changes on your services and accounts. 
+
+Please go to the support section of our Billing Panel located [here](https://billing.bloom.host/supporttickets.php), sign in with your Billing Account and open a Billing Ticket requesting the change or plan upgrade.
+"""
 thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png"
 image = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/billing_ticket.png"
 [billingticket.buttons]
