@@ -20,18 +20,8 @@
                 "type": "PC"
         },
         {
-                "name": "RapidzMC",
-                "ip": "play.rapidzmc.com",
-                "type": "PC"
-        },
-        {
                 "name": "HearthCraft",
                 "ip": "play.hearthcraft.net",
-                "type": "PC"
-        },
-        {
-                "name": "VictoriaMC",
-                "ip": "Play.VictoriaMC.xyz",
                 "type": "PC"
         },
         {
@@ -78,11 +68,6 @@
         {
                 "name": "ChumCraft",
                 "ip": "play.ChumCraft.com",
-                "type": "PC"
-        },
-        {
-                "name": "CXMC",
-                "ip": "cxmc.online",
                 "type": "PC"
         },
         {
@@ -159,5 +144,25 @@
                 "name": "The Spot SMP",
                 "ip": "thespotsmp.com",
                 "type": "PC"
-        }
+        },
+        {
+                "name": "StriderCraft",
+                "ip": "play.stridercraft.net",
+                "type": "PC"
+        },
+        {
+                "name": "OneBlock France",
+                "ip": "oneblockfrance.fr",
+                "type": "PC"
+        },
+        {
+                "name": "GHS++",
+                "ip": "ghspp.minecraft.best",
+                "type": "PC"
+        },
+        {
+                "name": "Parallel",
+                "ip": "play.parallelmc.org",
+                "type": "PC"
+        }        
 ]

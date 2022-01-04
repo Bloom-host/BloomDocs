@@ -296,6 +296,11 @@ If you don't receive the email, you can click on 'Forgot Password?' and it will 
 
 **Remember to join our main Discord server:** https://discord.gg/bloom
 """
+[welcome.buttons]
+1 = ["Join main Discord", "https://discord.gg/bloom", ":bloom:"]
+2 = ["Open Minecraft Panel", "https://mc.bloom.host", ":bloom:"]
+3 = ["Open VPS Panel", "https://vps.bloom.host", ":bloom:"]
+
 
 [waterfall]
 title = "📜 Bloom Docs - Setting up a Waterfall Proxy Server"
@@ -330,18 +335,29 @@ thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/stati
 image = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/I5X0x8.png"
 
 [billingticket]
-aliases = ["ticket"]
+aliases = ["ticket", "verification", "verify"]
 title = "📜 Upgrades and Changes to services and accounts need Billing Account verification"
-description = "The staff needs to confirm you are the account holder to be able to process upgrades and changes on your services and accounts. Please go to the support section of our Billing Panel located [here](https://billing.bloom.host/supporttickets.php), sign in with your Billing Account and open a Billing Ticket requesting the change or plan upgrade. "
+description = """The staff needs to confirm you are the account holder to be able to process changes on your services and accounts. 
+
+Please go to the support section of our Billing Panel located [here](https://billing.bloom.host/supporttickets.php), sign in with your Billing Account and open a Billing Ticket requesting the change or plan upgrade.
+"""
 thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png"
 image = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/billing_ticket.png"
+[billingticket.buttons]
+1 = ["Open Billing Ticket", "https://billing.bloom.host/submitticket.php", ":bloom:"]
 
 [upgrade]
 aliases = ["upgrades", "downgrade", "downgrades"]
 title = "📜 Plan changes need to be requested through the Billing Panel"
-description = "To request a plan upgrade or downgrade go to the support section of our Billing Panel located [here](https://billing.bloom.host/supporttickets.php), sign in with your Billing Account and open a Billing Ticket requesting the plan change you want."
+description = """To request a plan upgrade or downgrade go to the support section of our Billing Panel located [here](https://billing.bloom.host/supporttickets.php), sign in with your Billing Account and open a Billing Ticket requesting the plan change you want.
+
+**Before requesting the upgrade make sure that the plan you want to upgrade to is in stock on https://bloom.host. If the plan is not in stock, you will need to join the waitlist.**
+"""
 thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png"
 image = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/billing_ticket.png"
+[upgrade.buttons]
+1 = ["Request Upgrade", "https://billing.bloom.host/submitticket.php", ":bloom:"]
+2 = ["Join Waitlist", "https://discord.gg/DcFNkRvfBK", ":bloom:"]
 
 [documentation]
 aliases = ["docs-link", "doc-link"] # Original 'docs' alias conflicted with a different command
@@ -630,7 +646,7 @@ enabled = true
 
 [plan]
 title = "📜 Bloom Docs - Plan"
-description = "Check out our comprehensive guide on how to install Plan - Player Analytics [here](https://docs.bloom.host/plan)."
+description = "Check out our comprehensive guide on how to install Plan - Player Analytics [here](https://docs.bloom.host/multiplatform/plan/)."
 thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png"
 
 [icon]
@@ -757,28 +773,34 @@ b = ["Read Contribrution Docs", "https://docs.bloom.host/extras/contributing#edi
 # └───────────────┘
 [ticket-panel]
 enabled = false
-title = "React to open a ticket"
+title = "Click the button to open a ticket"
 description = """
-React to this message with :duck: to open a ticket!
+For billing inquiries such as upgrades, downgrades, or refunds, please open a ticket on our billing panel: https://billing.bloom.host/submitticket.php
 
-For billing inquiries, please create a ticket through the support section on our billing portal: https://billing.bloom.host
+Our standard support hours are between 8AM and 8PM US Eastern, although we are often available outside of these hours, responses may be delayed until support hours resume. 
 
-Our standard support hours are between 8AM and 8PM US Eastern, although we are often available outside of these hours. Please consider using <#737803938430189678> for non-technical issues.
+Please consider using <#737803938430189678> for non-technical issues.
 """
 
 [tickets-default]
 enabled = false
 title = "🦆 New Ticket"
 colour = "#FFFFF1"
-description = "Thank you %username% for opening a ticket! We will be with you as soon as possible. In order for us to best assist you, please provide your server ID and a description of your issue below."
+description = "Thank you %username% for opening a ticket! We will be with you as soon as possible. For us to better assist you, please provide your server ID and a description of your issue."
 footer = "Tickets - Bloom.host"
 
 [tickets-general]
 enabled = false
-title = "🦆 General Ticket"
+title = "🦆 Ticket Created"
 colour = "#FFFFF1"
-description = "Thank you %username% for opening a ticket! We will be with you as soon as possible. In order for us to best assist you, please provide your server ID and a description of your issue below."
+description = """
+Thank you, %username% for opening a ticket! We will be with you as soon as possible. For us to better assist you, please provide your server ID and a description of your issue.
+
+For billing inquiries such as upgrades, downgrades, or refunds, please open a ticket on our billing panel: https://billing.bloom.host/submitticket.php
+"""
 footer = "Tickets - Bloom.host"
+[tickets-general.buttons]
+2 = ["Open Billing Ticket", "https://billing.bloom.host/submitticket.php", ":moneybag:"]
 
 [tickets-billing]
 enabled = false
@@ -809,6 +831,8 @@ Size: 4GB, 6GB
 **Note: selecting multiple options can decrease your wait time significantly.**
 
 You will receive a ping when your spot is ready. In the mean time feel free to ask us any questions and don't forget to join our main Bloom discord at https://discord.gg/bloom
+
+**If this is a transfer from another Bloom location or a plan upgrade, please provide your Bloom.host Billing Account email address.**
 """
 
 [minecraft-perf]
@@ -826,6 +850,8 @@ Size: 8GB, 12GB, 16GB, 20GB, 24GB, 32GB
 **Note: selecting multiple options can decrease your wait time significantly.**
 
 You will receive a ping when your spot is ready. In the mean time feel free to ask us any questions and don't forget to join our main Bloom discord at https://discord.gg/bloom
+
+**If this is a transfer from another Bloom location or a plan upgrade, please provide your Bloom.host Billing Account email address.**
 """
 
 [minecraft-perfplus]
@@ -843,6 +869,8 @@ Size: 8GB, 12GB, 16GB, 20GB, 24GB, 32GB
 **Note: selecting multiple options can decrease your wait time significantly.**
 
 You will receive a ping when your spot is ready. In the mean time feel free to ask us any questions and don't forget to join our main Bloom discord at https://discord.gg/bloom
+
+**If this is a transfer from another Bloom location or a plan upgrade, please provide your Bloom.host Billing Account email address.**
 """
 
 [vps-perf]
@@ -860,6 +888,8 @@ Size: 4GB, 8GB, 12GB, 16GB, 20GB, 24GB
 **Note: selecting multiple options can decrease your wait time significantly.**
 
 You will receive a ping when your spot is ready. In the mean time feel free to ask us any questions and don't forget to join our main Bloom discord at https://discord.gg/bloom
+
+**If this is a transfer from another Bloom location or a plan upgrade, please provide your Bloom.host Billing Account email address.**
 """
 
 [vps-perfplus]
@@ -877,6 +907,8 @@ Size: 4GB, 8GB, 12GB, 16GB, 20GB, 24GB
 **Note: selecting multiple options can decrease your wait time significantly.**
 
 You will receive a ping when your spot is ready. In the mean time feel free to ask us any questions and don't forget to join our main Bloom discord at https://discord.gg/bloom
+
+**If this is a transfer from another Bloom location or a plan upgrade, please provide your Bloom.host Billing Account email address.**
 """
 
 [whitelistpanelthing]
@@ -884,8 +916,8 @@ title = "Join the waitlist"
 enabled = false
 description = """
 :white_circle: to join the **Minecraft Essentials** waitlist
-:red_circle: to join the **Minecraft Performance** waitlist
-:blue_circle: to join the **Minecraft Performance+** waitlist
+:blue_circle: to join the **Minecraft Performance** waitlist
+:red_circle: to join the **Minecraft Performance+** waitlist
 :green_circle: to join the **VPS Performance** waitlist
 :orange_circle: to join the **VPS Performance+** waitlist
 """
@@ -913,13 +945,16 @@ description = """
 [time-warn]
 enabled = false
 colour = "#ffdc5d"
-title = ":wave: Heads up!"
+title = ":warning: Ticket created outside standard support hours"
 description = """
-Our standard support hours today are between %to% and %from% US Eastern. Current time: %time%.
-Though we are often available outside of these hours, responses may be delayed until support hours resume.
+Our standard support hours today are between %to% and %from% US Eastern. **Current time: %time%.**
+
+Though we are often available outside of these hours, responses may be delayed until support hours resume. 
+
+Please consider using <#737803938430189678> for non-technical issues.
 """
 [time-warn.buttons]
-1 = ["Open Billing Ticket", "https://billing.bloom.host", ":moneybag:"]
+1 = ["Use #support-chat", "https://discord.com/channels/720081782980083813/737803938430189678", ":moneybag:"]
 
 [claims]
 enabled = false
