@@ -281,7 +281,7 @@ thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/stati
 
 [welcome]
 aliases = ["login", "credentials"]
-title = "📜 Welcome to Bloom!"
+title = ":bloom: Welcome to Bloom!"
 description = """Welcome to Bloom! We are happy to have you!
 
 You can log in into our Minecraft panel using this link: https://mc.bloom.host
