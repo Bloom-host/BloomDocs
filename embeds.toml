@@ -783,7 +783,7 @@ colour = "#FFFFF1"
 description = """
 Thank you, %username% for opening a ticket! We will be with you as soon as possible. For us to better assist you, please provide your server ID and a description of your issue.
 
-For billing inquiries such as upgrades, downgrades, or refunds, please open a ticket on our billing panel: https://billing.bloom.host/submitticket.php.
+For billing inquiries such as upgrades, downgrades, or refunds, please open a ticket on our billing panel: https://billing.bloom.host/submitticket.php
 """
 footer = "Tickets - Bloom.host"
 [tickets-general.buttons]
@@ -936,7 +936,9 @@ title = ":warning: Ticket created outside standard support hours"
 description = """
 Our standard support hours today are between %to% and %from% US Eastern. **Current time: %time%.**
 
-Though we are often available outside of these hours, responses may be delayed until support hours resume. Please consider using <#737803938430189678> for non-technical issues.
+Though we are often available outside of these hours, responses may be delayed until support hours resume. 
+
+Please consider using <#737803938430189678> for non-technical issues.
 """
 [time-warn.buttons]
 1 = ["Use #support-chat", "https://discord.com/channels/720081782980083813/737803938430189678", ":moneybag:"]
