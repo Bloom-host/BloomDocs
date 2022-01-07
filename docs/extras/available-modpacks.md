@@ -39,6 +39,10 @@ Grab the link to the Modpack CurseForge page and make a suggestion on our [Disco
 
 To create a suggestion go to the [#bot-commands](https://discord.gg/pTUkQ2Dmbw) channel of our [Discord server](https://discord.gg/bloom) and type !suggest (suggestion goes here), make sure that you include the link to the modpack.
 
+:::note
+The list of modpacks in this document is updated manually, if you want to see the actual list of modpacks please go to https://demo.bloom.host and sign in with user demo and password demo, select the server, then go to the modpack section to see the most up to date list of modpacks.
+:::
+
 ## Modpacks currently available (list is updated manually)
 
 1. A Bit Of Everything
@@ -136,3 +140,56 @@ To create a suggestion go to the [#bot-commands](https://discord.gg/pTUkQ2Dmbw) 
 93. Valhesia 2 - 1.15
 94. Valhesia 3 - 1.16
 95. Volcano Block
+96. All in One [Modded One Block]
+97. All of Fabric 3 - 1.16.5
+98. All of Fabric 4 - 1.17.1
+99. All of Fabric 5 - 1.18.1
+100. All the Mods 3 - Remix - ATM3R
+101. All the Mods 3  Expert - ATM3E
+102. All the Mods 3: Lite - ATM3L
+103. All the Mods Lite - ATM1L
+104. Amnesia
+105. Another Quality Modpack 2 - 1.18.1 l 1.17.1
+106. Another Quality Modpack 3 - 1.18.1
+107. Awakening - Sky of Diamonds
+108. Better Minecraft Skyblock
+109. Cave Factory
+110. Craft For Life Edition
+111. Craft of The Titans
+112. Craft of The Titans II: The GOG Remix
+113. Craft to Exile [Dissonance]
+114. Craft to Exile [Harmony]
+115. Crop Block
+116. Demon Slayers Unleashed
+117. EggBlock
+118. Engineer's Life 2
+119. Enigmatica 4 - E4
+120. FoolCraft
+121. Glacial Awakening
+122. God Block
+123. GregBlock
+124. Invasion
+125. Just Not Enough Mods (JNEM)
+126. Kinda Crazy Craft
+127. Last Days of Humanity
+128. MC Odyssey
+129. Medieval Minecraft [Fabric] - 1.18.1
+130. Omnifactory
+131. Permafrost - Eyes of the Storm
+132. Plunger
+133. Pokehaan Craft - Lite
+134. Pokemon Adventure
+135. Project Ozone 2: Reloaded
+136. Project Ozone Lite
+137. Seapolis
+138. Sky Bees
+139. Stacia Expert
+140. Stay True - Minecraft 1.30 Update
+141. Team Rustic 4
+142. Techopolis
+143. The Final Frontier 2
+144. The Pixelmon Modpack
+145. The Vanilla Experinece (Modpack) l TVE
+146. TrollCraft
+147. Valhelsia: Enhanced Vanilla - 1.18
+
