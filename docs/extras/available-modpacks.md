@@ -43,7 +43,7 @@ To create a suggestion go to the [#bot-commands](https://discord.gg/pTUkQ2Dmbw) 
 The list of modpacks in this document is updated manually, if you want to see the actual list of modpacks please go to https://demo.bloom.host and sign in with user demo and password demo, select the server, then go to the modpack section to see the most up to date list of modpacks.
 :::
 
-## Modpacks currently available (list is updated manually)
+## Modpacks currently available (list is updated manually and not in alphabetical order)
 
 1. A Bit Of Everything
 2. Agrarian Skies
