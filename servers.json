@@ -164,5 +164,10 @@
                 "name": "Parallel",
                 "ip": "play.parallelmc.org",
                 "type": "PC"
+        },
+        {
+                "name": "MinecraftPlanetEarth",
+                "ip": "mc.minecraftplanetearth.com",
+                "type": "PC"
         }        
 ]
