@@ -28,15 +28,17 @@ Make sure to also check out the [Server Optimization Guide](../../running_a_serv
 
 Check out the [Installing Fabric Mods](../fabric-setup.md) page.
 
+--- 
+
 ## The mod list
 
 ### Carpet Mod
 
-Carpet mod adds several new features to the game, which are all disabled by default. It also has several modules that can be enabled, which can optimize the game. To start, download it from [here](https://www.curseforge.com/minecraft/mc-mods/carpet), and put it in your mods folder. Then restart the server, and type the following commands.
+Carpet mod adds several new features to the game, which are all disabled by default. It also has several modules that can be enabled, which can optimize the game. 
 
-`/carpet setDefault lagFreeSpawning true` 
+[CurseForge Page](https://www.curseforge.com/minecraft/mc-mods/carpet)
 
-`/carpet setDefault maxEntityCollisions 2`
+---
 
 ### Chunky 
 
@@ -46,13 +48,17 @@ See [Fabric Mods: Chunky](/multiplatform/chunky)
 [Modrinth Page](https://modrinth.com/mod/chunky)  
 [CurseForge Page](https://www.curseforge.com/minecraft/mc-mods/chunky-pregenerator)
 
+---
+
 ### Krypton
 Performance enhancing mod by Astei/Tux that optimizes network usage.
 
-"Krypton is a Fabric mod that attempts to optimize the Minecraft networking stack. It derives from work done in the Velocity and Tuinity projects."
+"Krypton is a Fabric mod that attempts to optimize the Minecraft networking stack."
 
 [Modrinth Page](https://modrinth.com/mod/krypton)  
 [CurseForge Page](https://www.curseforge.com/minecraft/mc-mods/krypton)
+
+---
 
 ### LazyDFU
 Performance enhancing mod by Astei/Tux that makes your server start faster.
@@ -61,6 +67,8 @@ Performance enhancing mod by Astei/Tux that makes your server start faster.
 
 [Modrinth Page](https://modrinth.com/mod/lazydfu)  
 [CurseForge Page](https://www.curseforge.com/minecraft/mc-mods/lazydfu)
+
+---
 
 ### Lithium
 
@@ -71,20 +79,39 @@ Performance enhancing mod by Jellysquid that optimizes general-purpose systems.
 [Modrinth Page](https://modrinth.com/mod/lithium)  
 [CurseForge Page](https://www.curseforge.com/minecraft/mc-mods/lithium/)  
 
-### Phosphor
-> Not updated to 1.17 at the time of writing, use starlight as an alternative
+---
 
-Performance enhancing mod by Jellysquid that optimizes the lighting engine.
+### Phosphor
+
+Performance enhancing mod by Jellysquid that optimizes the lighting engine. The most noticable impact of this mod is chunk generation speed.  
 
 "Phosphor is a Minecraft mod which works to optimize one of game's most inefficient areas-- the lighting engine."
+
+> Phosphor and Starlight are alternatives to eachother, you can't use both at the same time.
 
 [Modrinth Page](https://modrinth.com/mod/phosphor)  
 [CurseForge Page](https://www.curseforge.com/minecraft/mc-mods/phosphor/)
 
+---
+
 ### Starlight
 
-Performance enhancing mod by Spottedleaf that completely rewrites the vanilla lighting engine to make it faster.  
+Performance enhancing mod by Spottedleaf that completely rewrites the vanilla lighting engine to make it *much* faster. The most noticable impact of this mod is chunk generation speed.  
 
-"Rewrites the light engine to fix lighting performance and lighting errors "
+"Mod for rewriting the light engine to fix lighting performance and lighting errors."
 
-[Github Page](https://github.com/Spottedleaf/Starlight)
+> Phosphor and Starlight are alternatives to eachother, you can't use both at the same time.
+
+[Modrinth Page](https://modrinth.com/mod/starlight)  
+
+---
+
+### Spark
+
+Diagnoses performance of your server, and provides server health reports.  
+
+"spark is a performance profiling plugin/mod for Minecraft clients, servers and proxies."
+
+[Website](https://spark.lucko.me/)
+[Modrinth page](https://modrinth.com/mod/spark)
+[CurseForge Page](https://www.curseforge.com/minecraft/mc-mods/spark)  
