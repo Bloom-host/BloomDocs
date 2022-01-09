@@ -29,7 +29,7 @@ Since 1.13, Minecraft servers have gotten progressively harder to run.
 There are a few ways to make your server run better, we will be outlining some here.
 
 But first, it's good to note that a "perfect" optimization guide does not exist, most optimization changes include changing or removing gameplay features. Each server will be different, *you* have to decide how much you want to change and sacrifice for performance.  
-If you want have performance headroom you might even want to do the opposite! For example, maybe you want an extra high view distance because you think it looks cool.
+If you have performance headroom you might even want to do the opposite! For example, maybe you want an extra high view distance because you think it looks cool.
 
 ---  
 
