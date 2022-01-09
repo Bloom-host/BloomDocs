@@ -161,6 +161,11 @@
                 "type": "PC"
         },
         {
+                "name": "AureliumMC",
+                "ip": "Play.AureliumMC.com",
+                "type": "PC"
+        },
+        {
                 "name": "Parallel",
                 "ip": "play.parallelmc.org",
                 "type": "PC"
