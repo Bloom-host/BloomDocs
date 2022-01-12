@@ -1,0 +1,58 @@
+{
+  "version.label": {
+    "message": "Siguiente",
+    "description": "The label for version current"
+  },
+  "sidebar.docs.category.Getting Started": {
+    "message": "Guía de Inicio",
+    "description": "The label for category Getting Started in sidebar docs"
+  },
+  "sidebar.docs.category.Using the Panel": {
+    "message": "Usando el Panel",
+    "description": "The label for category Using the Panel in sidebar docs"
+  },
+  "sidebar.docs.category.Running a Server": {
+    "message": "Gestionando un Servidor",
+    "description": "The label for category Running a Server in sidebar docs"
+  },
+  "sidebar.docs.category.Plugins & Modification": {
+    "message": "Plugins y Modificaciones",
+    "description": "The label for category Plugins & Modification in sidebar docs"
+  },
+  "sidebar.docs.category.Fabric mods": {
+    "message": "Mods de Fabric",
+    "description": "The label for category Fabric mods in sidebar docs"
+  },
+  "sidebar.docs.category.Multi-platform plugins & mods": {
+    "message": "Plugins y mods Multi-platforma",
+    "description": "The label for category Multi-platform plugins & mods in sidebar docs"
+  },
+  "sidebar.docs.category.Plugins": {
+    "message": "Plugins",
+    "description": "The label for category Plugins in sidebar docs"
+  },
+  "sidebar.docs.category.VPS": {
+    "message": "VPS",
+    "description": "The label for category VPS in sidebar docs"
+  },
+  "sidebar.docs.category.Billing": {
+    "message": "Facturación",
+    "description": "The label for category Billing in sidebar docs"
+  },
+  "sidebar.docs.category.Extras": {
+    "message": "Extras",
+    "description": "The label for category Extras in sidebar docs"
+  },
+  "sidebar.docs.link.Website": {
+    "message": "Sitio Web",
+    "description": "The label for link Website in sidebar docs, linking to https://bloom.host/"
+  },
+  "sidebar.docs.link.Support Discord": {
+    "message": "Soporte en Discord",
+    "description": "The label for link Support Discord in sidebar docs, linking to https://discord.gg/bloom"
+  },
+  "sidebar.docs.link.Feature Summary": {
+    "message": "Resumen de Características",
+    "description": "The label for link Feature Summary in sidebar docs, linking to https://bloom.host/duck-panel"
+  }
+}
