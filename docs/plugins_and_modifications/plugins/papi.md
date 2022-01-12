@@ -23,7 +23,7 @@ Placeholders for individual plugins is downloaded and installed via the eCloud i
 
 ## Install
 
-Download the plugin off the [Spigot resource page](https://www.spigotmc.org/resources/placeholderapi.6245/) and install into the plugins folder (See the [help page](../installing-plugins.md) for help on how to do this)
+Download the plugin off the [Spigot resource page](https://www.spigotmc.org/resources/placeholderapi.6245/) and install into the plugins folder (See the [help page](/installing-plugins) for help on how to do this)
 
 ## Usage
 

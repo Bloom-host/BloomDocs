@@ -13,7 +13,6 @@ module.exports = {
     colorMode: {
       defaultMode: "dark",
       disableSwitch: false,
-      
     },
 
     algolia: {
@@ -29,6 +28,12 @@ module.exports = {
         alt: "Bloom Logo",
         src: "imgs/favicon.ico"
       },
+      items: [
+        {
+          type: 'localeDropdown',
+          position: 'left',
+        },
+      ],
     },
 
     footer: {
@@ -51,4 +56,10 @@ module.exports = {
       },
     ],
   ],
+
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en', 'es'],
+  },
+
 };

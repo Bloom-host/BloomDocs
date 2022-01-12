@@ -30,11 +30,11 @@ Chunk generation in Minecraft is slow, which can sometimes cause server lag or s
 
 ## How to install
 
-For Bukkit/Spigot/Paper servers, check out the [Installing Bukkit/Spigot/Paper plugins](../installing-plugins.md) page.
+For Bukkit/Spigot/Paper servers, check out the [Installing Bukkit/Spigot/Paper plugins](/installing-plugins) page.
 
-For Fabric servers, check out the [Installing Fabric Mods](../fabric-mods.md) page.
+For Fabric servers, check out the [Installing Fabric Mods](/fabric-mods) page.
 
-For Forge servers, check out the [Installing Forge Mods](../forge-mods.md) page.
+For Forge servers, check out the [Installing Forge Mods](/forge-mods) page.
 
 ## Usage
 

@@ -30,6 +30,47 @@ Hey! This is LoJo, one of the contributors. Here is how to make it easy for us t
 
 Easy as that.
 
+# i18n (Internationalization)
+[Docusaurus' official article on the matter](https://docusaurus.io/docs/i18n/introduction)
+
+## Adding a Language
+:::important
+Before adding a language make sure you have a decent amount of articles which are already translated to the language you
+want to add. This way languages with little to none articles are not added to the docs.
+:::
+
+Add your language key to `docusaurus.config.js`, on `i18n/locales`. For example if you were to add French you would do like so:
+```js
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en', 'es', 'fr']
+  }
+```
+
+## Translating
+To translate the sidebar and other menu parts of the docs, use the `npm run docusaurus write-translations -- --locale <locale key>`
+command. (In our French example, it would be `npm run docusaurus write-translations -- --locale fr`). This will generate
+a file inside `./i18n/<language>/docusaurus-plugin-content-docs` called `current.json` which is where you add your translated keys.
+
+To translate actual articles, open the `./i18n/<language>/docusaurus-plugin-content-docs/current` folder and look at the
+folder structure on `./docs`. Follow the same folder structure for each article you want to translate, for example, for
+adding a translation for this article (located on `./docs/extras/contributing.md`) you would add a translated version at
+`./i18n/<language>/docusaurus-plugin-content-docs/current/extras/contributing.md`. Docusaurus will handle the rest.
+
+Unfortunately at the moment Docusaurus only supports building locally one language at a time. To do so, you can use the
+`npm start -- --locale <locale key>` command. (In our French example, it would be `npm start -- --locale fr`).
+
+## Recommendations
+These are not requirements but overall recommendations which you can use while translating.
+
+- Try not translating too literally. You can mix the grammar and wording a little so it can be more understandable in
+your language and by people who don't know about the matter.
+- You can translate constants like button names by adding the translation at the side in parentheses. For example in
+Spanish you could replace `Press Users` to `Presiona **Users** (Usuarios)`. This way people can know to which
+button you're specifically referring to while also knowing what the button actually stands for in their language.
+- If there isn't an exact translation for something like a proper noun (like Duck Panel), it'd be advisable to keep
+it like that, as long as the context around the word is still understandable.
+
 # Help Resources
 
 - [Raw MD Template](https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/docs/extras/template.md) and [this is what it turned out to be](https://docs.bloom.host/extras/template/)!
