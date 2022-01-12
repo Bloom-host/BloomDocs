@@ -174,5 +174,10 @@
                 "name": "MinecraftPlanetEarth",
                 "ip": "mc.minecraftplanetearth.com",
                 "type": "PC"
-        }        
+        },
+        {
+                "name": "LucidMC",
+                "ip": "mc.lucidmc.org",
+                "type": "PC"
+        }
 ]
