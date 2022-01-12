@@ -29,7 +29,7 @@ If you upload or generate a world on a Bukkit/Spigot/Paper server, you will noti
 ## Part 1: Download the world
 **Note:** This is not strictly necessary, you CAN use SFTP or the file manager if you want, but downloading the files makes them much easier to work with.
 
-This is most easily done by archiving the files using the Pterodactyl file manager and downloading them using SFTP. For instructions on using the file manager and SFTP, please see [File Manager Controls](../using_the_panel/file-manager-controls.md) and [How to use SFTP](../using_the_panel/sftp.md), respectively.
+This is most easily done by archiving the files using the Pterodactyl file manager and downloading them using SFTP. For instructions on using the file manager and SFTP, please see [File Manager Controls](https://docs.bloom.host/file-manager-controls/) and [How to use SFTP](https://docs.bloom.host/sftp/), respectively.
 
 ## Part 2: Converting the world
 

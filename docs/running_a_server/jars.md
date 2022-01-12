@@ -87,7 +87,7 @@ Pufferfish is a fork of paper (and as such also includes all of the improvements
 
 
 
-### [Purpur](purpurmc.org/)
+### [Purpur](https://purpurmc.org/)
 "Purpur is a drop-in replacement for Paper servers designed for configurability and new, fun, exciting gameplay features.
 "  
 Purpur aims to make your server more configurable, it adds **a lot** of fun or useful (all off by default) [configuration options](https://purpurmc.org/docs/Configuration/) to your server, it adds these on top of the paper and pufferfish improvements.

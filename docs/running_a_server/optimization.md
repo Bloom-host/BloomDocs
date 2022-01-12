@@ -38,13 +38,13 @@ If you have performance headroom you might even want to do the opposite! For exa
 One of the biggest choices to make before you even start optimizing is choosing the server jar you want to use.
 
 There are a lot of options you can choose from, but for simplicity's sake we
-re just going to outline the two best known "paths", the bukkit platform, and fabric. See our [Server Jars](../jars.md) page if you want to know more.
+re just going to outline the two best known "paths", the bukkit platform, and fabric. See our [Server Jars](/jars) page if you want to know more.
 
 The gist of it is the bukkit platform is generally recommended for bigger public servers and fabric for smaller servers with friends.  
 The bukkit platform allows you to use plugins, and fabric allows you to run mods.
 
 For the bukkit platform the [Paper](https://papermc.io/) jar is recommended, it includes many performance improvements, bug fixes and configuration options  
-For Fabric check our [Fabric Setup](../plugins_and_modifications/fabric-setup.md) page. Fabric by itself doesn't change the game at all, to get performance improvements check out our [Fabric Performance Mods](../plugins_and_modifications/fabric_mods/performance-mods.md) page.
+For Fabric check our [Fabric Setup](/fabric-setup) page. Fabric by itself doesn't change the game at all, to get performance improvements check out our [Fabric Performance Mods](../plugins_and_modifications/fabric_mods/performance-mods.md) page.
 
 ---
 ## Configuration options
