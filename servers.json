@@ -179,5 +179,10 @@
                 "name": "LucidMC",
                 "ip": "mc.lucidmc.org",
                 "type": "PC"
+        },
+        {
+                "name": "Dotarch",
+                "ip": "play.dotarch.co",
+                "type": "PC"
         }
 ]
