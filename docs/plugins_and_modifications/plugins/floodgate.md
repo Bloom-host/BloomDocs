@@ -35,7 +35,7 @@ Once you've installed the plugin, you will have to modify your GeyserMC config. 
 
 After that, restart your server; Bedrock players should now be able to connect to your Java server, without a Java Edition account.  
 
-### Note: If you're using Tebex, you will have to change `username-prefix` to `*`. This is currently the only one Tebex supports. 
+### Note: If you're using Tebex, you will have to change `username-prefix` to `*`. This is currently the only one Tebex supports, that will not cause conflicts with Java Edition accounts. 
 
 ## Info
 [Website](https://geysermc.org/)  
