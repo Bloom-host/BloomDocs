@@ -1,3 +1,4 @@
+
 ---
 id: geysermc
 title: GeyserMC
@@ -38,7 +39,7 @@ GeyserMC requires your server to be on the latest version.
 Once you've installed it, create the allocation 19132 under the ports & proxies on the panel.  
 
 After that, just restart the server, and Bedrock players should now be able to connect to your Java server.  
-
+### Note: If you're also using Floodgate, you will have to set auth-type to floodgate in your Geyser config.yml
 ## Info
 [Website](https://geysermc.org/)  
 
