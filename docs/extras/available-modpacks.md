@@ -28,7 +28,7 @@ Bloom's system automatically checks for Modpack updates every 4 hours. Modpack u
 
 If Bloom's one-click modpack installer doesn't have the latest version of a modpack is either because the system hasn't processed the upgrade or because the system failed to test the updated version of the modpack, in which case we may need to update the modpack manually or wait for the developer to push a fixed version to CurseForge.
 
-Our modpack installer has the top 50 multiplayer modpacks on CurseForge, it also has FTB Modpacks and a curated list of modpacks. The system currently has more than 150+ modpacks that are available to be installed with just one click.
+Our modpack installer has the top 100 multiplayer modpacks on CurseForge, it also has FTB Modpacks and a curated list of modpacks. The system currently has more than 150+ modpacks that are available to be installed with just one click. We are working on adding more modpacks to the installer. If you have a modpack that you want to add to the installer, please contact us.
 
 ---
 
