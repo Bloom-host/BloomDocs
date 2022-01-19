@@ -24,7 +24,7 @@ Hello Bloomers! 👋
 
 This document will show you a list of Modpacks available in Bloom's One-Click Modpack Installer. We also explain you how to request a modpack. 
 
-Bloom's system automatically checks for Modpack updates every 4 hours. Modpack updates would show up after panel cache is cleared one hour after the modpack is updated.
+Bloom's system automatically checks for Modpack updates every 4 hours. Modpack updates will show up after panel cache is cleared one hour after the modpack is updated.
 
 If Bloom's one-click modpack installer doesn't have the latest version of a modpack is either because the system hasn't processed the upgrade or because the system failed to test the updated version of the modpack, in which case we may need to update the modpack manually or wait for the developer to push a fixed version to CurseForge.
 
