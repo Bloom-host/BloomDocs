@@ -24,11 +24,11 @@ Hello Bloomers! 👋
 
 This document will show you a list of Modpacks available in Bloom's One-Click Modpack Installer. We also explain you how to request a modpack. 
 
-Bloom's system automatically checks for Modpack updates once a day at 12:00 AM UTC. Modpack updates would show up after panel cache is cleared one hour after the modpack is updated.
+Bloom's system automatically checks for Modpack updates every 4 hours. Modpack updates would show up after panel cache is cleared one hour after the modpack is updated.
 
 If Bloom's one-click modpack installer doesn't have the latest version of a modpack is either because the system hasn't processed the upgrade or because the system failed to test the updated version of the modpack, in which case we may need to update the modpack manually or wait for the developer to push a fixed version to CurseForge.
 
-Our modpack installer has the top 50 multiplayer modpacks on CurseForge, it also has FTB Modpacks and a curated list of modpacks. The system currently has more than 90 modpacks that are available to be installed with just one click.
+Our modpack installer has the top 50 multiplayer modpacks on CurseForge, it also has FTB Modpacks and a curated list of modpacks. The system currently has more than 150+ modpacks that are available to be installed with just one click.
 
 ---
 
@@ -45,151 +45,163 @@ The list of modpacks in this document is updated manually, if you want to see th
 
 ## Modpacks currently available (list is updated manually and not in alphabetical order)
 
-1. A Bit Of Everything
-2. Agrarian Skies
-3. Agrarian Skies 2
-4. All the Magic Spellbound - ATMS
-5. All the Mods - Slice of Pi2 - ATM SLOP 2 - ATM6 Lite
-6. All the Mods 3 - ATM3
-7. All the Mods 4 - ATM4
-8. All the Mods 5 - ATM5
-9. All the Mods 6 - ATM6 - 1.16.5
-10. All the Mods 6 - To the Sky - ATM6sky - Skyblock
-11. All the Mods 7 - ATM7 - 1.18.1
-12. Better Miencraft [Fabric] - 1.17.1
-13. Better Minecraft [Forge] - 1.16.5
-14. Better Minecraft [Forge] - 1.18.1
-15. Better Minecraft [Plus]
-16. Bounds
-17. Chemical Exchange
-18. Combat Pack
-19. Compact Claustrophobia
-20. Crackpack 3
-21. Create: Above and Beyond
-22. CreateTogether
-23. Crucial 2 - The Refresh Update
-24. Divine Journey
-25. Divine Journey 2
-26. Dungeons, Dragons and Space Shuttles
-27. Engineer's Life
-28. Enigmatica 2 - E2
-29. Enigmatica 2: Expert - E2E
-30. Enigmatica 6 - E6 - 1.16.5
-31. Enigmatica 8
-32. Equivalent Skies
-33. Farming Valley
-34. Farming Valley - Lite
-35. Forever Stranded
-36. FTB Academy 1.12
-37. FTB Academy 1.16
-38. FTB Beyond
+1. Farming Valley
+2. Farming Valley - Lite
+3. Forever Stranded
+4. Space Astronomy 2
+5. FTB Presents Skyfactory 3
+6. FTB Beyond
+7. FTB Presents HermitPack
+8. FTB SkyFactory Challenges
+9. Project Ozone Lite
+10. FoolCraft
+11. Pokemon Adventure 
+12. All the Mods Lite - ATM1L
+13. Craft Of The Titans
+14. Invasion
+15. Last Days of Humanity
+16. Project Ozone 3 A New Way Forward
+17. RLCraft
+18. SkyFactory 4
+19. MC Eternal
+20. Roguelike Adventures and Dungeons
+21. SevTech: Ages
+22. Dungeons, Dragons and Space Shuttles
+23. StoneBlock
+24. Life in the village
+25. Rebirth of the Night (RotN)
+26. Crackpack 3
+27. Hexxit Updated
+28. MC Eternal Lite
+29. Engineer's Life
+30. Enigmatica 2: Expert - E2E
+31. Enigmatica 2 - E2
+32. Seablock: Rustic Waters
+33. Volcano Block
+34. God Block
+35. Chemical Exchange
+36. FTB Presents Direwolf20 1.12
+37. FTB Revelation
+38. FTB Ultimate Reloaded
 39. FTB Builders Paradise
-40. FTB Cotton
-41. FTB Endeavour
-42. FTB Horizons III
-43. FTB Infinity Evolved
-44. FTB Interactions
-45. FTB Lite 3
-46. FTB OceanBlock
-47. FTB Omnia
-48. FTB Presents Direwolf20 1.12
-49. FTB Presents Direwolf20 1.16
-50. FTB Presents HermitPack
-51. FTB Presents Skyfactory 3
-52. FTB Presents Stoneblock 2
+40. Equivalent Skies
+41. Compact Claustrophobia
+42. Pokehaan Craft
+43. FTB Presents Stoneblock 2
+44. SevTech: Ages of the Sky
+45. Modern Skyblock 3: Departed
+46. FTB Academy 1.12
+47. FTB Sky Odyssey
+48. FTB Interactions
+49. FTB University 1.12
+50. FTB Continuum
+51. FTB Sky Adventures
+52. FTB Horizons III
 53. FTB Pyramid Reborn 3.0
-54. FTB Revelation
-55. FTB Sky Adventures
-56. FTB Sky Odyssey
-57. FTB SkyFactory Challenges
-58. FTB Ultimate Reloaded
-59. FTB Ultimate: Anniversary Edition
-60. FTB University 1.12
-61. FTB University 1.16
-62. God Block
-63. Hexxit Updated
-64. HR: New Beginnings
-65. Just Not Enough Mods (JNEM)
-66. Kinda Crazy Craft
-67. Life in the village
-68. Life in the village 2
-69. MC Eternal
-70. MC Eternal Lite
-71. Medieval Minecraft
-72. Modern Skyblock 2
-73. Modern Skyblock 3: Departed
-74. Plunger
-75. Pokehaan Craft
-76. Project Ozone 3 A New Way Forward
-77. Ragnamod VI
-78. Rebirth of the Night (RotN)
-79. RLCraft
-80. Roguelike Adventures and Dungeons
-81. Seablock: Rustic Waters
-82. Seaopolis
-83. SevTech: Ages
-84. SevTech: Ages of the Sky
-85. SkyFactory 4
-86. SkyFactory One
-87. Space Astronomy 2
-88. StoneBlock
-89. The Goopsters Pack
-90. TNP Limitless 3 - 1.16.5
-91. TNP Limitless 5 1.18
-92. Valhesia 1 - 1.14
-93. Valhesia 2 - 1.15
-94. Valhesia 3 - 1.16
-95. Volcano Block
-96. All in One [Modded One Block]
-97. All of Fabric 3 - 1.16.5
-98. All of Fabric 4 - 1.17.1
-99. All of Fabric 5 - 1.18.1
-100. All the Mods 3 - Remix - ATM3R
-101. All the Mods 3  Expert - ATM3E
-102. All the Mods 3: Lite - ATM3L
-103. All the Mods Lite - ATM1L
-104. Amnesia
-105. Another Quality Modpack 2 - 1.18.1 l 1.17.1
-106. Another Quality Modpack 3 - 1.18.1
-107. Awakening - Sky of Diamonds
-108. Better Minecraft Skyblock
-109. Cave Factory
-110. Craft For Life Edition
-111. Craft of The Titans
-112. Craft of The Titans II: The GOG Remix
-113. Craft to Exile [Dissonance]
-114. Craft to Exile [Harmony]
-115. Crop Block
-116. Demon Slayers Unleashed
-117. EggBlock
-118. Engineer's Life 2
-119. Enigmatica 4 - E4
-120. FoolCraft
-121. Glacial Awakening
-122. God Block
-123. GregBlock
-124. Invasion
-125. Just Not Enough Mods (JNEM)
-126. Kinda Crazy Craft
-127. Last Days of Humanity
-128. MC Odyssey
-129. Medieval Minecraft [Fabric] - 1.18.1
-130. Omnifactory
-131. Permafrost - Eyes of the Storm
-132. Plunger
-133. Pokehaan Craft - Lite
-134. Pokemon Adventure
-135. Project Ozone 2: Reloaded
-136. Project Ozone Lite
-137. Seapolis
-138. Sky Bees
-139. Stacia Expert
-140. Stay True - Minecraft 1.30 Update
-141. Team Rustic 4
-142. Techopolis
-143. The Final Frontier 2
-144. The Pixelmon Modpack
-145. The Vanilla Experinece (Modpack) l TVE
-146. TrollCraft
-147. Valhelsia: Enhanced Vanilla - 1.18
+54. Modern Skyblock 2
+55. Bounds
+56. Divine Journey 2
+57. All the Mods 3 - ATM3
+58. Omnifactory
+59. Pokehaan Craft - Lite
+60. Amnesia
+61. MC Odyssey
+62. The Pixelmon Modpack
+63. GregBlock
+64. EggBlock
+65. Crop Block
+66. All the Mods 3 Expert - ATM3E
+67. All the Mods 3 - Remix - ATM3R
+68. All the Mods 3: Lite - ATM3L
+69. Awakening - Sky of Diamonds
+70. Glacial Awakening
+71. Craft Of The Titans II: The GOG Remix
+72. Craft For Life Edition (Realistic Survival Zombie Apocalypse, The Crafting Dead, RLCraft inspired) cfl
+73. InsaneCraft Modpack
+74. AstroBlock
+75. World of Dragons
+76. Levitated
+77. Planetary
+78. Enigmatica 4 - E4
+79. Valhelsia 1 - 1.14
+80. All the Mods 4 - ATM4
+81. Just Not Enough Mods (JNEM)
+82. Valhelsia 2 - 1.15
+83. Plunger
+84. All the Mods 5 - ATM5
+85. HR: New Beginnings
+86. FTB Omnia
+87. Craft to Exile [Dissonance]
+88. All the Mods Fabric - ATMF
+89. Kimetsu no Yaiba (Demon slayer) Mod pack
+90. Mineshafts & Monsters
+91. Stacia Expert
+92. Valhelsia 3 - 1.16
+93. All the Mods 6 - ATM6 - 1.16.5
+94. All the Mods 6 - To the Sky - ATM6sky - Skyblock
+95. A Bit Of Everything
+96. TNP Limitless 3 - 1.16.5
+97. CreateTogether
+98. Better Minecraft [FORGE] - 1.16.5
+99. Enigmatica 6 - E6 - 1.16.5
+100. All the Magic Spellbound - ATMS
+101. Crucial 2 - The Refresh Update
+102. FTB Presents Direwolf20 1.16
+103. FTB OceanBlock
+104. FTB Endeavour
+105. FTB University 1.16
+106. FTB Academy 1.16
+107. FTB Cotton
+108. Life in the village 2
+109. Better Minecraft [PLUS]
+110. Ragnamod VI
+111. SkyFactory One
+112. Create: Above and Beyond
+113. Seaopolis
+114. FTB Ultimate: Anniversary Edition
+115. Medieval Minecraft
+116. All the Mods - Slice of Pi2 - ATM SLOP2 - ATM6 Lite
+117. The Final Frontier 2
+118. All in One [Modded One Block]
+119. Techopolis
+120. Craft to Exile [Harmony]
+121. Permafrost - Eyes of the Storm
+122. Engineer's Life 2
+123. Cave Factory
+124. Stay True - Minecraft 1.30 Update
+125. All of Fabric 3 - 1.16.5
+126. Sky Bees
+127. Demon Slayers Unleashed
+128. Better Minecraft Skyblock
+129. MineColonies Official
+130. Vault Hunters - Official Modpack
+131. All of Fabric 4 - 1.17.1
+132. Valhelsia 4 - 1.17
+133. Better Minecraft [FABRIC] - 1.17.1
+134. All the Mods 7 - ATM7 - 1.18.1
+135. Enigmatica 8
+136. Better Minecraft [FORGE] - 1.18.1
+137. TNP Limitless 5 1.18
+138. Another Quality Modpack 3 - 1.18.1
+139. Team Rustic 4
+140. Another Quality Modpack 2 - 1.18.1 | 1.17.1
+141. The Vanilla Experience (Modpack) | TVE
+142. Medieval Minecraft [FABRIC] - 1.18.1
+143. All of Fabric 5 - 1.18.1
+144. Valhelsia: Enhanced Vanilla - 1.18
+145. Fabulously Optimized
+146. Agrarian Skies
+147. Crash Landing
+148. Direwolf20 - 1.6.4
+149. Kinda Crazy Craft
+150. Agrarian Skies 2
+151. Divine Journey
+152. FTB Lite 3
+153. FTB Infinity Evolved
+154. TrollCraft
+155. FTB Presents Direwolf20
+156. Project Ozone 2: Reloaded
+157. FTB Mage Quest
+158. FTB Presents SkyFactory 2.5
+159. Project Ozone
 
