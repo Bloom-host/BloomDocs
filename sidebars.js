@@ -200,7 +200,6 @@ module.exports = {
             label: 'Billing',
             collapsed: true,
             items: [
-                'billing/billing_subusers',
                 'billing/email_change',
                 'billing/cancellations',
                 'billing/refunds',
