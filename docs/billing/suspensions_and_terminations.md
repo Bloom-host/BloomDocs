@@ -41,7 +41,7 @@ Failure to pay an invoice will result in the service being automatically suspend
 
 Example:
 
-Your invoice is due the 1st at 1:00 AM UTC. If you don't pay it before the 3rd at 1:00 AM UTC the service will be automatically suspended the 3rd at 1:00AM UTC.
+Your invoice is due the 1st at 1:00 AM UTC. If you don't pay it before the 3rd at 1:00 AM UTC the service will be automatically suspended the 3rd at 1:00 AM UTC.
 
 ## What is a Termination?
 
