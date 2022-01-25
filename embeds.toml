@@ -12,7 +12,7 @@ aliases = ["vc", "simplevoicechat", "svc"]
 thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/voicechat.png"
 image = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/voicechat-2.png"
 title = "Sponsored by Bloom: Simple Voice Chat"
-title-icon = true
+title-icon = "%guildicon%"
 description= """
 Simple Voice Chat is an easy-to-use and reliable in-game voice chat modification and plugin for Minecraft servers.
 """
@@ -36,7 +36,7 @@ Check out our demo panel with all the Duck panel's features and looks!
 aliases = ["1.18"]
 colour = "#926cd1"
 title = "1.18 - Caves & Cliffs Part II"
-title-icon = true
+title-icon = "%guildicon%"
 thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/OcDKml.png"
 image = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tT9ujN.jpg"
 description = """
@@ -143,7 +143,7 @@ aliases = ["ping", "network", "mtr"]
 title = "Diagnosing Connection Issues"
 description = "*MTR probes routers on the route path by limiting the number of hops individual packets may traverse, and listening to responses of their expiry.*"
 footer = "BloomBot - Bloom.host"
-footer-icon = true
+footer-icon = "%guildicon%"
 image = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/G7k4om.png"
 [winmtr.fields]
 1 = ["<:windows:849551086158741524> Windows", """
@@ -205,7 +205,7 @@ description = "If you're having a good experience with Bloom.host, rate us!"
 
 [chunky]
 title = "Chunky"
-title-icon = true
+title-icon = "%guildicon%"
 description = """
 Chunky is a fast, easy and safe tool for pre-generating chunks on your server.
 
@@ -336,7 +336,7 @@ image = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/im
 [billingticket]
 aliases = ["ticket", "verification", "verify"]
 title = "📜 Upgrades and Changes to services and accounts need Billing Account verification"
-description = """The staff needs to confirm you are the account holder to be able to process changes on your services and accounts. 
+description = """The staff needs to confirm you are the account holder to be able to process changes on your services and accounts.
 
 Please go to the support section of our Billing Panel located [here](https://billing.bloom.host/supporttickets.php), sign in with your Billing Account and open a Billing Ticket requesting the change or plan upgrade.
 """
@@ -516,9 +516,9 @@ thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/stati
 aliases = ["modpackslist"]
 title = "📜 List of available modpacks on Bloom's One-Click Modpack Installer"
 description = """
-Check out the list of available modpacks on Bloom's One-Click Modpack Installer [here](https://docs.bloom.host/extras/available-modpacks). 
+Check out the list of available modpacks on Bloom's One-Click Modpack Installer [here](https://docs.bloom.host/extras/available-modpacks).
 
-You can also request a modpack to be added by making a suggestion at #bot-commands by using !suggest (Suggestion goes here). 
+You can also request a modpack to be added by making a suggestion at #bot-commands by using !suggest (Suggestion goes here).
 
 Make sure that you include a link to your modpack and that it it's a Forge pack with a serverpack version under the 'Files' tab of CurseForge.
 """
@@ -596,9 +596,9 @@ image = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/im
 title = "📜 Bloom Docs - Emergency Restores"
 aliases = ["emergencyrestores", "emergencybackup", "emergencybackups"]
 description = """
-We have emergency node backups we can restore your server from. 
+We have emergency node backups we can restore your server from.
 
-The first emergency restore is free, but after that is $5 each one. 
+The first emergency restore is free, but after that is $5 each one.
 
 Please open a ticket on our [billing panel](https://billing.bloom.host/supporttickets.php) requesting the emergency restore. In the ticket include the server ID and the approximate time you want your server restored to, please write the time in UTC, you can use [Dateful](https://dateful.com/time-zone-converter) to convert timezones.
 
@@ -705,17 +705,17 @@ colour = "#77b255"
 title = "%username%'s Suggestion"
 enabled = false
 description = "%suggestion%"
-author-thumbnail = true
+thumbnail = "%useravatar%"
 footer = "Suggestion ID: %suggestionid% • %date%"
-footer-icon = true
+footer-icon = "%guildicon%"
 
 [approved-suggestion]
 title = "Approved %username%'s Suggestion"
 colour = "#77b255"
 enabled = false
-author-thumbnail = true
+thumbnail = "%useravatar%"
 footer = "Upvotes: %upvotes% - Downvotes: %downvotes% - Suggestion ID: %suggestionid% • %date%"
-footer-icon = true
+footer-icon = "%guildicon%"
 [approved-suggestion.fields]
 1 = ["Suggestion", "%suggestion%", "false"]
 2 = ["Reason from %staffname%", "%reason%", "false"]
@@ -723,30 +723,22 @@ footer-icon = true
 title = "Denied %username%'s Suggestion"
 enabled = false
 colour = "#ff0000"
-author-thumbnail = true
+thumbnail = "%useravatar%"
 footer = "Upvotes: %upvotes% - Downvotes: %downvotes% - Suggestion ID: %suggestionid% • %date%"
-footer-icon = true
+footer-icon = "%guildicon%"
 [denied-suggestion.fields]
 1 = ["Suggestion", "%suggestion%", "false"]
 2 = ["Reason from %staffname%", "%reason%", "false"]
 
 [join]
-title = "<:blobwave:736379131696119860> Welcome, %username%!"
 enabled = false
-author-thumbnail = true
-description = """
-Welcome to Bloom.host, your source for dedicated Minecraft and VPS hosting!
-
-Make sure to check out <#720099921675681832> to learn more about Bloom.host and read our latest <#720099943460896800>!
-
-For support, check out <#737803938430189678>.
-"""
+description = "**<:blobwave:736379131696119860> Welcome, %username%!**"
 
 [embedtest]
 title = "BloomBot - Contributing"
-title-icon = true
+title-icon = "%guildicon%"
 enabled = false
-footer-icon = true
+footer-icon = "%guildicon%"
 description = """
 If you wish to contribute to <@739984621135069355> without coding knowledge, you can help by creating commands using the TOML format, which is very similar to the more commonly used YAML syntax.
 
@@ -776,10 +768,12 @@ title = "Click the button to open a ticket"
 description = """
 For billing inquiries such as upgrades, downgrades, or refunds, please open a ticket on our billing panel: https://billing.bloom.host/submitticket.php
 
-Our standard support hours are between 8AM and 8PM US Eastern, although we are often available outside of these hours, responses may be delayed until support hours resume. 
+Our standard support hours are between 8AM and 8PM US Eastern, although we are often available outside of these hours, responses may be delayed until support hours resume.
 
 Please consider using <#737803938430189678> for non-technical issues.
 """
+[ticket-panel.buttons]
+a = ["Open Billing Ticket", "https://billing.bloom.host/submitticket.php"]
 
 [tickets-default]
 enabled = false
@@ -930,6 +924,7 @@ description = """
 :tools: **Reason**: %reason%
 :link: **Archive**: [Transcript link here](%link%)
 :grey_question: **Ticket ID**: `#%ticketid%`
+:duck: **Claimed By:** %claimers%
 """
 [ticket-close.fields]
 1 = ["Opened", """
@@ -948,7 +943,7 @@ title = ":warning: Ticket created outside standard support hours"
 description = """
 Our standard support hours today are between %to% and %from% US Eastern. **Current time: %time%.**
 
-Though we are often available outside of these hours, responses may be delayed until support hours resume. 
+Though we are often available outside of these hours, responses may be delayed until support hours resume.
 
 Please consider using <#737803938430189678> for non-technical issues.
 """
@@ -971,7 +966,7 @@ colour = "#ffcc4d"
 # └─────────────────┘
 [infoyes]
 title = "About US"
-title-icon = true
+title-icon = "%guildicon%"
 enabled = false
 description = """
 Our mission is to continue to provide our high-performance game hosting and Virtual Private Servers to both gamers and non-gamers, at affordable and sustainable prices. We only work with top-rated and reliable datacenters and hardware vendors to give you the best performance, up-time, and overall experience. We top all of this off with excellent customer service. At Bloom, we are always improving and listening to feedback. Please contact us with any questions, suggestions, or concerns.
@@ -1071,7 +1066,7 @@ colour = "#f85102"
 title = "About Us"
 description = """Our mission is to continue to provide our high-performance game hosting and Virtual Private Servers to both gamers and non-gamers, at affordable and sustainable prices. We only work with top-rated and reliable datacenters and hardware vendors to give you the best performance, up-time, and overall experience. We top all of this off with excellent customer service. At Bloom, we are always improving and listening to feedback. Please contact us with any questions, suggestions, or concerns."""
 author-thumbnail = false
-title-icon = true
+title-icon = "%guildicon%"
 footer-icon = false
 [temp-4.fields]
 0 = ["<:discord:881204198442663936> **The Discord**", """We post announcements, etc here.
