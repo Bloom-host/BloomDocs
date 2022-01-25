@@ -732,7 +732,7 @@ footer-icon = "%guildicon%"
 
 [join]
 enabled = false
-description = "**<:blobwave:736379131696119860> Welcome, %username%!**"
+description = "**<:blobwave:736379131696119860> Welcome, %usermention%!**"
 
 [embedtest]
 title = "BloomBot - Contributing"
