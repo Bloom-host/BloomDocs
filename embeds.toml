@@ -198,9 +198,9 @@ title = "Rate Bloom.host!"
 description = "If you're having a good experience with Bloom.host, rate us!"
 [rate.fields]
 1 = ["Links", """
-• [Trustpilot](https://www.trustpilot.com/review/bloomvps.com)
+• [Trustpilot](https://www.trustpilot.com/review/bloom.host)
 • [MC Market (Minecraft)](https://www.mc-market.org/threads/612586/)
-• [Admincraft Marketplace](https://www.reddit.com/r/admincraft/comments/rtjyee/admincraft_monthly_marketplace/hqtvmwp/)
+• [Admincraft Marketplace](https://www.reddit.com/r/admincraft/comments/shvm6f/admincraft_monthly_marketplace/hv4tx5h/)
 """, "false"]
 
 [chunky]
