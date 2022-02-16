@@ -45,7 +45,7 @@ Assuming your issue isn't network related, you can try the steps outlined below.
 
 ---
 
-## Paper's Anti-Xray engine mode 2
+## Paper Anti-Xray engine mode 2
 
 Paper Anti-Xray engine mode 2 can cause ping issues for people with unstable connections or servers with high player counts. You can read more about the different engines of the anti-xray [here](https://gist.github.com/stonar96/ba18568bd91e5afd590e8038d14e245e).
 
