@@ -158,6 +158,7 @@ module.exports = {
                         'plugins_and_modifications/plugins/craftingstore',
                         'plugins_and_modifications/plugins/discordsrv', //Discord <-> Minecraft bridge
                         'plugins_and_modifications/plugins/essentialsx',
+			'plugins_and_modifications/plugins/floodgate', // Works with GeyserMC to allow bedrock connections, without a Java Edition account.
                         'plugins_and_modifications/plugins/geysermc', // Minecraft Bedrock player bridge
                         'plugins_and_modifications/plugins/geyseraddons', // GeyserMC addons
                         'plugins_and_modifications/plugins/griefprevention',
