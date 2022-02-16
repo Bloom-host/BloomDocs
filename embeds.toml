@@ -66,18 +66,11 @@ description = "Check out our comprehensive guide on how to update, change versio
 thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png"
 image = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/running_a_server/updating/1.png"
 
-[exploit]
-title = "📜 SEVERE EXPLOIT FOUND ON MINECRAFT"
-aliases = ["exploit2"]
-description = "We have published documentation about the severe exploit that was recently discovered. You can find instructions on how to update and patch the exploit [here](https://docs.bloom.host/exploitfix/)."
+[pingissues]
+title = ":warning: Bloom Docs - How to diagnose and fix ping issues"
+description = "Check out our comprehensive guide on how to diagnose and fix ping issues [here](https://docs.bloom.host/extras/ping-issues/)."
 thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png"
-
-[applyexploitfix]
-title = "📜 How to apply the exploit fix"
-aliases = ["applyfix", "exploitfix", "fixexploit"]
-description = "We have updated the panel to add a one-click exploit fix for Minecraft versions 1.12 - 1.16, versions 1.17+ already have the flag applied. **All Minecraft versions should update to the last stable version and build to fix the exploit**. To apply the fix, just go to the settings tab of your server and click on **Minecraft Versions 1.12 - 1.16** under the **FIX MINECRAFT LOG4J VULNERABILITY**. If for any reason you need to remove this flag or your server doesn't start after applying the fix, you can click on the **Remove** button."
-thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png"
-image = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/exploitfix2.png"
+image = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/G7k4om.png"
 
 [bungeeguard]
 title = ":warning: Bloom Docs - BungeeGuard"
