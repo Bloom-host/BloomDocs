@@ -31,11 +31,6 @@ module.exports = {
             type: 'doc',
             id: "running_a_server/1.18", // 1.18 update information
         },
-        
-        {
-            type: 'doc',
-            id: "running_a_server/exploitfix",
-        },
 
 
         {
