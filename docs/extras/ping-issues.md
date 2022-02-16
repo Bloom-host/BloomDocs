@@ -2,7 +2,7 @@
 id: ping-issues
 title: How to diagnose and fix ping issues
 hide_title: true
-hide_table_of_contents: false
+hide_table_of_contents: true
 sidebar_label: How to diagnose and fix ping issues
 description: This guide will help you diagnose and potentially fix ping issues.
 keywords:
@@ -36,7 +36,7 @@ On Windows you can use a software such as [WinMTR](https://sourceforge.net/proje
 5. Take a screenshot of the full results so we can analyze your route.
 6. You can send this screenshot to the [#support-chat](https://discord.gg/F8t6EyafMz) channel of our Discord server so we can analyze it, or you can open a ticket in our [support portal](https://billing.bloom.host/submitticket.php) and attach the screenshot.
 
-If you want to learn how to read an MTR results, you can read [this article](https://www.exavault.com/blog/reading-mtr-output)
+If you want to learn how to read an MTR results, you can read [this article](https://www.exavault.com/blog/reading-mtr-output) aswell as [this doc](https://www.cloudflare.com/learning/network-layer/what-is-mtr/)
 
 <div class="text--center">
 <img src={require('../../static/imgs/extras/ping-issues/1.png').default} alt="img"/></div>
