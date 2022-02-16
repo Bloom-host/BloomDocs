@@ -65,6 +65,6 @@ Mojang did some heavy changes to how chunk loading works on Minecraft 1.18+, thi
 You can go [here](https://github.com/PaperMC/Paper/pull/7368), download the experimental Paper server jar and replace the one you are currently using with this experimental one which has fixed ping issues for most people that are running 1.18. If the ping issue went away, then you can temporarily continue using this jar until the Paper team merges this fixes into the production branch.
 
 <div class="text--center">
-<img src={require('../../static/imgs/extras/ping-issues/2.png').default} alt="img"/></div>
+<img src={require('../../static/imgs/extras/ping-issues/3.png').default} alt="img"/></div>
 
 ---
