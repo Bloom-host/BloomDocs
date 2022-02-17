@@ -26,17 +26,17 @@ keywords:
 > 
 > ![Bloom.host Forge](../../static/imgs/plugins_and_modifications/forge_setup/1.png)
 
-> After you have installed it, head over to an [SFTP client](https://docs.bloom.host/how-to-use-sftp) such as FileZilla and upload everything inside your folder to your server.
+After you have installed it, head over to an [SFTP client](https://docs.bloom.host/how-to-use-sftp) such as FileZilla and upload everything inside your folder to your server.
 
-> Next, rename your forge-xxx file to server.jar or go to Startup Parameters and change the Server Jar File.
+Next, rename your forge-xxx file to server.jar or go to Startup Parameters and change the Server Jar File.
 
-> Restart your server and let the files generate. This may take a few minutes. 
+Restart your server and let the files generate. This may take a few minutes. 
 
-> A new folder will appear named `mods`. Place any jars of mods you want in here and restart. Make sure you also have the mods if needed. Then, login to the server!
+A new folder will appear named `mods`. Place any jars of mods you want in here and restart. Make sure you also have the mods if needed. Then, login to the server!
 
-> In the end, it should look like this: 
->
-> ![Bloom.host Forge](../../static/imgs/plugins_and_modifications/forge_setup/2.png)
+In the end, it should look like this: 
+
+![Bloom.host Forge](../../static/imgs/plugins_and_modifications/forge_setup/2.png)
 
 ### Installing Forge Mods 
 > 
