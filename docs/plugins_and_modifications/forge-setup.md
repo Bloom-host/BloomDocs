@@ -30,9 +30,11 @@ After you have installed it, head over to an [SFTP client](https://docs.bloom.ho
 
 Next, rename your forge-xxx file to server.jar or go to Startup Parameters and change the Server Jar File.
 
+Create a new folder called `mods`. Place any jars of mods you want in here.
+
 Restart your server and let the files generate. This may take a few minutes. 
 
-A new folder will appear named `mods`. Place any jars of mods you want in here and restart. Make sure you also have the mods if needed. Then, login to the server!
+When the restart is finished, login to your server!
 
 In the end, it should look like this: 
 
