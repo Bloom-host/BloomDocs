@@ -19,7 +19,8 @@ keywords:
 </div>
 
 ### What is Forge?
-> 
+> Forge is a modding API for Minecraft. Users who download and install Minecraft Forge can install mods (modifications) to their Minecraft Instance.
+>
 ### Installing Forge
 > To begin installing Forge, head over to their [website](http://files.minecraftforge.net/) to download their installer and launch the jar file. Have it open up in an empty directory and hit install server. Have something like the screenshot below.
 > 
