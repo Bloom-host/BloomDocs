@@ -28,13 +28,13 @@ keywords:
 
 After you have installed it, head over to an [SFTP client](https://docs.bloom.host/how-to-use-sftp) such as FileZilla and upload everything inside your folder to your server.
 
-Next, go to the Startup tab on your server, look for the Server Jar File field. Rename your forge-xxx file to the same thing written in that field. (server.jar by default) 
+Next, rename your forge-xxx.jar file to server.jar. The file name must match the Server Jar File field in the Startup tab.
 
-Create a new folder called `mods`. Place any jars of mods you want in here.
+Then, create a new folder called `mods`. Place any jars of mods you want in here.
 
-Restart your server and let the files generate. This may take a few minutes. 
+Restart your server. This may take a few minutes. 
 
-Once the restart has finished, login to your server!
+Once the restarted, login to your server!
 
 In the end, it should look like this: 
 
