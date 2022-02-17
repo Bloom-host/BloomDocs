@@ -23,7 +23,7 @@ keywords:
 >
 ### Installing Forge
 > To begin installing Forge, head over to their [website](http://files.minecraftforge.net/) to download their installer and launch the jar file. Have it open up in an empty directory and hit install server. Have something like the screenshot below.
-
+>
 > ![Bloom.host Forge](../../static/imgs/plugins_and_modifications/forge_setup/1.png)
 
 After you have installed it, head over to an [SFTP client](https://docs.bloom.host/how-to-use-sftp) such as FileZilla and upload everything inside your folder to your server.
