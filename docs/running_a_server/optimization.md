@@ -29,6 +29,7 @@ Since 1.13, Minecraft servers have gotten progressively harder to run.
 There are a few ways to make your server run better, we will be outlining some here.
 
 But first, it's good to note that a "perfect" optimization guide does not exist, most optimization changes include changing or removing gameplay features. Each server will be different, *you* have to decide how much you want to change and sacrifice for performance.  
+
 If you have performance headroom you might even want to do the opposite! For example, maybe you want an extra high view distance because you think it looks cool.
 
 ---  
@@ -49,7 +50,10 @@ For Fabric check our [Fabric Setup](/fabric-setup) page. Fabric by itself doesn'
 ---
 ## Configuration options
 There are **many** different options you can utilize to change your servers gameplay and performance. We recommend checking out https://github.com/YouHaveTrouble/minecraft-optimization for an in depth guide.  
+
 Remember that each server is be different, and that *you* have to decide for yourself which features you want to change. Don't blindly copy paste values ;)
+
+You can also check this [guide](https://eternity.community/index.php/paper-optimization/) which goes way more in depth of what each option goes and how each one may affect your server.
 
 ---
 
