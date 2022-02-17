@@ -19,7 +19,7 @@ keywords:
 </div>
 
 ### What is Forge?
-> Forge is a modding API for Minecraft. Users who download and install Minecraft Forge can install mods (modifications) to their Minecraft Instance.
+> Forge is a modding API for Minecraft. Users who download and install Minecraft Forge can install mods (modifications) to Minecraft Instances.
 >
 ### Installing Forge
 > To begin installing Forge, head over to their [website](http://files.minecraftforge.net/) to download their installer and launch the jar file. Have it open up in an empty directory and hit install server. Have something like the screenshot below.
@@ -30,11 +30,11 @@ After you have installed it, head over to an [SFTP client](https://docs.bloom.ho
 
 Next, rename your forge-xxx.jar file to server.jar. The file name must match the Server Jar File field in the Startup tab.
 
-Then, create a new folder called `mods`. Place any jars of mods you want in here.
+Then, create a new folder called `mods`. Place any mod jar files in here.
 
 Restart your server. This may take a few minutes. 
 
-Once the restarted, login to your server!
+Once restarted, login to your server!
 
 In the end, it should look like this: 
 
