@@ -142,6 +142,7 @@ module.exports = {
                         'plugins_and_modifications/multiplatform/luckperms', // Permissions (Bukkit/Spigot/Paper, BungeeCord, Sponge, Fabric, Nukkit, Velocity)
                         'plugins_and_modifications/multiplatform/plan', // Player Analytics, (Bukkit/Spigot/Paper, Sponge, Nukkit, Fabric)
                         'plugins_and_modifications/multiplatform/simple-voice-chat', // Voice chat (Bukkit/Spigot/Paper, Forge, Fabric)
+			'plugins_and_modifications/multiplatform/squaremap', // Online map (Paper, Fabric, Sponge)
                         'plugins_and_modifications/multiplatform/worldedit' // World management (Bukkit, Forge, Fabric, Sponge)
                     ]
                 },
@@ -163,7 +164,6 @@ module.exports = {
                         'plugins_and_modifications/plugins/griefprevention',
                         'plugins_and_modifications/plugins/milk',
                         'plugins_and_modifications/plugins/multiverse', //Bukkit multi-world manager
-                        'plugins_and_modifications/plugins/pl3xmap',
                         'plugins_and_modifications/plugins/papi', // PlaceholderAPI
                         'plugins_and_modifications/plugins/prism',
                         'plugins_and_modifications/plugins/servernpc',
