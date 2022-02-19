@@ -174,7 +174,8 @@ module.exports = {
                         'plugins_and_modifications/plugins/venturechat', // Chat handler
                         'plugins_and_modifications/plugins/viaversion',
                         'plugins_and_modifications/plugins/votifier', // Minecraft server vote site listener
-                        'plugins_and_modifications/plugins/vulcan' // anticheat
+                        'plugins_and_modifications/plugins/vulcan', // anticheat
+                        'plugins_and_modifications/plugins/ajparkour' // ajParkour
                     ]
                 },
             ]
