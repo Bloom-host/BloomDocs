@@ -1,4 +1,4 @@
-/*s
+/*
 When adding pages to the sidebar, make sure you use the page ID, not the file name of the page
 For example, to add a page which had a filename of 'chunky-multi' and a page ID of 'chunky', you would add the following under the appropiate category: 
 
