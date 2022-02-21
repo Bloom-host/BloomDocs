@@ -1,4 +1,4 @@
-/*
+/*s
 When adding pages to the sidebar, make sure you use the page ID, not the file name of the page
 For example, to add a page which had a filename of 'chunky-multi' and a page ID of 'chunky', you would add the following under the appropiate category: 
 
@@ -11,7 +11,8 @@ The page ID can be found at the top of each document (usually the second line) w
 Not following this can cause the website build to fail!
 */
 module.exports = {
-
+/* Organize sidebar alphabetically */
+ 
     docs: [
 
         {
