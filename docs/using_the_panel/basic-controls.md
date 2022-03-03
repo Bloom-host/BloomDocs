@@ -15,7 +15,7 @@ image: https://bloom.host/assets/images/logo.png
 
 ### Accessing The Panel
 
-You can access your server's main control panel [here](https://mc.bloom.host/). If you have multiple servers, you can choose which you want to modify from the manel page. Or, simply choose the server you want to control from the drop-down box of each page within the panel.
+You can access your server's main control panel [here](https://mc.bloom.host/). If you have multiple servers, you can choose which you want to modify from the panel page. Or, simply choose the server you want to control from the drop-down box of each page within the panel.
 
 <div class="text--center"><img src={require('../../static/imgs/using_the_panel/basic_controls/1.png').default} alt="console"/></div>
 
