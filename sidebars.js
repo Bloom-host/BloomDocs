@@ -153,6 +153,7 @@ module.exports = {
                     label: "Plugins", // Bukkit/Spigot/Paper plugins
                     items: [ // Note: Chunky, LiteBans, LuckPerms and PLAN pages were moved to multiplatform category
                         'plugins_and_modifications/plugins/advancedanticheat', // anticheat
+			'plugins_and_modifications/plugins/ajparkour' // ajParkour
                         'plugins_and_modifications/plugins/bungeeguard', // BungeeCord security (prevents UUID spoof exploit)
                         'plugins_and_modifications/plugins/citizens2',
                         'plugins_and_modifications/plugins/conditionalcommands',
@@ -176,7 +177,6 @@ module.exports = {
                         'plugins_and_modifications/plugins/viaversion',
                         'plugins_and_modifications/plugins/votifier', // Minecraft server vote site listener
                         'plugins_and_modifications/plugins/vulcan', // anticheat
-                        'plugins_and_modifications/plugins/ajparkour' // ajParkour
                     ]
                 },
             ]
