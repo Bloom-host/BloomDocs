@@ -101,7 +101,7 @@ The server software mentioned in this section are no longer updated and are not 
 Airplane is a fork of paper (and as such also includes all of the improvements paper adds) that aims to add even more performance optimizations over paper.~~  
 Airplane isn't being updated to modern versions of the game.
 
-It is recommended that an alternative JAR such as [Purpur](#purpurhttpspurpurmcorg) or [Pufferfish](#pufferfishhttpsgithubcompufferfish-ggpufferfish) should be used.
+It is recommended that an alternative JAR such as [Purpur](#purpur) or [Pufferfish](#pufferfish) should be used.
 
 ### [Tuinity](https://github.com/Spottedleaf/Tuinity)
 ~~Tuinity is a high performance fork of paper (and as such also includes all of the improvements paper adds) that brings more performance changes for servers to play around with. It can greatly increase TPS, allowing a smoother experience, especially on bigger servers.~~
