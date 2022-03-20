@@ -96,17 +96,15 @@ Minestom is a *very* experimental developer API not meant to be used by end-user
 The server software mentioned in this section are no longer updated and are not recommended for use on your servers; however they are kept here for reference purposes.
 :::
 
-### [Tuinity](https://github.com/Spottedleaf/Tuinity)
-~~Tuinity is a high performance fork of paper (and as such also includes all of the improvements paper adds) that brings more performance changes for servers to play around with. It can greatly increase TPS, allowing a smoother experience, especially on bigger servers.~~
-Tuinity has now been merged into Paper with all of its improvements and optimizations, and as such Tuinity as a jar is now obsolete. 
-
-
-
 ### [Airplane](https://airplane.gg/)
 ~~"A stable, optimized, well supported 1.16.5 & 1.17 Paper fork."  
 Airplane is a fork of paper (and as such also includes all of the improvements paper adds) that aims to add even more performance optimizations over paper.~~  
 Airplane isn't being updated to modern versions of the game.
 
-It is recommended that an alternative JAR such as [Purpur](###Purpur) or [Pufferfish](###Pufferfish) should be used
+It is recommended that an alternative JAR such as [Purpur](#purpurhttpspurpurmcorg) or [Pufferfish](#pufferfishhttpsgithubcompufferfish-ggpufferfish) should be used.
+
+### [Tuinity](https://github.com/Spottedleaf/Tuinity)
+~~Tuinity is a high performance fork of paper (and as such also includes all of the improvements paper adds) that brings more performance changes for servers to play around with. It can greatly increase TPS, allowing a smoother experience, especially on bigger servers.~~
+Tuinity has now been merged into Paper with all of its improvements and optimizations, and as such Tuinity as a jar is now obsolete. 
 
 ---
