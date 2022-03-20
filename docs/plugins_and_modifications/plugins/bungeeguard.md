@@ -56,7 +56,7 @@ Velocity has the BungeeGuard code built-in, so there’s no need to install the 
 BungeeGuard forwarding must be enabled in your `spigot.yml`. You cannot have modern forwarding and BungeeCord legacy forwarding enabled at the same time.
 To enable BungeeCord forwarding mode correctly you must:
 - have `settings.bungeecord` set to `true` in `spigot.yml`
-- have `settings.velocity-support.enabled` set to `false` in `paper.yml`, if you are running a Paper (or a fork of it like Purpur or Airplane) server.
+- have `settings.velocity-support.enabled` set to `false` in `paper.yml`, if you are running a Paper (or a fork of it like Purpur or Pufferfish) server.
 :::
 
 1. [Download the plugin](https://ci.lucko.me/job/BungeeGuard/lastBuild/artifact/bungeeguard-universal/target/BungeeGuard.jar) then upload the jar into your Spigot `plugins` folder. Restart the server. If you need help installing plugins, check out [this guide](/installing-plugins).
