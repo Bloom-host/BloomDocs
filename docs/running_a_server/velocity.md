@@ -115,7 +115,7 @@ Part of what makes Velocity more secure than Bungee would be it's modern player 
 
 :::note
 
-This section also applies to forks based upon Paper such as Purpur or Airplane
+This section also applies to forks based upon Paper such as Purpur or Pufferfish
 
 :::
 
@@ -140,7 +140,7 @@ Note that the `bungeeguard` forwarding mode uses legacy BungeeCord forwarding wi
 :::
 
 :::note
-This section also applies to forks based upon Paper such as Purpur or Airplane
+This section also applies to forks based upon Paper such as Purpur or Pufferfish
 :::
 
 If you cannot use modern forwarding (for example, your server jar doesn’t support Velocity modern forwarding), you might be able to use BungeeGuard instead.
