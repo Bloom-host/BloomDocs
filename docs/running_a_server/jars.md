@@ -13,7 +13,6 @@ keywords:
   - Tuinity
   - Forge
   - Fabric
-  - Yatopia
   - Purpur
   - Airplane
   - Pufferfish
@@ -66,21 +65,6 @@ Bukkit is an open source but defunct jar that was used in the early days of Mine
 ### [Spigot](https://www.spigotmc.org/)
 Spigot is a fork of Bukkit that began in 2012. After Bukkit defuncted, it became the new standard as Bukkit plugins could all run on Spigot. Spigot is not recommended anymore as Paper has far surpassed it in performance and options.
 
-
-
-### [Tuinity](https://github.com/Spottedleaf/Tuinity)
-~~Tuinity is a high performance fork of paper (and as such also includes all of the improvements paper adds) that brings more performance changes for servers to play around with. It can greatly increase TPS, allowing a smoother experience, especially on bigger servers.~~
-Tuinity has now been merged into Paper with all of its improvements and optimizations, and as such Tuinity as a jar is now obsolete. 
-
-
-
-### [Airplane](https://airplane.gg/)
-~~"A stable, optimized, well supported 1.16.5 & 1.17 Paper fork."  
-Airplane is a fork of paper (and as such also includes all of the improvements paper adds) that aims to add even more performance optimizations over paper.~~  
-Airplane isn't being updated to modern versions of the game.
-
-
-
 ### [Pufferfish](https://github.com/pufferfish-gg/Pufferfish)
 "A highly optimized Paper fork designed for large servers requiring both maximum performance, stability, and "enterprise" features."  
 Pufferfish is a fork of paper (and as such also includes all of the improvements paper adds) that aims to add even more performance optimizations over paper. It includes every change that airplane used to have. And adds some of its own changes too.
@@ -103,5 +87,24 @@ Purpur aims to make your server more configurable, it adds **a lot** of fun or u
 "Minestom is a complete rewrite of Minecraft server software, open-source and without any code from Mojang."  
 Minestom is a *very* experimental developer API not meant to be used by end-users. Replacing Paper with this will not work since it does not implement the Bukkit API. It's very fast and can handle a lot of players. Only try if you like tinkering with code and are prepared to put in the work.
  
+
+---
+
+## Deprecated Server Software
+
+:::important
+The server software mentioned in this section are no longer updated and are not recommended for use on your servers; however they are kept here for reference purposes.
+:::
+
+### [Airplane](https://airplane.gg/)
+~~"A stable, optimized, well supported 1.16.5 & 1.17 Paper fork."  
+Airplane is a fork of paper (and as such also includes all of the improvements paper adds) that aims to add even more performance optimizations over paper.~~  
+Airplane isn't being updated to modern versions of the game.
+
+It is recommended that an alternative JAR such as [Purpur](#purpur) or [Pufferfish](#pufferfish) should be used.
+
+### [Tuinity](https://github.com/Spottedleaf/Tuinity)
+~~Tuinity is a high performance fork of paper (and as such also includes all of the improvements paper adds) that brings more performance changes for servers to play around with. It can greatly increase TPS, allowing a smoother experience, especially on bigger servers.~~
+Tuinity has now been merged into [Paper](#paper) with all of its improvements and optimizations, and as such Tuinity as a jar is now obsolete. 
 
 ---

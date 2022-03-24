@@ -147,7 +147,7 @@ You can use a software such as [WinMTR](https://sourceforge.net/projects/winmtr/
 **4**. Click start and let it run for at least a minute.
 **5**. Take a screenshot of the results so we can analyze your route.
 """, "false"]
-2 = ["<:apple:849551086028849152> Other Operating Systems", """
+2 = ["<:apple:849551086028849152> <:linux:955230938084818964> Other Operating Systems", """
     In case you are using another operating system such as macOS or Linux, be sure to let us know we'll guide you through the process!
 """, "false"]
 

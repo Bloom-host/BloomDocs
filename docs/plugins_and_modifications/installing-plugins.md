@@ -20,7 +20,7 @@ This guide is for Bukkit/Spigot/Paper servers. If you are looking for instructio
 ### The Basics
 > #### Requirements
 > 
-> In order to run plugins on your server, you have to be using a fork of Bukkit. (such as Spigot, Paper, Pupur, Airplane, etc. See our [guide on server jars](../running_a_server/jars.md) for more information.) If you wish to make client-side modifications (as well), see our guide on [Forge](forge-mods.md) or [Fabric](fabric-mods.md)!
+> In order to run plugins on your server, you have to be using a fork of Bukkit. (such as Spigot, Paper, Pupur, Pufferfish, etc. See our [guide on server jars](../running_a_server/jars.md) for more information.) If you wish to make client-side modifications (as well), see our guide on [Forge](forge-mods.md) or [Fabric](fabric-mods.md)!
 
 > #### What are plugins?
 >

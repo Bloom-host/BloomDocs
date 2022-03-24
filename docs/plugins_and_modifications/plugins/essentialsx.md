@@ -24,7 +24,7 @@ image: https://bloom.host/assets/images/logo.png
 </div>
 
 :::important
-This guide does not cover any of EssentialsX's modules, such as EssentialsXChat, EssentialsXAntiBuild or EssentialsXGeoIP. Please check the [EssentialsX wiki](https://essentialsx.net/wiki/Module-Breakdown.html) for information on these modules.
+This guide does not cover any of EssentialsX's modules, such as EssentialsX Chat, EssentialsX Discord or EssentialsX Geo (formerly EssentialsX GeoIP). Please check the [EssentialsX wiki](https://essentialsx.net/wiki/Module-Breakdown.html) for information on these modules.
 
 Please note that any EssentialsX modules requires the core EssentialsX plugin jar to function (covered in this guide)
 :::
