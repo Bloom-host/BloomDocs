@@ -6,6 +6,15 @@
   from = "/plugins/papi"
   to = "/plugins/placeholderapi"
 
+[[redirects]]
+  from = "/forge-mods"
+  to = "/mods-install"
+
+[[redirects]]
+  from = "/fabric-mods"
+  to = "/mods-install"
+
+
 ############# 
 # These redirects were added when the multi-platform category for plugins and mods was added.
 # Some existing plugin/mod pages were moved (and in some cases, merged) from the platform-specific folder into the multi-platform folder.

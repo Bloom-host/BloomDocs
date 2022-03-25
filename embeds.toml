@@ -531,19 +531,12 @@ description = "Check out our comprehensive guide on installing Spigot Plugins [h
 thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png"
 image = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/Y9KelU.png"
 
-[fabricmods]
-aliases = ["fabricmod"]
-title = "📜 Bloom Docs - Fabric Mods"
-description = "Check out our comprehensive guide on installing Fabric Mods [here](https://docs.bloom.host/fabric-mods/)."
+[servermods]
+aliases = ["servermod","fabricmods","fabricmod","forgemods","forgemod"] # 'fabricmods' and 'forgemods' allow the old commands to redirect to this one
+title = "📜 Bloom Docs - Server Mods"
+description = "Check out our comprehensive guide on installing Forge or Fabric mods [here](https://docs.bloom.host/mods-install/)."
 thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png"
 image = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/wHrhIR.png"
-
-[forgemods]
-aliases = ["forgemod"]
-title = "📜 Bloom Docs - Forge Mods"
-description = "Check out our comprehensive guide on installing Forge Mods [here](https://docs.bloom.host/forge-mods/)."
-thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png"
-image = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/y3ISVE.png"
 
 [optimization]
 aliases = ["optimize", "lowtps", "optimisation", "optimise"] # 'optimisation' and 'optimise' are British English spelling
