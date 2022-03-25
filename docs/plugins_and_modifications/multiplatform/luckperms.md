@@ -46,7 +46,7 @@ Upload the jar into your `plugins` folder. Turn on or restart the server. If you
 
 To use this mod, [download](https://luckperms.net/download) the Fabric jar.  
 
-Upload the jar into your `mods` folder. Turn on or restart the server. If you need help installing mods, check out [this guide](/fabric-mods).  
+Upload the jar into your `mods` folder. Turn on or restart the server. If you need help installing mods, check out [this guide](/mods-install).  
 
 ### Network install
 Refer to the [LuckPerms wiki](https://luckperms.net/wiki/Network-Installation) for instructions on how to complete a network installation (A [MySQL database](/databases) is required.)

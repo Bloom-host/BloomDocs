@@ -26,7 +26,7 @@ Make sure to also check out the [Server Optimization Guide](../../running_a_serv
 
 ## How to install these mods
 
-Check out the [Installing Fabric Mods](/fabric-mods) page.
+Check out the [Installing Mods](/mods-install) page.
 
 --- 
 

@@ -42,6 +42,6 @@ In the end, it should look like this:
 
 ### Installing Forge Mods 
 > 
-> Refer to [this](forge-mods) guide.
+> Refer to [this](mods-install) guide.
 
 ---
