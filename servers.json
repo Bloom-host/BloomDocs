@@ -184,5 +184,10 @@
                 "name": "Dotarch",
                 "ip": "play.dotarch.co",
                 "type": "PC"
+        },
+                {
+                "name": "ForestMC",
+                "ip": "play.forestmc.nl",
+                "type": "PC"
         }
 ]
