@@ -24,7 +24,7 @@ image: https://bloom.host/assets/images/logo.png
 
 ## What does it do?
 
-[ajParkour](https://www.spigotmc.org/resources/ajparkour-rewards-1-7-10-1-18-x-mysql-storage-option.60909/) automatically generates parkour causes on the fly, below your players feet.
+[ajParkour](https://www.spigotmc.org/resources/ajparkour-rewards-1-7-10-1-18-x-mysql-storage-option.60909/) automatically generates parkour courses on the fly, below your players feet.
 
 ## Installation
 
@@ -83,11 +83,11 @@ If you want to edit your setup at any later point you can run `/ajp edit <name>`
 
 ## Joining
 
-Now you have created your cause you can join it via `/ajp start <player> <cause>` with player being the player name and cause the name you gave it
+Now you have created your course you can join it via `/ajp start <player> <course>` with player being the player name and course the name you gave it
 
 ## Portals
 
-Typing commands is hard for players... Lets make some portals to join out cause!
+Typing commands is hard for players... Lets make some portals to join out course!
 
-Stand where you would like your portal and run `/ajp portals create <name>`. A good name would be the name of you cause with `_portal` on the end
+Stand where you would like your portal and run `/ajp portals create <name>`. A good name would be the name of you course with `_portal` on the end
 
