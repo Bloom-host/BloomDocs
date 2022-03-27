@@ -46,6 +46,6 @@ keywords:
 
 ### Installing Fabric Mods
 > 
-> Refer to [this](fabric-mods) guide.
+> Refer to [this](mods-install) guide.
 
 ---

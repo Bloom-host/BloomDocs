@@ -114,11 +114,7 @@ module.exports = {
                 },
                 {
                     type: 'doc',
-                    id: "plugins_and_modifications/fabric-mods",
-                },
-                {
-                    type: 'doc',
-                    id: "plugins_and_modifications/forge-mods",
+                    id: "plugins_and_modifications/mods-install", // Mods install guide for both Forge and Fabric
                 },
                 {
                     type: 'doc',
