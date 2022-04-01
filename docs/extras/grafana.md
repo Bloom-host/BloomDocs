@@ -116,7 +116,7 @@ Open the `prometheus.yml` file and add an extra job under scrape_configs.
       - targets: ["yourip:port"] #set your server ip and port
 ```
 
-After adding your servers the `prometheus.yml` file can then look like this.
+After adding your servers the `prometheus.yml` file, it then looks like this.
 
 ```yaml
 # my global config
@@ -174,5 +174,5 @@ scrape_configs:
       - targets: ["ip:9104"]
 ```
 
-Restart the Prometheus server and you will see the server in your Grafana dashboard! 
+Restart the Prometheus server and you will see the servers in your Grafana dashboard! 
 Happy analyzing ;)
