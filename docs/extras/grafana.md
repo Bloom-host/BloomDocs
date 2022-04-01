@@ -29,7 +29,7 @@ UnifiedMetrics - Plugin that's installed on your Minecraft server that gathers t
 Prometheus - The database that stores all your fancy data and reads UnifiedMetrics.
 Grafana - A beautiful open source tool that allows you to interact and explore with all your data.
 
-:::important If you want to connect multiple servers to your Grafana dashboard you can do so by adding multiple jobs to the Prometheus server. See explanation under Multiple servers.:::
+:::important If you want to connect multiple servers to your Grafana dashboard you can do so by adding multiple jobs to the Prometheus server. See explanation under Multiple servers. :::
 
 ## UnifiedMetrics
 
