@@ -20,14 +20,20 @@ image: https://bloom.host/assets/images/logo.png
 <h1>Grafana</h1>
 </div>
 
-This guide will walk you through how to setup Grafana, Prometheus, and UnifiedMetrics so you can have more stats about your minecraft server, which couldn't be done without our lovely server splitter :)
-This guide is more complex than others as it's an advance setup, but it will allow you to see tons of cool stats about your server.
+This guide will walk you through how to setup Grafana, Prometheus, and UnifiedMetrics so you can have more stats about your minecraft server(s), which couldn't be done without our lovely server splitter :)
+This guide is more complex than others as it's an advance setup, but it will allow you to see tons of cool stats about your server(s).
 
 We'll be using 3 different software that all have their purpose.
 
 UnifiedMetrics - Plugin that's installed on your Minecraft server that gathers the data and constantly publishes it in a Prometheus readable format.
 Prometheus - The database that stores all your fancy data and reads UnifiedMetrics.
 Grafana - A beautiful open source tool that allows you to interact and explore with all your data.
+
+:::important
+
+If you want to connect multiple servers to your Grafana dashboard you can do so by adding multiple jobs to the Prometheus server. See explanation under Multiple servers.
+
+:::
 
 ## UnifiedMetrics
 
