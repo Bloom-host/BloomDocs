@@ -38,7 +38,7 @@ First, download the [LiteBans](https://www.spigotmc.org/resources/litebans.3715/
 This section also applies to forks of BungeeCord such as Waterfall.
 :::
 
-You can also download LiteBans for a Bungee or Velocity network and it is installed in almost the same way as a Spigot install however the plugin is installed into the `plugins` folder of the Bungee, not the backend servers.
+You can also download LiteBans for a Bungee or Velocity network and it is installed in almost the same way as a Spigot install however the plugin is installed into the `plugins` folder of the proxy, not the backend servers.
 
 :::important
 If LiteBans is installed onto a BungeeCord/Waterfall proxy, bans, mutes and other punishments will need to be issued from the proxy’s console, not from the console of your backend servers.
