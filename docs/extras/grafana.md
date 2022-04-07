@@ -20,14 +20,18 @@ image: https://bloom.host/assets/images/logo.png
 <h1>Grafana</h1>
 </div>
 
-This guide will walk you through how to setup Grafana, Prometheus, and UnifiedMetrics so you can have more stats about your minecraft server, which couldn't be done without our lovely server splitter :)
-This guide is more complex than others as it's an advance setup, but it will allow you to see tons of cool stats about your server.
+This guide will walk you through how to setup Grafana, Prometheus, and UnifiedMetrics so you can have more stats about your minecraft server(s), which couldn't be done without our lovely server splitter :)
+This guide is more complex than others as it's an advance setup, but it will allow you to see tons of cool stats about your server(s).
 
 We'll be using 3 different software that all have their purpose.
 
 UnifiedMetrics - Plugin that's installed on your Minecraft server that gathers the data and constantly publishes it in a Prometheus readable format.
 Prometheus - The database that stores all your fancy data and reads UnifiedMetrics.
 Grafana - A beautiful open source tool that allows you to interact and explore with all your data.
+
+:::important 
+If you want to connect multiple servers to your Grafana dashboard you can do so by adding multiple jobs to the Prometheus server. See explanation under Multiple servers. 
+:::
 
 ## UnifiedMetrics
 
@@ -47,7 +51,7 @@ Once the server is created, change it to the default Prometheus port (9090) unde
 
 Now we're going to edit prometheus.yml and add UnifiedMetrics in the Prometheus server.
 
-To do this, we're simply going to change `172.18.0.1` to your server's IP address, then start up prometheus.
+To do this, we're simply going to change `localhost` to your server's IP address, then start up prometheus.
 
 ## Grafana
 
@@ -85,3 +89,90 @@ Then select your Prometheus data source and click Import.
 And there you have it, now you can have a ton of fancy statistics for your Minecraft Server :)
 
 ![grafana](../../static/imgs/extras/grafana/4.png)
+
+## Multiple servers
+
+You can add multiple servers to your Grafana dashboard and to get this done is quite easy. 
+If you have followed the guide above, we can assume you have everything working.
+
+First we gotta install UnifiedMetrics on all other servers. Download the plugin off the [Github](https://github.com/Cubxity/UnifiedMetrics/releases) and install it in the `plugins` folder. Restart your server.
+
+After installing the plugin, you open up a port on the server. For example, `9101`, `9102`, etc.
+Then you change the port in the `plugins/UnifiedMetrics/diver/prometheus.yml` file and restart your server.
+
+![UnifiedMetrics](../../static/imgs/extras/grafana/5.png)
+
+After installing UnifiedMetrics for all your servers and configuring the plugin, it is time to add the server to the Prometheus server.
+You do this by editing the `prometheus.yml` file on the Prometheus server.
+
+Open the `prometheus.yml` file and add an extra job under scrape_configs.
+```yaml
+- job_name: "server_name" #set your server name
+
+    # metrics_path defaults to '/metrics'
+    # scheme defaults to 'http'. 
+
+    static_configs:
+      - targets: ["yourip:port"] #set your server ip and port
+```
+
+After adding your servers the `prometheus.yml` file, it then looks like this.
+
+```yaml
+# my global config
+global:
+  scrape_interval: 15s # Set the scrape interval to every 15 seconds. Default is every 1 minute.
+  evaluation_interval: 15s # Evaluate rules every 15 seconds. The default is every 1 minute.
+  # scrape_timeout is set to the global default (10s).
+
+# Alertmanager configuration
+alerting:
+  alertmanagers:
+    - static_configs:
+        - targets:
+          # - alertmanager:9093
+
+# Load rules once and periodically evaluate them according to the global 'evaluation_interval'.
+rule_files:
+  # - "first_rules.yml"
+  # - "second_rules.yml"
+
+# A scrape configuration containing exactly one endpoint to scrape:
+# Here it's Prometheus itself.
+scrape_configs:
+  # The job name is added as a label `job=<job_name>` to any timeseries scraped from this config.
+  - job_name: "proxy"
+
+    # metrics_path defaults to '/metrics'
+    # scheme defaults to 'http'. 
+
+    static_configs:
+      - targets: ["ip:9100"]
+          
+  - job_name: "hub"
+
+    # metrics_path defaults to '/metrics'
+    # scheme defaults to 'http'.
+
+    static_configs:
+      - targets: ["ip:9101"]
+
+  - job_name: "event"
+
+    # metrics_path defaults to '/metrics'
+    # scheme defaults to 'http'. 
+
+    static_configs:
+      - targets: ["ip:9102"]
+
+  - job_name: "survival"
+
+    # metrics_path defaults to '/metrics'
+    # scheme defaults to 'http'. 
+
+    static_configs:
+      - targets: ["ip:9104"]
+```
+
+Restart the Prometheus server and you will see the servers in your Grafana dashboard! 
+Happy analyzing ;)
