@@ -629,6 +629,14 @@ thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/stati
 image = "https://caddyserver.com/resources/images/caddy-open-graph.jpg"
 enabled = true
 
+[ghost]
+aliases = ["ghostsplig", "ghostcms", "ghostblog"]
+title = "📜 Bloom Docs - Ghost Split Server"
+description = "Check out our comprehensive guide on how to split your server into a Ghost Server [here](https://docs.bloom.host/extras/ghost/)!\nAs Ghost is an unsupported server split (which means you will not receive any support from staff), you can ask for community help in <#737803938430189678>!"
+thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png"
+image = "https://fynydd.com/media/1515/ghost_logo_big.png?width=800&quality=80"
+enabled = true
+
 [plan]
 title = "📜 Bloom Docs - Plan"
 description = "Check out our comprehensive guide on how to install Plan - Player Analytics [here](https://docs.bloom.host/multiplatform/plan/)."

@@ -1,6 +1,7 @@
 ---
 id: ghost
 title: Creating a Ghost Split Server
+slug: /extras/ghost
 hide_title: true
 hide_table_of_contents: false
 sidebar_label: Ghost Server
