@@ -17,7 +17,7 @@ keywords:
 image: https://bloom.host/assets/images/logo.png
 ---
 # Install Guide
-You'll first need to find the mod that you wish to install. Downloads can be found on a variety of sites. Many mods can be found on [Modrinth](https://modrinth.com/mods) and [CurseForge](https://www.curseforge.com/minecraft/mc-mods) (if using CurseForge for Fabric mods use [this link](https://www.curseforge.com/minecraft/mc-mods/fabric)). Make sure you trust the source of your downloads.
+You'll first need to find the mod that you wish to install. Downloads can be found on a variety of sites. Many mods can be found on [Modrinth](https://modrinth.com/mods) and [CurseForge](https://www.curseforge.com/minecraft/mc-mods). Make sure you trust the source of your downloads.
 
 :::important
 Make sure you are downloading the correct version of your mods. Forge and Fabric mods are most likely not cross compatible with each other unless stated so otherwise by the developer of those mods.
