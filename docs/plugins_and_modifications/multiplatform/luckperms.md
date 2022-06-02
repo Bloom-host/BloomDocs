@@ -42,9 +42,9 @@ To use this plugin, [download](https://luckperms.net/download) the jar you need 
 
 Upload the jar into your `plugins` folder. Turn on or restart the server. If you need help installing plugins, check out [this guide](/installing-plugins).  
 
-### Fabric
+### Forge/Fabric
 
-To use this mod, [download](https://luckperms.net/download) the Fabric jar.  
+To use this mod, [download](https://luckperms.net/download) the Forge or Fabric jar.  
 
 Upload the jar into your `mods` folder. Turn on or restart the server. If you need help installing mods, check out [this guide](/mods-install).  
 
