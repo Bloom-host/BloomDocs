@@ -148,7 +148,7 @@ module.exports = {
                     type: 'category',
                     label: "Plugins", // Bukkit/Spigot/Paper plugins
                     items: [ // Note: Chunky, LiteBans, LuckPerms and PLAN pages were moved to multiplatform category
-                        'plugins_and_modifications/plugins/advancedanticheat', // anticheat
+                        'plugins_and_modifications/plugins/advancedanticheat', // anticheat (discontinued)
 			'plugins_and_modifications/plugins/ajparkour', // ajParkour
 			'plugins_and_modifications/plugins/banannouncer', // announce bans in discord
                         'plugins_and_modifications/plugins/bungeeguard', // BungeeCord security (prevents UUID spoof exploit)
