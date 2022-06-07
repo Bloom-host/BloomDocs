@@ -53,7 +53,7 @@ For more information about updating your server to 1.19, be sure to check out ou
 [update119.fields]
 1 = ["Available Software", """
 :white_check_mark: Vanilla - Download [here](https://www.minecraft.net/en-us/download/server)!
-:x: Spigot - HASN'T BEEN UPDATED
+:white_check_mark: Spigot - Download [here](https://www.spigotmc.org/threads/spigot-bungeecord-1-19.559742/)!
 :x: Paper - HASN'T BEEN UPDATED
 :x: Purpur - HASN'T BEEN UPDATED
 :x: Forge - HASN'T BEEN UPDATED
