@@ -30,7 +30,7 @@ module.exports = {
 
         {
             type: 'doc',
-            id: "running_a_server/1.18", // 1.18 update information
+            id: "running_a_server/1.19", // 1.19 update information
         },
 
 

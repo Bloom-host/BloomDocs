@@ -32,30 +32,30 @@ Check out our demo panel with all the Duck panel's features and looks!
 [demo.buttons]
 1 = ["Open Demo", "https://demo.bloom.host", "<:aaaduck:755553395363938344>"]
 
-[update118]
-aliases = ["1.18"]
+[update119]
+aliases = ["1.19"]
 colour = "#926cd1"
-title = "1.18 - Caves & Cliffs Part II"
+title = "1.19 - The Wild Update"
 title-icon = "%guildicon%"
 thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/OcDKml.png"
-image = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tT9ujN.jpg"
+image = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/thewildupdate.jpg"
 description = """
-With the release of 1.18, the second part of the Caves & Cliffs, servers will have to be **__updated to Java 17__**.
+Minecraft 1.19 - The Wild Update has been released!.
 
 Due to this change, some plugins may be **incompatible** and may **require an update**.
 
-For more information about updating your server to the second part of the Caves & Cliffs update, be sure to check out our **comprehensive guide** on updating to 1.18 **[here](https://docs.bloom.host/1.18)**!
+For more information about updating your server to 1.19, be sure to check out our **comprehensive guide** on updating to 1.19 **[here](https://docs.bloom.host/1.19)**!
 """
-[update118.fields]
+[update119.fields]
 1 = ["Available Software", """
 :white_check_mark: Vanilla - Download [here](https://www.minecraft.net/en-us/download/server)!
-:white_check_mark: Spigot - Download [here](https://www.spigotmc.org/threads/9-years-of-spigotmc-spigot-bungeecord-1-18.534760/)!
-:white_check_mark: Paper - Download [here](https://papermc.io/downloads#Paper-1.18)
-:white_check_mark: Purpur - Download [here](https://purpurmc.org/downloads?v=1.18)
-:white_check_mark: Forge - Download [here](https://files.minecraftforge.net/net/minecraftforge/forge/)
+:x: Spigot - HASN'T BEEN UPDATED
+:x: Paper - HASN'T BEEN UPDATED
+:x: Purpur - HASN'T BEEN UPDATED
+:x: Forge - HASN'T BEEN UPDATED
 :white_check_mark: Fabric - Download [here](https://fabricmc.net/use/installer/)
 
-These first 1.18 releases will be unstable and can have performance issues. Please make sure to create a backup before upgrading your server.
+These first 1.19 releases will be unstable and can have performance issues. Please make sure to create a backup before upgrading your server.
 
 """, "false"]
 
