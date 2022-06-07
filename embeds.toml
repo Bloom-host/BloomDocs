@@ -44,6 +44,10 @@ Minecraft 1.19 - The Wild Update has been released!.
 
 Due to this change, some plugins may be **incompatible** and may **require an update**.
 
+To update your server to 1.19 just go to the Settings tab on our Minecraft panel, then under the "Change Server Type" select the jar you prefer, then 1.19 and click on Change Build.
+
+Remember to take a backup before updating your server.
+
 For more information about updating your server to 1.19, be sure to check out our **comprehensive guide** on updating to 1.19 **[here](https://docs.bloom.host/1.19)**!
 """
 [update119.fields]
