@@ -56,7 +56,7 @@ For more information about updating your server to 1.19, be sure to check out ou
 :white_check_mark: Spigot - Download [here](https://www.spigotmc.org/threads/spigot-bungeecord-1-19.559742/)!
 :x: Paper - HASN'T BEEN UPDATED
 :x: Purpur - HASN'T BEEN UPDATED
-:x: Forge - HASN'T BEEN UPDATED
+:white_check_mark: Forge - Download [here](https://files.minecraftforge.net/net/minecraftforge/forge/)!
 :white_check_mark: Fabric - Download [here](https://fabricmc.net/use/installer/)
 
 These first 1.19 releases will be unstable and can have performance issues. Please make sure to create a backup before upgrading your server.
