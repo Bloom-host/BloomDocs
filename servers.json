@@ -15,11 +15,6 @@
                 "type": "PC"
         },
         {
-                "name": "HardcoreCraft",
-                "ip": "play.hardcorecraft.net",
-                "type": "PC"
-        },
-        {
                 "name": "HearthCraft",
                 "ip": "play.hearthcraft.net",
                 "type": "PC"
