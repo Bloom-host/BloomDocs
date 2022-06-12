@@ -54,12 +54,12 @@ For more information about updating your server to 1.19, be sure to check out ou
 1 = ["Available Software", """
 :white_check_mark: Vanilla - Download [here](https://www.minecraft.net/en-us/download/server)!
 :white_check_mark: Spigot - Download [here](https://www.spigotmc.org/threads/spigot-bungeecord-1-19.559742/)!
-:x: Paper - HASN'T BEEN UPDATED
-:x: Purpur - HASN'T BEEN UPDATED
+:white_check_mark: Paper - Download [here](https://papermc.io/downloads#Paper-1.19)!
+:white_check_mark: Purpur - Download [here](https://purpurmc.org/downloads/1.19)!
 :white_check_mark: Forge - Download [here](https://files.minecraftforge.net/net/minecraftforge/forge/index_1.19.html)!
 :white_check_mark: Fabric - Download [here](https://fabricmc.net/use/installer/)
 
-These first 1.19 releases will be unstable and can have performance issues. Please make sure to create a backup before upgrading your server.
+**These first 1.19 releases will be unstable and can have performance issues. Please make sure to create a backup before upgrading your server.**
 
 """, "false"]
 
