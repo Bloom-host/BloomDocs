@@ -38,7 +38,7 @@ Keep in mind that ARK Survival Evolved is a big game, and it will take a while t
 See the following - https://ark.gamepedia.com/Dedicated_Server_Setup#Hardware for more information.
 :::
 
-<div class="text--center"><img src={require('../../static/imgs/ARK/1.jpeg').default} alt="img"/></div>
+<div class="text--center"><img src={require('../../static/imgs/no-support-servers/ARK/1.jpeg').default} alt="img"/></div>
 
 ### Opening the required ports on your server
 
@@ -60,7 +60,7 @@ The ARK Survival Evolved server requires a local RCON connection, **you will see
 
 Your Ports and Proxies section should look like this (assuming you want RCON port 27020 opened, you can leave it blank if you don't want to use it)
 
-<div class="text--center"><img src={require('../../static/imgs/ARK/2.png').default} alt="img"/></div>
+<div class="text--center"><img src={require('../../static/imgs/no-support-servers/ARK/2.png').default} alt="img"/></div>
 
 ### Connecting to your ARK Survival Evolved Server through STEAM
 
