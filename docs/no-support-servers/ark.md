@@ -30,12 +30,12 @@ First, go to the [game panel](https://mc.bloom.host) and select your server, the
 
 If you want to create an split server for ARK Survival Evolved, you can do so by following the same steps as above, but instead of changing the server type of an existing server just fill in the form **Split Server** form on the right, this will create a new server and install ARK Survival Evolved on it.
 
-:::warning
-ARK Survival Evolved requires about **4GB to run with no players on the default map**. Although it is recommended to run the server with 6GB by the ARK creators, if you decide to run one of the DLC maps you will need increase the RAM, such as Genesis 2 requiring over 13GB to start.
+:::important
+ARK Survival Evolved requires about **4GB to run with no players on the default map**. Although it is recommended to run the server with 6GB by the ARK creators, if you decide to run one of the DLC maps you will need increase the RAM, maps as Genesis 2 require over 13GB to start.
 
 Keep in mind that ARK Survival Evolved is a big game, and it will take a while to download all the files, it's recommended you assign at least 30GB of storage to the server, since the base server files will take around 20GB of space, DLC maps will require more storage space.
 
-See the following - https://ark.gamepedia.com/Dedicated_Server_Setup#Hardware for more information.
+Check https://ark.gamepedia.com/Dedicated_Server_Setup#Hardware for more information.
 :::
 
 <div class="text--center"><img src={require('../../static/imgs/no-support-servers/ARK/1.jpeg').default} alt="img"/></div>
@@ -50,7 +50,7 @@ ARK Survival Evolved needs the following ports to function
 
 To open this ports just go to the [game panel](https://mc.bloom.host) and select your server, then click on the **Ports & Proxies** button. Here you will be able to open the ports you need by clicking the **Open Port** button on the lower right of the page. Keep in mind that the option **THE PORT WILL BE PUBLICLY ACCESSIBLE. DISABLE THIS OPTION TO CREATE AN INTERNAL PORT.** needs to be checked/enabled for the server to work.
 
-:::warning
+:::important
 Keep in mind that port **7777** needs to be the primary server port.
 
 **The External RCON port 27020 is optional**, is only needed if you plan to use the **Remote Console** feature in the game.
