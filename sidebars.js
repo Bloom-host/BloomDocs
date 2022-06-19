@@ -210,7 +210,8 @@ module.exports = {
             collapsed: true,
             items: [
                 'no-support-servers/ark',
-                'extras/caddy-server',
+                'no-support-servers/caddy-server',
+                'extras/grafana',
             ],
         },       
 
@@ -222,7 +223,6 @@ module.exports = {
                 'extras/ping-issues',
                 'extras/account-details',
                 'extras/available-modpacks',
-	        'extras/grafana',
                 'extras/mobile-app',
                 'extras/srvcontrol',
 		'extras/swap',
