@@ -21,6 +21,10 @@ Hello there Bloomers! 👋
 
 In this guide, we will go over on how to create an ARK Survival Evolved server.
 
+:::important
+ARK - Survival Evolved is currently an unsupported server, this means that Bloom doesn't officially provide support for in-game issues and some panel and server features may not be incompatible.
+:::
+
 ### How to change your main server to ARK Survival Evolved
 
 First, go to the [game panel](https://mc.bloom.host) and select your server, then click on the **server split** button. Here you will be able to change your existing server to ARK Survival Evolved by clicking the three dots to the right of the server name, selecting **Change Server Type** then under Server Category select **No Supports Servers** and in **Server Type** dropdown select **ARK Survival Evolved**. Remember to click the **Reinstall** button to reinstall the server, this process will start downloading ARK Survival Server to your Bloom server, keep in mind that this process will take a while because it has to download around 20GB of games files.
@@ -37,7 +41,7 @@ ARK Survival Evolved requires about **4GB to run with no players on the default 
 Check https://ark.gamepedia.com/Dedicated_Server_Setup#Hardware for more information.
 :::
 
-<div class="text--center"><img src={require('../../static/imgs/no-support-servers/ARK/1.jpeg').default} alt="img"/></div>
+<div class="text--center"><img src={require('../../static/imgs/other-servers/ARK/1.jpeg').default} alt="img"/></div>
 
 ### Opening the required ports on your server
 
@@ -59,7 +63,13 @@ The ARK Survival Evolved server requires a local RCON connection, **you will see
 
 Your Ports and Proxies section should look like this - assuming you want RCON port 27020 opened, you can leave it blank if you don't want to use it. Note that port 7777 needs to be the primary port.
 
-<div class="text--center"><img src={require('../../static/imgs/no-support-servers/ARK/2.png').default} alt="img"/></div>
+<div class="text--center"><img src={require('../../static/imgs/other-servers/ARK/2.png').default} alt="img"/></div>
+
+### ARK Survival Evolved server settings
+
+You will find server settings in the **Startup** tab of the panel. Here you will be able to change the query and rcon port of the server, as well as the server name, password, admin password and server map. You will also be able to enable auto updating.
+
+<div class="text--center"><img src={require('../../static/imgs/other-servers/ARK/3.png').default} alt="img"/></div>
 
 ### Connecting through STEAM
 

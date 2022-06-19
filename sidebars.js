@@ -209,9 +209,9 @@ module.exports = {
             label: 'Other Servers',
             collapsed: true,
             items: [
-                'no-support-servers/ark',
-                'no-support-servers/caddy-server',
-                'no-support-servers/grafana',
+                'other-servers/ark',
+                'other-servers/caddy-server',
+                'other-servers/grafana',
             ],
         },       
 
