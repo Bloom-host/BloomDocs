@@ -35,18 +35,18 @@ ARK Survival Evolved requires about **4GB to run with no players on the default 
 
 Keep in mind that ARK Survival Evolved is a big game, and it will take a while to download all the files, it's recommended you assign at least 30GB of storage to the server, since the base server files will take around 20GB of space, DLC maps will require more storage space.
 
-See the following - https://ark.gamepedia.com/Dedicated_Server_Setup#Hardware for more information.</u>.
+See the following - https://ark.gamepedia.com/Dedicated_Server_Setup#Hardware for more information.
 :::
 
 <div class="text--center"><img src={require('../../static/imgs/ARK/1.jpeg').default} alt="img"/></div>
 
 ### Opening the required ports on your server
 
-ARK Survival Evolved needs the following ports to function:
-- Game (Primary server port): **7777**
-- Raw UDP: **7778**
-- Query (Port used to connect to the server in-game): **27015**
-- External RCON (optional): **27020**
+ARK Survival Evolved needs the following ports to function
+- Game (Primary server port) - **7777**
+- Raw UDP - **7778**
+- Query (Port used to connect to the server in-game) - **27015**
+- External RCON (optional) - **27020**
 
 To open this ports just go to the [game panel](https://mc.bloom.host) and select your server, then click on the **Ports & Proxies** button. Here you will be able to open the ports you need by clicking the **Open Port** button on the lower right of the page. Keep in mind that the option **THE PORT WILL BE PUBLICLY ACCESSIBLE. DISABLE THIS OPTION TO CREATE AN INTERNAL PORT.** needs to be checked/enabled for the server to work.
 
@@ -58,7 +58,7 @@ Keep in mind that port **7777** needs to be the primary server port.
 The ARK Survival Evolved server requires a local RCON connection, **you will see RCON connection refused messages until the server has successfully started and connects to the RCON, which can take anywhere from 10 to 20 minutes**, this is normal behavior.
 :::
 
-Your Ports and Proxies section should look like this (assuming you want RCON port 27020 opened, you can leave it blank if you don't want to use it):
+Your Ports and Proxies section should look like this (assuming you want RCON port 27020 opened, you can leave it blank if you don't want to use it)
 
 <div class="text--center"><img src={require('../../static/imgs/ARK/2.png').default} alt="img"/></div>
 
@@ -73,7 +73,7 @@ Your Ports and Proxies section should look like this (assuming you want RCON por
 
 1. Open the EPIC GAMES client and start ARK Survival Evolved.
 2. Once you get to the menu click on HOST/LOCAL then click on Play Single Player.
-3. Once the Play Single Player option loads click the TAB button on your keyboard to open the game console, then type the following command: `open serverip:7777` (For example: open `66.55.44.33:7777`). This will connect you to your ARK server. On EPIC GAMES you connect to the server using port 7777, but on Steam you connect using the query port 27015.
+3. Once the Play Single Player option loads click the TAB button on your keyboard to open the game console, then type the following command `open serverip:7777` (For example: open `66.55.44.33:7777`). This will connect you to your ARK server. On EPIC GAMES you connect to the server using port 7777, but on Steam you connect using the query port 27015.
 
 ### Connecting through the multiplayer tab on ARK Survival Evolved
 
