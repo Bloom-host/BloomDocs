@@ -206,6 +206,16 @@ module.exports = {
 
         {
             type: 'category',
+            label: 'Other Servers',
+            collapsed: true,
+            items: [
+                'no-support-servers/ark',
+                'extras/caddy-server',
+            ],
+        },       
+
+        {
+            type: 'category',
             label: 'Extras',
             collapsed: true,
             items: [
@@ -217,7 +227,6 @@ module.exports = {
                 'extras/srvcontrol',
 		'extras/swap',
                 'extras/clumsyloader',
-		'extras/caddy-server',
                 'extras/contributing',
                 'extras/template'
             ],
