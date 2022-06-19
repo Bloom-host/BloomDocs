@@ -211,7 +211,7 @@ module.exports = {
             items: [
                 'no-support-servers/ark',
                 'no-support-servers/caddy-server',
-                'extras/grafana',
+                'no-support-servers/grafana',
             ],
         },       
 
