@@ -33,7 +33,7 @@ If you want to create an split server for ARK Survival Evolved, you can do so by
 :::important
 ARK Survival Evolved requires about **4GB to run with no players on the default map**. Although it is recommended to run the server with 6GB by the ARK creators, if you decide to run one of the DLC maps you will need increase the RAM, maps as Genesis 2 require over 13GB to start.
 
-Keep in mind that ARK Survival Evolved is a big game, and it will take a while to download all the files, it's recommended you assign at least 30GB of storage to the server, since the base server files will take around 20GB of space, DLC maps will require more storage space.
+**Keep in mind that ARK Survival Evolved is a big game, and it will take a while to download all the files (server install)**, it's recommended you assign at least **30GB of storage** to the server, since the base server files will take around 20GB of space, DLC maps will require more storage space.
 
 Check https://ark.gamepedia.com/Dedicated_Server_Setup#Hardware for more information.
 :::
@@ -48,7 +48,7 @@ ARK Survival Evolved needs the following ports to function
 - Query (Port used to connect to the server in-game) - **27015**
 - External RCON (optional) - **27020**
 
-To open this ports just go to the [game panel](https://mc.bloom.host) and select your server, then click on the **Ports & Proxies** button. Here you will be able to open the ports you need by clicking the **Open Port** button on the lower right of the page. Keep in mind that the option **THE PORT WILL BE PUBLICLY ACCESSIBLE. DISABLE THIS OPTION TO CREATE AN INTERNAL PORT.** needs to be checked/enabled for the server to work.
+To open this ports just go to the [game panel](https://mc.bloom.host) and select your server, then click on the **Ports & Proxies** button. Here you will be able to open the ports you need by clicking the **Open Port** button on the lower right of the page. Keep in mind that the option `THE PORT WILL BE PUBLICLY ACCESSIBLE. DISABLE THIS OPTION TO CREATE AN INTERNAL PORT.` needs to be checked/enabled for the server to work.
 
 :::important
 Keep in mind that port **7777** needs to be the primary server port.
@@ -62,22 +62,22 @@ Your Ports and Proxies section should look like this (assuming you want RCON por
 
 <div class="text--center"><img src={require('../../static/imgs/no-support-servers/ARK/2.png').default} alt="img"/></div>
 
-### Connecting to your ARK Survival Evolved Server through STEAM
+### Connecting through STEAM
 
 1. Open the STEAM client and click the **View** on the top bar, then select "Servers".
 2. Click the **Favorites** tab then click the **Add Server** button.
 3. Type your server IP address and port, this would be something like `66.55.44.33:27015` (`your server ip:27015`). Keep in mind that your primary server port will be 7777, but **you connect using the query port which is 27015**.
 4. Click the "Add this address to favorites" button, then you can select the server and click on the "Connect" button.
 
-### Connecting to your ARK Survival Evolved server through the EPIC GAMES client
+### Connecting through EPIC GAMES
 
-1. Open the EPIC GAMES client and start ARK Survival Evolved.
+1. Open EPIC GAMES and start ARK Survival Evolved.
 2. Once you get to the menu click on HOST/LOCAL then click on Play Single Player.
 3. Once the Play Single Player option loads click the TAB button on your keyboard to open the game console, then type the following command `open serverip:7777` (For example: open `66.55.44.33:7777`). This will connect you to your ARK server. On EPIC GAMES you connect to the server using port 7777, but on Steam you connect using the query port 27015.
 
 ### Connecting through the multiplayer tab on ARK Survival Evolved
 
-Keep in mind that it will take a while for your server to appear on the unnoficial tab of the ARK server list, it can take a few hours up to a day.
+Keep in mind that it will take a while for your server to appear on the unnoficial tab of the ARK server list, it can take a few hours up to a day. If it hasn't appeared on the unnoficial list yet, try to connect using the two options above.
 
 1. Open ARK and click on **Join ARK**
 2. Click on the **Unnoficial Servers** tab and search for your server then join.
