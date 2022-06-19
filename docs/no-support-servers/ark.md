@@ -1,7 +1,6 @@
 ---
 id: ark
 title: ARK - Survival Evolved
-slug: /ark
 hide_title: true
 hide_table_of_contents: true
 sidebar_label: ARK - Survival Evolved
