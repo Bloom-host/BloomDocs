@@ -22,7 +22,7 @@ Hello there Bloomers! 👋
 In this guide, we will go over on how to create an ARK Survival Evolved server.
 
 :::important
-ARK - Survival Evolved is currently an unsupported server, this means that Bloom doesn't officially provide support for in-game issues and some panel and server features may not be incompatible.
+ARK - Survival Evolved is currently an unsupported server, this means that Bloom doesn't officially provide support for in-game issues and some panel and server features may not work.
 :::
 
 ### How to change your main server to ARK Survival Evolved
