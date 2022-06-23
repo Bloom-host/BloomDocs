@@ -1,7 +1,11 @@
-# Pre-Defined Embed Messages.
-# For more information and detailed settings please check:
-# https://gist.github.com/NotGeri/cb11552ab7a12e20ab495a20826c341f
+# Globally available placeholders: %guildicon%, %useravatar%
 
+# ┌─────────────────┐
+# │ Custom Commands │
+# └─────────────────┘
+# These are just custom defined embed commands that are sent
+# whenever their name or one of their aliases is used with
+# the bot's prefix. ('!'/'-' by default)
 [billing]
 text = "https://billing.bloom.host"
 [billing.buttons]
@@ -657,17 +661,10 @@ image = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/im
 # └────────────────┘
 # Please do note that you'll still have to specify "enabled = false"
 # to disable them from !docs and their usage as a command. (for example !error)
-# Most of these have special placeholders.
-# All placeholders should be pretty self-explanatory:
-#   - duck: %link%
-#   - error: %errormessage%
-#   - success: %successmessage%
-#   - suggestion-embed: %username% %suggestion% %suggestionid% %date%
-#   - approved-suggestion: %username% %suggestion% %suggestionid% %date% %upvotes %downvotes%
-#   - denied-suggestion: %username% %suggestion% %suggestionid% %date% %upvotes% %downvotes%
-#   - join: %username% %membercount%
-#   - timewarn: %to% %from% %time%
+# Most of these have special placeholders. These should be pretty self-explanatory.
 
+# Sent whenever the !duck command is used (🦆)
+# Placeholder: %link%
 [duck]
 enabled = true
 title = "<:blobcheer:762884190210621440> Here's your random duck!"
@@ -675,29 +672,38 @@ image = "%link%"
 [duck.buttons]
 1 = ["Original Image", "%link%", "🔗"]
 
+# Sent whenever an unintended command is used on a different server than the main one
 [server]
 enabled = false
-title = "<:ex:849551085793837067> Error: his command can only be used on the main discord server!"
+title = "<:ex:849551085793837067> Error: this command can only be used on the main discord server!"
 colour = "#dd2e46"
 [server.buttons]
 1 = ["Join Server", "https://discord.gg/bloom", "🔗"]
 
+# Sent whenever some action was unsuccessful
+# Placeholders: %errormessage%
 [error]
 enabled = false
 title = "<:ex:849551085793837067> Error: %errormessage%"
 colour = "#dd2e44"
 
+# Sent whenever a command was unsuccessful
+# Placeholders: %errormessage%, %usage%
 [error-usage]
 enabled = false
 title = "<:ex:849551085793837067> Error: %errormessage%"
 description = "Usage: `%usage%`"
 colour = "#dd2e44"
 
+# Sent whenever some action was successful
+# Placeholder: %successmessage%
 [success]
 enabled = false
 title = "<:check:849551086033698856> Success: %successmessage%"
 colour = "#77b255"
 
+# Sent when a new suggestion is created or edited
+# Placeholders: %suggestion%, %username%, %date%, %suggestionid%
 [suggestion-embed]
 title = "%username%'s Suggestion"
 enabled = false
@@ -706,6 +712,8 @@ thumbnail = "%useravatar%"
 footer = "Suggestion ID: %suggestionid% • %date%"
 footer-icon = "%guildicon%"
 
+# Sent whenever a suggestion is approved
+# Placeholders: %username%, %staffname%, %reason%, %status%, %suggestion%, %date%, %upvotes%, %downvotes%, %suggestionid%
 [approved-suggestion]
 title = "Approved %username%'s Suggestion"
 colour = "#77b255"
@@ -716,6 +724,9 @@ footer-icon = "%guildicon%"
 [approved-suggestion.fields]
 1 = ["Suggestion", "%suggestion%", "false"]
 2 = ["Reason from %staffname%", "%reason%", "false"]
+
+# Sent whenever a suggestion is denied
+# Placeholders: %username%, %staffname%, %reason%, %status%, %suggestion%, %date%, %upvotes%, %downvotes%, %suggestionid%
 [denied-suggestion]
 title = "Denied %username%'s Suggestion"
 enabled = false
@@ -727,10 +738,13 @@ footer-icon = "%guildicon%"
 1 = ["Suggestion", "%suggestion%", "false"]
 2 = ["Reason from %staffname%", "%reason%", "false"]
 
+# Sent whenever someone joins
+# Placeholders: %username%, %usertag%, %usermention%, %membercount%
 [join]
 enabled = false
 description = "**<:blobwave:736379131696119860> Welcome, %username%!**"
 
+# Sent whenever the !et command is used without input
 [embedtest]
 title = "BloomBot - Contributing"
 title-icon = "%guildicon%"
@@ -756,6 +770,20 @@ Once you have an embed you like, simply create a pull request by following the [
 a = ["Open Help Gist", "https://gist.github.com/NotGeri/cb11552ab7a12e20ab495a20826c341f", "🔗"]
 b = ["Read Contribrution Docs", "https://docs.bloom.host/extras/contributing#editing-github-stuffs-advanced", "🔗"]
 
+
+# Sent when the !claims commmand is used
+# Placeholders: %time%, %lines%, %total%, %unclaimed%
+[claims]
+enabled = false
+colour = "#ffcc4d"
+[claims.fields]
+1 = ["🔗 Claimed Tickets Since `%time%`", """
+%lines%
+
+✅ Total regular - %total%
+⚠️ Unclaimed - %unclaimed%
+""", "false"]
+
 # ┌───────────────┐
 # │ Ticket Embeds │
 # └───────────────┘
@@ -770,7 +798,7 @@ Our standard support hours are between 8AM and 8PM US Eastern, although we are o
 Please consider using <#737803938430189678> for non-technical issues.
 """
 [ticket-panel.buttons]
-a = ["Open Billing Ticket", "https://billing.bloom.host/submitticket.php"]
+a = ["Open Billing Ticket", "https://billing.bloom.host/submitticket.php", "💰"]
 
 [tickets-default]
 enabled = false
@@ -902,8 +930,8 @@ You will receive a ping when your spot is ready. In the mean time feel free to a
 """
 
 [whitelistpanelthing]
-title = "Join the waitlist"
 enabled = false
+title = "Join the waitlist"
 description = """
 :white_circle: to join the **Minecraft Essentials** waitlist
 :blue_circle: to join the **Minecraft Performance** waitlist
@@ -961,66 +989,9 @@ colour = "#ffcc4d"
 # ┌─────────────────┐
 # │ Archived Embeds │
 # └─────────────────┘
-[infoyes]
-title = "About US"
-title-icon = "%guildicon%"
-enabled = false
-description = """
-Our mission is to continue to provide our high-performance game hosting and Virtual Private Servers to both gamers and non-gamers, at affordable and sustainable prices. We only work with top-rated and reliable datacenters and hardware vendors to give you the best performance, up-time, and overall experience. We top all of this off with excellent customer service. At Bloom, we are always improving and listening to feedback. Please contact us with any questions, suggestions, or concerns.
-"""
-[infoyes.fields]
-1 = ["<:discord:881204198442663936> **The Discord**", """
-We post announcements, etc here.
-```prolog
-Administration
-```
-You can talk about anything in general in these channels.
-```prolog
-Chit Chat
-```
-Need help with anything? ask here
-```prolog
-Support
-```
-Think of something we can improve on? suggest it here.
-```prolog
-Suggestions
-```
-""", "false"]
-
-2 = ["🎖️ Important Roles:", """
-<@&720098768057270283> - Our wonderful staff team
-<@&803747472589455360> - Someone in the community who is exceedingly active and helpful
-<@&739550512990388296> - Discord Boosters ~ Great people :smile:
-<@&753366973961863248> - Official Bloom Partners
-<@&744415283330154566> - Help out by writing documentation
-<@&880083074321350676> - Feature beta testers
-<@&732004421348753482> - Customers
-<@&732004386133245953> - Members of our discord server ~ also all great people :slight_smile:
-""", "false"]
-
-3 = ["📜 Rules", """
-```yml
-0: Follow Discord TOS
-1: Don't advertise >:(
-2: Stay on topic
-3: Keep away from potentially disturbing posts
-4: Be kind and respectful to others
-5: No discrimination of any kind (no slurs)
-6: Avoid politics and other controversial topics
-7: Use common sense
-```
-""", "false"]
-
-4 = ["❔ Where you can review us / checkout reviews", """
-• [Trustpilot](https://www.trustpilot.com/review/bloom.host)
-• [Mc Market(VPS)](https://www.mc-market.org/threads/601576/)
-• [MC Market(Minecraft)](https://www.mc-market.org/threads/612586/)
-• [Admincraft Marketplace](https://www.reddit.com/r/admincraft/comments/mi0bjj/admincraft_marketplace_q2_2021/gt30cgl/)
-""", "false"]
-
-
-[temp-1]
+# These are merely as an archive in case they are needed in the future.
+# They are not used anywhere by the bot automatically.
+[rri-1]
 enabled = false
 title = "Service Alerts - Toggle Notification"
 colour = "#f85102"
@@ -1032,7 +1003,7 @@ author-thumbnail = false
 title-icon = false
 footer-icon = false
 
-[temp-2]
+[rri-2]
 enabled = false
 title = "Location Alerts - Toggle Notification"
 colour = "#f85102"
@@ -1045,7 +1016,7 @@ author-thumbnail = false
 title-icon = false
 footer-icon = false
 
-[temp-3]
+[rri-3]
 enabled = false
 title = "Stock Alerts - Toggle Notification"
 colour = "#f85102"
@@ -1057,7 +1028,7 @@ author-thumbnail = false
 title-icon = false
 footer-icon = false
 
-[temp-4]
+[rri-4]
 enabled = false
 colour = "#f85102"
 title = "About Us"
@@ -1065,7 +1036,7 @@ description = """Our mission is to continue to provide our high-performance game
 author-thumbnail = false
 title-icon = "%guildicon%"
 footer-icon = false
-[temp-4.fields]
+[rri-4.fields]
 0 = ["<:discord:881204198442663936> **The Discord**", """We post announcements, etc here.
 ```prolog
 Administration
