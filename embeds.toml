@@ -770,6 +770,21 @@ Once you have an embed you like, simply create a pull request by following the [
 a = ["Open Help Gist", "https://gist.github.com/NotGeri/cb11552ab7a12e20ab495a20826c341f", "🔗"]
 b = ["Read Contribrution Docs", "https://docs.bloom.host/extras/contributing#editing-github-stuffs-advanced", "🔗"]
 
+# Sent when a ticket is opened outside of regular support hours
+# Placeholders: %from%, %to%, %fromraw%, %toraw%, %time%
+[time-warn]
+enabled = false
+colour = "#ffdc5d"
+title = ":warning: Ticket created outside standard support hours"
+description = """
+Our standard support hours today are between <t:%from%:t> and <t:%to%:t>. **Current time: <t:%time%:t>.**
+
+Though we are often available outside of these hours, responses may be delayed until support hours resume.
+
+Please consider using <#737803938430189678> for non-technical issues.
+"""
+[time-warn.buttons]
+1 = ["Use #support-chat", "https://discord.com/channels/720081782980083813/737803938430189678", "💰"]
 
 # Sent when the !claims commmand is used
 # Placeholders: %time%, %lines%, %total%, %unclaimed%
@@ -793,7 +808,7 @@ title = "Click the button to open a ticket"
 description = """
 For billing inquiries such as upgrades, downgrades, or refunds, please open a ticket on our billing panel: https://billing.bloom.host/submitticket.php
 
-Our standard support hours are between 8AM and 8PM US Eastern, although we are often available outside of these hours, responses may be delayed until support hours resume.
+Our standard support hours are between <t:1655985600:t> and <t:1656028800:t>, although we are often available outside of these hours, responses may be delayed until support hours resume.
 
 Please consider using <#737803938430189678> for non-technical issues.
 """
@@ -960,31 +975,6 @@ description = """
 • **By**: %staffmention%
 • **At**: %fancyclosedat%
 """, "true"]
-
-[time-warn]
-enabled = false
-colour = "#ffdc5d"
-title = ":warning: Ticket created outside standard support hours"
-description = """
-Our standard support hours today are between %to% and %from% US Eastern. **Current time: %time%.**
-
-Though we are often available outside of these hours, responses may be delayed until support hours resume.
-
-Please consider using <#737803938430189678> for non-technical issues.
-"""
-[time-warn.buttons]
-1 = ["Use #support-chat", "https://discord.com/channels/720081782980083813/737803938430189678", ":moneybag:"]
-
-[claims]
-enabled = false
-colour = "#ffcc4d"
-[claims.fields]
-1 = ["🔗 Claimed Tickets Since `%time%`", """
-%lines%
-
-✅ Total regular - %total%
-⚠️ Unclaimed - %unclaimed%
-""", "false"]
 
 # ┌─────────────────┐
 # │ Archived Embeds │
