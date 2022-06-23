@@ -73,7 +73,7 @@ You will find server settings in the **Startup** tab of the panel. Here you will
 
 :::important
 
-To enable crossplay you will need to add the `--crossplay flag option in the **Startup** tab under the **Additional Arguments** field located at the end of the startup page. Do note that the crossplay feature sometimes buggs out and doesn't work.
+To enable crossplay you will need to add the `--crossplay flag option in the **Startup** tab under the **Additional Arguments** field located at the end of the startup page. Do note that the crossplay feature sometimes bugs out and doesn't work.
 :::
 
 <div class="text--center"><img src={require('../../static/imgs/other-servers/ARK/4.png').default} alt="img"/></div>
