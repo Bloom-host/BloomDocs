@@ -43,6 +43,7 @@ We recommend you compress all the server files that you want to import before st
 Once the import begins, you an navigate to the Console page to view the current progress.
 
 <div class="text--center"><img src={require('../../static/imgs/using_the_panel/server-importer/1.png').default} alt="console"/></div>
+:::
 
 #### Failsafe if your previous host is having issues with S/FTP
 If your previous provider is having issues with S/FTP connections, be it from having an outdated panel, or other credential complications, you can follow the steps below.
