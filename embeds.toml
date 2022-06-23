@@ -799,6 +799,70 @@ colour = "#ffcc4d"
 ⚠️ Unclaimed - %unclaimed%
 """, "false"]
 
+# Sent when a ticket !add/!remove finishes
+# Placeholder: %results%
+[ticket-command-finished]
+enabled = false
+title = "Finished! Results:"
+title-icon = "%guildicon%"
+description = "%results%"
+
+# Sent when a ticket !add/!remove starts
+[ticket-command-pending]
+enabled = false
+title = "Attempting to add users..."
+title-icon = "%guildicon%"
+
+# Sent when a ticket message is translated
+# Placeholders: %oldtext%, %newtext%, %username%, %usertag%, %usermention%, %userid%, %from%, %fromflag%, %to%, %toflag%
+[translate-command]
+enabled = false
+text = "<:translate:989542413594951780> **%username%**: %newtext%"
+
+# Sent for !translate status
+# Placeholders: %status%
+[translation-status]
+enabled = false
+title = "<:translate:989542413594951780> Translation Status: %status%"
+description = "Toggle to status with the `!ticket toggle` command!"
+
+# Sent when !stats is used
+# Placeholders: %totalsuggestions%, %pendingsuggestions%, %approvedsuggestions%, %deniedsuggestions%, %duckcount%, %uptime%, %avgfirstresponse%, %membercount%, %rolecount%
+[stats-embed]
+enabled = false
+title = "Bloom Statistics"
+title-icon = "%guildicon%"
+footer = "BloomBot - Bloom.host"
+[stats-embed.fields]
+a = ["📈 Suggestion Statistics", """
+```yml
+Total: %totalsuggestions%
+Pending: %pendingsuggestions%
+Approved: %approvedsuggestions%
+Denied: %deniedsuggestions%
+```
+""", "false"]
+
+b = ["🦆 Duck Statistics", """
+```yml
+Total: %duckcount%
+```
+""", "false"]
+
+c = ["<:aaaduck:755553395363938344> Guild Statistics", """
+```yml
+Member Count: %membercount%
+Role Count: %rolecount%
+```
+""", "false"]
+
+d = ["⚙ BloomBot Statistics", """
+```yml
+Current Uptime: %uptime%
+Avg. First Response: %avgfirstresponse%
+```
+""", "false"]
+
 # ┌───────────────┐
 # │ Ticket Embeds │
 # └───────────────┘
