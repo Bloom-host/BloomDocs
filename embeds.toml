@@ -6,6 +6,44 @@
 # These are just custom defined embed commands that are sent
 # whenever their name or one of their aliases is used with
 # the bot's prefix. ('!'/'-' by default)
+[help]
+title = "BloomBot Help"
+title-icon = "%guildicon%"
+thumbnail = "https://cdn.discordapp.com/icons/720081782980083813/a_b14b3675972cae4aa909387ee4b7995f.gif"
+footer = "BloomBot - Bloom.host"
+[help.fields]
+a = ["❔ Help Commands", """
+• `!help` - Here you are!
+• `!waitlist` - Join the waitlist
+• `!rate` - Satisfied with Bloom?
+• `!docs` - List of all other documents
+• `!hastebin` - For all your pasting needs!
+• `!duck` - Generate a random duck!
+""", "true"]
+
+b = ["🔗 Links", """
+• [Website](https://bloom.host/)
+• [Billing Panel](https://billing.bloom.host/)
+• [Duck Panel](https://mc.bloom.host/)
+• [VPS Panel](https://vps.bloom.host/)
+""", "true"]
+
+c = ["⚙ Misc Commands", """
+• `!stats` - Some stats
+• `!duck` - Get a random duck!
+• `!suggest <idea>` - Create a suggestion
+• `!steal <name> <link | emoji>` - Add a new emoji
+• `!edit <id> <fixed idea>` - Modify your suggestion
+""", "false"]
+
+d = ["🏷️ Ticket Commands", """
+• `!close [reason]` - Close your ticket
+• `!rename <name>` - Rename a ticket
+• `!transfer <@tag | userid>` - Transfer a ticket to another user
+• `!add <@user | userid>` - Add a user to your ticket
+• `!remove <@user | userid>` - Remove a user from your ticket
+""", "true"]
+
 [billing]
 text = "https://billing.bloom.host"
 [billing.buttons]
