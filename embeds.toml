@@ -815,7 +815,9 @@ enabled = false
 colour = "#ffdc5d"
 title = ":warning: Ticket created outside standard support hours"
 description = """
-Our standard support hours today are between <t:%from%:t> and <t:%to%:t>. **Current time: <t:%time%:t>.**
+Our standard support hours today are between **%fromraw%** and **%toraw%** US Eastern (**<t:%from%:t>** and **<t:%to%:t>** local time)
+
+Current time: **%timeraw%** (**<t:%time%:t>** local)
 
 Though we are often available outside of these hours, responses may be delayed until support hours resume.
 
@@ -906,11 +908,11 @@ Avg. First Response: %avgfirstresponse%
 # └───────────────┘
 [ticket-panel]
 enabled = false
-title = "Click the button to open a ticket"
+title = "🦆 Click the button to open a ticket"
 description = """
 For billing inquiries such as upgrades, downgrades, or refunds, please open a ticket on our billing panel: https://billing.bloom.host/submitticket.php
 
-Our standard support hours are between <t:1655985600:t> and <t:1656028800:t>, although we are often available outside of these hours, responses may be delayed until support hours resume.
+Our standard support hours are between 8AM and 8PM US Eastern, (<t:1655985600:t> and <t:1656028800:t> local time), although we are often available outside of these hours, responses may be delayed until support hours resume.
 
 Please consider using <#737803938430189678> for non-technical issues.
 """
