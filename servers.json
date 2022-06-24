@@ -20,11 +20,6 @@
                 "type": "PC"
         },
         {
-                "name": "ImperiumMC",
-                "ip": "23.158.176.26",
-                "type": "PC"
-        },
-        {
                 "name": "Vibezone",
                 "ip": "134.195.42.25",
                 "type": "PC"
@@ -35,18 +30,8 @@
                 "type": "PC"
         },
         {
-                "name": "AetherisMC",
-                "ip": "play.aetherismc.com",
-                "type": "PC"
-        },
-        {
                 "name": "PopCraft",
                 "ip": "mc.popcraft.org",
-                "type": "PC"
-        },
-        {
-                "name": "Hobo Craft",
-                "ip": "23.158.176.62",
                 "type": "PC"
         },
         {
@@ -54,11 +39,6 @@
                 "ip": "play.centilemc.me",
                 "port": 19132,
                 "type": "PE"
-        },
-        {
-                "name": "CuberaMC",
-                "ip": "134.195.42.62",
-                "type": "PC"
         },
         {
                 "name": "ChumCraft",
@@ -121,11 +101,6 @@
                 "type": "PC"
         },
         {
-                "name": "TerraeMC",
-                "ip": "play.terraemc.net",
-                "type": "PC"
-        },
-        {
                 "name":  "LegionMC",
                 "ip": "legionmc.club",
                 "type": "PC"
@@ -178,11 +153,6 @@
         {
                 "name": "Dotarch",
                 "ip": "play.dotarch.co",
-                "type": "PC"
-        },
-                {
-                "name": "ForestMC",
-                "ip": "play.forestmc.nl",
                 "type": "PC"
         }
 ]
