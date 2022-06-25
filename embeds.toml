@@ -339,6 +339,24 @@ If you don't receive the email, you can click on 'Forgot Password?' and it will 
 2 = ["Open Minecraft Panel", "https://mc.bloom.host", ":bloom:"]
 3 = ["Open VPS Panel", "https://vps.bloom.host", ":bloom:"]
 
+[panelissues]]
+title = "📜 Panel Issues - How to attempt to fix them"
+description = """If you see the error: "We're having some trouble connecting to your server, please wait..." on the panel and our support team has confirmed that there is no issue with the panel, your server or the node itself please follow the steps listed below:
+
+- Try clearing your browser cache from the browser settings or use Ctrl + F5 while on the Bloom panel.
+
+- Try using incognito mode on your browser to access the panel. (At the top right of your browser, click the three dots and then New Incognito Window.)
+
+- Try another browser.
+
+If the steps above doesn't fix it then it indicates you may have an issue with your network connection, if that's the case follow the steps below:
+
+- Try accessing the panel with your mobile phone using your mobile data (or you can share a hotspot to your PC)
+
+- Try using a VPN like Cloudflare WARP https://1.1.1.1/ and see if that fixes it. If the issue gets fixed by using a VPN then there's an issue with your network connection. You can try restarting your router/modem and computer and see if that fixes it, if not then you may need to contact your ISP to report the issue.
+
+"""
+
 
 [waterfall]
 title = "📜 Bloom Docs - Setting up a Waterfall Proxy Server"
