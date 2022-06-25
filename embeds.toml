@@ -377,7 +377,7 @@ thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/stati
 image = "https://docs.bloom.host/assets/images/1-f63d21b5dd3fbb0392aa5c30a55e6650.png"
 
 [importdatabase]
-aliases = ["importdatabases", "importdatabase", "importdb", "databaseimport"]
+aliases = ["importdatabases", "importdatabase", "importdb", "databaseimport", "databasetransfer"]
 title = "📜 Bloom Docs - How to import databases"
 description = "Check out our comprehensive guide on how to import databases. Details [here](https://docs.bloom.host/databases#importing-mysql-databases)."
 thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png"
