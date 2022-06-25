@@ -49,7 +49,7 @@ ARK Survival Evolved needs the following ports to function
 - Game (Primary server port) - **7777**
 - Raw UDP - **7778**
 - Query (Port used to connect to the server in-game) - **27015**
-- External RCON (optional) - **27020**
+- External RCON (optional) - **27020** - For some people opening this port causes issues and doesn't allow them to connect to the server (If you get an Unable to query server info for invite. try closing/deleting port 27020 and see if it works)
 
 To open this ports just go to the [game panel](https://mc.bloom.host) and select your server, then click on the **Ports & Proxies** button. Here you will be able to open the ports you need by clicking the **Open Port** button on the lower right of the page. Keep in mind that the option `THE PORT WILL BE PUBLICLY ACCESSIBLE. DISABLE THIS OPTION TO CREATE AN INTERNAL PORT.` needs to be checked/enabled for the server to work.
 
@@ -61,9 +61,13 @@ Keep in mind that port **7777** needs to be the primary server port.
 The ARK Survival Evolved server requires a local RCON connection, **you will see RCON connection refused messages until the server has successfully started and connects to the RCON, which can take anywhere from 10 to 20 minutes**, this is normal behavior.
 :::
 
-Your Ports and Proxies section should look like this - assuming you want RCON port 27020 opened, you can leave it blank if you don't want to use it. Note that port 7777 needs to be the primary port.
+Your Ports and Proxies section should look like this - assuming you want RCON port 27020 opened, you can leave it blank if you don't want to use it. Note that port 7777 needs to be the primary port. 
 
 <div class="text--center"><img src={require('../../static/imgs/other-servers/ARK/2.png').default} alt="img"/></div>
+
+:::note
+For some people opening the external RCON port 27020 causes issues and doesn't allow them to connect to the server (If you get an Unable to query server info for invite. try closing/deleting port 27020 and see if it works)
+:::
 
 ### ARK Survival Evolved server settings
 
