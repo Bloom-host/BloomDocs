@@ -339,7 +339,7 @@ If you don't receive the email, you can click on 'Forgot Password?' and it will 
 2 = ["Open Minecraft Panel", "https://mc.bloom.host", ":bloom:"]
 3 = ["Open VPS Panel", "https://vps.bloom.host", ":bloom:"]
 
-[panelissues]]
+[panelissues]
 title = "📜 Panel Issues - How to attempt to fix them"
 description = """If you see the error: "We're having some trouble connecting to your server, please wait..." on the panel and our support team has confirmed that there is no issue with the panel, your server or the node itself please follow the steps listed below:
 
