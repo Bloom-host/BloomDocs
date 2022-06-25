@@ -824,7 +824,7 @@ Though we are often available outside of these hours, responses may be delayed u
 Please consider using <#737803938430189678> for non-technical issues.
 """
 [time-warn.buttons]
-1 = ["Use #support-chat", "https://discord.com/channels/720081782980083813/737803938430189678", "💰"]
+1 = ["Use #support-chat", "https://discord.com/channels/720081782980083813/737803938430189678"]
 
 # Sent when the !claims commmand is used
 # Placeholders: %time%, %lines%, %total%, %unclaimed%
@@ -937,7 +937,7 @@ For billing inquiries such as upgrades, downgrades, or refunds, please open a ti
 """
 footer = "Tickets - Bloom.host"
 [tickets-general.buttons]
-2 = ["Open Billing Ticket", "https://billing.bloom.host/submitticket.php", ":moneybag:"]
+2 = ["Open Billing Ticket", "https://billing.bloom.host/submitticket.php", "💰"]
 
 [tickets-billing]
 enabled = false
