@@ -351,7 +351,7 @@ description = """If you see the error: "We're having some trouble connecting to 
 
 If the steps above doesn't fix it then it indicates you may have an issue with your network connection, if that's the case follow the steps below:
 
-- Try accessing the panel with your mobile phone using your mobile data (or you can share a hotspot to your PC)
+- Try accessing the panel with your phone using mobile data and not wifi. You can also share a hotspot to your PC.
 
 - Try using a VPN like Cloudflare WARP https://1.1.1.1/ and see if that fixes it. If the issue gets fixed by using a VPN then there's an issue with your network connection. You can try restarting your router/modem and computer and see if that fixes it, if not then you may need to contact your ISP to report the issue.
 
