@@ -863,7 +863,7 @@ text = "<:translate:989542413594951780> **%username%**: %newtext%"
 # Placeholders: %status%
 [translation-status]
 enabled = false
-title = "<:translate:989542413594951780> Translation Status: %status%"
+title = "<:translate:989542523464716349> Translation Status: %status%"
 description = "Toggle to status with the `!ticket toggle` command!"
 
 # Sent when !stats is used
