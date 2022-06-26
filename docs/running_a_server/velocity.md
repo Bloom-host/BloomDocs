@@ -45,7 +45,7 @@ First you will need to head to your server split section via the server panel si
 
 Next you need to select the type of server split you want to create, name your split, and allocate the amount of RAM and Storage you want your Velocity Server to have, it will look something like this:
 
-<div class="text--center"><img src={require('../../static/imgs/running_a_server/velocity/velocity-server-split-setup.png').default} alt="console" height="30%" width="30%"/></div>
+<div class="text--center"><img src={require('../../static/imgs/running_a_server/velocity/velocity-server-split-setups.png').default} alt="console" height="30%" width="30%"/></div>
 
 After you create your split for Velocity it will appear in that section with all its details, just like your other server splits.
 
