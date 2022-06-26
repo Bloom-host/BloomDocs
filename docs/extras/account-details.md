@@ -2,7 +2,7 @@
 id: account-details
 title: Editing Account Details
 hide_title: true
-hide_table_of_contents: false
+hide_table_of_contents: true
 sidebar_label: Editing Account Details
 description: This guide will help you edit your account details in the billing panel, and on the minecraft panel
 keywords:
@@ -31,12 +31,12 @@ This guide will go over how to change your account details in your client area a
 Head on over to the billing area by going to the header, hovering over support, then clicking Billing Login. Login to your account or register an account from there. 
 
 <div class="text--center">
-<img src={require('../../static/imgs/extras/account_details/2.png').default} alt="img"/></div>
+<img src={require('../../static/imgs/extras/account_details/2.png').default} alt="img" height="50%" width="50%"/></div>
 
 Now, click **Update** under Your Info. 
 
 <div class="text--center">
-<img src={require('../../static/imgs/extras/account_details/3.png').default} alt="img"/></div>
+<img src={require('../../static/imgs/extras/account_details/3.png').default} alt="img" height="50%" width="50%"/></div>
 
 This area lets you edit any details about your account from payment methods to emails sent to changing your password. Once done, click **Save Changes** for all your changes to take effect. 
 

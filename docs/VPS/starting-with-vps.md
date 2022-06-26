@@ -71,12 +71,12 @@ You can download PuTTY from [putty.org](https://www.putty.org/)
 Start PuTTY, select the SSH option and then put your VPS IP in the Host Name (or IP address) field.
 
 <div class="text--center">
-<img src={require('../../static/imgs/VPS/starting-with-vps/2.png').default} alt="img"/></div>
+<img src={require('../../static/imgs/VPS/starting-with-vps/2.png').default} alt="img" height="50%" width="50%"/></div>
 
 After that, click on the "Open" button and the SSH connection will start, you will then be asked for a username. The default username is "Root", click enter and then you will be asked for the password. Keep in mind that the password is not shown and you do not see that you are typing but it its working, so just type your password and click on enter to connect.
 
 <div class="text--center">
-<img src={require('../../static/imgs/VPS/starting-with-vps/3.png').default} alt="img"/></div>
+<img src={require('../../static/imgs/VPS/starting-with-vps/3.png').default} alt="img" height="70%" width="70%"/></div>
 
 :::important
 Need to connect to your VPS via VNC? Check out our guide here: [How to connect to your VPS via VNC](https://docs.bloom.host/vnc)

@@ -39,6 +39,3 @@ To cancel a Stripe Subscription / Stop Recurring Payments you can go to the [Pay
 
 <div class="text--center">
 <img src={require('../../static/imgs/billing/stripe/3.png').default} alt="img"/></div>
-
-<div class="text--center">
-<img src={require('../../static/imgs/billing/stripe/4.png').default} alt="img"/></div>

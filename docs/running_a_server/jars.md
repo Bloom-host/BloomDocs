@@ -92,7 +92,7 @@ Minestom is a *very* experimental developer API not meant to be used by end-user
 
 ## Deprecated Server Software
 
-:::important
+:::warning
 The server software mentioned in this section are no longer updated and are not recommended for use on your servers; however they are kept here for reference purposes.
 :::
 

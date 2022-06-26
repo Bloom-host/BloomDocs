@@ -29,31 +29,27 @@ When running your servers behind a proxy like Velocity or Waterfall, it requires
 
 ## Downloading Velocity
 
-To get started with Velocity, you first need to download the latest version of Velocity from their [downloads page](https://velocitypowered.com/downloads). It is recommended that you go with the stable version that they provide to ensure the most stability when it is running.
+To get started with Velocity, you first need to download the latest version of Velocity from PaperMC [downloads page](https://papermc.io/downloads#Velocity).
 
-![img](../../static/imgs/running_a_server/velocity/velocity-dl-page.PNG)
+<div class="text--center"><img src={require('../../static/imgs/running_a_server/velocity/1.png').default} alt="console" height="70%" width="70%"/></div>
 
 Once you have downloaded Velocity you may proceed to the next step in the setup process: creating a server split to run Velocity off of. Velocity is it’s own server jar file and will require it’s own server to run from.
 
 ## Creating a Velocity Server Split
 
 :::note
-
 It is recommended that you give Velocity at least 524 to 750 megabytes of RAM to operate off of, for servers with a lot of traffic it is probably better to allocate 1 gigabyte of RAM for Velocity to ensure a smooth experience for your users.
-
 :::
 
-First you will need to head to your server split section via the server panel sidebar, the button should look like this.
-
-![img](../../static/imgs/running_a_server/velocity/velocity-server-split-sidebar.PNG)
+First you will need to head to your server split section via the server panel sidebar.
 
 Next you need to select the type of server split you want to create, name your split, and allocate the amount of RAM and Storage you want your Velocity Server to have, it will look something like this:
 
-![img](../../static/imgs/running_a_server/velocity/velocity-server-split-setup.PNG)
+<div class="text--center"><img src={require('../../static/imgs/running_a_server/velocity/velocity-server-split-setup.png').default} alt="console" height="30%" width="30%"/></div>
 
 After you create your split for Velocity it will appear in that section with all its details, just like your other server splits.
 
-![img](../../static/imgs/running_a_server/velocity/velocity-server-details.PNG)
+<div class="text--center"><img src={require('../../static/imgs/running_a_server/velocity/2.png').default} alt="console" height="50%" width="50%"/></div>
 
 Rename your velocity jar that you downloaded in the previous section to `velocity.jar` for simplicity and upload it to your `/home` directory on your new server split. This will be the jar that runs Velocity, much like server jars on your other splits. After you've uploaded the jar file to your server you need to head to the `Startup` section of your server split via the sidebar and make sure that the name of the startup variable for the server jar matches up with what you have uploaded. It should look like this:
 

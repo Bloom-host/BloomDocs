@@ -47,12 +47,11 @@ After clicking you should then get an option saying “download png” click on 
 
 Now go to your server and open “file management” then open “file explorer” in the dropdown menu.
 
-<div class="text--center"><img src={require('../../static/imgs/running_a_server/icon/6.png').default} alt="img"/></div>
+<div class="text--center"><img src={require('../../static/imgs/running_a_server/icon/6.png').default} alt="img" height="70%" width="70%"/></div>
 
 Click upload and pick the icon you made, make sure you name the file exactly server-icon.png or this will not work.
 
-<div class="text--center"><img src={require('../../static/imgs/running_a_server/icon/7.png').default} alt="img"/></div>
-
+<div class="text--center"><img src={require('../../static/imgs/running_a_server/icon/7.png').default} alt="img" height="70%" width="70%"/></div>
 
 Now, restart your server. Feel free to open a ticket on our [Discord](https://discord.gg/bloom) if you need any assistance. 
 

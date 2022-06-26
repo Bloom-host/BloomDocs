@@ -2,7 +2,7 @@
 id: credentials-vps
 title: How to change your VPS password
 hide_title: true
-hide_table_of_contents: false
+hide_table_of_contents: true
 sidebar_label: How to change your VPS password
 description: This guide will show you how to change your VPS password
 keywords:

@@ -31,12 +31,9 @@ This same steps apply to changing the version your server runs on.
 
 To update or change the version of your server, go to the Duck Panel, select your server and click on the **Settings** tab. There you will find a box that says **Change Server Type**.
 
-After you have selected the server type, you will be able to see the available versions of Minecraft and builds, here you can also select the type of server you want to run: Vanilla, Paper, Forge and others. After this, you can click on the "Change Server Type" button to change the jar, version or build your server runs on. Make sure to hit "Reinstall now" if you want the upgrade to proceed.\
+After you have selected the server type, you will be able to see the available versions of Minecraft and builds, here you can also select the type of server you want to run: Vanilla, Paper, Forge and others. After this, you can click on the "Change Server Type" button to change the jar, version or build your server runs on. Make sure to hit "Reinstall now" if you want the upgrade to proceed.
 
-<div class="text--center">
-<img src={require('../../static/imgs/running_a_server/updating/1.png').default} alt="img"/></div>
-
-:::warning
+:::caution
 Keep in mind that you can upgrade Minecraft servers, but you can't downgrade versions unless you reset your Minecraft worlds. Minecraft worlds don't support downgrading to older versions.
 :::
 

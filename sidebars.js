@@ -27,6 +27,12 @@ module.exports = {
             href: 'https://discord.gg/bloom',
         },
 
+        {
+            type: 'link',
+            label: 'Billing Support',
+            href: 'https://billing.bloom.host/supporttickets.php',
+        },
+
 
         {
             type: 'doc',
@@ -37,6 +43,7 @@ module.exports = {
         {
             type: 'category',
             label: 'Getting Started',
+            collapsed: false,
             items: [
                 'getting_started/overview',
             ],
@@ -223,9 +230,8 @@ module.exports = {
                 'extras/ping-issues',
                 'extras/account-details',
                 'extras/available-modpacks',
-                'extras/mobile-app',
                 'extras/srvcontrol',
-		'extras/swap',
+		        'extras/swap',
                 'extras/clumsyloader',
                 'extras/contributing',
                 'extras/template'

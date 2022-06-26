@@ -32,8 +32,9 @@ First you will need the credentials to connect to the remote S/FTP server. If yo
 
 :::note
 We recommend you compress all the server files that you want to import before starting. Many game host panels support the ability to compress your files. This will greatly increase the speed of the server import.
+:::
 
-#### How to start the server import
+### How to start the server import
 - First go to our [Duck Panel](https://mc.bloom.host)
 - Select the server to which you want to import the files.
 - Click on "*Server Importer*" on the navigation bar.
@@ -43,13 +44,14 @@ We recommend you compress all the server files that you want to import before st
 Once the import begins, you an navigate to the Console page to view the current progress.
 
 <div class="text--center"><img src={require('../../static/imgs/using_the_panel/server-importer/1.png').default} alt="console"/></div>
-:::
+
 
 #### Failsafe if your previous host is having issues with S/FTP
 If your previous provider is having issues with S/FTP connections, be it from having an outdated panel, or other credential complications, you can follow the steps below.
 
 :::note
 This method only works if your former provider offers backups with the option to download them directly froma a link.
+:::
 
 - Go to the backup section in your panel.
 - Download the backup directly with your browser.

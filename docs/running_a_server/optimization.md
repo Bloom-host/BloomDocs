@@ -48,10 +48,12 @@ For the bukkit platform the [Paper](https://papermc.io/) jar is recommended, it 
 For Fabric check our [Fabric Setup](/fabric-setup) page. Fabric by itself doesn't change the game at all, to get performance improvements check out our [Fabric Performance Mods](../plugins_and_modifications/fabric_mods/performance-mods.md) page.
 
 ---
-## Configuration options
-There are **many** different options you can utilize to change your servers gameplay and performance. We recommend checking out https://github.com/YouHaveTrouble/minecraft-optimization for an in depth guide.  
+## Guides to optimize your server
+There are **many** different options you can utilize to change your servers gameplay and performance. 
 
-Remember that each server is be different, and that *you* have to decide for yourself which features you want to change. Don't blindly copy paste values ;)
+**We recommend checking out https://github.com/YouHaveTrouble/minecraft-optimization for an in depth guide on how to optimize your server.** 
+
+Remember that each server is be different, and that *you* have to decide for yourself which features you want to change. **Don't blindly copy paste values ;)**
 
 You can also check this [guide](https://eternity.community/index.php/paper-optimization/) which goes way more in depth of what each option does and how each one may affect your server.
 
