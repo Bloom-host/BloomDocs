@@ -14,6 +14,10 @@ module.exports = {
       defaultMode: "dark",
       disableSwitch: false,
     },
+    metadata: [
+      { name: 'og:site_name', content: 'Bloom.host' },
+      { name: 'theme-color', content: '#ff6300' },
+    ],
 
     algolia: {
       apiKey: "3ce68aac2f5dfa371171d1dad93cf6af",
