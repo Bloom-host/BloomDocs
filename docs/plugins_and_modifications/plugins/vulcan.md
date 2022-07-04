@@ -22,7 +22,7 @@ image: https://bloom.host/assets/images/logo.png
 </div>
 
 ## What does the plugin do?
-Vulcan is an advanced cheat detection system that operates at the packet level with version support for 1.7 all the way to 1.17.1. Vulcan provides extra features with it's plugin, such as Discord bot support, banwaves, an ingame GUI, and [BungeeCord](https://www.spigotmc.org/resources/vulcanbungee-bungee-hook-for-vulcan-anti-cheat.94194/) support.
+Vulcan is an advanced cheat detection system that operates at the packet level with version support for 1.7 all the way to the latest version. Vulcan provides extra features with it's plugin, such as Discord bot support, banwaves, an ingame GUI, and [BungeeCord](https://www.spigotmc.org/resources/vulcanbungee-bungee-hook-for-vulcan-anti-cheat.94194/) support.
 
 Cheats detected by Vulcan:
 
