@@ -874,7 +874,7 @@ title-icon = "%guildicon%"
 # Placeholders: %oldtext%, %newtext%, %username%, %usertag%, %usermention%, %userid%, %from%, %fromflag%, %to%, %toflag%
 [translate-command]
 enabled = false
-text = "<:translate:989542413594951780> **%username%**: %newtext%"
+text = "<:translate:989542523464716349> **%username%**: %newtext%"
 
 # Sent for !translate status
 # Placeholders: %status%
