@@ -55,7 +55,7 @@ There are **many** different options you can utilize to change your servers game
 
 Remember that each server is be different, and that *you* have to decide for yourself which features you want to change. **Don't blindly copy paste values ;)**
 
-You can also check this [guide](https://eternity.community/index.php/paper-optimization/) which goes way more in depth of what each option does and how each one may affect your server.
+You can also check this [guide](https://paper-chan.moe/paper-optimization/) which goes way more in depth of what each option does and how each one may affect your server.
 
 ---
 
