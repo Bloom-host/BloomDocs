@@ -249,6 +249,8 @@ description = """
 Chunky is a fast, easy and safe tool for pre-generating chunks on your server.
 
 Chunk generation in Minecraft is slow, which can sometimes cause server lag or slow chunk loading for players. Generating them upfront will help improve performance and gameplay on almost any server.
+
+See our official guide for Chunky [here](https://docs.bloom.host/multiplatform/chunky)
 """
 thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/chunky.png"
 image = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/8ytho7.png"
