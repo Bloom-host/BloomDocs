@@ -404,14 +404,14 @@ image = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/im
 [upgrade]
 aliases = ["upgrades", "downgrade", "downgrades"]
 title = "📜 Plan changes need to be requested through the Billing Panel"
-description = """To request a plan upgrade or downgrade go to the support section of our Billing Panel located [here](https://billing.bloom.host/supporttickets.php), sign in with your Billing Account and open a Billing Ticket requesting the plan change you want.
+description = """To request a plan upgrade, downgrade or a change of location go to the support section of our Billing Panel located [here](https://billing.bloom.host/supporttickets.php), sign in with your Billing Account and open a Billing Ticket requesting the plan change you want.
 
-**Before requesting the upgrade make sure that the plan you want to upgrade to is in stock on https://bloom.host. If the plan is not in stock, you will need to join the waitlist.**
+**Before requesting the upgrade or change of location please make sure that the plan you want to upgrade to is in stock on https://bloom.host. If the plan is not in stock, you will need to join the waitlist.**
 """
 thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png"
 image = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/billing_ticket.png"
 [upgrade.buttons]
-1 = ["Request Upgrade", "https://billing.bloom.host/submitticket.php", ":bloom:"]
+1 = ["Request Change", "https://billing.bloom.host/submitticket.php", ":bloom:"]
 2 = ["Join Waitlist", "https://discord.gg/DcFNkRvfBK", ":bloom:"]
 
 [documentation]
