@@ -255,14 +255,17 @@ image = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/im
 [chunky.fields]
 1 = ["⭐ Chunky", """
 
-• [Spigot Page](https://www.spigotmc.org/resources/chunky.81534/)
-• [GitHub Repository](https://github.com/pop4959/Chunky/)
+• [Spigot - Plugin Version](https://www.spigotmc.org/resources/chunky.81534/)
+• [CurseForge - Forge Mod Version](https://www.curseforge.com/minecraft/mc-mods/chunky-pregenerator-forge)
+• [CurseForge - Fabric Mod Version](https://www.curseforge.com/minecraft/mc-mods/chunky-pregenerator)
+• [Official Documentation](https://github.com/pop4959/Chunky/wiki)
 • [Support Server](https://discord.gg/ZwVJukcNQG)
 """, "false"]
 
 2 = ["🌍 ChunkyBorder", """
 An add-on for Chunky which lets you create and manage custom world borders.
-• [Spigot Page](https://www.spigotmc.org/resources/chunkyborder.84278/)
+• [Spigot- Plugin Version](https://www.spigotmc.org/resources/chunkyborder.84278/)
+• [CurseForge - Fabric Mod Version](https://www.curseforge.com/minecraft/mc-mods/chunky-border)
 • [GitHub Repository](https://github.com/pop4959/ChunkyBorder)
 • [Support Server](https://discord.gg/ZwVJukcNQG)
 """, "false"]
@@ -280,8 +283,8 @@ Check out our comprehensive guide on Velocity [here](https://docs.bloom.host/vel
 thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/velocity.png"
 [velocity.fields]
 1 = ["Links", """
-• [Velocity](https://velocitypowered.com)
-• [GitHub Repository](https://github.com/VelocityPowered/Velocity/)
+• [Velocity](https://papermc.io/downloads#Velocity)
+• [GitHub Repository](https://github.com/PaperMC/Velocity)
 """, "false"]
 
 [security]
