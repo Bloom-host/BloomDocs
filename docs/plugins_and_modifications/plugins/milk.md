@@ -3,7 +3,7 @@ id: milk
 title: Milk
 slug: /plugins/milk
 hide_title: true
-hide_table_of_contents: false
+hide_table_of_contents: true
 sidebar_label: Milk
 description: Milk causes milk buckets to restore hunger and saturation upon consumption
 keywords:

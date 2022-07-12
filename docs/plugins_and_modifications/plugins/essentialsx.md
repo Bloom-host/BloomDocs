@@ -3,7 +3,7 @@ id: essentialsx
 title: EssentialsX
 slug: /plugins/essentialsx
 hide_title: true
-hide_table_of_contents: false
+hide_table_of_contents: true
 sidebar_label: EssentialsX
 description: Plugin offering essential commands to servers
 keywords:

@@ -3,7 +3,7 @@ id: tebex
 title: Tebex (BuyCraft)
 slug: /plugins/tebex
 hide_title: true
-hide_table_of_contents: false
+hide_table_of_contents: true
 sidebar_label: Tebex (BuyCraft)
 description: An easy to use Tebex Store integration plugin.
 keywords:

@@ -3,7 +3,7 @@ id: servernpc
 title: ServerNPC
 slug: /plugins/servernpc
 hide_title: true
-hide_table_of_contents: false
+hide_table_of_contents: true
 sidebar_label: ServerNPC
 description: ServerNPC is a plugin that allows you to create non player characters, or NPC's, and have them do certain actions.
 keywords:

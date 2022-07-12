@@ -3,7 +3,7 @@ id: discordsrv
 title: DiscordSRV
 slug: /plugins/discordsrv
 hide_title: true
-hide_table_of_contents: false
+hide_table_of_contents: true
 sidebar_label: DiscordSRV
 description: An open-source plugin that bridges Discord and Minecraft.
 keywords:

@@ -3,7 +3,7 @@ id: banannouncer
 title: Ban Announcer
 slug: /plugins/banannouncer
 hide_title: true
-hide_table_of_contents: false
+hide_table_of_contents: true
 sidebar_label: Ban Announcer
 description: A Spigot plugin to send punishments to a discord channel, of your choosing!
 keywords:

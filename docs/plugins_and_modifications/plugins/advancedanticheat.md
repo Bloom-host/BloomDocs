@@ -3,7 +3,7 @@ id: advancedanticheat
 title: AAC (Advanced AntiCheat)
 slug: /plugins/aac
 hide_title: true
-hide_table_of_contents: false
+hide_table_of_contents: true
 sidebar_label: AAC (Advanced AntiCheat)
 description: One of the most well known and efficient anticheats out there, blocking numerous movement, combat, and other hacks
 keywords:

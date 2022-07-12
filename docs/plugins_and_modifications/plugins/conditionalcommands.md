@@ -3,7 +3,7 @@ id: conditionalcommands
 title: Conditional Commands
 slug: /plugins/cc
 hide_title: true
-hide_table_of_contents: false
+hide_table_of_contents: true
 sidebar_label: Conditional Commands
 description: A solution to add conditional commands to Minecraft, allowing more configurability with automated actions
 keywords:

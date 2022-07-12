@@ -3,7 +3,7 @@ id: geysermc
 title: GeyserMC
 slug: /plugins/geysermc
 hide_title: true
-hide_table_of_contents: false
+hide_table_of_contents: true
 sidebar_label: GeyserMC
 description: A cool plugin called GeyserMC, which allows users to connect to java servers through the bedrock client.
 keywords:

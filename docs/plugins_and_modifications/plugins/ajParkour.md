@@ -3,7 +3,7 @@ id: ajparkour
 title: ajParkour
 slug: /plugins/ajparkour
 hide_title: true
-hide_table_of_contents: false
+hide_table_of_contents: true
 sidebar_label: ajParkour
 description: A randomly generated parkour plugin
 keywords:

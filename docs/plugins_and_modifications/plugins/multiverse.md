@@ -3,7 +3,7 @@ id: multiverse
 title: Multiverse
 slug: /plugins/multiverse
 hide_title: true
-hide_table_of_contents: false
+hide_table_of_contents: true
 sidebar_label: Multiverse
 description: A plugin called multiverse which lets you have multiple worlds on one server.
 keywords:

@@ -3,7 +3,7 @@ id: vulcan
 title: Vulcan Anticheat
 slug: /plugins/vulcan
 hide_title: true
-hide_table_of_contents: false
+hide_table_of_contents: true
 sidebar_label: Vulcan Anticheat
 description: One of the cheapest and simplest anticheats on the market, constantly updated and maintained
 keywords:

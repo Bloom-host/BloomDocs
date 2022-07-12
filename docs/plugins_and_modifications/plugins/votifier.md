@@ -3,7 +3,7 @@ id: votifier
 title: Votifier
 slug: /plugins/votifier
 hide_title: true
-hide_table_of_contents: false
+hide_table_of_contents: true
 sidebar_label: Votifier
 description: Votifier allows you to be put on voting sites, which increases your servers visibility. Superbvote allows you to give rewards for players to vote.
 keywords:

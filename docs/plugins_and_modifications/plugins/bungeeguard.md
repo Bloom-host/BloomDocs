@@ -3,7 +3,7 @@ id: bungeeguard
 title: BungeeGuard
 slug: /plugins/bungeeguard
 hide_title: true
-hide_table_of_contents: false
+hide_table_of_contents: true
 sidebar_label: BungeeGuard
 description: A plugin that protects against BungeeCord's UUID spoof exploit.
 keywords:

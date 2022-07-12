@@ -3,7 +3,7 @@ id: spark
 title: Spark
 slug: /plugins/spark
 hide_title: true
-hide_table_of_contents: false
+hide_table_of_contents: true
 sidebar_label: Spark
 description: A performance profiling plugin to display server information like TPS and memory usage.
 keywords:

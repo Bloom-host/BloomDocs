@@ -3,7 +3,7 @@ id: floodgate
 title: Floodgate
 slug: /plugins/floodgate
 hide_title: true
-hide_table_of_contents: false
+hide_table_of_contents: true
 sidebar_label: Floodgate
 description: An addon plugin for GeyserMC, to allow all bedrock players to join java servers, without a java account
 keywords:

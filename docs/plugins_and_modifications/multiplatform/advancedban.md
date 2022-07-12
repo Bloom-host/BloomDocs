@@ -3,7 +3,7 @@ id: advancedban
 title: AdvancedBan
 slug: /multiplatform/advancedban
 hide_title: true
-hide_table_of_contents: false
+hide_table_of_contents: true
 sidebar_label: AdvancedBan
 description: A bans and punishment management system
 keywords:
