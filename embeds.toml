@@ -200,7 +200,7 @@ You can use a software such as [WinMTR](https://sourceforge.net/projects/winmtr/
 [grafana]
 aliases = ["unifiedmetrics", "prom", "prometheus", "metrics"]
 title = "<:grafana:870895629507903499> Grafana"
-description = "Setup Grafana, Prometheus, and UnifiedMetrics so you can have more stats about your minecraft server, which couldn't be done without our lovely server splitter :) Guide located [here](https://docs.bloom.host/no-support-servers/grafana/)."
+description = "Setup Grafana, Prometheus, and UnifiedMetrics so you can have more stats about your minecraft server, which couldn't be done without our lovely server splitter :) Guide located [here](https://docs.bloom.host/other-servers/grafana/)."
 image = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/grafana.png"
 
 [bin]
@@ -692,14 +692,14 @@ image = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/im
 [caddy]
 aliases = ["caddysplit", "caddyserver"]
 title = "📜 Bloom Docs - Caddy Split Server"
-description = "Check out our comprehensive guide on how to split your server into a Caddy Server [here](https://docs.bloom.host/no-support-servers/caddy-server/)!\nAs Caddy is an unsupported server split (which means you will not receive any support from staff), you can ask for community help in <#737803938430189678>!"
+description = "Check out our comprehensive guide on how to split your server into a Caddy Server [here](https://docs.bloom.host/other-servers/caddy-server)!\nAs Caddy is an unsupported server split (which means you will not receive any support from staff), you can ask for community help in <#737803938430189678>!"
 thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png"
 image = "https://caddyserver.com/resources/images/caddy-open-graph.jpg"
 enabled = true
 
 [ark]
 title = "📜 Bloom Docs - How to create an ARK: Survival Evolved server"
-description = "Check out our comprehensive guide on how to create an ARK: Survival Evolved server [here](https://docs.bloom.host/no-support-servers/ark)!\nAs ARK: Survival Evolved is an unsupported server split (which means you will not receive any support from staff for in game issues), you can ask for community help in <#737803938430189678>!"
+description = "Check out our comprehensive guide on how to create an ARK: Survival Evolved server [here](https://docs.bloom.host/pther-servers/ark)!\nAs ARK: Survival Evolved is an unsupported server split (which means you will not receive any support from staff for in game issues), you can ask for community help in <#737803938430189678>!"
 thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png"
 image = "https://cdn1.epicgames.com/ark/offer/EGS_ARKSurvivalEvolved_StudioWildcard_S1-2560x1440-c316afb7c33a9dfb892eef6b99169e43.jpg"
 enabled = true
