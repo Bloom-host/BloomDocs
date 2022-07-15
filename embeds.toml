@@ -1056,17 +1056,21 @@ enabled = false
 title = "Bare Metal"
 description = """
 :wave:
-Thank you for joining the **Bare Metal** waitlist!
+Thank you for joining the **Bare Metal** pre-order wait list!
 
-Our Bare Metal servers are currently only being offered on our Ashburn (US East) data center, specifically in Cyxtera's IAD1 facility.
+By pre-ordering a server, you can enjoy NO SETUP FEEs for a limited time.
 
-**Please respond with one of the following options:**
+Our Bare Metal servers are currently being offered in Ashburn, Virginia (US East).
+
+**Please respond with which server(s) you are interested in, and one of our staff members will respond shortly to confirm your pre-order.**
 ```YAML
-Bare Metal servers available: Ryzen 5 5600x, Ryzen 7 5800x, Ryzen 9 5950x
+Bare Metal servers available: Ryzen 5 5600X, Ryzen 7 5800X, Ryzen 9 5950X
 ```
-You can see the specifications of each server on our website: https://bloom.host/bare-metal/, there we also list the add-ons you can add to it.
+The full specifications of each server can be found on our website at https://bloom.host/bare-metal/ where you can also find a list of available add-ons
 
-You will receive a ping when your spot is ready. In the mean time feel free to ask us any questions and don't forget to join our main Bloom discord at https://discord.gg/bloom
+**Our bare metal line is scheduled to be released on or before September 30th. On September 15th, we will ping you in this ticket to confirm you are still intereted and will collect payment for the first month of service to confirm your spot.** 
+
+In the mean time feel free to ask us any questions and don't forget to join our main Bloom discord at https://discord.gg/bloom
 """
 
 [vps-perfplus]
