@@ -1058,15 +1058,13 @@ description = """
 :wave:
 Thank you for joining the **Bare Metal** waitlist!
 
-
 Our Bare Metal servers are currently only being offered on our Ashburn (US East) data center, specifically in Cyxtera's IAD1 facility.
 
 **Please respond with one of the following options:**
 ```YAML
 Bare Metal servers available: Ryzen 5 5600x, Ryzen 7 5800x, Ryzen 9 5950x
 ```
-
-You can see the specifications of each server on our website: https://bloom.host/bare-metal/, there we also list the add-ons you can add to your server.
+You can see the specifications of each server on our website: https://bloom.host/bare-metal/, there we also list the add-ons you can add to it.
 
 You will receive a ping when your spot is ready. In the mean time feel free to ask us any questions and don't forget to join our main Bloom discord at https://discord.gg/bloom
 """
