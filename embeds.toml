@@ -420,7 +420,7 @@ image = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/im
 2 = ["Join Waitlist", "https://discord.gg/DcFNkRvfBK", ":bloom:"]
 
 [documentation]
-aliases = ["docs-link", "doc-link"] # Original 'docs' alias conflicted with a different command
+aliases = ["docs-link", "doc-link", "docs"] # Original 'docs' alias conflicted with a different command
 title = "📜 Bloom Docs"
 description = "Check out our documentation [here](https://docs.bloom.host)."
 thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png"
