@@ -47,11 +47,11 @@ We're now done with UnifiedMetrics, onto Prometheus :)
 Now we're going to setup a Prometheus server, you're gonna want to split a Prometheus instance which is located under the "NO SUPPORT SERVERS" category with 150MB of RAM and 10GB of Storage (may need to be adjusted to your needs).
 For assistance on how the server splitter works, please refer to the [server splitter page](https://docs.bloom.host/split-server).
 
-Once the server is created, change it to the default Prometheus port (9090) under the Server Split tab.
+Once the server is created, head to it under the Server Split tab.
 
 Now we're going to edit prometheus.yml and add UnifiedMetrics in the Prometheus server.
 
-To do this, we're simply going to change `localhost` to your server's IP address, then start up prometheus.
+To do this, we're simply going to change `localhost:9090` to your server's IP address and UnifiedMetrics port (9100), then start up prometheus.
 
 ## Grafana
 
@@ -75,7 +75,7 @@ Once logged in, hover over the settings icon on the left and head to Data Source
 
 <div class="text--center"><img src={require('../../static/imgs/extras/grafana/1.png').default} alt="console" height="50%" width="50%"/></div>
 
-Now we're going to add a new Prometheus data source, the only thing you need to modify is the URL which will be `http://<SERVERIP>:9090`.
+Now we're going to add a new Prometheus data source, the only thing you need to modify is the URL which will be `http://<SERVERIP>:<PORT>` (with the port being the port of your Prometheus server).
 
 Now, Grafana has access to all the data, but where can you view all the fancy graphs?
 
