@@ -146,7 +146,7 @@ title = "<:ram:850401810018598982> Aikar's Flags"
 description = """
 At Bloom, we utilize Aikar's flags by default, which pre-allocates all of the server's available memory for better performance. You can see you server's actual memory usage by running the `/memory` or `/tps mem` command in your console.
 
-🔗 Wish to know more? Check out [Aikar's in-depth post](https://aikar.co/2018/07/02/tuning-the-jvm-g1gc-garbage-collector-flags-for-minecraft/)!
+🔗 Wish to know more? Check out [this post](https://docs.papermc.io/paper/aikars-flags/)!
 """
 thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png"
 image = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/gNzJPp.png"
