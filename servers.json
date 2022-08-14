@@ -131,6 +131,11 @@
                 "type": "PC"
         },
         {
+                "name": "SecretSMP",
+                "ip": "secretsmp.org",
+                "type": "PC"
+        },
+        {
                 "name": "AureliumMC",
                 "ip": "Play.AureliumMC.com",
                 "type": "PC"
