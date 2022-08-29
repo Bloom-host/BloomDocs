@@ -58,7 +58,9 @@ Once you've done that, you need to restart the server in order for changes to ta
 
 ## Info
 
-[Spigot Page](https://www.spigotmc.org/resources/prism.75166/)  
+[Spigot Page](https://www.spigotmc.org/resources/prism.75166/)
+
+[Modrinth Page](https://modrinth.com/mod/prism)
 
 [Jenkins](https://jenkins.addstar.com.au/job/Prism-Bukkit%201.16/)  
 

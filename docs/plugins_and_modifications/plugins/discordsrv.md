@@ -56,6 +56,8 @@ Finally, start your server! DiscordSRV has been installed and you will see your 
 
 [DiscordSRV Spigot Page](https://www.spigotmc.org/resources/discordsrv.18494/)
 
+[DiscordSRV Modrinth Page](https://modrinth.com/mod/discordsrv)
+
 [DiscordSRV GitHub Page](https://github.com/DiscordSRV/DiscordSRV)
 
 [DiscordSRV Official Wiki](https://docs.discordsrv.com/)

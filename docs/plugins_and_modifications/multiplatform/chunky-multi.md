@@ -71,6 +71,8 @@ The table below can be used to estimate the file size of your world after you ge
 
 [CurseForge Page (Forge version)](https://www.curseforge.com/minecraft/mc-mods/chunky-pregenerator-forge)
 
+[Modrinth Page](https://modrinth.com/mod/chunky)
+
 [GitHub](https://github.com/pop4959/Chunky)
 
 [Wiki](https://github.com/pop4959/Chunky/wiki)
