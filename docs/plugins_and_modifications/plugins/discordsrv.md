@@ -36,21 +36,21 @@ This plugin also has a remote console feature, allowing admins to be able to exe
 This guide does not cover all the features that DiscordSRV includes.
 :::
 
-First, go to the official [Discord Developer Portal](https://discordapp.com/developers/applications/) website and create a new application as well as create a new bot user under the same application.
+First, go to the official [Discord Developer Portal](https://discord.com/developers/applications/) website and create a new application as well as create a new bot user under the same application.
 
-Enable the **SERVER MEMBERS INTENT** option under "Privileged Gateway Intents" and copy the bot's token on the bot tab, as it is need to make DiscordSRV work properly.
+Enable the **SERVER MEMBERS INTENT** and **MESSAGE CONTENT INTENT** options under "Privileged Gateway Intents" and copy the bot's token on the bot tab (by clicking the `Reset Token` button), as it is needed to make DiscordSRV work properly.
 
 Install the [DiscordSRV](https://www.spigotmc.org/resources/discordsrv.18494/) plugin and install it into your `plugins` folder (If you need help installing plugins, check out [this guide](https://docs.bloom.host/installing-plugins)). Start and stop the server and then open the configuration file for DiscordSRV.
 
-Paste the bot's token that was taken from the Discord Developers website into the `BotToken` value and then invite your newly created Discord bot using the client ID on the website.
+Paste the bot's token that was taken from the Discord Developers website into the `BotToken` value and then invite your newly created Discord bot using the application ID on the website.
 
 In the config option labeled `Channels`, paste the Discord channel ID that you want to be set for your chat under "global" (You can set up more channels and link more channels later).
 
 :::important
-If you want your server console to be accessable from Discord in a channel, add a console channels ID in the config as well.
+If you want your server console to be accessable from Discord in a channel, add a console channel ID in the config as well.
 :::
 
-Finally, start your server! DiscordSRV has been installed and you will see your discord bot start reporting all chat logs from your Minecraft server into your Discord server!
+Finally, start your server! DiscordSRV has been installed and you will see your discord bot start reporting all chat logs from your Minecraft server into your Discord server and vice-versa!
 
 ## Links
 
