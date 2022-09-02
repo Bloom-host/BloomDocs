@@ -36,7 +36,7 @@ Make sure you trust the source of your plugin. Plugins have high-level access to
 
 ### Installing Plugins
 
-1. You'll first need to find the plugin you wish to install. Downloads can be found on a variety of sites. Common places are [spigotmc.org](https://spigotmc.org/resources) or the [bukkit.org](https://dev.bukkit.org) website.
+1. You'll first need to find the plugin you wish to install. Downloads can be found on a variety of sites. Common places are [spigotmc.org](https://spigotmc.org/resources), [bukkit.org](https://dev.bukkit.org) or [Modrinth](https://modrinth.com/plugins) websites.
 2. In any case, save the plugin to your local machine. Plugins can either be uploaded via the [web panel](https://mc.bloom.host) or through [SFTP](../using_the_panel/sftp.md). If you're uploading in bulk, go with the latter.
 3. In your server's root directory, locate the `plugins` folder, if it's not there then create a new directory named `plugins`. Navigate into this folder, and upload your plugin's file there!
 4. Most plugins will require you to restart your server before they take effect.
