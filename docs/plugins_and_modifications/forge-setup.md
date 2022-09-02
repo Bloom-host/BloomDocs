@@ -26,7 +26,7 @@ keywords:
 
 First, navigate to the `Settings` tab and find `Change Server Type`. Once there set up the change server type menu for installing forge.
 
-![Bloom.host Forge](../../static/imgs/plugins_and_modifications/forge_setup/1.png)
+<div class="text--center"><img src={require('../../static/imgs/plugins_and_modifications/forge_setup/1.png').default} alt="img"/></div>
 
 On this menu set version to that required by your mods and build to the latest one available (top of the list).
 
