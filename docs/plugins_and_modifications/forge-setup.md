@@ -19,29 +19,23 @@ keywords:
 </div>
 
 ### What is Forge?
+
 > Forge is a modding API for Minecraft. Users who download and install Minecraft Forge can install mods (modifications) to Minecraft Instances.
+
+### Installation
+
+First, navigate to the `Settings` tab and find `Change Server Type`. Once there set up the change server type menu for installing forge.
+
+![Bloom.host Forge](../../static/imgs/plugins_and_modifications/forge_setup/1.png)
+
+On this menu set version to that required by your mods and build to the latest one available (top of the list).
+
+Once the Change Server Type menu has been configured, press the Change Server Type button, this will prompt you to [make a backup](../using_the_panel/backups.md) and it is advised to do so.
+
+Once the server has started again and finished running the installer you can go on to install mods!
+
+### Installing Forge Mods
 >
-### Installing Forge
-> To begin installing Forge, head over to their [website](http://files.minecraftforge.net/) to download their installer and launch the jar file. Have it open up in an empty directory and hit install server. Have something like the screenshot below.
->
-> ![Bloom.host Forge](../../static/imgs/plugins_and_modifications/forge_setup/1.png)
-
-After you have installed it, head over to an [SFTP client](https://docs.bloom.host/how-to-use-sftp) such as FileZilla and upload everything inside your folder to your server.
-
-Next, rename your forge-xxx.jar file to server.jar. The file name must match the Server Jar File field in the Startup tab.
-
-Then, create a new folder called `mods`. Place any mod jar files in here.
-
-Restart your server. This may take a few minutes. 
-
-Once restarted, login to your server!
-
-In the end, it should look like this: 
-
-![Bloom.host Forge](../../static/imgs/plugins_and_modifications/forge_setup/2.png)
-
-### Installing Forge Mods 
-> 
 > Refer to [this](mods-install) guide.
 
 ---
