@@ -61,7 +61,7 @@ You can also check this [guide](https://paper-chan.moe/paper-optimization/) whic
 
 ## What to avoid:
 
-Plugins that promise to fix your lag often end op doing the opposite, stay away from plugins like Clearlagg! - Plugins like these will promise to do things like removing entities. This will in fact help with lag, for a short bit. But your server will immediately try to spawn more entities again, which just results in more lag!  
+Plugins that promise to fix your lag often end up doing the opposite, stay away from plugins like Clearlagg! - Plugins like these will promise to do things like removing entities. This will in fact help with lag, for a short bit. But your server will immediately try to spawn more entities again, which just results in more lag!  
 What you should do instead, is change your server options and just lower the max entities allowed.
 
 An analogy `by BillyGalbreath`:  
