@@ -407,7 +407,7 @@ image = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/im
 1 = ["Open Billing Ticket", "https://billing.bloom.host/submitticket.php", ":bloom:"]
 
 [upgrade]
-aliases = ["upgrades", "downgrade", "downgrades"]
+aliases = ["upgrades", "downgrade", "downgrades", "transfers"]
 title = "📜 Plan upgrades, downgrades and location changes can now be done through the billing panel"
 description = """To request a plan upgrade, downgrade or a change of location go to the Products section of our billing panel [here](https://billing.bloom.host/clientarea.php?action=services), sign in with your Billing Account, click the three dots to the right side of the Product you want to upgrade, then select the Upgrade/Downgrade button.
 
