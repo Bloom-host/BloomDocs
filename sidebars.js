@@ -204,6 +204,7 @@ module.exports = {
             items: [
                 'billing/email_change',
                 'billing/cancellations',
+                'billing/upgrades',
                 'billing/refunds',
                 'billing/suspensions_and_terminations',
                 'billing/paypal',

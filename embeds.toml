@@ -396,7 +396,7 @@ image = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/im
 
 [billingticket]
 aliases = ["ticket", "verification", "verify"]
-title = "📜 Upgrades and Changes to services and accounts need Billing Account verification"
+title = "📜 Changes to services and accounts need Billing Account verification"
 description = """The staff needs to confirm you are the account holder to be able to process changes on your services and accounts.
 
 Please go to the support section of our Billing Panel located [here](https://billing.bloom.host/supporttickets.php), sign in with your Billing Account and open a Billing Ticket requesting the change or plan upgrade.
@@ -408,16 +408,20 @@ image = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/im
 
 [upgrade]
 aliases = ["upgrades", "downgrade", "downgrades"]
-title = "📜 Plan changes need to be requested through the Billing Panel"
-description = """To request a plan upgrade, downgrade or a change of location go to the support section of our Billing Panel located [here](https://billing.bloom.host/supporttickets.php), sign in with your Billing Account and open a Billing Ticket requesting the plan change you want.
+title = "📜 Plan upgrades, downgrades and location changes can now be done through the billing panel"
+description = """To request a plan upgrade, downgrade or a change of location go to the Products section of our billing panel [here](https://billing.bloom.host/clientarea.php?action=services), sign in with your Billing Account, click the three dots to the right side of the Product you want to upgrade, then select the Upgrade/Downgrade button.
 
-**Before requesting the upgrade or change of location please make sure that the plan you want to upgrade to is in stock on https://bloom.host. If the plan is not in stock, you will need to join the waitlist.**
+On the upgrade page you will be able to select to what location and plan you want to upgrade/downgrade to, here you can also switch between datacenter locations. Once you select the plan it will generate an invoice (if needed) which needs to be paid before the upgrade and transfer process begins.
+
+**If you want to upgrade/downgrade a VPS or downgrade to a Minecraft Essentials plan you will need to open a Billing Ticket [here](https://billing.bloom.host/clientarea.php?action=services)**
+
+Read more about how upgrades work [here](https://docs.bloom.host/billing/upgrades/#transfers)
+"""
 """
 thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png"
-image = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/billing_ticket.png"
+image = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/upgrade.png"
 [upgrade.buttons]
-1 = ["Request Change", "https://billing.bloom.host/submitticket.php", ":bloom:"]
-2 = ["Join Waitlist", "https://discord.gg/DcFNkRvfBK", ":bloom:"]
+1 = ["Products page", "https://billing.bloom.host/clientarea.php?action=services", ":bloom:"]
 
 [documentation]
 aliases = ["docs-link", "doc-link", "docs"] # Original 'docs' alias conflicted with a different command
