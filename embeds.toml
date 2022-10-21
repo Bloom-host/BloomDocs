@@ -418,7 +418,6 @@ On the upgrade page you will be able to select to what location and plan you wan
 Read more about how upgrades work [here](https://docs.bloom.host/billing/upgrades/#transfers)
 
 """
-
 thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png"
 image = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/upgrade.png"
 [upgrade.buttons]
