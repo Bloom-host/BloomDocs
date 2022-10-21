@@ -33,10 +33,10 @@ On the upgrade page you will be able to select to what location and plan you wan
 
 ## Transfers
 
-If you see a 'Requires server transfer' message below the plan you want to upgrade or downgrade to it means that the server needs to be transferred to another node before the upgrade or downgrade can be completed. This is because the server is currently on a node that doesn't have enough resources to support the plan you want to upgrade or downgrade to.
+If you see a **'Requires server transfer'** message below the plan you want to upgrade or downgrade to it means that the server needs to be transferred to another node before the upgrade or downgrade can be completed. This is because the server is currently on a node that doesn't have enough resources to support the plan you want to upgrade or downgrade to.
 
 This warning message also appears when you want to switch between datacenter locations.
 
-Keep in mind that when a server is transferred to another node it will be offline while the transfer is being processed. Your server IP and database host will change.
+**Keep in mind that when a server is transferred to another node it will be offline while the transfer is being processed. Your server IP and database host will change.**
 
 You will receive an email notification when the transfer is started and completed, the last notification will have the new IP, and the new database host can be obtained by going to the Database section of our game panel.
