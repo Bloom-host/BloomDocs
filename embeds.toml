@@ -141,7 +141,7 @@ thumbnail = "https://avatars.githubusercontent.com/u/7608950"
 """, "false"]
 
 [aikar]
-aliases = ["flags", "flag", "aikars"]
+aliases = ["flags", "flag", "aikars", "ram"]
 title = "<:ram:850401810018598982> Aikar's Flags"
 description = """
 At Bloom, we utilize Aikar's flags by default, which pre-allocates all of the server's available memory for better performance. You can see you server's actual memory usage by running the `/memory` or `/tps mem` command in your console.
