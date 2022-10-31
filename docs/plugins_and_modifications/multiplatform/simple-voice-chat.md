@@ -60,9 +60,9 @@ In order to run Simple Voice Chat on your server, you need one of the following 
 
 1. Make sure you followed the steps for [Fabric](#fabric), [Forge](#forge) or [Bukkit/Spigot/Paper](#bukkitspigotpaper)
 2. Open the **Ports & Proxies** section in your dashboard
-3. Click on **CREATE ALLOCATION**
+3. Click on **OPEN PORT**
 <div class="text--center"><img src={require('../../../static/imgs/plugins_and_modifications/simple_voice_chat/3.png').default} alt="console"/></div>
-4. Enter the number `24454` in the port field and click on **CREATE ALLOCATION**
+4. Enter the number `24454` in the port field and click on **OPEN PORT**
 <div class="text--center"><img src={require('../../../static/imgs/plugins_and_modifications/simple_voice_chat/4.png').default} alt="console"/></div>
 5. If your server is already running, you will be prompted to restart your server - If this is the case, click on **RESTART NOW**
 <div class="text--center"><img src={require('../../../static/imgs/plugins_and_modifications/simple_voice_chat/5.png').default} alt="console"/></div>
