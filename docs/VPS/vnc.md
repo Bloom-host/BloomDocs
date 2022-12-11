@@ -52,7 +52,4 @@ The default username is "root" and the password is the SSH password you received
 Don't use your VNC credentials when using the HTML 5 VNC Client from our VPS Control Panel, you need to use the same credentials you use when connecting through SSH.
 :::
 
-<div class="text--center">
-<img src={require('../../static/imgs/VPS/VNC/2.png').default} alt="img"/></div>
-
 Remember that it doesn't show the password or that you are typing, but it does work, so type your SSH password and click enter, then you should be signed in into the VPS.
