@@ -30,7 +30,7 @@ keywords:
 >
 > **NOTE** You need to click **show snapshots** if you want it to also show fabric for minecraft snapshots.
 >
-> ![Bloom.host Fabric](../../static/imgs/plugins_and_modifications/fabric_setup/1.png)
+> ![Bloom.host Fabric](../../static/imgs/plugins_and_modifications/fabric_setup/FabricInstaller.png)
 
 > Click install, this will download a *fabric-server-launch.jar*, it will also show you a button for *Download server jar*, press that one too.
 >
