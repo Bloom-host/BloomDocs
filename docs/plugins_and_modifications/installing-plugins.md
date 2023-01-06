@@ -49,7 +49,8 @@ Once the server is online, type `plugins` in your console. If you are able to se
 
 In case you can't seem to be able to install a plugin properly, be sure to do these steps before asking for help.
 
-1. **Check your startup logs**: You should also check the startup logs as this can usually give you a hint to what’s wrong and causing a particular plugin to not start up properly. 
-2. **Check if the plugin has any dependencies**: In a lot of cases, plugins require other plugins to run. Check console when the server is starting for an error stating there is a depency the plugin requires. These should be listed on the website you got the plugin from. Simply download and install them the same way.
-3. **Check for the plugin's version**: Even though most plugins after 1.13+ should be compatible with newer versions, this may not be the case with more sophisticated plugins. Be sure to check whether the plugin officially supports your Minecraft versions.
-4. **Check for additional settings**: In some cases plugins require additional configuration before they can be loaded properly.
+1. **Check the plugins folder**: Confirm that the plugin has been uploaded to the plugin folder, and not accidentally uploaded elsewhere.
+2. **Check your startup logs**: You should also check the startup logs as this can usually give you a hint to what’s wrong and causing a particular plugin to not start up properly. 
+3. **Check if the plugin has any dependencies**: In a lot of cases, plugins require other plugins to run. Check console when the server is starting for an error stating there is a depency the plugin requires. These should be listed on the website you got the plugin from. Simply download and install them the same way.
+4. **Check for the plugin's version**: Even though most plugins after 1.13+ should be compatible with newer versions, this may not be the case with more sophisticated plugins. Be sure to check whether the plugin officially supports your Minecraft versions.
+5. **Check for additional settings**: In some cases plugins require additional configuration before they can be loaded properly.
