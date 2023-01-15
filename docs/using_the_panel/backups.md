@@ -44,7 +44,7 @@ Simply give it a name and press the **Start Backup** button to continue. The bac
 2. We are going to add a schedule that starts a backup, but these schedules can do way more! Find some examples at [Schedules](schedules.md). Simply click 'Create Schedule'. 
 3. Select when you wish to have a backup and click 'Create Schedule'. In this case we do one every 8 hours using all 3 daily backups.
 <div class="text--center"><img src={require('../../static/imgs/using_the_panel/backups/2.png').default} alt="img"/></div>
-4. Then, simply add the commands and actions you wish to have. Here, we stop the server before and start it after the backup is created. This isn't a neccessary step but it's a better practice.
+4. Then, simply add the action "Create Backup" on a task.
 <div class="text--center"><img src={require('../../static/imgs/using_the_panel/backups/3.png').default} alt="img"/></div>
 
 
