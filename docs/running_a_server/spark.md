@@ -1,11 +1,11 @@
 ---
 id: spark
-title: Taking a Spark Report
+title: Taking a Spark Profile
 slug: /spark
 hide_title: true
 hide_table_of_contents: true
-sidebar_label: Taking a Spark Report
-description: How to run a Spark report to identify causes of lag on your server.
+sidebar_label: Taking a Spark Profile
+description: How to run a Spark profile to identify causes of lag on your server.
 keywords:
   - Spark
   - Performance
