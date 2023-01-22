@@ -85,6 +85,7 @@ module.exports = {
                 'running_a_server/domain',
                 'running_a_server/java-version',
                 'running_a_server/datapacks',
+                'running_a_server/spark',
                 'running_a_server/timings',
                 'running_a_server/icon',
                 'running_a_server/motd',
@@ -174,7 +175,6 @@ module.exports = {
                         'plugins_and_modifications/plugins/papi', // PlaceholderAPI
                         'plugins_and_modifications/plugins/prism',
                         'plugins_and_modifications/plugins/servernpc',
-                        'plugins_and_modifications/plugins/spark',
                         'plugins_and_modifications/plugins/tebex', // Minecraft server donation store integration, formerly known as BuyCraft
                         'plugins_and_modifications/plugins/vault',
                         'plugins_and_modifications/plugins/venturechat', // Chat handler
