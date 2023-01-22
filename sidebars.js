@@ -62,10 +62,10 @@ module.exports = {
                 'using_the_panel/basic-controls',
                 'using_the_panel/file-manager-controls',
                 'using_the_panel/server-importer',
-                'using_the_panel/databases',
                 'using_the_panel/schedules',
-                'using_the_panel/users',
                 'using_the_panel/backups',
+                'using_the_panel/users',
+                'using_the_panel/databases',
                 'using_the_panel/ports-and-proxies',
                 'using_the_panel/sftp',
                 'using_the_panel/split-server',
@@ -81,15 +81,15 @@ module.exports = {
                 'running_a_server/updating', // How to update
                 'running_a_server/jars', // Explains the different server JAR file options
                 'running_a_server/optimization', // Server optimisation information
+                'running_a_server/world-reset',
                 'running_a_server/domain',
-                'running_a_server/resourcepack',
                 'running_a_server/java-version',
                 'running_a_server/datapacks',
                 'running_a_server/timings',
-                'running_a_server/motd',
-                'running_a_server/world-reset',
-                'running_a_server/converting-worlds', // Converting worlds used on Bukkit (and forks) servers to allow for use in singleplayer/other server software
                 'running_a_server/icon',
+                'running_a_server/motd',
+                'running_a_server/resourcepack',
+                'running_a_server/converting-worlds', // Converting worlds used on Bukkit (and forks) servers to allow for use in singleplayer/other server software
                 'running_a_server/waterfall', // BungeeCord fork
                 'running_a_server/velocity',
                 'running_a_server/binarysearch' // Troubleshooting errors caused by plugins
