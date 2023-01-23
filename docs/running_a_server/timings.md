@@ -44,7 +44,7 @@ After waiting 10m, run the command `/timings paste`.
 Said command will paste a link on the console, which when clicked will take you to a web interface similar to the one shown below.
 
 <div class="text--center">
-<img src={require('../../static/imgs/running_a_server/spark/1.png').default} alt="img"/></div>
+<img src={require('../../static/imgs/running_a_server/timings/1.png').default} alt="img"/></div>
 
 Anything in red is using a excess of resources. You can also click the plugins tab to see what plugins are using the most resources on your server.
 ## Alternatives to Timings
