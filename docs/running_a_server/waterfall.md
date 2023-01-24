@@ -1,10 +1,10 @@
 ---
 id: waterfall
-title: Setting Up Waterfall
+title: Setting Up Waterfall/Bungee
 slug: /waterfall
 hide_title: true
 hide_table_of_contents: true
-sidebar_label: Setting up a Waterfall Server
+sidebar_label: Setting up a Waterfall/Bungee Server
 description: How to setup a Waterfall Proxy Server
 keywords:
   - Minecraft
@@ -21,13 +21,15 @@ image: https://bloom.host/assets/images/logo.png
 <h1>Setting Up Waterfall</h1>
 </div>
 
-:::important
+
+:::caution
+Configuring BungeeGuard is essential to secure your backend servers. Read until the end of the article to learn how to configure BungeeGuard!
+:::
+
+:::note
 When running your servers behind a proxy like Velocity or Waterfall, it requires them to be set to offline-mode. Normally hosting companies will not provide support for offline mode servers, but in this case it is required for the proxy to function properly. It will act as the gateway to your servers and handle authentication for you.
 :::
 
-:::important
-We recommend you configure BungeeGuard to secure your backend servers. Follow this **[guide](../plugins_and_modifications/plugins/bungeeguard.md)** to learn how to configure BungeeGuard.
-:::
 
 ## Downloading Waterfall
 
@@ -201,7 +203,30 @@ Make sure `ip_forward` is set to `true` in Waterfall `config.yml` and `bungeecor
 
 On the backend server, you'll need to go into `server.properties` and set `online-mode` to `false` and afterwards go into `spigot.yml` and change `bungeecord` to `true`.
 
-## Finishing the network setup
+:::caution
+It is highly recommended that you do not skip this step and complete your setup by configuring BungueeGuard as well!
+:::
 
-After you've done all the tasks, you should start your waterfall server and restart all your backend servers.
+## Setting Up BungeeGuard
 
+### What does the plugin do?
+
+BungeeGuard is a plugin used to protect against BungeeCord's UUID spoof exploit which allows users to join without authenticating through the BungeeCord proxy, allowing them to join as any user.  
+
+## Usage
+
+:::important
+Make sure your BungeeCord is on the latest version. Also, make sure to use version 1.2 or later of BungeeGuard as previous versions have an issue.
+:::
+
+[Download the plugin](https://ci.lucko.me/job/BungeeGuard/lastBuild/artifact/bungeeguard-universal/target/BungeeGuard.jar) then upload the jar into both your BungeeCord and Spigot `plugins` folder. Restart the servers. If you need help installing plugins, check out [this guide](/installing-plugins).  
+
+After you have restarted the servers you installed BungeeGuard on, enter the `config.yml` file located in your BungeeCord's BungeeGuard directory and copy the authentication token. Paste this authentication token into the `config.yml` file within your Spigot servers' BungeeGuard directory.  
+
+Example configuration:
+```YAML
+# Allowed authentication tokens.  
+allowed-tokens:
+  - "AUSXEwebkOGVnbihJM8gBS0QUutDzvIG009xoAfo1Huba9pGvhfjrA21r8dWVsa8"
+```
+Now, restart all your servers you installed BungeeGuard on and test to see if it's properly working!

@@ -159,7 +159,6 @@ module.exports = {
                         'plugins_and_modifications/plugins/advancedanticheat', // anticheat (discontinued)
 			'plugins_and_modifications/plugins/ajparkour', // ajParkour
 			'plugins_and_modifications/plugins/banannouncer', // announce bans in discord
-                        'plugins_and_modifications/plugins/bungeeguard', // BungeeCord security (prevents UUID spoof exploit)
                         'plugins_and_modifications/plugins/citizens2',
                         'plugins_and_modifications/plugins/conditionalcommands',
                         'plugins_and_modifications/plugins/coreprotect',
