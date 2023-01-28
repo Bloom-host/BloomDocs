@@ -1,18 +1,18 @@
 /*
 When adding pages to the sidebar, make sure you use the page ID, not the file name of the page
-For example, to add a page which had a filename of 'chunky-multi' and a page ID of 'chunky', you would add the following under the appropiate category: 
+For example, to add a page which had a filename of 'chunky-multi' and a page ID of 'chunky', you would add the following under the appropiate category:
 
 'plugins_and_modifications/multiplatform/chunky'
 
 'plugins_and_modifications/multiplatform/' is the path to the file and '/chunky' is the page ID.
 
-The page ID can be found at the top of each document (usually the second line) where it will say 'id: <pageid>' (<pageid> would be the page ID you put into `sidebars.js`) 
+The page ID can be found at the top of each document (usually the second line) where it will say 'id: <pageid>' (<pageid> would be the page ID you put into `sidebars.js`)
 
 Not following this can cause the website build to fail!
 */
 module.exports = {
 /* Organize sidebar alphabetically */
- 
+
     docs: [
 
         {
@@ -93,6 +93,7 @@ module.exports = {
                 'running_a_server/converting-worlds', // Converting worlds used on Bukkit (and forks) servers to allow for use in singleplayer/other server software
                 'running_a_server/waterfall', // BungeeCord fork
                 'running_a_server/velocity',
+                'running_a_server/internal-servers',
                 'running_a_server/binarysearch' // Troubleshooting errors caused by plugins
             ],
         },
@@ -220,7 +221,7 @@ module.exports = {
                 'other-servers/caddy-server',
                 'other-servers/grafana',
             ],
-        },       
+        },
 
         {
             type: 'category',
