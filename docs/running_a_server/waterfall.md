@@ -1,10 +1,10 @@
 ---
 id: waterfall
-title: Setting Up Waterfall
+title: Setting Up Waterfall/Bungee
 slug: /waterfall
 hide_title: true
 hide_table_of_contents: true
-sidebar_label: Setting up a Waterfall Server
+sidebar_label: Setting up a Waterfall/Bungee Server
 description: How to setup a Waterfall Proxy Server
 keywords:
   - Minecraft
@@ -21,13 +21,17 @@ image: https://bloom.host/assets/images/logo.png
 <h1>Setting Up Waterfall</h1>
 </div>
 
-:::important
+
+:::caution
+Configuring BungeeGuard is essential to secure your backend servers. Read until the end of the article to learn how to configure BungeeGuard!
+
+NOTE: Although the internal servers provide sufficient coverage, installing BungeeGuard will not cause any harm and may serve as an added layer of protection.
+:::
+
+:::note
 When running your servers behind a proxy like Velocity or Waterfall, it requires them to be set to offline-mode. Normally hosting companies will not provide support for offline mode servers, but in this case it is required for the proxy to function properly. It will act as the gateway to your servers and handle authentication for you.
 :::
 
-:::important
-We recommend you configure BungeeGuard to secure your backend servers. Follow this **[guide](../plugins_and_modifications/plugins/bungeeguard.md)** to learn how to configure BungeeGuard.
-:::
 
 ## Downloading Waterfall
 
@@ -49,7 +53,9 @@ After you've created the waterfall server in your server split, you'll be able t
 
 ## Configure Waterfall
 
-*Before you setup this section, change the primary port for your backend servers to something other than 25565. 25565 is the default minecraft port and should be reserved for your Waterfall server as it is what players are actually connecting to when they try and connect to your network.*
+*Before you setup this section, go to each of your backend servers and click the "Make Internal" button under the Ports and Proxies tab.*
+
+If you would like to read more information on our internal servers please see [here](/internal-servers).
 
 ![img](../../static/imgs/running_a_server/waterfall/waterfall-fs-initial.png)
 
@@ -59,7 +65,7 @@ Afterwards it will look like this:
 
 <div class="text--center"><img src={require('../../static/imgs/running_a_server/waterfall/waterfall-fs.png').default} alt="console" height="70%" width="70%"/></div>
 
-We'll configure waterfall in the `config.yml` file. 
+We'll configure waterfall in the `config.yml` file.
 
 This is how a standard waterfall configuration will look like:
 ```yml
@@ -123,9 +129,11 @@ If for example, one of your backend servers is a survival server, you'll need to
 ```yaml
 survival:
     motd: '&1Survival Server'
-    address: <survival serverip>:port
+    address: 0fcfdfda-5d97-46b7-bbee-f8a26381dbd6:25565
     restricted: false
 ```
+
+Remeber to use your backend server's own serverid and replace the example above
 
 Afterwards you'll need to add the survival server to under priorities.
 
@@ -148,15 +156,15 @@ network_compression_threshold: 256
 servers:
   lobby:
     motd: '&1Just another Waterfall - Forced Host'
-    address: localhost:25565
+    address: efae21aa-a75e-4750-83b3-8aa90221ab07:25565
     restricted: false
   survival:
     motd: '&1Survival Server'
-    address: <survival serverip>:port
+    address: 4cc857fa-9f7d-494e-875c-b50676373f82:25565
     restricted: false
   skyblock:
     motd: '&1Skyblock server'
-    address: <skyblock serverip>:port
+    address: 642fb0a5-9290-45c8-a7f2-b1489f556b17:25565
     restricted: false
 player_limit: -1
 prevent_proxy_connections: false
@@ -194,14 +202,37 @@ online_mode: true
 ```
 
 :::caution
-Make sure `ip_forward` is set to `true` in Waterfall `config.yml` and `bungeecord` is set to `true` in `spigot.yml` on all your backend servers. 
+Make sure `ip_forward` is set to `true` in Waterfall `config.yml` and `bungeecord` is set to `true` in `spigot.yml` on all your backend servers.
 :::
 
 ## Configure backend servers
 
 On the backend server, you'll need to go into `server.properties` and set `online-mode` to `false` and afterwards go into `spigot.yml` and change `bungeecord` to `true`.
 
-## Finishing the network setup
+:::caution
+It is recommended that you do not skip this step and complete your setup by configuring BungueeGuard as well!
+:::
 
-After you've done all the tasks, you should start your waterfall server and restart all your backend servers.
+## Setting Up BungeeGuard
 
+### What does the plugin do?
+
+BungeeGuard is a plugin used to protect against BungeeCord's UUID spoof exploit which allows users to join without authenticating through the BungeeCord proxy, allowing them to join as any user.  
+
+## Usage
+
+:::important
+Make sure your BungeeCord is on the latest version. Also, make sure to use version 1.2 or later of BungeeGuard as previous versions have an issue.
+:::
+
+[Download the plugin](https://ci.lucko.me/job/BungeeGuard/lastBuild/artifact/bungeeguard-universal/target/BungeeGuard.jar) then upload the jar into both your BungeeCord and Spigot `plugins` folder. Restart the servers. If you need help installing plugins, check out [this guide](/installing-plugins).  
+
+After you have restarted the servers you installed BungeeGuard on, enter the `config.yml` file located in your BungeeCord's BungeeGuard directory and copy the authentication token. Paste this authentication token into the `config.yml` file within your Spigot servers' BungeeGuard directory.  
+
+Example configuration:
+```YAML
+# Allowed authentication tokens.  
+allowed-tokens:
+  - "AUSXEwebkOGVnbihJM8gBS0QUutDzvIG009xoAfo1Huba9pGvhfjrA21r8dWVsa8"
+```
+Now, restart all your servers you installed BungeeGuard on and test to see if it's properly working!

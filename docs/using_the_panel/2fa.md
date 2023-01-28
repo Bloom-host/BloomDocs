@@ -24,11 +24,12 @@ Hey there Bloomers! 👋
 In this guide, we will go over how to setup 2FA on your account.
 
 ---
-
-:::caution
+:::warning
 Only use 2FA on devices you trust. It's not recommended to setup 2FA on a shared or compromised device.
 :::
-
+:::note
+Remember to write down the recovery code shown while setting up 2FA, without it you'll be unable to restore access to your account if you lose access to your verification device.
+:::
 ## Billing Area 2FA
 
 To setup 2FA in the billing area, head over to the [billing area and login](https://www.bloom.host/portal/clientarea.php)
