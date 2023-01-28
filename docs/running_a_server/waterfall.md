@@ -24,6 +24,8 @@ image: https://bloom.host/assets/images/logo.png
 
 :::caution
 Configuring BungeeGuard is essential to secure your backend servers. Read until the end of the article to learn how to configure BungeeGuard!
+
+NOTE: Although the internal servers provide sufficient coverage, installing BungeeGuard will not cause any harm and may serve as an added layer of protection.
 :::
 
 :::note
@@ -51,7 +53,9 @@ After you've created the waterfall server in your server split, you'll be able t
 
 ## Configure Waterfall
 
-*Before you setup this section, change the primary port for your backend servers to something other than 25565. 25565 is the default minecraft port and should be reserved for your Waterfall server as it is what players are actually connecting to when they try and connect to your network.*
+*Before you setup this section, go to each of your backend servers and click the "Make Internal" button under the Ports and Proxies tab.*
+
+If you would like to read more information on our internal servers please see [here](/internal-servers).
 
 ![img](../../static/imgs/running_a_server/waterfall/waterfall-fs-initial.png)
 
@@ -61,7 +65,7 @@ Afterwards it will look like this:
 
 <div class="text--center"><img src={require('../../static/imgs/running_a_server/waterfall/waterfall-fs.png').default} alt="console" height="70%" width="70%"/></div>
 
-We'll configure waterfall in the `config.yml` file. 
+We'll configure waterfall in the `config.yml` file.
 
 This is how a standard waterfall configuration will look like:
 ```yml
@@ -125,9 +129,11 @@ If for example, one of your backend servers is a survival server, you'll need to
 ```yaml
 survival:
     motd: '&1Survival Server'
-    address: <survival serverip>:port
+    address: 0fcfdfda-5d97-46b7-bbee-f8a26381dbd6:25565
     restricted: false
 ```
+
+Remeber to use your backend server's own serverid and replace the example above
 
 Afterwards you'll need to add the survival server to under priorities.
 
@@ -150,15 +156,15 @@ network_compression_threshold: 256
 servers:
   lobby:
     motd: '&1Just another Waterfall - Forced Host'
-    address: localhost:25565
+    address: efae21aa-a75e-4750-83b3-8aa90221ab07:25565
     restricted: false
   survival:
     motd: '&1Survival Server'
-    address: <survival serverip>:port
+    address: 4cc857fa-9f7d-494e-875c-b50676373f82:25565
     restricted: false
   skyblock:
     motd: '&1Skyblock server'
-    address: <skyblock serverip>:port
+    address: 642fb0a5-9290-45c8-a7f2-b1489f556b17:25565
     restricted: false
 player_limit: -1
 prevent_proxy_connections: false
@@ -196,7 +202,7 @@ online_mode: true
 ```
 
 :::caution
-Make sure `ip_forward` is set to `true` in Waterfall `config.yml` and `bungeecord` is set to `true` in `spigot.yml` on all your backend servers. 
+Make sure `ip_forward` is set to `true` in Waterfall `config.yml` and `bungeecord` is set to `true` in `spigot.yml` on all your backend servers.
 :::
 
 ## Configure backend servers
@@ -204,7 +210,7 @@ Make sure `ip_forward` is set to `true` in Waterfall `config.yml` and `bungeecor
 On the backend server, you'll need to go into `server.properties` and set `online-mode` to `false` and afterwards go into `spigot.yml` and change `bungeecord` to `true`.
 
 :::caution
-It is highly recommended that you do not skip this step and complete your setup by configuring BungueeGuard as well!
+It is recommended that you do not skip this step and complete your setup by configuring BungueeGuard as well!
 :::
 
 ## Setting Up BungeeGuard
