@@ -22,39 +22,25 @@ Hola Bloomers! 👋
 
 En esta guía veremos cómo instalar Fabric en tu servidor.
 
----
+### ¿Qué es Fabric?
+> "*Fabric es un modding toolchain ligero y experimental para Minecraft.*"
+>
+> Los mods se pueden utilizar para modificar, eliminar o incluso añadir nuevos contenidos a Minecraft.
 
-### Qué es Fabric?
 
-Fabric es una plataforma de mods ligera para Minecraft.
-Los mods pueden ser usados para modificar, remover o incluso añadir contenido a Minecraft.
+### Instalación de Fabric
+> Ve a la pestaña Configuración en el panel y en el lado derecho verás la casilla Cambiar tipo de servidor.
+> Edita las casillas según la versión de Fabric que quieras usar.
+>
+> ![Bloom.host Fabric](../../../../../static/imgs/plugins_and_modifications/fabric_setup/FabricInstaller.png)
 
-### Instalando Fabric
+> Haz clic en Cambiar tipo de servidor, esto descargará fabric a tu servidor.
 
-1. Dirígete a [fabricmc.net](https://fabricmc.net/use/?page=server) y descarga el instalador.
-2. Inicia el Instalador de Fabric que descargaste, selecciona la pestaña de **Server** (Servidor) y selecciona la versión
-de Minecraft que deseas instalar. 
-
-:::note
-Da click en **Show Snapshots** (Mostrar Snapshots) si quieres usar Snapshots.
-:::
-
-![Bloom.host Fabric](../../../../../static/imgs/plugins_and_modifications/fabric_setup/1.png)
-
-3. Click en install, lo cual va a descargar un **fabric-server-launch.jar**. También te va a mostrar un botón de 
-**Download server jar** (Descargar Server Jar). Presiona eso también.
-
-![Bloom.host Fabric](../../../../../static/imgs/plugins_and_modifications/fabric_setup/2.png)
-
-4. Ahora puedes cerrar el launcher de Fabric, y deberías tener un `fabric-server-launch.jar` y un `server.jar`.  
-5. Sube esos archivos a tu servidor de Bloom mediante [SFTP](../using_the_panel/sftp.md) o [Duck Panel](https://mc.bloom.host/).
-6. Dirígete a la pestaña de **Startup** (Inicio) de [Duck Panel](https://mc.bloom.host/) y cambia la opción de
-**Server Jar File** (Archivo de Jar de Servidor) a `fabric-server-launch.jar`.  
-7. Reinicia el servidor y deja que los archivos se generen. Esto puede tomar unos minutos.
-8. Tu servidor de Fabric está ahora listo!
+> Ya has terminado, ¡estás ejecutando un servidor fabric!  
+> Aunque es un servidor sin mods, por lo que sigue siendo puramente vainilla en este punto, sigue leyendo para aprender a instalar mods.
 
 ### Instalando Mods de Fabric
-
-Entra a [esta guía](fabric-mods) para aprender cómo instalar mods en Fabric.
+>
+> Consulta la guía [this](mods-install.md).
 
 ---
