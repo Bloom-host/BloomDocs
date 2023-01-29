@@ -1,18 +1,18 @@
 /*
 When adding pages to the sidebar, make sure you use the page ID, not the file name of the page
-For example, to add a page which had a filename of 'chunky-multi' and a page ID of 'chunky', you would add the following under the appropiate category: 
+For example, to add a page which had a filename of 'chunky-multi' and a page ID of 'chunky', you would add the following under the appropiate category:
 
 'plugins_and_modifications/multiplatform/chunky'
 
 'plugins_and_modifications/multiplatform/' is the path to the file and '/chunky' is the page ID.
 
-The page ID can be found at the top of each document (usually the second line) where it will say 'id: <pageid>' (<pageid> would be the page ID you put into `sidebars.js`) 
+The page ID can be found at the top of each document (usually the second line) where it will say 'id: <pageid>' (<pageid> would be the page ID you put into `sidebars.js`)
 
 Not following this can cause the website build to fail!
 */
 module.exports = {
 /* Organize sidebar alphabetically */
- 
+
     docs: [
 
         {
@@ -62,10 +62,10 @@ module.exports = {
                 'using_the_panel/basic-controls',
                 'using_the_panel/file-manager-controls',
                 'using_the_panel/server-importer',
-                'using_the_panel/databases',
                 'using_the_panel/schedules',
-                'using_the_panel/users',
                 'using_the_panel/backups',
+                'using_the_panel/users',
+                'using_the_panel/databases',
                 'using_the_panel/ports-and-proxies',
                 'using_the_panel/sftp',
                 'using_the_panel/split-server',
@@ -81,17 +81,19 @@ module.exports = {
                 'running_a_server/updating', // How to update
                 'running_a_server/jars', // Explains the different server JAR file options
                 'running_a_server/optimization', // Server optimisation information
+                'running_a_server/world-reset',
                 'running_a_server/domain',
-                'running_a_server/resourcepack',
                 'running_a_server/java-version',
                 'running_a_server/datapacks',
+                'running_a_server/spark',
                 'running_a_server/timings',
-                'running_a_server/motd',
-                'running_a_server/world-reset',
-                'running_a_server/converting-worlds', // Converting worlds used on Bukkit (and forks) servers to allow for use in singleplayer/other server software
                 'running_a_server/icon',
+                'running_a_server/motd',
+                'running_a_server/resourcepack',
+                'running_a_server/converting-worlds', // Converting worlds used on Bukkit (and forks) servers to allow for use in singleplayer/other server software
                 'running_a_server/waterfall', // BungeeCord fork
                 'running_a_server/velocity',
+                'running_a_server/internal-servers',
                 'running_a_server/binarysearch' // Troubleshooting errors caused by plugins
             ],
         },
@@ -158,7 +160,6 @@ module.exports = {
                         'plugins_and_modifications/plugins/advancedanticheat', // anticheat (discontinued)
 			'plugins_and_modifications/plugins/ajparkour', // ajParkour
 			'plugins_and_modifications/plugins/banannouncer', // announce bans in discord
-                        'plugins_and_modifications/plugins/bungeeguard', // BungeeCord security (prevents UUID spoof exploit)
                         'plugins_and_modifications/plugins/citizens2',
                         'plugins_and_modifications/plugins/conditionalcommands',
                         'plugins_and_modifications/plugins/coreprotect',
@@ -174,7 +175,6 @@ module.exports = {
                         'plugins_and_modifications/plugins/papi', // PlaceholderAPI
                         'plugins_and_modifications/plugins/prism',
                         'plugins_and_modifications/plugins/servernpc',
-                        'plugins_and_modifications/plugins/spark',
                         'plugins_and_modifications/plugins/tebex', // Minecraft server donation store integration, formerly known as BuyCraft
                         'plugins_and_modifications/plugins/vault',
                         'plugins_and_modifications/plugins/venturechat', // Chat handler
@@ -221,7 +221,7 @@ module.exports = {
                 'other-servers/caddy-server',
                 'other-servers/grafana',
             ],
-        },       
+        },
 
         {
             type: 'category',
