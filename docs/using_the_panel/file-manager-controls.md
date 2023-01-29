@@ -25,6 +25,7 @@ By default you will be able to see the main/root folder of your server. You can 
 <div class="text--center"><img src={require('../../static/imgs/using_the_panel/file_manager_controls/1.png').default} alt="console"/></div>
 
 #### Without selecting any files you can:
+- Open the Recycle Bin to retrieve previously deleted files (up to 24h)
 - Download files from a link (if the link directly leads to a file!)
 - Create new directories or files
 - Upload files directly from your computer

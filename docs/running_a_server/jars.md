@@ -52,6 +52,10 @@ Fabric, with a few performance mods added, is recommended if you want to run a m
 
 ## Other popular options: 
 
+:::warning
+Some popular Jars such as Sponge attempt to merge Bukkit and Forge to allow the use of Plugins and Mods in the same enviorment, while popular these implementations can end up combining the issues of both server types and be unstable as a result.
+:::
+
 ### [Vanilla](https://www.minecraft.net/en-us/download/server)
 Vanilla is the jar provided by Mojang to run Minecraft servers. This is the bare minimum for servers with no plugin API for plugins to hook into or a modding API like forge. It is not optimized and only recommended for small groups of friends who want to play plain vanilla.
 
