@@ -164,5 +164,10 @@
                 "name": "Dotarch",
                 "ip": "play.dotarch.co",
                 "type": "PC"
-        }
+        },
+        {
+                "name": "MagmaMC",
+                "ip": "play.magmamc.net",
+                "type": "PC"
+        }        
 ]
