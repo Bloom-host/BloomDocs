@@ -16,25 +16,6 @@ module.exports = {
     docs: [
 
         {
-            type: 'link',
-            label: 'Website',
-            href: 'https://bloom.host/'
-        },
-
-        {
-            type: 'link',
-            label: 'Support Discord',
-            href: 'https://discord.gg/bloom',
-        },
-
-        {
-            type: 'link',
-            label: 'Billing Support',
-            href: 'https://billing.bloom.host/supporttickets.php',
-        },
-
-
-        {
             type: 'doc',
             id: "running_a_server/1.19", // 1.19 update information
         },

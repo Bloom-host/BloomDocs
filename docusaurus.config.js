@@ -36,7 +36,19 @@ module.exports = {
       items: [
         {
           type: 'localeDropdown',
-          position: 'left',
+          position: 'right',
+        },
+        {
+          href: 'https://bloom.host/',
+          label: 'Website',          
+        },
+        {
+          href: 'https://discord.gg/bloom',
+          label: 'Support Discord',
+        },
+        {
+          href: 'https://billing.bloom.host/supporttickets.php',
+          label: 'Billing Support',
         },
       ],
     },
