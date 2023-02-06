@@ -11,8 +11,8 @@ The page ID can be found at the top of each document (usually the second line) w
 Not following this can cause the website build to fail!
 */
 module.exports = {
-/* Organize sidebar alphabetically */
- 
+    /* Organize sidebar alphabetically */
+
     docs: [
 
         {
@@ -72,6 +72,8 @@ module.exports = {
                 'running_a_server/motd',
                 'running_a_server/resourcepack',
                 'running_a_server/converting-worlds', // Converting worlds used on Bukkit (and forks) servers to allow for use in singleplayer/other server software
+                "plugins_and_modifications/fabric-setup",
+                "plugins_and_modifications/forge-setup",
                 'running_a_server/waterfall', // BungeeCord fork
                 'running_a_server/velocity',
                 'running_a_server/binarysearch' // Troubleshooting errors caused by plugins
@@ -87,20 +89,6 @@ module.exports = {
                     type: 'doc',
                     id: "plugins_and_modifications/installing-plugin", // Bukkit/Spigot/Paper plugin installation guide
                 },
-
-                {
-                    type: 'doc',
-                    id: "plugins_and_modifications/install-proxy-plugin", // BungeeCord/Velocity proxy plugin install guide
-                },
-
-                {
-                    type: 'doc',
-                    id: "plugins_and_modifications/fabric-setup",
-                },
-                {
-                    type: 'doc',
-                    id: "plugins_and_modifications/forge-setup",
-                },
                 {
                     type: 'doc',
                     id: "plugins_and_modifications/mods-install", // Mods install guide for both Forge and Fabric
@@ -108,6 +96,37 @@ module.exports = {
                 {
                     type: 'doc',
                     id: "plugins_and_modifications/modpacks",
+                },
+                {
+                    type: 'category',
+                    label: "Plugins", // Bukkit/Spigot/Paper plugins
+                    items: [ // Note: Chunky, LiteBans, LuckPerms and PLAN pages were moved to multiplatform category
+                        'plugins_and_modifications/plugins/advancedanticheat', // anticheat (discontinued)
+                        'plugins_and_modifications/plugins/ajparkour', // ajParkour
+                        'plugins_and_modifications/plugins/banannouncer', // announce bans in discord
+                        'plugins_and_modifications/plugins/citizens2',
+                        'plugins_and_modifications/plugins/conditionalcommands',
+                        'plugins_and_modifications/plugins/coreprotect',
+                        'plugins_and_modifications/plugins/craftingstore',
+                        'plugins_and_modifications/plugins/discordsrv', //Discord <-> Minecraft bridge
+                        'plugins_and_modifications/plugins/essentialsx',
+                        'plugins_and_modifications/plugins/floodgate', // Works with GeyserMC to allow bedrock connections, without a Java Edition account.
+                        'plugins_and_modifications/plugins/geysermc', // Minecraft Bedrock player bridge
+                        'plugins_and_modifications/plugins/geyseraddons', // GeyserMC addons
+                        'plugins_and_modifications/plugins/griefprevention',
+                        'plugins_and_modifications/plugins/milk',
+                        'plugins_and_modifications/plugins/multiverse', //Bukkit multi-world manager
+                        'plugins_and_modifications/plugins/papi', // PlaceholderAPI
+                        'plugins_and_modifications/plugins/prism',
+                        'plugins_and_modifications/plugins/servernpc',
+                        'plugins_and_modifications/plugins/tebex', // Minecraft server donation store integration, formerly known as BuyCraft
+                        'plugins_and_modifications/plugins/vault',
+                        'plugins_and_modifications/plugins/venturechat', // Chat handler
+                        'plugins_and_modifications/plugins/viaversion',
+                        'plugins_and_modifications/plugins/votifier', // Minecraft server vote site listener
+                        'plugins_and_modifications/plugins/vulcan', // anticheat
+                        "plugins_and_modifications/install-proxy-plugin", // BungeeCord/Velocity proxy plugin install guide
+                    ]
                 },
                 {
                     type: 'category',
@@ -128,42 +147,22 @@ module.exports = {
                         'plugins_and_modifications/multiplatform/luckperms', // Permissions (Bukkit/Spigot/Paper, BungeeCord, Sponge, Forge, Fabric, Nukkit, Velocity)
                         'plugins_and_modifications/multiplatform/plan', // Player Analytics, (Bukkit/Spigot/Paper, Sponge, Nukkit, Fabric)
                         'plugins_and_modifications/multiplatform/simple-voice-chat', // Voice chat (Bukkit/Spigot/Paper, Forge, Fabric)
-			'plugins_and_modifications/multiplatform/squaremap', // Online map (Paper, Fabric, Sponge)
+                        'plugins_and_modifications/multiplatform/squaremap', // Online map (Paper, Fabric, Sponge)
                         'plugins_and_modifications/multiplatform/worldedit' // World management (Bukkit, Forge, Fabric, Sponge)
                     ]
                 },
-
-                {
-                    type: 'category',
-                    label: "Plugins", // Bukkit/Spigot/Paper plugins
-                    items: [ // Note: Chunky, LiteBans, LuckPerms and PLAN pages were moved to multiplatform category
-                        'plugins_and_modifications/plugins/advancedanticheat', // anticheat (discontinued)
-			'plugins_and_modifications/plugins/ajparkour', // ajParkour
-			'plugins_and_modifications/plugins/banannouncer', // announce bans in discord
-                        'plugins_and_modifications/plugins/citizens2',
-                        'plugins_and_modifications/plugins/conditionalcommands',
-                        'plugins_and_modifications/plugins/coreprotect',
-                        'plugins_and_modifications/plugins/craftingstore',
-                        'plugins_and_modifications/plugins/discordsrv', //Discord <-> Minecraft bridge
-                        'plugins_and_modifications/plugins/essentialsx',
-			'plugins_and_modifications/plugins/floodgate', // Works with GeyserMC to allow bedrock connections, without a Java Edition account.
-                        'plugins_and_modifications/plugins/geysermc', // Minecraft Bedrock player bridge
-                        'plugins_and_modifications/plugins/geyseraddons', // GeyserMC addons
-                        'plugins_and_modifications/plugins/griefprevention',
-                        'plugins_and_modifications/plugins/milk',
-                        'plugins_and_modifications/plugins/multiverse', //Bukkit multi-world manager
-                        'plugins_and_modifications/plugins/papi', // PlaceholderAPI
-                        'plugins_and_modifications/plugins/prism',
-                        'plugins_and_modifications/plugins/servernpc',
-                        'plugins_and_modifications/plugins/tebex', // Minecraft server donation store integration, formerly known as BuyCraft
-                        'plugins_and_modifications/plugins/vault',
-                        'plugins_and_modifications/plugins/venturechat', // Chat handler
-                        'plugins_and_modifications/plugins/viaversion',
-                        'plugins_and_modifications/plugins/votifier', // Minecraft server vote site listener
-                        'plugins_and_modifications/plugins/vulcan' // anticheat
-                    ]
-                },
             ]
+        },
+
+        {
+            type: 'category',
+            label: 'Other Servers',
+            collapsed: true,
+            items: [
+                'other-servers/ark',
+                'other-servers/caddy-server',
+                'other-servers/grafana',
+            ],
         },
 
         {
@@ -194,17 +193,6 @@ module.exports = {
 
         {
             type: 'category',
-            label: 'Other Servers',
-            collapsed: true,
-            items: [
-                'other-servers/ark',
-                'other-servers/caddy-server',
-                'other-servers/grafana',
-            ],
-        },       
-
-        {
-            type: 'category',
             label: 'Extras',
             collapsed: true,
             items: [
@@ -212,7 +200,7 @@ module.exports = {
                 'extras/account-details',
                 'extras/available-modpacks',
                 'extras/srvcontrol',
-		        'extras/swap',
+                'extras/swap',
                 'extras/clumsyloader',
                 'extras/contributing',
                 'extras/template'
