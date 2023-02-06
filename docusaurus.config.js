@@ -8,12 +8,16 @@ module.exports = {
   organizationName: "bloom-host",
   projectName: "bloomdocs",
 
+  plugins: [
+    require.resolve('docusaurus-plugin-image-zoom')
+  ],
+
   themeConfig: {
     image: 'imgs/meta.png',
     colorMode: {
       defaultMode: "dark",
       disableSwitch: false,
-    },
+    },    
     metadata: [
       { name: 'og:site_name', content: 'Bloom.host' },
       { name: 'theme-color', content: '#ff6300' },
@@ -25,6 +29,17 @@ module.exports = {
       indexName: "bloom",
       contextualSearch: true,
       searchParameters: {},
+    },
+
+    zoom: {
+      selector: '.markdown :not(em) > img',
+      background: {
+        light: 'rgb(255, 255, 255)',
+        dark: 'rgb(33, 33, 50)'
+      },
+      config: {
+        // options you can specify via https://github.com/francoischalifour/medium-zoom#usage
+      }
     },
 
     navbar: {
