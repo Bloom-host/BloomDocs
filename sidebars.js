@@ -32,7 +32,6 @@ module.exports = {
             label: 'Billing Support',
             href: 'https://billing.bloom.host/supporttickets.php',
         },
-    docs: [
 
         {
             type: 'doc',
