@@ -67,7 +67,7 @@ The first section of the config file you need to edit is the `[servers]` section
 
 :::note
 
-Before you setup this section, change the primary port for your backend servers to something other than 25565. 25565 is the default minecraft port and should be reserved for your Velocity server as it is what players are actually connecting to when they try and connect to your network.
+Before you setup this section, you're going to want to make sure all your backend servers are internal. You can make your backend servers internal by going to the Ports and Proxies tab under the specific server and clicking "Make Internal", that will remove all public access to your backend servers which is what we want. When a server is internal they are only accessible via other servers in the same split. If you would like to read more information on our internal servers please see [here](/internal-servers).
 
 :::
 
@@ -75,24 +75,25 @@ Before you setup this section, change the primary port for your backend servers 
 [servers]
 # Configure your servers here. Each key represents the server's name, and the value
 # represents the IP address of the server to connect to.
-lobby = "yourserveripgoeshere:25566"
-factions = "yourserveripgoeshere:25567"
-minigames = "yourserveripgoeshere:25568"
+lobby = "b5ebd2e5-4141-4d10-8039-d7d6b48ae8ef:25565"
+factions = "ea3a8cfd-cdb3-4015-b1e3-e0a0615064b6:25565"
+minigames = "6e552616-a923-45f2-8719-4123536440bd:25565"
 
 # In what order we should try servers when a player logs in or is kicked from a server.
 try = [
   "lobby"
 ]
 ```
-Replace "yourserveripgoeshere" with your actual server IP. The section after the : is the port, so replace that too with the ports your backend servers are using.
+
+Make sure to replace the serverids with your own server's ids. You can get this from the Ports and Proxies tab after making a server internal, clicking your serverid in the console tab, or under the settings tab. All backend servers use port 25565 so make sure to specify 25565 as shown above.
 
 The `try` section you see in the above example is extremely important, essentially this is the order of servers in which Velocity will try to connect incoming players to. If you have it setup like `try = ["survival", "creative", "minigames"]` then players will connect to `survival` by default, then `creative` if `survival` is down, and then `minigames` if the first two are down. Setup your preferred order and then we will continue our editing.
 
 ## Configuring server.properties on your backend servers
 
-In the `/home` directory of the servers you are running behind Velocity, you need to go to `server.properties` and set `online-mode` to `false`. For Velocity to work correctly and communicate with your backend servers it needs to be turned off. 
+In the `/home` directory of the servers you are running behind Velocity, you need to go to `server.properties` and set `online-mode` to `false`. For Velocity to work correctly and communicate with your backend servers it needs to be turned off.
 
-Remember that running your server in offline mode is not supported by Bloom.host normally, but in the case of setting up a proxy like Velocity or Waterfall you need to do so for the proxy to work so it is acceptable. 
+Remember that running your server in offline mode is not supported by Bloom.host normally, but in the case of setting up a proxy like Velocity or Waterfall you need to do so for the proxy to work so it is acceptable.
 
 After you configure and save your `server.properties` file along with completing the next section on Player Information Forwarding, make sure to `restart` your backend servers so that the changes are applied.
 
@@ -128,7 +129,7 @@ A mod called [FabricProxy-Lite](https://www.curseforge.com/minecraft/mc-mods/fab
 ### BungeeGuard Forwarding for Spigot/Paper
 
 :::caution
-Legacy BungeeCord forwarding mode is less secure than modern Velocity forwarding mode and may result in security issues if not setup properly. 
+Legacy BungeeCord forwarding mode is less secure than modern Velocity forwarding mode and may result in security issues if not setup properly.
 
 If you need to use legacy BungeeCord forwarding mode, make sure you setup BungeeGuard to ensure people do not connect directly to your backend servers.
 
@@ -168,12 +169,3 @@ If you are interested in installing additional functionality for Velocity, they 
 The server-icon.png file you upload to your Velocity server is the icon that will show up on the multiplayer menu in Minecraft.
 
 :::
-
-
-
-
-
-
-
-
-

@@ -1,5 +1,10 @@
 [
         {
+                "name": "BozoKits",
+                "ip": "bozokits.net",
+                "type": "PC"
+        },
+        {
                 "name": "Advanced-Kind",
                 "ip": "play.advanced-kind.com",
                 "type": "PC"

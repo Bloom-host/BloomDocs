@@ -16,6 +16,10 @@ image: https://bloom.host/assets/images/logo.png
 ### Overview
 Databases can be used by certain plugins to allow for a more efficient, organized method of storing large amounts of data. Common plugins that can utilize MySQL databases are Dynmap, CoreProtect, and LuckPerms.
 
+### Database Storage
+The data stored by these databases do not affect your servers storage limit.
+> This does not apply to dedicated servers and MySQL databases will contribute the dedicated servers overall data usage.
+
 ### Adding MySQL Databases
  
 From the [Duck Panel](https://mc.bloom.host/) select the **Databases** tab on the navigation bar.

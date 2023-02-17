@@ -581,7 +581,7 @@ thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/stati
 aliases = ["modpackslist"]
 title = "📜 List of available modpacks on Bloom's One-Click Modpack Installer"
 description = """
-Check out the list of available modpacks on Bloom's One-Click Modpack Installer [here](https://docs.bloom.host/extras/available-modpacks).
+Check out the list of available modpacks on Bloom's One-Click Modpack Installer [here](https://bloom.host/modpacks/).
 
 You can also request a modpack to be added by making a suggestion at #bot-commands by using !suggest (Suggestion goes here).
 
