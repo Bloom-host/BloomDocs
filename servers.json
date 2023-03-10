@@ -164,5 +164,10 @@
                 "name": "Dotarch",
                 "ip": "play.dotarch.co",
                 "type": "PC"
+        },
+        {
+                "name": "HibiscusMC",
+                "ip": "play.hibiscusmc.com",
+                "type": "PC"
         }
 ]
