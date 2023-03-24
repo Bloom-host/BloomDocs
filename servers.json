@@ -169,5 +169,10 @@
                 "name": "MagmaMC",
                 "ip": "play.magmamc.net",
                 "type": "PC"
-        }        
+        },
+        {
+                "name": "HibiscusMC",
+                "ip": "play.hibiscusmc.com",
+                "type": "PC"
+        }          
 ]
