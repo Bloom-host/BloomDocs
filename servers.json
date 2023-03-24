@@ -174,5 +174,10 @@
                 "name": "HibiscusMC",
                 "ip": "play.hibiscusmc.com",
                 "type": "PC"
-        }          
+        },        
+        {
+                "name": "The Chunk",
+                "ip": "play.chunkmc.com",
+                "type": "PC"
+        }  
 ]
