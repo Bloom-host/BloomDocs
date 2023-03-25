@@ -221,6 +221,7 @@ module.exports = {
                 'other-servers/ark',
                 'other-servers/caddy-server',
                 'other-servers/grafana',
+                'other-servers/namelessmc'
             ],
         },
 
