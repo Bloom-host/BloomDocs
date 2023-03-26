@@ -64,7 +64,7 @@ Friendly URLs removes the extra information from the website link, turning `name
 ![nmc-gen-cfg-img](https://i.imgur.com/a6mxN95.png)
 
 :::info
-If you want to use Friendly URLs, see [#Friendly URLs](#Friendly-URLs)
+If you want to use Friendly URLs, see [#Friendly URLs](#friendly-urls)
 :::
 
 You will need to reference the database you created earlier for the next part.
