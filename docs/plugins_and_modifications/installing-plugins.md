@@ -45,6 +45,14 @@ Once the server is online, type `plugins` in your console. If you are able to se
 
 ---
 
+:::important
+
+Starting with Paper 1.19.3 build 405, changes made to the plugin loader means that setups with cyclic plugin dependencies (where plugin loading causes a loading loop which will cycle back to the original plugin) will no longer function. A server with plugin dependency loops will not load and will be shut down with an error.
+
+See the [Paper help page](https://docs.papermc.io/paper/reference/paper-plugins#cyclic-plugin-loading) for information on how to resolve the issue.
+
+:::
+
 ### What To Do If A Plugin Doesn't Load
 
 In case you can't seem to be able to install a plugin properly, be sure to do these steps before asking for help.
