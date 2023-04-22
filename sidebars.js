@@ -11,7 +11,7 @@ The page ID can be found at the top of each document (usually the second line) w
 Not following this can cause the website build to fail!
 */
 module.exports = {
-/* Organize sidebar alphabetically */
+    /* Organize sidebar alphabetically */
 
     docs: [
 
@@ -148,7 +148,7 @@ module.exports = {
                         'plugins_and_modifications/multiplatform/luckperms', // Permissions (Bukkit/Spigot/Paper, BungeeCord, Sponge, Forge, Fabric, Nukkit, Velocity)
                         'plugins_and_modifications/multiplatform/plan', // Player Analytics, (Bukkit/Spigot/Paper, Sponge, Nukkit, Fabric)
                         'plugins_and_modifications/multiplatform/simple-voice-chat', // Voice chat (Bukkit/Spigot/Paper, Forge, Fabric)
-			'plugins_and_modifications/multiplatform/squaremap', // Online map (Paper, Fabric, Sponge)
+                        'plugins_and_modifications/multiplatform/squaremap', // Online map (Paper, Fabric, Sponge)
                         'plugins_and_modifications/multiplatform/worldedit' // World management (Bukkit, Forge, Fabric, Sponge)
                     ]
                 },
@@ -158,15 +158,15 @@ module.exports = {
                     label: "Plugins", // Bukkit/Spigot/Paper plugins
                     items: [ // Note: Chunky, LiteBans, LuckPerms and PLAN pages were moved to multiplatform category
                         'plugins_and_modifications/plugins/advancedanticheat', // anticheat (discontinued)
-			'plugins_and_modifications/plugins/ajparkour', // ajParkour
-			'plugins_and_modifications/plugins/banannouncer', // announce bans in discord
+                        'plugins_and_modifications/plugins/ajparkour', // ajParkour
+                        'plugins_and_modifications/plugins/banannouncer', // announce bans in discord
                         'plugins_and_modifications/plugins/citizens2',
                         'plugins_and_modifications/plugins/conditionalcommands',
                         'plugins_and_modifications/plugins/coreprotect',
                         'plugins_and_modifications/plugins/craftingstore',
                         'plugins_and_modifications/plugins/discordsrv', //Discord <-> Minecraft bridge
                         'plugins_and_modifications/plugins/essentialsx',
-			'plugins_and_modifications/plugins/floodgate', // Works with GeyserMC to allow bedrock connections, without a Java Edition account.
+                        'plugins_and_modifications/plugins/floodgate', // Works with GeyserMC to allow bedrock connections, without a Java Edition account.
                         'plugins_and_modifications/plugins/geysermc', // Minecraft Bedrock player bridge
                         'plugins_and_modifications/plugins/geyseraddons', // GeyserMC addons
                         'plugins_and_modifications/plugins/griefprevention',
@@ -199,6 +199,15 @@ module.exports = {
 
         {
             type: 'category',
+            label: 'Dedicated',
+            collapsed: true,
+            items: [
+                'dedicated/reset-password'
+            ],
+        },
+
+        {
+            type: 'category',
             label: 'Billing',
             collapsed: true,
             items: [
@@ -207,7 +216,7 @@ module.exports = {
                 'billing/upgrades',
                 'billing/refunds',
                 'billing/suspensions_and_terminations',
-		'billing/billing_subusers',
+                'billing/billing_subusers',
                 'billing/paypal',
                 'billing/stripe'
             ],
@@ -234,7 +243,7 @@ module.exports = {
                 'extras/account-details',
                 'extras/available-modpacks',
                 'extras/srvcontrol',
-		        'extras/swap',
+                'extras/swap',
                 'extras/clumsyloader',
                 'extras/contributing',
                 'extras/template'
@@ -243,4 +252,4 @@ module.exports = {
 
     ]
 }
-//'editing-account-details'
+    //'editing-account-details'
