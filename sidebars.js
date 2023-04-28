@@ -11,7 +11,7 @@ The page ID can be found at the top of each document (usually the second line) w
 Not following this can cause the website build to fail!
 */
 module.exports = {
-/* Organize sidebar alphabetically */
+    /* Organize sidebar alphabetically */
 
     docs: [
 
@@ -118,6 +118,30 @@ module.exports = {
                 },
                 {
                     type: 'category',
+                    label: "Fabric mods",
+                    items: [ // Note: Chunky and LuckPerms pages were moved to multiplatform category
+                        'plugins_and_modifications/fabric_mods/performance-mods' // Mods intended to improve client/server performance
+                    ]
+                },
+
+                {
+                    type: 'category',
+                    label: "Multi-platform plugins & mods",
+                    items: [
+                        'plugins_and_modifications/multiplatform/advancedban', // Bans and punishment manager (Bukkit/Spigot/Paper, BungeeCord)
+                        'plugins_and_modifications/multiplatform/chunky', // World pre-generation plugin (Bukkit, Fabric, Forge)
+                        'plugins_and_modifications/multiplatform/dynmap', // Dynamic web map of Minecraft worlds (Spigot/Paper, Forge, Fabric)
+                        'plugins_and_modifications/multiplatform/litebans', // Bans and punishment manager (Spigot/Paper, BungeeCord, Velocity)
+                        'plugins_and_modifications/multiplatform/luckperms', // Permissions (Bukkit/Spigot/Paper, BungeeCord, Sponge, Forge, Fabric, Nukkit, Velocity)
+                        'plugins_and_modifications/multiplatform/plan', // Player Analytics, (Bukkit/Spigot/Paper, Sponge, Nukkit, Fabric)
+                        'plugins_and_modifications/multiplatform/simple-voice-chat', // Voice chat (Bukkit/Spigot/Paper, Forge, Fabric)
+                        'plugins_and_modifications/multiplatform/squaremap', // Online map (Paper, Fabric, Sponge)
+                        'plugins_and_modifications/multiplatform/worldedit' // World management (Bukkit, Forge, Fabric, Sponge)
+                    ]
+                },
+
+                {
+                    type: 'category',
                     label: "Plugins", // Bukkit/Spigot/Paper plugins
                     items: [ // Note: Chunky, LiteBans, LuckPerms and PLAN pages were moved to multiplatform category
                         'plugins_and_modifications/plugins/advancedanticheat', // anticheat (discontinued)
@@ -197,6 +221,15 @@ module.exports = {
 
         {
             type: 'category',
+            label: 'Dedicated',
+            collapsed: true,
+            items: [
+                'dedicated/reset-password'
+            ],
+        },
+
+        {
+            type: 'category',
             label: 'Billing',
             collapsed: true,
             items: [
@@ -205,7 +238,7 @@ module.exports = {
                 'billing/upgrades',
                 'billing/refunds',
                 'billing/suspensions_and_terminations',
-		'billing/billing_subusers',
+                'billing/billing_subusers',
                 'billing/paypal',
                 'billing/stripe'
             ],
@@ -219,6 +252,7 @@ module.exports = {
                 'other-servers/ark',
                 'other-servers/caddy-server',
                 'other-servers/grafana',
+                'other-servers/namelessmc'
             ],
         },
 
@@ -240,4 +274,4 @@ module.exports = {
 
     ]
 }
-//'editing-account-details'
+    //'editing-account-details'

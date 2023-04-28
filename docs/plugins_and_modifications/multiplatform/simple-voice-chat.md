@@ -19,46 +19,53 @@ You also need to install **Simple Voice Chat** on your game client!
 
 ## Requirements
 
-In order to run Simple Voice Chat on your server, you need one of the following [server jars](./jars) installed:
+In order to run Simple Voice Chat on your server, you need one of the following [server jars](/running_a_server/updating) installed:
 
 - [Fabric](#fabric)
 - [Forge](#forge)
 - [Bukkit/Spigot/Paper](#bukkitspigotpaper)
+- [Quilt](#quilt)
 
 ## Installation
 
 ### Fabric
 
-1. Download the latest version of the [Fabric API](https://www.curseforge.com/minecraft/mc-mods/fabric-api/files/all) for your Minecraft version
-2. Download the Fabric version of [Simple Voice Chat](https://www.curseforge.com/minecraft/mc-mods/simple-voice-chat/files/all?filter-status=1&filter-game-version=2020709689%3A7499) ([Alternative download link](https://modrinth.com/mod/simple-voice-chat))
-3. Open the [file manager](/file-manager-controls) in your dashboard
-4. Open the **mods** folder or create it if it doesn't exist
+1. Download the Fabric version of [Simple Voice Chat](https://modrinth.com/mod/simple-voice-chat/versions?l=fabric) ([Alternative download link](https://www.curseforge.com/minecraft/mc-mods/simple-voice-chat/files/all?filter-game-version=2020709689%3A7499))
+2. Open the [file manager](/file-manager-controls) in your dashboard
+3. Open the **mods** folder or create it if it doesn't exist
 <div class="text--center"><img src={require('../../../static/imgs/plugins_and_modifications/simple_voice_chat/1.png').default} alt="console"/></div>
-5. Drag and drop the **Fabric API jar** and the **Simple Voice Chat jar** into the browser window.
+4. Drag and drop the **Simple Voice Chat jar** into the browser window.
 <div class="text--center"><img src={require('../../../static/imgs/plugins_and_modifications/simple_voice_chat/2.png').default} alt="console"/></div>
-6. Continue with the [common installation](#common)
+5. Continue with the [common installation](#common)
 
 ### Forge
 
-1. Download the Forge version of [Simple Voice Chat](https://www.curseforge.com/minecraft/mc-mods/simple-voice-chat/files/all?filter-status=1&filter-game-version=2020709689%3A7498) ([Alternative download link](https://modrinth.com/mod/simple-voice-chat))
-3. Open the [file manager](/file-manager-controls) in your dashboard
-4. Open the **mods** folder or create it if it doesn't exist
+1. Download the Forge version of [Simple Voice Chat](https://modrinth.com/mod/simple-voice-chat/versions?l=forge) ([Alternative download link](https://www.curseforge.com/minecraft/mc-mods/simple-voice-chat/files/all?filter-game-version=2020709689%3A7498))
+2. Open the [file manager](/file-manager-controls) in your dashboard
+3. Open the **mods** folder or create it if it doesn't exist
 <div class="text--center"><img src={require('../../../static/imgs/plugins_and_modifications/simple_voice_chat/1.png').default} alt="console"/></div>
-5. Drag and drop the the **Simple Voice Chat jar** into the browser window.
-6. Continue with the [common installation](#common)
+4. Drag and drop the the **Simple Voice Chat jar** into the browser window.
+5. Continue with the [common installation](#common)
 
 ### Bukkit/Spigot/Paper
 
-1. Download the Bukkit based version of [Simple Voice Chat](https://www.curseforge.com/minecraft/bukkit-plugins/simple-voice-chat/files/all) ([Alternative download link](https://modrinth.com/mod/simple-voice-chat))
-2. Download [ProtocolLib](https://www.spigotmc.org/resources/protocollib.1997/)
-3. Open the [file manager](/file-manager-controls) in your dashboard
-4. Open the **plugins** folder or create it if it doesn't exist
-5. Drag and drop the the **Simple Voice Chat jar** and the **ProtocolLib jar** into the browser window.
-6. Continue with the [common installation](#common)
+1. Download the Bukkit version of [Simple Voice Chat](https://modrinth.com/mod/simple-voice-chat/versions?l=bukkit) ([Alternative download link](https://www.curseforge.com/minecraft/bukkit-plugins/simple-voice-chat/files/all))
+2. Open the [file manager](/file-manager-controls) in your dashboard
+3. Open the **plugins** folder or create it if it doesn't exist
+4. Drag and drop the the **Simple Voice Chat jar** into the browser window.
+5. Continue with the [common installation](#common)
+
+### Quilt
+
+1. Download the Quilt version of [Simple Voice Chat](https://modrinth.com/mod/simple-voice-chat/versions?l=quilt) ([Alternative download link](https://www.curseforge.com/minecraft/mc-mods/simple-voice-chat/files/all?filter-game-version=2020709689%3A9153))
+2. Open the [file manager](/file-manager-controls) in your dashboard
+3. Open the **mods** folder or create it if it doesn't exist
+4. Drag and drop the **Simple Voice Chat jar** into the browser window.
+5. Continue with the [common installation](#common)
 
 ### Common
 
-1. Make sure you followed the steps for [Fabric](#fabric), [Forge](#forge) or [Bukkit/Spigot/Paper](#bukkitspigotpaper)
+1. Make sure you followed the steps for [Fabric](#fabric), [Forge](#forge), [Bukkit/Spigot/Paper](#bukkitspigotpaper) or [Quilt](#quilt)
 2. Open the **Ports & Proxies** section in your dashboard
 3. Click on **OPEN PORT**
 <div class="text--center"><img src={require('../../../static/imgs/plugins_and_modifications/simple_voice_chat/3.png').default} alt="console"/></div>
