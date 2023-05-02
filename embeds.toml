@@ -120,7 +120,7 @@ image = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/im
 
 [bungeeguard]
 title = ":warning: Bloom Docs - BungeeGuard"
-description = "Check out our comprehensive guide on BungeeGuard [here](https://docs.bloom.host/plugins/bungeeguard/)."
+description = "Check out our comprehensive guide on BungeeGuard [here](https://docs.bloom.host/waterfall/#setting-up-bungeeguard)."
 thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png"
 image = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/ZvaY5o.png"
 
