@@ -179,5 +179,10 @@
                 "name": "The Chunk",
                 "ip": "play.chunkmc.com",
                 "type": "PC"
+        },
+        {
+                "name": "Frostcast Revival",
+                "ip": "play.frostcast.network",
+                "type": "PC"
         }  
 ]
