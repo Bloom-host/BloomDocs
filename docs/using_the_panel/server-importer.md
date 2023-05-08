@@ -38,10 +38,10 @@ We recommend you compress all the server files that you want to import before st
 - First go to our [Duck Panel](https://mc.bloom.host)
 - Select the server to which you want to import the files.
 - Click on "*Server Importer*" on the navigation bar.
-- Fill in the form with your the appropriate credentials.
+- Fill in the form with the appropriate credentials.
 - Leave the "Base Directory" on `/` if you want to import all the files. If you want to import a specific folder, you can specify that in this box. If you have archived your server files, you can place the zip/tar within a folder, and follow the previous steps, to import just that specific file. 
 
-Once the import begins, you an navigate to the Console page to view the current progress.
+Once the import begins, you can navigate to the Console page to view the current progress.
 
 <div class="text--center"><img src={require('../../static/imgs/using_the_panel/server-importer/1.png').default} alt="console"/></div>
 
