@@ -932,6 +932,16 @@ Avg. First Response: %avgfirstresponse%
 # ┌───────────────┐
 # │ Ticket Embeds │
 # └───────────────┘
+[ticket-notes]
+enabled = false
+title = "Ticket #%ticketid% — Notes"
+colour = "#ffc710"
+description = """
+%notes%
+"""
+[ticket-notes.custom-data]
+note-format = "`#%id%` <@%addedby%>: %content%\n"
+
 [ticket-panel]
 enabled = false
 title = "🦆 Click the button to open a ticket"
