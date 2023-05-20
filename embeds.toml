@@ -839,7 +839,7 @@ b = ["Read Contribrution Docs", "https://docs.bloom.host/extras/contributing#edi
 [time-warn]
 enabled = false
 colour = "#ffdc5d"
-title = ":warning: Ticket created outside standard support hours"
+title = ":warning: Outside standard support hours"
 description = """
 Our standard support hours today are between **%fromraw%** and **%toraw%** US Eastern (**<t:%from%:t>** and **<t:%to%:t>** local time)
 
@@ -932,6 +932,16 @@ Avg. First Response: %avgfirstresponse%
 # ┌───────────────┐
 # │ Ticket Embeds │
 # └───────────────┘
+[ticket-notes]
+enabled = false
+title = "Ticket #%ticketid% — Notes"
+colour = "#ffc710"
+description = """
+%notes%
+"""
+[ticket-notes.custom-data]
+note-format = "`#%id%` <@%addedby%>: %content%\n"
+
 [ticket-panel]
 enabled = false
 title = "🦆 Click the button to open a ticket"
