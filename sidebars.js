@@ -89,7 +89,8 @@ module.exports = {
                 'running_a_server/timings',
                 'running_a_server/icon',
                 'running_a_server/motd',
-                'running_a_server/whitelisting', // How to turn on whitelist for both Java and Bedrock
+                'running_a_server/whitelist', // How to turn on whitelist for both Java and Bedrock
+
                 'running_a_server/resourcepack',
                 'running_a_server/converting-worlds', // Converting worlds used on Bukkit (and forks) servers to allow for use in singleplayer/other server software
                 'running_a_server/waterfall', // BungeeCord fork
