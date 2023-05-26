@@ -1,7 +1,7 @@
 ---
 id: whitelist
 title: Setting Up Whitelist
-slug: /whitelisting
+slug: /whitelist
 hide_title: true
 hide_table_of_contents: true
 sidebar_label: Setting up Whitelist
@@ -20,13 +20,14 @@ image: https://bloom.host/assets/images/logo.png
 </div>
 
 ## What Is Whitelisting?
-:::caution
-Whitelisting can stop unwanted guests from joining your server, however it does not stop them from pinging your server and getting information such as, Online Players and Player Count
-:::
 
 Basically a Whitelist is a list of player's usernames that are permitted to join the server while whitelist is on.
 
 Whitelisting is a way to secure your Java/Bedrock server to ensure that only people that you want to connect to your server do.
+
+:::caution
+Whitelisting can stop unwanted guests from joining your server, however it does not stop them from pinging your server and getting information such as, Online Players and Player Count
+:::
 
 ---
 
@@ -106,7 +107,7 @@ To start off heres a list of all the sub commands under the whitelist command:
 * `/allowlist list` - Shows you the current list of whitelisted players
 * `/allowlist off` - Turns off the whitelist, which allows anyone to join
 * `/allowlist on` - Turns on the whitelist, which allows only whitelisted players to join
-* `/allowlist reload` - Reloads the cached list to match the list that is inside of `allowlist.json`
+* `/allowlist reload` - Reloads the cached list to match the list that is inside of whitelist.json
 * `/allowlist remove [player]` - Removes a player from the list
 
 ### In Game
