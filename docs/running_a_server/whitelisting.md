@@ -19,12 +19,11 @@ image: https://bloom.host/assets/images/logo.png
 <h1>Setting Up Whitelist</h1>
 </div>
 
-
+## What Is Whitelisting?
 :::caution
 Whitelisting can stop unwanted guests from joining your server, however it does not stop them from pinging your server and getting information such as, Online Players and Player Count
 :::
 
-## What Is Whitelisting?
 Basically a Whitelist is a list of player's usernames that are permitted to join the server while whitelist is on.
 
 Whitelisting is a way to secure your Java/Bedrock server to ensure that only people that you want to connect to your server do.
@@ -43,7 +42,7 @@ To start off here's a list of all the sub-commands under the whitelist command:
 
 
 ### In Game
-There is only really 3 steps to turn on your whitelist in game:
+There is only 3 steps to turn on your whitelist in game:
 * Step 1: `/whitelist on` - Turns the whitelist on.
 * Step 2: `/whitelist add [player]` - Add someone to your whitelist.
 * Step 3: Repeat Step #2 for all of your friends.
@@ -53,7 +52,7 @@ And that's it! Whitelist is now on, and only the people on the list can join you
 ### Through The File
 Adding someone to whitelist through the file is a bit more complicated:
 * Step 1 `/whitelist on` - Just like in game this will enable whitelist.
-* Step 2: Open the `whitelist.json` file in your file editor, if you have never added someone to the whitelist it'll look like this:
+* Step 2: Open the `whitelist.json` file in your file editor, if you have never added someone before to the whitelist it'll look like this:
 ```yaml
 []
 ```
@@ -111,7 +110,7 @@ To start off heres a list of all the sub commands under the whitelist command:
 * `/allowlist remove [player]` - Removes a player from the list
 
 ### In Game
-There is only really 3 steps to turn on your whitelist in game:
+There is only 3 steps to turn on your whitelist in game:
 * Step 1: `/allowlist on` - Turns the whitelist on.
 * Step 2: `/allowlist add [player]` - Add someone to your whitelist.
 * Step 3: Repeat Step #2 for all of your friends.
@@ -121,7 +120,7 @@ And that's it! Whitelist is now on, and only the people on the list can join you
 ### Through The File
 Just like Java, adding someone to the whitelist through the file is a bit more complicated:
 * Step 1 `/allowlist on` - Just like in game this will enable whitelist.
-* Step 2: Open the `allow.json` file in your file editor, if you have never added someone to the whitelist it'll look like this:
+* Step 2: Open the `allowlist.json` file in your file editor, if you have never added someone to the whitelist before it'll look like this:
 ```yaml
 []
 ```
