@@ -57,7 +57,7 @@ Adding someone to whitelist through the file is a bit more complicated:
 ```yaml
 []
 ```
-Other wise it'll look something like this, we will use Notch as a placeholder:
+Otherwise, it'll look something like this, we will use Notch as a placeholder:
 ```yaml
 [
   {
