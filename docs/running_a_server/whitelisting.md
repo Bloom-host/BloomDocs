@@ -121,7 +121,7 @@ And that's it! Whitelist is now on, and only the people on the list can join you
 ### Through The File
 Just like Java, adding someone to the whitelist through the file is a bit more complicated:
 * Step 1 `/allowlist on` - Just like in game this will enable whitelist.
-* Step 2: Open the allow.json file in your file editor, if you have never added someone to the whitelist it'll look like this:
+* Step 2: Open the `allow.json` file in your file editor, if you have never added someone to the whitelist it'll look like this:
 ```yaml
 []
 ```
