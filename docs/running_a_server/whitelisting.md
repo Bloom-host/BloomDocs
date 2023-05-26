@@ -38,7 +38,7 @@ To start off here's a list of all the sub-commands under the whitelist command:
 * `/whitelist list` - Shows you the current list of whitelisted players
 * `/whitelist off` - Turns off the whitelist, which allows anyone to join
 * `/whitelist on` - Turns on the whitelist, which allows only whitelisted players to join
-* `/whitelist reload` - Reloads the cached list to match the list that is inside of whitelist.json
+* `/whitelist reload` - Reloads the cached list to match the list that is inside of `whitelist.json`
 * `/whitelist remove [player]` - Removes a player from the list
 
 
