@@ -1,5 +1,5 @@
 ---
-id: whitelisting
+id: whitelist
 title: Setting Up Whitelist
 slug: /whitelisting
 hide_title: true
