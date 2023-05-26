@@ -4,7 +4,7 @@ title: Setting Up Whitelist
 slug: /whitelisting
 hide_title: true
 hide_table_of_contents: true
-sidebar_label: Setting up Whitelist on Java/Bedrock
+sidebar_label: Setting up Whitelist
 description: How to setup Whitelist on Java/Bedrock
 keywords:
   - Minecraft
