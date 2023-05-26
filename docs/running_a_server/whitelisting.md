@@ -33,7 +33,7 @@ Whitelisting is a way to secure your Java/Bedrock server to ensure that only peo
 
 ## Whitelisting On Java
 
-To start off heres a list of all the sub commands under the whitelist command:
+To start off here's a list of all the sub-commands under the whitelist command:
 * `/whitelist add [player]` - Adds a player to the list
 * `/whitelist list` - Shows you the current list of whitelisted players
 * `/whitelist off` - Turns off the whitelist, which allows anyone to join
