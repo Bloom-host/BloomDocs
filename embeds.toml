@@ -201,7 +201,7 @@ You can use a software such as [WinMTR](https://sourceforge.net/projects/winmtr/
 aliases = ["unifiedmetrics", "prom", "prometheus", "metrics"]
 title = "<:grafana:870895629507903499> Grafana"
 description = "Setup Grafana, Prometheus, and UnifiedMetrics so you can have more stats about your minecraft server, which couldn't be done without our lovely server splitter :) Guide located [here](https://docs.bloom.host/other-servers/grafana/)."
-image = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/grafana.png"
+image = "https://raw.githubusercontent.com/Cubxity/UnifiedMetrics/dev/0.3.x/.github/assets/grafana.png"
 
 [bin]
 aliases = ["hastebin", "pastebin", "logs"]
