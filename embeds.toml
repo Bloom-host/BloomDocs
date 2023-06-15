@@ -49,6 +49,25 @@ text = "https://billing.bloom.host"
 [billing.buttons]
 1 = ["Billing Ticket", "https://billing.bloom.host/"]
 
+[unsupported]
+enabled = false
+title = "List of Unsupported Games"
+description = "These games can be used on your Bloom server, but no support is given when using them:\n\n%eggs%"
+footer = "Suggest a software to be added: !suggest <link/name>"
+[unsupported.custom-data]
+line-format = "- %egg%\n"
+
+[modpack]
+aliases = ["modpacks", "modpacklist"]
+enabled = false
+title = "List of Modpacks"
+description = "%modpacks%"
+footer = "Suggest a pack to be added: !suggest <link/name>"
+[modpacks.buttons]
+a = ["Full List", "https://bloom.host/modpacks/", "🔗"]
+[modpacks.custom-data]
+line-format = "- %modpack%\n"
+
 [voicechat]
 aliases = ["vc", "simplevoicechat", "svc"]
 thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/voicechat.png"
@@ -571,24 +590,11 @@ description = "Check out our comprehensive guide on installing Fabric to your se
 thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png"
 image = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/cTEy1Q.png"
 
-[modpacks]
-aliases = ["modpack", "serverpack", "serverpacks"]
+[serverpack]
+aliases = ["serverpacks"]
 title = "📜 Bloom Docs - Installing a modpack on your server"
 description = "Check out our comprehensive guide on installing Modpacks to your server [here](https://docs.bloom.host/modpacks/)."
 thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png"
-
-[modpacklist]
-aliases = ["modpackslist"]
-title = "📜 List of available modpacks on Bloom's One-Click Modpack Installer"
-description = """
-Check out the list of available modpacks on Bloom's One-Click Modpack Installer [here](https://bloom.host/modpacks/).
-
-You can also request a modpack to be added by making a suggestion at #bot-commands by using !suggest (Suggestion goes here).
-
-Make sure that you include a link to your modpack and that it it's a Forge pack with a serverpack version under the 'Files' tab of CurseForge.
-"""
-thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png"
-image = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/modpacklist.png"
 
 [forge]
 title = "📜 Bloom Docs - Forge"
