@@ -57,7 +57,7 @@ footer = "Suggest a software to be added: !suggest <link/name>"
 [unsupported.custom-data]
 line-format = "- %egg%\n"
 
-[modpack]
+[modpacks]
 aliases = ["modpacks", "modpacklist"]
 enabled = false
 title = "List of Modpacks"
@@ -842,7 +842,7 @@ b = ["Read Contribrution Docs", "https://docs.bloom.host/extras/contributing#edi
 
 # Sent when a ticket is opened outside of regular support hours
 # Placeholders: %from%, %to%, %fromraw%, %toraw%, %time%
-[time-warn]
+[initial-time-warn]
 enabled = false
 colour = "#ffdc5d"
 title = ":warning: Outside standard support hours"
@@ -855,6 +855,14 @@ Though we are often available outside of these hours, responses may be delayed u
 
 Please consider using <#737803938430189678> for non-technical issues.
 """
+[initial-time-warn.buttons]
+1 = ["Use #support-chat", "https://discord.com/channels/720081782980083813/737803938430189678"]
+
+# Sent when someone sends a message outside of support hours
+# Same placeholders as the initial ones
+[time-warn]
+text = "Hey! 👋 — We are currently outside of support hours. Please consider using <#737803938430189678> for non-technical issues."
+text-only = true
 [time-warn.buttons]
 1 = ["Use #support-chat", "https://discord.com/channels/720081782980083813/737803938430189678"]
 
