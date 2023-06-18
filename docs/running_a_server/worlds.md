@@ -55,3 +55,20 @@ Alternatively, if you'd like to use a plugin or mod such as [Multiverse-Core](..
 In our example, for Multiverse-Core, you'd do `/mvimport my-world NORMAL`
 
 That's it! Make sure to restart your server to apply the changes.
+
+---
+
+## From Java Realms
+If you have a Minecraft Realm on Java Edition, this is what you need to do:
+
+Open the Realm menu, select your Realm and press 'Configure':
+<div class="text--center"><img src={require('../../static/imgs/running_a_server/worlds/9.png').default} alt="img"/></div>
+
+Switch to the world you'd like to import to your Bloom server by clicking it, if you haven't already.
+There press the 'World backups' button:
+<div class="text--center"><img src={require('../../static/imgs/running_a_server/worlds/10.png').default} alt="img"/></div>
+
+Lastly, press the 'Download latest' button which will download the very latest backup of your Realm to your single player saves folder: 
+<div class="text--center"><img src={require('../../static/imgs/running_a_server/worlds/11.png').default} alt="img"/></div>
+
+That's it! Now you can follow the ['From Java Edition Single Player'](#from-java-edition-single-player) chapter to import your Realm world!
