@@ -57,7 +57,7 @@ Split servers don't have a 25565 port and if you want to join to them directly y
 :::note
 SRV records are only supported on Java clients, Bedrock clients will be unable to resolve this record.
 
-If you wish to have multiple servers with clean domains on a network, [it's recommended to setup a network proxy](../running_a_server//velocity.md).
+If you wish to have multiple servers with clean domains on a network, [it's recommended to setup a network proxy](../running_a_server/velocity.md).
 :::
 
 :::warning
