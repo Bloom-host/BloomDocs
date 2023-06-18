@@ -73,14 +73,48 @@ Lastly, press the 'Download latest' button which will download the very latest b
 
 That's it! Now you can follow the ['From Java Edition Single Player'](#from-java-edition-single-player) chapter to import your Realm world!
 
+---
+
+## From Bedrock Edition Single Player
+If you have a single player world in Bedrock Edition, this is what you need to do:  
+
+Open the worlds list and press the edit button next to your desired world:
+<div class="text--center"><img src={require('../../static/imgs/running_a_server/worlds/12.png').default} alt="img"/></div>
+
+Scroll down to the very bottom of the main page and press 'Export World':
+<div class="text--center"><img src={require('../../static/imgs/running_a_server/worlds/13.png').default} alt="img"/></div>
+
+Select your desktop, or another easy to access location:
+<div class="text--center"><img src={require('../../static/imgs/running_a_server/worlds/14.png').default} alt="img"/></div>
+
+Next, follow [our guide on connecting to your server with an SFTP client](../using_the_panel/sftp.md). In most cases, your world files will be fairly large, so it's best to use a dedicated file transfer protocol, instead of the built-in web file manager.
+Once connected via SFTP, open the `worlds` directory and create a new folder, such as `my-world` and open it.
+<div class="text--center"><img src={require('../../static/imgs/running_a_server/worlds/15.png').default} alt="img"/></div>
+
+Drag & drop the world file you exported previously and wait until it finishes uploading.
+Once it does, rename it, so instead of ending in `.mcworld`, it ends in `.zip`. The rest of the name does not matter.
+<div class="text--center"><img src={require('../../static/imgs/running_a_server/worlds/16.gif').default} alt="img"/></div>
+
+Once that's done, head over to the 'File Manager' tab of the panel and locate and your folder in the `worlds` directory.
+Then, press the '...' button next to your ZIP and click 'Unarchive'. This may also take a few minutes depending on the size of your server.
+<div class="text--center"><img src={require('../../static/imgs/running_a_server/worlds/17.png').default} alt="img"/></div>
+
+After unzipping, here is how it should generally look.
+<div class="text--center"><img src={require('../../static/imgs/running_a_server/worlds/18.png').default} alt="img"/></div>
+
+Lastly, open the `server.properties` file in the main directory of your server and ensure the `level-name=` setting matches with the folder that you created before:
+<div class="text--center"><img src={require('../../static/imgs/running_a_server/worlds/8.png').default} alt="img"/></div>
+
+That's it! Make sure to restart your server to apply the changes.
+
+---
+
 # Resetting Worlds
 You can find our full guide on resetting your world [here](world-reset.md)!
 
 <!--
 // Todo:
 ---
-
-## From Bedrock Edition Single Player
 
 # Exporting Worlds 
 
