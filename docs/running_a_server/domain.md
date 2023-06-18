@@ -54,6 +54,12 @@ Click Save. This process will now take up to 48 hours to apply, but in most case
 
 Split servers don't have a 25565 port and if you want to join to them directly you will need to use something similar to this: `survival.example.com:25566`. We can get around this by using a **DNS SRV record** that points to the split server port.
 
+:::note
+SRV records are only supported on Java clients, Bedrock clients will be unable to resolve this record.
+
+If you wish to have multiple servers with clean domains on a network, [it's recommended to setup a network proxy](../running_a_server/velocity.md).
+:::
+
 :::warning
 For the following steps we assume you already have created an A record pointing to your server IP. If you haven't done so, please follow the steps above to create another A record before you create the SRV Record.
 :::
