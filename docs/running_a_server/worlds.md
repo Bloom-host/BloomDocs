@@ -72,3 +72,20 @@ Lastly, press the 'Download latest' button which will download the very latest b
 <div class="text--center"><img src={require('../../static/imgs/running_a_server/worlds/11.png').default} alt="img"/></div>
 
 That's it! Now you can follow the ['From Java Edition Single Player'](#from-java-edition-single-player) chapter to import your Realm world!
+
+# Resetting Worlds
+You can find our full guide on resetting your world [here](world-reset.md)!
+
+<!--
+// Todo:
+---
+
+## From Bedrock Edition Single Player
+
+# Exporting Worlds 
+
+## To Java Single Player
+
+## To Bedrock Single Player (`.mcworld`)
+
+-->
