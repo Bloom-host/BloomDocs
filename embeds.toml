@@ -1232,3 +1232,15 @@ Suggestions
 • [MC Market(Minecraft)](https://www.mc-market.org/threads/612586/)
 • [Admincraft Marketplace](https://www.reddit.com/r/admincraft/comments/mi0bjj/admincraft_marketplace_q2_2021/gt30cgl/)
 """, "false"]
+
+[codes]
+aliases = ["promo", "coupon"]
+title = "💳 Promo Codes"
+colour = "#feab33"
+description = """
+### Here are the current active promo codes:
+- `TRAILS&TALES`: 15% off the first Minecraft or VPS plan (expires <t:1690840800:R>)
+- `PERFPLUSME`: 20% off your first Performance Plus plan
+"""
+[codes.buttons]
+1 = ["Create Your Server Now", "https://bloom.host/", "🎉"]
