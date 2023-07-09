@@ -809,7 +809,7 @@ footer-icon = "%guildicon%"
 2 = ["Reason from %staffname%", "%reason%", "false"]
 
 # Sent whenever someone joins
-# Placeholders: %username%, %usertag%, %usermention%, %membercount%
+# Placeholders: %username%, %usermention%, %membercount%
 [join]
 enabled = false
 description = "**<:blobwave:736379131696119860> Welcome, %username%!**"
@@ -886,7 +886,7 @@ title = "Attempting to add users..."
 title-icon = "%guildicon%"
 
 # Sent when a ticket message is translated
-# Placeholders: %oldtext%, %newtext%, %username%, %usertag%, %usermention%, %userid%, %from%, %fromflag%, %to%, %toflag%
+# Placeholders: %oldtext%, %newtext%, %username%, %usermention%, %userid%, %from%, %fromflag%, %to%, %toflag%
 [translate-command]
 enabled = false
 text = "<:translate:989542523464716349> **%username%**: %newtext%"
