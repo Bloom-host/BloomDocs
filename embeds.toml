@@ -571,7 +571,7 @@ description = "Check out our comprehensive guide on how to create billing subuse
 1 = ["Open Docs", "https://docs.bloom.host/billing/billing_subusers", "❔"]
 
 [cancellation]
-aliases = ["cancellations"]
+aliases = ["cancellations", "cancel"]
 title = "📜 Bloom Docs - Cancellations"
 description = "Check out our comprehensive guide on how to request a service cancellation [here](https://docs.bloom.host/billing/cancellations)."
 [cancellations.buttons]
