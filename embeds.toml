@@ -471,7 +471,7 @@ thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/stati
 image = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/billing/email_change/2.png"
 
 [subusers]
-aliases = ["users", "sb"]
+aliases = ["users", "sb", "subuser"]
 title = "📜 Bloom Docs - Subusers"
 description = "Check out our comprehensive guide on subusers [here](https://docs.bloom.host/users)."
 thumbnail = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png"
