@@ -28,6 +28,6 @@ For easier navigation, you can use the 'search' function! Simply click the butto
 
 ## Lost?
 
-If you can't seem to find answers for your questions, be sure to get in touch!
+If you can't find answers to your questions, be sure to get in touch!
 
-The fastest way is to join our [Discord server](https://discord.gg/bloom) and ask in `#support-chat`!
+The fastest way is to join our [Discord server](https://discord.gg/bloom) and ask in `#community-support`!
