@@ -1114,6 +1114,35 @@ stats-embed:
         ```
       inline: false
 
+# Sent when a panel link is found when a ticket is opened
+# Placeholders: %id%, %email%, %servers%
+# Custom data owner-emoji, regular-emoji, subuser-prefix, regular-prefix, line-format (%prefix%, %emoji%, %name%, %shortUuid%, %externalParentId%)
+panel-link:
+  enabled: false
+  title: '🔗 Panel Account Found'
+  colour: '#FFFFF1'
+  footer: 'Tickets - Bloom.host'
+  image: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/line.png'
+  fields:
+    - title: 'Servers'
+      description: '%servers%'
+      inline: true
+    - title: 'User Info'
+      description: |+
+        - ID: [%id%](https://mc.bloom.host/admin/users/view/%id%)
+        - Email: [%email%](https://billing.bloom.host/admin/clients.php?email=%email%)
+      inline: true
+  buttons:
+    - [ 'Unlink Account', 'https://mc.bloom.host/account', '<:unlink:1135289952838615161>' ]
+  custom-data:
+    line-format: >
+      %prefix% %emoji% %name% ([%shortUuid%](https://mc.bloom.host/%shortUuid%))
+      [[Billing](https://billing.bloom.host/redirect.php?id=%externalParentId%)]
+    owner-emoji: '💰'
+    regular-emoji: '🔓'
+    subserver-prefix: '  -'
+    regular-prefix: '-'
+
 # Sent when a suggestion is created or edited
 # Placeholders: %suggestion%, %username%, %date%, %suggestionid%
 suggestion-embed:
@@ -1197,6 +1226,7 @@ tickets-default:
     Thank you %username% for opening a ticket! We will be with you as
     soon as possible. For us to better assist you, please provide your server ID
     and a description of your issue.
+  image: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/line.png'
   footer: 'Tickets - Bloom.host'
 
 tickets-general:
@@ -1209,7 +1239,8 @@ tickets-general:
     description of your issue.
 
     For billing inquiries such as upgrades, downgrades, or refunds, please open a ticket on our billing panel: https://billing.bloom.host/submitticket.php
-  footer: Tickets - Bloom.host
+  footer: 'Tickets - Bloom.host'
+  image: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/line.png'
   buttons:
     - [ 'Open Billing Ticket', 'https://billing.bloom.host/submitticket.php', '💰' ]
 
