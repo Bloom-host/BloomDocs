@@ -948,6 +948,27 @@ description = """
 [ticket-notes.custom-data]
 note-format = "`#%id%` <@%addedby%>: %content%\n"
 
+[panel-link]
+enabled = false
+title = "🔗 Panel Account Found"
+colour = "#FFFFF1"
+footer = "Tickets - Bloom.host"
+image = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/line.png"
+[panel-link.fields]
+1 = ["Servers", "%servers%", "true"]
+2 = ["User Info", """
+- ID: [%id%](https://mc.bloom.host/admin/users/view/%id%)
+- Email: [%email%](https://billing.bloom.host/admin/clients.php?email=%email%)
+""", "true"]
+[panel-link.buttons]
+1 = ["Unlink Account", "https://mc.bloom.host/account", "<:unlink:1135289952838615161>"]
+[panel-link.custom-data]
+line-format = "%prefix% %emoji% %name% ([%shortUuid%](https://mc.bloom.host/%shortUuid%)) [[Billing](https://billing.bloom.host/redirect.php?id=%externalParentId%)]\n"
+owner-emoji = "💰"
+regular-emoji = "🔓"
+subserver-prefix = "  -"
+regular-prefix = "-"
+
 [ticket-panel]
 enabled = false
 title = "🦆 Click the button to open a ticket"
@@ -978,6 +999,7 @@ Thank you, %username% for opening a ticket! We will be with you as soon as possi
 For billing inquiries such as upgrades, downgrades, or refunds, please open a ticket on our billing panel: https://billing.bloom.host/submitticket.php
 """
 footer = "Tickets - Bloom.host"
+image = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/line.png"
 [tickets-general.buttons]
 2 = ["Open Billing Ticket", "https://billing.bloom.host/submitticket.php", "💰"]
 
