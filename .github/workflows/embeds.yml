@@ -1,0 +1,46 @@
+name: 'YAML Checker'
+on:
+  pull_request:
+    types: [ 'opened', 'reopened', 'synchronize' ]
+    pull_request_target:
+      types: [ 'opened', 'reopened', 'synchronize' ]
+      draft: false
+
+jobs:
+  check_code:
+    runs-on: 'ubuntu-latest'
+    steps:
+      - name: 'Clone Repository'
+        uses: 'actions/checkout@v2'
+
+      - name: 'Install Java'
+        uses: 'actions/setup-java@v2.3.1'
+        with:
+          distribution: 'adopt'
+          java-version: '17'
+          check-latest: false
+
+      - name: 'Verify embeds.yml'
+        id: 'verify'
+        run: |
+          EOF=$(dd if=/dev/urandom bs=15 count=1 status=none | base64)
+          echo "results<<$EOF" >> $GITHUB_ENV
+          java -jar .github/workflows/embeds.jar embeds.yml >> $GITHUB_ENV
+          echo "$EOF" >> $GITHUB_ENV
+
+      - name: 'Find Comment'
+        uses: 'peter-evans/find-comment@v2'
+        id: 'fc'
+        with:
+          issue-number: ${{ github.event.pull_request.number }}
+          comment-author: 'github-actions[bot]'
+          body-includes: 'YAML Checker'
+
+      - name: 'Create Review'
+        uses: 'peter-evans/create-or-update-comment@v3'
+        with:
+          edit-mode: 'replace'
+          comment-id: ${{ steps.fc.outputs.comment-id }}
+          issue-number: ${{ github.event.pull_request.number }}
+          body: |
+            ${{ env.results }}
