@@ -19,6 +19,8 @@ image: https://bloom.host/assets/images/logo.png
 
 - You can create manual and even automatic backups and later restore, download, mount or delete them.
 
+- [MySQL databases](databases.md) are even backed up too, as long as they are under 1GB in size.
+
 You can you can generate up to 3 backups within a 24 hour period.
 
 **Essentials** plans can store a maximum of **3** backups.
