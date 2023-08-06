@@ -54,13 +54,79 @@ There is a [Markdown template](https://raw.githubusercontent.com/Bloom-host/Bloo
 You can also see [a formatted version of the template](https://docs.bloom.host/extras/template/) to see what the formatted elements will look like when imported into the documentation website. 
 
 ---
-## BloomBot embeds 
+## BloomBot Embeds 
 
-You can also contribute to the embeds used by BloomBot in the Discord where a command is used and it can provide troubleshooting information or quick information to users such as those who are requesting support. 
+You can also contribute to the embeds used by BloomBot in the Discord where a command is used, and it can provide troubleshooting information or quick information to users such as those who are requesting support. 
 
-You can edit [`embeds.toml`](/embeds.toml) and this can be contributed along with documentation changes and can be contributed in the same PR.
+You can edit [`embeds.yml`](/embeds.yml) and this can be contributed along with documentation changes and can be contributed in the same PR.
 
-If you are attempting to add something to add something to these, please see the [formatting guide](https://gist.github.com/NotGeri/cb11552ab7a12e20ab495a20826c341f) on how to add embeds (there is a specific format the embed must follow.)
+Here is the format of the embeds:
+![img](https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/embed-help.png)
+
+```yml
+embed_name:
+  # A list of aliases that can be used to call the command
+  # You can also do the short format: aliases: ['embed_name_alias', 'another_alias']
+  aliases:
+    - 'embed_name_alias'
+    - 'another_alias' 
+  # The text of the message
+  text: 'Suspendisse vitae sem imperdiet suspicit magna sed'
+  # The title of the embed
+  title: 'Vestibulum luctus fermentum nisl'
+  # The icon next to the title
+  title-icon: '%guildicon%'
+  # The thumbnail of the embed
+  thumbnail: '%guildicon%'
+  # The description of the embed. |+ keeps new lines, so I recommend using this
+  description: |+
+    Lorem [ipsum dolor](https://example.tld) `consectetur adpicing elit`. **Morbi id lorem turpis fascillisis**
+    veneantis eget dapibus est. _Prasent sed_ est et ~~lectus secleisque~~ lacina.
+    
+    ```yaml
+    natoque: "Vivamus dapibus ex id"
+    tortor:
+    - porta
+    - gravida
+    ```
+  # A list of fields. Each can have a title, a description and whether they are inline
+  fields:
+    - title: 'Etiam magna nulla, sollicitudin necleo at'
+      description: |+
+        Etiam maximus augue at velit cornmcxio, eu suscipit
+        nisl consequat. Aliquam sollicitudin metus quis justo
+        aliquet, eu convallis sem porta. Praesent leo
+        nunc, id sodales rugna placerat sed. Mauris
+        dignissim pretium cma.
+      inline: false
+    - title: ''
+      description: ''
+      inline: false
+    - title: 'Mauris dignissim pretium porta.'
+      description: 'Etiam magna nulla, sollicitudn nec leo at.'
+      inline: true
+    - title: 'Etiam maximum augue'
+      description: 'In hac habitssa platea'
+      inline: true
+    - title: 'Nulla molestie sapien sit'
+      description: 'Prasend sed est et'
+      inline: true
+  # The image of the embed
+  image: 'https://bloom.host/favicon/favicon-og.png'
+  # The footer of the embed
+  footer: 'Phasellus effictur dictum sem egel pretium'
+  # A list of buttons. [ <display name>, <link>, <emoji>, <order> ] 
+  buttons:
+    - ['Label', 'https://example.tld', '1️⃣' ] 
+    - ['Label', 'https://example.tld', '2️⃣' ] 
+    - ['Label', 'https://example.tld', '3️⃣' ] 
+```
+
+Users with the `@Gardener` role can use the `!et` (embed test) command with YAML code to quickly test commands.
+
+You can use these global placeholders anywhere: `%useravatar%`, `%guildicon%`
+
+If you have any questions or concerns, please ask in our Discord!
 
 Please note that changes are not instant and may take up to 24 hours to apply.
 
