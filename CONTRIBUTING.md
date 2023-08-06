@@ -78,7 +78,7 @@ embed_name:
   title-icon: '%guildicon%'
   # The thumbnail of the embed
   thumbnail: '%guildicon%'
-  # The description of the embed. |+ keeps new lines, so I recommend using this
+  # The description of the embed. |+ keeps new lines, > does not
   description: |+
     Lorem [ipsum dolor](https://example.tld) `consectetur adpicing elit`. **Morbi id lorem turpis fascillisis**
     veneantis eget dapibus est. _Prasent sed_ est et ~~lectus secleisque~~ lacina.

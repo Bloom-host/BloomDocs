@@ -1,14 +1,5 @@
-# Todo (notgeri): Create some proper notes on contributing here:
-# - use |+ to keep lines
-# - document global placeholders
-# - use 'absolute' emojis and channels
-# we should add more button, use the new markdown, etc
-# https://i.geri.dev/4aXkGhfptgV6.png ➜ https://i.geri.dev/rU064duSpVtR.png
-# Ensure the command isn't defined as an alias
-# go through add all the missing available placeholders
-# removed:
-#  - update119
-#  - embedtest
+# This is the source file of BloomBot's embeds
+# For more information, please see CONTRIBUTING.md
 
 help:
   title: 'BloomBot Help'
@@ -114,7 +105,7 @@ updating:
 
 pingissues:
   title: ':warning: Bloom Docs - How to diagnose and fix ping issues'
-  description: |+
+  description: >
     Check out our comprehensive guide on how to diagnose and fix ping
     issues [here](https://docs.bloom.host/extras/ping-issues/).
   thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png'
@@ -122,7 +113,7 @@ pingissues:
 
 bungeeguard:
   title: ':warning: Bloom Docs - BungeeGuard'
-  description: |+
+  description: >
     Check out our comprehensive guide on BungeeGuard
     [here](https://docs.bloom.host/waterfall/#setting-up-bungeeguard).
   thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png'
@@ -131,12 +122,12 @@ bungeeguard:
 paper:
   aliases: [ 'papermc' ]
   title: PaperMC
-  description: |+
+  description: >
     PaperMC is a fork of Spigot that aims to improve server performance,
     security, and gameplay consistency. It's generally the most popular and
     recommended fork among the MC community, meeting the needs of most MC
     servers out there.
-
+    
     PaperMC is compatible with every plugin that works on Spigot (except outdated ones, you shouldn't be using these either way), and even improves performance on some optimized plugins meant to work better on Paper.
   thumbnail: 'https://avatars.githubusercontent.com/u/7608950'
   fields:
@@ -154,12 +145,12 @@ aikar:
     - 'aikars'
     - 'ram'
   title: '<:ram:850401810018598982> Aikar''s Flags'
-  description: |+
+  description: >
     At Bloom, we utilize Aikar's flags by default, which pre-allocates all of
     the server's available memory for better performance. You can see you
     server's actual memory usage by running the `/memory` or `/tps mem` command
     in your console.
-
+    
     🔗 Wish to know more? Check out [this post](https://docs.papermc.io/paper/aikars-flags/)!
   thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png'
   image: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/gNzJPp.png'
@@ -167,12 +158,12 @@ aikar:
 contribute:
   aliases: [ 'contribute-docs' ]
   title: 'Contribute to our Documentation!'
-  description: |+
+  description: >
     Most of our documentation have been written by our community. You can
     contribute too! Fork the documentation repository or write an article in PDF
     or on a Word document and send it to us through a support ticket and we will
     add it.
-
+    
     🔗 Wish to know more? Check out [How to contribute to our documentation](https://docs.bloom.host/extras/contributing)!
   thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png'
   image: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/documentation.png'
@@ -191,13 +182,13 @@ fbiinfo:
   title: '🚫 Piracy Is Bad'
   colour: '#dd2e44'
   thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/85dAco.png'
-  description: |+
+  description: >
     In case you are doing any of the following, you will  __not recieve
     any support__ from Bloom community, staff members, most plugin developers
     and server/proxy software staff.
   fields:
     - title: '<:warn:849551085873135657> Cracked Servers'
-      description: |+
+      description: >
         Using offline-mode on servers bypasses Mojang's authentication system
         entirely meaning there are __countless security exploits__ people can
         use. This feature is meant to be used for developers and proxies. (In
@@ -205,7 +196,7 @@ fbiinfo:
         your configuration - See `!security`)
       inline: false
     - title: '🏴‍☠ Pirated Software'
-      description: |+
+      description: >
         Using any kind of software obtained from unofficial sites such as
         BlackSpigot has a high chance of containing viruses, force-op and more.
         If you wish to use Premium software, pay for it.
@@ -217,7 +208,7 @@ winmtr:
     - 'network'
     - 'mtr'
   title: 'Diagnosing Connection Issues'
-  description: |+
+  description: >
     *MTR probes routers on the route path by limiting the number of
     hops individual packets may traverse, and listening to responses of their
     expiry.*
@@ -227,17 +218,12 @@ winmtr:
   fields:
     - title: '<:windows:849551086158741524> Windows'
       description: |+
-        You can use a software such as
-        [WinMTR](https://sourceforge.net/projects/winmtr/).
-
+        You can use a software such as [WinMTR](https://sourceforge.net/projects/winmtr/).
+        
         **1**. Click the link and download the application
-
         **2**. Extract the downloaded archive and open the folder.
-
         **3**. Start the `WinMTR.exe` file and enter your server's IP address in the 'host' field.
-
         **4**. Click start and let it run for at least a minute.
-
         **5**. Take a screenshot of the results so we can analyze your route.
       inline: false
     - title: '<:apple:849551086028849152> <:linux:955230938084818964> Other Operating Systems'
@@ -252,7 +238,7 @@ grafana:
     - 'prometheus'
     - 'metrics'
   title: '<:grafana:870895629507903499> Grafana'
-  description: |+
+  description: >
     Setup Grafana, Prometheus, and UnifiedMetrics so you can have more
     stats about your minecraft server, which couldn't be done without our lovely
     server splitter :) 
@@ -305,9 +291,7 @@ rate:
     - title: 'Links'
       description: |+
         • [Trustpilot](https://www.trustpilot.com/review/bloom.host)
-
         • [MC Market (Minecraft)](https://www.mc-market.org/threads/612586/)
-
         • [Admincraft Marketplace](https://www.reddit.com/r/admincraft/comments/shvm6f/admincraft_monthly_marketplace/hv4tx5h/)
       inline: false
 
@@ -345,9 +329,10 @@ velocity:
   aliases: [ 'velo' ]
   title: 'Velocity'
   description: |+
-    Velocity is a next-generation Minecraft proxy focused on scalability and
-    flexibility created by the initial developer of Waterfall and RedisBungee.
+    Velocity is a next-generation Minecraft proxy focused on scalability and flexibility created by the initial developer of Waterfall and RedisBungee.
+    
     Velocity uses less CPU and RAM, leaving more resources for your server.
+    
     Velocity also features modern forwarding, leaving your back-end servers safe.
 
     Check out our comprehensive guide on Velocity [here](https://docs.bloom.host/velocity).
@@ -444,7 +429,7 @@ panelissues:
 # Todo: this is really generic
 waterfall:
   title: '📜 Bloom Docs - Setting up a Waterfall Proxy Server'
-  description: |+
+  description: >
     Check out our comprehensive guide on Setting up a Waterfall Proxy
     Server' details [here](https://docs.bloom.host/waterfall).
   thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png'
@@ -453,7 +438,7 @@ waterfall:
 binarysearch:
   aliases: [ 'binary' ]
   title: '📜 Bloom Docs - Binary Search'
-  description: |+
+  description: >
     Check out our comprehensive guide on how to do a binary search
     [here](https://docs.bloom.host/binarysearch).
   thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png'
@@ -466,7 +451,7 @@ importserver:
     - 'serverimport'
     - 'servertransfer'
   title: '📜 Bloom Docs - Server Importer'
-  description: |+
+  description: >
     Check out our comprehensive guide on our Server Importer feature -
     An easy way to import your server files from your old host. Details
     [here](https://docs.bloom.host/server-importer).
@@ -491,7 +476,7 @@ panel:
     - 'basiccontrols'
     - 'bc'
   title: '📜 Bloom Docs - Duck Panel'
-  description: |+
+  description: >
     Check out our showcase of the Duckpanel
     [here](https://Bloom.host/duck-panel) and our in-depth documentation of it
     [here](https://docs.bloom.host/basic-controls/).
@@ -506,11 +491,7 @@ upgrade:
     - 'transfers'
   title: '📜 Plan upgrades, downgrades and location changes can now be done through the billing panel'
   description: |+
-    To request a plan upgrade, downgrade or a change of location go to the
-    Products section of our billing panel
-    [here](https://billing.bloom.host/clientarea.php?action=services), sign in
-    with your Billing Account, click the three dots to the right side of the
-    Product you want to upgrade, then select the Upgrade/Downgrade button.
+    To request a plan upgrade, downgrade or a change of location go to the Products section of our billing panel [here](https://billing.bloom.host/clientarea.php?action=services), sign in with your Billing Account, click the three dots to the right side of the Product you want to upgrade, then select the Upgrade/Downgrade button.
 
     On the upgrade page you will be able to select to what location and plan you want to upgrade/downgrade to, here you can also switch between datacenter locations. Once you select the plan it will generate an invoice (if needed) which needs to be paid before the upgrade and transfer process begins.
 
@@ -536,7 +517,7 @@ documentation:
 schedules:
   aliases: [ 'schedule' ]
   title: '📜 Bloom Docs - Schedules'
-  description: |+
+  description: >
     Check out our comprehensive guide on scheduling actions using the
     Duckpanel [here](https://docs.bloom.host/schedules).
   thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png'
@@ -545,7 +526,7 @@ schedules:
 sftp:
   aliases: [ 'ftp' ]
   title: '📜 Bloom Docs - SFTP'
-  description: |+
+  description: >
     Check out our comprehensive guide on using file transfer protocol
     applications [here](https://docs.bloom.host/sftp).
   thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png'
@@ -558,7 +539,7 @@ emailchange:
     - 'emailaddress'
     - 'changemailaddress'
   title: '📜 Bloom Docs - How to change your email address'
-  description: |+
+  description: >
     Check out our comprehensive guide that shows you how to change your
     email address [here](https://docs.bloom.host/billing/email_change).
   thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png'
@@ -570,7 +551,7 @@ subusers:
     - 'sb'
     - 'subuser'
   title: '📜 Bloom Docs - Subusers'
-  description: |+
+  description: >
     Check out our comprehensive guide on subusers
     [here](https://docs.bloom.host/users).
   thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png'
@@ -581,7 +562,7 @@ database:
     - 'databases'
     - 'mysql'
   title: '📜 Bloom Docs - MySQL'
-  description: |+
+  description: >
     Check out our comprehensive guide on MySQL databases
     [here](https://docs.bloom.host/databases/).
   thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png'
@@ -592,7 +573,7 @@ revproxy:
     - 'reverseproxy'
     - 'rp'
   title: '📜 Bloom Docs - Reverse-Proxy'
-  description: |+
+  description: >
     Check out our comprehensive guide on reverse-proxying web
     applications [here](https://docs.bloom.host/ports-and-proxies/).
   thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png'
@@ -603,7 +584,7 @@ split:
     - 'splitserver'
     - 'serversplit'
   title: '📜 Bloom Docs - Split Servers'
-  description: |+
+  description: >
     Check out our comprehensive guide on server splitting
     [here](https://docs.bloom.host/split-server/).
   thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png'
@@ -615,7 +596,7 @@ filemanager:
     - 'file'
     - 'manager'
   title: '📜 Bloom Docs - File Manager'
-  description: |+
+  description: >
     Check out our comprehensive guide on our built-in file manager
     [here](https://docs.bloom.host/file-manager-controls/).
   thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png'
@@ -624,7 +605,7 @@ filemanager:
 backup:
   aliases: [ 'backups' ]
   title: '📜 Bloom Docs - Backups'
-  description: |+
+  description: >
     Check out our comprehensive guide on automatic and manual backups
     [here](https://docs.bloom.host/backups/).
   thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png'
@@ -632,14 +613,14 @@ backup:
 
 vnc:
   title: '📜 Bloom Docs - VNC'
-  description: |+
+  description: >
     Check out our comprehensive guide on how to connect via VNC
     [here](https://docs.bloom.host/VPS/vnc/).
   thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png'
 
 2fa:
   title: '📜 Bloom Docs - 2-Factor Authentication'
-  description: |+
+  description: >
     Check out our comprehensive guide on how to protect your accounts
     with 2FA [here](https://docs.bloom.host/2fa/).
   thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png'
@@ -647,7 +628,7 @@ vnc:
 
 status:
   title: '🌐 Bloom.Host Network Status'
-  description: |+
+  description: >
     Check out our nodes status and uptime
     [here](https://status.bloom.host)! We also publish node status on
     <#742044812177309728>
@@ -658,7 +639,7 @@ jars:
     - 'serverjars'
     - 'whichjar'
   title: '📜 Bloom Docs - Server Jars'
-  description: |+
+  description: >
     Check out our comprehensive guide on picking the right server
     software [here](https://docs.bloom.host/jars/).
   thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png'
@@ -669,7 +650,7 @@ clumsyloader:
     - 'bloomloader'
     - 'loader'
   title: '📜 Bloom Docs - ClumsyLoader'
-  description: |+
+  description: >
     Check out our comprehensive guide on using ClumsyLoader
     [here](https://docs.bloom.host/extras/clumsyloader)! ClumsyLoader provides
     an alternative way to download your server backups to your VPS or computer.
@@ -678,7 +659,7 @@ clumsyloader:
 
 stripe:
   title: '📜 Bloom Docs - Stripe Subscriptions'
-  description: |+
+  description: >
     Check out our comprehensive guide on how to configure a Stripe
     Subscription or how to cancel automatic payments
     [here](https://docs.bloom.host/billing/stripe).
@@ -687,7 +668,7 @@ stripe:
 
 paypal:
   title: '📜 Bloom Docs - PayPal Subscriptions'
-  description: |+
+  description: >
     Check out our comprehensive guide on how to configure a PayPal
     Subscription or how to cancel automatic payments
     [here](https://docs.bloom.host/billing/paypal).
@@ -700,7 +681,7 @@ suspensions:
     - 'termination'
     - 'terminations'
   title: '📜 Bloom Docs - Suspensions and Terminations'
-  description: |+
+  description: >
     Check out our comprehensive guide on how Suspensions and
     Terminations work at Bloom
     [here](https://docs.bloom.host/billing/suspensions_and_terminations).
@@ -710,7 +691,7 @@ suspensions:
 billingsubusers:
   aliases: [ 'billingsubuser' ]
   title: '📜 Bloom Docs - Billing Subusers'
-  description: |+
+  description: >
     Check out our comprehensive guide on how to create billing subusers
     [here](https://docs.bloom.host/billing/billing_subusers).
   buttons:
@@ -721,17 +702,16 @@ cancellation:
     - 'cancellations'
     - 'cancel'
   title: '📜 Bloom Docs - Cancellations'
-  description: |+
+  description: >
     Check out our comprehensive guide on how to request a service
     cancellation [here](https://docs.bloom.host/billing/cancellations).
-cancellations:
   buttons:
     - [ 'Open Docs', 'https://docs.bloom.host/billing/cancellations', '❔' ]
 
 refunds:
   aliases: [ 'refund' ]
   title: '📜 Bloom Docs - How to request a refund'
-  description: |+
+  description: >
     Check out our comprehensive guide on how to request a refund
     [here](https://docs.bloom.host/billing/refunds).
   buttons:
@@ -739,7 +719,7 @@ refunds:
 
 fabric:
   title: '📜 Bloom Docs - Fabric'
-  description: |+
+  description: >
     Check out our comprehensive guide on installing Fabric to your
     server [here](https://docs.bloom.host/fabric-setup/).
   thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png'
@@ -748,14 +728,14 @@ fabric:
 serverpack:
   aliases: [ 'serverpacks' ]
   title: '📜 Bloom Docs - Installing a modpack on your server'
-  description: |+
+  description: >
     Check out our comprehensive guide on installing Modpacks to your
     server [here](https://docs.bloom.host/modpacks/).
   thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png'
 
 forge:
   title: '📜 Bloom Docs - Forge'
-  description: |+
+  description: >
     Check out our comprehensive guide on installing Forge to your
     server [here](https://docs.bloom.host/forge-setup/).
   thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png'
@@ -768,7 +748,7 @@ plugins:
     - 'bukkitplugins'
     - 'paperplugins'
   title: '📜 Bloom Docs - Spigot Plugins'
-  description: |+
+  description: >
     Check out our comprehensive guide on installing Spigot Plugins
     [here](https://docs.bloom.host/installing-plugins/).
   thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png'
@@ -782,7 +762,7 @@ servermods:
     - 'forgemods'
     - 'forgemod'
   title: '📜 Bloom Docs - Server Mods'
-  description: |+
+  description: >
     Check out our comprehensive guide on installing Forge or Fabric
     mods [here](https://docs.bloom.host/mods-install/).
   thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png'
@@ -795,7 +775,7 @@ optimization:
     - 'optimisation'
     - 'optimise'
   title: '📜 Bloom Docs - Server Optimizations'
-  description: |+
+  description: >
     Check out our comprehensive guide on server optimizations
     [here](https://docs.bloom.host/optimization/).
   thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png'
@@ -804,7 +784,7 @@ optimization:
 domain:
   aliases: [ 'ip' ]
   title: '📜 Bloom Docs - Domain'
-  description: |+
+  description: >
     Check out our comprehensive guide on connecting your server with
     your domain [here](https://docs.bloom.host/domain/).
   thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png'
@@ -816,7 +796,7 @@ resourcepack:
     - 'serverpack'
     - 'serverresource'
   title: '📜 Bloom Docs - Server-Side Resourcepack'
-  description: |+
+  description: >
     Check out our comprehensive guide on installing a server-side
     resourcepack [here](https://docs.bloom.host/resourcepack/).
   thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png'
@@ -825,7 +805,7 @@ resourcepack:
 java:
   aliases: [ 'jvm' ]
   title: '📜 Bloom Docs - Java Version'
-  description: |+
+  description: >
     Check out our comprehensive guide on changing your server's Java
     version [here](https://docs.bloom.host/java-version/).
   thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png'
@@ -862,7 +842,7 @@ emergencyrestore:
 datapack:
   aliases: [ 'datapacks' ]
   title: '📜 Bloom Docs - Datapacks'
-  description: |+
+  description: >
     Check out our comprehensive guide on installing datapacks to your
     server [here](https://docs.bloom.host/datapacks/).
   thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png'
@@ -871,7 +851,7 @@ datapack:
 timings:
   aliases: [ 'timing' ]
   title: '📜 Bloom Docs - Timings'
-  description: |+
+  description: >
     Check out our comprehensive guide on creating a timings report to
     debug TPS issues on your server [here](https://docs.bloom.host/timings/).
   thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png'
@@ -879,7 +859,7 @@ timings:
 
 motd:
   title: '📜 Bloom Docs - MOTD'
-  description: |+
+  description: >
     Check out our comprehensive guide on how to change your server's
     message of the day [here](https://docs.bloom.host/motd/).
   thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png'
@@ -890,7 +870,7 @@ reset:
     - 'resetworld'
     - 'worldreset'
   title: '📜 Bloom Docs - World Reset'
-  description: |+
+  description: >
     Check out our comprehensive guide on how to reset your world
     [here](https://docs.bloom.host/world-reset/).
   thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png'
@@ -902,8 +882,7 @@ caddy:
     - 'caddyserver'
   title: '📜 Bloom Docs - Caddy Split Server'
   description: |+
-    Check out our comprehensive guide on how to split your server into a Caddy
-    Server [here](https://docs.bloom.host/other-servers/caddy-server)!
+    Check out our comprehensive guide on how to split your server into a Caddy Server [here](https://docs.bloom.host/other-servers/caddy-server)!
 
     As Caddy is an unsupported server split (which means you will not receive any support from staff), you can ask for community help in <#737803938430189678>!
   thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png'
@@ -921,7 +900,7 @@ ark:
 
 plan:
   title: '📜 Bloom Docs - Plan'
-  description: |+
+  description: >
     Check out our comprehensive guide on how to install Plan - Player
     Analytics [here](https://docs.bloom.host/multiplatform/plan/).
   thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png'
@@ -929,7 +908,7 @@ plan:
 icon:
   title: '📜 Bloom Docs - Server Favicon'
   aliases: [ 'favicon' ]
-  description: |+
+  description: >
     Check out our comprehensive guide on how to add a favicon to your
     server [here](https://docs.bloom.host/icon/).
   thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png'
