@@ -955,15 +955,15 @@ colour = "#FFFFF1"
 footer = "Tickets - Bloom.host"
 image = "https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/line.png"
 [panel-link.fields]
-1 = ["Servers", "%servers%", "true"]
-2 = ["User Info", """
+1 = ["User Info", """
 - ID: [%id%](https://mc.bloom.host/admin/users/view/%id%)
 - Email: [%email%](https://billing.bloom.host/admin/clients.php?email=%email%)
-""", "true"]
+""", "false"]
+2 = ["Servers", "%servers%", "false"]
 [panel-link.buttons]
 1 = ["Unlink Account", "https://mc.bloom.host/account", "<:unlink:1135289952838615161>"]
 [panel-link.custom-data]
-line-format = "%prefix% %emoji% %name% ([%shortUuid%](https://mc.bloom.host/%shortUuid%)) [[Billing](https://billing.bloom.host/redirect.php?id=%externalParentId%)]\n"
+line-format = "%prefix% %emoji% %name% ([%shortUuid%](https://mc.bloom.host/server/%shortUuid%)) [[Billing](https://billing.bloom.host/redirect.php?id=%externalParentId%)]\n"
 owner-emoji = "💰"
 regular-emoji = "🔓"
 subserver-prefix = "  -"
