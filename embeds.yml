@@ -1124,19 +1124,19 @@ panel-link:
   footer: 'Tickets - Bloom.host'
   image: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/line.png'
   fields:
-    - title: 'Servers'
-      description: '%servers%'
-      inline: true
     - title: 'User Info'
       description: |+
         - ID: [%id%](https://mc.bloom.host/admin/users/view/%id%)
         - Email: [%email%](https://billing.bloom.host/admin/clients.php?email=%email%)
-      inline: true
+      inline: false
+    - title: 'Servers'
+      description: '%servers%'
+      inline: false
   buttons:
     - [ 'Unlink Account', 'https://mc.bloom.host/account', '<:unlink:1135289952838615161>' ]
   custom-data:
     line-format: >
-      %prefix% %emoji% %name% ([%shortUuid%](https://mc.bloom.host/%shortUuid%))
+      %prefix% %emoji% %name% ([%shortUuid%](https://mc.bloom.host/server/%shortUuid%))
       [[Billing](https://billing.bloom.host/redirect.php?id=%externalParentId%)]
     owner-emoji: '💰'
     regular-emoji: '🔓'
