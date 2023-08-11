@@ -922,7 +922,7 @@ codes:
   colour: '#feab33'
   description: |+
     ### Here are the current active promo codes:
-    - `TRAILS&TALES`: 15% off the first Minecraft or VPS plan (expires <t:1690840800:R>)
+    - `TRAILS&TALES`: 15% off the first Minecraft or VPS plan (expires <t:1693458000:R>)
     - `PERFPLUSME`: 20% off your first Performance Plus plan
   buttons:
     - [ 'Create Your Server Now', 'https://bloom.host/', '🎉' ]
