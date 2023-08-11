@@ -943,14 +943,14 @@ error:
 # Placeholders: %errormessage%, %usage%
 error-usage:
   enabled: false
-  title: '<:ex:849551085793837067> Error: %errormessage%'
+  title: '<:cross:849551085793837067> Error: %errormessage%'
   description: 'Usage: `%usage%`'
   colour: '#dd2e44'
 
 # Sent when a main-server-only command is executed on the waitlist server
 server:
   enabled: false
-  title: '<:ex:849551085793837067> Error: this command can only be used on the main discord server!'
+  title: '<:cross:849551085793837067> Error: this command can only be used on the main discord server!'
   colour: '#dd2e46'
   buttons:
     - [ 'Join Server', 'https://discord.gg/bloom', '🔗' ]
@@ -959,7 +959,7 @@ server:
 # Placeholders: %successmessage%
 success:
   enabled: false
-  title: '<:greencheckmark:1107368128570216488> Success: %successmessage%'
+  title: '<:greencheckmark:849551086033698856> Success: %successmessage%'
   colour: '#77b255'
 
 # Sent when someone joins the server
