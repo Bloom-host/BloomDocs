@@ -60,7 +60,7 @@ billingticket:
   thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png'
   image: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/billing_ticket.png'
   buttons:
-    - [ 'Open Billing Ticket', 'https://billing.bloom.host/submitticket.php', ':bloom:' ]
+    - [ 'Open Billing Ticket', 'https://billing.bloom.host/submitticket.php', '<:bloom:732019289741066379>', '1' ]
 
 voicechat:
   aliases:
@@ -97,7 +97,7 @@ updating:
     - 'changingjar'
     - 'changingjars'
   title: '📜 How to update, change versions or change server jar'
-  description: |+
+  description: >
     Check out our comprehensive guide on how to update, change versions
     or server jar [here](https://docs.bloom.host/updating/).
   thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png'
@@ -253,7 +253,7 @@ bin:
     - 'pastebin'
     - 'logs'
   title: 'Bloom Bin'
-  description: |+
+  description: >
     Bloom has their own hastebin called Bloom Bin! Check it out
     [here](https://bin.Bloom.host)!
 
@@ -407,9 +407,9 @@ welcome:
     
     **Remember to join our main Discord server:** https://discord.gg/bloom
   buttons:
-    - [ 'Join main Discord', 'https://discord.gg/bloom', ':bloom:' ]
-    - [ 'Open Minecraft Panel', 'https://mc.bloom.host', ':bloom:' ]
-    - [ 'Open VPS Panel', 'https://vps.bloom.host' , ':bloom:' ]
+    - [ 'Join main Discord', 'https://discord.gg/bloom' ]
+    - [ 'Open Minecraft Panel', 'https://mc.bloom.host' ]
+    - [ 'Open VPS Panel', 'https://vps.bloom.host' ]
 
 panelissues:
   title: '📜 Panel Connection Issues - How to attempt to fix them'
@@ -501,7 +501,7 @@ upgrade:
   thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/tY6IAF.png'
   image: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/upgrade.png'
   buttons:
-    - [ 'Products page', 'https://billing.bloom.host/clientarea.php?action=services', ':bloom:' ]
+    - [ 'Products page', 'https://billing.bloom.host/clientarea.php?action=services', '<:bloom:732019289741066379>' ]
 
 documentation:
   aliases:
@@ -993,7 +993,7 @@ duck:
   title: '<:blobcheer:762884190210621440> Here''s your random duck!'
   image: '%link%'
   buttons:
-    - [ 'Original Image', '%link%', '🔗', "3" ]
+    - [ 'Original Image', '%link%', '🔗', '2' ]
 
 # Sent when the !unsupported or /unsupported command is used
 # Placeholders: %eggs%
@@ -1242,7 +1242,7 @@ tickets-general:
   footer: 'Tickets - Bloom.host'
   image: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/line.png'
   buttons:
-    - [ 'Open Billing Ticket', 'https://billing.bloom.host/submitticket.php', '💰' ]
+    - [ 'Open Billing Ticket', 'https://billing.bloom.host/submitticket.php', '💰', '2' ]
 
 tickets-billing:
   enabled: false
@@ -1377,7 +1377,7 @@ ticket-panel:
 
     Please consider using <#737803938430189678> for non-technical issues.
   buttons:
-    - [ 'Open Billing Ticket', 'https://billing.bloom.host/submitticket.php', '💰' ]
+    - [ 'Open Billing Ticket', 'https://billing.bloom.host/submitticket.php', '💰' , '2' ]
 
 waitlistpanel:
   enabled: false
