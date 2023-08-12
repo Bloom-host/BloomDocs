@@ -40,14 +40,9 @@ help:
         • `!remove <@user | userid>` - Remove a user from your ticket
       inline: true
 
-# Todo: is this needed? (see below)
 billing:
-  text: 'https://billing.bloom.host'
-  buttons:
-    - [ 'Billing Ticket', 'https://billing.bloom.host/' ]
-
-billingticket:
   aliases:
+    - 'billingticket'
     - 'ticket'
     - 'verification'
     - 'verify'
@@ -245,17 +240,20 @@ grafana:
     Guide located [here](https://docs.bloom.host/other-servers/grafana/).
   image: 'https://raw.githubusercontent.com/Cubxity/UnifiedMetrics/dev/0.3.x/.github/assets/grafana.png'
 
-# Todo: do we need this? Should we link mclogs instead with some instructions
-# about using it with the panel buttons?
 bin:
   aliases:
     - 'hastebin'
     - 'pastebin'
-    - 'logs'
-  title: 'Bloom Bin'
-  description: >
-    Bloom has their own hastebin called Bloom Bin! Check it out
-    [here](https://bin.Bloom.host)!
+    - 'mclogs'
+    - 'mclo.gs'
+    - 'paste'
+  title: 'Log Sharing'
+  image: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/mclogs.png'
+  description: |+
+    Use [mclo.gs](https://mclo.gs), a handy text sharing service!
+    In the panel, use the `Uploads Logs` button next to the console area, or `Publish on mclo.gs` for config files!
+  buttons:
+    - [ 'Open mclo.gs ', 'https://mclo.gs', '🔗' ]
 
 vps:
   title: 'VPS - Virtual Private Servers'
@@ -936,7 +934,7 @@ codes:
 # Placeholders: %errormessage%
 error:
   enabled: false
-  title: '<:ex:1107368090230067220> Error: %errormessage%'
+  title: '<:ex:849551085793837067> Error: %errormessage%'
   colour: '#dd2e44'
 
 # Sent when a command is missing some arguments
