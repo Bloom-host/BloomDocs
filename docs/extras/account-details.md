@@ -42,16 +42,52 @@ This area lets you edit any details about your account from payment methods to e
 
 ---
 
-## Minecraft Panel
+## DuckPanel
+
+To start, head over to your sidebar and click the My Account tab.
 
 <div class="text--center">
-<img src={require('../../static/imgs/extras/account_details/4.png').default} alt="img"/></div>
+    <img src={require('../../static/imgs/extras/account_details/4.png').default} alt="DuckPanel account tab sidebar"/>
+</div>
 
-To start, head over to your sidebar and click the My Account tab. 
+Simply edit any details that you need. Once you have completed a section, click the Update button below it to apply the
+changes needed.
 
 <div class="text--center">
-<img src={require('../../static/imgs/extras/account_details/5.png').default} alt="img"/></div>
+    <img src={require('../../static/imgs/extras/account_details/5.png').default} alt="Main DuckPanel account tab"/>
+</div>
 
-Simply edit any details that you need. Once you have completed a section, click the Update button below it to apply the changes needed. 
+---
+
+### Discord Linking
+
+Here you can also set up your Discord account.
+
+When your Discord and DuckPanel accounts are linked, our staff will see all the servers you own or have access to when
+you open a ticket. Please note that any significant changes to your server will still require opening a billing ticket
+as confirmation.
+
+Simply click 'Link Account' which will redirect to Discord's authorization site.
+
+<div class="text--center">
+    <img src={require('../../static/imgs/extras/account_details/link.png').default} alt="Unlinked Discord account status"/>
+</div>
+
+Make sure you are logged in with the correct account and click 'Authorise'.
+
+<div class="text--center">
+    <img src={require('../../static/imgs/extras/account_details/authorize.png').default} height="256" width="256" alt="Discord's authorization page"/>
+</div>
+
+You will be redirected back to the DuckPanel where it will show your currently linked account.
+<div class="text--center">
+    <img src={require('../../static/imgs/extras/account_details/linked.png').default} alt="Linked Discord account status"/>
+</div>
+
+If you ever need to unlink your account, simply click 'Unlink Account' in the panel, or 'Deauthorise' under 'Authorised
+Apps' in your Discord settings.
+<div class="text--center">
+    <img src={require('../../static/imgs/extras/account_details/deauthorize.png').default} alt="img"/>
+</div>
 
 ---
