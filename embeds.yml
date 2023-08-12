@@ -936,21 +936,21 @@ codes:
 # Placeholders: %errormessage%
 error:
   enabled: false
-  title: '<:cross:1107368090230067220> Error: %errormessage%'
+  title: '<:ex:1107368090230067220> Error: %errormessage%'
   colour: '#dd2e44'
 
 # Sent when a command is missing some arguments
 # Placeholders: %errormessage%, %usage%
 error-usage:
   enabled: false
-  title: '<:cross:849551085793837067> Error: %errormessage%'
+  title: '<:ex:849551085793837067> Error: %errormessage%'
   description: 'Usage: `%usage%`'
   colour: '#dd2e44'
 
 # Sent when a main-server-only command is executed on the waitlist server
 server:
   enabled: false
-  title: '<:cross:849551085793837067> Error: this command can only be used on the main discord server!'
+  title: '<:ex:849551085793837067> Error: this command can only be used on the main discord server!'
   colour: '#dd2e46'
   buttons:
     - [ 'Join Server', 'https://discord.gg/bloom', '🔗' ]
