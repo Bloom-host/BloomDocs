@@ -35,12 +35,6 @@ module.exports = {
 
 
         {
-            type: 'doc',
-            id: "running_a_server/1.19", // 1.19 update information
-        },
-
-
-        {
             type: 'category',
             label: 'Getting Started',
             collapsed: false,
