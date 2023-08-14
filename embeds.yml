@@ -1072,7 +1072,7 @@ ticket-notes:
   colour: '#ffc710'
   description: '%notes%'
   custom-data:
-    note-format: '`#%id%` <@%addedby%>: %content%'
+    note-format: "`#%id%` <@%addedby%>: %content%\n"
 
 # Sent when the !stats or /stats command is used
 # Placeholders: %totalsuggestions%, %pendingsuggestions%, %approvedsuggestions%, %deniedsuggestions%, %duckcount%, %uptime%, %avgfirstresponse%, %membercount%, %rolecount%
@@ -1231,11 +1231,11 @@ tickets-general:
   enabled: false
   title: '🦆 Ticket Created'
   colour: '#FFFFF1'
-  description: |+
+  description: >
     Thank you, %username% for opening a ticket! We will be with you as soon as
     possible. For us to better assist you, please provide your server ID and a
     description of your issue.
-
+     
     For billing inquiries such as upgrades, downgrades, or refunds, please open a ticket on our billing panel: https://billing.bloom.host/submitticket.php
   footer: 'Tickets - Bloom.host'
   image: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/line.png'
