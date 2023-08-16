@@ -1006,7 +1006,7 @@ unsupported:
     %eggs%
   footer: 'Suggest a software to be added: !suggest <link/name>'
   custom-data:
-    line-format: '- %egg%\n'
+    line-format: "- %egg%\n"
 
 # Sent when the !modpacks or /modpacks command is used
 # Placeholders: %modpacks%
@@ -1021,7 +1021,7 @@ modpacks:
   buttons:
     - [ 'Full List', 'https://bloom.host/modpacks/', '🔗' ]
   custom-data:
-    line-format: '- %modpack%\n'
+    line-format: "- %modpack%\n"
 
 # Sent when the !claims command is used
 # Placeholders: %time%, %lines%, %total%, %unclaimed%
