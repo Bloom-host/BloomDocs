@@ -89,7 +89,7 @@ Then select your Prometheus data source and click Import.
 
 And there you have it, now you can have a ton of fancy statistics for your Minecraft Server :)
 
-<div class="text--center"><img src={require('../../static/imgs/extras/grafana/4.png').default} alt="console" height="70%" width="70%"/></div>
+<div class="text--center"><img src="https://raw.githubusercontent.com/Cubxity/UnifiedMetrics/dev/0.3.x/.github/assets/grafana.png" alt="console" height="70%" width="70%"/></div>
 
 ## Multiple servers
 

@@ -1,5 +1,10 @@
 [
         {
+                "name": "BozoKits2",
+                "ip": "nolag.bozokits.net",
+                "type": "PC"
+        },
+        {
                 "name": "BozoKits",
                 "ip": "bozokits.net",
                 "type": "PC"
@@ -178,6 +183,11 @@
         {
                 "name": "The Chunk",
                 "ip": "play.chunkmc.com",
+                "type": "PC"
+        },
+        {
+                "name": "Frostcast Revival",
+                "ip": "play.frostcast.network",
                 "type": "PC"
         }  
 ]
