@@ -15,16 +15,15 @@
     --ifm-color-primary-lighter: #ff7a26;
     --ifm-color-primary-lightest: #ff924d;
     --ifm-code-font-size: 95%;
-
   }
-  
+
   .docusaurus-highlight-code-line {
     background-color: rgb(72, 77, 91);
     display: block;
     margin: 0 calc(-1 * var(--ifm-pre-padding));
     padding: 0 var(--ifm-pre-padding);
   }
-  
+
   html[data-theme='dark'] {
       --ifm-color-emphasis-0: var(--ifm-color-gray-1000);
       --ifm-color-emphasis-100: var(--ifm-color-gray-900);
@@ -55,30 +54,30 @@
       --ifm-color-danger-contrast-foreground: #000000;
       --ifm-color-warning-contrast-foreground: #000000;
   }
-  
+
   .menu__link--sublist {
       font-size: 18px;
   }
-  
+
   .menu__list {
       font-size: 14px;
   }
-  
+
   aside {
-      background-color: #1c202e;
+      background-color: var(--ifm-background-surface-color);
   }
-  
+
   .margin-vert--xl, .pagination-nav, .footer, .react-toggle {
       display: none;
   }
-  
+
   blockquote {
       border-left: 5px solid #ffc910;
       color: var(--ifm-color);
       line-height: 1.5;
       padding: 10px;
   }
-  
+
   .float-right {
       margin-left: 5%;
       float: right;
