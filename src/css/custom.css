@@ -1,9 +1,10 @@
 /* stylelint-disable docusaurus/copyright-header */
+
 /**
  * Any CSS included here will be global. The classic template
  * bundles Infima by default. Infima is a CSS framework designed to
  * work well for content-centric websites.
- */
+*/
 
 /* You can override the default Infima variables here. */
 :root {
@@ -15,70 +16,82 @@
     --ifm-color-primary-lighter: #ff7a26;
     --ifm-color-primary-lightest: #ff924d;
     --ifm-code-font-size: 95%;
-  }
+}
 
-  .docusaurus-highlight-code-line {
+.docusaurus-highlight-code-line {
     background-color: rgb(72, 77, 91);
     display: block;
     margin: 0 calc(-1 * var(--ifm-pre-padding));
     padding: 0 var(--ifm-pre-padding);
-  }
+}
 
-  html[data-theme='dark'] {
-      --ifm-color-emphasis-0: var(--ifm-color-gray-1000);
-      --ifm-color-emphasis-100: var(--ifm-color-gray-900);
-      --ifm-color-emphasis-200: var(--ifm-color-gray-800);
-      --ifm-color-emphasis-300: var(--ifm-color-gray-700);
-      --ifm-color-emphasis-400: var(--ifm-color-gray-600);
-      --ifm-color-emphasis-500: var(--ifm-color-gray-500);
-      --ifm-color-emphasis-600: var(--ifm-color-gray-400);
-      --ifm-color-emphasis-700: var(--ifm-color-gray-300);
-      --ifm-color-emphasis-800: var(--ifm-color-gray-200);
-      --ifm-color-emphasis-900: var(--ifm-color-gray-100);
-      --ifm-color-emphasis-1000: var(--ifm-color-gray-0);
-      --ifm-background-color: #131625;
-      --ifm-background-surface-color: #1c202e;
-      --ifm-hover-overlay: rgba(255, 255, 255, 0.05);
-      --ifm-menu-link-sublist-icon-filter: invert(100%) sepia(94%) saturate(17%) hue-rotate(223deg) brightness(104%) contrast(98%);
-      --ifm-color-content-secondary: rgba(255, 255, 255, 1);
-      --ifm-breadcrumb-separator-filter: invert(64%) sepia(11%) saturate(0%) hue-rotate(149deg) brightness(99%) contrast(95%);
-      --ifm-color-info-contrast-background: #54c7ec;
-      --ifm-color-warning-contrast-background: #ffba00;
-      --ifm-color-danger-contrast-background: #fa383e;
-      --ifm-color-success-contrast-background: #00a400;
-      --ifm-color-note-contrast-background: #fff;
-      --ifm-color-secondary-contrast-background: #fff;
-      --ifm-color-info-contrast-foreground: #000000;
-      --ifm-color-secondary-contrast-foreground: #000000;
-      --ifm-color-success-contrast-foreground: #000000;
-      --ifm-color-danger-contrast-foreground: #000000;
-      --ifm-color-warning-contrast-foreground: #000000;
-  }
+html[data-theme='dark'] {
+    --ifm-color-emphasis-0: var(--ifm-color-gray-1000);
+    --ifm-color-emphasis-100: var(--ifm-color-gray-900);
+    --ifm-color-emphasis-200: var(--ifm-color-gray-800);
+    --ifm-color-emphasis-300: var(--ifm-color-gray-700);
+    --ifm-color-emphasis-400: var(--ifm-color-gray-600);
+    --ifm-color-emphasis-500: var(--ifm-color-gray-500);
+    --ifm-color-emphasis-600: var(--ifm-color-gray-400);
+    --ifm-color-emphasis-700: var(--ifm-color-gray-300);
+    --ifm-color-emphasis-800: var(--ifm-color-gray-200);
+    --ifm-color-emphasis-900: var(--ifm-color-gray-100);
+    --ifm-color-emphasis-1000: var(--ifm-color-gray-0);
+    --ifm-background-color: #131625;
+    --ifm-background-surface-color: #1c202e;
+    --ifm-hover-overlay: rgba(255, 255, 255, 0.05);
+    --ifm-menu-link-sublist-icon-filter: invert(100%) sepia(94%) saturate(17%) hue-rotate(223deg) brightness(104%) contrast(98%);
+    --ifm-color-content-secondary: rgba(255, 255, 255, 1);
+    --ifm-breadcrumb-separator-filter: invert(64%) sepia(11%) saturate(0%) hue-rotate(149deg) brightness(99%) contrast(95%);
+    --ifm-color-info-contrast-background: #54c7ec;
+    --ifm-color-warning-contrast-background: #ffba00;
+    --ifm-color-danger-contrast-background: #fa383e;
+    --ifm-color-success-contrast-background: #00a400;
+    --ifm-color-note-contrast-background: #fff;
+    --ifm-color-secondary-contrast-background: #fff;
+    --ifm-color-info-contrast-foreground: #000000;
+    --ifm-color-secondary-contrast-foreground: #000000;
+    --ifm-color-success-contrast-foreground: #000000;
+    --ifm-color-danger-contrast-foreground: #000000;
+    --ifm-color-warning-contrast-foreground: #000000;
+}
 
-  .menu__link--sublist {
-      font-size: 18px;
-  }
+.menu__link--sublist {
+    font-size: 18px;
+}
 
-  .menu__list {
-      font-size: 14px;
-  }
+.menu__list {
+    font-size: 14px;
+}
 
-  aside {
-      background-color: var(--ifm-background-surface-color);
-  }
+aside {
+    background-color: var(--ifm-background-surface-color);
+}
 
-  .margin-vert--xl, .pagination-nav, .footer, .react-toggle {
-      display: none;
-  }
+.pagination-nav, .footer, .react-toggle {
+    display: none;
+}
 
-  blockquote {
-      border-left: 5px solid #ffc910;
-      color: var(--ifm-color);
-      line-height: 1.5;
-      padding: 10px;
-  }
+blockquote {
+    border-left: 5px solid #ffc910;
+    color: var(--ifm-color);
+    line-height: 1.5;
+    padding: 10px;
+}
 
-  .float-right {
-      margin-left: 5%;
-      float: right;
-  }
+.float-right {
+    margin-left: 5%;
+    float: right;
+}
+
+/* Small hack to hide the sidebar links on PC, since we already
+have them in the navbar */
+/*.*/
+
+@media only screen and (min-width: 998px) {
+    .theme-doc-sidebar-menu li a[href="https://bloom.host/"],
+    .theme-doc-sidebar-menu li a[href="https://discord.gg/bloom"],
+    .theme-doc-sidebar-menu li a[href="https://billing.bloom.host/supporttickets.php"] {
+        display: none;
+    }
+}
