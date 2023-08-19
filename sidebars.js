@@ -1,6 +1,6 @@
 /*
 When adding pages to the sidebar, make sure you use the page ID, not the file name of the page
-For example, to add a page which had a filename of 'chunky-multi' and a page ID of 'chunky', you would add the following under the appropiate category:
+For example, to add a page which had a filename of 'chunky-multi' and a page ID of 'chunky', you would add the following under the appropriate category:
 
 'plugins_and_modifications/multiplatform/chunky'
 
@@ -20,13 +20,11 @@ module.exports = {
             label: 'Website',
             href: 'https://bloom.host/'
         },
-
         {
             type: 'link',
             label: 'Support Discord',
             href: 'https://discord.gg/bloom',
         },
-
         {
             type: 'link',
             label: 'Billing Support',
@@ -272,4 +270,3 @@ module.exports = {
 
     ]
 }
-    //'editing-account-details'
