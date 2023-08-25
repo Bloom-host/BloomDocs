@@ -42,20 +42,17 @@ Once you are ready to check the results of the profiler you should run `/spark p
 
 When you open the link you'll find a useful web interface that displays all the data collected.
 
-<div class="text--center">
-![img](/imgs/running_a_server/spark/1.png)</div>
+![img](/imgs/running_a_server/spark/1.png)
 
 ## Other Useful Commands
 
 Running `/tps` will display an output that looks like this:
 
-<div class="text--center">
-![img](/imgs/running_a_server/spark/2.png)</div>
+![img](/imgs/running_a_server/spark/2.png)
 
 Running `/spark healthreport` will display an output that looks like this:
 
-<div class="text--center">
-![img](/imgs/running_a_server/spark/3.png)</div>
+![img](/imgs/running_a_server/spark/3.png)
 
 The values will depend on your server, newer versions of Spark will contain more useful information, as the utility is in active development.
 

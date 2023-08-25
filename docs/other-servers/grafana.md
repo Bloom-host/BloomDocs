@@ -73,7 +73,7 @@ Password - admin
 
 Once logged in, hover over the settings icon on the left and head to Data Sources.
 
-<div class="text--center">![console](/imgs/extras/grafana/1.png)</div>
+![console](/imgs/extras/grafana/1.png)
 
 Now we're going to add a new Prometheus data source, the only thing you need to modify is the URL which will be `http://<SERVERIP>:<PORT>` (with the port being the port of your Prometheus server).
 
@@ -81,15 +81,15 @@ Now, Grafana has access to all the data, but where can you view all the fancy gr
 
 Time to add a Dashboard made by the UnifiedMetrics team. Simply hover over the + on Grafana's main page and click import. Then enter `14756` as the ID and click load.
 
-<div class="text--center">![console](/imgs/extras/grafana/2.png)</div>
+![console](/imgs/extras/grafana/2.png)
 
 Then select your Prometheus data source and click Import.
 
-<div class="text--center">![console](/imgs/extras/grafana/3.png)</div>
+![console](/imgs/extras/grafana/3.png)
 
 And there you have it, now you can have a ton of fancy statistics for your Minecraft Server :)
 
-<div class="text--center">![console](https://raw.githubusercontent.com/Cubxity/UnifiedMetrics/dev/0.3.x/.github/assets/grafana.png)</div>
+![console](https://raw.githubusercontent.com/Cubxity/UnifiedMetrics/dev/0.3.x/.github/assets/grafana.png)
 
 ## Multiple servers
 

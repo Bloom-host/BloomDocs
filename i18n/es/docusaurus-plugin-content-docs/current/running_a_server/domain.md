@@ -40,7 +40,7 @@ Después de registrarte, verás unos pasos para poder conectar tu dominio a Clou
 Como otra alternativa, puedes usar el DNS proveído por tu propio proveedor del dominio. Aunque todos los sitios web se ven
 diferentes, los pasos son los mismos para todos. 
 
-<div class="text--center">![img](/imgs/running_a_server/domain/2.png)</div>
+![img](/imgs/running_a_server/domain/2.png)
 
 ---
 
@@ -63,7 +63,7 @@ En estos pasos asumimos que ya has creado un **Registro A** apuntando a la IP de
 sigue los pasos de arriba para crear uno que esté apuntando a tu dominio.
 :::
 
-<div class="text--center">![img](/imgs/running_a_server/domain/3.png)</div>
+![img](/imgs/running_a_server/domain/3.png)
 
 Para crear un **Registro SRV** debes de ingresar a la página de tu registrar o CloudFlare dependiendo de cuál uses. 
 - Una vez ahí, da click en **Add record** (Añadir registro) y en **Type** (Tipo) selecciona **`SRV`**.

@@ -23,19 +23,16 @@ Hey Bloomers! In this guide we will be going over how to configure or cancel a S
 
 To configure a Stripe Subscription when you first order a server just select "Credit/Debit Card - Subscription (Stripe)" as the payment method.
 
-<div class="text--center">
-![img](/imgs/billing/stripe/1.png)</div>
+![img](/imgs/billing/stripe/1.png)
 
 ## Configuring a PayPal Subscription when you are already a customer
 
 If you have already a plan with us you will need to wait until the next invoice generates, then go to the invoices section on our [billing portal](https://billing.bloom.host/clientarea.php?action=invoices), select the latest unpaid invoice and under payment method select "Credit/Debit Card - Subscription" and configure the subscription.
 
-<div class="text--center">
-![img](/imgs/billing/stripe/2.png)</div>
+![img](/imgs/billing/stripe/2.png)
 
 ## How to cancel a Stripe Subscription (Stop Recurring Payment)
 
 To cancel a Stripe Subscription / Stop Recurring Payments you can go to the [Payment Methods](https://billing.bloom.host/index.php?rp=/account/paymentmethods) section of our billing portal and delete the Credit/Debit Card linked to your account. 
 
-<div class="text--center">
-![img](/imgs/billing/stripe/3.png)</div>
+![img](/imgs/billing/stripe/3.png)

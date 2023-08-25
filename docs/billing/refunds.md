@@ -40,11 +40,9 @@ You also need to request an immediate cancellation for your service. To do so go
 Download a backup of all your files before submitting a refund request. Once the refund is processed all your server files will be deleted and you will not be able to access them.
 :::
 
-<div class="text--center">
-![img](/imgs/billing/refunds/1.png)</div>
+![img](/imgs/billing/refunds/1.png)
 
-<div class="text--center">
-![img](/imgs/billing/refunds/2.png)</div>
+![img](/imgs/billing/refunds/2.png)
 
 ## PayPal Subscriptions (Recurring Payments) need to be cancelled manually
 

@@ -26,11 +26,9 @@ To request a cancellation go to the [services page](https://billing.bloom.host/c
 Download a backup of all your files before submitting a cancellation request. Once the cancellation is processed all your server files will be deleted and you will not be able to access them.
 :::
 
-<div class="text--center">
-![img](/imgs/billing/refunds/1.png)</div>
+![img](/imgs/billing/refunds/1.png)
 
-<div class="text--center">
-![img](/imgs/billing/cancellations/2.png)</div>
+![img](/imgs/billing/cancellations/2.png)
 
 
 :::caution

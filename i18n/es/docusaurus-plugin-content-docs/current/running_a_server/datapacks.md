@@ -41,13 +41,11 @@ al cual quieres añadir el datapack.
 
 2. Entra a la pestaña de **File Management** (Administración de Archivos).
 
-<div class="text--center">
-![img](/imgs/running_a_server/datapacks/1.png)</div>
+![img](/imgs/running_a_server/datapacks/1.png)
 
 3. Selecciona tu mundo principal. Normalmente es una carpeta llamada `./world`.
 
-<div class="text--center">
-![img](/imgs/running_a_server/datapacks/2.png)</div>
+![img](/imgs/running_a_server/datapacks/2.png)
 
 4. Abre la carpeta `datapacks` y click en **Upload** (Subir) en la parte de arriba a la derecha y selecciona tu datapack.
 También puedes arrastrar el datapack a la ventana del navegador.
@@ -56,8 +54,7 @@ También puedes arrastrar el datapack a la ventana del navegador.
 Recuerda que debes subir el archivo .zip, no debes descomprimirlo.
 :::
 
-<div class="text--center">
-![img](/imgs/running_a_server/datapacks/3.png)</div>
+![img](/imgs/running_a_server/datapacks/3.png)
 
 5. Listo! Reinicia tu servidor y el datapack debería estar funcionando.
 

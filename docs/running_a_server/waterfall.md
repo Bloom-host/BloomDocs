@@ -37,7 +37,7 @@ When running your servers behind a proxy like Velocity or Waterfall, it requires
 
 To get started with Waterfall, you need to download their latest jar from their [downloads page](https://papermc.io/downloads#Waterfall).
 
-<div class="text--center">![console](/imgs/running_a_server/waterfall/waterfall-dl-page.png)</div>
+![console](/imgs/running_a_server/waterfall/waterfall-dl-page.png)
 
 When you have downloaded their latest jar file, then you can upload it to your waterfall server when it's created on the next step.
 
@@ -47,7 +47,7 @@ You can see in the below image on how you can do so. You need to click on one of
 
 This is how it looks when you're creating your waterfall server in the server split menu.
 
-<div class="text--center">![console](/imgs/running_a_server/waterfall/waterfall-server-split.png)</div>
+![console](/imgs/running_a_server/waterfall/waterfall-server-split.png)
 
 After you've created the waterfall server in your server split, you'll be able to see the server on your server overview on Bloom's panel.
 
@@ -63,7 +63,7 @@ You need to start it one time and shut it down afterwards to generate all the fi
 
 Afterwards it will look like this:
 
-<div class="text--center">![console](/imgs/running_a_server/waterfall/waterfall-fs.png)</div>
+![console](/imgs/running_a_server/waterfall/waterfall-fs.png)
 
 We'll configure waterfall in the `config.yml` file.
 

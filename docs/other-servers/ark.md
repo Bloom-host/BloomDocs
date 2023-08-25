@@ -41,7 +41,7 @@ ARK Survival Evolved requires about **4GB to run with no players on the default 
 Check https://ark.gamepedia.com/Dedicated_Server_Setup#Hardware for more information.
 :::
 
-<div class="text--center">![img](/imgs/other-servers/ARK/1.jpeg)</div>
+![img](/imgs/other-servers/ARK/1.jpeg)
 
 ### Opening the required ports on your server
 
@@ -63,7 +63,7 @@ The ARK Survival Evolved server requires a local RCON connection, **you will see
 
 Your Ports and Proxies section should look like this - assuming you want RCON port 27020 opened, you can leave it blank if you don't want to use it. Note that port 7777 needs to be the primary port. 
 
-<div class="text--center">![img](/imgs/other-servers/ARK/2.png)</div>
+![img](/imgs/other-servers/ARK/2.png)
 
 :::note
 For some people opening the external RCON port 27020 causes issues and doesn't allow them to connect to the server (If you get an Unable to query server info for invite. try closing/deleting port 27020 and see if it works)
@@ -73,14 +73,14 @@ For some people opening the external RCON port 27020 causes issues and doesn't a
 
 You will find server settings in the **Startup** tab of the panel. Here you will be able to change the query and rcon port of the server, as well as the server name, password, admin password and server map. You will also be able to enable auto updating.
 
-<div class="text--center">![img](/imgs/other-servers/ARK/3.png)</div>
+![img](/imgs/other-servers/ARK/3.png)
 
 :::important
 
 To enable crossplay you will need to add the `--crossplay flag option in the **Startup** tab under the **Additional Arguments** field located at the end of the startup page. Do note that the crossplay feature sometimes bugs out and doesn't work.
 :::
 
-<div class="text--center">![img](/imgs/other-servers/ARK/4.png)</div>
+![img](/imgs/other-servers/ARK/4.png)
 
 ### Connecting through STEAM
 

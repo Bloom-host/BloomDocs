@@ -8,11 +8,6 @@ sidebar_label: Server Importer
 image: https://bloom.host/assets/images/logo.png
 ---
 
-<div class="text--center">
-![logo](https://bloom.host/logo-white.svg)
-<h1>Server Importer</h1>
-</div>
-
 ### How it works
 
 Duck Panel has a convenient server importer feature. The server importer allows you to easily import your server into Bloom, saving time and avoiding having to download/upload files yourself.
@@ -43,7 +38,7 @@ We recommend you compress all the server files that you want to import before st
 
 Once the import begins, you can navigate to the Console page to view the current progress.
 
-<div class="text--center">![console](/imgs/using_the_panel/server-importer/1.png)</div>
+![console](/imgs/using_the_panel/server-importer/1.png)
 
 
 #### Failsafe if your previous host is having issues with S/FTP

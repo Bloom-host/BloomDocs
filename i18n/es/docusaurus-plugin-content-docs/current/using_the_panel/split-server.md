@@ -67,4 +67,4 @@ Puedes cambiar tu servidor principal, borrar un split, editar puertos, tipo, RAM
 sección de **Server Split** (División de Servidor). Toma en cuenta que también puedes abrir nuevos puertos en la sección de
 **Ports & Proxies** (Puertos y Proxies).
 
-<div class="text--center">![console](/imgs/using_the_panel/split_server/4.png)</div>
+![console](/imgs/using_the_panel/split_server/4.png)

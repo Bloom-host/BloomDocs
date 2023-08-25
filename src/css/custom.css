@@ -84,6 +84,12 @@ blockquote {
     float: right;
 }
 
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* Small hack to hide the sidebar links on PC, since we already
 have them in the navbar */
 /*.*/
