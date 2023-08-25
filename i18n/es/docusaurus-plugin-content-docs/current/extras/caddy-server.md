@@ -1,7 +1,6 @@
 ---
 id: caddy-server
 title: Creando un split Caddy
-hide_title: true
 hide_table_of_contents: false
 sidebar_label: Servidor Web Caddy
 description: Esta guía te ayudará a crear un split de Caddy.

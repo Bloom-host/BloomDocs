@@ -2,7 +2,6 @@
 id: vault
 title: Vault
 slug: /plugins/vault
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: Vault
 description: A common API for chat, permission and economy plugins.

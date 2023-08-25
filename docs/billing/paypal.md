@@ -1,7 +1,6 @@
 ---
 id: paypal
 title: PayPal Subscriptions
-hide_title: true
 hide_table_of_contents: false
 sidebar_label: PayPal Subscriptions
 description: This guide will show you how to setup a PayPal subscription and how to cancel it if neccesary.

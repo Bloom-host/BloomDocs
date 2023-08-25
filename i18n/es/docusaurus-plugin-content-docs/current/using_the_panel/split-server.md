@@ -2,7 +2,6 @@
 id: split-server
 title: Dividiendo servidores
 slug: /split-server
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: Dividiendo servidores
 description: Esta guía te muestra cómo dividir tu servidor de Minecraft.

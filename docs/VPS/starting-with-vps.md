@@ -1,7 +1,6 @@
 ---
 id: starting-with-vps
 title: Getting Started with a VPS
-hide_title: true
 hide_table_of_contents: false
 sidebar_label: Getting Started
 description: New to our VPS service and our panel? This guide will show you how to get started!

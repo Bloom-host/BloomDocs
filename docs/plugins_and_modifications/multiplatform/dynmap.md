@@ -2,7 +2,6 @@
 id: dynmap
 title: Dynmap
 slug: /multiplatform/dynmap
-hide_title: true
 hide_table_of_contents: false
 sidebar_label: Dynmap
 description: Dynmap is a plugin which shows a map through a webpage, allowing players to be able to see the map from their web browser.

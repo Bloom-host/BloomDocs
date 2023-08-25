@@ -1,7 +1,6 @@
 ---
 id: grafana
 title: Grafana
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: Grafana
 description: This guide will walk you through how to setup Grafana to monitor your Minecraft server using UnifiedMetrics and Prometheus.

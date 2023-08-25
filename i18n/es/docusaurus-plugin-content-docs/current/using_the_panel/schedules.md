@@ -2,7 +2,6 @@
 id: schedules
 title: Acciones Automáticas
 slug: /schedules
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: Acciones Automáticas
 image: https://bloom.host/assets/images/logo.png

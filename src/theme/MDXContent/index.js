@@ -6,6 +6,8 @@ export default function MDXContentWrapper(props) {
     const showHeader = frontMatter.show_header ?? true;
     const title = frontMatter.header ?? frontMatter.title;
 
+    // We do not want to have the regular title
+    frontMatter.hide_title = true;
     return (
         <>
             {showHeader && (

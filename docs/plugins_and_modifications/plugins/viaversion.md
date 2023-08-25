@@ -2,7 +2,6 @@
 id: viaversion
 title: ViaVersion
 slug: /plugins/viaversion
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: ViaVersion
 description: ViaVersion, along with ViaBackwards and ViaRewind, allow users using different versions than your server version to connect and play.

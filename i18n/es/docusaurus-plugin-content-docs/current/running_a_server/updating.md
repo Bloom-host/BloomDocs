@@ -2,7 +2,6 @@
 id: updating
 title: Actualizar o cambiar versión
 sslug: /updating
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: Actualizar o cambiar de versión
 image: https://bloom.host/assets/images/logo.png

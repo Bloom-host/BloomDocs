@@ -2,7 +2,6 @@
 id: squaremap
 title: Squaremap 
 slug: /multiplatform/squaremap
-hide_title: true
 hide_table_of_contents: false
 sidebar_label: Squaremap
 description: Squaremap is a plugin/mod which shows a map of Minecraft worlds in a webpage that can be easily accessed by a player.

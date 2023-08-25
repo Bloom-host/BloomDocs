@@ -1,7 +1,6 @@
 ---
 id: swap
 title: Swap
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: Swap
 description: Information about swap, and what to do if you want to disable it

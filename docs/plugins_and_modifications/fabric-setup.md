@@ -2,7 +2,6 @@
 id: fabric-setup
 title: Setting up Fabric
 slug: /fabric-setup
-hide_title: true
 hide_table_of_contents: false
 sidebar_label: Setting up Fabric
 description: This guide will help you setup Fabric on your Minecraft server

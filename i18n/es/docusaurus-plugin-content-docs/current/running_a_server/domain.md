@@ -2,7 +2,6 @@
 id: domain
 title: Usando un Dominio
 slug: /domain
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: Usando un Dominio
 description: Esta guía te ayudará a apuntar tu dominio a la IP de tu servidor de Minecraft.

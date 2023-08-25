@@ -1,7 +1,6 @@
 ---
 id: clumsyloader
 title: ClumsyLoader
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: ClumsyLoader
 description: This guide will show you how to use ClumsyLoader, an alternative way to download your panel backups to your VPS or computer.

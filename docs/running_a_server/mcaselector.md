@@ -2,7 +2,6 @@
 id: mcaselector
 title: MCASelector CLI
 slug: /mcaselector
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: MCASelector CLI
 description: Using MCASelector on your server

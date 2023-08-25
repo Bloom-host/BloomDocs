@@ -1,7 +1,6 @@
 ---
 id: email_change
 title: How to change your account email address
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: How to change your account email address
 description: This guide will show you how to change your account email address

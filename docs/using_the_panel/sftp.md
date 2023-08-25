@@ -2,7 +2,6 @@
 id: sftp
 title: Using SFTP
 slug: /sftp
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: Using SFTP For Files
 description: This guide will help you use SFTP (MobaXTerm/WinSCP/FileZilla) to transfer files.

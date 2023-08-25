@@ -2,7 +2,6 @@
 id: plan
 slug: /multiplatform/plan
 title: PLAN
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: PLAN (Player Analytics)
 image: https://bloom.host/assets/images/logo.png

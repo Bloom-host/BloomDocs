@@ -2,7 +2,6 @@
 id: ports-and-proxies
 title: Creando un Proxy Inverso
 slug: /ports-and-proxies
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: Creando un Proxy Inverso
 description: Esta guía te ayudará a crear un proxy inverso.

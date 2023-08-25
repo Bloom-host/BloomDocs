@@ -2,7 +2,6 @@
 id: server-importer
 slug: /server-importer
 title: Importador de Servidores
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: Importador de Servidores
 image: https://bloom.host/assets/images/logo.png

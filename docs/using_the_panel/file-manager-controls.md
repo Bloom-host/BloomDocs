@@ -2,7 +2,6 @@
 id: file-manager-controls
 slug: /file-manager-controls
 title: File Manager Controls
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: File Manager Controls
 image: https://bloom.host/assets/images/logo.png

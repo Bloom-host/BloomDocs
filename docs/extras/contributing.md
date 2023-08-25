@@ -2,7 +2,6 @@
 id: contributing
 title: Contributing
 header: How to contribute
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: How to contribute to the docs
 description: How to contribute to the Bloom.host documentation.

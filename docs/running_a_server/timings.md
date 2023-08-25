@@ -2,7 +2,6 @@
 id: timings
 slug: /timings
 title: timings
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: Taking a Timings Report
 description: How to run a timings report, which is useful for identifying causes of lag on your server.

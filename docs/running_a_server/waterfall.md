@@ -2,7 +2,6 @@
 id: waterfall
 title: Setting Up Waterfall/Bungee
 slug: /waterfall
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: Setting up a Waterfall/Bungee Server
 description: How to setup a Waterfall Proxy Server

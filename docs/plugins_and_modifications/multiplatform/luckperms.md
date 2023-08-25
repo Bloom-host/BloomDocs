@@ -2,7 +2,6 @@
 id: luckperms
 title: LuckPerms
 slug: /multiplatform/luckperms
-hide_title: true
 hide_table_of_contents: false
 sidebar_label: LuckPerms
 description: An essential plugin/mod designed to handle Minecraft server permissions.

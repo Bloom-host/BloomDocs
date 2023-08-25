@@ -2,7 +2,6 @@
 id: mods-install
 title: Server Mods
 slug: /mods-install
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: Installing Mods
 description: How to install minecraft mods on your forge/fabric server.

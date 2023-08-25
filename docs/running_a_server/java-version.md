@@ -2,7 +2,6 @@
 id: java-version
 title: Change Java Version
 slug: /java-version
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: Changing Java Version
 description: Instructions on how to change the version of Java used on your server

@@ -2,7 +2,6 @@
 id: ports-and-proxies
 title: Creating a Reverse Proxy
 slug: /ports-and-proxies
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: Creating a Reverse Proxy
 description: This guide will help you to create a reverse proxy.

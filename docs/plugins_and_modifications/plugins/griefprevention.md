@@ -2,7 +2,6 @@
 id: griefprevention
 title: GriefPrevention
 slug: /plugins/griefprevention
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: GriefPrevention
 description: A simple and easy to use land claiming / protection plugin for your players.

@@ -2,7 +2,6 @@
 id: ping-issues
 title: How to diagnose and fix ping issues
 header: Ping Issues
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: How to diagnose and fix ping issues
 description: This guide will help you diagnose and potentially fix ping issues.

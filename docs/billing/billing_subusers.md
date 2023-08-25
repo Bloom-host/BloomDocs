@@ -2,7 +2,6 @@
 id: billing_subusers
 title: Billing Subusers
 header: How to add a subuser to a billing account
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: Billing Subusers
 description: This guide will show you how to add a subuser to your billing account.

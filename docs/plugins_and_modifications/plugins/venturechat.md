@@ -2,7 +2,6 @@
 id: venturechat
 title: VentureChat
 slug: /plugins/venturechat
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: VentureChat
 description: An easy to use and customisable plugin for your chat needs.

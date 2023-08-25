@@ -2,7 +2,6 @@
 id: converting-worlds
 title: Converting Bukkit Worlds to Vanilla
 slug: /converting-worlds
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: Converting Bukkit Worlds to vanilla
 description: How to convert a Bukkit/Spigot/Paper world to a vanilla one

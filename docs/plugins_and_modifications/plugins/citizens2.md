@@ -2,7 +2,6 @@
 id: citizens2
 title: Citizens 2
 slug: /plugins/citizens2
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: Citizens 2
 description: How do I find you when I cannot solve this problem

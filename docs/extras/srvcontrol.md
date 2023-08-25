@@ -1,7 +1,6 @@
 ---
 id: srvcontrol
 title: SRVControl
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: SRVControl
 description: This guide will help you connect the discord bot SRVControl to your pterodactyl servers so you are able to control your servers through discord.

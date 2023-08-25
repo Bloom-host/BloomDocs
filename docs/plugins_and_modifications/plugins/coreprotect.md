@@ -2,7 +2,6 @@
 id: coreprotect
 title: CoreProtect
 slug: /plugins/coreprotect
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: CoreProtect
 description: A plugin that allows you to inspect blocks and inventories, as well as roll them back.

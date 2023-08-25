@@ -1,7 +1,6 @@
 ---
 id: account-details
 title: Editing Account Details
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: Editing Account Details
 description: This guide will help you edit your account details in the billing panel, and on the minecraft panel

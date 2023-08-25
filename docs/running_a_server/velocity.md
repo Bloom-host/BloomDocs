@@ -2,7 +2,6 @@
 id: velocity
 title: Setting Up Velocity
 slug: /velocity
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: Setting up a Velocity Server
 description: How to setup a Velocity Proxy Server

@@ -2,7 +2,6 @@
 id: whitelist
 title: Setting Up Whitelist
 slug: /whitelist
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: Setting up Whitelist
 description: How to setup Whitelist on Java/Bedrock

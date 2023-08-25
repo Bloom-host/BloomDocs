@@ -2,7 +2,6 @@
 id: resourcepack
 slug: /resourcepack
 title: Serverwide Resource Packs
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: Serverwide Resource packs
 description: How to add a serverwide resource pack to your minecraft server

@@ -2,7 +2,6 @@
 id: namelessmc
 title: NamelessMC
 slug: /other-servers/namelessmc
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: NamelessMC
 description: NamelessMC is a free, easy to use & powerful website software for your Minecraft server, which includes a large range of features.

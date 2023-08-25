@@ -2,7 +2,6 @@
 id: worldedit
 title: WorldEdit
 slug: /multiplatform/worldedit
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: WorldEdit
 description: An in-game world editing plugin to manipulate blocks

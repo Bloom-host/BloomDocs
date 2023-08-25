@@ -2,7 +2,6 @@
 id: datapacks
 title: Datapacks
 slug: /datapacks
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: Datapacks
 description: How to install a datapack onto your minecraft server.

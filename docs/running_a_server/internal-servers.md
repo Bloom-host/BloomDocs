@@ -2,7 +2,6 @@
 id: internal-servers
 title: Make your servers internal
 slug: /internal-servers
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: Internal Servers
 description: This doc just has some information on our internal servers

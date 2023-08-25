@@ -2,7 +2,6 @@
 id: fabric-mods
 title: Mods de Fabric
 slug: /fabric-mods
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: Instalando Mods de Fabric
 description: Cómo instalar mods de Fabric en tu servidor de Minecraft.

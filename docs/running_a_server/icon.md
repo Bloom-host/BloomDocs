@@ -2,7 +2,6 @@
 id: icon
 title: Adding an icon
 slug: /icon
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: Adding an icon
 description: How to add a server icon to your minecraft server

@@ -2,7 +2,6 @@
 id: install-proxy-plugin
 title: Instalando Plugins de Proxy
 slug: /installing-proxy-plugins
-hide_title: true
 hide_table_of_contents: false
 sidebar_label: Plugins de Proxy (BungeeCord/Velocity)
 image: https://bloom.host/assets/images/logo.png

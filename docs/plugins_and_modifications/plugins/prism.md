@@ -2,7 +2,6 @@
 id: prism
 title: Prism
 slug: /plugins/prism
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: Prism
 description: A cool (and highly configurable) plugin called Prism, which allows you to track player actions and rollback griefs.

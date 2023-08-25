@@ -2,7 +2,6 @@
 id: world-reset
 slug: /world-reset
 title: Resetting your World(s)
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: Resetting your world(s)
 description: How to reset the world(s) on your Minecraft server.

@@ -3,7 +3,6 @@ id: performance-mods
 title: Performance Mods
 header: Performance Mods for Fabric
 slug: /f_performance_mods
-hide_title: true
 hide_table_of_contents: false
 sidebar_label: Performance Mods
 description: A list of mods that will help combat lag on fabric servers.

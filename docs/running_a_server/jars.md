@@ -2,7 +2,6 @@
 id: jars
 title: Server Jars
 slug: /jars
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: Server Softwares
 description: This guide will help you choose which jar to use.

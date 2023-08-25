@@ -2,7 +2,6 @@
 id: domain
 title: Using A Domain
 slug: /domain
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: Using A Domain
 description: This guide will help you point your domain at the ip address of your minecraft server.

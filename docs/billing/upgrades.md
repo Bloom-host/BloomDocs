@@ -1,7 +1,6 @@
 ---
 id: upgrades
 title: How to upgrade, downgrade or transfer your server
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: How to upgrade, downgrade or transfer your server
 description: This guide will show you how to upgrade, downgrade or transfer your server

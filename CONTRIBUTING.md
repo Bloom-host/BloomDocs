@@ -30,7 +30,6 @@ The document format is listed below, and also listed in [`README.md`](/README.md
 id: <id>
 title: <title>
 slug: <id>
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: <sidebar title>
 description: <short description>

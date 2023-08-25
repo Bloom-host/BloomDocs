@@ -2,7 +2,6 @@
 id: installing-plugin
 title: Installing Plugins
 slug: /installing-plugins
-hide_title: true
 hide_table_of_contents: false
 sidebar_label: Installing Spigot Plugins
 image: https://bloom.host/assets/images/logo.png

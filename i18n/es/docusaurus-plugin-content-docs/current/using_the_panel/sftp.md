@@ -2,7 +2,6 @@
 id: sftp
 title: Usando SFTP
 slug: /sftp
-hide_title: true
 hide_table_of_contents: false
 sidebar_label: Usando SFTP
 description: Esta guía te ayudará a usar SFTP (MobaXTerm/WinSCP/FileZilla) para transferir archivos.

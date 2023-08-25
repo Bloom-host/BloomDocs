@@ -2,7 +2,6 @@
 id: papi
 title: PlaceholderAPI
 slug: /plugins/placeholderapi
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: PlaceholderAPI
 description: Information about PlaceholderAPI Bukkit plugin

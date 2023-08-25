@@ -2,7 +2,6 @@
 id: motd
 title: motd
 slug: /motd
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: How to change MOTD
 description: How to change the MOTD that people see on the server list. 

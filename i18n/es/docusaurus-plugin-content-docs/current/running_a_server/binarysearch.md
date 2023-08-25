@@ -2,7 +2,6 @@
 id: binarysearch
 title: "Diagnosticando: Búsqueda binaria"
 slug: /binarysearch
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: "Búsqueda binaria"
 description: Cómo encontrar un error causado por un plugin desconocido?

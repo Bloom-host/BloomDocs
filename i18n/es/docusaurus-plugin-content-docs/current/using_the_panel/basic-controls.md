@@ -2,7 +2,6 @@
 id: basic-controls
 slug: /basic-controls
 title: Controles Básicos
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: Controles Básicos
 image: https://bloom.host/assets/images/logo.png

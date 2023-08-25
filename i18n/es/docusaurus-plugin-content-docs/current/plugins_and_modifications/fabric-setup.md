@@ -2,7 +2,6 @@
 id: fabric-setup
 title: Instalando Fabric
 slug: /fabric-setup
-hide_title: true
 hide_table_of_contents: false
 sidebar_label: Instalando Fabric
 description: Esta guía te ayudará a instalar Fabric en tu servidor de Minecraft

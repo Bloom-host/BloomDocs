@@ -2,7 +2,6 @@
 id: users
 title: Sub-Usuarios
 slug: /users
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: Añadiendo Sub-Usuarios
 image: https://bloom.host/assets/images/logo.png

@@ -2,7 +2,6 @@
 id: optimization
 slug: /optimization
 title: Paper Server Optimization
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: Server Optimization
 description: How to optimize your minecraft server.

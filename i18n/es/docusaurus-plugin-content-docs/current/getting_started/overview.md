@@ -2,7 +2,6 @@
 id: overview
 title: Documentación de Bloom
 slug: /
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: Resumen de la Documentación
 image: https://bloom.host/assets/images/logo.png

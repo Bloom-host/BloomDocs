@@ -2,7 +2,6 @@
 id: forge-mods
 title: Mods de Forge
 slug: /forge-mods
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: Instalando Mods de Forge
 description: Cómo instalar mods de Forge en tu servidor de Minecraft.

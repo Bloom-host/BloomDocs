@@ -2,7 +2,6 @@
 id: geyseraddons
 title: GeyserMC Addons
 slug: /plugins/geyseraddons
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: GeyserAddons
 description: A list of plugins that interact with the GeyserMC plugin to make your experience even better!

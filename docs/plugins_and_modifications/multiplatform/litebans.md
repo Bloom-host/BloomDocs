@@ -2,7 +2,6 @@
 id: litebans
 title: LiteBans
 slug: /multiplatform/litebans
-hide_title: true
 hide_table_of_contents: false
 sidebar_label: LiteBans
 description: LiteBans is a premium plugin to manage and distribute punishments on your server or network.

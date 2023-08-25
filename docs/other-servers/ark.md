@@ -1,7 +1,6 @@
 ---
 id: ark
 title: ARK Survival Evolved
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: ARK Survival Evolved
 description: This guide will help you configure the ARK - Survival Evolved server.

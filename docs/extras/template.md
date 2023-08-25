@@ -1,7 +1,6 @@
 ---
 id: template
 title: Template
-hide_title: true
 hide_table_of_contents: false
 sidebar_label: Template :)
 description: How do I find you when I cannot solve this problem // Todo (notgeri): 

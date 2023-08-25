@@ -2,7 +2,6 @@
 id: 2fa
 title: Autentificación de 2 Factores
 slug: /2fa
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: Autentificación de 2 Factores
 description: This guide will help you secure your account through 2-Factor Authentication
