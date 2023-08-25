@@ -68,10 +68,6 @@ aside {
     background-color: var(--ifm-background-surface-color);
 }
 
-.pagination-nav, .footer, .react-toggle {
-    display: none;
-}
-
 blockquote {
     border-left: 5px solid #ffc910;
     color: var(--ifm-color);
@@ -90,10 +86,18 @@ img {
     margin-right: auto;
 }
 
-/* Small hack to hide the sidebar links on PC, since we already
-have them in the navbar */
-/*.*/
+/* Hide the title, we show it differently below */
+.theme-doc-markdown.markdown > header > h1 {
+    display: none;
+}
 
+/** Hide the other navbar and footer */
+.pagination-nav, .footer, .react-toggle {
+    display: none;
+}
+
+/* Small hack to hide the sidebar links on PC,
+since we already have them in the navbar */
 @media only screen and (min-width: 998px) {
     .theme-doc-sidebar-menu li a[href="https://bloom.host/"],
     .theme-doc-sidebar-menu li a[href="https://discord.gg/bloom"],

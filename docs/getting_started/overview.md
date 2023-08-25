@@ -7,8 +7,6 @@ sidebar_label: Documentation Overview
 image: https://bloom.host/assets/images/logo.png
 ---
 
-![logo](https://bloom.host/logo-white.svg)
-# Documentation Overview
 
 Most of the articles in this documentation were created by our community. You can help us too! Visit our guide on [How to contribute to our docs](../extras/contributing.md) to learn more. 
 
