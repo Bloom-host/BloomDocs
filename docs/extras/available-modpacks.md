@@ -15,11 +15,6 @@ keywords:
 image: https://bloom.host/assets/images/logo.png
 ---
 
-<div class="text--center">
-![logo](https://bloom.host/logo-white.svg)
-<h1>Available Modpacks on Bloom's One-Click Modpack Installer and Updater</h1>
-</div>
-
 Hello Bloomers! 👋
 
 This document will show you a list of Modpacks available in Bloom's One-Click Modpack Installer. We also explain you how to request a modpack. 

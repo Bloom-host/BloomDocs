@@ -38,11 +38,6 @@ image: https://bloom.host/assets/images/logo.png
 ---
 ```
 ```html
-<div class="text--center">
-![logo](https://bloom.host/logo-white.svg)
-<h1>[sidebar title]</h1>
-</div>
-
 ... rest of the document ...
 
 ```

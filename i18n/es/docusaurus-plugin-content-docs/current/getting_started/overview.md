@@ -8,11 +8,6 @@ sidebar_label: Resumen de la Documentación
 image: https://bloom.host/assets/images/logo.png
 ---
 
-<div class="text--center">
-![logo](https://bloom.host/logo-white.svg)
-<h1>Resumen de la Documentación</h1>
-</div>
-
 La mayoría de los artículos en esta documentación fueron creados por nuestra comunidad. Puedes ayudarnos también!
 Visita nuestra guía en [Cómo contribuir a la documentación](https://docs.bloom.host/extras/contributing) para aprender más.
 

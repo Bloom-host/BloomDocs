@@ -8,11 +8,6 @@ sidebar_label: Acciones Automáticas
 image: https://bloom.host/assets/images/logo.png
 ---
 
-<div class="text--center">
-![logo](https://bloom.host/logo-white.svg)
-<h1>Acciones Automáticas</h1>
-</div>
-
 
 ### Qué son las Acciones Automáticas?
 

@@ -18,11 +18,6 @@ keywords:
 image: https://bloom.host/assets/images/logo.png
 ---
 
-<div class="text--center">
-![logo](https://bloom.host/logo-white.svg)
-<h1>ServerNPC</h1>
-</div>
-
 ## What does the plugin do?
 
 ServerNPC is a plugin that allows you to create non player characters, or NPC's, and have them do certain actions.

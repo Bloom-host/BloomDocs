@@ -15,11 +15,6 @@ keywords:
 image: https://bloom.host/assets/images/logo.png
 ---
 
-<div class="text--center">
-![logo](https://bloom.host/logo-white.svg)
-<h1>Dividiendo Servidores</h1>
-</div>
-
 Bloom.host te permite dividir el servidor que tienes comprado, por ejemplo para crear una network de diferentes modalidades
 o poder iniciar un bot de Discord junto con tu servidor de Minecraft. Dentro de Bloom, estas divisiones son llamadas **"Splits"**.
 

@@ -4,7 +4,7 @@ title: Template
 hide_title: true
 hide_table_of_contents: false
 sidebar_label: Template :)
-description: How do I find you when I cannot solve this problem
+description: How do I find you when I cannot solve this problem // Todo (notgeri): 
 keywords:
   - Template
   - Pterodactyl Panel
@@ -12,11 +12,6 @@ keywords:
   - Bloom.host
 image: https://bloom.host/assets/images/logo.png
 ---
-
-<div class="text--center">
-![logo](https://bloom.host/logo-white.svg)
-<h1>Template</h1>
-</div>
 
 You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).
 

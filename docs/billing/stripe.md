@@ -11,11 +11,6 @@ keywords:
   - stripe recurring
 ---
 
-<div class="text--center">
-![logo](https://bloom.host/logo-white.svg)
-<h1>Stripe Subscriptions</h1>
-</div>
-
 Hey Bloomers! In this guide we will be going over how to configure or cancel a Stripe Subscription.
 
 

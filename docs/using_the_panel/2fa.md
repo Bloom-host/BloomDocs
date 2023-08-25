@@ -14,11 +14,6 @@ keywords:
   - 2FA Gameserver
 image: ../static/img/2fa/2fa1.png
 ---
-
-<div class="text--center">
-![logo](https://bloom.host/logo-white.svg)
-<h1>2-Factor Authentication</h1>
-</div>
  
 Hey there Bloomers! 👋
 In this guide, we will go over how to setup 2FA on your account.

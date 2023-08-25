@@ -8,11 +8,6 @@ sidebar_label: Bases de Datos MySQL
 image: https://bloom.host/assets/images/logo.png
 ---
 
-<div class="text--center">
-![logo](https://bloom.host/logo-white.svg)
-<h1>Bases de Datos MySQL</h1>
-</div>
-
 ### Resumen
 Las Bases de Datos pueden ser usadas por ciertos plugins para tener un método más eficiente y organizado de almacenar
 grandes cantidades de información, o coordinar información a través de distintos servidores.

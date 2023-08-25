@@ -13,11 +13,6 @@ keywords:
   - Bloom.host
 ---
 
-<div class="text--center">
-![logo](https://bloom.host/logo-white.svg)
-<h1>Setting Up Forge</h1>
-</div>
-
 ### What is Forge?
 
 > Forge is a modding API for Minecraft. Users who download and install Minecraft Forge can install mods (modifications) to Minecraft Instances.

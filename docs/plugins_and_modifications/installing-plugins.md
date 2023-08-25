@@ -8,11 +8,6 @@ sidebar_label: Installing Spigot Plugins
 image: https://bloom.host/assets/images/logo.png
 ---
 
-<div class="text--center">
-![logo](https://bloom.host/logo-white.svg)
-<h1>Spigot Plugins</h1>
-</div>
-
 :::important
 This guide is for Bukkit/Spigot/Paper servers. If you are looking for instructions on how to install plugins on a BungeeCord/Waterfall or Velocity proxy, please see [this guide](proxy-plugins.md)
 :::

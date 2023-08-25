@@ -15,11 +15,6 @@ keywords:
 image: https://bloom.host/assets/images/logo.png
 ---
 
-<div class="text--center">
-![logo](https://bloom.host/logo-white.svg)
-<h1>Serverwide Resource Packs</h1>
-</div>
-
 Once you found the resource pack you want on your server you need to upload the resource pack to a website and get the direct download link of it. You can use [this website](https://mc-packs.net/).  
 
 Click “choose file”, find your file and then click upload. Make sure the file you upload is a.zip file. A file can easily be made into a zip file by right-clicking the file, picking “send to” in the dropdown menu and then choosing “compressed (zipped) folder”  

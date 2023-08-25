@@ -8,11 +8,6 @@ sidebar_label: Plugins de Proxy (BungeeCord/Velocity)
 image: https://bloom.host/assets/images/logo.png
 ---
 
-<div class="text--center">
-![logo](https://bloom.host/logo-white.svg)
-<h1>Plugins de Proxy</h1>
-</div>
-
 Hola Bloomers! 👋
 
 En esta guía veremos cómo instalar plugins Bungeecord/Velocity en tu proxy.

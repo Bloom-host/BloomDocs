@@ -16,11 +16,6 @@ keywords:
 image: https://bloom.host/assets/images/logo.png
 ---
 
-<div class="text--center">
-![logo](https://bloom.host/logo-white.svg)
-<h1>AAC - Advanced Anti-Cheat</h1>
-</div>
-
 :::warning
 Advanced Anti Cheat (AAC) has become inactive on spigotmc.org and is no longer available to purchase. It is not recommended to use AAC in your servers and it has not been updated for the latest versions of Minecraft (last update was for 1.17.1). 
 

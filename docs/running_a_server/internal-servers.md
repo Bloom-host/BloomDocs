@@ -8,11 +8,6 @@ sidebar_label: Internal Servers
 description: This doc just has some information on our internal servers
 image: https://bloom.host/assets/images/logo.png
 ---
-<div class="text--center">
-![logo](https://bloom.host/logo-white.svg)
-<h1>Internal servers</h1>
-</div>
-
 :::important
 
 This doc just has some important information you may need if you are running internal servers for your Velocity/Bungee networks :)

@@ -12,11 +12,6 @@ keywords:
 image: https://bloom.host/assets/images/logo.png
 ---
 
-<div class="text--center">
-![logo](https://bloom.host/logo-white.svg)
-<h1>Editing Account Details</h1>
-</div>
-
 Hello Bloomers! 👋
 
 This guide will go over how to change your account details in your client area and minecraft panel, allowing you to change your name, email, and payment details.

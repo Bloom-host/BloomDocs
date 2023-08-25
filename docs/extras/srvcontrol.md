@@ -12,11 +12,6 @@ keywords:
   - Bloom.host
 ---
 
-<div class="text--center">
-![logo](https://bloom.host/logo-white.svg)
-<h1>SRVControl</h1>
-</div>
-
 Hey Bloomers! In this guide we will be going over how to connect SRVControl (Discord Bot) to your Minecraft servers hosted on Pterodactyl. This discord bot uses the Pterodactyl API to allow you to control your servers through discord.
 
 We can start by heading over to their [website](https://srvcontrol.xyz/) and inviting the bot to your discord server. Then once the bot is invited, go back to their website and click on "Dashboard" in the top right. Once you are at the dashboard, click manage on the server you invited the bot to and set the **Panel URL** to https://mc.bloom.host. You can change the other settings if you please, but this is all that is required to get the bot to work.

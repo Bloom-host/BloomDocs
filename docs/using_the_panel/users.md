@@ -8,11 +8,6 @@ sidebar_label: Adding Sub-Users
 image: https://bloom.host/assets/images/logo.png
 ---
 
-<div class="text--center">
-![logo](https://bloom.host/logo-white.svg)
-<h1>Users</h1>
-</div>
-
 ### What are subusers?
 People such as server's staff members can be given partial, so called "sub-user" access to the game panel.
 

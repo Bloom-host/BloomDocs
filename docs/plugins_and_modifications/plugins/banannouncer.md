@@ -17,11 +17,6 @@ keywords:
 image: https://bloom.host/assets/images/logo.png
 ---
 
-<div class="text--center">
-![logo](https://bloom.host/logo-white.svg)
-<h1>Ban Announcer</h1>
-</div>
-
 ### What does the plugin do?
 This plugin allows you to send a message (like the one below) to a channel in your discord through a discord bot, when somebody receives a punishment. (Muted, Warned, Banned, Unbanned, etc)
 

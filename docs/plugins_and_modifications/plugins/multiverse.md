@@ -17,11 +17,6 @@ keywords:
 image: https://bloom.host/assets/images/logo.png
 ---
 
-<div class="text--center">
-![logo](https://bloom.host/logo-white.svg)
-<h1>Multiverse</h1>
-</div>
-
 ### What does it do?
 
 Multiverse core allows you to create multiple different worlds in one server. You can import maps and create worlds with custom generation! It also easily allows you to teleport to each world that you create using the commands /mv list and /mv tp. Here's an example of the worlds that you could have on your server:  

@@ -14,11 +14,6 @@ keywords:
   - Server 
 image: https://bloom.host/assets/images/logo.png
 ---
-<div class="text--center">
-![logo](https://bloom.host/logo-white.svg)
-<h1>Setting Up Whitelist</h1>
-</div>
-
 ## What Is Whitelisting?
 
 Basically a Whitelist is a list of player's usernames that are permitted to join the server while whitelist is on.

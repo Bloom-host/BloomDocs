@@ -8,11 +8,6 @@ sidebar_label: File Manager Controls
 image: https://bloom.host/assets/images/logo.png
 ---
 
-<div class="text--center">
-![logo](https://bloom.host/logo-white.svg)
-<h1>File Manager Controls</h1>
-</div>
-
 ### SFTP
 
 If you would prefer to use SFTP to manage your files, please see our [guide on SFTP](sftp.md).

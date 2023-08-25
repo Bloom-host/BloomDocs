@@ -13,11 +13,6 @@ keywords:
 image: https://bloom.host/assets/images/logo.png
 ---
 
-<div class="text--center">
-![logo](https://bloom.host/logo-white.svg)
-<h1>Citizens 2</h1>
-</div>
-
 ## What does the plugin do?
 
 Citizens2 is an advanced NPC plugin for Spigot that allows developers to extend basic NPCs to provide varied gameplay and functionality.

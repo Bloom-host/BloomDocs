@@ -18,11 +18,6 @@ keywords:
 image: https://bloom.host/assets/images/logo.png
 ---
 
-<div class="text--center">
-![logo](https://bloom.host/logo-white.svg)
-<h1>Vault</h1>
-</div>
-
 ## What does this plugin do?
 
 Vault provides a common API to give plugins access to chat, permission and economy systems easily and quickly. Instead of plugin developers needing to write support for each individual plugin providing these features, they will only need to write a Vault hook and they can support all plugins providing chat, permission and/or economy systems (provided that the plugin supports Vault).

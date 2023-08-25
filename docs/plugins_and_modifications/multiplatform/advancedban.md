@@ -18,11 +18,6 @@ keywords:
 image: https://bloom.host/assets/images/logo.png
 ---
 
-<div class="text--center">
-![logo](https://bloom.host/logo-white.svg)
-<h1>AdvancedBan</h1>
-</div>
-
 ### What does the plugin do?
 
 Allows your server staff to issue punishments to players who break your server's rules, and can be used as an free alternative to [LiteBans](/multiplatform/litebans).

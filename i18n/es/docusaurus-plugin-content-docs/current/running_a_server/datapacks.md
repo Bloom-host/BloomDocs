@@ -18,11 +18,6 @@ keywords:
 image: https://bloom.host/assets/images/logo.png
 ---
 
-<div class="text--center">
-![logo](https://bloom.host/logo-white.svg)
-<h1>Datapacks</h1>
-</div>
-
 Hola Bloomers! 👋
 
 En esta guía veremos cómo instalar datapacks en tu servidor.

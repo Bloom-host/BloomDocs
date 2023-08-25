@@ -15,11 +15,6 @@ keywords:
 image: https://bloom.host/assets/images/logo.png
 ---
 
-<div class="text--center">
-![logo](https://bloom.host/logo-white.svg)
-<h1>Grafana</h1>
-</div>
-
 This guide will walk you through how to setup Grafana, Prometheus, and UnifiedMetrics so you can have more stats about your minecraft server(s), which couldn't be done without our lovely server splitter :)
 This guide is more complex than others as it's an advance setup, but it will allow you to see tons of cool stats about your server(s).
 

@@ -18,11 +18,6 @@ keywords:
 image: https://bloom.host/assets/images/logo.png
 ---
 
-<div class="text--center">
-![logo](https://bloom.host/logo-white.svg)
-<h1>Datapacks</h1>
-</div>
-
 :::warning
 Datapacks normally use something called functions, which run every tick, and can cause a lot of lag. It's recommended to find a plugin alternative whenever possible.
 :::

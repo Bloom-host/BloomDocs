@@ -8,11 +8,6 @@ sidebar_label: Administrador de Archivos
 image: https://bloom.host/assets/images/logo.png
 ---
 
-<div class="text--center">
-![logo](https://bloom.host/logo-white.svg)
-<h1>Administrador de Archivos</h1>
-</div>
-
 ### SFTP
 
 Si prefieres usar SFTP para manejar tus archivos, revisa nuestra [guía sobre SFTP](sftp.md).

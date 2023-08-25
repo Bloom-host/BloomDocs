@@ -8,11 +8,6 @@ sidebar_label: Scheduling Actions
 image: https://bloom.host/assets/images/logo.png
 ---
 
-<div class="text--center">
-![logo](https://bloom.host/logo-white.svg)
-<h1>Scheduling</h1>
-</div>
-
 
 ### What Are Schedules?
 

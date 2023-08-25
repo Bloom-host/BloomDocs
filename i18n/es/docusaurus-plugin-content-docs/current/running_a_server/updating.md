@@ -8,11 +8,6 @@ sidebar_label: Actualizar o cambiar de versión
 image: https://bloom.host/assets/images/logo.png
 ---
 
-<div class="text--center">
-![logo](https://bloom.host/logo-white.svg)
-<h1>Actualizar o Cambiar de versión</h1>
-</div>
-
 Hola Bloomers! 👋
 
 En esta guía veremos cómo cambiar la versión de tu servidor o actualizar tu versión actual.

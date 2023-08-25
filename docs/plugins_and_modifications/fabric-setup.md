@@ -13,11 +13,6 @@ keywords:
   - Bloom.host
 ---
 
-<div class="text--center">
-![logo](https://bloom.host/logo-white.svg)
-<h1>Setting Up Fabric</h1>
-</div>
-
 ### What is Fabric?
 > "*Fabric is a lightweight, experimental modding toolchain for Minecraft.*"
 > 

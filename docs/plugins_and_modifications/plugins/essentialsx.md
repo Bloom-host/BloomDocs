@@ -18,11 +18,6 @@ keywords:
 image: https://bloom.host/assets/images/logo.png
 ---
 
-<div class="text--center">
-![logo](https://bloom.host/logo-white.svg)
-<h1>EssentialsX</h1>
-</div>
-
 :::important
 This guide does not cover any of EssentialsX's modules, such as EssentialsX Chat, EssentialsX Discord or EssentialsX Geo (formerly EssentialsX GeoIP). Please check the [EssentialsX wiki](https://essentialsx.net/wiki/Module-Breakdown.html) for information on these modules.
 

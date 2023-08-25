@@ -16,11 +16,6 @@ keywords:
   - Server Split
 image: https://bloom.host/assets/images/logo.png
 ---
-<div class="text--center">
-![logo](https://bloom.host/logo-white.svg)
-<h1>Setting Up Waterfall</h1>
-</div>
-
 
 :::caution
 Configuring BungeeGuard is essential to secure your backend servers. Read until the end of the article to learn how to configure BungeeGuard!

@@ -10,11 +10,6 @@ keywords:
   - Caddy Server
 ---
 
-<div class="text--center">
-![logo](https://bloom.host/logo-white.svg)
-<h1>Creando un split de Servidor Web Caddy</h1>
-</div>
-
 Hola Bloomers! 👋
 
 En esta guía veremos cómo crear un split Caddy para poder hostear páginas web en tu servidor de Bloom.host.

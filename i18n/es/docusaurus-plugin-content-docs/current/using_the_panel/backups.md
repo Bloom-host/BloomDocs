@@ -8,11 +8,6 @@ sidebar_label: Administrando Backups
 image: https://bloom.host/assets/images/logo.png
 ---
 
-<div class="text--center">
-![logo](https://bloom.host/logo-white.svg)
-<h1>Backups</h1>
-</div>
-
 ### ¿Cómo son administrados los Backups?
 
 - Puedes crear backups incrementales completamente gratuitos. Incrementales significa que, después del primer backup,

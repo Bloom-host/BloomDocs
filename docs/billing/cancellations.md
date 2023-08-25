@@ -11,11 +11,6 @@ keywords:
   - cancellations
 ---
 
-<div class="text--center">
-![logo](https://bloom.host/logo-white.svg)
-<h1>How to request a cancellation</h1>
-</div>
-
 Hey Bloomers! In this guide we will be going over how to request a cancellation.
 
 ## How to request a cancellation

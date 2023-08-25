@@ -8,11 +8,6 @@ sidebar_label: Basic Controls
 image: https://bloom.host/assets/images/logo.png
 ---
 
-<div class="text--center">
-![logo](https://bloom.host/logo-white.svg)
-<h1>Basic Panel Controls</h1>
-</div>
-
 ### Accessing The Panel
 
 You can access your server's main control panel [here](https://mc.bloom.host/). If you have multiple servers, you can choose which you want to modify from the panel page. Or, simply choose the server you want to control from the drop-down box of each page within the panel.

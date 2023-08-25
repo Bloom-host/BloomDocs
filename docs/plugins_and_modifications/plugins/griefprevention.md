@@ -17,11 +17,6 @@ keywords:
 image: https://bloom.host/assets/images/logo.png
 ---
 
-<div class="text--center">
-![logo](https://bloom.host/logo-white.svg)
-<h1>GriefPrevention</h1>
-</div>
-
 ## What does the plugin do?
 
 GriefPrevention is a land claiming / region plugin that is simple and easy to use for your players. Claiming land using this plugin is simple, even for people unfamiliar to commands as claiming land requires two right-clicks from the claim tool (default golden shovel).

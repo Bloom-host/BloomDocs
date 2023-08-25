@@ -14,11 +14,6 @@ keywords:
   - billing
 ---
 
-<div class="text--center">
-![logo](https://bloom.host/logo-white.svg)
-<h1>Suspensions and Terminations</h1>
-</div>
-
 Hey Bloomers! In this guide we will be going over how service Suspensions and Terminations work.
 
 ## How can I see the due date of my service?

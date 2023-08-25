@@ -8,11 +8,6 @@ sidebar_label: PLAN (Player Analytics)
 image: https://bloom.host/assets/images/logo.png
 ---
 
-<div class="text--center">
-![logo](https://bloom.host/logo-white.svg)
-<h1>Plan - Player Analytics</h1>
-</div>
-
 ### How to set up PLAN (Player Analytics)	
 
 Plan is an extremely popular & useful plugin that you can use to track server stats such as player counts, average playtime, and much more. You can check out the plugin [here](https://www.spigotmc.org/resources/plan-player-analytics.32536/).

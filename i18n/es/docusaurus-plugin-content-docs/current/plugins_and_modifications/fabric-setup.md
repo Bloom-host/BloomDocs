@@ -13,11 +13,6 @@ keywords:
   - Bloom.host
 ---
 
-<div class="text--center">
-![logo](https://bloom.host/logo-white.svg)
-<h1>Setting Up Fabric</h1>
-</div>
-
 Hola Bloomers! 👋
 
 En esta guía veremos cómo instalar Fabric en tu servidor.

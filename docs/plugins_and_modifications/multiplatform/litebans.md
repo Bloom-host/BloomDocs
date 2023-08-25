@@ -19,11 +19,6 @@ keywords:
 image: https://bloom.host/assets/images/logo.png
 ---
 
-<div class="text--center">
-![logo](https://bloom.host/logo-white.svg)
-<h1>Litebans</h1>
-</div>
-
 ## What does the plugin do?
 
 LiteBans is a premium plugin that allows you and your server staff to manage and distribute punishments to your players. It is a plugin that can be used on Spigot/Paper or BungeeCord/Waterfall/Velocity servers. 

@@ -11,11 +11,6 @@ keywords:
   - Virtual Private Server
 ---
 
-<div class="text--center">
-![logo](https://bloom.host/logo-white.svg)
-<h1>How to change your VPS password</h1>
-</div>
-
 Hey Bloomers! In this guide we will be going over how to change your VPS or VNC password.
 
 ## How to change your VPS SSH password?

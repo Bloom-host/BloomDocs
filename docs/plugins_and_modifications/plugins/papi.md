@@ -10,11 +10,6 @@ image: https://bloom.host/assets/images/logo.png
 ---
 
 
-<div class="text--center">
-![logo](https://bloom.host/logo-white.svg)
-<h1>PlaceholderAPI</h1>
-</div>
-
 ## Introduction
 
 PlaceholderAPI (sometimes referred to as PAPI) is a plugin library that allows servers to display information from many plugins using a common format. 

@@ -8,11 +8,6 @@ sidebar_label: Importador de Servidores
 image: https://bloom.host/assets/images/logo.png
 ---
 
-<div class="text--center">
-![logo](https://bloom.host/logo-white.svg)
-<h1>Importador de Servidores</h1>
-</div>
-
 ### Cómo funciona
 
 Duck Panel tiene un importador de servidores conveniente. Este te permite importar fácilmente tu servidor desde otro host

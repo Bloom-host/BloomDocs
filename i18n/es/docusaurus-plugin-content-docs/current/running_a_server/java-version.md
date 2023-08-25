@@ -9,11 +9,6 @@ description: Instrucciones sobre cómo cambiar la versión de Java usada en tu s
 image: https://bloom.host/assets/images/logo.png
 ---
 
-<div class="text--center">
-![logo](https://bloom.host/logo-white.svg)
-<h1>Cambiando la Versión de Java</h1>
-</div>
-
 Hola Bloomers! 👋
 
 En esta guía veremos cómo cambiar la versión de Java de tu servidor.

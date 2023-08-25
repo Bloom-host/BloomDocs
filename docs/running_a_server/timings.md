@@ -20,11 +20,6 @@ keywords:
 image: https://bloom.host/assets/images/logo.png
 ---
 
-<div class="text--center">
-![logo](https://bloom.host/logo-white.svg)
-<h1>Timings</h1>
-</div>
-
 # **How to take a Timings Report**
 
 :::note

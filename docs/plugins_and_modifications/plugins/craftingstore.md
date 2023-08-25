@@ -16,11 +16,6 @@ keywords:
 image: https://bloom.host/assets/images/logo.png
 ---
 
-<div class="text--center">
-![logo](https://bloom.host/logo-white.svg)
-<h1>CraftingStore</h1>
-</div>
-
 ## What is CraftingStore?
 
 Crafting store is an automatic Minecraft donation store page where you can create your own webpage and sell things like keys and ranks to your players. It is a monetization/donation platform for your server, and handles the payment gateways for you. 

@@ -14,11 +14,6 @@ keywords:
   - 2FA Gameserver
 image: ../static/img/2fa/2fa1.png
 ---
-
-<div class="text--center">
-![logo](https://bloom.host/logo-white.svg)
-<h1>Autentificación de 2 Factores</h1>
-</div>
  
 Hola Bloomers! 👋
 

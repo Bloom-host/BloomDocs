@@ -14,11 +14,6 @@ keywords:
   - Server packs
 ---
 
-<div class="text--center">
-![logo](https://bloom.host/logo-white.svg)
-<h1>Installing Modpacks from CurseForge</h1>
-</div>
-
 ## New One-Click Modpack Installer from Bloom
 
 :::important

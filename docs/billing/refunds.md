@@ -13,11 +13,6 @@ keywords:
   - request refund
 ---
 
-<div class="text--center">
-![logo](https://bloom.host/logo-white.svg)
-<h1>How to request a refund</h1>
-</div>
-
 Hey Bloomers! In this guide we will be going over how to request a refund.
 
 ## How to know if you are eligible for a refund

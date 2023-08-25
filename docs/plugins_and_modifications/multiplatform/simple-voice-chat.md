@@ -8,11 +8,6 @@ sidebar_label: Simple Voice Chat
 image: https://bloom.host/assets/images/logo.png
 ---
 
-<div class="text--center">
-![logo](https://bloom.host/logo-white.svg)
-<h1>Installing Simple Voice Chat</h1>
-</div>
-
 :::note
 You also need to install **Simple Voice Chat** on your game client!
 :::

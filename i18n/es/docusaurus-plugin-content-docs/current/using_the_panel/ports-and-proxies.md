@@ -9,11 +9,6 @@ description: Esta guía te ayudará a crear un proxy inverso.
 image: https://bloom.host/assets/images/logo.png
 ---
 
-<div class="text--center">
-![logo](https://bloom.host/logo-white.svg)
-<h1>Creando un Proxy Inverso</h1>
-</div>
-
 ---
 :::warning
 Los proxies inversos solo pueden ser usados para conexiones web (como HTTPS). Si deseas unirte a tu servidor usando un

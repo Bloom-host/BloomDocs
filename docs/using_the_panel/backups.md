@@ -8,11 +8,6 @@ sidebar_label: Managing Backups
 image: https://bloom.host/assets/images/logo.png
 ---
 
-<div class="text--center">
-![logo](https://bloom.host/logo-white.svg)
-<h1>Backups</h1>
-</div>
-
 ### How Are Backups Handled?
 
 - Create completely free backups with the panel utilizing Borg for incremental backups. This means, after the first backup, it will only save and upload the files which were changed since the last backup. All backups are off-site!

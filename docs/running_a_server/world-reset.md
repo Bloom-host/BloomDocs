@@ -16,11 +16,6 @@ keywords:
 image: https://bloom.host/assets/images/logo.png
 ---
 
-<div class="text--center">
-![logo](https://bloom.host/logo-white.svg)
-<h1>Resetting your world</h1>
-</div>
-
 You'll need a way to access your server files. This tutorial references the [web panel](https://mc.bloom.host), but you can also use [SFTP](https://docs.bloom.host/how-to-use-sftp). **Shutdown your server before proceeding!**
 
 Either way, go to the root directory of your server. On the web panel, this can be done by selecting your server, dropping down the "File Management" menu, then selecting "File Explorer". When you connect to your server via SFTP, you should be already at your root directory.

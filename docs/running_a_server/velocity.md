@@ -16,11 +16,6 @@ keywords:
   - Server Split
 image: https://bloom.host/assets/images/logo.png
 ---
-<div class="text--center">
-![logo](https://bloom.host/logo-white.svg)
-<h1>Setting Up Velocity</h1>
-</div>
-
 :::important
 
 When running your servers behind a proxy like Velocity or Waterfall, it requires them to be set to offline-mode. Normally hosting companies will not provide support for offline mode servers, but in this case it is required for the proxy to function properly. It will act as the gateway to your servers and handle authentication for you.

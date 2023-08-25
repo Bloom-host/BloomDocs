@@ -16,11 +16,6 @@ keywords:
 image: https://bloom.host/assets/images/logo.png
 ---
 
-<div class="text--center">
-![logo](https://bloom.host/logo-white.svg)
-<h1>VentureChat</h1>
-</div>
-
 ### What does the plugin do?
 
 VentureChat is the #1 Bukkit chat resource on Spigot which is a do-it-all chat plugin, from chat-format to customisable channels, you can accomplish this all with VentureChat. Unlike competing plugins such as HeroChat Pro and EssentialsX, you can customise to your liking for free and with ease. It is notable that VentureChat is one of the few chat plugins to fully support HEX colours easily.

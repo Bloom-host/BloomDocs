@@ -9,11 +9,6 @@ description: Using MCASelector on your server
 image: https://bloom.host/assets/images/logo.png
 ---
 
-<div class="text--center">
-![logo](https://bloom.host/logo-white.svg)
-<h1>MCASelector CLI</h1>
-</div>
-
 [MCASelector](https://github.com/Querz/mcaselector) is an extremely helpful graphical and CLI tool that server administrators can use to modify their worlds, for example, to remove unused chunks to lower disk usage and so on.
 
 To avoid having to download and re-upload your world each time, Bloom has a pre-installation for this under 'No Support Games'.

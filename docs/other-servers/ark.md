@@ -1,9 +1,9 @@
 ---
 id: ark
-title: ARK - Survival Evolved
+title: ARK Survival Evolved
 hide_title: true
 hide_table_of_contents: true
-sidebar_label: ARK - Survival Evolved
+sidebar_label: ARK Survival Evolved
 description: This guide will help you configure the ARK - Survival Evolved server.
 keywords:
   - Ark
@@ -11,11 +11,6 @@ keywords:
   - Ark Survival Evolved
 image: https://bloom.host/assets/images/logo.png
 ---
-
-<div class="text--center">
-![logo](https://bloom.host/logo-white.svg)
-<h1>ARK Survival Evolved</h1>
-</div>
 
 Hello there Bloomers! 👋 
 

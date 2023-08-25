@@ -19,11 +19,6 @@ keywords:
 image: https://bloom.host/assets/images/logo.png
 ---
 
-<div class="text--center">
-![logo](https://bloom.host/logo-white.svg)
-<h1>Server Optimization Guide</h1>
-</div>
-
 
 Since 1.13, Minecraft servers have gotten progressively harder to run.
 There are a few ways to make your server run better, we will be outlining some here.

@@ -11,11 +11,6 @@ keywords:
   - transfer
 ---
 
-<div class="text--center">
-![logo](https://bloom.host/logo-white.svg)
-<h1>How upgrades, downgrades and transfers work</h1>
-</div>
-
 Hey Bloomers! In this guide we will be going over how upgrades, downgrades and transfers work.
 
 ## How to upgrade, downgrade or transfer your server to another Bloom datacenter location

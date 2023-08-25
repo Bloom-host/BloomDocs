@@ -8,11 +8,6 @@ sidebar_label: Proxy (BungeeCord/Velocity) Plugins
 image: https://bloom.host/assets/images/logo.png
 ---
 
-<div class="text--center">
-![logo](https://bloom.host/logo-white.svg)
-<h1>Spigot Plugins</h1>
-</div>
-
 :::important
 This guide is for BungeeCord/Velocity proxies. If you are looking for instructions on how to install plugins on a Bukkit/Spigot/Paper server, please see [this guide](installing-plugins.md)
 :::

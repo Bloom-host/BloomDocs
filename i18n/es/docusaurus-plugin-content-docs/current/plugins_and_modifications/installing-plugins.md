@@ -8,11 +8,6 @@ sidebar_label: Instalando Plugins Spigot
 image: https://bloom.host/assets/images/logo.png
 ---
 
-<div class="text--center">
-![logo](https://bloom.host/logo-white.svg)
-<h1>Plugins Spigot</h1>
-</div>
-
 Hola Bloomers! 👋
 
 En esta guía veremos cómo instalar plugins Spigot en tu servidor.

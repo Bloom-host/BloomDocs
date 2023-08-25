@@ -10,11 +10,6 @@ keywords:
   - Caddy Server
 ---
 
-<div class="text--center">
-![logo](https://bloom.host/logo-white.svg)
-<h1>Creating a Caddy Split Server</h1>
-</div>
-
 Hello Ducklings!
 
 This guide will create a Caddy split server on Bloom.host.

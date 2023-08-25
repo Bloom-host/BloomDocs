@@ -8,11 +8,6 @@ sidebar_label: Añadiendo Sub-Usuarios
 image: https://bloom.host/assets/images/logo.png
 ---
 
-<div class="text--center">
-![logo](https://bloom.host/logo-white.svg)
-<h1>Sub-Usuarios</h1>
-</div>
-
 ### Qué son Sub-Usuarios?
 Puedes darles acceso parcial a tu servidor a personas como miembros de tu Staff. Estos "mini usuarios" se llaman Sub-Usuarios.
 

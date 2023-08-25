@@ -16,11 +16,6 @@ keywords:
 image: https://bloom.host/assets/images/logo.png
 ---
 
-<div class="text--center">
-![logo](https://bloom.host/logo-white.svg)
-<h1>Server MOTD</h1>
-</div>
-
 ## How to change your MOTD without a plugin
 
 First you need to write your MOTD, you can use [this website](https://mctools.org/motd-creator) to help you. Once  you have your MOTD like you want it, copy the `server.properties` code, like the one shown below

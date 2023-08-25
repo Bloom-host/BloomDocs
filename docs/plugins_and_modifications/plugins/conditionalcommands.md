@@ -17,11 +17,6 @@ keywords:
 image: https://bloom.host/assets/images/logo.png
 ---
 
-<div class="text--center">
-![logo](https://bloom.host/logo-white.svg)
-<h1>Conditional Commands</h1>
-</div>
-
 ### Introduction to how all anticheat plugins work:
 - Anticheat plugins have various "checks" that detect cheating (say if a player is going above a certain speed limit)
   - When these checks are triggered, the anticheat adds "VL" or violation level points to the offender

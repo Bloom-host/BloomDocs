@@ -17,11 +17,6 @@ keywords:
 image: https://bloom.host/assets/images/logo.png
 ---
 
-<div class="text--center">
-![logo](https://bloom.host/logo-white.svg)
-<h1>AjParkour</h1>
-</div>
-
 ## What does it do?
 
 [ajParkour](https://www.spigotmc.org/resources/ajparkour-rewards-1-7-10-1-18-x-mysql-storage-option.60909/) automatically generates parkour courses on the fly, below your players feet.

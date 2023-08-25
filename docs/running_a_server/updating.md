@@ -8,11 +8,6 @@ sidebar_label: Updating or changing versions
 image: https://bloom.host/assets/images/logo.png
 ---
 
-<div class="text--center">
-![logo](https://bloom.host/logo-white.svg)
-<h1>How to update or change the version of your server</h1>
-</div>
-
 ### Introduction
 ![logo](/imgs/running_a_server/updating/1.png)
 

@@ -1,6 +1,7 @@
 ---
 id: contributing
 title: Contributing
+header: How to contribute
 hide_title: true
 hide_table_of_contents: true
 sidebar_label: How to contribute to the docs
@@ -12,11 +13,6 @@ keywords:
   - Minecraft
 image: https://bloom.host/assets/images/logo.png
 ---
-
-<div class="text--center">
-![logo](https://bloom.host/logo-white.svg)
-<h1>How to contribute</h1>
-</div>
 
 ## The simple way
 Write new articles in your preferred format, and make a support ticket in our [Discord](https://discord.gg/bloom), and we will convert it over for you. The recommended format would be Markdown. You can also send a Word or Google Docs document and we will upload it to our documentation.

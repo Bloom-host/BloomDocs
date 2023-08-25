@@ -11,11 +11,6 @@ keywords:
   - Backups
 ---
 
-<div class="text--center">
-![logo](https://bloom.host/logo-white.svg)
-<h1>ClumsyLoader</h1>
-</div>
-
 Hey Bloomers! In this guide we will be going over how to use ClumsyLoader to download your panel backups to a VPS or to your local computer.
 
 An example use case for this tool is if you want to take your own backups, you can run this tool on a server of some kind and have it run on a schedule, constantly downloading your backups for you automatically

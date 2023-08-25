@@ -11,11 +11,6 @@ keywords:
   - Virtual Private Server
 ---
 
-<div class="text--center">
-![logo](https://bloom.host/logo-white.svg)
-<h1>Getting Started with a VPS</h1>
-</div>
-
 Hey Bloomers! In this guide we will be going over how to get started with a VPS.
 
 ## What is a VPS?

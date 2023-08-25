@@ -17,11 +17,6 @@ keywords:
 image: https://bloom.host/assets/images/logo.png
 ---
 
-<div class="text--center">
-![logo](https://bloom.host/logo-white.svg)
-<h1>Chunky</h1>
-</div>
-
 ### What does the plugin/mod do?
 
 Chunky is a fast, easy, and safe tool for pre-generating chunks on your server.

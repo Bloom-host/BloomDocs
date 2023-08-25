@@ -1,6 +1,7 @@
 ---
 id: ping-issues
 title: How to diagnose and fix ping issues
+header: Ping Issues
 hide_title: true
 hide_table_of_contents: true
 sidebar_label: How to diagnose and fix ping issues
@@ -12,11 +13,6 @@ keywords:
   - ping
 image: https://bloom.host/assets/images/logo.png
 ---
-
-<div class="text--center">
-![logo](https://bloom.host/logo-white.svg)
-<h1>Ping Issues</h1>
-</div>
 
 Hello Bloomers! 👋
 

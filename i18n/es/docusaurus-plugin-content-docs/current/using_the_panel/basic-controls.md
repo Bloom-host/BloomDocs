@@ -8,11 +8,6 @@ sidebar_label: Controles Básicos
 image: https://bloom.host/assets/images/logo.png
 ---
 
-<div class="text--center">
-![logo](https://bloom.host/logo-white.svg)
-<h1>Controles Básicos del Panel</h1>
-</div>
-
 ### Accediendo al Panel
 
 Puedes acceder al panel de control de tu servidor [aquí](https://mc.bloom.host/).

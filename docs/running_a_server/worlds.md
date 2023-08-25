@@ -9,11 +9,6 @@ description: Learn how you can upload, export and manage your Minecraft worlds.
 image: https://bloom.host/assets/images/logo.png
 ---
 
-<div class="text--center">
-![logo](https://bloom.host/logo-white.svg)
-<h1>Managing Worlds</h1>
-</div>
-
 :::note
 If you'd like to import ALL your files from another hosting company, please follow our [Server Importer](../using_the_panel/server-importer.md) guide instead!
 :::

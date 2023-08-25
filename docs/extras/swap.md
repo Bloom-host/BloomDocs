@@ -16,11 +16,6 @@ keywords:
 image: https://bloom.host/assets/images/logo.png
 ---
 
-<div class="text--center">
-![logo](https://bloom.host/logo-white.svg)
-<h1>SWAP</h1>
-</div>
-
 ## SWAP
 
 Hello! This guide will walk you through disabling swap, and issues that may arise with doing so.

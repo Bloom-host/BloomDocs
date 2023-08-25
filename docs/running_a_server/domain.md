@@ -17,11 +17,6 @@ keywords:
 image: https://bloom.host/assets/images/logo.png
 ---
 
-<div class="text--center">
-![logo](https://bloom.host/logo-white.svg)
-<h1>Using a Domain</h1>
-</div>
-
 Hello there Bloomers! 👋 
 
 In this guide, we will go over on how to make your server go from lots of numbers (`148.251.209.38:25565`) to a fancy domain name such as `play.example.com`!

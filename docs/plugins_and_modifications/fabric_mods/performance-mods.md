@@ -1,6 +1,7 @@
 ---
 id: performance-mods
 title: Performance Mods
+header: Performance Mods for Fabric
 slug: /f_performance_mods
 hide_title: true
 hide_table_of_contents: false
@@ -14,11 +15,6 @@ keywords:
   - Minecraft
 image: https://bloom.host/assets/images/logo.png
 ---
-
-<div class="text--center">
-![logo](https://bloom.host/logo-white.svg)
-<h1>Performance Mods for Fabric</h1>
-</div>
 
 :::note
 Make sure to also check out the [Server Optimization Guide](../../running_a_server/optimization.md)

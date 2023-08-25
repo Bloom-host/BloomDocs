@@ -13,11 +13,6 @@ keywords:
   - minecraft email
 ---
 
-<div class="text--center">
-![logo](https://bloom.host/logo-white.svg)
-<h1>How to change your account email address</h1>
-</div>
-
 Hey Bloomers! In this guide we will be going over how to change your account email address in our Billing and Minecraft panel.
 
 ## How to change your Billing Panel Email Address

@@ -17,11 +17,6 @@ keywords:
   - Pterodactyl Panel
 ---
 
-<div class="text--center">
-![logo](https://bloom.host/logo-white.svg)
-<h1>Usando SFTP</h1>
-</div>
-
 ### Qué es SFTP?
 
 **S**SH **F**ile **T**ransfer **P**rotocol es uno de los métodos más populares para transferir archivos de forma segura
