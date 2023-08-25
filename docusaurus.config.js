@@ -13,7 +13,7 @@ module.exports = {
     ],
 
     themeConfig: {
-        image: '/meta.png',
+        image: 'https://bloom.host/favicon/favicon-og.png',
         colorMode: {
             defaultMode: 'dark',
             disableSwitch: false,
