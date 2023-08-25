@@ -4,7 +4,6 @@ title: Bases de Datos
 slug: /databases
 hide_table_of_contents: true
 sidebar_label: Bases de Datos MySQL
-image: https://bloom.host/assets/images/logo.png
 ---
 
 ### Resumen

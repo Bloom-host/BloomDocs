@@ -13,7 +13,6 @@ keywords:
   - Bloom.host
   - Pterodactyl Panel
   - Minecraft
-image: https://bloom.host/assets/images/logo.png
 ---
 
 ### Introduction to how all anticheat plugins work:

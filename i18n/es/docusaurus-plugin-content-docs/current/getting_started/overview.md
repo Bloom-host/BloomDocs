@@ -4,7 +4,6 @@ title: Documentación de Bloom
 slug: /
 hide_table_of_contents: true
 sidebar_label: Resumen de la Documentación
-image: https://bloom.host/assets/images/logo.png
 ---
 
 La mayoría de los artículos en esta documentación fueron creados por nuestra comunidad. Puedes ayudarnos también!

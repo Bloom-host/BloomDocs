@@ -12,7 +12,6 @@ keywords:
   - plugins
   - Bloom.host
   - Minecraft
-image: https://bloom.host/assets/images/logo.png
 ---
 
 ## What is CraftingStore?

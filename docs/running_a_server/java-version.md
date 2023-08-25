@@ -5,7 +5,6 @@ slug: /java-version
 hide_table_of_contents: true
 sidebar_label: Changing Java Version
 description: Instructions on how to change the version of Java used on your server
-image: https://bloom.host/assets/images/logo.png
 ---
 
 Bloom.host offers different versions of Java to suit your server. The default Java 11 (8 for Forge servers if you specified that when purchasing your server.) will suit most people.

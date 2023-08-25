@@ -4,7 +4,6 @@ slug: /server-importer
 title: Server Importer
 hide_table_of_contents: true
 sidebar_label: Server Importer
-image: https://bloom.host/assets/images/logo.png
 ---
 
 ### How it works

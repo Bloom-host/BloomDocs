@@ -11,7 +11,6 @@ keywords:
   - Pterodactyl Panel
   - 2FA
   - 2FA Gameserver
-image: ../static/img/2fa/2fa1.png
 ---
  
 Hey there Bloomers! 👋

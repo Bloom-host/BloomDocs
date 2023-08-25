@@ -4,7 +4,6 @@ title: Backups
 slug: /backups
 hide_table_of_contents: false
 sidebar_label: Managing Backups
-image: https://bloom.host/assets/images/logo.png
 ---
 
 ### How Are Backups Handled?

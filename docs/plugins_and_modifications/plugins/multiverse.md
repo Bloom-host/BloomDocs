@@ -13,7 +13,6 @@ keywords:
   - Bloom Host
   - Pterodactyl Panel
   - Minecraft
-image: https://bloom.host/assets/images/logo.png
 ---
 
 ### What does it do?

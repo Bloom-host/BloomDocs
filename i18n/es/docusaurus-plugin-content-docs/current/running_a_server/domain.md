@@ -13,7 +13,6 @@ keywords:
   - Minecraft Domain
   - A Record
   - Bloom.host
-image: https://bloom.host/assets/images/logo.png
 ---
 
 Hola Bloomers! 👋 

@@ -13,7 +13,6 @@ keywords:
   - Spigot
   - Bloom.host
   - Minecraft
-image: https://bloom.host/assets/images/logo.png
 ---
 
 You need to have GeyserMC installed to use these addons!

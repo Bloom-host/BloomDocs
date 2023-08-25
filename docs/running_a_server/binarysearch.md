@@ -11,7 +11,6 @@ keywords:
   - Troubleshoot
   - Troubleshooting
   - Error
-image: https://bloom.host/assets/images/logo.png
 ---
 
 A common problem that server owners encounter is that they have a bug on their server that is not caused by the server JAR or any of its configurations, server settings, and other external factors. When you are certain that it is a plugin causing the issue but not sure which **among** your plugins are causing the issue, one of the best things to do is conduct a binary search.

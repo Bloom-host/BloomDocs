@@ -22,6 +22,8 @@ module.exports = {
         metadata: [
             {name: 'og:site_name', content: 'Bloom.host'},
             {name: 'theme-color', content: '#ff6300'},
+            {name: 'og:image', content: 'https://bloom.host/favicon/favicon-og.png'},
+            {name: 'twitter:image', content: 'https://bloom.host/favicon/favicon-og.png'}
         ],
 
         algolia: {

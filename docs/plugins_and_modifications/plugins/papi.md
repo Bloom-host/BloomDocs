@@ -5,7 +5,6 @@ slug: /plugins/placeholderapi
 hide_table_of_contents: true
 sidebar_label: PlaceholderAPI
 description: Information about PlaceholderAPI Bukkit plugin
-image: https://bloom.host/assets/images/logo.png
 ---
 
 

@@ -13,7 +13,6 @@ keywords:
   - Server
   - Modern Forwarding
   - Server Split
-image: https://bloom.host/assets/images/logo.png
 ---
 :::important
 

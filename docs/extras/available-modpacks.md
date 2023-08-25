@@ -11,7 +11,6 @@ keywords:
   - Modpack installer
   - Modpacks installer
   - Installer
-image: https://bloom.host/assets/images/logo.png
 ---
 
 Hello Bloomers! 👋

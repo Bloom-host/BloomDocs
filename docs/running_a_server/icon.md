@@ -11,7 +11,6 @@ keywords:
   - Pterodactyl Panel
   - Minecraft
   - server-icon
-image: https://bloom.host/assets/images/logo.png
 ---
 
 1. Grab the picture you want to use and head over to http://www.genfavicon.com/

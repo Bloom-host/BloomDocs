@@ -21,7 +21,6 @@ keywords:
   - Plugin Server Jars
   - Bloom.host
   - Minestom 
-image: https://bloom.host/assets/images/logo.png
 ---
 
 ## Recommended Software:

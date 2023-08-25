@@ -8,7 +8,6 @@ keywords:
   - Bloom.host
   - Edit Account Details
   - Pterodactyl Panel
-image: https://bloom.host/assets/images/logo.png
 ---
 
 Hello Bloomers! 👋

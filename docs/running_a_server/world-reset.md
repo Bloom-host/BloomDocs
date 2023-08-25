@@ -12,7 +12,6 @@ keywords:
   - Spigot
   - Plugins
   - Bloom.host
-image: https://bloom.host/assets/images/logo.png
 ---
 
 You'll need a way to access your server files. This tutorial references the [web panel](https://mc.bloom.host), but you can also use [SFTP](https://docs.bloom.host/how-to-use-sftp). **Shutdown your server before proceeding!**

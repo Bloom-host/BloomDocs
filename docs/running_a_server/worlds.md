@@ -5,7 +5,6 @@ slug: /worlds
 hide_table_of_contents: true
 sidebar_label: Managing Worlds
 description: Learn how you can upload, export and manage your Minecraft worlds.
-image: https://bloom.host/assets/images/logo.png
 ---
 
 :::note

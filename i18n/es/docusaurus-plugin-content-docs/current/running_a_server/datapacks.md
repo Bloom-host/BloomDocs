@@ -14,7 +14,6 @@ keywords:
   - Bloom.host
   - Pterodactyl Panel
   - Minecraft
-image: https://bloom.host/assets/images/logo.png
 ---
 
 Hola Bloomers! 👋

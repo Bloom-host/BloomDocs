@@ -11,7 +11,6 @@ keywords:
   - Security
   - Secure
   - Server 
-image: https://bloom.host/assets/images/logo.png
 ---
 ## What Is Whitelisting?
 

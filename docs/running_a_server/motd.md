@@ -12,7 +12,6 @@ keywords:
   - 1.16
   - Minecraft
   - Bloom.host
-image: https://bloom.host/assets/images/logo.png
 ---
 
 ## How to change your MOTD without a plugin

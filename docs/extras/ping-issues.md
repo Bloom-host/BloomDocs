@@ -10,7 +10,6 @@ keywords:
   - ping issues
   - MTR
   - ping
-image: https://bloom.host/assets/images/logo.png
 ---
 
 Hello Bloomers! 👋

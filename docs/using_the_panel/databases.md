@@ -4,7 +4,6 @@ title: Databases
 slug: /databases
 hide_table_of_contents: true
 sidebar_label: MySQL Databases
-image: https://bloom.host/assets/images/logo.png
 ---
 
 ### Overview

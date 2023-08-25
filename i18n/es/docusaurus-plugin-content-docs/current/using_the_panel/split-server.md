@@ -11,7 +11,6 @@ keywords:
   - Pterodactyl Panel
   - Minecraft
   - Bloom.host
-image: https://bloom.host/assets/images/logo.png
 ---
 
 Bloom.host te permite dividir el servidor que tienes comprado, por ejemplo para crear una network de diferentes modalidades

@@ -5,7 +5,6 @@ slug: /ports-and-proxies
 hide_table_of_contents: true
 sidebar_label: Creando un Proxy Inverso
 description: Esta guía te ayudará a crear un proxy inverso.
-image: https://bloom.host/assets/images/logo.png
 ---
 
 ---

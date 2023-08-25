@@ -8,7 +8,6 @@ keywords:
   - Ark
   - Survival Evolved
   - Ark Survival Evolved
-image: https://bloom.host/assets/images/logo.png
 ---
 
 Hello there Bloomers! 👋 

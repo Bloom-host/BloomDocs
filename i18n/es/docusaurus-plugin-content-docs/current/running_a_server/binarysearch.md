@@ -11,7 +11,6 @@ keywords:
   - Troubleshoot
   - Troubleshooting
   - Error
-image: https://bloom.host/assets/images/logo.png
 ---
 
 Hola Bloomers! 👋

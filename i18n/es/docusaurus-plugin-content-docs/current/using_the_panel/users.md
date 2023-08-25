@@ -4,7 +4,6 @@ title: Sub-Usuarios
 slug: /users
 hide_table_of_contents: true
 sidebar_label: Añadiendo Sub-Usuarios
-image: https://bloom.host/assets/images/logo.png
 ---
 
 ### Qué son Sub-Usuarios?

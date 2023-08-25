@@ -4,7 +4,6 @@ slug: /server-importer
 title: Importador de Servidores
 hide_table_of_contents: true
 sidebar_label: Importador de Servidores
-image: https://bloom.host/assets/images/logo.png
 ---
 
 ### Cómo funciona

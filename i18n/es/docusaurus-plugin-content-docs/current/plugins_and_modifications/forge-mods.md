@@ -12,7 +12,6 @@ keywords:
   - Minecraft
   - Fabric
   - Mods
-image: https://bloom.host/assets/images/logo.png
 ---
 
 Hola Bloomers! 👋

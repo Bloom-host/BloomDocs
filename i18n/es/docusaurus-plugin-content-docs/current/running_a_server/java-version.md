@@ -5,7 +5,6 @@ slug: /java-version
 hide_table_of_contents: true
 sidebar_label: Cambiando la Versión de Java
 description: Instrucciones sobre cómo cambiar la versión de Java usada en tu servidor
-image: https://bloom.host/assets/images/logo.png
 ---
 
 Hola Bloomers! 👋

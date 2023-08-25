@@ -4,7 +4,6 @@ title: How to update or change version
 sslug: /updating
 hide_table_of_contents: true
 sidebar_label: Updating or changing versions
-image: https://bloom.host/assets/images/logo.png
 ---
 
 ### Introduction

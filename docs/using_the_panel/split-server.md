@@ -11,7 +11,6 @@ keywords:
   - Pterodactyl Panel
   - Minecraft
   - Bloom.host
-image: https://bloom.host/assets/images/logo.png
 ---
 
 Bloom.host allows you to split the server that you have with them, for example to run more Minecraft servers for different gamemodes or to run a Discord bot off of your server.

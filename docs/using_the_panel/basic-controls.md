@@ -4,7 +4,6 @@ slug: /basic-controls
 title: Basic Controls
 hide_table_of_contents: true
 sidebar_label: Basic Controls
-image: https://bloom.host/assets/images/logo.png
 ---
 
 ### Accessing The Panel

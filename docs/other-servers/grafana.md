@@ -11,7 +11,6 @@ keywords:
   - Bloom.host
   - UnifiedMetrics
   - Prometheus
-image: https://bloom.host/assets/images/logo.png
 ---
 
 This guide will walk you through how to setup Grafana, Prometheus, and UnifiedMetrics so you can have more stats about your minecraft server(s), which couldn't be done without our lovely server splitter :)

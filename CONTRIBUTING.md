@@ -33,7 +33,6 @@ slug: <id>
 hide_table_of_contents: true
 sidebar_label: <sidebar title>
 description: <short description>
-image: https://bloom.host/assets/images/logo.png
 ---
 ```
 ```html

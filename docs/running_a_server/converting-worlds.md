@@ -14,7 +14,6 @@ keywords:
  - world
  - saves
 
-image: https://bloom.host/assets/images/logo.png
 ---
 
 # Converting Bukkit Worlds to vanilla

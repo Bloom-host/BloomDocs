@@ -14,7 +14,6 @@ keywords:
 - Website
 - Pterodactyl Panel
 - Bloom.host
-image: https://bloom.host/assets/images/logo.png
 ---
 
 ### What is NamelessMC

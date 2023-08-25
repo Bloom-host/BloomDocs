@@ -19,7 +19,6 @@ keywords:
   - Bloom.host
   - Pterodactyl Panel
   - Minecraft
-image: https://bloom.host/assets/images/logo.png
 ---
 
 ## What does the plugin do?

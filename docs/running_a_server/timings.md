@@ -16,7 +16,6 @@ keywords:
   - 1.17
   - Minecraft
   - Bloom.host
-image: https://bloom.host/assets/images/logo.png
 ---
 
 # **How to take a Timings Report**
