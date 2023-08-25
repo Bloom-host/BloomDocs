@@ -10,7 +10,7 @@ image: https://bloom.host/assets/images/logo.png
 ---
 
 <div class="text--center">
-<img src="https://bloom.host/logo-white.svg" alt="logo" height="50%" width="50%"/>
+![logo](https://bloom.host/logo-white.svg)
 <h1>Creando un Proxy Inverso</h1>
 </div>
 
@@ -30,7 +30,7 @@ Esta guía va a usar Cloudflare, pero la mayoría de proveedores deberían funci
 
 1. Entra al panel de ajustes de DNS de tu dominio. En esta demo usaremos Cloudflare y **example.com** como dominio de ejemplo.
 
-![portsandproxies](../../../../../static/imgs/using_the_panel/ports_and_proxies/1.png)
+![portsandproxies](/imgs/using_the_panel/ports_and_proxies/1.png)
 
 2. Ahora crearemos un registro CNAME (canonical name).
 3. Diferentes proveedores de dominio pueden usar diferentes métodos para referirse a la raíz del dominio, pero en la mayoría
@@ -48,7 +48,7 @@ de acuerdo a tu ubicación:
 
 1. Entra al panel de ajustes de DNS de tu dominio. En esta demo usaremos Cloudflare y **subdomain.example.com** como dominio de ejemplo.
 
-![portsandproxies](../../../../../static/imgs/using_the_panel/ports_and_proxies/2.png)
+![portsandproxies](/imgs/using_the_panel/ports_and_proxies/2.png)
 
 2. En este caso, crea un nuevo registro CNAME, idéntico al de arriba.
 3. Reemplaza la palabra **subdomain** con el dominio que quieras usar.
@@ -73,7 +73,7 @@ pues de lo contrario no funcionará.
 Una vez hayas creado el registro CNAME, entra al [panel](https://mc.bloom.host/) y en el menú de la izquierda, selecciona
 **Ports & Proxies** (Puertos y Proxies).
 
-![portsandproxies](../../../../../static/imgs/using_the_panel/ports_and_proxies/3.png)
+![portsandproxies](/imgs/using_the_panel/ports_and_proxies/3.png)
 
 Crea una nueva asignación con el botón de **Create Allocation** (Crear Asignación). Aparecerá una ventana pidiéndote
 que escribas el puerto que quieres usar en tu nueva asignación, pon el puerto que quieras redirigir con el proxy inverso.

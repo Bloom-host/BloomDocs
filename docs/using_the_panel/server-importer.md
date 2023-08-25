@@ -9,7 +9,7 @@ image: https://bloom.host/assets/images/logo.png
 ---
 
 <div class="text--center">
-<img src="https://bloom.host/logo-white.svg" alt="logo" height="50%" width="50%"/>
+![logo](https://bloom.host/logo-white.svg)
 <h1>Server Importer</h1>
 </div>
 
@@ -43,7 +43,7 @@ We recommend you compress all the server files that you want to import before st
 
 Once the import begins, you can navigate to the Console page to view the current progress.
 
-<div class="text--center"><img src={require('../../static/imgs/using_the_panel/server-importer/1.png').default} alt="console"/></div>
+<div class="text--center">![console](/imgs/using_the_panel/server-importer/1.png)</div>
 
 
 #### Failsafe if your previous host is having issues with S/FTP

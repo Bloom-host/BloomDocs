@@ -9,7 +9,7 @@ image: https://bloom.host/assets/images/logo.png
 ---
 
 <div class="text--center">
-<img src="https://bloom.host/logo-white.svg" alt="logo" height="50%" width="50%"/>
+![logo](https://bloom.host/logo-white.svg)
 <h1>Resumen de la Documentación</h1>
 </div>
 
@@ -17,7 +17,7 @@ La mayoría de los artículos en esta documentación fueron creados por nuestra 
 Visita nuestra guía en [Cómo contribuir a la documentación](https://docs.bloom.host/extras/contributing) para aprender más.
 
 ## Introducción
-<img src={require('../../../../../static/imgs/getting_started/overview/2.png').default} alt="search function" height="30%" width="30%" class="float-right"/>
+![search function](/imgs/getting_started/overview/2.png)
 Te damos la bienvenida a la traducción en Español de la Documentación de Bloom! Aquí puedes encontrar información útil
 sobre nuestros servicios y panel, gestión de servidores, preguntas frecuentes y más!
 
@@ -28,7 +28,7 @@ requieran traducción. Si crees que puedes contribuir a la traducción, visita n
 
 En toda la documentación vas a ver sintaxis similares:
 - `<algo>` - Una 'variable', algo que debes cambiar de acuerdo a tus necesidades.
-- [Textos Naranja](.) y documentos con ![icon](../../../../../static/imgs/getting_started/overview/1.png) llevan a
+- [Textos Naranja](.) y documentos con ![icon](/imgs/getting_started/overview/1.png) llevan a
 otras guías o páginas externas.
 
 Para una navegación más fácil, puedes usar la función de 'buscar'! Simplemente da click en el botón en la esquina

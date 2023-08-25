@@ -9,7 +9,7 @@ image: https://bloom.host/assets/images/logo.png
 ---
 
 <div class="text--center">
-<img src="https://bloom.host/logo-white.svg" alt="logo" height="50%" width="50%"/>
+![logo](https://bloom.host/logo-white.svg)
 <h1>File Manager Controls</h1>
 </div>
 
@@ -22,7 +22,7 @@ If you would prefer to use SFTP to manage your files, please see our [guide on S
 ### Controls Summary
 By default you will be able to see the main/root folder of your server. You can click other folders to view their contents. On the top left corner you can see your current path.
 
-<div class="text--center"><img src={require('../../static/imgs/using_the_panel/file_manager_controls/1.png').default} alt="console"/></div>
+<div class="text--center">![console](/imgs/using_the_panel/file_manager_controls/1.png)</div>
 
 #### Without selecting any files you can:
 - Open the Recycle Bin to retrieve previously deleted files (up to 24h)

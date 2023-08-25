@@ -19,7 +19,7 @@ image: https://bloom.host/assets/images/logo.png
 ---
 
 <div class="text--center">
-<img src="https://bloom.host/logo-white.svg" alt="logo" height="50%" width="50%"/>
+![logo](https://bloom.host/logo-white.svg)
 <h1>Datapacks</h1>
 </div>
 
@@ -42,12 +42,12 @@ al cual quieres añadir el datapack.
 2. Entra a la pestaña de **File Management** (Administración de Archivos).
 
 <div class="text--center">
-<img src={require('../../../../../static/imgs/running_a_server/datapacks/1.png').default} alt="img"/></div>
+![img](/imgs/running_a_server/datapacks/1.png)</div>
 
 3. Selecciona tu mundo principal. Normalmente es una carpeta llamada `./world`.
 
 <div class="text--center">
-<img src={require('../../../../../static/imgs/running_a_server/datapacks/2.png').default} alt="img"/></div>
+![img](/imgs/running_a_server/datapacks/2.png)</div>
 
 4. Abre la carpeta `datapacks` y click en **Upload** (Subir) en la parte de arriba a la derecha y selecciona tu datapack.
 También puedes arrastrar el datapack a la ventana del navegador.
@@ -57,7 +57,7 @@ Recuerda que debes subir el archivo .zip, no debes descomprimirlo.
 :::
 
 <div class="text--center">
-<img src={require('../../../../../static/imgs/running_a_server/datapacks/3.png').default} alt="img"/></div>
+![img](/imgs/running_a_server/datapacks/3.png)</div>
 
 5. Listo! Reinicia tu servidor y el datapack debería estar funcionando.
 

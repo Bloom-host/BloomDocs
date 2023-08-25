@@ -16,7 +16,7 @@ image: ../static/img/2fa/2fa1.png
 ---
 
 <div class="text--center">
-<img src="https://bloom.host/logo-white.svg" alt="logo" height="50%" width="50%"/>
+![logo](https://bloom.host/logo-white.svg)
 <h1>2-Factor Authentication</h1>
 </div>
  
@@ -36,7 +36,7 @@ To setup 2FA in the billing area, head over to the [billing area and login](http
 
 Next, head over to [Security Settings](https://www.bloom.host/portal/clientarea.php?action=security) which you can find here: 
 
-<div class="text--center"><img src={require('../../static/imgs/using_the_panel/2fa/1.png').default} alt="console" height="80%" width="80%"/></div>
+<div class="text--center">![console](/imgs/using_the_panel/2fa/1.png)</div>
 
 You can then follow the instruction on the screen. You will need to download Google Authenticator or DUO from the android or IOS app store.
 
@@ -52,7 +52,7 @@ For this, download an app on your phone that is a 2FA app, such as [Authy](https
 
 Then, add a new account and scan the QR code. Once it is scanned, type the token that you have on the app into the Authentication Token box.
 
-<div class="text--center"><img src={require('../../static/imgs/using_the_panel/2fa/2.png').default} alt="console"/></div>
+<div class="text--center">![console](/imgs/using_the_panel/2fa/2.png)</div>
 
 You are set and fully protected! Rememeber to keep the device near you when you login so can authenticate yourself!
 

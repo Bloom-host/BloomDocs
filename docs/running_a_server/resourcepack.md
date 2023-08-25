@@ -16,7 +16,7 @@ image: https://bloom.host/assets/images/logo.png
 ---
 
 <div class="text--center">
-<img src="https://bloom.host/logo-white.svg" alt="logo" height="50%" width="50%"/>
+![logo](https://bloom.host/logo-white.svg)
 <h1>Serverwide Resource Packs</h1>
 </div>
 
@@ -25,12 +25,12 @@ Once you found the resource pack you want on your server you need to upload the 
 Click “choose file”, find your file and then click upload. Make sure the file you upload is a.zip file. A file can easily be made into a zip file by right-clicking the file, picking “send to” in the dropdown menu and then choosing “compressed (zipped) folder”  
 
 <div class="text--center">
-<img src={require('../../static/imgs/running_a_server/resourcepack/1.png').default} alt="img"/></div>
+![img](/imgs/running_a_server/resourcepack/1.png)</div>
 
 Once done you’ll get your download URL. (save this URL)
 
 <div class="text--center">
-<img src={require('../../static/imgs/running_a_server/resourcepack/2.png').default} alt="img"/></div>
+![img](/imgs/running_a_server/resourcepack/2.png)</div>
   
 
 Now go to your server and open “file management” then open “file explorer” in the dropdown menu 
@@ -38,11 +38,11 @@ Now go to your server and open “file management” then open “file explorer�
 Locate `server.properties` and open it. Find `resource-pack` and paste your URL in the box.
 
 <div class="text--center">
-<img src={require('../../static/imgs/running_a_server/resourcepack/4.png').default} alt="img"/></div>
+![img](/imgs/running_a_server/resourcepack/4.png)</div>
 
 Optionally, you can add the SHA1 checksum of your chosen resource pack so that clients will be able to reliably update the pack, even if the name doesn't change. To obtain the SHA1 checksum, you can run `certUtil -hashfile \path\to\file SHA1` on Windows or `shasum /path/to/file` on Mac or Linux. Alternitively, you can simply use [emn178's online SHA1 checksum checker](https://emn178.github.io/online-tools/sha1_checksum.html). Once you have it, simply append it to `resource-pack-sha1=` on the second-to-last line of server.properties.
 
 <div class="text--center">
-<img src={require('../../static/imgs/running_a_server/resourcepack/4.png').default} alt="img"/></div>
+![img](/imgs/running_a_server/resourcepack/4.png)</div>
 
 Now restart your server, feel free to open a ticket if you need any assistance.

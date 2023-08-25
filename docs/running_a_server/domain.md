@@ -18,7 +18,7 @@ image: https://bloom.host/assets/images/logo.png
 ---
 
 <div class="text--center">
-<img src="https://bloom.host/logo-white.svg" alt="logo" height="50%" width="50%"/>
+![logo](https://bloom.host/logo-white.svg)
 <h1>Using a Domain</h1>
 </div>
 
@@ -28,7 +28,7 @@ In this guide, we will go over on how to make your server go from lots of number
 
 First, go to the [game panel](https://mc.bloom.host) and select your server. On the main page, above your console you will be able to find your IP. All bloom servers come with a dedicated IP, so you only need the IP and not any of the ports (`25565`). 
 
-![Bloom.host Pointing A Domain](../../static/imgs/running_a_server/domain/1.png)
+![Bloom.host Pointing A Domain](/imgs/running_a_server/domain/1.png)
 
 In this guide we're going use CloudFlare to point our domain to the server. Simply register [here](https://dash.cloudflare.com/sign-up). After registration, they will guide you through the process of connecting your domain to CloudFlare.
 
@@ -38,7 +38,7 @@ Alternatively, some domain providers allow you to use their own systems for DNS.
 Ensure that the server is grey cloud (not proxied by cloudflare). You can still use cloudflare, just make sure it has a grey cloud so it's <u>not proxied</u>.
 :::
 
-<div class="text--center"><img src={require('../../static/imgs/running_a_server/domain/2.png').default} alt="img"/></div>
+<div class="text--center">![img](/imgs/running_a_server/domain/2.png)</div>
 
 ---
 
@@ -64,7 +64,7 @@ If you wish to have multiple servers with clean domains on a network, [it's reco
 For the following steps we assume you already have created an A record pointing to your server IP. If you haven't done so, please follow the steps above to create another A record before you create the SRV Record.
 :::
 
-<div class="text--center"><img src={require('../../static/imgs/running_a_server/domain/3.png').default} alt="img"/></div>
+<div class="text--center">![img](/imgs/running_a_server/domain/3.png)</div>
 
 To create a DNS SRV record you will head to your registrar or Cloudflare DNS configuration page. 
 - Once you are there, you will click on add a new DNS record and you will select `SRV`.

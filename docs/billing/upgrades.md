@@ -12,7 +12,7 @@ keywords:
 ---
 
 <div class="text--center">
-<img src="https://bloom.host/logo-white.svg" alt="logo" height="50%" width="50%"/>
+![logo](https://bloom.host/logo-white.svg)
 <h1>How upgrades, downgrades and transfers work</h1>
 </div>
 
@@ -27,7 +27,7 @@ If you want to downgrade to an Essentials plan or upgrade/downgrade/transfer you
 To request a plan upgrade, downgrade or a change of location go to the Products section of our billing panel [here](https://billing.bloom.host/clientarea.php?action=services), sign in with your Billing Account, click the three dots to the right side of the Product you want to upgrade, then select the Upgrade/Downgrade button.
 
 <div class="text--center">
-<img src={require('../../static/imgs/discord/upgrade.png').default} alt="img"/></div>
+![img](/imgs/discord/upgrade.png)</div>
 
 On the upgrade page you will be able to select to what location and plan you want to upgrade/downgrade to, here you can also switch between datacenter locations. Once you select the plan it will generate an invoice (if needed) which needs to be paid before the upgrade and transfer process begins.
 

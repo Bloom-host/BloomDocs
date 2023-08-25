@@ -9,7 +9,7 @@ image: https://bloom.host/assets/images/logo.png
 ---
 
 <div class="text--center">
-<img src="https://bloom.host/logo-white.svg" alt="logo" height="50%" width="50%"/>
+![logo](https://bloom.host/logo-white.svg)
 <h1>Administrador de Archivos</h1>
 </div>
 
@@ -23,7 +23,7 @@ Si prefieres usar SFTP para manejar tus archivos, revisa nuestra [guía sobre SF
 Por defecto puedes ver la carpeta principal/raíz de tu servidor. Puedes adr click en otras carpetas para ver sus
 contenidos. En la parte superior izquierda puedes ver tu ubicación actual.
 
-<div class="text--center"><img src={require('../../../../../static/imgs/using_the_panel/file_manager_controls/1.png').default} alt="console"/></div>
+<div class="text--center">![console](/imgs/using_the_panel/file_manager_controls/1.png)</div>
 
 #### Sin archivos seleccionados puedes:
 - Descargar archivos directamente desde un link (si el link da directamente a un archivo)

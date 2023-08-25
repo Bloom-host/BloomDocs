@@ -15,7 +15,7 @@ keywords:
 image: https://bloom.host/assets/images/logo.png
 ---
 <div class="text--center">
-<img src="https://bloom.host/logo-white.svg" alt="logo" height="50%" width="50%"/>
+![logo](https://bloom.host/logo-white.svg)
 <h1>Setting Up Whitelist</h1>
 </div>
 
@@ -67,7 +67,7 @@ Otherwise, it'll look something like this, we will use Notch as a placeholder:
 ]
 ```
 * Step 3: Add someone to your file, to do this you'll need their UUID, an easy way to get this is to goto a website like https://mcuuid.net/ and search their username you will get a result similar to this:
-![](../../static/imgs/running_a_server/whitelisting/mcuuid-example.png)
+![](/imgs/running_a_server/whitelisting/mcuuid-example.png)
 From this page, we need one thing, the user's Full UUID. Once you have that copied, you can head back to the `whitelist.json` file and add them to the file using this format:
 ```yaml
 [

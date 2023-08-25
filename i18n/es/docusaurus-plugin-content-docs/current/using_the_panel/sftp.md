@@ -18,7 +18,7 @@ keywords:
 ---
 
 <div class="text--center">
-<img src="https://bloom.host/logo-white.svg" alt="logo" height="50%" width="50%"/>
+![logo](https://bloom.host/logo-white.svg)
 <h1>Usando SFTP</h1>
 </div>
 
@@ -48,9 +48,9 @@ o [FileZilla](https://filezilla-project.org/).
 
 1. Para encontrar detalles de login, entra a **Settings** (Ajustes) en la barra lateral del panel.
  
-![sftp](../../../../../static/imgs/using_the_panel/sftp/1.png)
+![sftp](/imgs/using_the_panel/sftp/1.png)
 
-![sftp](../../../../../static/imgs/using_the_panel/sftp/2.png)
+![sftp](/imgs/using_the_panel/sftp/2.png)
 
 2. Aquí podrás ver datos de SFTP de tu servidor como la IP a usar, puerto y usuario. Tu contraseña de SFTP es la misma
 que usas para iniciar sesión en el panel.
@@ -68,7 +68,7 @@ que usas para iniciar sesión en el panel.
 en la barra lateral de la izquierda. Simplemente ingresa la contraseña de tu panel y todo está listo!
  
 
-![sftp](../../../../../static/imgs/using_the_panel/sftp/3.png)
+![sftp](/imgs/using_the_panel/sftp/3.png)
 
 WinSCP es bastante similar al Explorador de Windows. En la parte verde de la izquierda puedes ver tus archivos, y en la
 parte azul de la derecha puedes ver los archivos de tu servidor. Aquí puedes arrastrar, renombrar y borrar archivos como quieras. 
@@ -83,13 +83,13 @@ parte azul de la derecha puedes ver los archivos de tu servidor. Aquí puedes ar
    (Sesión Nueva)
 3. Selecciona **SFTP** en el medio.
 
-![sftp](../../../../../static/imgs/using_the_panel/sftp/4.png)
+![sftp](/imgs/using_the_panel/sftp/4.png)
 
 4. Ingresa la IP, puerto y usuario SFTP que obtuviste en los pasos de arriba y da click en **Ok**.
 
 5. Ingresa la contraseña que usas para el panel web.
 
-![sftp](../../../../../static/imgs/using_the_panel/sftp/5.png)
+![sftp](/imgs/using_the_panel/sftp/5.png)
 
 6. En la parte verde de la izquierda, puedes ver tus archivos locales, mientras que en la parte azul de la derecha puedes
 ver tus archivos en el servidor. Aquí puedes arrastrar, renombrar y borrar archivos como quieras.

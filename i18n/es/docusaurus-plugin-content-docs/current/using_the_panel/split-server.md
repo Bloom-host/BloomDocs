@@ -16,7 +16,7 @@ image: https://bloom.host/assets/images/logo.png
 ---
 
 <div class="text--center">
-<img src="https://bloom.host/logo-white.svg" alt="logo" height="50%" width="50%"/>
+![logo](https://bloom.host/logo-white.svg)
 <h1>Dividiendo Servidores</h1>
 </div>
 
@@ -33,13 +33,13 @@ Es importante asegurarse que vas a dejar suficientes recursos para que tu servid
 1. Entra a [Duck Panel](https://mc.bloom.host/), selecciona tu servidor y entra a **Server Split** (División de Servidor)
 en la barra lateral.
 
-![split](../../../../../static/imgs/using_the_panel/split_server/1.png)
+![split](/imgs/using_the_panel/split_server/1.png)
 
 2. En la caja de la derecha (con borde rojo), puedes seleccionar el tipo de servidor y los recursos que quieres
 darle a tu nuevo split. Si quieres hacer un servidor para una nueva modalidad en una network, selecciona `Minecraft - Paper`
 como **Server Type** (Tipo de Servidor) e ingresa la cantidad de RAM y almacenamiento que quieres que ese servidor tenga.
 
-![split](../../../../../static/imgs/using_the_panel/split_server/2.png)
+![split](/imgs/using_the_panel/split_server/2.png)
 
 3. Da click en **Split server** (Dividir Servidor) y verás una ventana para confirmar si quieres crear el split.
 
@@ -53,7 +53,7 @@ para tu nuevo servidor.
 Puedes interactuar y manejar este nuevo servidor de la misma forma que tu servidor principal. Cuando inicias sesión en
 el panel, verás tu nuevo servidor en la lista de servidores que puedes administrar.
 
-![split](../../../../../static/imgs/using_the_panel/split_server/3.png)
+![split](/imgs/using_the_panel/split_server/3.png)
 
 :::important
 La lista de servidores los ordena por orden alfabético. Si quieres ordenarlos manualmente, puedes usar números al inicio
@@ -67,4 +67,4 @@ Puedes cambiar tu servidor principal, borrar un split, editar puertos, tipo, RAM
 sección de **Server Split** (División de Servidor). Toma en cuenta que también puedes abrir nuevos puertos en la sección de
 **Ports & Proxies** (Puertos y Proxies).
 
-<div class="text--center"><img src={require('../../../../../static/imgs/using_the_panel/split_server/4.png').default} alt="console"/></div>
+<div class="text--center">![console](/imgs/using_the_panel/split_server/4.png)</div>

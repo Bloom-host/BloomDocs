@@ -39,7 +39,7 @@ image: https://bloom.host/assets/images/logo.png
 ```
 ```html
 <div class="text--center">
-<img src="https://bloom.host/logo-white.svg" alt="logo" height="50%" width="50%"/>
+![logo](https://bloom.host/logo-white.svg)
 <h1>[sidebar title]</h1>
 </div>
 
@@ -61,7 +61,7 @@ You can also contribute to the embeds used by BloomBot in the Discord where a co
 You can edit [`embeds.yml`](/embeds.yml) and this can be contributed along with documentation changes and can be contributed in the same PR.
 
 Here is the format of the embeds:
-![img](https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/discord/embed-help.png)
+![img](https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/imgs/discord/embed-help.png)
 
 ```yml
 embed_name:

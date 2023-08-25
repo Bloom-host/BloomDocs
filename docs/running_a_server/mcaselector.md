@@ -10,7 +10,7 @@ image: https://bloom.host/assets/images/logo.png
 ---
 
 <div class="text--center">
-<img src="https://bloom.host/logo-white.svg" alt="logo" height="50%" width="50%"/>
+![logo](https://bloom.host/logo-white.svg)
 <h1>MCASelector CLI</h1>
 </div>
 
@@ -29,7 +29,7 @@ To avoid having to download and re-upload your world each time, Bloom has a pre-
 3. Select the 'MCASelector' server type within the category and click the 'Change Server Type' button.
 4. After a few moments, the installation will finish, and you are good to go!
 
-<div class="text--center"><img src={require('../../static/imgs/running_a_server/mcaselector/1.png').default} alt=""/></div>
+<div class="text--center">![](/imgs/running_a_server/mcaselector/1.png)</div>
 
 ---
 
@@ -38,7 +38,7 @@ For this pre-install, everything is done in the 'Startup' tab of the panel:
 
 Here you can modify which specific flags are passed to MCASelector when you start the server.
 
-<div class="text--center"><img src={require('../../static/imgs/running_a_server/mcaselector/2.png').default} alt=""/></div>
+<div class="text--center">![](/imgs/running_a_server/mcaselector/2.png)</div>
 
 The default flags will delete all chunks that have only been visited for **1 second or less** in the `world` world.
 `InhabitedTime` is given in ticks, so while this is very safe, it's likely too low for survival servers and the like, so you may have to change `20` to something higher.
@@ -47,7 +47,7 @@ If your world is named differently, make sure to adjust it!
 
 Once you are happy with the flags, return to the 'Console' tab and start the server.
 
-<div class="text--center"><img src={require('../../static/imgs/running_a_server/mcaselector/3.png').default} alt=""/></div>
+<div class="text--center">![](/imgs/running_a_server/mcaselector/3.png)</div>
 
 In our example, it was only a few dozen chunks, so it only took a few moments but this process may take a very long time for larger worlds.
 Once it's finished, you can review the logs to ensure everything worked fine and then stop the server with the 'Stop' button.

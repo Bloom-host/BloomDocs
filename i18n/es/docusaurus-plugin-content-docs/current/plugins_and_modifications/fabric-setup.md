@@ -14,7 +14,7 @@ keywords:
 ---
 
 <div class="text--center">
-<img src="https://bloom.host/logo-white.svg" alt="logo" height="50%" width="50%"/>
+![logo](https://bloom.host/logo-white.svg)
 <h1>Setting Up Fabric</h1>
 </div>
 
@@ -32,7 +32,7 @@ En esta guía veremos cómo instalar Fabric en tu servidor.
 > Ve a la pestaña Configuración en el panel y en el lado derecho verás la casilla Cambiar tipo de servidor.
 > Edita las casillas según la versión de Fabric que quieras usar.
 >
-> ![Bloom.host Fabric](../../../../../static/imgs/plugins_and_modifications/fabric_setup/FabricInstaller.png)
+> ![Bloom.host Fabric](/imgs/plugins_and_modifications/fabric_setup/FabricInstaller.png)
 
 > Haz clic en Cambiar tipo de servidor, esto descargará fabric a tu servidor.
 

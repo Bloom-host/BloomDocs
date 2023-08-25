@@ -9,13 +9,13 @@ image: https://bloom.host/assets/images/logo.png
 ---
 
 <div class="text--center">
-<img src="https://bloom.host/logo-white.svg" alt="logo" height="50%" width="50%"/>
+![logo](https://bloom.host/logo-white.svg)
 <h1>How to update or change the version of your server</h1>
 </div>
 
 ### Introduction
 <div class="text--center">
-<img src={require('../../static/imgs/running_a_server/updating/1.png').default} alt="logo" height="40%" width="40%" class="float-right"/>
+![logo](/imgs/running_a_server/updating/1.png)
 </div>
 
 Updating or changing the version of your your Bloom.host server is super easy and fast. We have integrated the API of many popular Minecraft jars into our panel, so you can update your server in seconds, no need to download anything to your local computer.

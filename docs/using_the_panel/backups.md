@@ -9,7 +9,7 @@ image: https://bloom.host/assets/images/logo.png
 ---
 
 <div class="text--center">
-<img src="https://bloom.host/logo-white.svg" alt="logo" height="50%" width="50%"/>
+![logo](https://bloom.host/logo-white.svg)
 <h1>Backups</h1>
 </div>
 
@@ -34,7 +34,7 @@ To create a manual backup, head over to the Backups tab on the panel.
 
 Here you will find your current backups, and a **Create Backup** button. When you click the create backup button, you will get this screen:
 
-<div class="text--center"><img src={require('../../static/imgs/using_the_panel/backups/1.png').default} alt="img"/></div>
+<div class="text--center">![img](/imgs/using_the_panel/backups/1.png)</div>
 
 Simply give it a name and press the **Start Backup** button to continue. The backup then will start in the background, this may take some time depending on the size of your server.
 
@@ -45,9 +45,9 @@ Simply give it a name and press the **Start Backup** button to continue. The bac
 1. Head over to the Schedules tab on the panel.
 2. We are going to add a schedule that starts a backup, but these schedules can do way more! Find some examples at [Schedules](schedules.md). Simply click 'Create Schedule'. 
 3. Select when you wish to have a backup and click 'Create Schedule'. In this case we do one every 8 hours using all 3 daily backups.
-<div class="text--center"><img src={require('../../static/imgs/using_the_panel/backups/2.png').default} alt="img"/></div>
+<div class="text--center">![img](/imgs/using_the_panel/backups/2.png)</div>
 4. Then, simply add the action "Create Backup" on a task.
-<div class="text--center"><img src={require('../../static/imgs/using_the_panel/backups/3.png').default} alt="img"/></div>
+<div class="text--center">![img](/imgs/using_the_panel/backups/3.png)</div>
 
 
 Keep in mind that you can you can generate up to 3 backups within a 24 hours period.
@@ -64,7 +64,7 @@ If you have reached the backup limit, the oldest backup will be rotated.
 
 To restore a backup, simply head to the backups page, select the backup and click 'Restore'. Do note, this will overwrite any files with matching names. 
 
-<div class="text--center"><img src={require('../../static/imgs/using_the_panel/backups/4.png').default} alt="img"/></div>
+<div class="text--center">![img](/imgs/using_the_panel/backups/4.png)</div>
 
 ---
 
@@ -82,4 +82,4 @@ To mount a backup:
 
 You can restore specific files from a backup by mounting it. Once you have mounted the backup, you can go to the file you want to restore. click on the `...` at the right of the file, and click on restore. This will restore the file to its original directory.
 
-<div class="text--center"><img src={require('../../static/imgs/using_the_panel/backups/5.png').default} alt="img"/></div>
+<div class="text--center">![img](/imgs/using_the_panel/backups/5.png)</div>

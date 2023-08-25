@@ -12,7 +12,7 @@ keywords:
 ---
 
 <div class="text--center">
-<img src="https://bloom.host/logo-white.svg" alt="logo" height="50%" width="50%"/>
+![logo](https://bloom.host/logo-white.svg)
 <h1>How to request a cancellation</h1>
 </div>
 
@@ -27,10 +27,10 @@ Download a backup of all your files before submitting a cancellation request. On
 :::
 
 <div class="text--center">
-<img src={require('../../static/imgs/billing/refunds/1.png').default} alt="img"/></div>
+![img](/imgs/billing/refunds/1.png)</div>
 
 <div class="text--center">
-<img src={require('../../static/imgs/billing/cancellations/2.png').default} alt="img"/></div>
+![img](/imgs/billing/cancellations/2.png)</div>
 
 
 :::caution

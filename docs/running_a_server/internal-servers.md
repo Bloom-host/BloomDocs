@@ -9,7 +9,7 @@ description: This doc just has some information on our internal servers
 image: https://bloom.host/assets/images/logo.png
 ---
 <div class="text--center">
-<img src="https://bloom.host/logo-white.svg" alt="logo" height="50%" width="50%"/>
+![logo](https://bloom.host/logo-white.svg)
 <h1>Internal servers</h1>
 </div>
 
@@ -27,7 +27,7 @@ Now we have fully internal servers that are only accessible via servers on the s
 
 To make your server internal you can click the "Make Internal" button on the Ports and Proxies tab. Keep in mind this will wipe all your public ports so keep them in mind, if you forget which ports you're using and accidentally wipe them you can see which ones were deleted in your audit log.
 
-![img](../../static/imgs/running_a_server/internal_servers/1.PNG)
+![img](/imgs/running_a_server/internal_servers/1.PNG)
 
 The full serverid can be found under the Ports and Proxies tab when you make your server internal, but you can also find it by clicking your serverid in the console tab, or under the settings tab.
 
@@ -37,10 +37,10 @@ Connectivity between splits is fully accessible over your splits hostname. For e
 
 Below is an example of a Velocity instance setup with internal backend servers
 
-![img](../../static/imgs/running_a_server/internal_servers/2.PNG)
+![img](/imgs/running_a_server/internal_servers/2.PNG)
 
 ________
 
 You can also open public ports like normal even after you make your server internal. For example, below is a internal backend server but with a public 8123 port for Dynmap
 
-![img](../../static/imgs/running_a_server/internal_servers/3.PNG)
+![img](/imgs/running_a_server/internal_servers/3.PNG)

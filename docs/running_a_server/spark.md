@@ -19,7 +19,7 @@ image: https://bloom.host/assets/images/logo.png
 ---
 
 <div class="text--center">
-<img src="https://bloom.host/logo-white.svg" alt="logo" height="50%" width="50%"/>
+![logo](https://bloom.host/logo-white.svg)
 <h1>Spark</h1>
 </div>
 
@@ -43,19 +43,19 @@ Once you are ready to check the results of the profiler you should run `/spark p
 When you open the link you'll find a useful web interface that displays all the data collected.
 
 <div class="text--center">
-<img src={require('../../static/imgs/running_a_server/spark/1.png').default} alt="img"/></div>
+![img](/imgs/running_a_server/spark/1.png)</div>
 
 ## Other Useful Commands
 
 Running `/tps` will display an output that looks like this:
 
 <div class="text--center">
-<img src={require('../../static/imgs/running_a_server/spark/2.png').default} alt="img"/></div>
+![img](/imgs/running_a_server/spark/2.png)</div>
 
 Running `/spark healthreport` will display an output that looks like this:
 
 <div class="text--center">
-<img src={require('../../static/imgs/running_a_server/spark/3.png').default} alt="img"/></div>
+![img](/imgs/running_a_server/spark/3.png)</div>
 
 The values will depend on your server, newer versions of Spark will contain more useful information, as the utility is in active development.
 

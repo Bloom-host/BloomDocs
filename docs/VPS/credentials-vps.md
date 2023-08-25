@@ -12,7 +12,7 @@ keywords:
 ---
 
 <div class="text--center">
-<img src="https://bloom.host/logo-white.svg" alt="logo" height="50%" width="50%"/>
+![logo](https://bloom.host/logo-white.svg)
 <h1>How to change your VPS password</h1>
 </div>
 
@@ -29,7 +29,7 @@ You need to Poweroff and START your VPS for the password change to take effect.
 :::
 
 <div class="text--center">
-<img src={require('../../static/imgs/VPS/credentials/1.png').default} alt="img"/></div>
+![img](/imgs/VPS/credentials/1.png)</div>
 
 ## How to change your VPS VNC password?
 
@@ -38,7 +38,7 @@ Head over to our [VPS Panel](https://VPS.bloom.host), sign in, and select the VP
 The VNC Password option is under the "settings" tab.
 
 <div class="text--center">
-<img src={require('../../static/imgs/VPS/credentials/2.png').default} alt="img"/></div>
+![img](/imgs/VPS/credentials/2.png)</div>
 
 :::important
 You may need to Poweroff and START your VPS for the VNC password change to take effect.

@@ -13,7 +13,7 @@ keywords:
 ---
 
 <div class="text--center">
-<img src="https://bloom.host/logo-white.svg" alt="logo" height="50%" width="50%"/>
+![logo](https://bloom.host/logo-white.svg)
 <h1>SRVControl</h1>
 </div>
 
@@ -24,12 +24,12 @@ We can start by heading over to their [website](https://srvcontrol.xyz/) and inv
 After we have done this, we now want to create the API Key that SRVControl can use to access your servers. To do this, simply head over to the [panel](https://mc.bloom.host/) and once you are logged in, click **Account API** on the left.
 
 <div class="text--center">
-<img src={require('../../static/imgs/extras/srvcontrol/1.png').default} alt="img"/></div>
+![img](/imgs/extras/srvcontrol/1.png)</div>
 
 Then click **Create New** and give it a relevant description so that you will remember what this API key is for. Do not put anything in allowed IPs as SRVControl does not state the IP address used for their bot. Once you are done, click **create**. Now there will be a list of API keys, in your case there will only be one so just click the key icon to reveal the long key and copy it. 
 
 <div class="text--center">
-<img src={require('../../static/imgs/extras/srvcontrol/2.png').default} alt="img"/></div>
+![img](/imgs/extras/srvcontrol/2.png)</div>
 
 :::caution
 Please keep this key secure as anyone with this API key can utilize it to do anything to the servers that you are on your account. 

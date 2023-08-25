@@ -9,7 +9,7 @@ image: https://bloom.host/assets/images/logo.png
 ---
 
 <div class="text--center">
-<img src="https://bloom.host/logo-white.svg" alt="logo" height="50%" width="50%"/>
+![logo](https://bloom.host/logo-white.svg)
 <h1>Importador de Servidores</h1>
 </div>
 
@@ -48,4 +48,4 @@ carpeta o archivo en específico, pon la ubicación del archivo en ese recuadro.
 
 Una vez la importación inicie, puedes entrar a la página de **Console** (Consola) para ver el progreso actual.
 
-<div class="text--center"><img src={require('../../../../../static/imgs/using_the_panel/server-importer/1.png').default} alt="console"/></div>
+<div class="text--center">![console](/imgs/using_the_panel/server-importer/1.png)</div>

@@ -9,7 +9,7 @@ image: https://bloom.host/assets/images/logo.png
 ---
 
 <div class="text--center">
-<img src="https://bloom.host/logo-white.svg" alt="logo" height="50%" width="50%"/>
+![logo](https://bloom.host/logo-white.svg)
 <h1>Bases de Datos MySQL</h1>
 </div>
 
@@ -29,7 +29,7 @@ Algunos plugins comunes que usan estas bases son Dynmap, CoreProtect y LuckPerms
 3. En la primera caja, asigna un nombre a la base de datos. En la segunda, especifica qué IPs deberían poder conectarse
 a la base de datos. Recomendamos dejarlo como está por defecto (`%`), lo que permite que todas las IPs puedan conectarse.
 
-<div class="text--center"><img src={require('../../../../../static/imgs/using_the_panel/databases/1.png').default} alt="img"/></div>
+<div class="text--center">![img](/imgs/using_the_panel/databases/1.png)</div>
 
 ---
 
@@ -38,7 +38,7 @@ a la base de datos. Recomendamos dejarlo como está por defecto (`%`), lo que pe
 Una vez que creaste la base de datos, aparecerá en la lista de bases de datos. Desde aquí puedes ver detalles básicos, 
 detalles avanzados, importar a la base de datos, exportar desde la base de datos o borrar la base de datos.
 
-<div class="text--center"><img src={require('../../../../../static/imgs/using_the_panel/databases/2.png').default} alt="img"/></div>
+<div class="text--center">![img](/imgs/using_the_panel/databases/2.png)</div>
 
 ---
 ### Importando Bases de Datos
@@ -47,9 +47,9 @@ Para importar una base de datos primero debes crear una vacía. Una vez esté cr
 **Import** (Importar) el cual que abrirá una ventana. Llena los recuadros con los datos de tu base de datos a importar.
 Toma en cuenta que las importaciones de bases de datos están limitadas a **5GB**.
 
-<div class="text--center"><img src={require('../../../../../static/imgs/using_the_panel/databases/4.png').default} alt="img"/></div>
+<div class="text--center">![img](/imgs/using_the_panel/databases/4.png)</div>
 
-<div class="text--center"><img src={require('../../../../../static/imgs/using_the_panel/databases/3.png').default} alt="img"/></div>
+<div class="text--center">![img](/imgs/using_the_panel/databases/3.png)</div>
 
 ---
 

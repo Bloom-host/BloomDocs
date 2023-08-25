@@ -17,7 +17,7 @@ keywords:
 image: https://bloom.host/assets/images/logo.png
 ---
 <div class="text--center">
-<img src="https://bloom.host/logo-white.svg" alt="logo" height="50%" width="50%"/>
+![logo](https://bloom.host/logo-white.svg)
 <h1>Setting Up Waterfall</h1>
 </div>
 
@@ -37,7 +37,7 @@ When running your servers behind a proxy like Velocity or Waterfall, it requires
 
 To get started with Waterfall, you need to download their latest jar from their [downloads page](https://papermc.io/downloads#Waterfall).
 
-<div class="text--center"><img src={require('../../static/imgs/running_a_server/waterfall/waterfall-dl-page.png').default} alt="console" height="60%" width="60%"/></div>
+<div class="text--center">![console](/imgs/running_a_server/waterfall/waterfall-dl-page.png)</div>
 
 When you have downloaded their latest jar file, then you can upload it to your waterfall server when it's created on the next step.
 
@@ -47,7 +47,7 @@ You can see in the below image on how you can do so. You need to click on one of
 
 This is how it looks when you're creating your waterfall server in the server split menu.
 
-<div class="text--center"><img src={require('../../static/imgs/running_a_server/waterfall/waterfall-server-split.png').default} alt="console" height="20%" width="20%"/></div>
+<div class="text--center">![console](/imgs/running_a_server/waterfall/waterfall-server-split.png)</div>
 
 After you've created the waterfall server in your server split, you'll be able to see the server on your server overview on Bloom's panel.
 
@@ -57,13 +57,13 @@ After you've created the waterfall server in your server split, you'll be able t
 
 If you would like to read more information on our internal servers please see [here](/internal-servers).
 
-![img](../../static/imgs/running_a_server/waterfall/waterfall-fs-initial.png)
+![img](/imgs/running_a_server/waterfall/waterfall-fs-initial.png)
 
 You need to start it one time and shut it down afterwards to generate all the files needed to be able to configure waterfall.
 
 Afterwards it will look like this:
 
-<div class="text--center"><img src={require('../../static/imgs/running_a_server/waterfall/waterfall-fs.png').default} alt="console" height="70%" width="70%"/></div>
+<div class="text--center">![console](/imgs/running_a_server/waterfall/waterfall-fs.png)</div>
 
 We'll configure waterfall in the `config.yml` file.
 

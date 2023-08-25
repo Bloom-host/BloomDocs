@@ -12,7 +12,7 @@ keywords:
 ---
 
 <div class="text--center">
-<img src="https://bloom.host/logo-white.svg" alt="logo" height="50%" width="50%"/>
+![logo](https://bloom.host/logo-white.svg)
 <h1>How to connect via VNC</h1>
 </div>
 
@@ -37,12 +37,12 @@ Our panel provides an HTML 5 VNC Client that you can use to connect to your VPS.
 To use the HTML 5 VNC Client, go to our [VPS Panel](https://VPS.bloom.host), sign in, select the VPS and click on the VNC button at the top right.
 
 <div class="text--center">
-<img src={require('../../static/imgs/VPS/VNC/1.png').default} alt="img"/></div>
+![img](/imgs/VPS/VNC/1.png)</div>
 
 Then click on the "Launch HTML 5 VNC Client"
 
 <div class="text--center">
-<img src={require('../../static/imgs/VPS/VNC/2.png').default} alt="img"/></div>
+![img](/imgs/VPS/VNC/2.png)</div>
 
 After you launch the HTML 5 VNC Client, you will be prompted to put your SSH credentials. 
 
