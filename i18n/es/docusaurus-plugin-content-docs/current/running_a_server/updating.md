@@ -13,7 +13,7 @@ En esta guía veremos cómo cambiar la versión de tu servidor o actualizar tu v
 ---
 
 ### Introducción
-![logo](/imgs/running_a_server/updating/1.png)
+![logo](/running_a_server/updating/1.png)
 
 Cambiar la versión de tu servidor en Bloom.host es muy rápido y fácil. Hemos integrado la API de muchos Minecraft jars
 populares en nuestro panel, para que puedas actualizar o cambiar de versión en segundos sin tener que descargar algo en
@@ -33,7 +33,7 @@ el tipo de servidor que quieres usar: Vanilla, Paper, Forge y otros. Después de
 (Cambiar Tipo de Servidor) para cambiar el jar, version, o build en la que corre tu servidor. 
 Asegúrate de darle a **Reinstall now** (Reinstalar ahora) si quieres que la actualización surta efecto.
 
-![img](/imgs/running_a_server/updating/1.png)
+![img](/running_a_server/updating/1.png)
 
 :::warning
 Ten en cuenta que puedes subir de versión de Minecraft, pero no puedes bajar de versión a no ser que borres tu mundo.

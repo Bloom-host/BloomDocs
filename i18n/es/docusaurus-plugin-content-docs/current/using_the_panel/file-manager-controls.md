@@ -16,7 +16,7 @@ Si prefieres usar SFTP para manejar tus archivos, revisa nuestra [guía sobre SF
 Por defecto puedes ver la carpeta principal/raíz de tu servidor. Puedes adr click en otras carpetas para ver sus
 contenidos. En la parte superior izquierda puedes ver tu ubicación actual.
 
-![console](/imgs/using_the_panel/file_manager_controls/1.png)
+![console](/using_the_panel/file_manager_controls/1.png)
 
 #### Sin archivos seleccionados puedes:
 - Descargar archivos directamente desde un link (si el link da directamente a un archivo)

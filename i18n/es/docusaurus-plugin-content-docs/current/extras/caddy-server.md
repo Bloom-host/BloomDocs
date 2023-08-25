@@ -18,17 +18,17 @@ En esta guía veremos cómo crear un split Caddy para poder hostear páginas web
 ## Creando el split Caddy
 
 1. Dirígete a la ventana de **Server Splitter** (División de Servidor) en el panel de control de tu servidor.
-![caddyserver](/imgs/extras/caddy_server/1.PNG)
+![caddyserver](/extras/caddy_server/1.PNG)
 
 2. En **SERVER NAME** (NOMBRE DEL SERVIDOR) ingresa un nombre para tu split y en **SERVER CATEGORY** (CATEGORÍA DEL SERVIDOR)
    elige **NO SUPPORT SERVERS** (SERVIDORES SIN SOPORTE), en **SERVER TYPE** (TIPO DE SERVIDOR) elige "Caddy Server".
    Para iniciar puedes dejar **MEMORY** (MEMORIA) en 100MB y **DISK** en cuánto espacio tu servidor web necesita. Finalmente
    presiona **SPLIT SERVER** (DIVIDIR SERVIDOR).
-![caddyserver](/imgs/extras/caddy_server/2.PNG)
+![caddyserver](/extras/caddy_server/2.PNG)
 
 3. Te saldrá una ventana de confirmación como la de abajo. Presiona **YES, SPLIT THIS SERVER** (SÍ, DIVIDIR ESTE SERVIDOR).
    Esto dividirá tu servidor principal y creará un split Caddy.
-![caddyserver](/imgs/extras/caddy_server/3.PNG)
+![caddyserver](/extras/caddy_server/3.PNG)
 
 ---
 

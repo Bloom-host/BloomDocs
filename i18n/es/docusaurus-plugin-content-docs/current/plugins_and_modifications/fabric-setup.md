@@ -26,7 +26,7 @@ En esta guía veremos cómo instalar Fabric en tu servidor.
 > Ve a la pestaña Configuración en el panel y en el lado derecho verás la casilla Cambiar tipo de servidor.
 > Edita las casillas según la versión de Fabric que quieras usar.
 >
-> ![Bloom.host Fabric](/imgs/plugins_and_modifications/fabric_setup/FabricInstaller.png)
+> ![Bloom.host Fabric](/plugins_and_modifications/fabric_setup/FabricInstaller.png)
 
 > Haz clic en Cambiar tipo de servidor, esto descargará fabric a tu servidor.
 

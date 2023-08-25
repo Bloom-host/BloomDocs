@@ -84,6 +84,9 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    object-fit: contain;
+    max-height: 50vh;
+    max-height: 50dvh;
 }
 
 /* Hide the title, we show it differently below */

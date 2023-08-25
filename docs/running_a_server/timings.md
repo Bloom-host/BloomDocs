@@ -36,7 +36,7 @@ After waiting 10m, run the command `/timings paste`.
 
 Said command will paste a link on the console, which when clicked will take you to a web interface similar to the one shown below.
 
-![img](/imgs/running_a_server/timings/1.png)
+![img](/running_a_server/timings/1.png)
 
 Anything in red is using a excess of resources. You can also click the plugins tab to see what plugins are using the most resources on your server.
 ## Alternatives to Timings

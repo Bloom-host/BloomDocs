@@ -21,7 +21,7 @@ For this guide, you must have access to a domain and the ability to alter that d
 
 First, you will want to head over to your domain's DNS settings panel. In this demo, we will be using Cloudflare, and as an example domain, we will use **example.com**.
 
-![console](/imgs/using_the_panel/ports_and_proxies/1.png)
+![console](/using_the_panel/ports_and_proxies/1.png)
 
 The DNS record usually used for a reverse proxy is a CNAME (canonical name). Different DNS providers may use different methods to reference the root of a domain. In most cases, you should put an `@` inside the Name box. 
 
@@ -33,7 +33,7 @@ You will want to create an identical CNAME record as the one pictured above, but
 
 Go to your domain's DNS settings. We will use Cloudflare for this demo and **subdomain.example.com** as an example domain.
 
-![console](/imgs/using_the_panel/ports_and_proxies/2.png)
+![console](/using_the_panel/ports_and_proxies/2.png)
 
 In this case, create a new CNAME record, identical to the one above. You will replace the word "**subdomain**" with the actual subdomain you want to use. In '**Target**' you will write the revproxy address corresponding to your location. For US servers it is: `revproxy-us.bloom.host` and for EU servers it is `revproxy-eu.bloom.host`
 
@@ -51,7 +51,7 @@ If you do use Cloudflare for DNS, make sure to set the 'Proxy status' as **DNS o
 
 Once you've created your CNAME record, go to your [game panel](https://mc.bloom.host/) and on the left sidebar, select 'Ports & Proxies'.
 
-![console](/imgs/using_the_panel/ports_and_proxies/3.png)
+![console](/using_the_panel/ports_and_proxies/3.png)
 
 More than likely, you will have one allocation, but to create a reverse proxy, you will need to create a new allocation, to do so, just click '**Create Allocation**'. A popup will appear asking you to write the port you want to use for your new allocation, you can use any port.
 

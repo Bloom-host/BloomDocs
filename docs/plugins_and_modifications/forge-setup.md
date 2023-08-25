@@ -20,7 +20,7 @@ keywords:
 
 First, navigate to the `Settings` tab and find `Change Server Type`. Once there set up the change server type menu for installing forge.
 
-![](/imgs/plugins_and_modifications/forge_setup/1.png)
+![](/plugins_and_modifications/forge_setup/1.png)
 
 On this menu set version to that required by your mods and build to the latest one available (top of the list).
 

@@ -18,15 +18,15 @@ This guide will go over how to change your account details in your client area a
 
 ## Client Area
 
-![img](/imgs/extras/account_details/1.png)
+![img](/extras/account_details/1.png)
 
 Head on over to the billing area by going to the header, hovering over support, then clicking Billing Login. Login to your account or register an account from there. 
 
-![img](/imgs/extras/account_details/2.png)
+![img](/extras/account_details/2.png)
 
 Now, click **Update** under Your Info. 
 
-![img](/imgs/extras/account_details/3.png)
+![img](/extras/account_details/3.png)
 
 This area lets you edit any details about your account from payment methods to emails sent to changing your password. Once done, click **Save Changes** for all your changes to take effect. 
 
@@ -36,12 +36,12 @@ This area lets you edit any details about your account from payment methods to e
 
 To start, head over to your sidebar and click the My Account tab.
 
-![DuckPanel account tab sidebar](/imgs/extras/account_details/4.png)
+![DuckPanel account tab sidebar](/extras/account_details/4.png)
 
 Simply edit any details that you need. Once you have completed a section, click the Update button below it to apply the
 changes needed.
 
-![Main DuckPanel account tab](/imgs/extras/account_details/5.png)
+![Main DuckPanel account tab](/extras/account_details/5.png)
 
 ---
 
@@ -55,17 +55,17 @@ as confirmation.
 
 Simply click 'Link Account' which will redirect to Discord's authorization site.
 
-![Unlinked Discord account status](/imgs/extras/account_details/link.png)
+![Unlinked Discord account status](/extras/account_details/link.png)
 
 Make sure you are logged in with the correct account and click 'Authorise'.
 
-![Discord's authorization page](/imgs/extras/account_details/authorize.png" height="256" width="256)
+![Discord's authorization page](/extras/account_details/authorize.png" height="256" width="256)
 
 You will be redirected back to the DuckPanel where it will show your currently linked account.
-![Linked Discord account status](/imgs/extras/account_details/linked.png)
+![Linked Discord account status](/extras/account_details/linked.png)
 
 If you ever need to unlink your account, simply click 'Unlink Account' in the panel, or 'Deauthorise' under 'Authorised
 Apps' in your Discord settings.
-![img](/imgs/extras/account_details/deauthorize.png)
+![img](/extras/account_details/deauthorize.png)
 
 ---

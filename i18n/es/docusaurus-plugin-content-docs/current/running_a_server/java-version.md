@@ -25,7 +25,7 @@ Para cambiar la versión de Java:
 Todas las versiones 1.18+ necesitan Java 17 para funcionar.
 :::
 
-![java version](/imgs/running_a_server/java_version/1.png)
+![java version](/running_a_server/java_version/1.png)
 
 :::important
 Si no puedes cambiar esta opción y ves un mensaje como "This server's Docker image has been manually set by an

@@ -41,4 +41,4 @@ carpeta o archivo en específico, pon la ubicación del archivo en ese recuadro.
 
 Una vez la importación inicie, puedes entrar a la página de **Console** (Consola) para ver el progreso actual.
 
-![console](/imgs/using_the_panel/server-importer/1.png)
+![console](/using_the_panel/server-importer/1.png)

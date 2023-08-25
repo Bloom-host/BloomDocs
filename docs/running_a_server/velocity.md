@@ -24,7 +24,7 @@ When running your servers behind a proxy like Velocity or Waterfall, it requires
 
 To get started with Velocity, you first need to download the latest version of Velocity from PaperMC [downloads page](https://papermc.io/downloads#Velocity).
 
-![console](/imgs/running_a_server/velocity/1.png)
+![console](/running_a_server/velocity/1.png)
 
 Once you have downloaded Velocity you may proceed to the next step in the setup process: creating a server split to run Velocity off of. Velocity is it’s own server jar file and will require it’s own server to run from.
 
@@ -38,19 +38,19 @@ First you will need to head to your server split section via the server panel si
 
 Next you need to select the type of server split you want to create, name your split, and allocate the amount of RAM and Storage you want your Velocity Server to have, it will look something like this:
 
-![console](/imgs/running_a_server/velocity/velocity-server-split-setups.png)
+![console](/running_a_server/velocity/velocity-server-split-setups.png)
 
 After you create your split for Velocity it will appear in that section with all its details, just like your other server splits.
 
-![console](/imgs/running_a_server/velocity/2.png)
+![console](/running_a_server/velocity/2.png)
 
 Rename your velocity jar that you downloaded in the previous section to `velocity.jar` for simplicity and upload it to your `/home` directory on your new server split. This will be the jar that runs Velocity, much like server jars on your other splits. After you've uploaded the jar file to your server you need to head to the `Startup` section of your server split via the sidebar and make sure that the name of the startup variable for the server jar matches up with what you have uploaded. It should look like this:
 
-![img](/imgs/running_a_server/velocity/velocity-startup-options.PNG)
+![img](/running_a_server/velocity/velocity-startup-options.PNG)
 
 Now you need to start up the Velocity server and then shut it down once it's loaded, this will initialize the filesystem for Velocity and setup Velocity's folders and configuration file. Your `/home` directory should now look something like this.
 
-![img](/imgs/running_a_server/velocity/velocity-initial-fs.PNG)
+![img](/running_a_server/velocity/velocity-initial-fs.PNG)
 
 The `velocity.toml` file is the config file for Velocity, we will be editing this and more in the following sections.
 

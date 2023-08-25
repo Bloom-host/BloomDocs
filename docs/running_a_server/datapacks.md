@@ -26,11 +26,11 @@ Installing a datapack is quite simple. Once you’ve downloaded the datapack you
 
 Now go to your server and open “file management” then open “file explorer” in the dropdown menu.
 
-![img](/imgs/running_a_server/datapacks/1.png)
+![img](/running_a_server/datapacks/1.png)
 
 Select the world you want to install the datapack onto.
 
-![img](/imgs/running_a_server/datapacks/2.png)
+![img](/running_a_server/datapacks/2.png)
 
 Open the folder “datapacks” and Click the upload button in the top right corner and select upload your datapack. You can also drag and drop the datapack .zip file.
 
@@ -38,7 +38,7 @@ Open the folder “datapacks” and Click the upload button in the top right cor
 Remember that you need to upload the .zip datapack file, you don't need to unzip it.
 :::
 
-![img](/imgs/running_a_server/datapacks/3.png)
+![img](/running_a_server/datapacks/3.png)
 
 Now restart your server, feel free to open a ticket if you need any assistance.
 

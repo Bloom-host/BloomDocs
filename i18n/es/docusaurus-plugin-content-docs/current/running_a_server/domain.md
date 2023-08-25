@@ -25,7 +25,7 @@ En esta guía repasaremos cómo usar un dominio como `mc.ejemplo.com` y no un n�
 2. En la página principal arriba de tu consola podrás encontrar tu IP. Todos los servidores de Bloom.host usan una IP
 dedicada, así que solo necesitarás la IP pero no el puerto (`25565`). 
 
-![Bloom.host Pointing A Domain](/imgs/running_a_server/domain/1.png)
+![Bloom.host Pointing A Domain](/running_a_server/domain/1.png)
 
 3. En esta guía usaremos CloudFlare para apuntar nuestro dominio al servidor. Simplemente regístrate [aquí](https://dash.cloudflare.com/sign-up).
 Después de registrarte, verás unos pasos para poder conectar tu dominio a CloudFlare.
@@ -33,7 +33,7 @@ Después de registrarte, verás unos pasos para poder conectar tu dominio a Clou
 Como otra alternativa, puedes usar el DNS proveído por tu propio proveedor del dominio. Aunque todos los sitios web se ven
 diferentes, los pasos son los mismos para todos. 
 
-![img](/imgs/running_a_server/domain/2.png)
+![img](/running_a_server/domain/2.png)
 
 ---
 
@@ -56,7 +56,7 @@ En estos pasos asumimos que ya has creado un **Registro A** apuntando a la IP de
 sigue los pasos de arriba para crear uno que esté apuntando a tu dominio.
 :::
 
-![img](/imgs/running_a_server/domain/3.png)
+![img](/running_a_server/domain/3.png)
 
 Para crear un **Registro SRV** debes de ingresar a la página de tu registrar o CloudFlare dependiendo de cuál uses. 
 - Una vez ahí, da click en **Add record** (Añadir registro) y en **Type** (Tipo) selecciona **`SRV`**.

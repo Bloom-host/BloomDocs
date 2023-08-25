@@ -17,7 +17,7 @@ Puedes darles acceso parcial a tu servidor a personas como miembros de tu Staff.
 
 2. Aquí puedes manejar todos tus Sub-Usuarios. Ahora, da click en **`Create New`** para empezar a configurar un nuevo Sub-Usuario.
 
-![img](/imgs/using_the_panel/users/1.png)
+![img](/using_the_panel/users/1.png)
 
 3. Ingresa el correo de la persona que quieras añadir. Luego, selecciona los permisos que quieres darle al usuario.
 
@@ -25,16 +25,16 @@ Puedes darles acceso parcial a tu servidor a personas como miembros de tu Staff.
 Puedes cambiar tu ícono en [el sitio oficial de Gravatar](https://en.gravatar.com/).
 :::
 
-![img](/imgs/using_the_panel/users/2.png)
+![img](/using_the_panel/users/2.png)
 
 3. Una vez que hayas añadido un usuario, se le enviará un correo al correo que pusiste indicando que el usuario ha sido 
 invitado a administrar el servidor. El Sub-Usuario tiene que abrir el correo e ir al link proveído.
 
-![img](/imgs/using_the_panel/users/3.png)
+![img](/using_the_panel/users/3.png)
 
 4. Después de dar click en el botón en el correo, el Sub-Usuario será redirigido a la página de reseteo de contraseña. 
 Aquí debe poner su correo y una contraseña para su cuenta.
-![img](/imgs/using_the_panel/users/4.png)
+![img](/using_the_panel/users/4.png)
 
 5. Eso es todo! Para entrar al servidor, el Sub-Usuario simplemente tiene que ir al [Duck Panel](https://mc.bloom.host/)
 e iniciar sesión con sus credenciales creadas anteriormente.

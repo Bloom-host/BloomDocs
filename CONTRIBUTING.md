@@ -54,7 +54,7 @@ You can also contribute to the embeds used by BloomBot in the Discord where a co
 You can edit [`embeds.yml`](/embeds.yml) and this can be contributed along with documentation changes and can be contributed in the same PR.
 
 Here is the format of the embeds:
-![img](https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/imgs/discord/embed-help.png)
+![img](https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/discord/embed-help.png)
 
 ```yml
 embed_name:

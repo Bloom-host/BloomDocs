@@ -17,7 +17,7 @@ keywords:
 :::warning
 Advanced Anti Cheat (AAC) has become inactive on spigotmc.org and is no longer available to purchase. It is not recommended to use AAC in your servers and it has not been updated for the latest versions of Minecraft (last update was for 1.17.1). 
 
-![AAC inactive resource](/imgs/plugins_and_modifications/plugins/advancedanticheat/inactiveResource.png)
+![AAC inactive resource](/plugins_and_modifications/plugins/advancedanticheat/inactiveResource.png)
 
 It is recomended to use an alternative solution such as [Vulcan](vulcan.md).
 

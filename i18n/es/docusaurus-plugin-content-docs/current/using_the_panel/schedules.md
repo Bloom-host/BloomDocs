@@ -30,12 +30,12 @@ automáticas. Puedes usar este [sitio web](https://www.timeanddate.com/worldcloc
 3. Ingresa un nombre para tu acción y selecciona cuándo y cada cuánto quieres que se repita. Para usuarios avanzados que
 son familiares con cron syntax, click en **Advanced** (Avanzado).
 
-![img](/imgs/using_the_panel/schedules/1.png)
+![img](/using_the_panel/schedules/1.png)
 
 4. Una vez creada, da click en la acción en la lista principal para ver las tareas a ejecutar. Luego, click en **New Task**
    (Nueva Tarea) para añadir una tarea a tu acción automática.
 
-![img](/imgs/using_the_panel/schedules/2.png)
+![img](/using_the_panel/schedules/2.png)
 
 5. En la parte final especificas si quieres correr un comando o una acción de energía. Los comandos se escriben sin el `/`.
 También puedes especificar una acción de energía (apagar, encender, etc) o crear un backup como tarea.
@@ -43,7 +43,7 @@ También puedes especificar una acción de energía (apagar, encender, etc) o cr
 6. Aquí también puedes especificar un delay. Esto es útil si quieres hacer algo como mandar un anuncio a tus usuarios
 antes de reiniciar el servidor.
 
-![img](/imgs/using_the_panel/schedules/3.png)
+![img](/using_the_panel/schedules/3.png)
 
 ---
 
@@ -51,7 +51,7 @@ antes de reiniciar el servidor.
 
 #### ➤ Reinicios Diarios
 
-![img](/imgs/using_the_panel/schedules/4.png)
+![img](/using_the_panel/schedules/4.png)
 
 #### ➤ Backups Diarios
 Revisa nuestra [guía](backups.md) sobre backups!

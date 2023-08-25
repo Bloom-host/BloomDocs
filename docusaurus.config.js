@@ -4,7 +4,7 @@ module.exports = {
     "url": "https://docs.bloom.host",
     baseUrl: '/',
     onBrokenLinks: 'warn',
-    favicon: '/imgs/favicon.ico',
+    favicon: '/favicon.ico',
     organizationName: 'bloom-host',
     projectName: 'bloomdocs',
 
@@ -13,7 +13,7 @@ module.exports = {
     ],
 
     themeConfig: {
-        image: '/imgs/meta.png',
+        image: '/meta.png',
         colorMode: {
             defaultMode: 'dark',
             disableSwitch: false,
@@ -47,7 +47,7 @@ module.exports = {
             title: 'Bloom Docs',
             logo: {
                 alt: 'Bloom Logo',
-                src: '/imgs/logo.webp'
+                src: '/logo.webp'
             },
             items: [
                 {

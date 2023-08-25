@@ -32,7 +32,7 @@ On Windows you can use a software such as [WinMTR](https://sourceforge.net/proje
 
 If you want to learn how to read an MTR results, you can read [this article](https://www.exavault.com/blog/reading-mtr-output) aswell as [this doc](https://www.cloudflare.com/learning/network-layer/what-is-mtr/)
 
-![img](/imgs/extras/ping-issues/1.png)
+![img](/extras/ping-issues/1.png)
 
 Assuming your issue isn't network related, you can try the steps outlined below.
 
@@ -46,6 +46,6 @@ We recommend you try changing to engine mode 1, then restart the server and see 
 
 You can find this setting in the Paper.yml file in the main server folder towards the end of the file around Line 253.
 
-![img](/imgs/extras/ping-issues/2.png)
+![img](/extras/ping-issues/2.png)
 
 ---

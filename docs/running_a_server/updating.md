@@ -7,7 +7,7 @@ sidebar_label: Updating or changing versions
 ---
 
 ### Introduction
-![logo](/imgs/running_a_server/updating/1.png)
+![logo](/running_a_server/updating/1.png)
 
 Updating or changing the version of your your Bloom.host server is super easy and fast. We have integrated the API of many popular Minecraft jars into our panel, so you can update your server in seconds, no need to download anything to your local computer.
 

@@ -29,7 +29,7 @@ Aquí puedes encontrar tus backups actuales, juntos con un botón de **Create Ba
 
 2. Al darle click a este botón, te saldrá esta ventana:
 
-![img](/imgs/using_the_panel/backups/1.png)
+![img](/using_the_panel/backups/1.png)
 
 3. Dale un nombre a tu backup y presiona el botón **Start Backup** (Iniciar Backup) para continuar.
 El backup empezará a correr en el fondo. Esto puede demorar un tiempo dependiendo del tamaño de tu servidor.
@@ -43,11 +43,11 @@ El backup empezará a correr en el fondo. Esto puede demorar un tiempo dependien
 Mira algunos ejemplos en nuestra guía de [Schedules](schedules.md). Ahora mismo solo da click a **Create Schedule** (Crear Schedule). 
 3. Elige cuándo deseas crear un backup y da click a **Create Schedule** (Crear Schedule). En este caso haremos uno cada
 8 horas, creando 3 backups por día.
-![img](/imgs/using_the_panel/backups/2.png)
+![img](/using_the_panel/backups/2.png)
 4. Luego, simplemente añade los comandos y acciones que deseas tener.
 En este ejemplo apagaremos el servidor antes de crear el backup y lo iniciaremos después que sea creado.
 Este no es un paso necesario pero es una buena práctica para evitar corrupción de datos.
-![img](/imgs/using_the_panel/backups/3.png)
+![img](/using_the_panel/backups/3.png)
 
 Si alcanzas el límite de backups de tu plan, el backup más viejo será reemplazado por uno nuevo.
 
@@ -58,7 +58,7 @@ Si alcanzas el límite de backups de tu plan, el backup más viejo será reempla
 Para restaurar un backup, simplemente entra a la sección de Backups, selecciona el backup y dale click a **Restore** (Restaurar).
 Ten en cuenta que esto va a reemplazar todos los archivos con nombres duplicados. 
 
-![img](/imgs/using_the_panel/backups/4.png)
+![img](/using_the_panel/backups/4.png)
 
 ---
 
@@ -80,4 +80,4 @@ Para montar un backup:
 2. Una vez hayas montado el backup, busca el archivo que quieres restaurar.
 3. Da click en `...` al lado del archivo y click en **Restore** (Restaurar). Esto devolverá el archivo a su carpeta original.
 
-![img](/imgs/using_the_panel/backups/5.png)
+![img](/using_the_panel/backups/5.png)

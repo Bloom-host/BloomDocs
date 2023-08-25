@@ -21,7 +21,7 @@ Click **New Database** to start the process.
 
 In the first box, you assign the database a name. In the second, you can specify what IP addresses can connect to the database. We recommend leaving it as the default wildcard of `%`, which will allow all IP addresses to connect.
 
-![img](/imgs/using_the_panel/databases/1.png)
+![img](/using_the_panel/databases/1.png)
 
 ---
 
@@ -29,16 +29,16 @@ In the first box, you assign the database a name. In the second, you can specify
 
 Once you have created the database, it will appear in your database list. From here you can view basic details, advanced details, import to the database, export from the database, or delete the database.
 
-![img](/imgs/using_the_panel/databases/2.png)
+![img](/using_the_panel/databases/2.png)
 
 ---
 ### Importing MySQL Databases through the panel
 
 To import a database you first have to create a new database in your Bloom server. Once it is created, you can then click on the import button which will open a prompt. Fill in the form with the database connection details from the remote MySQL server. Keep in mind that database imports are limited to **5GB**.
 
-![img](/imgs/using_the_panel/databases/4.png)
+![img](/using_the_panel/databases/4.png)
 
-![img](/imgs/using_the_panel/databases/3.png)
+![img](/using_the_panel/databases/3.png)
 
 ---
 ### Importing an .SQL database dump through the file manager
@@ -49,7 +49,7 @@ In some cases the encoding, formatting or how the database dump was made isn't c
 
 You can also upload an SQL file to import a database. Once the file is uploaded, go to the file manager, click the three dots to the right of the .sql file and click on **Import Database** then select the database you want to import it to. Keep in mind that not all .sql files are in the correct format and this option may not work if it wasn't a database properly dumped from an MySQL server.
 
-![img](/imgs/using_the_panel/databases/5.png)
+![img](/using_the_panel/databases/5.png)
 
 ---
 ### Importing an .SQL database dump through HeidiSQL
@@ -60,7 +60,7 @@ Keep in mind that not all .SQL files such as sqlite and others can't be imported
 
 To import an .SQL database dump through HeidiSQL first connect to your database, select your database then click on the **File** menu option and select **Run SQL file**, this will run your .SQL file in HeidiSQL and should import it into your database.
 
-![img](/imgs/using_the_panel/databases/6.png)
+![img](/using_the_panel/databases/6.png)
 
 ---
 

@@ -22,7 +22,7 @@ keywords:
 > Go the the Settings tab on the panel and on the right side you will see Change Server Type box. 
 > Edit the boxes to the fabric version you would like to use.
 >
-> ![Bloom.host Fabric](/imgs/plugins_and_modifications/fabric_setup/FabricInstaller.png)
+> ![Bloom.host Fabric](/plugins_and_modifications/fabric_setup/FabricInstaller.png)
 
 > Click Change Server Type, this will download fabric to your server. 
 

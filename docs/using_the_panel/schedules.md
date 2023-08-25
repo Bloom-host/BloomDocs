@@ -22,17 +22,17 @@ First, go to your [Duck Panel](https://mc.bloom.host/) and select **Schedules** 
 
 The main page will list all of our current schedules. To add a schedule, click the **Create New** button. Enter a name for your schedule and select when and how often you would like it to run. For advanced users familiar with cron syntax, click the **Advanced** tab.
 
-![img](/imgs/using_the_panel/schedules/1.png)
+![img](/using_the_panel/schedules/1.png)
 
 Once created, click the schedule on the main list to view the tasks. Then, click **New Task** to add your first schedule action.
 
-![img](/imgs/using_the_panel/schedules/2.png)
+![img](/using_the_panel/schedules/2.png)
 
 The final section is what will be sent as a command or as a power action. Commands should be used without the `/`. You can also choose a power action or create a backup.
 
 Here you can also specify a delay. This is useful if you would like to send a timed warning to your players before a restart for example.
 
-![img](/imgs/using_the_panel/schedules/3.png)
+![img](/using_the_panel/schedules/3.png)
 
 ---
 
@@ -40,7 +40,7 @@ Here you can also specify a delay. This is useful if you would like to send a ti
 
 #### ➤ Daily Restart
 
-![img](/imgs/using_the_panel/schedules/4.png)
+![img](/using_the_panel/schedules/4.png)
 
 #### ➤ Daily Backups
 See our [guide](backups.md) on backups!

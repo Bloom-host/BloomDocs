@@ -17,13 +17,13 @@ Hey Bloomers! In this guide we will be going over how to configure or cancel a P
 
 To configure a PayPal Subscription when you first order a server just select "PayPal Subscription" as the payment method.
 
-![img](/imgs/billing/paypal/1.png)
+![img](/billing/paypal/1.png)
 
 ## Configuring a PayPal Subscription when you are already a customer
 
 If you have already a plan with us you will need to wait until the next invoice generates, then go to the invoices section on our [billing portal](https://billing.bloom.host/clientarea.php?action=invoices), select the latest unpaid invoice and under payment method select "PayPal Subscription" and configure the subscription. You will want to use the first option "PayPal Checkout" if you already have an account with PayPal, if not you can select "Debit or Credit Card" to configure the subscription.
 
-![img](/imgs/billing/paypal/2.png)
+![img](/billing/paypal/2.png)
 
 ## How to cancel a PayPal Subscription (Recurring Payment)
 

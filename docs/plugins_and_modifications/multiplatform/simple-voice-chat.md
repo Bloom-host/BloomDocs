@@ -26,9 +26,9 @@ In order to run Simple Voice Chat on your server, you need one of the following 
 1. Download the Fabric version of [Simple Voice Chat](https://modrinth.com/mod/simple-voice-chat/versions?l=fabric) ([Alternative download link](https://www.curseforge.com/minecraft/mc-mods/simple-voice-chat/files/all?filter-game-version=2020709689%3A7499))
 2. Open the [file manager](/file-manager-controls) in your dashboard
 3. Open the **mods** folder or create it if it doesn't exist
-![console](/imgs/plugins_and_modifications/simple_voice_chat/1.png)
+![console](/plugins_and_modifications/simple_voice_chat/1.png)
 4. Drag and drop the **Simple Voice Chat jar** into the browser window.
-![console](/imgs/plugins_and_modifications/simple_voice_chat/2.png)
+![console](/plugins_and_modifications/simple_voice_chat/2.png)
 5. Continue with the [common installation](#common)
 
 ### Forge
@@ -36,7 +36,7 @@ In order to run Simple Voice Chat on your server, you need one of the following 
 1. Download the Forge version of [Simple Voice Chat](https://modrinth.com/mod/simple-voice-chat/versions?l=forge) ([Alternative download link](https://www.curseforge.com/minecraft/mc-mods/simple-voice-chat/files/all?filter-game-version=2020709689%3A7498))
 2. Open the [file manager](/file-manager-controls) in your dashboard
 3. Open the **mods** folder or create it if it doesn't exist
-![console](/imgs/plugins_and_modifications/simple_voice_chat/1.png)
+![console](/plugins_and_modifications/simple_voice_chat/1.png)
 4. Drag and drop the the **Simple Voice Chat jar** into the browser window.
 5. Continue with the [common installation](#common)
 
@@ -61,13 +61,13 @@ In order to run Simple Voice Chat on your server, you need one of the following 
 1. Make sure you followed the steps for [Fabric](#fabric), [Forge](#forge), [Bukkit/Spigot/Paper](#bukkitspigotpaper) or [Quilt](#quilt)
 2. Open the **Ports & Proxies** section in your dashboard
 3. Click on **OPEN PORT**
-![console](/imgs/plugins_and_modifications/simple_voice_chat/3.png)
+![console](/plugins_and_modifications/simple_voice_chat/3.png)
 4. Enter the number `24454` in the port field and click on **OPEN PORT**
-![console](/imgs/plugins_and_modifications/simple_voice_chat/4.png)
+![console](/plugins_and_modifications/simple_voice_chat/4.png)
 5. If your server is already running, you will be prompted to restart your server - If this is the case, click on **RESTART NOW**
-![console](/imgs/plugins_and_modifications/simple_voice_chat/5.png)
+![console](/plugins_and_modifications/simple_voice_chat/5.png)
 6. Go to the **Console** section of your dashboard
 7. If you didn't get the prompt to restart the server, click on **RESTART**
-![console](/imgs/plugins_and_modifications/simple_voice_chat/6.png)
+![console](/plugins_and_modifications/simple_voice_chat/6.png)
 8. After the server has restarted, check your logs for the line **Server started at port 24454** - If this line exists, you successfully installed Simple Voice Chat!
-![console](/imgs/plugins_and_modifications/simple_voice_chat/7.png)
+![console](/plugins_and_modifications/simple_voice_chat/7.png)

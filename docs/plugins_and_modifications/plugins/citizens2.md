@@ -72,7 +72,7 @@ In this example, we will create a basic human NPC who says "Hello!":
 :::note
 For NPC skins, you can go to [Minecraft Skins](https://www.minecraftskins.com/) or a similar website.  You will need a direct link to the NPC skin to apply it.  For Minecraft Skins, you can click on the "Image Link"
 
-<!--![minecraft skins image link](static/imgs/plugins/citizens2/1.png)-->
+<!--![minecraft skins image link](static/plugins/citizens2/1.png)-->
 :::
 
 :::note

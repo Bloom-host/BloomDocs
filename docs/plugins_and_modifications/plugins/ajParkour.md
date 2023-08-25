@@ -25,7 +25,7 @@ keywords:
 
 It is quite simple to install plugins from the plugin installer, firstly search for the plugin.
 
-![Plugin installer installing](/imgs/plugins_and_modifications/plugins/ajParkour/pluginInstaller.png)
+![Plugin installer installing](/plugins_and_modifications/plugins/ajParkour/pluginInstaller.png)
 
 Then click install and restart your server.
 
