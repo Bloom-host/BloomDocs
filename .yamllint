@@ -5,3 +5,5 @@ rules:
   line-length: disable
   trailing-spaces: disable
   brackets: disable
+  new-lines:
+   type: unix
