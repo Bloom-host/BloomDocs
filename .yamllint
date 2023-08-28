@@ -1,0 +1,10 @@
+extends: default
+
+rules:
+  document-start: disable
+  line-length:
+    max: 150
+    level: warning
+  trailing-spaces: disable
+  brackets:
+    required: false
