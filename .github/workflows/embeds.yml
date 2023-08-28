@@ -15,4 +15,4 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Validate YAML file
-        run: yamllint embeds.yml
+        run: yamllint -c .yamllint embeds.yml
