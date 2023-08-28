@@ -847,6 +847,7 @@ emergencyrestore:
     - 'emergencyrestores'
     - 'emergencybackup'
     - 'emergencybackups'
+    - 'er'
   description: |+
     We have emergency node backups we can restore your server from.
 
