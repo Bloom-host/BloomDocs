@@ -6,5 +6,4 @@ rules:
     max: 150
     level: warning
   trailing-spaces: disable
-  brackets:
-    required: false
+  brackets: disable
