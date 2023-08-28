@@ -1406,7 +1406,7 @@ ticket-panel:
 
     Please consider using <#737803938430189678> for non-technical issues.
   buttons:
-    - [ 'Open Billing Ticket', 'https://billing.bloom.host/submitticket.php', '💰' , '2' ]
+    - [ 'Open Billing Ticket', 'https://billing.bloom.host/submitticket.php', '💰', '2' ]
 
 waitlistpanel:
   enabled: false
