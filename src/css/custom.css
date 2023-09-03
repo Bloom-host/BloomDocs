@@ -89,6 +89,11 @@ img {
     max-height: 50dvh;
 }
 
+img:is(.small) {
+    max-height: 30vh;
+    max-height: 30dvh;
+}
+
 /* Hide the title, we show it differently below */
 .theme-doc-markdown.markdown > header > h1 {
     display: none;
