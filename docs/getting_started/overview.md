@@ -7,7 +7,7 @@ sidebar_label: Documentation Overview
 ---
 
 
-Most of the articles in this documentation were created by our community. You can help us too! Visit our guide on [How to contribute to our docs](../extras/contributing.md) to learn more. 
+Most of the articles in this documentation were created by our community. You can help us too! Visit our guide on [how to contribute to our docs](https://github.com/Bloom-host/BloomDocs/blob/master/README.md) to learn more. 
 
 ## Introduction
 ![logo](/getting_started/overview/2.png)

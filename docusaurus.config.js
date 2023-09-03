@@ -1,7 +1,7 @@
 module.exports = {
     title: 'Docs',
     tagline: 'Docs for Bloom',
-    "url": "https://docs.bloom.host",
+    url: 'https://docs.bloom.host',
     baseUrl: '/',
     onBrokenLinks: 'warn',
     favicon: '/favicon.ico',
@@ -27,9 +27,9 @@ module.exports = {
         ],
 
         algolia: {
-            apiKey: "6e10e6fc7bbd9b5093c45f689e51d2df",
+            apiKey: '6e10e6fc7bbd9b5093c45f689e51d2df',
             appId: 'INL0MGKMMA',
-            indexName: "bloom",
+            indexName: 'bloom',
             contextualSearch: true,
             searchParameters: {},
         },

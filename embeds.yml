@@ -1,5 +1,5 @@
 # This is the source file of BloomBot's embeds
-# For more information, please see CONTRIBUTING.md
+# For more information, please see the README
 
 help:
   title: 'BloomBot Help'
@@ -159,7 +159,7 @@ contribute:
     or on a Word document and send it to us through a support ticket and we will
     add it.
     
-    🔗 Wish to know more? Check out [How to contribute to our documentation](https://docs.bloom.host/extras/contributing)!
+    🔗 Wish to know more? Check out [how to contribute to our documentation](https://github.com/Bloom-host/BloomDocs/blob/master/README.md)!
   thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/tY6IAF.png'
   image: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/documentation.png'
 
