@@ -655,6 +655,28 @@ clumsyloader:
   buttons:
     - [ 'Open Docs', 'https://docs.bloom.host/extras/clumsyloader/', '❔' ]
 
+whitelist:
+  aliases:
+    - 'whitelists'
+  title: '📜 Bloom Docs - Whitelist'
+  description: >
+    Check out our comprehensive guide on using a whitelist
+    [here](https://docs.bloom.host/whitelist/)!
+  buttons:
+    - [ 'Open Docs', 'https://docs.bloom.host/whitelist/', '❔' ]
+
+internal:
+  aliases:
+    - 'internal-servers'
+    - 'internal-server'
+    - 'backend'
+  title: '📜 Bloom Docs - Internal Servers'
+  description: >
+    Check out our comprehensive guide on internal servers
+    [here](https://docs.bloom.host/internal-servers/)!
+  buttons:
+    - [ 'Open Docs', 'https://docs.bloom.host/internal-servers/', '❔' ]
+
 stripe:
   title: '📜 Bloom Docs - Stripe Subscriptions'
   description: >
@@ -825,6 +847,7 @@ emergencyrestore:
     - 'emergencyrestores'
     - 'emergencybackup'
     - 'emergencybackups'
+    - 'er'
   description: |+
     We have emergency node backups we can restore your server from.
 
@@ -854,6 +877,15 @@ timings:
     debug TPS issues on your server [here](https://docs.bloom.host/timings/).
   thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/tY6IAF.png'
   image: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/ZX46Vs.png'
+
+spark:
+  aliases: [ 'profiler' ]
+  title: '📜 Bloom Docs - Spark'
+  description: >
+    Check out our comprehensive guide on creating a spark profiler to
+    debug TPS issues on your server [here](https://docs.bloom.host/spark/).
+  thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/running_a_server/spark/1.png'
+  image: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/running_a_server/spark/1.png'
 
 motd:
   title: '📜 Bloom Docs - MOTD'
@@ -920,7 +952,6 @@ codes:
   colour: '#feab33'
   description: |+
     ### Here are the current active promo codes:
-    - `TRAILS&TALES`: 15% off the first Minecraft or VPS plan (expires <t:1693458000:R>)
     - `PERFPLUSME`: 20% off your first Performance Plus plan
   buttons:
     - [ 'Create Your Server Now', 'https://bloom.host/', '🎉' ]
@@ -1375,7 +1406,7 @@ ticket-panel:
 
     Please consider using <#737803938430189678> for non-technical issues.
   buttons:
-    - [ 'Open Billing Ticket', 'https://billing.bloom.host/submitticket.php', '💰' , '2' ]
+    - [ 'Open Billing Ticket', 'https://billing.bloom.host/submitticket.php', '💰', '2' ]
 
 waitlistpanel:
   enabled: false
