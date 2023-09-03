@@ -108,3 +108,14 @@ since we already have them in the navbar */
         display: none;
     }
 }
+
+#not-found-wrapper {
+    text-align: center;
+    margin: auto;
+    max-width: max(50%, 30em);
+}
+
+#not-found-wrapper h1 {
+    font-size: 7em;
+}
+
