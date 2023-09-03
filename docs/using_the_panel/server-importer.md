@@ -56,5 +56,5 @@ This method only works if your former provider offers backups with the option to
 - Go to the backup section in your panel.
 - Download the backup directly with your browser.
 - Once the download has started, go to the "Downloads" manager of your browser of choice, and copy the link attached to the file-download.
-- In your Duck Panel, go to File Manager, then click the top right button "Donwload From URL".
+- In your Duck Panel, go to File Manager, then click the top right button "Download From URL".
 - If the link is direct, then it will begin the download. Once it's completed your backup archive will be available in the Home directory of your server.
