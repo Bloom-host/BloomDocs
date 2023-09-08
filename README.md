@@ -15,15 +15,6 @@ You can help contribute to the Bloom.host documentation in one of two ways:
 
 ### Option #1:
 
-You can write an article in a format you prefer and create a support ticket in
-our [Discord server](https://discord.gg/bloom), and it will be converted over for you. 
-Note that documents in Markdown are preferred, however, Microsoft Word and Google Docs files can be accepted,
-and they can be uploaded to the documentation.
-
----
-
-### Option #2 (Advanced):
-
 You can also contribute to the docs directly by doing the following:
 
 This method makes it easier to import the document(s) and to make sure that the formatting is correct and to make it
@@ -36,6 +27,15 @@ look the way you want it when it is imported.
 
 **Note:** If you are adding new pages, be sure to add it into [`sidebars.js`](/sidebars.js) (located in the root of the
 repo).
+
+---
+
+### Option #2:
+
+You can write an article in a format you prefer and create a support ticket in
+our [Discord server](https://discord.gg/bloom), and it will be converted over for you.
+Note that documents in Markdown are preferred, however, Microsoft Word and Google Docs files can be accepted,
+and they can be uploaded to the documentation.
 
 ---
 
@@ -96,7 +96,7 @@ information about the user panel or information about running Minecraft servers.
 
 </summary>
 
-You can also contribute to the embeds used by BloomBot in the Discord where a command is used, and it can provide
+You can also contribute to the embeds used by BloomBot in the [Discord](https://discord.gg/bloom) where a command is used, and it can provide
 troubleshooting information or quick information to users such as those who are requesting support.
 
 You can edit [`embeds.yml`](/embeds.yml) and this can be contributed along with documentation changes and can be
