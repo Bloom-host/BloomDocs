@@ -180,17 +180,27 @@ Please note that changes are not instant and may take up to 24 hours to apply.
 These are the awesome people who have contributed at least three guides to our documentation so far!
 If your name is missing, please let us know on [Discord](https://bloom.host/discord)!
 
-- Billy
-- Artic
-- Euan
-- Kaaale
-- LoJoSho
-- LGLover
-- Nessie
-- Virgil.Gunder
-- Zeus
-- waterswimmer111
-- just a random person
-- Rei
-- Simonee
-- Geri
+- Razboy20 (`razboy20`)
+- Evident (`evident._.`)
+- Zax71 (`zax71`)
+- Eagle (`legaleagality`)
+- Euan (`Euan#7980`)
+- Kieran (`krnbrz`)
+- Southpaw (`southpaw1496`)
+- just a random person (`just.a.random.person`)
+- Technofied (`technofied`)
+- LGLOVER (`lglover`)
+- Clumsy (`clumsy`)
+- RelativeSure (`relativesure`)
+- robot (`robot`)
+- Billy (`billydanoob`)
+- LoJoSho (`lojosho`)
+- si (`himitsucakes`)
+- alau740 (`alau740`)
+- water (`waterswimmer`)
+- Geri (`bloom.geri.dev`)
+- Roan (`roanv`)
+- lk2107 (`lk2107`)
+- Artic (`artic_.`)
+- Kurumi78 (`kurumitokisaki`)
+- Amgelo (`amgelo563`)
