@@ -104,7 +104,7 @@ You can edit [`embeds.yml`](/embeds.yml) and this can be contributed along with 
 contributed in the same PR.
 
 Here is the format of the embeds:
-![img](https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/discord/embed-help.png)
+![img](https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/embed-help.png)
 
 ```yml
 embed_name:
