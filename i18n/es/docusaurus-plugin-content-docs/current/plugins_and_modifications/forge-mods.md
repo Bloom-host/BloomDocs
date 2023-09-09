@@ -2,7 +2,6 @@
 id: forge-mods
 title: Mods de Forge
 slug: /forge-mods
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: Instalando Mods de Forge
 description: Cómo instalar mods de Forge en tu servidor de Minecraft.
@@ -13,13 +12,7 @@ keywords:
   - Minecraft
   - Fabric
   - Mods
-image: https://bloom.host/assets/images/logo.png
 ---
-
-<div class="text--center">
-<img src="https://bloom.host/logo-white.svg" alt="logo" height="50%" width="50%"/>
-<h1>Instalando Mods de Forge</h1>
-</div>
 
 Hola Bloomers! 👋
 

@@ -2,7 +2,6 @@
 id: binarysearch
 title: "Diagnosticando: Búsqueda binaria"
 slug: /binarysearch
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: "Búsqueda binaria"
 description: Cómo encontrar un error causado por un plugin desconocido?
@@ -12,13 +11,7 @@ keywords:
   - Troubleshoot
   - Troubleshooting
   - Error
-image: https://bloom.host/assets/images/logo.png
 ---
-
-<div class="text--center">
-<img src="https://bloom.host/logo-white.svg" alt="logo" height="50%" width="50%"/>
-<h1>Diagnosticando: Búsqueda binaria</h1>
-</div>
 
 Hola Bloomers! 👋
 

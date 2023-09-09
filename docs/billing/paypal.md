@@ -1,7 +1,6 @@
 ---
 id: paypal
 title: PayPal Subscriptions
-hide_title: true
 hide_table_of_contents: false
 sidebar_label: PayPal Subscriptions
 description: This guide will show you how to setup a PayPal subscription and how to cancel it if neccesary.
@@ -11,11 +10,6 @@ keywords:
   - PayPal Recurring
 ---
 
-<div class="text--center">
-<img src="https://bloom.host/logo-white.svg" alt="logo" height="50%" width="50%"/>
-<h1>PayPal Subscriptions</h1>
-</div>
-
 Hey Bloomers! In this guide we will be going over how to configure or cancel a PayPal Subscription.
 
 
@@ -23,15 +17,13 @@ Hey Bloomers! In this guide we will be going over how to configure or cancel a P
 
 To configure a PayPal Subscription when you first order a server just select "PayPal Subscription" as the payment method.
 
-<div class="text--center">
-<img src={require('../../static/imgs/billing/paypal/1.png').default} alt="img"/></div>
+![img](/billing/paypal/1.png)
 
 ## Configuring a PayPal Subscription when you are already a customer
 
 If you have already a plan with us you will need to wait until the next invoice generates, then go to the invoices section on our [billing portal](https://billing.bloom.host/clientarea.php?action=invoices), select the latest unpaid invoice and under payment method select "PayPal Subscription" and configure the subscription. You will want to use the first option "PayPal Checkout" if you already have an account with PayPal, if not you can select "Debit or Credit Card" to configure the subscription.
 
-<div class="text--center">
-<img src={require('../../static/imgs/billing/paypal/2.png').default} alt="img"/></div>
+![img](/billing/paypal/2.png)
 
 ## How to cancel a PayPal Subscription (Recurring Payment)
 

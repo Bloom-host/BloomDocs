@@ -2,7 +2,6 @@
 id: optimization
 slug: /optimization
 title: Paper Server Optimization
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: Server Optimization
 description: How to optimize your minecraft server.
@@ -16,13 +15,7 @@ keywords:
   - Bloom.host
   - Pterodactyl Panel
   - Minecraft
-image: https://bloom.host/assets/images/logo.png
 ---
-
-<div class="text--center">
-<img src="https://bloom.host/logo-white.svg" alt="logo" height="50%" width="50%"/>
-<h1>Server Optimization Guide</h1>
-</div>
 
 
 Since 1.13, Minecraft servers have gotten progressively harder to run.

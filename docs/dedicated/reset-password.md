@@ -1,7 +1,6 @@
 ---
 id: reset-password
 title: How to change your dedicated server's password
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: How to change your dedicated server's password
 description: This guide will show you how to change your dedi password
@@ -9,11 +8,6 @@ keywords:
   - Dedi password
   - Dedicated
 ---
-
-<div class="text--center">
-<img src="https://bloom.host/logo-white.svg" alt="logo" height="50%" width="50%"/>
-<h1>How to change your dedicated server password</h1>
-</div>
 
 Hey Bloomers! In this guide we will be going over how to change your dedicated server password.
 

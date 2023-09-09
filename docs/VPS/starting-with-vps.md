@@ -1,7 +1,6 @@
 ---
 id: starting-with-vps
 title: Getting Started with a VPS
-hide_title: true
 hide_table_of_contents: false
 sidebar_label: Getting Started
 description: New to our VPS service and our panel? This guide will show you how to get started!
@@ -10,11 +9,6 @@ keywords:
   - VPS
   - Virtual Private Server
 ---
-
-<div class="text--center">
-<img src="https://bloom.host/logo-white.svg" alt="logo" height="50%" width="50%"/>
-<h1>Getting Started with a VPS</h1>
-</div>
 
 Hey Bloomers! In this guide we will be going over how to get started with a VPS.
 
@@ -40,8 +34,7 @@ If you just ordered a VPS, you should've received an email titled "VPS created".
 
 You will also receive another email with a randomly generated password for our [VPS Panel](https://VPS.bloom.host). If you didn't received it, you can click the "Forgot Password?" button on the VPS panel sign in page.
 
-<div class="text--center">
-<img src={require('../../static/imgs/VPS/starting-with-vps/1.png').default} alt="img"/></div>
+![img](/VPS/starting-with-vps/1.png)
 
 ## Our VPS panel
 
@@ -49,13 +42,11 @@ Our VPS panel is under the VPS.bloom.host domain. Once you place a order, you wi
 
 To manage your VPS, just click on the arrow and it will open the management page.
 
-<div class="text--center">
-<img src={require('../../static/imgs/VPS/starting-with-vps/4.png').default} alt="img"/></div>
+![img](/VPS/starting-with-vps/4.png)
 
 Via our panel you can perform power actions on your VPS, reset your password, reinstall your VPS or VNC into your VPS.
 
-<div class="text--center">
-<img src={require('../../static/imgs/VPS/starting-with-vps/5.png').default} alt="img"/></div>
+![img](/VPS/starting-with-vps/5.png)
 
 ## Connecting to your VPS via SSH
 
@@ -65,18 +56,15 @@ You need to connect to your VPS using SSH. For this you can either use an SSH cl
 
 You can download PuTTY from [putty.org](https://www.putty.org/)
 
-<div class="text--center">
-<img src={require('../../static/imgs/VPS/starting-with-vps/0.png').default} alt="img"/></div>
+![img](/VPS/starting-with-vps/0.png)
 
 Start PuTTY, select the SSH option and then put your VPS IP in the Host Name (or IP address) field.
 
-<div class="text--center">
-<img src={require('../../static/imgs/VPS/starting-with-vps/2.png').default} alt="img" height="50%" width="50%"/></div>
+![img](/VPS/starting-with-vps/2.png)
 
 After that, click on the "Open" button and the SSH connection will start, you will then be asked for a username. The default username is "Root", click enter and then you will be asked for the password. Keep in mind that the password is not shown and you do not see that you are typing but it its working, so just type your password and click on enter to connect.
 
-<div class="text--center">
-<img src={require('../../static/imgs/VPS/starting-with-vps/3.png').default} alt="img" height="70%" width="70%"/></div>
+![img](/VPS/starting-with-vps/3.png)
 
 :::important
 Need to connect to your VPS via VNC? Check out our guide here: [How to connect to your VPS via VNC](https://docs.bloom.host/vnc)

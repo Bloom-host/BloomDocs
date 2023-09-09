@@ -1,6 +1,6 @@
 /*
 When adding pages to the sidebar, make sure you use the page ID, not the file name of the page
-For example, to add a page which had a filename of 'chunky-multi' and a page ID of 'chunky', you would add the following under the appropiate category:
+For example, to add a page which had a filename of 'chunky-multi' and a page ID of 'chunky', you would add the following under the appropriate category:
 
 'plugins_and_modifications/multiplatform/chunky'
 
@@ -20,19 +20,16 @@ module.exports = {
             label: 'Website',
             href: 'https://bloom.host/'
         },
-
         {
             type: 'link',
             label: 'Support Discord',
             href: 'https://discord.gg/bloom',
         },
-
         {
             type: 'link',
             label: 'Billing Support',
             href: 'https://billing.bloom.host/supporttickets.php',
         },
-
 
         {
             type: 'category',
@@ -87,6 +84,8 @@ module.exports = {
 
                 'running_a_server/resourcepack',
                 'running_a_server/converting-worlds', // Converting worlds used on Bukkit (and forks) servers to allow for use in singleplayer/other server software
+                "plugins_and_modifications/fabric-setup",
+                "plugins_and_modifications/forge-setup",
                 'running_a_server/waterfall', // BungeeCord fork
                 'running_a_server/velocity',
                 'running_a_server/internal-servers',
@@ -104,20 +103,6 @@ module.exports = {
                 {
                     type: 'doc',
                     id: "plugins_and_modifications/installing-plugin", // Bukkit/Spigot/Paper plugin installation guide
-                },
-
-                {
-                    type: 'doc',
-                    id: "plugins_and_modifications/install-proxy-plugin", // BungeeCord/Velocity proxy plugin install guide
-                },
-
-                {
-                    type: 'doc',
-                    id: "plugins_and_modifications/fabric-setup",
-                },
-                {
-                    type: 'doc',
-                    id: "plugins_and_modifications/forge-setup",
                 },
                 {
                     type: 'doc',
@@ -178,10 +163,45 @@ module.exports = {
                         'plugins_and_modifications/plugins/venturechat', // Chat handler
                         'plugins_and_modifications/plugins/viaversion',
                         'plugins_and_modifications/plugins/votifier', // Minecraft server vote site listener
-                        'plugins_and_modifications/plugins/vulcan' // anticheat
+                        'plugins_and_modifications/plugins/vulcan', // anticheat
+                        "plugins_and_modifications/install-proxy-plugin", // BungeeCord/Velocity proxy plugin install guide
+                    ]
+                },
+                {
+                    type: 'category',
+                    label: "Fabric mods",
+                    items: [ // Note: Chunky and LuckPerms pages were moved to multiplatform category
+                        'plugins_and_modifications/fabric_mods/performance-mods' // Mods intended to improve client/server performance
+                    ]
+                },
+
+                {
+                    type: 'category',
+                    label: "Multi-platform plugins & mods",
+                    items: [
+                        'plugins_and_modifications/multiplatform/advancedban', // Bans and punishment manager (Bukkit/Spigot/Paper, BungeeCord)
+                        'plugins_and_modifications/multiplatform/chunky', // World pre-generation plugin (Bukkit, Fabric, Forge)
+                        'plugins_and_modifications/multiplatform/dynmap', // Dynamic web map of Minecraft worlds (Spigot/Paper, Forge, Fabric)
+                        'plugins_and_modifications/multiplatform/litebans', // Bans and punishment manager (Spigot/Paper, BungeeCord, Velocity)
+                        'plugins_and_modifications/multiplatform/luckperms', // Permissions (Bukkit/Spigot/Paper, BungeeCord, Sponge, Forge, Fabric, Nukkit, Velocity)
+                        'plugins_and_modifications/multiplatform/plan', // Player Analytics, (Bukkit/Spigot/Paper, Sponge, Nukkit, Fabric)
+                        'plugins_and_modifications/multiplatform/simple-voice-chat', // Voice chat (Bukkit/Spigot/Paper, Forge, Fabric)
+                        'plugins_and_modifications/multiplatform/squaremap', // Online map (Paper, Fabric, Sponge)
+                        'plugins_and_modifications/multiplatform/worldedit' // World management (Bukkit, Forge, Fabric, Sponge)
                     ]
                 },
             ]
+        },
+
+        {
+            type: 'category',
+            label: 'Other Servers',
+            collapsed: true,
+            items: [
+                'other-servers/ark',
+                'other-servers/caddy-server',
+                'other-servers/grafana',
+            ],
         },
 
         {
@@ -242,12 +262,9 @@ module.exports = {
                 'extras/available-modpacks',
                 'extras/srvcontrol',
                 'extras/swap',
-                'extras/clumsyloader',
-                'extras/contributing',
-                'extras/template'
+                'extras/clumsyloader'
             ],
         },
 
     ]
 }
-    //'editing-account-details'

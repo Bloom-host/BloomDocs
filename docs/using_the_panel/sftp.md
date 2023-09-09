@@ -2,7 +2,6 @@
 id: sftp
 title: Using SFTP
 slug: /sftp
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: Using SFTP For Files
 description: This guide will help you use SFTP (MobaXTerm/WinSCP/FileZilla) to transfer files.
@@ -17,11 +16,6 @@ keywords:
   - Pterodactyl Panel
 ---
 
-<div class="text--center">
-<img src="https://bloom.host/logo-white.svg" alt="logo" height="50%" width="50%"/>
-<h1>Using SFTP for file transfers</h1>
-</div>
-
 ### What is SFTP? 
 **S**SH **F**ile **T**ransfer **P**rotocol is one of the most popular methods of securely transferring files to remote servers.
 
@@ -34,7 +28,7 @@ If you wish to archive, unarchive or mass delete files, please check out or [gui
 
 ### Using SFTP
 
-<div class="text--center"><img src={require('../../static/imgs/using_the_panel/sftp/2.png').default} alt="console" height="40%" width="40%" class="float-right"/></div>
+![console](/using_the_panel/sftp/2.png)
 
 There are several so called *SFTP Clients* few of the more popular ones being [WinSCP](https://winscp.net/), [MobaXTerm](https://mobaxterm.mobatek.net/) or [FileZilla](https://filezilla-project.org/). 
 
@@ -49,7 +43,7 @@ Firstly, you'll have to download [WinSCP](https://winscp.net/eng/download.php) t
 
 With our new panel, you can simply head over to the [Duck Panel](https://mc.bloom.host/) and click 'Launch SFTP' under 'Settings' on the left side of the screen. You'll simply need to enter your panel password and you are good to go!
 
-<div class="text--center"><img src={require('../../static/imgs/using_the_panel/sftp/3.png').default} alt="console" height="50%" width="50%"/></div>
+![console](/using_the_panel/sftp/3.png)
 
 WinSCP is very similar to your basic Windows Explorer. However, on the right side of the screen (green area) you can see your local files and on the left side (blue area), you can see the remote server's files.
 You can drag, drop, rename and delete files as you wish. 
@@ -60,13 +54,13 @@ Firstly, you'll have to download [MobaXTerm](https://mobaxterm.mobatek.net/downl
 Once that's done, simply launch the application. Right-click on the left side of the screen and click 'New Session'!
 Here, select 'SFTP' in the middle.
 
-<div class="text--center"><img src={require('../../static/imgs/using_the_panel/sftp/4.png').default} alt="console"/></div>
+![console](/using_the_panel/sftp/4.png)
 
 You'll have to enter your host's IP, port and SFTP username (as discussed above). Once that's done, simply click 'Ok'.
  
 You'll be asked for your panel password. By default, this password will be stored.
 
-<div class="text--center"><img src={require('../../static/imgs/using_the_panel/sftp/5.png').default} alt="console" height="50%" width="50%"/></div>
+![console](/using_the_panel/sftp/5.png)
 
 On the left side (green area) of your screen, you can see your local file tree and files and on the left side (blue area) you can see your remote files.
 You can drag, drop, rename and delete files as you wish.

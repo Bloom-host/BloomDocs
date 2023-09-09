@@ -2,7 +2,6 @@
 id: advancedanticheat
 title: AAC (Advanced AntiCheat)
 slug: /plugins/aac
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: AAC (Advanced AntiCheat)
 description: One of the most well known and efficient anticheats out there, blocking numerous movement, combat, and other hacks
@@ -13,18 +12,12 @@ keywords:
   - Spigot
   - Bloom.host
   - Minecraft
-image: https://bloom.host/assets/images/logo.png
 ---
-
-<div class="text--center">
-<img src="https://bloom.host/logo-white.svg" alt="logo" height="50%" width="50%"/>
-<h1>AAC - Advanced Anti-Cheat</h1>
-</div>
 
 :::warning
 Advanced Anti Cheat (AAC) has become inactive on spigotmc.org and is no longer available to purchase. It is not recommended to use AAC in your servers and it has not been updated for the latest versions of Minecraft (last update was for 1.17.1). 
 
-![AAC inactive resource](../../../static/imgs/plugins_and_modifications/plugins/advancedanticheat/inactiveResource.png)
+![AAC inactive resource](/plugins_and_modifications/plugins/advancedanticheat/inactiveResource.png)
 
 It is recomended to use an alternative solution such as [Vulcan](vulcan.md).
 

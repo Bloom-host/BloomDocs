@@ -2,7 +2,6 @@
 id: fabric-setup
 title: Instalando Fabric
 slug: /fabric-setup
-hide_title: true
 hide_table_of_contents: false
 sidebar_label: Instalando Fabric
 description: Esta guía te ayudará a instalar Fabric en tu servidor de Minecraft
@@ -12,11 +11,6 @@ keywords:
   - Modded
   - Bloom.host
 ---
-
-<div class="text--center">
-<img src="https://bloom.host/logo-white.svg" alt="logo" height="50%" width="50%"/>
-<h1>Setting Up Fabric</h1>
-</div>
 
 Hola Bloomers! 👋
 
@@ -32,7 +26,7 @@ En esta guía veremos cómo instalar Fabric en tu servidor.
 > Ve a la pestaña Configuración en el panel y en el lado derecho verás la casilla Cambiar tipo de servidor.
 > Edita las casillas según la versión de Fabric que quieras usar.
 >
-> ![Bloom.host Fabric](../../../../../static/imgs/plugins_and_modifications/fabric_setup/FabricInstaller.png)
+> ![Bloom.host Fabric](/plugins_and_modifications/fabric_setup/FabricInstaller.png)
 
 > Haz clic en Cambiar tipo de servidor, esto descargará fabric a tu servidor.
 

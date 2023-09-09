@@ -2,7 +2,6 @@
 id: namelessmc
 title: NamelessMC
 slug: /other-servers/namelessmc
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: NamelessMC
 description: NamelessMC is a free, easy to use & powerful website software for your Minecraft server, which includes a large range of features.
@@ -15,13 +14,7 @@ keywords:
 - Website
 - Pterodactyl Panel
 - Bloom.host
-image: https://bloom.host/assets/images/logo.png
 ---
-
-<div class="text--center">
-<img src="https://bloom.host/logo-white.svg" alt="logo" height="50%" width="50%"/>
-<h1>NamelessMC</h1>
-</div>
 
 ### What is NamelessMC
 NamelessMC is a Free and Open-Source forum software that you can use to supercharge your Minecraft Server!

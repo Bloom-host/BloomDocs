@@ -2,7 +2,6 @@
 id: luckperms
 title: LuckPerms
 slug: /multiplatform/luckperms
-hide_title: true
 hide_table_of_contents: false
 sidebar_label: LuckPerms
 description: An essential plugin/mod designed to handle Minecraft server permissions.
@@ -18,13 +17,7 @@ keywords:
   - Bloom.host
   - Pterodactyl Panel
   - Minecraft
-image: https://bloom.host/assets/images/logo.png
 ---
-
-<div class="text--center">
-<img src="https://bloom.host/logo-white.svg" alt="logo" height="50%" width="50%"/>
-<h1>LuckPerms</h1>
-</div>
 
 ## Introduction
 

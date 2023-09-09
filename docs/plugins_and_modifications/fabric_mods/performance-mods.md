@@ -1,8 +1,8 @@
 ---
 id: performance-mods
 title: Performance Mods
+header: Performance Mods for Fabric
 slug: /f_performance_mods
-hide_title: true
 hide_table_of_contents: false
 sidebar_label: Performance Mods
 description: A list of mods that will help combat lag on fabric servers.
@@ -12,13 +12,7 @@ keywords:
   - Bloom.host
   - Pterodactyl Panel
   - Minecraft
-image: https://bloom.host/assets/images/logo.png
 ---
-
-<div class="text--center">
-<img src="https://bloom.host/logo-white.svg" alt="logo" height="50%" width="50%"/>
-<h1>Performance Mods for Fabric</h1>
-</div>
 
 :::note
 Make sure to also check out the [Server Optimization Guide](../../running_a_server/optimization.md)

@@ -2,7 +2,6 @@
 id: binarysearch
 title: "Troubleshooting: Binary Search"
 slug: /binarysearch
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: "Troubleshooting: Binary Search"
 description: How do I fix an obscure error caused by an unknown plugin?
@@ -12,13 +11,7 @@ keywords:
   - Troubleshoot
   - Troubleshooting
   - Error
-image: https://bloom.host/assets/images/logo.png
 ---
-
-<div class="text--center">
-<img src="https://bloom.host/logo-white.svg" alt="logo" height="50%" width="50%"/>
-<h1>Troubleshooting: Binary Search</h1>
-</div>
 
 A common problem that server owners encounter is that they have a bug on their server that is not caused by the server JAR or any of its configurations, server settings, and other external factors. When you are certain that it is a plugin causing the issue but not sure which **among** your plugins are causing the issue, one of the best things to do is conduct a binary search.
 

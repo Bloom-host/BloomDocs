@@ -2,16 +2,9 @@
 id: basic-controls
 slug: /basic-controls
 title: Controles Básicos
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: Controles Básicos
-image: https://bloom.host/assets/images/logo.png
 ---
-
-<div class="text--center">
-<img src="https://bloom.host/logo-white.svg" alt="logo" height="50%" width="50%"/>
-<h1>Controles Básicos del Panel</h1>
-</div>
 
 ### Accediendo al Panel
 
@@ -19,13 +12,13 @@ Puedes acceder al panel de control de tu servidor [aquí](https://mc.bloom.host/
 Si tienes múltiples servidores, puedes escoger cuál quieres modificar desde la página principal del panel.
 O simplemente escoge el server a modificar desde la caja desplegable en la parte de arriba del panel.
 
-<div class="text--center"><img src={require('../../../../../static/imgs/using_the_panel/basic_controls/1.png').default} alt="console"/></div>
+![console](/using_the_panel/basic_controls/1.png)
 
 
 ---
 
 ### Información en Vivo
-<div class="text--center"><img src={require('../../../../../static/imgs/using_the_panel/basic_controls/2.png').default} alt="console"/></div>
+![console](/using_the_panel/basic_controls/2.png)
 
 - Morado - La IP y puerto de tu servidor.
 - Azul - La ID del servidor que es necesaria al abrir un ticket de soporte.
@@ -46,7 +39,7 @@ Estos botones permiten iniciar **(Start)**, apagar **(Stop)** y reiniciar **(Res
 matar el proceso del servidor **(Kill)** puesto que los plugins y mundos puede que no se guarden, así como puede que se
 corrompan. Solo úsalo si tu servidor deja de responder.
 
-<div class="text--center"><img src={require('../../../../../static/imgs/using_the_panel/basic_controls/3.png').default} alt="console"/></div>
+![console](/using_the_panel/basic_controls/3.png)
 
 ---
 
@@ -54,4 +47,4 @@ corrompan. Solo úsalo si tu servidor deja de responder.
 Por último, puedes ver el uso de RAM, CPU y conexión en vivo en gráficos!
 Como se mencionó arriba, con Aikar flags va a parecer como si siempre estás usando la mayoría de tu RAM cuando no es el caso en realidad. 
 
-<div class="text--center"><img src={require('../../../../../static/imgs/using_the_panel/basic_controls/4.png').default} alt="graphs"/></div>
+![graphs](/using_the_panel/basic_controls/4.png)

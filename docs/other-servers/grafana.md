@@ -1,7 +1,6 @@
 ---
 id: grafana
 title: Grafana
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: Grafana
 description: This guide will walk you through how to setup Grafana to monitor your Minecraft server using UnifiedMetrics and Prometheus.
@@ -12,13 +11,7 @@ keywords:
   - Bloom.host
   - UnifiedMetrics
   - Prometheus
-image: https://bloom.host/assets/images/logo.png
 ---
-
-<div class="text--center">
-<img src="https://bloom.host/logo-white.svg" alt="logo" height="50%" width="50%"/>
-<h1>Grafana</h1>
-</div>
 
 This guide will walk you through how to setup Grafana, Prometheus, and UnifiedMetrics so you can have more stats about your minecraft server(s), which couldn't be done without our lovely server splitter :)
 This guide is more complex than others as it's an advance setup, but it will allow you to see tons of cool stats about your server(s).
@@ -73,7 +66,7 @@ Password - admin
 
 Once logged in, hover over the settings icon on the left and head to Data Sources.
 
-<div class="text--center"><img src={require('../../static/imgs/extras/grafana/1.png').default} alt="console" height="50%" width="50%"/></div>
+![console](/extras/grafana/1.png)
 
 Now we're going to add a new Prometheus data source, the only thing you need to modify is the URL which will be `http://<SERVERIP>:<PORT>` (with the port being the port of your Prometheus server).
 
@@ -81,15 +74,15 @@ Now, Grafana has access to all the data, but where can you view all the fancy gr
 
 Time to add a Dashboard made by the UnifiedMetrics team. Simply hover over the + on Grafana's main page and click import. Then enter `14756` as the ID and click load.
 
-<div class="text--center"><img src={require('../../static/imgs/extras/grafana/2.png').default} alt="console" height="70%" width="70%"/></div>
+![console](/extras/grafana/2.png)
 
 Then select your Prometheus data source and click Import.
 
-<div class="text--center"><img src={require('../../static/imgs/extras/grafana/3.png').default} alt="console" height="70%" width="70%"/></div>
+![console](/extras/grafana/3.png)
 
 And there you have it, now you can have a ton of fancy statistics for your Minecraft Server :)
 
-<div class="text--center"><img src="https://raw.githubusercontent.com/Cubxity/UnifiedMetrics/dev/0.3.x/.github/assets/grafana.png" alt="console" height="70%" width="70%"/></div>
+![console](https://raw.githubusercontent.com/Cubxity/UnifiedMetrics/dev/0.3.x/.github/assets/grafana.png)
 
 ## Multiple servers
 
@@ -101,7 +94,7 @@ First we gotta install UnifiedMetrics on all other servers. Download the plugin 
 After installing the plugin, you open up a port on the server. For example, `9101`, `9102`, etc.
 Then you change the port in the `plugins/UnifiedMetrics/diver/prometheus.yml` file and restart your server.
 
-![UnifiedMetrics](../../static/imgs/extras/grafana/5.png)
+![UnifiedMetrics](/extras/grafana/5.png)
 
 After installing UnifiedMetrics for all your servers and configuring the plugin, it is time to add the server to the Prometheus server.
 You do this by editing the `prometheus.yml` file on the Prometheus server.

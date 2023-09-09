@@ -2,7 +2,6 @@
 id: spark
 title: Taking a Spark Profile
 slug: /spark
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: Taking a Spark Profile
 description: How to run a Spark profile to identify causes of lag on your server.
@@ -15,13 +14,7 @@ keywords:
   - Bloom.host
   - Pterodactyl Panel
   - Minecraft
-image: https://bloom.host/assets/images/logo.png
 ---
-
-<div class="text--center">
-<img src="https://bloom.host/logo-white.svg" alt="logo" height="50%" width="50%"/>
-<h1>Spark</h1>
-</div>
 
 ### What does the plugin do?
 Spark is a performance profiling plugin (with limited availability for Forge and Fabric) that can display server information, such as TPS, memory, tick durations, CPU usage, and disk usage. But more importantly it can create a performance profile that can be viewed on a fully feature web interface.
@@ -42,20 +35,17 @@ Once you are ready to check the results of the profiler you should run `/spark p
 
 When you open the link you'll find a useful web interface that displays all the data collected.
 
-<div class="text--center">
-<img src={require('../../static/imgs/running_a_server/spark/1.png').default} alt="img"/></div>
+![img](/running_a_server/spark/1.png)
 
 ## Other Useful Commands
 
 Running `/tps` will display an output that looks like this:
 
-<div class="text--center">
-<img src={require('../../static/imgs/running_a_server/spark/2.png').default} alt="img"/></div>
+![img](/running_a_server/spark/2.png)
 
 Running `/spark healthreport` will display an output that looks like this:
 
-<div class="text--center">
-<img src={require('../../static/imgs/running_a_server/spark/3.png').default} alt="img"/></div>
+![img](/running_a_server/spark/3.png)
 
 The values will depend on your server, newer versions of Spark will contain more useful information, as the utility is in active development.
 

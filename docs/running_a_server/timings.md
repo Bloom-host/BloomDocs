@@ -2,7 +2,6 @@
 id: timings
 slug: /timings
 title: timings
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: Taking a Timings Report
 description: How to run a timings report, which is useful for identifying causes of lag on your server.
@@ -17,13 +16,7 @@ keywords:
   - 1.17
   - Minecraft
   - Bloom.host
-image: https://bloom.host/assets/images/logo.png
 ---
-
-<div class="text--center">
-<img src="https://bloom.host/logo-white.svg" alt="logo" height="50%" width="50%"/>
-<h1>Timings</h1>
-</div>
 
 # **How to take a Timings Report**
 
@@ -43,8 +36,7 @@ After waiting 10m, run the command `/timings paste`.
 
 Said command will paste a link on the console, which when clicked will take you to a web interface similar to the one shown below.
 
-<div class="text--center">
-<img src={require('../../static/imgs/running_a_server/timings/1.png').default} alt="img"/></div>
+![img](/running_a_server/timings/1.png)
 
 Anything in red is using a excess of resources. You can also click the plugins tab to see what plugins are using the most resources on your server.
 ## Alternatives to Timings

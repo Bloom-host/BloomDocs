@@ -1,7 +1,6 @@
 ---
 id: available-modpacks
 title: Available Modpacks on our One-Click Installer and Updater
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: Available Modpacks on our One-Click Installer
 description: List of available modpacks on Bloom's Modpack One-Click Installer
@@ -12,13 +11,7 @@ keywords:
   - Modpack installer
   - Modpacks installer
   - Installer
-image: https://bloom.host/assets/images/logo.png
 ---
-
-<div class="text--center">
-<img src="https://bloom.host/logo-white.svg" alt="logo" height="50%" width="50%"/>
-<h1>Available Modpacks on Bloom's One-Click Modpack Installer and Updater</h1>
-</div>
 
 Hello Bloomers! 👋
 

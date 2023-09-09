@@ -1,7 +1,6 @@
 ---
 id: swap
 title: Swap
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: Swap
 description: Information about swap, and what to do if you want to disable it
@@ -13,13 +12,7 @@ keywords:
   - Bloom.host
   - Pterodactyl Panel
   - Minecraft
-image: https://bloom.host/assets/images/logo.png
 ---
-
-<div class="text--center">
-<img src="https://bloom.host/logo-white.svg" alt="logo" height="50%" width="50%"/>
-<h1>SWAP</h1>
-</div>
 
 ## SWAP
 

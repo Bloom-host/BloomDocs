@@ -2,7 +2,6 @@
 id: geyseraddons
 title: GeyserMC Addons
 slug: /plugins/geyseraddons
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: GeyserAddons
 description: A list of plugins that interact with the GeyserMC plugin to make your experience even better!
@@ -14,13 +13,7 @@ keywords:
   - Spigot
   - Bloom.host
   - Minecraft
-image: https://bloom.host/assets/images/logo.png
 ---
-
-<div class="text--center">
-<img src="https://bloom.host/logo-white.svg" alt="logo" height="50%" width="50%"/>
-<h1>GeyserAddons</h1>
-</div>
 
 You need to have GeyserMC installed to use these addons!
 

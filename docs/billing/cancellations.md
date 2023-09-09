@@ -1,7 +1,6 @@
 ---
 id: cancellations
 title: How to request a cancellation
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: How to request a cancellation
 description: This guide will show you how to request a cancellation.
@@ -10,11 +9,6 @@ keywords:
   - cancel
   - cancellations
 ---
-
-<div class="text--center">
-<img src="https://bloom.host/logo-white.svg" alt="logo" height="50%" width="50%"/>
-<h1>How to request a cancellation</h1>
-</div>
 
 Hey Bloomers! In this guide we will be going over how to request a cancellation.
 
@@ -26,11 +20,9 @@ To request a cancellation go to the [services page](https://billing.bloom.host/c
 Download a backup of all your files before submitting a cancellation request. Once the cancellation is processed all your server files will be deleted and you will not be able to access them.
 :::
 
-<div class="text--center">
-<img src={require('../../static/imgs/billing/refunds/1.png').default} alt="img"/></div>
+![img](/billing/refunds/1.png)
 
-<div class="text--center">
-<img src={require('../../static/imgs/billing/cancellations/2.png').default} alt="img"/></div>
+![img](/billing/cancellations/2.png)
 
 
 :::caution

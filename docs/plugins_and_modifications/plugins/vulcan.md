@@ -2,7 +2,6 @@
 id: vulcan
 title: Vulcan Anticheat
 slug: /plugins/vulcan
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: Vulcan Anticheat
 description: One of the cheapest and simplest anticheats on the market, constantly updated and maintained
@@ -13,13 +12,7 @@ keywords:
   - Spigot
   - Bloom.host
   - Minecraft
-image: https://bloom.host/assets/images/logo.png
 ---
-
-<div class="text--center">
-<img src="https://bloom.host/logo-white.svg" alt="logo" height="50%" width="50%"/>
-<h1>Vulcan Anticheat</h1>
-</div>
 
 ## What does the plugin do?
 Vulcan is an advanced cheat detection system that operates at the packet level with version support for 1.7 all the way to the latest version. Vulcan provides extra features with it's plugin, such as Discord bot support, banwaves, an ingame GUI, and [BungeeCord](https://www.spigotmc.org/resources/vulcanbungee-bungee-hook-for-vulcan-anti-cheat.94194/) support.

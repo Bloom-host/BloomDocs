@@ -2,7 +2,6 @@
 id: whitelist
 title: Setting Up Whitelist
 slug: /whitelist
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: Setting up Whitelist
 description: How to setup Whitelist on Java/Bedrock
@@ -12,13 +11,7 @@ keywords:
   - Security
   - Secure
   - Server 
-image: https://bloom.host/assets/images/logo.png
 ---
-<div class="text--center">
-<img src="https://bloom.host/logo-white.svg" alt="logo" height="50%" width="50%"/>
-<h1>Setting Up Whitelist</h1>
-</div>
-
 ## What Is Whitelisting?
 
 Basically a Whitelist is a list of player's usernames that are permitted to join the server while whitelist is on.
@@ -67,7 +60,7 @@ Otherwise, it'll look something like this, we will use Notch as a placeholder:
 ]
 ```
 * Step 3: Add someone to your file, to do this you'll need their UUID, an easy way to get this is to goto a website like https://mcuuid.net/ and search their username you will get a result similar to this:
-![](../../static/imgs/running_a_server/whitelisting/mcuuid-example.png)
+![](/running_a_server/whitelisting/mcuuid-example.png)
 From this page, we need one thing, the user's Full UUID. Once you have that copied, you can head back to the `whitelist.json` file and add them to the file using this format:
 ```yaml
 [

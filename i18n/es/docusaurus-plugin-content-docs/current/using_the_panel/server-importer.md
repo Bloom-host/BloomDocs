@@ -2,16 +2,9 @@
 id: server-importer
 slug: /server-importer
 title: Importador de Servidores
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: Importador de Servidores
-image: https://bloom.host/assets/images/logo.png
 ---
-
-<div class="text--center">
-<img src="https://bloom.host/logo-white.svg" alt="logo" height="50%" width="50%"/>
-<h1>Importador de Servidores</h1>
-</div>
 
 ### Cómo funciona
 
@@ -48,4 +41,4 @@ carpeta o archivo en específico, pon la ubicación del archivo en ese recuadro.
 
 Una vez la importación inicie, puedes entrar a la página de **Console** (Consola) para ver el progreso actual.
 
-<div class="text--center"><img src={require('../../../../../static/imgs/using_the_panel/server-importer/1.png').default} alt="console"/></div>
+![console](/using_the_panel/server-importer/1.png)
