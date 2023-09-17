@@ -27,11 +27,11 @@ You can ignore this step if you are running Purpur 1.19.1 or above.
 Download the latest build from [Spark](https://spark.lucko.me/download) and drop it into your plugins (or mod folder if you are running Forge/Fabric) folder. Turn on or restart the server, and you're done! If you need help installing plugins, check [How to install plugins](https://docs.bloom.host/installing-plugins).
 
 ## Using The Profiler
-The most useful tool in terms of diagnostics is the profiler feature which can be run with `/spark profile start`.
+The most useful tool in terms of diagnostics is the profiler feature which can be run with `/spark profiler start`.
 
 Usually you'll want to run the profile during a time of stress for your server, to get the most out of the report you should try to leave it running for 10 minutes or more. You can also add additional parameters to the report, for more information check the [Spark Documentation](https://spark.lucko.me/docs/Command-Usage)
 
-Once you are ready to check the results of the profiler you should run `/spark profile stop` and copy the link produeced.
+Once you are ready to check the results of the profiler you should run `/spark profiler stop` and copy the link produeced.
 
 When you open the link you'll find a useful web interface that displays all the data collected.
 
