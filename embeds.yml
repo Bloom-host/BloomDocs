@@ -1166,7 +1166,6 @@ panel-link:
   custom-data:
     line-format: >
       %prefix% %emoji% %name% ([%shortUuid%](https://mc.bloom.host/server/%shortUuid%))
-      [[Billing](https://billing.bloom.host/redirect.php?id=%externalParentId%)]
     owner-emoji: '💰'
     regular-emoji: '🔓'
     subserver-prefix: '  -'
