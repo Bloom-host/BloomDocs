@@ -31,19 +31,19 @@ Once you have downloaded and extracted your archive from the server, you should 
 ![converting worlds](/running_a_server/converting_worlds/1.png)
 In this guide, we will be referring to the folder where these folders are located as the "root" folder
 
-First, go into `world_nether` and copy the `DM-1` folder. You can safely ignore everything else.
+First, go into `world_nether` and copy the `DIM-1` folder. You can safely ignore everything else.
 
 ![converting worlds](/running_a_server/converting_worlds/2.png)
 
-Now, return to the root folder open the `world` folder and paste the `DM-1` folder.
+Now, return to the root folder open the `world` folder and paste the `DIM-1` folder.
 
 ![converting worlds](/running_a_server/converting_worlds/3.png)
 
-Return to the root folder once again and go into `world_the_end`. From here, copy the `DM1` folder and paste it in the `world` folder, as we did with the `DM-1` folder previously.
+Return to the root folder once again and go into `world_the_end`. From here, copy the `DIM1` folder and paste it in the `world` folder, as we did with the `DIM-1` folder previously.
 
 ![converting worlds](/running_a_server/converting_worlds/4.png)
 ![converting worlds](/running_a_server/converting_worlds/5.png)
 
-By copying the DM-1 and DM1 folders into `world`, you have made a copy of all the data of the Nether and End dimensions available in the `world` folder, which means that it now contains all the required data to run all three dimensions successfully (it already has its own copies of `level.dat`, `session.lock` and `uid.dat`) and can be run without issue on vanilla, Fabric, Forge and other servers. 
+By copying the DIM-1 and DIM1 folders into `world`, you have made a copy of all the data of the Nether and End dimensions available in the `world` folder, which means that it now contains all the required data to run all three dimensions successfully (it already has its own copies of `level.dat`, `session.lock` and `uid.dat`) and can be run without issue on vanilla, Fabric, Forge and other servers. 
 
 You did it!
