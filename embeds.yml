@@ -1368,7 +1368,9 @@ baremetal-waitlist:
 
     **Please respond with which server(s) you are interested in, and one of our staff members will respond shortly to confirm your spot.**
     ```YAML
-    Bare Metal servers available: Ryzen 5 5600X, Ryzen 7 5800X, Ryzen 9 5950X
+    Location: Ashburn (US east), Los Angeles (US West)
+    Bare Metal server options (Ashburn only): Ryzen 5 5600X, Ryzen 7 5800X, Ryzen 9 5950X
+    Bare Metal server options (Ashburn and Los Angees): Ryzen 7 7700X, Ryzen 9 7950X (128GB RAM/2x 2TB SSD), Ryzen 9 7950X (192GB RAM/2x 4TB SSD)
     ```
     
     The full specifications of each server can be found on our website at https://bloom.host/bare-metal-dedicated/ where you can also find a list of available add-ons
