@@ -100,8 +100,25 @@ module.exports = {
             label: 'Games',
             collapsed: false,
             items: [
-                'games/overview',
-            ],
+                {
+                    type: 'doc',
+                    id: 'games/overview'
+                },
+                {
+                    type: 'category',
+                    label: 'Rust',
+                    items: [
+                        'games/overview' // replace with link
+                    ]
+                },
+                {
+                    type: 'category',
+                    label: 'Terraria',
+                    items: [
+                        'games/terraria/connecting'
+                    ]
+                }
+            ]
         },
 
         {
