@@ -10,7 +10,7 @@ new service, you will receive an email with your login details.
 
 Under the 'Console' tab, above the console itself, copy the value in the 'IP Address' field.
 
-![img](/games/terraria/connecting/panel.png)
+![Panel IP address field](/games/terraria/connecting/panel.png)
 
 In Terraria, go to 'Multiplayer' in the main menu. There, select 'Join via IP' and select your player profile.
 

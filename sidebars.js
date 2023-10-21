@@ -120,6 +120,10 @@ module.exports = {
                             id: 'games/terraria/connecting'
                         },
                         {
+                            type: 'doc',
+                            id: 'games/terraria/password'
+                        },
+                        {
                             type: 'category',
                             label: 'TShock',
                             items: [
