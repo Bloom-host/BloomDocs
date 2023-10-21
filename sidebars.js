@@ -115,7 +115,17 @@ module.exports = {
                     type: 'category',
                     label: 'Terraria',
                     items: [
-                        'games/terraria/connecting'
+                        {
+                            type: 'doc',
+                            id: 'games/terraria/connecting'
+                        },
+                        {
+                            type: 'category',
+                            label: 'TShock',
+                            items: [
+                                'games/terraria/tshock/overview',
+                            ]
+                        }
                     ]
                 }
             ]
