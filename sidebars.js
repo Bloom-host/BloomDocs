@@ -97,6 +97,15 @@ module.exports = {
 
         {
             type: 'category',
+            label: 'Games',
+            collapsed: false,
+            items: [
+                'games/overview',
+            ],
+        },
+
+        {
+            type: 'category',
             label: 'Plugins & Modification',
             collapsed: true,
             items: [
