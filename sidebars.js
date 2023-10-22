@@ -130,6 +130,7 @@ module.exports = {
                         {
                             type: 'category',
                             label: 'TShock',
+                            collapsed: false,
                             items: [
                                 'games/terraria/tshock/overview',
                                 'games/terraria/tshock/admin',
@@ -141,8 +142,10 @@ module.exports = {
                         {
                             type: 'category',
                             label: 'tModLoader',
+                            collapsed: false,
                             items: [
-                                'games/terraria/tmodloader/overview'
+                                'games/terraria/tmodloader/overview',
+                                'games/terraria/tmodloader/mods'
                             ]
                         }
                     ]
