@@ -31,5 +31,6 @@ Then, head back to the 'Console' tab of the panel and restart the server.
 While the server is loading, you should be able to see each plugin load:
 ![Panel console showing the plugins loaded](/games/terraria/tshock/plugins/console.png)
 
-In our case, we can also verify that it worked by using the `/creativemode` command as an [Admin](./admin.md) in-game!
+In our case, we can also verify that it worked by using the `/creativemode` command as
+an [Admin](/games/terraria/tshock/admin) in-game!
 ![In-game creative mode plugin showing](/games/terraria/tshock/plugins/game.png)

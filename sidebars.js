@@ -134,7 +134,8 @@ module.exports = {
                                 'games/terraria/tshock/overview',
                                 'games/terraria/tshock/admin',
                                 'games/terraria/tshock/whitelisting',
-                                'games/terraria/tshock/plugins'
+                                'games/terraria/tshock/plugins',
+                                'games/terraria/tshock/crossplay'
                             ]
                         }
                     ]
