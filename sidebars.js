@@ -137,6 +137,13 @@ module.exports = {
                                 'games/terraria/tshock/plugins',
                                 'games/terraria/tshock/crossplay'
                             ]
+                        },
+                        {
+                            type: 'category',
+                            label: 'tModLoader',
+                            items: [
+                                'games/terraria/tmodloader/overview'
+                            ]
                         }
                     ]
                 }

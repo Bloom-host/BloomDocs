@@ -2,7 +2,7 @@
 id: overview
 title: Overview
 hide_table_of_contents: true
-description: Learn how to set up and manage a whitelist on your Terraria server!
+description: Learn about what TShock is and how you can set it up on your Bloom server!
 ---
 
 ## Introduction
