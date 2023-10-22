@@ -128,6 +128,10 @@ module.exports = {
                             id: 'games/terraria/worlds'
                         },
                         {
+                            type: 'doc',
+                            id: 'games/terraria/banning'
+                        },
+                        {
                             type: 'category',
                             label: 'TShock',
                             items: [
