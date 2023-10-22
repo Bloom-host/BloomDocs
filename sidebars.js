@@ -101,14 +101,10 @@ module.exports = {
             collapsed: true,
             items: [
                 {
-                    type: 'doc',
-                    id: 'games/overview'
-                },
-                {
                     type: 'category',
                     label: 'Rust',
                     items: [
-                        'games/overview' // replace with link
+                        'getting_started/overview' // replace with link
                     ]
                 },
                 {
@@ -136,7 +132,8 @@ module.exports = {
                             label: 'TShock',
                             items: [
                                 'games/terraria/tshock/overview',
-                                'games/terraria/tshock/whitelisting'
+                                'games/terraria/tshock/whitelisting',
+                                'games/terraria/tshock/plugins'
                             ]
                         }
                     ]
