@@ -132,6 +132,7 @@ module.exports = {
                             label: 'TShock',
                             items: [
                                 'games/terraria/tshock/overview',
+                                'games/terraria/tshock/admin',
                                 'games/terraria/tshock/whitelisting',
                                 'games/terraria/tshock/plugins'
                             ]
