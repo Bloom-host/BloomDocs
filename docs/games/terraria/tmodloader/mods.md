@@ -3,6 +3,7 @@ id: mods
 title: Using Mods
 hide_table_of_contents: true
 description: Learn how you can install and use mods on your tModLoader server!
+note: This is referenced on the /terraria page on the main site
 ---
 
 :::caution HEADS UP!
