@@ -98,7 +98,7 @@ module.exports = {
         {
             type: 'category',
             label: 'Games',
-            collapsed: false,
+            collapsed: true,
             items: [
                 {
                     type: 'doc',
@@ -122,6 +122,10 @@ module.exports = {
                         {
                             type: 'doc',
                             id: 'games/terraria/password'
+                        },
+                        {
+                            type: 'doc',
+                            id: 'games/terraria/worlds'
                         },
                         {
                             type: 'category',
