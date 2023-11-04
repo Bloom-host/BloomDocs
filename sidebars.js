@@ -107,6 +107,7 @@ module.exports = {
                         'games/rust/connecting',
                         'games/rust/admin',
                         'games/rust/server-list',
+                        'games/rust/plugins',
                     ]
                 },
                 {
