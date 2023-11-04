@@ -9,7 +9,8 @@ module.exports = {
     projectName: 'bloomdocs',
 
     plugins: [
-        require.resolve('docusaurus-plugin-image-zoom')
+        // Todo (notgeri): waiting on https://github.com/gabrielcsapo/docusaurus-plugin-image-zoom/issues/29
+        /*require.resolve('docusaurus-plugin-image-zoom')*/
     ],
 
     themeConfig: {
