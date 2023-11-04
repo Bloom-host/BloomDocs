@@ -104,7 +104,7 @@ module.exports = {
                     type: 'category',
                     label: 'Rust',
                     items: [
-                        'getting_started/overview' // replace with link
+                        'games/rust/connecting'
                     ]
                 },
                 {
