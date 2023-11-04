@@ -105,7 +105,8 @@ module.exports = {
                     label: 'Rust',
                     items: [
                         'games/rust/connecting',
-                        'games/rust/admin'
+                        'games/rust/admin',
+                        'games/rust/server-list',
                     ]
                 },
                 {
