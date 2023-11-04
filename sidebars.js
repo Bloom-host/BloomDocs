@@ -108,6 +108,7 @@ module.exports = {
                         'games/rust/admin',
                         'games/rust/server-list',
                         'games/rust/plugins',
+                        'games/rust/worlds'
                     ]
                 },
                 {
