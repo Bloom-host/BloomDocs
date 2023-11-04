@@ -21,7 +21,7 @@ Alternatively, you can use a website such as this to determine your Steam ID: ht
 
 Once that's done, head over to the 'Console' tab of your server in the [DuckPanel](https://mc.bloom.host)
 
-There are two levels of privileges and each has a different command to use:
+There are two levels of privileges, and each has a different command to use:
 
 1. `ownerid <id>`: Full privileges; can make other players administrators as wel
 2. `moderatorid <id>`: Full privileges; can't make other players administrators
