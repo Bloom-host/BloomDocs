@@ -104,7 +104,8 @@ module.exports = {
                     type: 'category',
                     label: 'Rust',
                     items: [
-                        'games/rust/connecting'
+                        'games/rust/connecting',
+                        'games/rust/admin'
                     ]
                 },
                 {
