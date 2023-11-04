@@ -97,6 +97,68 @@ module.exports = {
 
         {
             type: 'category',
+            label: 'Games',
+            collapsed: true,
+            items: [
+                {
+                    type: 'category',
+                    label: 'Rust',
+                    items: [
+                        'games/rust/connecting',
+                        'games/rust/admin',
+                        'games/rust/server-list',
+                        'games/rust/plugins',
+                        'games/rust/worlds'
+                    ]
+                },
+                {
+                    type: 'category',
+                    label: 'Terraria',
+                    items: [
+                        {
+                            type: 'doc',
+                            id: 'games/terraria/connecting'
+                        },
+                        {
+                            type: 'doc',
+                            id: 'games/terraria/password'
+                        },
+                        {
+                            type: 'doc',
+                            id: 'games/terraria/worlds'
+                        },
+                        {
+                            type: 'doc',
+                            id: 'games/terraria/banning'
+                        },
+                        {
+                            type: 'category',
+                            label: 'TShock',
+                            collapsed: false,
+                            items: [
+                                'games/terraria/tshock/overview',
+                                'games/terraria/tshock/admin',
+                                'games/terraria/tshock/whitelisting',
+                                'games/terraria/tshock/plugins',
+                                'games/terraria/tshock/crossplay'
+                            ]
+                        },
+                        {
+                            type: 'category',
+                            label: 'tModLoader',
+                            collapsed: false,
+                            items: [
+                                'games/terraria/tmodloader/overview',
+                                'games/terraria/tmodloader/mods'
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+
+        {
+            type: 'category',
             label: 'Plugins & Modification',
             collapsed: true,
             items: [
