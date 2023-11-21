@@ -99,7 +99,9 @@ It is HIGHLY recommended that your Velocity server is set to online-mode, this i
 
 :::
 
-Part of what makes Velocity more secure than Bungee would be it's modern player information forwarding mode, it is much more secure than Bungee and doesn't require an additional plugin such as BungeeGuard to secure connections between your front-end and back-end servers. This is pretty simple to setup, you need to locate the option for `player-info-forwarding` inside `velocity.toml` and set it to `modern`. Next you need to perform additional steps depending on the type of server jar that you're running behind Velocity.
+Part of what makes Velocity more secure than Bungee would be it's modern player information forwarding mode, it is much more secure than Bungee and doesn't require an additional plugin such as BungeeGuard to secure connections between your front-end and back-end servers. 
+
+This is pretty simple to setup. First turn your proxy server offline, then locate the option for `player-info-forwarding` inside `velocity.toml` and set it to `modern`. Next you need to perform additional steps depending on the type of server jar that you're running behind Velocity.
 
 ### Modern Forwarding for Paper
 
@@ -111,9 +113,27 @@ This section also applies to forks based upon Paper such as Purpur or Pufferfish
 
 `Paper 1.14+` and above, along with `Paper 1.13.1/1.13.2 build 377` and above support Velocity modern forwarding natively.
 
-First, you need to disable BungeeCord forwarding if you had it enabled beforehand. Make sure `settings.bungeecord` is set to `false` in your `spigot.yml`.
+First, turn your backend server offline. 
 
-In `config/paper-global.yml`, set `settings.velocity-support.enabled` to `true` and `settings.velocity-support.secret` to match the secret in your `velocity.toml`. You must also set `settings.velocity-support.online-mode` to the `online-mode` setting in your `velocity.toml`. Once you're done editing `paper-global.yml`, reboot your server.
+You need to disable BungeeCord forwarding if you had it enabled beforehand. Make sure `bungeecord` is set to `false` in your `spigot.yml`.
+
+![img](/running_a_server/velocity/4.png)
+
+In `config/paper-global.yml`, under the `velocity` section set `enabled: true` and `secret ''` to match the secret in your `forwarding.secret` file.
+
+The `forwarding.secret` is found in the main folder of your Velocity Proxy server, and it will contain a text that you need to paste inside the '' in the secret line in the `paper-global.yml` files of your backend servers. See the screenshots below:
+
+![img](/running_a_server/velocity/5.png)
+
+![img](/running_a_server/velocity/6.png)
+
+Copy the text found in the `forwarding.secret`, then go into your Paper backend server, navigate to the config folder then open the `paper-global.yml` file, search for the secret line and paste the text inside the '', it should look similar to this screenshot:
+
+![img](/running_a_server/velocity/7.png)
+
+You must also set `online-mode` under the `velocity` section in `config/paper-global.yml` to the `online-mode` setting in your `velocity.toml`. Once you're done editing `paper-global.yml`, start your server. Keep in mind that these changes need to be done while the server is offline, otherwise they will not be saved.
+
+![img](/running_a_server/velocity/3.png)
 
 ### Modern Forwarding for Fabric
 
