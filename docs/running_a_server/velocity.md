@@ -133,6 +133,8 @@ Copy the text found in the `forwarding.secret`, then go into your Paper backend 
 
 You must also set `online-mode` under the `velocity` section in `config/paper-global.yml` to the `online-mode` setting in your `velocity.toml`. Once you're done editing `paper-global.yml`, start your server. Keep in mind that these changes need to be done while the server is offline, otherwise they will not be saved.
 
+Keep in mind that this steps have to be repeated for every Paper/Backend server you have connected to the Velocity proxy.
+
 ### Modern Forwarding for Fabric
 
 A mod called [FabricProxy-Lite](https://www.curseforge.com/minecraft/mc-mods/fabricproxy-lite) allows you to use Velocity modern forwarding with a modded server using Fabric.
