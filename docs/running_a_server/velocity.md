@@ -127,13 +127,11 @@ The `forwarding.secret` is found in the main folder of your Velocity Proxy serve
 
 ![img](/running_a_server/velocity/6.png)
 
-Copy the text found in the `forwarding.secret`, then go into your Paper backend server, navigate to the config folder then open the `paper-global.yml` file, search for the secret line and paste the text inside the '', it should look similar to this screenshot:
+Copy the text found in the `forwarding.secret`, then go into your Paper backend server, navigate to the config folder then open the `paper-global.yml` file, search for the secret line and paste the text inside the '', it should look similar to this screenshot but with your unique secret key.
 
 ![img](/running_a_server/velocity/7.png)
 
 You must also set `online-mode` under the `velocity` section in `config/paper-global.yml` to the `online-mode` setting in your `velocity.toml`. Once you're done editing `paper-global.yml`, start your server. Keep in mind that these changes need to be done while the server is offline, otherwise they will not be saved.
-
-![img](/running_a_server/velocity/3.png)
 
 ### Modern Forwarding for Fabric
 
