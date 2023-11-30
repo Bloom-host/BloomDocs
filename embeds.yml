@@ -953,7 +953,6 @@ codes:
   description: |+
     ### Here are the current active promo codes:
     - `PERFPLUSME`: 20% off your first Performance Plus plan
-    - `BLOOMFRIDAY2023`: 25% off your first month of ANY service. Expires: <t:1701104400:R>
   buttons:
     - [ 'Create Your Server Now', 'https://bloom.host/', '🎉' ]
 
