@@ -20,6 +20,13 @@ keywords:
 
 # **How to take a Timings Report**
 
+:::important
+The PaperMC team has decided to remove the Timings system and replace it with [Spark](https://docs.bloom.host/spark) in a future version. 
+Timings should be considered depricated and no longer be used.
+
+More information can be found [here](https://github.com/PaperMC/Paper/issues/8948)
+:::
+
 :::note
 As time has gone on, Timings has become a bit outdated, from the Bloom team we usually recommend using [Spark](https://docs.bloom.host/spark) instead.
 :::
