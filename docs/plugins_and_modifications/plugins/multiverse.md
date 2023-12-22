@@ -46,3 +46,9 @@ That's about it for Multiverse! If you need any more help, feel free to make a t
 ## Info
 
 [Bukkit Page](https://dev.bukkit.org/projects/multiverse-core/files)
+
+[Spigot Page](https://www.spigotmc.org/resources/multiverse-core.390/)
+
+[Modrinth Page](https://modrinth.com/plugin/multiverse-core)
+
+[Hangar Page](https://hangar.papermc.io/Multiverse/Multiverse-Core)
