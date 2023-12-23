@@ -64,6 +64,8 @@ The following is a list of common commands you may need to use when setting up P
 ## Resources
 [Spigot page](https://github.com/PlaceholderAPI/PlaceholderAPI)
 
+[Hangar page](https://hangar.papermc.io/HelpChat/PlaceholderAPI)
+
 [Support Discord](https://discord.gg/FtArYRQ)
 
 [GitHub Repository](https://github.com/PlaceholderAPI/PlaceholderAPI)
