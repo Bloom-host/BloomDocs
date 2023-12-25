@@ -2,7 +2,6 @@
 id: fabric-setup
 title: Setting up Fabric
 slug: /fabric-setup
-hide_title: true
 hide_table_of_contents: false
 sidebar_label: Setting up Fabric
 description: This guide will help you setup Fabric on your Minecraft server
@@ -13,11 +12,6 @@ keywords:
   - Bloom.host
 ---
 
-<div class="text--center">
-<img src="https://bloom.host/logo-white.svg" alt="logo" height="50%" width="50%"/>
-<h1>Setting Up Fabric</h1>
-</div>
-
 ### What is Fabric?
 > "*Fabric is a lightweight, experimental modding toolchain for Minecraft.*"
 > 
@@ -25,27 +19,18 @@ keywords:
 
 
 ### Installing Fabric
-> Go to [fabricmc.net](https://fabricmc.net/use/?page=server) and download the installer.  
-> Run the Fabric Installer jar you downloaded, select the Server tab and select the Minecraft Version you want. 
+> Go the the Settings tab on the panel and on the right side you will see Change Server Type box. 
+> Edit the boxes to the fabric version you would like to use.
 >
-> **NOTE** You need to click **show snapshots** if you want it to also show fabric for minecraft snapshots.
->
-> ![Bloom.host Fabric](../../static/imgs/plugins_and_modifications/fabric_setup/1.png)
+> ![Bloom.host Fabric](/plugins_and_modifications/fabric_setup/FabricInstaller.png)
 
-> Click install, this will download a *fabric-server-launch.jar*, it will also show you a button for *Download server jar*, press that one too.
->
-> ![Bloom.host Fabric](../../static/imgs/plugins_and_modifications/fabric_setup/2.png)
-
-> You can now close the fabric launcher, you should have a `fabric-server-launch.jar` and a `server.jar` file.  
-> Upload those files to the root of your bloom server.  
-> Go to the Startup tab of the [Duck Panel](https://mc.bloom.host/) and set **Server Jar File** to `fabric-server-launch.jar`  
-> Restart your server and let the files generate. This may take a few minutes. 
+> Click Change Server Type, this will download fabric to your server. 
 
 > You are now done, you are running a fabric server!  
 > It's a server without mods though, so it's still purely vanilla at this point, keep reading to learn how to install mods.
 
 ### Installing Fabric Mods
 > 
-> Refer to [this](mods-install) guide.
+> Refer to [this](mods-install.md) guide.
 
 ---

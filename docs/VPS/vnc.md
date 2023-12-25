@@ -1,7 +1,6 @@
 ---
 id: vnc
 title: Connecting via VNC
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: Connecting via VNC
 description: This guide will show you how to connect to your VPS via VNC
@@ -10,11 +9,6 @@ keywords:
   - VPS
   - Virtual Private Server
 ---
-
-<div class="text--center">
-<img src="https://bloom.host/logo-white.svg" alt="logo" height="50%" width="50%"/>
-<h1>How to connect via VNC</h1>
-</div>
 
 Hey Bloomers! In this guide we will be going over how to connect to your VPS via VNC.
 
@@ -36,13 +30,11 @@ Our panel provides an HTML 5 VNC Client that you can use to connect to your VPS.
 
 To use the HTML 5 VNC Client, go to our [VPS Panel](https://VPS.bloom.host), sign in, select the VPS and click on the VNC button at the top right.
 
-<div class="text--center">
-<img src={require('../../static/imgs/VPS/VNC/1.png').default} alt="img"/></div>
+![img](/VPS/VNC/1.png)
 
 Then click on the "Launch HTML 5 VNC Client"
 
-<div class="text--center">
-<img src={require('../../static/imgs/VPS/VNC/2.png').default} alt="img"/></div>
+![img](/VPS/VNC/2.png)
 
 After you launch the HTML 5 VNC Client, you will be prompted to put your SSH credentials. 
 

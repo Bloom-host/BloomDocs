@@ -2,7 +2,6 @@
 id: tebex
 title: Tebex (BuyCraft)
 slug: /plugins/tebex
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: Tebex (BuyCraft)
 description: An easy to use Tebex Store integration plugin.
@@ -14,13 +13,7 @@ keywords:
   - Pterodactyl Panel
   - Minecraft
   - Bloom.host
-image: https://bloom.host/assets/images/logo.png
 ---
-
-<div class="text--center">
-<img src="https://bloom.host/logo-white.svg" alt="logo" height="50%" width="50%"/>
-<h1>Tebex (BuyCraft)</h1>
-</div>
 
 ## What does the plugin do?
 
@@ -45,8 +38,6 @@ Do not share your Secret Key with **anyone**!
 :::
 
 See below for an example on where to find your Secret Key. 
-
-<!--![img](static/imgs/plugins/tebex/1.png)-->
 
 Once you have obtained your Secret Key, run the following command in your server’s console, being sure to replace `key` with your Secret Key.
 

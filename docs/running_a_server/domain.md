@@ -2,7 +2,6 @@
 id: domain
 title: Using A Domain
 slug: /domain
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: Using A Domain
 description: This guide will help you point your domain at the ip address of your minecraft server.
@@ -14,13 +13,7 @@ keywords:
   - Minecraft Domain
   - A Record
   - Bloom.host
-image: https://bloom.host/assets/images/logo.png
 ---
-
-<div class="text--center">
-<img src="https://bloom.host/logo-white.svg" alt="logo" height="50%" width="50%"/>
-<h1>Using a Domain</h1>
-</div>
 
 Hello there Bloomers! 👋 
 
@@ -28,7 +21,7 @@ In this guide, we will go over on how to make your server go from lots of number
 
 First, go to the [game panel](https://mc.bloom.host) and select your server. On the main page, above your console you will be able to find your IP. All bloom servers come with a dedicated IP, so you only need the IP and not any of the ports (`25565`). 
 
-![Bloom.host Pointing A Domain](../../static/imgs/running_a_server/domain/1.png)
+![Bloom.host Pointing A Domain](/running_a_server/domain/1.png)
 
 In this guide we're going use CloudFlare to point our domain to the server. Simply register [here](https://dash.cloudflare.com/sign-up). After registration, they will guide you through the process of connecting your domain to CloudFlare.
 
@@ -38,7 +31,7 @@ Alternatively, some domain providers allow you to use their own systems for DNS.
 Ensure that the server is grey cloud (not proxied by cloudflare). You can still use cloudflare, just make sure it has a grey cloud so it's <u>not proxied</u>.
 :::
 
-<div class="text--center"><img src={require('../../static/imgs/running_a_server/domain/2.png').default} alt="img"/></div>
+![img](/running_a_server/domain/2.png)
 
 ---
 
@@ -54,11 +47,17 @@ Click Save. This process will now take up to 48 hours to apply, but in most case
 
 Split servers don't have a 25565 port and if you want to join to them directly you will need to use something similar to this: `survival.example.com:25566`. We can get around this by using a **DNS SRV record** that points to the split server port.
 
+:::note
+SRV records are only supported on Java clients, Bedrock clients will be unable to resolve this record.
+
+If you wish to have multiple servers with clean domains on a network, [it's recommended to setup a network proxy](../running_a_server/velocity.md).
+:::
+
 :::warning
 For the following steps we assume you already have created an A record pointing to your server IP. If you haven't done so, please follow the steps above to create another A record before you create the SRV Record.
 :::
 
-<div class="text--center"><img src={require('../../static/imgs/running_a_server/domain/3.png').default} alt="img"/></div>
+![img](/running_a_server/domain/3.png)
 
 To create a DNS SRV record you will head to your registrar or Cloudflare DNS configuration page. 
 - Once you are there, you will click on add a new DNS record and you will select `SRV`.

@@ -2,16 +2,9 @@
 id: install-proxy-plugin
 title: Installing Proxy Plugins (BungeeCord/Velocity)
 slug: /installing-proxy-plugins
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: Proxy (BungeeCord/Velocity) Plugins
-image: https://bloom.host/assets/images/logo.png
 ---
-
-<div class="text--center">
-<img src="https://bloom.host/logo-white.svg" alt="logo" height="50%" width="50%"/>
-<h1>Spigot Plugins</h1>
-</div>
 
 :::important
 This guide is for BungeeCord/Velocity proxies. If you are looking for instructions on how to install plugins on a Bukkit/Spigot/Paper server, please see [this guide](installing-plugins.md)

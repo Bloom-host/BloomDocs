@@ -2,7 +2,6 @@
 id: squaremap
 title: Squaremap 
 slug: /multiplatform/squaremap
-hide_title: true
 hide_table_of_contents: false
 sidebar_label: Squaremap
 description: Squaremap is a plugin/mod which shows a map of Minecraft worlds in a webpage that can be easily accessed by a player.
@@ -20,13 +19,7 @@ keywords:
   - Bloom.host
   - Pterodactyl Panel
   - Minecraft
-image: https://bloom.host/assets/images/logo.png
 ---
-
-<div class="text--center">
-<img src="https://bloom.host/logo-white.svg" alt="logo" height="50%" width="50%"/>
-<h1>Squaremap</h1>
-</div>
 
 ## What does Squaremap do?
 Squaremap allows you to see your Minecraft world in 2D in real time in a browser, like Google Maps. It's an alternative to Dynmap or Bluemap, however it uses way less storage and is significantly faster. The tradeoff being that there is no 3D or isometric view.

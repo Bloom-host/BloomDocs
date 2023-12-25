@@ -1,5 +1,15 @@
 [
         {
+                "name": "BozoKits2",
+                "ip": "nolag.bozokits.net",
+                "type": "PC"
+        },
+        {
+                "name": "BozoKits",
+                "ip": "bozokits.net",
+                "type": "PC"
+        },
+        {
                 "name": "Advanced-Kind",
                 "ip": "play.advanced-kind.com",
                 "type": "PC"
@@ -159,5 +169,25 @@
                 "name": "Dotarch",
                 "ip": "play.dotarch.co",
                 "type": "PC"
-        }
+        },
+        {
+                "name": "MagmaMC",
+                "ip": "play.magmamc.net",
+                "type": "PC"
+        },
+        {
+                "name": "HibiscusMC",
+                "ip": "play.hibiscusmc.com",
+                "type": "PC"
+        },        
+        {
+                "name": "The Chunk",
+                "ip": "play.chunkmc.com",
+                "type": "PC"
+        },
+        {
+                "name": "Frostcast Revival",
+                "ip": "play.frostcast.network",
+                "type": "PC"
+        }  
 ]

@@ -2,7 +2,6 @@
 id: votifier
 title: Votifier
 slug: /plugins/votifier
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: Votifier
 description: Votifier allows you to be put on voting sites, which increases your servers visibility. Superbvote allows you to give rewards for players to vote.
@@ -14,13 +13,7 @@ keywords:
   - Bloom.host
   - Pterodactyl Panel
   - Minecraft
-image: https://bloom.host/assets/images/logo.png
 ---
-
-<div class="text--center">
-<img src="https://bloom.host/logo-white.svg" alt="logo" height="50%" width="50%"/>
-<h1>Votifier</h1>
-</div>
 
 ## What does the plugin do?
 

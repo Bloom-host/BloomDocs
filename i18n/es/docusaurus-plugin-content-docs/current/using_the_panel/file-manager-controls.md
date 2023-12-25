@@ -2,16 +2,9 @@
 id: file-manager-controls
 slug: /file-manager-controls
 title: Administrador de Archivos
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: Administrador de Archivos
-image: https://bloom.host/assets/images/logo.png
 ---
-
-<div class="text--center">
-<img src="https://bloom.host/logo-white.svg" alt="logo" height="50%" width="50%"/>
-<h1>Administrador de Archivos</h1>
-</div>
 
 ### SFTP
 
@@ -23,7 +16,7 @@ Si prefieres usar SFTP para manejar tus archivos, revisa nuestra [guía sobre SF
 Por defecto puedes ver la carpeta principal/raíz de tu servidor. Puedes adr click en otras carpetas para ver sus
 contenidos. En la parte superior izquierda puedes ver tu ubicación actual.
 
-<div class="text--center"><img src={require('../../../../../static/imgs/using_the_panel/file_manager_controls/1.png').default} alt="console"/></div>
+![console](/using_the_panel/file_manager_controls/1.png)
 
 #### Sin archivos seleccionados puedes:
 - Descargar archivos directamente desde un link (si el link da directamente a un archivo)

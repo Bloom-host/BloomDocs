@@ -1,7 +1,7 @@
 ---
 id: ping-issues
 title: How to diagnose and fix ping issues
-hide_title: true
+header: Ping Issues
 hide_table_of_contents: true
 sidebar_label: How to diagnose and fix ping issues
 description: This guide will help you diagnose and potentially fix ping issues.
@@ -10,13 +10,7 @@ keywords:
   - ping issues
   - MTR
   - ping
-image: https://bloom.host/assets/images/logo.png
 ---
-
-<div class="text--center">
-<img src="https://bloom.host/logo-white.svg" alt="logo" height="50%" width="50%"/>
-<h1>Ping Issues</h1>
-</div>
 
 Hello Bloomers! 👋
 
@@ -38,8 +32,7 @@ On Windows you can use a software such as [WinMTR](https://sourceforge.net/proje
 
 If you want to learn how to read an MTR results, you can read [this article](https://www.exavault.com/blog/reading-mtr-output) aswell as [this doc](https://www.cloudflare.com/learning/network-layer/what-is-mtr/)
 
-<div class="text--center">
-<img src={require('../../static/imgs/extras/ping-issues/1.png').default} alt="img"/></div>
+![img](/extras/ping-issues/1.png)
 
 Assuming your issue isn't network related, you can try the steps outlined below.
 
@@ -53,7 +46,6 @@ We recommend you try changing to engine mode 1, then restart the server and see 
 
 You can find this setting in the Paper.yml file in the main server folder towards the end of the file around Line 253.
 
-<div class="text--center">
-<img src={require('../../static/imgs/extras/ping-issues/2.png').default} alt="img"/></div>
+![img](/extras/ping-issues/2.png)
 
 ---

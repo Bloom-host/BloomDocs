@@ -2,7 +2,6 @@
 id: craftingstore
 title: CraftingStore
 slug: /plugins/craftingstore
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: CraftingStore
 description: How to enable donations on your server!
@@ -13,13 +12,7 @@ keywords:
   - plugins
   - Bloom.host
   - Minecraft
-image: https://bloom.host/assets/images/logo.png
 ---
-
-<div class="text--center">
-<img src="https://bloom.host/logo-white.svg" alt="logo" height="50%" width="50%"/>
-<h1>CraftingStore</h1>
-</div>
 
 ## What is CraftingStore?
 

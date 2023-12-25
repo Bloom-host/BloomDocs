@@ -2,7 +2,6 @@
 id: mods-install
 title: Server Mods
 slug: /mods-install
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: Installing Mods
 description: How to install minecraft mods on your forge/fabric server.
@@ -14,7 +13,6 @@ keywords:
   - Fabric
   - Forge
   - Mods
-image: https://bloom.host/assets/images/logo.png
 ---
 # Install Guide
 You'll first need to find the mod that you wish to install. Downloads can be found on a variety of sites. Many mods can be found on [Modrinth](https://modrinth.com/mods) and [CurseForge](https://www.curseforge.com/minecraft/mc-mods). Make sure you trust the source of your downloads.
@@ -30,9 +28,9 @@ In your server's root directory, locate the `/mods` folder, if it's not there th
 Additionally, many Fabric mods require the [Fabric-API](https://www.curseforge.com/minecraft/mc-mods/fabric-api). Download the relevant Fabric API for you server version, and put this file in the `/mods` directory as well.
 
 :::note
-Be sure to use the correct version of the mod. Unlike Spigot/Paper, mods are likely not across minecraft versions.
+Be sure to use the correct version of the mod. Unlike Spigot/Paper plugins, mods likely won't work across minecraft versions.
 :::
 
 
-Many mods need players to install them locally as well. Consult the documentation of your mod to see if this is required. Some mods may provide a seperate file for players and servers.
+Some mods need players to install them locally as well. Consult the documentation of your mod to see if this is required. Some mods may provide a seperate file for players and servers.
 

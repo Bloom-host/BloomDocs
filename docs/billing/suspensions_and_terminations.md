@@ -1,7 +1,6 @@
 ---
 id: suspensions_and_terminations
 title: Suspensions and Terminations
-hide_title: true
 hide_table_of_contents: false
 sidebar_label: Suspensions and Terminations
 description: This guide will explain how Suspensions and Terminations work on Bloom.
@@ -13,11 +12,6 @@ keywords:
   - invoices
   - billing
 ---
-
-<div class="text--center">
-<img src="https://bloom.host/logo-white.svg" alt="logo" height="50%" width="50%"/>
-<h1>Suspensions and Terminations</h1>
-</div>
 
 Hey Bloomers! In this guide we will be going over how service Suspensions and Terminations work.
 

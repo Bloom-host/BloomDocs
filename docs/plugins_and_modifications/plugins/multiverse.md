@@ -2,7 +2,6 @@
 id: multiverse
 title: Multiverse
 slug: /plugins/multiverse
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: Multiverse
 description: A plugin called multiverse which lets you have multiple worlds on one server.
@@ -14,19 +13,13 @@ keywords:
   - Bloom Host
   - Pterodactyl Panel
   - Minecraft
-image: https://bloom.host/assets/images/logo.png
 ---
-
-<div class="text--center">
-<img src="https://bloom.host/logo-white.svg" alt="logo" height="50%" width="50%"/>
-<h1>Multiverse</h1>
-</div>
 
 ### What does it do?
 
 Multiverse core allows you to create multiple different worlds in one server. You can import maps and create worlds with custom generation! It also easily allows you to teleport to each world that you create using the commands /mv list and /mv tp. Here's an example of the worlds that you could have on your server:  
 
-<!--![Multiverse is awesome, you can have a creative world and a survival world](static/imgs/plugins/multiverse/1.png))-->
+<!--![Multiverse is awesome, you can have a creative world and a survival world](static/plugins/multiverse/1.png))-->
 
 This example shows some of the worlds being our very own and also some of the worlds being imported into our server.  
 
@@ -53,3 +46,9 @@ That's about it for Multiverse! If you need any more help, feel free to make a t
 ## Info
 
 [Bukkit Page](https://dev.bukkit.org/projects/multiverse-core/files)
+
+[Spigot Page](https://www.spigotmc.org/resources/multiverse-core.390/)
+
+[Modrinth Page](https://modrinth.com/plugin/multiverse-core)
+
+[Hangar Page](https://hangar.papermc.io/Multiverse/Multiverse-Core)

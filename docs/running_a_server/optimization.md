@@ -2,7 +2,6 @@
 id: optimization
 slug: /optimization
 title: Paper Server Optimization
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: Server Optimization
 description: How to optimize your minecraft server.
@@ -16,13 +15,7 @@ keywords:
   - Bloom.host
   - Pterodactyl Panel
   - Minecraft
-image: https://bloom.host/assets/images/logo.png
 ---
-
-<div class="text--center">
-<img src="https://bloom.host/logo-white.svg" alt="logo" height="50%" width="50%"/>
-<h1>Server Optimization Guide</h1>
-</div>
 
 
 Since 1.13, Minecraft servers have gotten progressively harder to run.
@@ -44,7 +37,7 @@ re just going to outline the two best known "paths", the bukkit platform, and fa
 The gist of it is the bukkit platform is generally recommended for bigger public servers and fabric for smaller servers with friends.  
 The bukkit platform allows you to use plugins, and fabric allows you to run mods.
 
-For the bukkit platform the [Paper](https://papermc.io/) jar is recommended, it includes many performance improvements, bug fixes and configuration options  
+For the Bukkit platform you have many options for a server jar, the most stable of which is [Paper](https://papermc.io). Paper includes many performance improvements, bug fixes and configuration options. If you want additional performance tweaks, but may break the more technical mechanics, or quality of life tweaks try [Purpur](https://purpurmc.org/downloads).
 For Fabric check our [Fabric Setup](/fabric-setup) page. Fabric by itself doesn't change the game at all, to get performance improvements check out our [Fabric Performance Mods](../plugins_and_modifications/fabric_mods/performance-mods.md) page.
 
 ---

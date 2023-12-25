@@ -2,7 +2,6 @@
 id: vault
 title: Vault
 slug: /plugins/vault
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: Vault
 description: A common API for chat, permission and economy plugins.
@@ -15,13 +14,7 @@ keywords:
   - Pterodactyl Panel
   - Minecraft
   - Bloom.host
-image: https://bloom.host/assets/images/logo.png
 ---
-
-<div class="text--center">
-<img src="https://bloom.host/logo-white.svg" alt="logo" height="50%" width="50%"/>
-<h1>Vault</h1>
-</div>
 
 ## What does this plugin do?
 

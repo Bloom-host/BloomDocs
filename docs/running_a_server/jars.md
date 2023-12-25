@@ -2,7 +2,6 @@
 id: jars
 title: Server Jars
 slug: /jars
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: Server Softwares
 description: This guide will help you choose which jar to use.
@@ -22,13 +21,7 @@ keywords:
   - Plugin Server Jars
   - Bloom.host
   - Minestom 
-image: https://bloom.host/assets/images/logo.png
 ---
-
-<div class="text--center">
-<img src="https://bloom.host/logo-white.svg" alt="logo" height="50%" width="50%"/>
-<h1>Server Jars</h1>
-</div>
 
 ## Recommended Software:
 

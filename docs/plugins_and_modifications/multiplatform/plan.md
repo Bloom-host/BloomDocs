@@ -2,16 +2,9 @@
 id: plan
 slug: /multiplatform/plan
 title: PLAN
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: PLAN (Player Analytics)
-image: https://bloom.host/assets/images/logo.png
 ---
-
-<div class="text--center">
-<img src="https://bloom.host/logo-white.svg" alt="logo" height="50%" width="50%"/>
-<h1>Plan - Player Analytics</h1>
-</div>
 
 ### How to set up PLAN (Player Analytics)	
 
@@ -22,20 +15,20 @@ Plan is an extremely popular & useful plugin that you can use to track server st
 
 This guide will teach you how to set it up for the first time and how to secure it using the reverse proxy.
 
-<div class="text--center"><img src={require('../../../static/imgs/plugins_and_modifications/plugins/plan/1.png').default} alt="1"/></div>
+![1](/plugins_and_modifications/plugins/plan/1.png)
 
 *Example CNAME record using Cloudflare*
 
 2. Go to your bloom panel, click on “Ports and Proxies”, and create a new Allocation with the port “8804”. Once you’re done with that, set the Reverse Proxy Domain to “revproxy-us.bloom.host” (or the EU one if you’re in the EU)
 
-<div class="text--center"><img src={require('../../../static/imgs/plugins_and_modifications/plugins/plan/2.png').default} alt="2"/></div>
+![2](/plugins_and_modifications/plugins/plan/2.png)
 
 3. Install the Minecraft plugin from here and restart your server
 4. Open the plugin’s config.yml and change the following values:
 	- Webserver.Alternative_IP: true
 	- Webserver.Alternative_IP.Address: plan.YOURDOMAIN.com (obviously change it to your domain)
 	- Webserver.Security.SSL_certificate.KeyStore_path: proxy
-<div class="text--center"><img src={require('../../../static/imgs/plugins_and_modifications/plugins/plan/3.png').default} alt="3"/></div>
+![3](/plugins_and_modifications/plugins/plan/3.png)
 
 5. If you would like to track players’ locations:
 ```Data_gathering.Accept_GeoLite2_EULA```

@@ -2,7 +2,6 @@
 id: essentialsx
 title: EssentialsX
 slug: /plugins/essentialsx
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: EssentialsX
 description: Plugin offering essential commands to servers
@@ -15,13 +14,7 @@ keywords:
   - Pterodactyl Panel
   - Minecraft
   - Bloom.host
-image: https://bloom.host/assets/images/logo.png
 ---
-
-<div class="text--center">
-<img src="https://bloom.host/logo-white.svg" alt="logo" height="50%" width="50%"/>
-<h1>EssentialsX</h1>
-</div>
 
 :::important
 This guide does not cover any of EssentialsX's modules, such as EssentialsX Chat, EssentialsX Discord or EssentialsX Geo (formerly EssentialsX GeoIP). Please check the [EssentialsX wiki](https://essentialsx.net/wiki/Module-Breakdown.html) for information on these modules.

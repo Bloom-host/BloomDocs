@@ -2,16 +2,9 @@
 id: schedules
 title: Acciones Automáticas
 slug: /schedules
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: Acciones Automáticas
-image: https://bloom.host/assets/images/logo.png
 ---
-
-<div class="text--center">
-<img src="https://bloom.host/logo-white.svg" alt="logo" height="50%" width="50%"/>
-<h1>Acciones Automáticas</h1>
-</div>
 
 
 ### Qué son las Acciones Automáticas?
@@ -37,12 +30,12 @@ automáticas. Puedes usar este [sitio web](https://www.timeanddate.com/worldcloc
 3. Ingresa un nombre para tu acción y selecciona cuándo y cada cuánto quieres que se repita. Para usuarios avanzados que
 son familiares con cron syntax, click en **Advanced** (Avanzado).
 
-<div class="text--center"><img src={require('../../../../../static/imgs/using_the_panel/schedules/1.png').default} alt="img"/></div>
+![img](/using_the_panel/schedules/1.png)
 
 4. Una vez creada, da click en la acción en la lista principal para ver las tareas a ejecutar. Luego, click en **New Task**
    (Nueva Tarea) para añadir una tarea a tu acción automática.
 
-<div class="text--center"><img src={require('../../../../../static/imgs/using_the_panel/schedules/2.png').default} alt="img"/></div>
+![img](/using_the_panel/schedules/2.png)
 
 5. En la parte final especificas si quieres correr un comando o una acción de energía. Los comandos se escriben sin el `/`.
 También puedes especificar una acción de energía (apagar, encender, etc) o crear un backup como tarea.
@@ -50,7 +43,7 @@ También puedes especificar una acción de energía (apagar, encender, etc) o cr
 6. Aquí también puedes especificar un delay. Esto es útil si quieres hacer algo como mandar un anuncio a tus usuarios
 antes de reiniciar el servidor.
 
-<div class="text--center"><img src={require('../../../../../static/imgs/using_the_panel/schedules/3.png').default}/></div>
+![img](/using_the_panel/schedules/3.png)
 
 ---
 
@@ -58,7 +51,7 @@ antes de reiniciar el servidor.
 
 #### ➤ Reinicios Diarios
 
-<div class="text--center"><img src={require('../../../../../static/imgs/using_the_panel/schedules/4.png').default}/></div>
+![img](/using_the_panel/schedules/4.png)
 
 #### ➤ Backups Diarios
 Revisa nuestra [guía](backups.md) sobre backups!

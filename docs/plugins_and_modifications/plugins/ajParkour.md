@@ -2,7 +2,6 @@
 id: ajparkour
 title: ajParkour
 slug: /plugins/ajparkour
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: ajParkour
 description: A randomly generated parkour plugin
@@ -14,13 +13,7 @@ keywords:
   - Spigot
   - Bloom.host
   - Minecraft
-image: https://bloom.host/assets/images/logo.png
 ---
-
-<div class="text--center">
-<img src="https://bloom.host/logo-white.svg" alt="logo" height="50%" width="50%"/>
-<h1>AjParkour</h1>
-</div>
 
 ## What does it do?
 
@@ -32,7 +25,7 @@ image: https://bloom.host/assets/images/logo.png
 
 It is quite simple to install plugins from the plugin installer, firstly search for the plugin.
 
-![Plugin installer installing](../../../static/imgs/plugins_and_modifications/plugins/ajParkour/pluginInstaller.png)
+![Plugin installer installing](/plugins_and_modifications/plugins/ajParkour/pluginInstaller.png)
 
 Then click install and restart your server.
 

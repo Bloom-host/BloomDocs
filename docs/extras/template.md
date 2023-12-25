@@ -1,22 +1,15 @@
 ---
 id: template
 title: Template
-hide_title: true
 hide_table_of_contents: false
 sidebar_label: Template :)
-description: How do I find you when I cannot solve this problem
+description: The template used for contributing 
 keywords:
   - Template
   - Pterodactyl Panel
   - Minecraft
   - Bloom.host
-image: https://bloom.host/assets/images/logo.png
 ---
-
-<div class="text--center">
-<img src="https://bloom.host/logo-white.svg" alt="logo" height="50%" width="50%"/>
-<h1>Template</h1>
-</div>
 
 You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).
 
@@ -103,7 +96,7 @@ Reference-style: ![alt text][logo]
 
 Images from any folder can be used by providing path to file. Path should be relative to markdown file.
 
-![img](../../static/imgs/logo.svg)
+![img](/logo.svg)
 
 ---
 

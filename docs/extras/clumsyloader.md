@@ -1,7 +1,6 @@
 ---
 id: clumsyloader
 title: ClumsyLoader
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: ClumsyLoader
 description: This guide will show you how to use ClumsyLoader, an alternative way to download your panel backups to your VPS or computer.
@@ -11,11 +10,6 @@ keywords:
   - Backups
 ---
 
-<div class="text--center">
-<img src="https://bloom.host/logo-white.svg" alt="logo" height="50%" width="50%"/>
-<h1>ClumsyLoader</h1>
-</div>
-
 Hey Bloomers! In this guide we will be going over how to use ClumsyLoader to download your panel backups to a VPS or to your local computer.
 
 An example use case for this tool is if you want to take your own backups, you can run this tool on a server of some kind and have it run on a schedule, constantly downloading your backups for you automatically
@@ -24,13 +18,11 @@ We can start by heading over to the [Github Releases page](https://github.com/Cl
 
 After we have done this, we now want to create the API Key that ClumsyLoader will use to access your server backups. To do this, simply head over to the [panel](https://mc.bloom.host/) and once you are logged in, click **Account API** on the left.
 
-<div class="text--center">
-<img src={require('../../static/imgs/extras/srvcontrol/1.png').default} alt="img"/></div>
+![img](/extras/srvcontrol/1.png)
 
 Then click **Create New** and give it a relevant description so that you will remember what this API key is for. There is no need to specify the an IP in the allowed IPs field unless you want to restrict the API access to your IP address or your VPS address, by default it will allow all IP addresses to use the API key. Once you are done, click **create**. Now there will be a list of API keys, in your case there will only be one so just click the key icon to reveal the long key and copy it. 
 
-<div class="text--center">
-<img src={require('../../static/imgs/extras/srvcontrol/2.png').default} alt="img"/></div>
+![img](/extras/srvcontrol/2.png)
 
 :::caution
 Please keep this key secure! Anyone with this API key can utilize it to do anything to the servers hosted under your account. 

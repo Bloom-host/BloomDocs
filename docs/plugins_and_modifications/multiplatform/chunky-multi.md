@@ -2,7 +2,6 @@
 id: chunky
 title: Chunky
 slug: /multiplatform/chunky
-hide_title: true
 hide_table_of_contents: true
 sidebar_label: Chunky
 description: A cool plugin/mod called chunky, which lets you pre generate a minecraft world quickly and efficiently to avoid lag.
@@ -14,13 +13,7 @@ keywords:
   - Bloom.host
   - Pterodactyl Panel
   - Minecraft
-image: https://bloom.host/assets/images/logo.png
 ---
-
-<div class="text--center">
-<img src="https://bloom.host/logo-white.svg" alt="logo" height="50%" width="50%"/>
-<h1>Chunky</h1>
-</div>
 
 ### What does the plugin/mod do?
 

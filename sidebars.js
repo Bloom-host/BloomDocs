@@ -1,12 +1,12 @@
 /*
 When adding pages to the sidebar, make sure you use the page ID, not the file name of the page
-For example, to add a page which had a filename of 'chunky-multi' and a page ID of 'chunky', you would add the following under the appropiate category: 
+For example, to add a page which had a filename of 'chunky-multi' and a page ID of 'chunky', you would add the following under the appropriate category:
 
 'plugins_and_modifications/multiplatform/chunky'
 
 'plugins_and_modifications/multiplatform/' is the path to the file and '/chunky' is the page ID.
 
-The page ID can be found at the top of each document (usually the second line) where it will say 'id: <pageid>' (<pageid> would be the page ID you put into `sidebars.js`) 
+The page ID can be found at the top of each document (usually the second line) where it will say 'id: <pageid>' (<pageid> would be the page ID you put into `sidebars.js`)
 
 Not following this can cause the website build to fail!
 */
@@ -16,10 +16,20 @@ module.exports = {
     docs: [
 
         {
-            type: 'doc',
-            id: "running_a_server/1.19", // 1.19 update information
+            type: 'link',
+            label: 'Website',
+            href: 'https://bloom.host/'
         },
-
+        {
+            type: 'link',
+            label: 'Support Discord',
+            href: 'https://discord.gg/bloom',
+        },
+        {
+            type: 'link',
+            label: 'Billing Support',
+            href: 'https://billing.bloom.host/supporttickets.php',
+        },
 
         {
             type: 'category',
@@ -70,14 +80,81 @@ module.exports = {
                 'running_a_server/timings',
                 'running_a_server/icon',
                 'running_a_server/motd',
+                'running_a_server/whitelist', // How to turn on whitelist for both Java and Bedrock
+
                 'running_a_server/resourcepack',
                 'running_a_server/converting-worlds', // Converting worlds used on Bukkit (and forks) servers to allow for use in singleplayer/other server software
                 "plugins_and_modifications/fabric-setup",
                 "plugins_and_modifications/forge-setup",
                 'running_a_server/waterfall', // BungeeCord fork
                 'running_a_server/velocity',
-                'running_a_server/binarysearch' // Troubleshooting errors caused by plugins
+                'running_a_server/internal-servers',
+                'running_a_server/binarysearch', // Troubleshooting errors caused by plugins
+                'running_a_server/worlds',
+                'running_a_server/mcaselector'
             ],
+        },
+
+        {
+            type: 'category',
+            label: 'Games',
+            collapsed: true,
+            items: [
+                {
+                    type: 'category',
+                    label: 'Rust',
+                    items: [
+                        'games/rust/connecting',
+                        'games/rust/admin',
+                        'games/rust/server-list',
+                        'games/rust/plugins',
+                        'games/rust/worlds'
+                    ]
+                },
+                {
+                    type: 'category',
+                    label: 'Terraria',
+                    items: [
+                        {
+                            type: 'doc',
+                            id: 'games/terraria/connecting'
+                        },
+                        {
+                            type: 'doc',
+                            id: 'games/terraria/password'
+                        },
+                        {
+                            type: 'doc',
+                            id: 'games/terraria/worlds'
+                        },
+                        {
+                            type: 'doc',
+                            id: 'games/terraria/banning'
+                        },
+                        {
+                            type: 'category',
+                            label: 'TShock',
+                            collapsed: false,
+                            items: [
+                                'games/terraria/tshock/overview',
+                                'games/terraria/tshock/admin',
+                                'games/terraria/tshock/whitelisting',
+                                'games/terraria/tshock/plugins',
+                                'games/terraria/tshock/crossplay'
+                            ]
+                        },
+                        {
+                            type: 'category',
+                            label: 'tModLoader',
+                            collapsed: false,
+                            items: [
+                                'games/terraria/tmodloader/overview',
+                                'games/terraria/tmodloader/mods'
+                            ]
+                        }
+                    ]
+                }
+            ]
         },
 
         {
@@ -97,6 +174,30 @@ module.exports = {
                     type: 'doc',
                     id: "plugins_and_modifications/modpacks",
                 },
+                {
+                    type: 'category',
+                    label: "Fabric mods",
+                    items: [ // Note: Chunky and LuckPerms pages were moved to multiplatform category
+                        'plugins_and_modifications/fabric_mods/performance-mods' // Mods intended to improve client/server performance
+                    ]
+                },
+
+                {
+                    type: 'category',
+                    label: "Multi-platform plugins & mods",
+                    items: [
+                        'plugins_and_modifications/multiplatform/advancedban', // Bans and punishment manager (Bukkit/Spigot/Paper, BungeeCord)
+                        'plugins_and_modifications/multiplatform/chunky', // World pre-generation plugin (Bukkit, Fabric, Forge)
+                        'plugins_and_modifications/multiplatform/dynmap', // Dynamic web map of Minecraft worlds (Spigot/Paper, Forge, Fabric)
+                        'plugins_and_modifications/multiplatform/litebans', // Bans and punishment manager (Spigot/Paper, BungeeCord, Velocity)
+                        'plugins_and_modifications/multiplatform/luckperms', // Permissions (Bukkit/Spigot/Paper, BungeeCord, Sponge, Forge, Fabric, Nukkit, Velocity)
+                        'plugins_and_modifications/multiplatform/plan', // Player Analytics, (Bukkit/Spigot/Paper, Sponge, Nukkit, Fabric)
+                        'plugins_and_modifications/multiplatform/simple-voice-chat', // Voice chat (Bukkit/Spigot/Paper, Forge, Fabric)
+                        'plugins_and_modifications/multiplatform/squaremap', // Online map (Paper, Fabric, Sponge)
+                        'plugins_and_modifications/multiplatform/worldedit' // World management (Bukkit, Forge, Fabric, Sponge)
+                    ]
+                },
+
                 {
                     type: 'category',
                     label: "Plugins", // Bukkit/Spigot/Paper plugins
@@ -178,6 +279,15 @@ module.exports = {
 
         {
             type: 'category',
+            label: 'Dedicated',
+            collapsed: true,
+            items: [
+                'dedicated/reset-password'
+            ],
+        },
+
+        {
+            type: 'category',
             label: 'Billing',
             collapsed: true,
             items: [
@@ -186,8 +296,21 @@ module.exports = {
                 'billing/upgrades',
                 'billing/refunds',
                 'billing/suspensions_and_terminations',
+                'billing/billing_subusers',
                 'billing/paypal',
                 'billing/stripe'
+            ],
+        },
+
+        {
+            type: 'category',
+            label: 'Other Servers',
+            collapsed: true,
+            items: [
+                'other-servers/ark',
+                'other-servers/caddy-server',
+                'other-servers/grafana',
+                'other-servers/namelessmc'
             ],
         },
 
@@ -201,12 +324,9 @@ module.exports = {
                 'extras/available-modpacks',
                 'extras/srvcontrol',
                 'extras/swap',
-                'extras/clumsyloader',
-                'extras/contributing',
-                'extras/template'
+                'extras/clumsyloader'
             ],
         },
 
     ]
 }
-//'editing-account-details'
