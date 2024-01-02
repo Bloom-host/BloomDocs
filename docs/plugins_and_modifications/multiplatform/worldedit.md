@@ -53,6 +53,8 @@ If you feel like making a cylinder, run `//cyl [block] [radii] [height]`. This w
 
 [Bukkit](https://dev.bukkit.org/projects/worldedit)  
 
+[Modrinth](https://modrinth.com/plugin/worldedit)
+
 [Github](https://github.com/EngineHub/WorldEdit)  
 
 [Wiki](https://worldedit.enginehub.org/en/latest/)

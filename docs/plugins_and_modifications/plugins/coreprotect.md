@@ -53,10 +53,16 @@ There are, of course, more commands in the plugin, which you can check out [here
 
 ## Info
 
-[Spigot Page](https://www.spigotmc.org/resources/coreprotect.8631/)  
+[Spigot Page](https://www.spigotmc.org/resources/coreprotect.8631/) 
+
+[Hangar Page](https://hangar.papermc.io/CORE/CoreProtect)
+
+[Modrinth Page](https://modrinth.com/plugin/coreprotect)
 
 [Commands](https://docs.coreprotect.net/commands/)
 
 [Permissions](https://docs.coreprotect.net/permissions/)
 
 [Configuration](https://docs.coreprotect.net/config/)
+
+[GitHub](https://github.com/PlayPro/CoreProtect/)

@@ -44,8 +44,18 @@ Once you have installed the plugins and restarted your server, Java players shou
 
 ## Info
 
+[ViaVersion Spigot](https://www.spigotmc.org/resources/viaversion.19254/)  
+
+[ViaVersion Modrinth](https://modrinth.com/plugin/viaversion)
+
+[ViaVersion Hangar](https://hangar.papermc.io/ViaVersion/ViaVersion)
+
+[GitHub Source Code](https://github.com/ViaVersion/ViaVersion?tab=readme-ov-file)
+
 [ViaBackwards Spigot](https://www.spigotmc.org/resources/viabackwards.27448/)  
 
-[ViaVersion Spigot](https://www.spigotmc.org/resources/viaversion.19254/)  
+[ViaBackwards Modrinth](https://modrinth.com/plugin/viabackwards)
+
+[ViaBackwards Hangar](https://hangar.papermc.io/ViaVersion/ViaBackwards)
 
 [ViaRewind Spigot](https://www.spigotmc.org/resources/viarewind.52109/)
