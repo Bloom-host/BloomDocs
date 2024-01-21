@@ -100,6 +100,13 @@ module.exports = {
             label: 'Games',
             collapsed: true,
             items: [
+                             {
+                    type: 'category',
+                    label: 'PalWorld',
+                    items: [
+                        'games/palworld/config'
+                    ]
+                },   
                 {
                     type: 'category',
                     label: 'Rust',
