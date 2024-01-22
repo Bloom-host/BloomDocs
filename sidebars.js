@@ -100,9 +100,9 @@ module.exports = {
             label: 'Games',
             collapsed: true,
             items: [
-                             {
+                {
                     type: 'category',
-                    label: 'PalWorld',
+                    label: 'Palworld',
                     items: [
                         'games/palworld/config'
                     ]
