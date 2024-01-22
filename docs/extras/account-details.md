@@ -59,7 +59,7 @@ Simply click 'Link Account' which will redirect to Discord's authorization site.
 
 Make sure you are logged in with the correct account and click 'Authorise'.
 
-![Discord's authorization page](/extras/account_details/authorize.png" height="256" width="256)
+![Discord's authorization page](/extras/account_details/authorize.png)
 
 You will be redirected back to the DuckPanel where it will show your currently linked account.
 ![Linked Discord account status](/extras/account_details/linked.png)
@@ -67,5 +67,3 @@ You will be redirected back to the DuckPanel where it will show your currently l
 If you ever need to unlink your account, simply click 'Unlink Account' in the panel, or 'Deauthorise' under 'Authorised
 Apps' in your Discord settings.
 ![img](/extras/account_details/deauthorize.png)
-
----
