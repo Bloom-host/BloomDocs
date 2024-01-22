@@ -22,4 +22,4 @@ Now you can change it to your hearts content!
 
 Make sure to restart your server to apply the changes.
 
-Note: Max Player Count and Server Name can only be changed in the startup tab, as changing these in the config file will be overriden by the value put in the startup tab
+Note: Max Player Count and Server Name can only be changed in the startup tab
