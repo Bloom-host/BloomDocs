@@ -21,3 +21,5 @@ OptionSettings=(Difficulty=None,DayTimeSpeedRate=1.000000,NightTimeSpeedRate=1.0
 Now you can change it to your hearts content!
 
 Make sure to restart your server to apply the changes.
+
+Note: Max Player Count and Server Name can only be changed in the startup tab
