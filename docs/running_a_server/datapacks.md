@@ -24,20 +24,20 @@ management tab.
 
 Open your server in the DuckPanel and open the 'File Manager' tab.
 
-![img](/running_a_server/datapacks/1.png)
+![File manager tab](/running_a_server/datapacks/1.png)
 
 Select the world you want to install the datapack onto.
 
-![img](/running_a_server/datapacks/2.png)
+![File manager tab showing the datapacks folder](/running_a_server/datapacks/2.png)
 
-Open the folder “datapacks” and Click the upload button in the top right corner and select upload your datapack. You can
-also drag and drop the datapack .zip file.
+Open the `datapacks/` folder and click the 'Upload' button in the top right corner. 
+Select your datapack to upload it. You can also drag and drop the datapack `.zip` file.
 
 :::important
-Remember that you need to upload the .zip datapack file, you don't need to unzip it.
+Remember that you need to upload the `.zip` datapack file, you don't need to unzip it.
 :::
 
-![img](/running_a_server/datapacks/3.png)
+![File manager tab showing the datapacks folder with a zip file](/running_a_server/datapacks/3.png)
 
 Now restart your server, feel free to open a ticket if you need any assistance.
 
@@ -92,9 +92,9 @@ but are functions the game uses when processing commonly used commands.
 ![TPS showing 7 in the profiling.txt](/running_a_server/datapacks/tps.png)
 
 Scrolling further down, you can find `commandFunctions` and each command that takes up any significant amount of processing time.
-As mentioned above, these commands are often responsible for more processing that you can see further above, such as `getEntities` calls.
-This is especially true for commands that run selectors without any filtering, such as `@e` and especially nested 
-calls, such as `execute as @e at @s run <some command> @e` 
+As mentioned above, these commands are often responsible for more processing that you can see above, such as `getEntities` calls.
+This is especially true for commands that run selectors without any filtering, such as `@e` and nested 
+calls, for example: `execute as @e at @s run <some command> @e` 
 
 These are the raw commands, so if you want to find which datapack is executing them, you can simply do an in-folder search. 
 This can be done in the DuckPanel by opening the datapacks folder under the 'File Manager' tab and searching for the command in the search bar.
