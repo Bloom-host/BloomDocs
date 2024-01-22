@@ -281,6 +281,12 @@ waitlist:
 
     Thanks again for your interest in our plans!
 
+palworld:
+  title: 'How to change config on your Palworld server'
+  description: |+
+    To change your config on your Palworld server, follow the steps
+    [in our guide](https://docs.bloom.host/games/palworld/config)!
+
 rate:
   aliases: [ 'support' ]
   title: 'Rate Bloom.host!'

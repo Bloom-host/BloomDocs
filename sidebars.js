@@ -102,6 +102,13 @@ module.exports = {
             items: [
                 {
                     type: 'category',
+                    label: 'Palworld',
+                    items: [
+                        'games/palworld/config'
+                    ]
+                },   
+                {
+                    type: 'category',
                     label: 'Rust',
                     items: [
                         'games/rust/connecting',
