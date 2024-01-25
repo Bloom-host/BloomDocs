@@ -104,7 +104,8 @@ module.exports = {
                     type: 'category',
                     label: 'Palworld',
                     items: [
-                        'games/palworld/config'
+                        'games/palworld/config',
+                        'games/palworld/update'
                     ]
                 },   
                 {
