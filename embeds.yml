@@ -286,7 +286,12 @@ palworld:
   description: |+
     To change your config on your Palworld server, follow the steps
     [in our guide](https://docs.bloom.host/games/palworld/config)!
-
+palworldupdate:
+  aliases: [ 'palupdate' ]
+  title: 'How to update your server to the latest version of Palworld'
+  description: |+
+    To update your server to the latest version of Palworld, follow the steps
+    [in our guide](https://docs.bloom.host/games/palworld/update)!
 rate:
   aliases: [ 'support' ]
   title: 'Rate Bloom.host!'
