@@ -20,4 +20,7 @@ OptionSettings=(Difficulty=None,DayTimeSpeedRate=1.000000,NightTimeSpeedRate=1.0
 
 Now you can change it to your hearts content!
 
+Optionally use the configuration generator linked
+[Here!](https://pal-conf.bluefissure.com/)
+
 Make sure to restart your server to apply the changes.
