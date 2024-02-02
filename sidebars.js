@@ -237,13 +237,6 @@ module.exports = {
                         "plugins_and_modifications/install-proxy-plugin", // BungeeCord/Velocity proxy plugin install guide
                     ]
                 },
-                {
-                    type: 'category',
-                    label: "Fabric mods",
-                    items: [ // Note: Chunky and LuckPerms pages were moved to multiplatform category
-                        'plugins_and_modifications/fabric_mods/performance-mods' // Mods intended to improve client/server performance
-                    ]
-                },
 
                 {
                     type: 'category',
