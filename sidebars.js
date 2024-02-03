@@ -105,7 +105,8 @@ module.exports = {
                     label: 'Palworld',
                     items: [
                         'games/palworld/config',
-                        'games/palworld/update'
+                        'games/palworld/update',
+                        'games/palworld/info'
                     ]
                 },   
                 {
