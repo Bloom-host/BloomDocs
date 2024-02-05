@@ -294,9 +294,9 @@ palworldupdate:
     [in our guide](https://docs.bloom.host/games/palworld/update)!
 palworldinfo:
   aliases: [ 'palinfo' ]
-  title: 'Useful info for your Palworld server'
+  title: 'Palworld Frequent Issues & FAQ'
   description: |+
-    Find useful info, like known issues and more for Palworld
+    Find useful information, such as known issues, frequently asked questions, and more, for Palworld
     [in our guide](https://docs.bloom.host/games/palworld/update)!
 rate:
   aliases: [ 'support' ]
