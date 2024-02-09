@@ -286,12 +286,14 @@ palworld:
   description: |+
     To change your config on your Palworld server, follow the steps
     [in our guide](https://docs.bloom.host/games/palworld/config)!
+
 palworldupdate:
   aliases: [ 'palupdate' ]
   title: 'How to update your server to the latest version of Palworld'
   description: |+
     To update your server to the latest version of Palworld, follow the steps
     [in our guide](https://docs.bloom.host/games/palworld/update)!
+
 rate:
   aliases: [ 'support' ]
   title: 'Rate Bloom.host!'
@@ -303,6 +305,16 @@ rate:
         • [MC Market (Minecraft)](https://www.mc-market.org/threads/612586/)
         • [Admincraft Marketplace](https://www.reddit.com/r/admincraft/comments/shvm6f/admincraft_monthly_marketplace/hv4tx5h/)
       inline: false
+
+bloomab:
+  aliases: [ 'ab', 'bab', 'blab' ]
+  description: |+
+    ##  <:bitwarden:805611737692766249> Bloom Anti Bot Plugin
+    Learn about our plugin for Minecraft servers that interacts with our custom on-site DDoS protection to provide Layer 7 protection for Minecraft: Java Edition.
+  buttons:
+    - [ 'Documentation', 'https://docs.bloom.host/ab', '<:info:849551086032781332>' ]
+    - [ 'Latest Release', 'https://github.com/Bloom-host/BloomAB/releases/latest', '<:CloseEmoji:777970302297833512>' ]
+    - [ 'Source Code', 'https://github.com/Bloom-host/BloomAB', '<:github:1205553982152515744>' ]
 
 chunky:
   title: 'Chunky'

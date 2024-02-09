@@ -326,7 +326,6 @@ module.exports = {
             label: 'Extras',
             collapsed: true,
             items: [
-                'extras/ab',
                 'extras/ping-issues',
                 'extras/account-details',
                 'extras/available-modpacks',

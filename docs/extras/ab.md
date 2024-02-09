@@ -8,7 +8,7 @@ description: Learn more about Bloom's Anti Bot plugin!
 
 ## Introduction
 
-This is a beta plugin for Minecraft servers that interacts with our custom on-site DDoS protection to provide Layer
+This is a **beta** plugin for Minecraft servers that interacts with our custom on-site DDoS protection to provide Layer
 7 protection for Minecraft: Java Edition.
 
 **Note**: This plugin is not meant to block very slow bot attacks. It's designed to prevent server crashes and performance issues when bot attacks occur.
@@ -22,13 +22,17 @@ Please report any issues or suggestions on our [Discord server](https://discord.
 ## Installation
 
 :::caution HEADS UP!
-This is currently only supported in certain regions, so please make sure to check your server's region is supported in the [plugin configuration](https://github.com/Bloom-host/BloomAB/blob/main/common/src/main/resources/config.yml#L2).  
+
+This is currently **only supported in the following regions**:  
+- Ashburn, Virginia
+- Falkenstein, Germany
+
 Additionally, please make sure you are using Waterfall, Velocity or a Spigot-based server software.
 :::
 
 Here is how you can install the plugin:
 
-1. Ensure your server is using a supported port. Currently, this is `25565`, `25566` and `25565`.
+1. Ensure your server is using a supported port. Currently, this is `25565`, `25566` and `25567`.
   If this isn't the case, please update your main port to one of the supported ones in the [Ports & Proxies tab](../using_the_panel/ports-and-proxies.md) 
 2. Open the [latest release on GitHub](https://github.com/Bloom-host/BloomAB/releases/latest) and download the `BloomAB-xxx.jar` file.  
   This JAR file will work for all 3 platforms.
