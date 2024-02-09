@@ -21,21 +21,13 @@ description: Find useful information, such as known issues, frequently asked que
 
 ---
 
-## Recommended Server Settings
+## Recommended Server Limits
 
-### Memory
-
-Due to at least one memory leak the server requires about 16-32GB RAM.
+Due to at least one memory leak the server requires about 16-32 GB RAM.
 Referring to the [official documentation](https://tech.palworldgame.com/dedicated-server-guide) you can start the server with 8GB but you will run out of memory very quickly.
 The minimum should be 16GB but 32GB are fairly recommended for now.
 
-### CPU
-
-Intel / AMD processor with at least 4 cores.
-
-### Storage
-
-As of January 19th 2024 the server requires about 5GB of storage capacity. This might extend with further content/updates.
+As of January 19th 2024 the server requires about 5GB of storage space. This might extend with further content/updates.
 
 ---
 
