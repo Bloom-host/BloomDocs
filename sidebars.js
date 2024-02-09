@@ -14,7 +14,6 @@ module.exports = {
     /* Organize sidebar alphabetically */
 
     docs: [
-
         {
             type: 'link',
             label: 'Website',
@@ -107,7 +106,7 @@ module.exports = {
                         'games/palworld/config',
                         'games/palworld/update'
                     ]
-                },   
+                },
                 {
                     type: 'category',
                     label: 'Rust',
@@ -327,6 +326,7 @@ module.exports = {
             label: 'Extras',
             collapsed: true,
             items: [
+                'extras/ab',
                 'extras/ping-issues',
                 'extras/account-details',
                 'extras/available-modpacks',
