@@ -292,6 +292,12 @@ palworldupdate:
   description: |+
     To update your server to the latest version of Palworld, follow the steps
     [in our guide](https://docs.bloom.host/games/palworld/update)!
+palworldinfo:
+  aliases: [ 'palinfo' ]
+  title: 'Palworld Frequent Issues & FAQ'
+  description: |+
+    Find useful information, such as known issues, frequently asked questions, and more, for Palworld
+    [in our guide](https://docs.bloom.host/games/palworld/update)!
 rate:
   aliases: [ 'support' ]
   title: 'Rate Bloom.host!'
