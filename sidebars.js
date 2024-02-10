@@ -14,7 +14,6 @@ module.exports = {
     /* Organize sidebar alphabetically */
 
     docs: [
-
         {
             type: 'link',
             label: 'Website',
@@ -108,7 +107,7 @@ module.exports = {
                         'games/palworld/update',
                         'games/palworld/info'
                     ]
-                },   
+                },
                 {
                     type: 'category',
                     label: 'Rust',
