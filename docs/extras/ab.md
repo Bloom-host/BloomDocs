@@ -25,6 +25,7 @@ Please report any issues or suggestions on our [Discord server](https://discord.
 
 This is currently **only supported in the following regions**:  
 - Ashburn, Virginia
+- Los Angeles, California
 - Falkenstein, Germany
 
 Additionally, please make sure you are using Waterfall, Velocity or a Spigot-based server software.
