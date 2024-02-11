@@ -141,7 +141,7 @@ aikar:
     - 'ram'
   title: '<:ram:850401810018598982> Aikar''s Flags'
   description: >
-    At Bloom, we utilize Aikar's flags on Paper servers by default, which pre-allocates all of
+    At Bloom, we utilize Aikar's flags on [Paper](https://papermc.io/) servers by default, which pre-allocates all of
     the server's available memory for better performance. You can see your
     server's actual memory usage by running `tps mem` command
     (or `memory` if you use EssentialsX) from your server console.
