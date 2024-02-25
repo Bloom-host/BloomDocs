@@ -265,17 +265,6 @@ module.exports = {
 
         {
             type: 'category',
-            label: 'Other Servers',
-            collapsed: true,
-            items: [
-                'other-servers/ark',
-                'other-servers/caddy-server',
-                'other-servers/grafana',
-            ],
-        },
-
-        {
-            type: 'category',
             label: 'VPS',
             collapsed: true,
             items: [
