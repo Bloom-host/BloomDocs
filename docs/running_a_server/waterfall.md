@@ -15,16 +15,23 @@ keywords:
   - Server Split
 ---
 
+:::warning END OF LIFE SOFTWARE
+**As of March 26th, 2024, Waterfall has been marked as EOL by the Paper team**: https://forums.papermc.io/threads/announcing-the-end-of-life-of-waterfall.1088/
+### **Please migrate to [Velocity](velocity.md) as soon as possible!**
+:::
+
+<details>
+<summary>
+VIEW LEGACY DOCUMENTATION
+</summary>
+
 :::caution
-Configuring BungeeGuard is essential to secure your backend servers. Read until the end of the article to learn how to configure BungeeGuard!
+Configuring BungeeGuard is essential to secure your backend servers. Read until the end of the article to learn how to
+configure BungeeGuard!
 
-NOTE: Although the internal servers provide sufficient coverage, installing BungeeGuard will not cause any harm and may serve as an added layer of protection.
+NOTE: Although the internal servers provide sufficient coverage, installing BungeeGuard will not cause any harm and may
+serve as an added layer of protection.
 :::
-
-:::note
-When running your servers behind a proxy like Velocity or Waterfall, it requires them to be set to offline-mode. Normally hosting companies will not provide support for offline mode servers, but in this case it is required for the proxy to function properly. It will act as the gateway to your servers and handle authentication for you.
-:::
-
 
 ## Downloading Waterfall
 
@@ -202,6 +209,10 @@ Make sure `ip_forward` is set to `true` in Waterfall `config.yml` and `bungeecor
 
 On the backend server, you'll need to go into `server.properties` and set `online-mode` to `false` and afterwards go into `spigot.yml` and change `bungeecord` to `true`.
 
+When running your servers behind a proxy like Velocity or Waterfall, it requires them to be set to offline-mode.
+Normally hosting companies will not provide support for offline mode servers, but in this case it is required for the
+proxy to function properly. It will act as the gateway to your servers and handle authentication for you.
+
 :::caution
 It is recommended that you do not skip this step and complete your setup by configuring BungueeGuard as well!
 :::
@@ -229,3 +240,5 @@ allowed-tokens:
   - "AUSXEwebkOGVnbihJM8gBS0QUutDzvIG009xoAfo1Huba9pGvhfjrA21r8dWVsa8"
 ```
 Now, restart all your servers you installed BungeeGuard on and test to see if it's properly working!
+
+</details>
