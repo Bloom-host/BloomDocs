@@ -124,3 +124,25 @@ since we already have them in the navbar */
     font-size: 7em;
 }
 
+details {
+    background-color: inherit !important;
+    color: inherit !important;
+    border-color: var(--ifm-color-primary) !important;
+    --docusaurus-details-decoration-color: var(--ifm-color-primary) !important;
+    --ifm-link-color: var(--ifm-color-primary) !important;
+    --ifm-link-hover-color: var(--ifm-color-primary-dark) !important;
+    --ifm-alert-border-color: var(--ifm-color-primary-dark) !important;
+}
+
+summary::before {
+    margin-left: .5em;
+}
+
+summary {
+    font: var(--ifm-heading-font-weight) var(--ifm-h5-font-size) / var(--ifm-heading-line-height) var(--ifm-heading-font-family);
+    text-transform: uppercase;
+    padding: .3em;
+    border-radius: .5em;
+    font-weight: bold;
+    background: #1c202e;
+}
