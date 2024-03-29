@@ -985,6 +985,15 @@ codes:
     - `PERFPLUSME`: 20% off your first Performance Plus plan
   buttons:
     - [ 'Create Your Server Now', 'https://bloom.host/', '🎉' ]
+    
+api:
+  aliases: [ 'ptapi', 'pterodactylapi' ]
+  title: '📜 Bloom Docs - How to use Pterodactyl API'
+  description: >
+    To use the Pterodactyl Api there's some ways
+    for Python you can use [Py-Dactyl](https://pypi.org/project/py-dactyl/),
+    for Java you can use [Pterodactyl4J](https://github.com/mattmalec/Pterodactyl4J)
+    or you can make requests [Ptero API](https://api.ptero.sh/#/operations/get-server-file-contents).
 
 # ┌─────────────────┐
 # │ Internal Embeds │
