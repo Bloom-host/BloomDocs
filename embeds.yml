@@ -987,13 +987,14 @@ codes:
     - [ 'Create Your Server Now', 'https://bloom.host/', '🎉' ]
     
 api:
-  aliases: [ 'ptapi', 'pterodactylapi' ]
-  title: '📜 Bloom Docs - How to use Pterodactyl API'
+  aliases: ['ptapi', 'pterodactylapi']
+  title: '📜 Bloom Docs - How to Use the Pterodactyl API'
   description: >
-    To use the Pterodactyl Api there's some ways
-    for Python you can use [Py-Dactyl](https://pypi.org/project/py-dactyl/),
-    for Java you can use [Pterodactyl4J](https://github.com/mattmalec/Pterodactyl4J)
-    or you can make requests [Ptero API](https://api.ptero.sh/#/operations/get-server-file-contents).
+    There are several ways to use the Pterodactyl API. 
+    For Python, you can use [Py-Dactyl](https://pypi.org/project/py-dactyl/). 
+    For Java, you can use [Pterodactyl4J](https://github.com/mattmalec/Pterodactyl4J). 
+    Alternatively, you can make requests using [Ptero API](https://api.ptero.sh/#/operations/get-server-file-contents).
+
 
 # ┌─────────────────┐
 # │ Internal Embeds │
