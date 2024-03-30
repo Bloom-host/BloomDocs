@@ -85,7 +85,7 @@ module.exports = {
                 'running_a_server/converting-worlds', // Converting worlds used on Bukkit (and forks) servers to allow for use in singleplayer/other server software
                 "plugins_and_modifications/fabric-setup",
                 "plugins_and_modifications/forge-setup",
-                'running_a_server/waterfall', // BungeeCord fork
+                'running_a_server/waterfall', // [Unsupported] BungeeCord fork 
                 'running_a_server/velocity',
                 'running_a_server/internal-servers',
                 'running_a_server/binarysearch', // Troubleshooting errors caused by plugins
