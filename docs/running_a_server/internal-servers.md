@@ -12,6 +12,8 @@ This doc just has some important information you may need if you are running int
 
 If you would like to setup your bungee/velocity servers with internal servers you can follow our regular [Waterfall](/waterfall)/[Velocity](/velocity) guides.
 
+Please note that Waterfall is now considered End of Life and it is currently being recommended to switch to [Velocity](/velocity) instead.
+
 :::
 
 Previously we used to have private IPs (172.18.0.1) that were shared by everyone on your node and were all accessible between one another.
