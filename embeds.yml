@@ -1134,12 +1134,23 @@ translation-status:
   title: '<:translate:989542523464716349> Translation Status: %status%'
   description: Toggle to status with the `!ticket toggle` command!
 
-# Sent when the /notes list command is used
+# Sent when the /notes list command is used for a ticket
 # Placeholders: %ticketid%, %ticketstatus%
 # Custom data: note-format (%id%, %content%, %addedat%, %addedby%)
 ticket-notes:
   enabled: false
   title: 'Ticket #%ticketid% — Notes'
+  colour: '#ffc710'
+  description: '%notes%'
+  custom-data:
+    note-format: "`#%id%` <@%addedby%>: %content%\n"
+
+# Sent when the /notes list command is used for users
+# Placeholders: %username%, %userid%
+# Custom data: note-format (%id%, %content%, %addedat%, %addedby%)
+user-notes:
+  enabled: false
+  title: 'User %username% — Notes'
   colour: '#ffc710'
   description: '%notes%'
   custom-data:
