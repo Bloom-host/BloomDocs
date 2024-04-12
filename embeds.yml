@@ -1127,13 +1127,6 @@ translate-command:
   enabled: false
   text: '<:translate:989542523464716349> **%username%**: %newtext%'
 
-# Sent when the !translate command is sent without arguments
-# Placeholders: %status%
-translation-status:
-  enabled: false
-  title: '<:translate:989542523464716349> Translation Status: %status%'
-  description: Toggle to status with the `!ticket toggle` command!
-
 # Sent when the /notes list command is used for a ticket
 # Placeholders: %ticketid%, %ticketstatus%
 # Custom data: note-format (%id%, %content%, %addedat%, %addedby%)
