@@ -382,6 +382,11 @@ security:
   fields:
     - title: 'Using BungeeCord/Waterfall'
       description: |+
+        ⚠️ Waterfall as of March 26th, 2024 is now considered End of Life and will not recieve updates going forward.
+        It is currently recommended to migrate to [Velocity](https://docs.bloom.host/velocity) as soon as possible.
+        More information is available [on the PaperMC website](https://forums.papermc.io/threads/announcing-the-end-of-life-of-waterfall.1088/) 
+        
+
         When using a proxy software such as BungeeCord or Waterfall, make sure:
         • `online-mode=` is set to `false` in server.properties
         • `bungeecord:` is set to `true` in spigot.yml
@@ -454,12 +459,12 @@ panelissues:
     - Try accessing the panel with your phone using mobile data and not wifi. You can also share a hotspot to your PC.
     - Try using a VPN like Cloudflare WARP https://1.1.1.1/ and see if that fixes it. If the issue gets fixed by using a VPN then there's an issue with your network connection. You can try restarting your router/modem and computer and see if that fixes it, if not then you may need to contact your ISP to report the issue.
 
-# Todo: this is really generic
 waterfall:
-  title: '📜 Bloom Docs - Setting up a Waterfall Proxy Server'
+  title: '⚠️ Waterfall - End of Life'
   description: >
-    Check out our comprehensive guide on Setting up a Waterfall Proxy
-    Server' details [here](https://docs.bloom.host/waterfall).
+      Waterfall as of March 26th, 2024 is now considered End of Life and will not recieve updates going forward.
+      It is currently recommended to migrate to [Velocity](https://docs.bloom.host/velocity) as soon as possible. 
+      More information is available [on the PaperMC website](https://forums.papermc.io/threads/announcing-the-end-of-life-of-waterfall.1088/) 
   thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/tY6IAF.png'
 
 # Todo: this is really generic
