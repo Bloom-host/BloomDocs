@@ -10,8 +10,16 @@ sidebar_label: Proxy (BungeeCord/Velocity) Plugins
 This guide is for BungeeCord/Velocity proxies. If you are looking for instructions on how to install plugins on a Bukkit/Spigot/Paper server, please see [this guide](installing-plugins.md)
 :::
 
+:::caution Waterfall is End of Life
+Waterfall is considered end of life by the PaperMC team and is no longer maintained.
+The PaperMC group recommends that all users should migrate to [Velocity](velocity.md).
+
+More information is available at: https://forums.papermc.io/threads/announcing-the-end-of-life-of-waterfall.1088/
+:::
 
 ### The Basics
+
+
 
 > #### Requirements
 > 
