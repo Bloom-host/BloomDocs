@@ -38,6 +38,10 @@ The default flags will delete all chunks that have only been visited for **1 sec
 
 If your world is named differently, make sure to adjust it!
 
+Do note that if you want to delete chunks of The Nether or The End you will need to specify the DIM-1 folder for those two worlds: since the region folder isn't located in the root of the End/Nether folders. 
+
+Example: world_nether/DIM-1 or world_the_end/DIM-1
+
 Once you are happy with the flags, return to the 'Console' tab and start the server.
 
 ![](/running_a_server/mcaselector/3.png)
