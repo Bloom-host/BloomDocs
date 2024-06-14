@@ -13,6 +13,10 @@ Databases can be used by certain plugins to allow for a more efficient, organize
 The data stored by these databases do not affect your servers storage limit.
 > This does not apply to dedicated servers and MySQL databases will contribute the dedicated servers overall data usage.
 
+<div style="text-align: center;">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/X_JCB6NbIEI?si=NHmEau_Za8Yy2_hS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
 ### Adding MySQL Databases
  
 From the [Duck Panel](https://mc.bloom.host/) select the **Databases** tab on the navigation bar.

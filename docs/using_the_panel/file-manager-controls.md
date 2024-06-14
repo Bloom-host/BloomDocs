@@ -12,6 +12,10 @@ If you would prefer to use SFTP to manage your files, please see our [guide on S
 
 ---
 
+<div style="text-align: center;">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/Dgl5JNRju-A?si=howzfCpQT7hsEfyo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
 ### Controls Summary
 By default you will be able to see the main/root folder of your server. You can click other folders to view their contents. On the top left corner you can see your current path.
 

@@ -9,6 +9,10 @@ sidebar_label: Adding Sub-Users
 ### What are subusers?
 People such as server's staff members can be given partial, so called "sub-user" access to the game panel.
 
+<div style="text-align: center;">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/EFGrA5Uext4?si=sReVDWr7p-aNz0MW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
 ---
 
 ### Adding subusers
