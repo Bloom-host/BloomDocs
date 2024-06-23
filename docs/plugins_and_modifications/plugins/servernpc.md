@@ -51,7 +51,7 @@ Many commands are offered to modify and change the NPC's you create.
 ```
 ## Creating an NPC
 
-To create an NPC run the "/npc create {ID} {Skin}" command. ID is the name of the NPC, and the skin is the name of the skin the NPC will use. If you chose not to use a player's skin you can also use skins from [MineSkin.org](https://mineskin.org/)
+To create an NPC run the "/npc create \{ID} \{Skin}" command. ID is the name of the NPC, and the skin is the name of the skin the NPC will use. If you chose not to use a player's skin you can also use skins from [MineSkin.org](https://mineskin.org/)
 
 ## Editing Wand
 If you open the menu that appears in /npc, and right click the "See NPC's" button, it will give you an editing wand. This has many functions.
