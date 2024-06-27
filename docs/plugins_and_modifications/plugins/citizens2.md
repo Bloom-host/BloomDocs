@@ -26,7 +26,7 @@ If you need help installing plugins, check [How to install plugins](https://docs
 
 :::note
 You may also want to look at installing the Denzien, Sentinel, and dtlTraders plugins for Citizens.
-- Denizen is an extension for Citizens that allows scripting of NPCs to handle tasks, quests, player interaction and more!
+- [Denizen](./denizen) is an extension for Citizens that allows scripting of NPCs to handle tasks, quests, player interaction and more!
 - Sentinel is an extension for Citizens that allows Combat NPCs who can protect players, towns, etc.
 - dtlTraders is an extension for Citizens that allows NPCs as merchants who can buy, sell, and/or trade with players.
 ::: 
