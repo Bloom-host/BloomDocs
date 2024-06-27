@@ -1,6 +1,6 @@
 ---
 id: oraxen
-title: Orxane
+title: Oraxen
 slug: /plugins/oraxen
 hide_table_of_contents: true
 sidebar_label: Oraxen
