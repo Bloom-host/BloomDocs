@@ -64,3 +64,28 @@ You'll be asked for your panel password. By default, this password will be store
 
 On the left side (green area) of your screen, you can see your local file tree and files and on the left side (blue area) you can see your remote files.
 You can drag, drop, rename and delete files as you wish.
+
+---
+
+### Using Visual Studio Code
+You can also use VSC to edit files via SFTP!
+
+To do this, we will use the **SFTP** addon for Visual Studio Code for efficient transferring files to remote servers.
+
+1. Install the extension on your IDE:
+   ![VSC addon](/using_the_panel/sftp/vsc/addon.png)
+2. Open a folder for your SFTP files (preferably separated so as not to be cluttered)
+   ![Windows context menu](/using_the_panel/sftp/vsc/context-menu.png)
+3. Open the command palette in VSC, (By default, CTRL+SHIFT+P), and find the 'SFTP: Config' command:
+   ![VSC command palette](/using_the_panel/sftp/vsc/command-palette.png)
+4. Set up your SFTP credentials in the `sftp.json` config. Make sure to set `uploadOnSave` to `true`
+   ![sftp.json file](/using_the_panel/sftp/vsc/sftp.json.png)
+5. After that, go to your settings and ensure 'Download When Open In Remote Explorer' is enabled. 
+   ![Remote explorer setting](/using_the_panel/sftp/vsc/remote-explorer.png) 
+6. That's it! You can find your files in the sidebar:
+   ![VSC sidebar](/using_the_panel/sftp/vsc/sidebar.png)
+
+**TIP**: when you open a file that has a copy from local version, we highly suggested
+not modifying the local. If you edit the same file somewhere (e.g Bloom
+File Explorer) there is a chance that the local file will be uploaded to delete the file
+you have edited.
