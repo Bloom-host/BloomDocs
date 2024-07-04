@@ -85,7 +85,7 @@ module.exports = {
                 'running_a_server/converting-worlds', // Converting worlds used on Bukkit (and forks) servers to allow for use in singleplayer/other server software
                 "plugins_and_modifications/fabric-setup",
                 "plugins_and_modifications/forge-setup",
-                'running_a_server/waterfall', // [Unsupported] BungeeCord fork 
+                'running_a_server/waterfall', // [Unsupported] BungeeCord fork
                 'running_a_server/velocity',
                 'running_a_server/internal-servers',
                 'running_a_server/binarysearch', // Troubleshooting errors caused by plugins
@@ -238,6 +238,8 @@ module.exports = {
                         'plugins_and_modifications/plugins/viaversion',
                         'plugins_and_modifications/plugins/votifier', // Minecraft server vote site listener
                         'plugins_and_modifications/plugins/vulcan', // anticheat
+                        'plugins_and_modifications/plugins/oraxen',
+                        'plugins_and_modifications/plugins/denizen',
                         "plugins_and_modifications/install-proxy-plugin", // BungeeCord/Velocity proxy plugin install guide
                     ]
                 },
