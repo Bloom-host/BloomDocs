@@ -137,7 +137,7 @@ Keep in mind that this steps have to be repeated for every Paper/Backend server 
 
 ### Modern Forwarding for Fabric
 
-A mod called [FabricProxy-Lite](https://www.curseforge.com/minecraft/mc-mods/fabricproxy-lite) allows you to use Velocity modern forwarding with a modded server using Fabric.
+A mod called [FabricProxy-Lite](https://modrinth.com/mod/fabricproxy-lite) allows you to use Velocity modern forwarding with a modded server using Fabric.
 
 ### BungeeGuard Forwarding for Spigot/Paper
 
