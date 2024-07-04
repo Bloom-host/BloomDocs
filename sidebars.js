@@ -183,6 +183,10 @@ module.exports = {
                     id: "plugins_and_modifications/modpacks",
                 },
                 {
+                    type: 'doc',
+                    id: "plugins_and_modifications/gtnh", //GTNH
+                },
+                {
                     type: 'category',
                     label: "Fabric mods",
                     items: [ // Note: Chunky and LuckPerms pages were moved to multiplatform category
