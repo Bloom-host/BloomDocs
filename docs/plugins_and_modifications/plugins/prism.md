@@ -26,7 +26,7 @@ Prism is a highly configurable, powerful, high-performance grief management (rol
 Before you get started, you need to have created a MySQL database. More info on that can be found [here](https://docs.bloom.host/databases).
 :::
 
-[Download the plugin](https://jenkins.addstar.com.au/job/Prism-Bukkit%201.16/) and upload the jar into your `plugins` folder. Restart or turn on the server. If you need help installing plugins, check out [this guide](https://docs.bloom.host/installing-plugins).  
+[Download the plugin](https://www.spigotmc.org/resources/prism.99397/) and upload the jar into your `plugins` folder. Restart or turn on the server. If you need help installing plugins, check out [this guide](https://docs.bloom.host/installing-plugins).  
 
 After that, go to the `Prism` folder, which can be found inside the `plugins` folder. From there, edit the `config.yml` file.  
 
@@ -37,11 +37,13 @@ Do not copy the configuration below exactly, your login details for your own dat
 :::
 
 ```YML
-  mysql:
+datasource:
+  type: mysql
+  properties:
     hostname: 135.181.0.179
     username: u69_Abbywontseethis
-    password: 'Impossible Password'
-    databaseName: s69_pogchamp
+    password: Impossible Password
+    databaseName: prism
     prefix: prism_
     port: '3306'
     useNonStandardSql: false
@@ -51,12 +53,10 @@ Once you've done that, you need to restart the server in order for changes to ta
 
 ## Info
 
-[Spigot Page](https://www.spigotmc.org/resources/prism.75166/)
+[Spigot Page](https://www.spigotmc.org/resources/prism.99397/)
 
-[Modrinth Page](https://modrinth.com/mod/prism)
+[Support](https://discord.gg/7FxZScH4EJ)
 
-[Jenkins](https://jenkins.addstar.com.au/job/Prism-Bukkit%201.16/)  
+[Wiki](https://prism-bukkit.readthedocs.io/en/latest/)  
 
-[Wiki](https://github.com/AddstarMC/Prism-Bukkit/wiki)  
-
-[GitHub](https://github.com/AddstarMC/Prism-Bukkit)
+[GitHub](https://github.com/prism/PrismRefracted)
