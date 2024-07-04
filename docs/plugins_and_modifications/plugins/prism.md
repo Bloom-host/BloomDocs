@@ -30,7 +30,7 @@ Before you get started, you need to have created a MySQL database. More info on 
 
 After that, go to the `Prism` folder, which can be found inside the `plugins` folder. From there, edit the `config.yml` file.  
 
-Go down to the `mysql` section and enter your database details. Change `useNonStandardSql: true` to `useNonStandardSql: false`.  
+Go down to the `datasource` section and under the `properties` sub-section enter your database details. Change `useNonStandardSql: true` to `useNonStandardSql: false`.  
 
 :::caution
 Do not copy the configuration below exactly, your login details for your own database will be different.
