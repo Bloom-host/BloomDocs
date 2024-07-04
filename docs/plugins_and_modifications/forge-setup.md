@@ -30,6 +30,6 @@ Once the server has started again and finished running the installer you can go 
 
 ### Installing Forge Mods
 >
-> Refer to [this](mods-install) guide.
+> Refer to [this](mods-install.md) guide.
 
 ---
