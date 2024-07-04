@@ -17,7 +17,7 @@ This guide will show you how to change the version of Java if it does not work f
 :::caution
 All Minecraft 1.18 - 1.20.4 versions require Java 17 to work. Use the Java 17 option to use Java 17 on your server.
 
-Minecraft 1.20.5 will require a minimum of Java 21 to work.
+Minecraft 1.20.5+ will require a minimum of Java 21 to work.
 :::
 
 ![console](/running_a_server/java_version/1.png)
