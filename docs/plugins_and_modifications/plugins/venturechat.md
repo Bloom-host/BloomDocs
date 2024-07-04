@@ -20,6 +20,10 @@ VentureChat is the #1 Bukkit chat resource on Spigot which is a do-it-all chat p
 
 ## Usage
 
+:::important
+This plugin requires Java 17 or higher to work. The instructions on how to change the Java version used by your server are [here](/java-version)
+:::
+
 To use this plugin, [download](https://www.spigotmc.org/resources/venturechat.771/) the jar file you will use for installation. This plugin can be used on Bungeecord servers by placing it into the relative plugins folder too.
 
 Once you have downloaded the .jar file, upload it into your `plugins` folder then either start or restart the server. If you need assistance in installing plugins, check out [this guide](https://docs.bloom.host/installing-plugins).  
@@ -98,6 +102,6 @@ Once the above additions are added save the following files and run `/essentials
 
 [VentureChat Spigot](https://www.spigotmc.org/resources/venturechat.771/)  
 
-[BitBucket](https://bitbucket.org/Aust1n46/venturechat/)  
+[GitHub](https://github.com/Aust1n46/VentureChat)
 
 [Wiki](https://www.spigotmc.org/wiki/venturechat-wiki/)
