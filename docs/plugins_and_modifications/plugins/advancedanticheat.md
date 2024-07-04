@@ -24,6 +24,11 @@ It is recomended to use an alternative solution such as [Vulcan](vulcan.md).
 The following information is for archival purposes only.
 :::
 
+<details>
+<summary>
+VIEW LEGACY DOCUMENTATION
+</summary>
+
 ## What does the plugin do?
 
 AAC protects your server from gamebreaking hacks and unfair advantages such as:
@@ -99,3 +104,5 @@ Advanced Anti-Cheat is very user configurable, and as a result of this, is highl
 :::
 
 [Spigot Page](https://www.spigotmc.org/resources/aac-advanced-anti-cheat-hack-kill-aura-blocker.6442/)  
+
+</details>

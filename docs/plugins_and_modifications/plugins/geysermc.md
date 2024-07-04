@@ -46,4 +46,4 @@ If you're also using Floodgate, you will have to set `auth-type` to `floodgate` 
 
 [Jenkins](https://ci.nukkitx.com/job/GeyserMC/job/Geyser/job/master/)  
 
-[Wiki](https://github.com/GeyserMC/Geyser/wiki)
+[Wiki](https://wiki.geysermc.org/)
