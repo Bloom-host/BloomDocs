@@ -800,7 +800,7 @@ gtnh:
   title: '📜 Bloom Docs - GTNH'
   description: >
     Check out our guide to installing Gregtech: New Horizons [here](https://docs.bloom.host/gtnh/).
-  thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/plugins_and_modifications/GTNH_icon.png'
+  thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/plugins_and_modifications/gtnh/GTNH_icon.png'
 
 plugins:
   aliases:
