@@ -6,12 +6,12 @@ description: Learn how to set up and manage a whitelist on your Terraria server!
 ---
 
 :::info HEADS UP
-The game does not provide a whitelisting functionality by default, so we will have to use [TShock](./overview.md), a
+The game does not provide a whitelisting functionality by default, so we will have to use [TShock](overview.md), a
 third party server software.
 
 As an alternative for the vanilla server, you can use [server passwords](/games/terraria/password).
 
-If you haven't already, make sure to install is using [the steps here](./overview.md)!
+If you haven't already, make sure to install is using [the steps here](overview.md)!
 :::
 
 ## Toggling Whitelist

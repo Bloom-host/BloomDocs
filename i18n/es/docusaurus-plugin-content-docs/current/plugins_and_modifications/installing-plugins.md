@@ -43,7 +43,7 @@ instalados o tu mundo entero.
 1. Encuentra un plugin que quieras instalar. Algunas fuentes confiables son [Spigot](https://spigotmc.org/resources) y [Bukkit](https://dev.bukkit.org).
 2. Tienes dos opciones: Guardar el plugin en tu computadora y luego subirla al panel o copiar el link de descarga directo del plugin
    y usar la opción de **Download from URL** (Descargar desde URL) que puede ser encontrada en el **File Manager** (Administrador
-   de Archivos). Si lo descargas en tu computadora puedes subirlo al servidor a través del [panel web](https://mc.bloom.host) o [SFTP](/how-to-use-sftp).
+   de Archivos). Si lo descargas en tu computadora puedes subirlo al servidor a través del [panel web](https://mc.bloom.host) o [SFTP](/using_the_panel/sftp.md).
 3. En la carpeta raíz de tu servidor, ubica la carpeta `/plugins`, si no está ahí la puedes crear. Aquí es donde pondrás los mods que quieras instalar!
 4. Reinicia el servidor para que el plugin se aplique en el servidor.
 

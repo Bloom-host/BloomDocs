@@ -21,7 +21,7 @@ You'll first need to find the mod that you wish to install. Downloads can be fou
 Make sure you are downloading the correct version of your mods. Forge and Fabric mods are most likely not cross compatible with each other unless stated so otherwise by the developer of those mods.
 :::
 
-You have two choices: save the mod to your local machine and then upload it to the panel or copy the link to the mod download and use our Download from URL feature which can be found on the File Manager. Mods can either be uploaded via the [web panel](https://mc.bloom.host) or through [SFTP](/how-to-use-sftp). If you're uploading in bulk, go with the latter. 
+You have two choices: save the mod to your local machine and then upload it to the panel or copy the link to the mod download and use our Download from URL feature which can be found on the File Manager. Mods can either be uploaded via the [web panel](https://mc.bloom.host) or through [SFTP](/using_the_panel/sftp.md). If you're uploading in bulk, go with the latter. 
 
 In your server's root directory, locate the `/mods` folder, if it's not there then create a new directory named `/mods`. Navigate into this folder, and upload your mods' files there! The vast majority of mods require you to restart your server to take effect.
 

@@ -32,7 +32,7 @@ Para servidores Fabric, revisa la guía de [instalación de mods de Fabric](fabr
 
 2. Tienes dos opciones: Guardar el mod en tu computadora y luego subirla al panel o copiar el link de descarga directo del mod
    y usar la opción de **Download from URL** (Descargar desde URL) que puede ser encontrada en el **File Manager** (Administrador
-   de Archivos). Si lo descargas en tu computadora puedes subirlo al servidor a través del [panel web](https://mc.bloom.host) o [SFTP](/how-to-use-sftp).
+   de Archivos). Si lo descargas en tu computadora puedes subirlo al servidor a través del [panel web](https://mc.bloom.host) o [SFTP](/using_the_panel/sftp.md).
 
 3. En la carpeta raíz de tu servidor, ubica la carpeta `/mods`, si no está ahí la puedes crear. Aquí es donde pondrás los mods que quieras instalar!
 
