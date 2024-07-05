@@ -25,7 +25,7 @@ Most features can be turned on or off through the config.
 ## Installation
 
 To install this plugin, download the server jar from its [Spigot resource page](https://www.spigotmc.org/resources/griefprevention.1884/) and install it into the `plugins` folder.
-For assistance on how to install plugins, please refer to the [plugin installation page](https://docs.bloom.host/installing-plugins).
+For assistance on how to install plugins, please refer to the [plugin installation page](/installing-plugins).
 
 ## Usage
 
@@ -55,5 +55,3 @@ There is obviously more commands and features - please refer to the [GriefPreven
 [Github](https://github.com/TechFortress/GriefPrevention)
 
 [Support](https://discord.com/invite/3TXnkfa)
-
-

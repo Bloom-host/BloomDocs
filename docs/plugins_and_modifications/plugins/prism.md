@@ -23,10 +23,10 @@ Prism is a highly configurable, powerful, high-performance grief management (rol
 ## Usage
 
 :::important
-Before you get started, you need to have created a MySQL database. More info on that can be found [here](https://docs.bloom.host/databases).
+Before you get started, you need to have created a MySQL database. More info on that can be found [here](/databases).
 :::
 
-[Download the plugin](https://www.spigotmc.org/resources/prism.99397/) and upload the jar into your `plugins` folder. Restart or turn on the server. If you need help installing plugins, check out [this guide](https://docs.bloom.host/installing-plugins).  
+[Download the plugin](https://www.spigotmc.org/resources/prism.99397/) and upload the jar into your `plugins` folder. Restart or turn on the server. If you need help installing plugins, check out [this guide](/installing-plugins).  
 
 After that, go to the `Prism` folder, which can be found inside the `plugins` folder. From there, edit the `config.yml` file.  
 

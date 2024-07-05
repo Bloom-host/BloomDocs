@@ -18,7 +18,7 @@ keywords:
 
 First you need to write your MOTD, you can use [this website](https://mctools.org/motd-creator) to help you. Once  you have your MOTD like you want it, copy the `server.properties` code, like the one shown below
 ![server.properties](https://cdn.discordapp.com/attachments/716405933105872938/751221395622723715/unknown.png)
-Open your server panel and head to File Explorer, if you need a hand, check out [this guide!](https://docs.bloom.host/file-manager-controls). Now, enter your `server.properties` and head to the motd section and paste the copied text where the old one was, then restart your server and your changes will be made.
+Open your server panel and head to File Explorer, if you need a hand, check out [this guide!](/file-manager-controls). Now, enter your `server.properties` and head to the motd section and paste the copied text where the old one was, then restart your server and your changes will be made.
 
 ## How to change your MOTD with ServerListPlus
 ServerListPlus is a plugin that changes your MOTD through a plugin also adding features like custom MOTDs for seperate players. You can download it [here!](https://www.spigotmc.org/resources/serverlistplus.241/) 
@@ -36,4 +36,3 @@ The [MiniMessage docs](https://docs.adventure.kyori.net/minimessage/format.html#
 Changing your MOTD on Bungeecord is slightly different. You can still use ServerListPlus or MiniMOTD, following the guide above, but if you want to do it without ServerListPlus or MiniMOTD, enter your Bungeecord `config.yml` and head to the MOTD 
 you can use [this website](https://mctools.org/motd-creator) to help you like the one below.
 ![Bungeecord motd](https://cdn.discordapp.com/attachments/716405933105872938/751224804815667230/unknown.png)
-

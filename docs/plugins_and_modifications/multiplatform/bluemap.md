@@ -64,6 +64,6 @@ Your server needs to be restarted after the port has been allocated.
 
 :::
 
-You can also create a Proxy for your BlueMap link, to remove the need to type `:8100` after your IP address: https://docs.bloom.host/ports-and-proxies/
+You can also create a Proxy for your BlueMap link, to remove the need to type `:8100` after your IP address: /ports-and-proxies/
 
 For more information, the download link, their support Discord, the wiki and a demo! you can go to the [BlueMap website](https://bluemap.bluecolored.de/)
