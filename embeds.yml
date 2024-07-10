@@ -277,10 +277,12 @@ waitlist:
 
     **1.** Join the Waitlist Discord server [here](https://Bloom.host/waitlist).
     **2.** Create a ticket and let us know what plan/location you want to wait for.
-    **3.** When it's your turn, you'll be pinged in your ticket. You have 24 hours to respond, otherwise, you lose your spot in line.
+    **3.** When it's your turn, you'll be pinged in your ticket. You have 24 hours to respond; otherwise, you will lose your spot in line.
     **4.** Transfer or purchase your server!
 
     Thanks again for your interest in our plans!
+  buttons:
+    - [ 'Join the server', 'https://discord.com/invite/HjZJp8798X', '<:bloom:732019289741066379>' ]
 
 palworld:
   title: 'How to change config on your Palworld server'
