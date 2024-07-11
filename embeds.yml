@@ -174,11 +174,12 @@ fbiinfo:
     - 'piracyisbad'
     - 'crackedserver'
     - 'cracked'
+    - 'offline'
   title: '🚫 Piracy Is Bad'
   colour: '#dd2e44'
   thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/85dAco.png'
   description: >
-    In case you are doing any of the following, you will  __not recieve
+    In case you are doing any of the following, you will  __not receive
     any support__ from Bloom community, staff members, most plugin developers
     and server/proxy software staff.
   fields:
@@ -193,7 +194,7 @@ fbiinfo:
     - title: '🏴‍☠ Pirated Software'
       description: >
         Using any kind of software obtained from unofficial sites such as
-        BlackSpigot has a high chance of containing viruses, force-op and more.
+        BlackSpigot has a high chance of containing viruses, force-op, and more.
         If you wish to use Premium software, pay for it.
       inline: false
 
