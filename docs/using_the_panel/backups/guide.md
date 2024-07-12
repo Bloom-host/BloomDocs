@@ -110,6 +110,43 @@ you want to restore. click on the `...` at the right of the file, and click on r
 its original directory.
 
 ![img](/using_the_panel/backups/5.png)
+
+## Downloading Backups
+
+If you are looking to download an entire backup, there are a few ways to do this.
+
+#### Through Your Browser
+
+The simplest way is to download the file through your browser.
+
+To do this, press the 'Download' button in the '...' context menu of the backup and you will automatically be redirected
+to download the backup.
+
+![Download button](download_button.png)
+
+Your browser may report an unknown amount of time for the download, since it's not possible to calculate the size of the
+exported backup without downloading it first. This is expected!
+
+#### Through A Direct Download Link
+
+If you need a direct download link, such as for command line tools like `curl` or `wget`, you can use the 'Copy Link'
+button in the '...' context menu of the backup.
+
+![Copy download link button](copy_link_button.png)
+
+:::caution HEADS UP!
+Direct download links allow **anyone** to download this backup, so make sure to keep the link safe and private.  
+The link automatically expires after 15 minutes and can only be used once.
+:::
+
+![Copy download link modal with warning](copy_link_modal.png)
+
+#### Using ClumsyLoader
+
+You can find out more in [our dedicated guide](../../extras/clumsyloader)!
+
+---
+
 ## MySQL Databases
 [MySQL databases](../databases) under 1 GB are automatically added to backups. 
 
