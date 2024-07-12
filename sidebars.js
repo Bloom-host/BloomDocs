@@ -53,7 +53,7 @@ module.exports = {
                 'using_the_panel/file-manager-controls',
                 'using_the_panel/server-importer',
                 'using_the_panel/schedules',
-                'using_the_panel/backups',
+                'using_the_panel/backups/backups',
                 'using_the_panel/users',
                 'using_the_panel/databases',
                 'using_the_panel/ports-and-proxies',
