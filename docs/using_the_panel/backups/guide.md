@@ -14,7 +14,6 @@ sidebar_label: Managing Backups
 - quick restore
 - full restore
 - mount
-- pro backup addon
 </div>
 
 ## Introduction
@@ -114,7 +113,7 @@ its original directory.
 
 If you are looking to download an entire backup, there are a few ways to do this.
 
-#### Through Your Browser
+### Through Your Browser
 
 The simplest way is to download the file through your browser.
 
@@ -126,7 +125,7 @@ to download the backup.
 Your browser may report an unknown amount of time for the download, since it's not possible to calculate the size of the
 exported backup without downloading it first. This is expected!
 
-#### Through A Direct Download Link
+### Through A Direct Download Link
 
 If you need a direct download link, such as for command line tools like `curl` or `wget`, you can use the 'Copy Link'
 button in the '...' context menu of the backup.
@@ -140,7 +139,7 @@ The link automatically expires after 15 minutes and can only be used once.
 
 ![Copy download link modal with warning](copy_link_modal.png)
 
-#### Using ClumsyLoader
+### Using ClumsyLoader
 
 You can find out more in [our dedicated guide](../../extras/clumsyloader)!
 
@@ -160,6 +159,7 @@ You can use the 'Import to database' button in the '...' context menu to re-impo
 ---
 
 ## Deleting Backups
+
 If you no longer need a specific backup, you can delete it with the 'Delete' button in the '...' context menu.
 
 :::warning HEADS UP!
@@ -207,3 +207,21 @@ This will **not** remove it from any existing backups.
 
 ## Pro Backup Addon
 
+This is a recurring paid addon for your server which allows you to create **8 backups per day** and store an **additional
+10 backups total**.
+
+These changes apply to all [server splits](../split-server) in the same plan!
+
+It costs $5/mo and can be cancelled at any time.
+
+### For New Plans
+Select the 'Upgraded' option in 'Pro Backup Addon' at the last step of the checkout:
+![Checkout pro backup addon addon selected](pro_backup_checkout.png)
+
+### For Existing Plans
+1. Head over to the [billing area](https://billing.bloom.host) and click 'Manage' next to your plan:
+  ![Manage button in the client area](pro_backup_manage_service.png)
+2. Click the 'Upgrade/Downgrade **Options**' button:
+  ![Upgrade/downgrade options button](pro_backup_upgrade_start.png)
+3. Lastly, ensure the 'New Configuration' for the 'Pro Backup Addon' is set to 'Upgraded' and check out as usual:
+  ![Pro backup addon upgrade](pro_backup_upgrade_checkout.png)
