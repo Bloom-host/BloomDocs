@@ -14,8 +14,6 @@ sidebar_label: Managing Backups
 - quick restore
 - full restore
 - mount
-- delete
-- get download/download
 - pro backup addon
 </div>
 
@@ -158,6 +156,17 @@ as [SQL dumps](https://en.wikipedia.org/wiki/Database_dump) in a special `backup
 ![MySQL backup_db folder in the file manager](./mysql_backups.png)
 
 You can use the 'Import to database' button in the '...' context menu to re-import them to a new database.
+
+---
+
+## Deleting Backups
+If you no longer need a specific backup, you can delete it with the 'Delete' button in the '...' context menu.
+
+:::warning HEADS UP!
+This is a completely irreversible action. Deleted backups cannot be recovered by any means.
+:::
+
+![Delete button](delete_button.png)
 
 ---
 
