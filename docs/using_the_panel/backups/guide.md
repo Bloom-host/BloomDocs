@@ -110,3 +110,19 @@ you want to restore. click on the `...` at the right of the file, and click on r
 its original directory.
 
 ![img](/using_the_panel/backups/5.png)
+## Ignoring Files
+
+:::caution HEADS UP!
+This is for advanced users only. If you are unsure how to use this, please reach out to our support for help.
+:::
+
+If you do not want certain files to be backed up, you can create a special `.bloomignore` file in the main
+folder of your game server.
+
+This uses a very similar format as a commonly used [.gitignore](https://git-scm.com/docs/gitignore).
+
+![.bloomignore file in editor](ignore_file.png)
+
+This will **not** remove it from any existing backups.
+
+---
