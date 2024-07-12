@@ -63,9 +63,16 @@ The backup then will start in the background, this may take some time depending 
 
 You can utilise our [schedule feature](../schedules) to automatically generate backups.
 
-1. Open the 'Schedules' tab of the panel.
-2. Click the 'Templates' button in the bottom right corner:
-3. Click 'Create' next to the 'Daily Restart' template:
+First, open the 'Schedules' tab of the panel. Here, click the 'Templates' button in the bottom right corner:
+![Templates button](templates_button.png)
+
+Lastly, click 'Create' next to the 'Daily Restart' template:
+![Template list showing backups](templates.png)
+
+Once created, you can access the schedule in the same place:
+![Backup schedule created](template_created.png)
+
+You can edit this templated schedule like any other! Please refer to our [schedules guide](../schedules).
 
 :::caution HEADS UP!
 If there are no free slots available, the oldest backup will automatically be deleted before a new one is created unless
