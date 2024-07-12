@@ -110,6 +110,17 @@ you want to restore. click on the `...` at the right of the file, and click on r
 its original directory.
 
 ![img](/using_the_panel/backups/5.png)
+## MySQL Databases
+[MySQL databases](../databases) under 1 GB are automatically added to backups. 
+
+When you [restore](#restoring-backups) or [mount](#mounting-backups) a backup, you can find them as [SQL dumps](https://en.wikipedia.org/wiki/Database_dump) in a special `backup_db/` directory:
+
+![MySQL backup_db folder in the file manager](./mysql_backups.png)
+
+You can use the 'Import to database' button in the '...' menu to re-import them to a new database.
+
+---
+
 ## Locking
 
 Locking a backup will prevent it from being automatically rotated by [schedules](#automatic-backup-creation) or accidentally [deleted by users](#deleting-backups).
