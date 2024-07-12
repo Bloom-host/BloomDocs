@@ -110,6 +110,22 @@ you want to restore. click on the `...` at the right of the file, and click on r
 its original directory.
 
 ![img](/using_the_panel/backups/5.png)
+## Locking
+
+Locking a backup will prevent it from being automatically rotated by [schedules](#automatic-backup-creation) or accidentally [deleted by users](#deleting-backups).
+
+You can lock a backup when [creating one manually](#manual-backup-creation) or by pressing the '...' menu on its right
+side and using the 'Lock' button:
+
+![Backup lock context menu](lock.png)
+
+Locked backups show a yellow padlock 🔒:
+![Backup locked with yellow padlock](locked.png)
+
+Locked backups can be unlocked the same way with the 'Unlocked' button.
+
+---
+
 ## Ignoring Files
 
 :::caution HEADS UP!
