@@ -7,15 +7,15 @@ sidebar_label: Managing Backups
 ---
 
 <div style={{display: 'none'}}>
-// Todo (notgeri): a link that allows you to add your server ID to go to it
+// Todo (notgeri): a link that allows you to add your server ID to go to it, like for the schedule ?template=backup
 // Todo (notgeri): remove old images
+// Todo (notgeri): update video
 // Todo (notgeri): 
 - quick restore
 - full restore
 - mount
 - delete
 - get download/download
-- ignore
 - pro backup addon
 </div>
 
@@ -27,7 +27,9 @@ This means, after the first backup, it will only save and upload the files which
 
 All backups are stored off-site for security!
 
-You can create manual and even automatic backups and later [restore](#restoring-backups), [download](#downloading-backups), [mount](#mounting-backups) or [delete](#deleting-backups) them.
+You can create manual and even automatic backups and
+later [restore](#restoring-backups), [download](#downloading-backups), [mount](#mounting-backups)
+or [delete](#deleting-backups) them.
 
 [MySQL databases](../databases) are also [backed up](#mysql-databases), as long as they are under 1 GB in size.
 
@@ -38,7 +40,6 @@ You can create manual and even automatic backups and later [restore](#restoring-
 | Performance Plus                        | 10                 | 3                   |
 | ✅ [Pro Backup Addon](#pro-backup-addon) | Base plan + 10     | 8                   |
 
-// Todo (notgeri): update
 <iframe width="560" height="315" src="https://www.youtube.com/embed/KnzimsqhwQs?si=NZM1oLrhgWiOqu4P" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
@@ -49,40 +50,36 @@ To create a manual backup, head over to the 'Backups' tab of the panel.
 
 Here you will find your current backups, and a **Create Backup** button.
 
-![Manual backup creation button](manual/button.png)
+![Manual backup creation button](manual_button.png)
 
 When you click it, you will get this screen where you can give it an optional name and whether to [lock it](#locking):
 
-![Manual backup creation modal](manual/modal.png)
+![Manual backup creation modal](manual_modal.png)
 
-When you are ready, press the 'Start Backup' button to continue. 
+When you are ready, press the 'Start Backup' button to continue.
 
 The backup then will start in the background, this may take some time depending on the size of your server.
 
 ---
 
-### Setting Up Automatic Backups
+## Automatic Backup Creation
 
-1. Head over to the Schedules tab on the panel.
-2. We are going to add a schedule that starts a backup, but these schedules can do way more! Find some examples
-   at [Schedules](schedules.md). Simply click 'Create Schedule'.
-3. Select when you wish to have a backup and click 'Create Schedule'. In this case we do one every 8 hours using all 3
-   daily backups.
-   ![img](/using_the_panel/backups/2.png)
-4. Then, simply add the action "Create Backup" on a task.
-   ![img](/using_the_panel/backups/3.png)
+You can utilise our [schedule feature](../schedules) to automatically generate backups.
 
-Keep in mind that you can you can generate up to 3 backups within a 24 hours period.
+1. Open the 'Schedules' tab of the panel.
+2. Click the 'Templates' button in the bottom right corner:
+3. Click 'Create' next to the 'Daily Restart' template:
 
-**Essentials** plans can store a maximum of **3** backups.
-**Performance** plans can store a maximum of **5** backups.
-**Performance+** plans can store a maximum of **10** backups.
+:::caution HEADS UP!
+If there are no free slots available, the oldest backup will automatically be deleted before a new one is created unless
+you [lock the backup](#locking).  
+:::
 
-If you have reached the backup limit, the oldest backup will be rotated.
+If you would like more frequent backups, you can subscribe to the [Pro Backup Addon](#pro-backup-addon).
 
 ---
 
-### Restoring Backups
+## Restoring Backups
 
 To restore a backup, simply head to the backups page, select the backup and click 'Restore'. Do note, this will
 overwrite any files with matching names.
@@ -91,7 +88,7 @@ overwrite any files with matching names.
 
 ---
 
-### Mounting Backups
+## Mounting Backups
 
 In case you only require a limited number of files from a backup, you can 'mount' it to your server. While a backup is
 mounted, you will not be able to stop or start your server nor create a new backup.
@@ -103,13 +100,17 @@ To mount a backup:
 3. Click 'Mount', select the folder or leave it as default and click 'Mount Backup' to confirm.
 4. Head over to 'File Manager' and you should be able to view a new folder with all the files from that backup!
 
-### How to restore specific files/folders
+---
+
+## How to restore specific files/folders
 
 You can restore specific files from a backup by mounting it. Once you have mounted the backup, you can go to the file
 you want to restore. click on the `...` at the right of the file, and click on restore. This will restore the file to
 its original directory.
 
 ![img](/using_the_panel/backups/5.png)
+
+---
 
 ## Downloading Backups
 
@@ -148,21 +149,25 @@ You can find out more in [our dedicated guide](../../extras/clumsyloader)!
 ---
 
 ## MySQL Databases
-[MySQL databases](../databases) under 1 GB are automatically added to backups. 
 
-When you [restore](#restoring-backups) or [mount](#mounting-backups) a backup, you can find them as [SQL dumps](https://en.wikipedia.org/wiki/Database_dump) in a special `backup_db/` directory:
+[MySQL databases](../databases) under 1 GB are automatically added to backups.
+
+When you [restore](#restoring-backups) or [mount](#mounting-backups) a backup, you can find them
+as [SQL dumps](https://en.wikipedia.org/wiki/Database_dump) in a special `backup_db/` directory:
 
 ![MySQL backup_db folder in the file manager](./mysql_backups.png)
 
-You can use the 'Import to database' button in the '...' menu to re-import them to a new database.
+You can use the 'Import to database' button in the '...' context menu to re-import them to a new database.
 
 ---
 
 ## Locking
 
-Locking a backup will prevent it from being automatically rotated by [schedules](#automatic-backup-creation) or accidentally [deleted by users](#deleting-backups).
+Locking a backup will prevent it from being automatically rotated by [schedules](#automatic-backup-creation) or
+accidentally [deleted by users](#deleting-backups).
 
-You can lock a backup when [creating one manually](#manual-backup-creation) or by pressing the '...' menu on its right
+You can lock a backup when [creating one manually](#manual-backup-creation) or by pressing the '...' context menu on its
+right
 side and using the 'Lock' button:
 
 ![Backup lock context menu](lock.png)
@@ -190,3 +195,6 @@ This uses a very similar format as a commonly used [.gitignore](https://git-scm.
 This will **not** remove it from any existing backups.
 
 ---
+
+## Pro Backup Addon
+
