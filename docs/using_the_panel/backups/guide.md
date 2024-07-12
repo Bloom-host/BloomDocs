@@ -4,13 +4,14 @@ title: Managing Backups
 slug: /backups
 hide_table_of_contents: false
 sidebar_label: Managing Backups
+description: Learn everything there is to know about creating, restoring, mounting, downloading, deleting backups and much more!
 ---
 
 <div style={{display: 'none'}}>
 // Todo (notgeri): a link that allows you to add your server ID to go to it, like for the schedule ?template=backup
 // Todo (notgeri): remove old images
 // Todo (notgeri): update video
-// Todo (notgeri): 
+// Todo (notgeri):
 - quick restore
 - full restore
 - mount
@@ -25,7 +26,7 @@ This means, after the first backup, it will only save and upload the files which
 All backups are stored off-site for security!
 
 You can create manual and even automatic backups and
-later [restore](#restoring-backups), [download](#downloading-backups), [mount](#mounting-backups)
+later [restore](#restoring-full-backups), [download](#downloading-backups), [mount](#mounting-backups)
 or [delete](#deleting-backups) them.
 
 [MySQL databases](../databases) are also [backed up](#mysql-databases), as long as they are under 1 GB in size.
@@ -76,14 +77,14 @@ You can edit this templated schedule like any other! Please refer to our [schedu
 
 :::caution HEADS UP!
 If there are no free slots available, the oldest backup will automatically be deleted before a new one is created unless
-you [lock the backup](#locking).  
+you [lock the backup](#locking).
 :::
 
 If you would like more frequent backups, you can subscribe to the [Pro Backup Addon](#pro-backup-addon).
 
 ---
 
-## Restoring Backups
+## Restoring Full Backups
 
 To restore a backup, simply head to the backups page, select the backup and click 'Restore'. Do note, this will
 overwrite any files with matching names.
@@ -94,25 +95,31 @@ overwrite any files with matching names.
 
 ## Mounting Backups
 
-In case you only require a limited number of files from a backup, you can 'mount' it to your server. While a backup is
-mounted, you will not be able to stop or start your server nor create a new backup.
+In case you only require a limited number of files from a backup, you can also 'mount' it to your server.
 
-To mount a backup:
+The mounted backup is accessible as any other folder through the '[File Manager](../file-manager-controls)' tab and [SFTP](../sftp).
 
-1. Head over to the backups page
-2. On the right side, click other options
-3. Click 'Mount', select the folder or leave it as default and click 'Mount Backup' to confirm.
-4. Head over to 'File Manager' and you should be able to view a new folder with all the files from that backup!
+:::caution HEADS UP!
+While a backup is mounted, you will **not be able to start the server or modify other backups**.  
+If you need to quickly restore some files that you know exist in a backup, you can use the 
+**[quick restore feature](#quick-restoring-backups)** instead. 
+:::
 
----
+To mount a backup, first head over to the 'Backups' tab and locate the backup you wish to mount.  
+In its '...' context menu, click the 'Mount' button: 
 
-## How to restore specific files/folders
+You can set a specific folder to mount it to or leave it on default to mount it to the `backup` folder
+// Todo (notgeri): fix that modal and add a pic here
 
-You can restore specific files from a backup by mounting it. Once you have mounted the backup, you can go to the file
-you want to restore. click on the `...` at the right of the file, and click on restore. This will restore the file to
-its original directory.
+![](mount_button.png)
 
-![img](/using_the_panel/backups/5.png)
+After confirming, wait until the backup shows up as mounted. This may take a few minutes at most:
+![](mounting.gif)
+
+You can use the 'View' button in its '...' context menu to navigate to the mounted folder:
+![](mounted.png)
+
+// Currently doing: mount copy/restore features, finish this ^ 
 
 ---
 
@@ -140,7 +147,7 @@ button in the '...' context menu of the backup.
 ![Copy download link button](copy_link_button.png)
 
 :::caution HEADS UP!
-Direct download links allow **anyone** to download this backup, so make sure to keep the link safe and private.  
+Direct download links allow **anyone** to download this backup, so make sure to keep the link safe and private.
 The link automatically expires after 15 minutes and can only be used once.
 :::
 
@@ -156,7 +163,7 @@ You can find out more in [our dedicated guide](../../extras/clumsyloader)!
 
 [MySQL databases](../databases) under 1 GB are automatically added to backups.
 
-When you [restore](#restoring-backups) or [mount](#mounting-backups) a backup, you can find them
+When you [restore](#restoring-full-backups) or [mount](#mounting-backups) a backup, you can find them
 as [SQL dumps](https://en.wikipedia.org/wiki/Database_dump) in a special `backup_db/` directory:
 
 ![MySQL backup_db folder in the file manager](./mysql_backups.png)
