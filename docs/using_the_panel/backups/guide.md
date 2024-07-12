@@ -43,17 +43,21 @@ You can create manual and even automatic backups and later [restore](#restoring-
 
 ---
 
-### Creating Manual Backups
+## Manual Backup Creation
 
-To create a manual backup, head over to the Backups tab on the panel.
+To create a manual backup, head over to the 'Backups' tab of the panel.
 
-Here you will find your current backups, and a **Create Backup** button. When you click the create backup button, you
-will get this screen:
+Here you will find your current backups, and a **Create Backup** button.
 
-![img](/using_the_panel/backups/1.png)
+![Manual backup creation button](manual/button.png)
 
-Simply give it a name and press the **Start Backup** button to continue. The backup then will start in the background,
-this may take some time depending on the size of your server.
+When you click it, you will get this screen where you can give it an optional name and whether to [lock it](#locking):
+
+![Manual backup creation modal](manual/modal.png)
+
+When you are ready, press the 'Start Backup' button to continue. 
+
+The backup then will start in the background, this may take some time depending on the size of your server.
 
 ---
 
