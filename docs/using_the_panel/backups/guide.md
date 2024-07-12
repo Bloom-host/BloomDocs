@@ -1,28 +1,45 @@
 ---
 id: backups
-title: Backups
+title: Managing Backups
 slug: /backups
 hide_table_of_contents: false
 sidebar_label: Managing Backups
 ---
 
-### How Are Backups Handled?
+<div style={{display: 'none'}}>
+// Todo (notgeri): a link that allows you to add your server ID to go to it
+// Todo (notgeri): remove old images
+// Todo (notgeri): 
+- quick restore
+- full restore
+- mount
+- delete
+- get download/download
+- ignore
+- pro backup addon
+</div>
 
-- Create completely free backups with the panel utilizing Borg for incremental backups. This means, after the first
-  backup, it will only save and upload the files which were changed since the last backup. All backups are off-site!
+## Introduction
 
-- You can create manual and even automatic backups and later restore, download, mount or delete them.
+Game services come with our free user-managed off-site incremental backup system.
 
-- [MySQL databases](databases.md) are even backed up too, as long as they are under 1GB in size.
+This means, after the first backup, it will only save and upload the files which were changed since the last backup.
 
-You can you can generate up to 3 backups within a 24 hour period.
+All backups are stored off-site for security!
 
-**Essentials** plans can store a maximum of **3** backups.
-**Performance** plans can store a maximum of **5** backups.
-**Performance+** plans can store a maximum of **10** backups.
+You can create manual and even automatic backups and later [restore](#restoring-backups), [download](#downloading-backups), [mount](#mounting-backups) or [delete](#deleting-backups) them.
 
+[MySQL databases](../databases) are also [backed up](#mysql-databases), as long as they are under 1 GB in size.
+
+| Plan                                    | Max Stored Backups | Max Backups Per Day |
+|-----------------------------------------|--------------------|---------------------|
+| Essentials                              | 3                  | 3                   |
+| Performance                             | 5                  | 3                   |
+| Performance Plus                        | 10                 | 3                   |
+| ✅ [Pro Backup Addon](#pro-backup-addon) | Base plan + 10     | 8                   |
+
+// Todo (notgeri): update
 <iframe width="560" height="315" src="https://www.youtube.com/embed/KnzimsqhwQs?si=NZM1oLrhgWiOqu4P" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
 
 ---
 
