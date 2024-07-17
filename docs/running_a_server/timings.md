@@ -24,6 +24,8 @@ keywords:
 The PaperMC team has decided to remove the Timings system and replace it with [Spark](https://docs.bloom.host/spark) in a future version. 
 Timings should be considered depricated and no longer be used.
 
+Paper 1.21 builds will have the timings system disabled by default.
+
 More information can be found [here](https://github.com/PaperMC/Paper/issues/8948)
 :::
 
