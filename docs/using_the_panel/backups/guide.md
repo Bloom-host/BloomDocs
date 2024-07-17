@@ -8,13 +8,9 @@ description: Learn everything there is to know about creating, restoring, mounti
 ---
 
 <div style={{display: 'none'}}>
-// Todo (notgeri): a link that allows you to add your server ID to go to it, like for the schedule ?template=backup
 // Todo (notgeri): remove old images
 // Todo (notgeri): update video
-// Todo (notgeri):
 - quick restore
-- full restore
-- mount
 </div>
 
 ## Introduction
@@ -86,10 +82,30 @@ If you would like more frequent backups, you can subscribe to the [Pro Backup Ad
 
 ## Restoring Full Backups
 
-To restore a backup, simply head to the backups page, select the backup and click 'Restore'. Do note, this will
-overwrite any files with matching names.
+:::caution HEADS UP!
+This will restore **ALL** files from the backup. Any conflicting files will be overwritten.
 
-![img](/using_the_panel/backups/4.png)
+If you need to quickly restore some files that you know exist in a backup, you can use the
+**[quick restore feature](#quick-restoring-backups)** or **[mounting](#mounting-backups)** instead.
+:::
+
+To restore a backup, head to the 'Backups' and use the 'Restore' option in the context menu of whichever
+backup you would like to restore.
+
+![Restore button highlighted](restore_button.png)
+
+You can choose whether to delete all files first which will effectively return the server's state exactly how it was
+when the backup was created.
+
+Optionally, you can also ask to be notified via email when the backup has been restored.
+
+![Backup full restore modal](restore_modal.png)
+
+Once started, you will be redirected to the 'Console' tab where you can monitor the progress of the restoration.
+
+You can also use the 'Abort' button to cancel the restoration:
+
+![Abort button and console progress](restore_progress.png)
 
 ---
 
