@@ -100,26 +100,45 @@ In case you only require a limited number of files from a backup, you can also '
 The mounted backup is accessible as any other folder through the '[File Manager](../file-manager-controls)' tab and [SFTP](../sftp).
 
 :::caution HEADS UP!
-While a backup is mounted, you will **not be able to start the server or modify other backups**.  
+While a backup is mounted, you will **not be able to do the following actions**:
+- Start the server
+- Modify or create backups
+- Search, create or edit existing files
+- Calculate file and directory sizes
+
 If you need to quickly restore some files that you know exist in a backup, you can use the 
 **[quick restore feature](#quick-restoring-backups)** instead. 
 :::
 
 To mount a backup, first head over to the 'Backups' tab and locate the backup you wish to mount.  
-In its '...' context menu, click the 'Mount' button: 
+In its context menu, click the 'Mount' button:
+![Mount button highlighted](mount_button.png)
 
-You can set a specific folder to mount it to or leave it on default to mount it to the `backup` folder
-// Todo (notgeri): fix that modal and add a pic here
-
-![](mount_button.png)
+You can set a specific folder to mount it to or leave it on default to mount it to the `backup` folder:
+![Mount modal showing backup path](mount_modal.png)
 
 After confirming, wait until the backup shows up as mounted. This may take a few minutes at most:
-![](mounting.gif)
+![Backup mounting](mounting.gif)
 
-You can use the 'View' button in its '...' context menu to navigate to the mounted folder:
-![](mounted.png)
+You can use the 'View' button in its context menu to navigate to the mounted folder:
+![Backup mounted with view button highlighted](mounted.png)
 
-// Currently doing: mount copy/restore features, finish this ^ 
+You can also find it in the main folder of your File Manager:
+![File manager showing mounted backup](mounted_file_manager.png)
+
+Similarly, you can use [SFTP](../sftp) to access this special folder.
+
+### Restoring & Copying Mounted Files
+You can select or right click any file or folder to either restore or copy them.
+
+Restoring automatically moves them to their original path. For example, restoring `backup/plugins/Chunky/` will restore
+it to `plugins/Chunky/`.
+
+Copying works as it does by default, and you can even copy the files to a different server split.
+
+![Extract and copy buttons in the file manager](mount_extract.png)
+
+Note that extracting may take significantly longer than a regular copy, since it's done over the network.
 
 ---
 
@@ -131,7 +150,7 @@ If you are looking to download an entire backup, there are a few ways to do this
 
 The simplest way is to download the file through your browser.
 
-To do this, press the 'Download' button in the '...' context menu of the backup and you will automatically be redirected
+To do this, press the 'Download' button in the context menu of the backup and you will automatically be redirected
 to download the backup.
 
 ![Download button](download_button.png)
@@ -142,7 +161,7 @@ exported backup without downloading it first. This is expected!
 ### Through A Direct Download Link
 
 If you need a direct download link, such as for command line tools like `curl` or `wget`, you can use the 'Copy Link'
-button in the '...' context menu of the backup.
+button in the context menu of the backup.
 
 ![Copy download link button](copy_link_button.png)
 
@@ -168,13 +187,13 @@ as [SQL dumps](https://en.wikipedia.org/wiki/Database_dump) in a special `backup
 
 ![MySQL backup_db folder in the file manager](./mysql_backups.png)
 
-You can use the 'Import to database' button in the '...' context menu to re-import them to a new database.
+You can use the 'Import to database' button in the context menu to re-import them to a new database.
 
 ---
 
 ## Deleting Backups
 
-If you no longer need a specific backup, you can delete it with the 'Delete' button in the '...' context menu.
+If you no longer need a specific backup, you can delete it with the 'Delete' button in the context menu.
 
 :::warning HEADS UP!
 This is a completely irreversible action. Deleted backups cannot be recovered by any means.
@@ -189,7 +208,7 @@ This is a completely irreversible action. Deleted backups cannot be recovered by
 Locking a backup will prevent it from being automatically rotated by [schedules](#automatic-backup-creation) or
 accidentally [deleted by users](#deleting-backups).
 
-You can lock a backup when [creating one manually](#manual-backup-creation) or by pressing the '...' context menu on its
+You can lock a backup when [creating one manually](#manual-backup-creation) or by pressing the context menu on its
 right
 side and using the 'Lock' button:
 
