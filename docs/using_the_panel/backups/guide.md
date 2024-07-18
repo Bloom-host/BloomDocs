@@ -10,7 +10,6 @@ description: Learn everything there is to know about creating, restoring, mounti
 <div style={{display: 'none'}}>
 // Todo (notgeri): remove old images
 // Todo (notgeri): update video
-- quick restore
 </div>
 
 ## Introduction
@@ -80,7 +79,16 @@ If you would like more frequent backups, you can subscribe to the [Pro Backup Ad
 
 ---
 
-## Restoring Full Backups
+## Full Restores, Quick Restores and Mounting
+
+They are all similar and serve to restore specific files from a backup, but when to use them will depend on the task at
+hand. Here is a flowchart to make the choice easier:
+
+![Flowchart](flowchart.png)
+
+---
+
+### Restoring Full Backups
 
 :::caution HEADS UP!
 This will restore **ALL** files from the backup. Any conflicting files will be overwritten.
@@ -109,21 +117,81 @@ You can also use the 'Abort' button to cancel the restoration:
 
 ---
 
-## Mounting Backups
+### Quick Restoring Backups
+
+In case you know that certain files or folders exist within a backup, you can use our quick restore feature, which does
+not require the server to be offline.
+
+If the files you want to roll back exist in the current state of the server, you can select them
+in the [File Manager](../file-manager-controls) tab and use the 'Restore' option to initialise
+a new quick restore session:
+![Restore button highlighted](quick_restore_files_button.png)
+
+The following menu consists of 3 parts:
+
+1. **Path selection**: Here you will see all the paths that you selected before, and you can add any custom paths.  
+   If you do not want to overwrite the existing path, you can click any any of them to forward them to be restored into
+   a specific directory instead. You can see an example [here](#custom-paths).
+
+2. **Backup selection**: You can select which backup to restore from. Only complete backups can be used.
+
+3. **Options**: You can choose whether to stop the server to ensure restored files will not be overwritten
+   and whether to first delete found files and directories.
+
+![Quick restore modal showing options](quick_restore_files_modal.png)
+
+Once the quick restore is started, you will be redirected to its status page.
+
+Depending on what needs to be restored, this process may take anywhere from a few seconds to several minutes. You can
+view the live status of each task here.
+
+If you allow the DuckPanel to send notifications through your browser, you can leave the browser tab in the background
+and you will be notified when all tasks are done.
+
+![Quick restore status dashboard](quick_restore_status.gif)
+
+You can abort specific tasks or the entire restoration at any point.
+
+Any files that could not be found in the backup will show their status as such.
+
+---
+
+#### Custom Paths
+If the file does not current exist, you can access the quick restore menu from the context menu of a backup 
+in the 'Backups' tab:
+![Quick restore button highlighted](quick_restore_backup_button.png)
+
+You can enter a list of custom paths and start the restoration as you would otherwise:
+![Quick restore modal showing custom paths](quick_restore_custom_paths.gif)
+
+---
+
+#### Dismissing
+
+All active quick restores can be found in the 'Backups' tab:
+![](quick_restore_list.png)
+
+If you no longer need their results, you can dismiss them with the ✅ or the dismiss button.
+
+---
+
+### Mounting Backups
 
 In case you only require a limited number of files from a backup, you can also 'mount' it to your server.
 
-The mounted backup is accessible as any other folder through the '[File Manager](../file-manager-controls)' tab and [SFTP](../sftp).
+The mounted backup is accessible as any other folder through the '[File Manager](../file-manager-controls)' tab
+and [SFTP](../sftp).
 
 :::caution HEADS UP!
 While a backup is mounted, you will **not be able to do the following actions**:
+
 - Start the server
 - Modify or create backups
 - Search, create or edit existing files
 - Calculate file and directory sizes
 
-If you need to quickly restore some files that you know exist in a backup, you can use the 
-**[quick restore feature](#quick-restoring-backups)** instead. 
+If you need to quickly restore some files that you know exist in a backup, you can use the
+**[quick restore feature](#quick-restoring-backups)** instead.
 :::
 
 To mount a backup, first head over to the 'Backups' tab and locate the backup you wish to mount.  
@@ -144,7 +212,8 @@ You can also find it in the main folder of your File Manager:
 
 Similarly, you can use [SFTP](../sftp) to access this special folder.
 
-### Restoring & Copying Mounted Files
+#### Restoring & Copying Mounted Files
+
 You can select or right click any file or folder to either restore or copy them.
 
 Restoring automatically moves them to their original path. For example, restoring `backup/plugins/Chunky/` will restore
@@ -256,7 +325,8 @@ This will **not** remove it from any existing backups.
 
 ## Pro Backup Addon
 
-This is a recurring paid addon for your server which allows you to create **8 backups per day** and store an **additional
+This is a recurring paid addon for your server which allows you to create **8 backups per day** and store an *
+*additional
 10 backups total**.
 
 These changes apply to all [server splits](../split-server) in the same plan!
@@ -264,13 +334,15 @@ These changes apply to all [server splits](../split-server) in the same plan!
 It costs $5/mo and can be cancelled at any time.
 
 ### For New Plans
+
 Select the 'Upgraded' option in 'Pro Backup Addon' at the last step of the checkout:
 ![Checkout pro backup addon addon selected](pro_backup_checkout.png)
 
 ### For Existing Plans
+
 1. Head over to the [billing area](https://billing.bloom.host) and click 'Manage' next to your plan:
-  ![Manage button in the client area](pro_backup_manage_service.png)
+   ![Manage button in the client area](pro_backup_manage_service.png)
 2. Click the 'Upgrade/Downgrade **Options**' button:
-  ![Upgrade/downgrade options button](pro_backup_upgrade_start.png)
+   ![Upgrade/downgrade options button](pro_backup_upgrade_start.png)
 3. Lastly, ensure the 'New Configuration' for the 'Pro Backup Addon' is set to 'Upgraded' and check out as usual:
-  ![Pro backup addon upgrade](pro_backup_upgrade_checkout.png)
+   ![Pro backup addon upgrade](pro_backup_upgrade_checkout.png)
