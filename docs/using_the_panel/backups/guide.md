@@ -8,7 +8,6 @@ description: Learn everything there is to know about creating, restoring, mounti
 ---
 
 <div style={{display: 'none'}}>
-// Todo (notgeri): remove old images
 // Todo (notgeri): update video
 </div>
 
