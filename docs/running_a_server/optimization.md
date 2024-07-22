@@ -31,8 +31,7 @@ If you have performance headroom you might even want to do the opposite! For exa
 
 One of the biggest choices to make before you even start optimizing is choosing the server jar you want to use.
 
-There are a lot of options you can choose from, but for simplicity's sake we
-re just going to outline the two best known "paths", the bukkit platform, and fabric. See our [Server Jars](/jars) page if you want to know more.
+There are a lot of options you can choose from, but for simplicity's sake we're just going to outline the two best known "paths", the bukkit platform, and fabric. See our [Server Jars](/jars) page if you want to know more.
 
 The gist of it is the bukkit platform is generally recommended for bigger public servers and fabric for smaller servers with friends.  
 The bukkit platform allows you to use plugins, and fabric allows you to run mods.
