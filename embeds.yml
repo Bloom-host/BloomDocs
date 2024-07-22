@@ -915,6 +915,10 @@ timings:
   aliases: [ 'timing' ]
   title: '📜 Bloom Docs - Timings'
   description: >
+    ⚠️ Timings has been deprecated by PaperMC team in 1.21 and will be removed in a future version.
+    The PaperMC team will be replacing timings with Spark (see `!spark`).
+    More information is available [here](https://github.com/PaperMC/Paper/discussions/10565).
+
     Check out our comprehensive guide on creating a timings report to
     debug TPS issues on your server [here](https://docs.bloom.host/timings/).
   thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/tY6IAF.png'
