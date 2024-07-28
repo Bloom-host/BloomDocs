@@ -56,9 +56,9 @@ VotingPlugin has the option to configure what type of `data storage` you would l
   - A guide on how to create and find logins for your databases, [click here](/databases)
 
 Once you have successfully installed the plugin, If you do not want to configure MySQL for user storage. You have completed the tutorial!
-You can move on to the next step and that is to read the [VotingPlugin's wiki](https://github.com/BenCodez/VotingPlugin/wiki)
+You can move on to the next step and that is to read the [VotingPlugin's wiki](https://github.com/BenCodez/VotingPlugin/wiki) or the wiki of the resource you chose.
 
-##### Configuring SQL
+##### Configuring SQL for VotingPlugin
 You will find these settings in your `plugins/VotingPlugin/Config.yml` at the top of the file!
 If you didn't do it already, Please read this guide on how to create and find logins for your databases, [click here](/databases)
 
