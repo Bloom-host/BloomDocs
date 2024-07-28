@@ -49,7 +49,7 @@ Changes to the file are reflected instantly.
 
 ## TShock
 
-When using [TShock](./tshock/overview.md), it's possible to ban based on the server-side user profiles instead of the
+When using [TShock](tshock/overview.md), it's possible to ban based on the server-side user profiles instead of the
 IP address.
 
 ### Banning

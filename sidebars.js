@@ -76,7 +76,7 @@ module.exports = {
                 'running_a_server/java-version',
                 'running_a_server/datapacks',
                 'running_a_server/spark',
-                'running_a_server/timings',
+                'running_a_server/timings', // Deprecated, will be removed in a future version of Paper (https://github.com/PaperMC/Paper/discussions/10565)
                 'running_a_server/icon',
                 'running_a_server/motd',
                 'running_a_server/whitelist', // How to turn on whitelist for both Java and Bedrock
@@ -199,6 +199,7 @@ module.exports = {
                     label: "Multi-platform plugins & mods",
                     items: [
                         'plugins_and_modifications/multiplatform/advancedban', // Bans and punishment manager (Bukkit/Spigot/Paper, BungeeCord)
+                        'plugins_and_modifications/multiplatform/bluemap', // 3D web map (Spigot/Paper, Paper/Folia, Forge, Fabric, Neoforge, Sponge)
                         'plugins_and_modifications/multiplatform/chunky', // World pre-generation plugin (Bukkit, Fabric, Forge)
                         'plugins_and_modifications/multiplatform/dynmap', // Dynamic web map of Minecraft worlds (Spigot/Paper, Forge, Fabric)
                         'plugins_and_modifications/multiplatform/litebans', // Bans and punishment manager (Spigot/Paper, BungeeCord, Velocity)

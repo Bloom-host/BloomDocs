@@ -8,7 +8,7 @@ note: This is referenced on the /terraria page on the main site
 
 :::caution HEADS UP!
 Mods are not part of the vanilla server software, so in order for this to work, you must
-install [tModLoader](./overview.md).
+install [tModLoader](overview.md).
 :::
 
 Mods are a way for developers to add new items, bosses, mechanics and more into the game.

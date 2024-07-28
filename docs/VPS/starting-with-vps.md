@@ -67,5 +67,5 @@ After that, click on the "Open" button and the SSH connection will start, you wi
 ![img](/VPS/starting-with-vps/3.png)
 
 :::important
-Need to connect to your VPS via VNC? Check out our guide here: [How to connect to your VPS via VNC](https://docs.bloom.host/vnc)
+Need to connect to your VPS via VNC? Check out our guide here: [How to connect to your VPS via VNC](vnc.md)
 :::

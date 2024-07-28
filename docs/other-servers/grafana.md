@@ -29,7 +29,7 @@ If you want to connect multiple servers to your Grafana dashboard you can do so 
 ## UnifiedMetrics
 
 Download the plugin off the [Github](https://github.com/Cubxity/UnifiedMetrics/releases) and install it in the `plugins` folder.
-For assistance on how to install plugins, please refer to the [plugin installation page](https://docs.bloom.host/installing-plugins).
+For assistance on how to install plugins, please refer to the [plugin installation page](/installing-plugins).
 
 Now you're gonna want to open up the default port for UnifiedMetrics (9100) under the Ports & Proxies tab.
 
@@ -38,7 +38,7 @@ We're now done with UnifiedMetrics, onto Prometheus :)
 ## Prometheus
 
 Now we're going to setup a Prometheus server, you're gonna want to split a Prometheus instance which is located under the "NO SUPPORT SERVERS" category with 150MB of RAM and 10GB of Storage (may need to be adjusted to your needs).
-For assistance on how the server splitter works, please refer to the [server splitter page](https://docs.bloom.host/split-server).
+For assistance on how the server splitter works, please refer to the [server splitter page](/split-server).
 
 Once the server is created, head to it under the Server Split tab.
 
@@ -56,7 +56,7 @@ Once the server is created, change it to the default Grafana port (3000) under t
 
 At this point you may want to setup a reverse proxy for Grafana so it gets HTTPS and so users don't need to specify a port.
 
-Simply follow this guide [here](https://docs.bloom.host/ports-and-proxies).
+Simply follow this guide [here](/ports-and-proxies).
 
 Now, head to your Grafana's IP & Port (or subdomain if you setup the reverse proxy) and login.
 

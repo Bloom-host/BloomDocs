@@ -52,7 +52,7 @@ While datapacks are built into the game, they can still have a large impact on s
 Certain creators such as [VanillaTweaks](https://vanillatweaks.net/picker/datapacks/) are mindful of this, but it's
 important to note that this is not always the case.
 
-If you notice lag spikes or tick loss, make sure to run a [Spark report](./spark.md).
+If you notice lag spikes or tick loss, make sure to run a [Spark report](spark.md).
 If you find `CustomFunction` calls taking up a large chunk of the total server tick, it's possible one of the datapacks
 is running calculation expensive commands.
 
