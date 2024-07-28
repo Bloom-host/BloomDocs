@@ -39,11 +39,11 @@ Please check your `config.yml`, you'll notice there is a list of configuration o
 
 After you have found your port, you need to head to DuckPanel and open Ports & Proxies. It should look something like below.
 
-![console](../../../static/plugins_and_modifications/plugins/votifier/1.png)
+![console](/plugins_and_modifications/plugins/votifier/1.png)
 
 You'll already have a batch of allocations most likely, simply need to hit `Open Port` and type in `8192` then hit `open port`
 
-![console](../../../static/plugins_and_modifications/plugins/votifier/2.png)
+![console](/plugins_and_modifications/plugins/votifier/2.png)
 
 The next step is to restart your server, so the port opening can take effect.
 
