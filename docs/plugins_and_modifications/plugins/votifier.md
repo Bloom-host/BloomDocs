@@ -30,7 +30,7 @@ Yes, NuVotifier is like Vault where it's version independent.
   - [Manage and edit your files through the DuckPanel](https://docs.bloom.host/file-manager-controls)
 
 ### Single Server Configuration
-This page continues with the implication you have downloaded the resources above, and put it in your `plugins` folder.
+This page continues with the implication you have downloaded the resources above or a vote plugin to hook into NuVotifier of your choosing, and put it in your `plugins` folder.
 
 #### NuVotifier Requirements
 Please check your `config.yml`, you'll notice there is a list of configuration options! you only need to remember one config option.
