@@ -7,19 +7,21 @@ sidebar_label: Resumen de la Documentación
 ---
 
 La mayoría de los artículos en esta documentación fueron creados por nuestra comunidad. Puedes ayudarnos también!
-Visita nuestra guía en [Cómo contribuir a la documentación](https://docs.bloom.host/extras/contributing) para aprender más.
+Visita nuestra guía en [Cómo contribuir a la documentación](https://github.com/Bloom-host/BloomDocs/blob/master/README.md) para aprender más.
 
 ## Introducción
+
 ![search function](/getting_started/overview/2.png)
 Te damos la bienvenida a la traducción en Español de la Documentación de Bloom! Aquí puedes encontrar información útil
 sobre nuestros servicios y panel, gestión de servidores, preguntas frecuentes y más!
 
 :::caution
 La traducción en Español de la documentación oficial no es completa, y es probable que hayan algunas guías que todavía
-requieran traducción. Si crees que puedes contribuir a la traducción, visita nuestra [guía de contribución](https://docs.bloom.host/extras/contributing)!
+requieran traducción. Si crees que puedes contribuir a la traducción, visita nuestra [guía de contribución](https://github.com/Bloom-host/BloomDocs/blob/master/README.md)!
 :::
 
 En toda la documentación vas a ver sintaxis similares:
+
 - `<algo>` - Una 'variable', algo que debes cambiar de acuerdo a tus necesidades.
 - [Textos Naranja](.) y documentos con ![icon](/getting_started/overview/1.png) llevan a
 otras guías o páginas externas.

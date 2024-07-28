@@ -7,7 +7,7 @@ description: Learn how you can enable mobile <-> PC crossplay on your TShock ser
 
 :::caution HEADS UP!
 This is not possible with the vanilla server software, so in order for this to work, you must
-install [TShock](./overview.md).
+install [TShock](overview.md).
 :::
 
 By default the game only allows either PC, or mobile players to connect to a server. To work around this limitation, you

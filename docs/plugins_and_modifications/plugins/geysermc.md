@@ -26,7 +26,7 @@ GeyserMC enables clients from Minecraft Bedrock Edition to join your Minecraft J
 GeyserMC requires your server to be on the latest version.
 :::
 
-[Download the plugin](https://geysermc.org/download) and upload the jar into your `plugins` folder. Restart or turn on the server. If you need help installing plugins, check out [this guide](https://docs.bloom.host/installing-plugins).  
+[Download the plugin](https://geysermc.org/download) and upload the jar into your `plugins` folder. Restart or turn on the server. If you need help installing plugins, check out [this guide](/installing-plugins).  
 
 Once you've installed it, create the allocation 19132 under the ports & proxies on the panel.  
 

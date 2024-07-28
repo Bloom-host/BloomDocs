@@ -18,11 +18,11 @@ keywords:
 
 ### What does the plugin do?
 
-Floodgate allows Bedrock players to connect to Java servers running [GeyserMC](https://docs.bloom.host/plugins/geysermc), without a Java Edition account.
+Floodgate allows Bedrock players to connect to Java servers running [GeyserMC](/plugins/geysermc), without a Java Edition account.
 
 ## Usage
 
-[Download the plugin](https://ci.opencollab.dev/job/GeyserMC/job/Floodgate/job/master/lastSuccessfulBuild/artifact/spigot/build/libs/floodgate-spigot.jar) and upload the jar into your `plugins` folder. Restart or turn on the server. If you need help installing plugins, check out [this guide](https://docs.bloom.host/installing-plugins).  
+[Download the plugin](https://ci.opencollab.dev/job/GeyserMC/job/Floodgate/job/master/lastSuccessfulBuild/artifact/spigot/build/libs/floodgate-spigot.jar) and upload the jar into your `plugins` folder. Restart or turn on the server. If you need help installing plugins, check out [this guide](/installing-plugins).  
 
 Once you've installed the plugin, you will have to modify your GeyserMC config. in `/plugins/Geyser-Spigot/config.yml` (Plugin folder may be different) set `auth-type` to `floodgate`
 

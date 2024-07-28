@@ -21,7 +21,7 @@ keywords:
 # **How to take a Timings Report**
 
 :::important
-The PaperMC team has decided to remove the Timings system and replace it with [Spark](https://docs.bloom.host/spark) in a future version. 
+The PaperMC team has decided to remove the Timings system and replace it with [Spark](/spark) in a future version. 
 Timings should be considered depricated and no longer be used.
 
 Paper 1.21 builds will have the timings system disabled by default.
@@ -30,7 +30,7 @@ More information can be found [here](https://github.com/PaperMC/Paper/issues/894
 :::
 
 :::note
-As time has gone on, Timings has become a bit outdated, from the Bloom team we usually recommend using [Spark](https://docs.bloom.host/spark) instead.
+As time has gone on, Timings has become a bit outdated, from the Bloom team we usually recommend using [Spark](/spark) instead.
 :::
 
 ## What is a Timings Report
@@ -50,6 +50,6 @@ Said command will paste a link on the console, which when clicked will take you 
 Anything in red is using a excess of resources. You can also click the plugins tab to see what plugins are using the most resources on your server.
 ## Alternatives to Timings
 Timings, while a great tool to get an overview of performance at a basic level, might not be the best utility to use for more indepth troubleshooting or performance breakdowns.
-A new and popular alternative that we recommend is Spark. Learn more about it [here](https://docs.bloom.host/spark).
+A new and popular alternative that we recommend is Spark. Learn more about it [here](/spark).
 
 If you require help with reading your timings, create a ticket in [Bloom.host Discord!](https://discord.gg/bloom)

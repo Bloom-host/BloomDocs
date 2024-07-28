@@ -46,7 +46,7 @@ first time after installing new plugins, but you will see the status show as 'Ru
 ![Server showing loaded](/games/rust/plugins/loaded.png)
 
 Lastly, you can verify that the plugin is installed by using the `plugins` command in-game as
-an [administrator](./admin.md) or in the console.
+an [administrator](admin.md) or in the console.
 ![Command verifying successful installation](/games/rust/plugins/list.png)
 
 ---
