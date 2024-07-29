@@ -241,6 +241,9 @@ module.exports = {
                         'plugins_and_modifications/plugins/vulcan', // anticheat
                         'plugins_and_modifications/plugins/oraxen',
                         'plugins_and_modifications/plugins/denizen',
+                        'plugins_and_modifications/plugins/ajLeaderboards',
+                        'plugins_and_modifications/plugins/AdvancedEnchantments',
+                        'plugins_and_modifications/plugins/CMI',
                         "plugins_and_modifications/install-proxy-plugin", // BungeeCord/Velocity proxy plugin install guide
                     ]
                 },
