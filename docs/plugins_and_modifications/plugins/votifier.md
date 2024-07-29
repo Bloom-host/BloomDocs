@@ -45,24 +45,23 @@ You'll already have a batch of allocations most likely, simply need to hit `Open
 
 ![console](/plugins_and_modifications/plugins/votifier/2.png)
 
-The next step is to restart your server, so the port opening can take effect.
+The next step is to restart your server, so the port can be opened.
 
 #### VotingPlugin Requirements
 - [NuVotifier](https://www.spigotmc.org/resources/nuvotifier.13449/)
+
+Once you have successfully installed the plugin, If you do not want to configure MySQL for user storage. You have completed the tutorial!
+You can move on to the next step and that is to read the [VotingPlugin's wiki](https://github.com/BenCodez/VotingPlugin/wiki) or the wiki of the resource you chose.
+
+##### Configuring SQL for VotingPlugin
+If you didn't do it already, Please read this guide on how to create and find logins for your databases, [click here](/databases)
 
 VotingPlugin has the option to configure what type of `data storage` you would like to use
 - SQLITE (flat file storage, works out of the box)
 - MYSQL (works with Bloom's database which is based on MariaDB, however needs extra configuration)
   - A guide on how to create and find logins for your databases, [click here](/databases)
 
-Once you have successfully installed the plugin, If you do not want to configure MySQL for user storage. You have completed the tutorial!
-You can move on to the next step and that is to read the [VotingPlugin's wiki](https://github.com/BenCodez/VotingPlugin/wiki) or the wiki of the resource you chose.
-
-##### Configuring SQL for VotingPlugin
-You will find these settings in your `plugins/VotingPlugin/Config.yml` at the top of the file!
-If you didn't do it already, Please read this guide on how to create and find logins for your databases, [click here](/databases)
-
-Requirements:
+**Requirements:**
 - Username, Password. They can be found in the `Database` tab!
   - Username would look something like `u5930_4949emdj`
   - Password can be found by clicking the `eye` icon to the right. Click the box labeled `Password` in the field when it pops up.
