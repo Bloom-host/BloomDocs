@@ -94,7 +94,7 @@ updating:
   title: '📜 How to update, change versions or change server jar'
   description: >
     Check out our comprehensive guide on how to update, change versions
-    or server jar [here](/updating/).
+    or server jar [here](/running_a_server/updating).
   thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/tY6IAF.png'
   image: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/running_a_server/updating/1.png'
 
