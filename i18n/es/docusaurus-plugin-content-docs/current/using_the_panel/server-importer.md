@@ -12,7 +12,7 @@ Duck Panel tiene un importador de servidores conveniente. Este te permite import
 hacia Bloom, ahorrándote tiempo y evitándote tener que descargar y subir los archivos desde tu computadora.
 
 :::note
-También puedes importar bases de datos de tu antiguo host! Sigue esta [guía](https://docs.bloom.host/es/databases#importing-mysql-databases)
+También puedes importar bases de datos de tu antiguo host! Sigue esta [guía](/es/databases#importing-mysql-databases)
 para ver cómo hacerlo.
 :::
 

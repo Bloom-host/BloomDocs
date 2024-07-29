@@ -30,7 +30,7 @@ Restart your server and enter the NuVotifier `config.yml` in its folder. Take a 
 Next you should head on over to your Minecraft Panel @ [click here](https://mc.bloom.host/), Click on the server you put NuVotifier on and click `Ports & Proxies`, find the button with `Create Allocation` on it. Click that and type in the port that is in your `config.yml`
 
 Open up your SuperbVote `config.yml` and add any rewards you want to give your players. You can also store any of the data in a MySQL database if you would like to.
-If you don't know how to do this, [click here](https://docs.bloom.host/databases) or ask in the discord.
+If you don't know how to do this, [click here](/databases) or ask in the discord.
 
 ```YAML
     mysql:

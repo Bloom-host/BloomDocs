@@ -8,7 +8,7 @@ note: This is referenced on the /terraria page on the main site
 
 :::caution HEADS UP!
 Plugins are not part of the vanilla server software, so in order for this to work, you must
-install [TShock](./overview.md).
+install [TShock](overview.md).
 :::
 
 First, find some plugins you would like to install. A safe source is

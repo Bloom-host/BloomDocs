@@ -35,5 +35,5 @@ En esta guía veremos cómo crear un split Caddy para poder hostear páginas web
 ## Configurando el servidor Caddy.
 
 Para iniciar, simplemente deja los archivos html/php en la carpeta `/public` del servidor Caddy. Ahora ya puedes iniciar el servidor!
-Si quieres usar un dominio para tu servidor puedes seguir [esta guía](https://docs.bloom.host/es/ports-and-proxies/) para usar un
+Si quieres usar un dominio para tu servidor puedes seguir [esta guía](/es/ports-and-proxies/) para usar un
 proxy inverso.

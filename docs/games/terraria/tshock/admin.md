@@ -7,7 +7,7 @@ description: Learn how you can earn admin privileges on your TShock server!
 
 :::caution HEADS UP!
 Special commands and permissions are not part of the vanilla server software, so in order for this to work, you must
-install [TShock](./overview.md).
+install [TShock](overview.md).
 :::
 
 Once the server loads, you should see a few lines about the `/setup` command:

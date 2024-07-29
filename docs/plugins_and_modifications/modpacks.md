@@ -18,7 +18,7 @@ keywords:
 :::important
 Before following this guide, make sure that the modpack that you want to install isn't on the 'Modpacks' tab of our Minecraft panel. If the modpack is there, you can just click it and it will be automatically installed for you. 
 
-To see a list of available modpacks please visit our [Modpack list page](https://docs.bloom.host/extras/available-modpacks), in that page we also explain the process you have to follow if you want us to add a modpack to our One-Click Modpack installer.
+To see a list of available modpacks please visit our [Modpack list page](/extras/available-modpacks), in that page we also explain the process you have to follow if you want us to add a modpack to our One-Click Modpack installer.
 :::
 
 :::note
@@ -75,7 +75,7 @@ After compressing the files, you will need to upload the compressed/archived fil
 
 ![](/plugins_and_modifications/serverpacks/11.png)
 
-Server packs contain a lot of files, so you will need to connect through SFTP to upload the archived file. You can follow our guide on [How to connect through SFTP](https://docs.bloom.host/sftp). After you connect through SFTP, you can just drag and drop the .zip to the SFTP server.
+Server packs contain a lot of files, so you will need to connect through SFTP to upload the archived file. You can follow our guide on [How to connect through SFTP](/sftp). After you connect through SFTP, you can just drag and drop the .zip to the SFTP server.
 
 ![](/plugins_and_modifications/serverpacks/13.png)
 

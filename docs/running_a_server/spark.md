@@ -26,7 +26,7 @@ You can ignore this step if you are running Purpur 1.19.1 or above.
 
 Paper 1.21+ includes Spark by default and you do not need to download Spark separately. 
 :::
-Download the latest build from [Spark](https://spark.lucko.me/download) and drop it into your plugins (or mod folder if you are running Forge/Fabric) folder. Turn on or restart the server, and you're done! If you need help installing plugins, check [How to install plugins](https://docs.bloom.host/installing-plugins).
+Download the latest build from [Spark](https://spark.lucko.me/download) and drop it into your plugins (or mod folder if you are running Forge/Fabric) folder. Turn on or restart the server, and you're done! If you need help installing plugins, check [How to install plugins](/installing-plugins).
 
 ## Using The Profiler
 

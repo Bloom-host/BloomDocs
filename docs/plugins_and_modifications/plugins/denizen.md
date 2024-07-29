@@ -23,7 +23,7 @@ If you are a beginner or a new denizen scripter start here: https://guide.denize
 
 ## Addons
 
-- Denizen can be use on [Citizens](./citizens2) NPCs too: https://www.spigotmc.org/resources/citizens.13811/  
+- Denizen can be use on [Citizens](citizens2) NPCs too: https://www.spigotmc.org/resources/citizens.13811/  
 - Use Depenizen to effectively communicate with a wide range of other plugins: https://github.com/DenizenScript/Depenizen/blob/master/README.md  
 - You can make your own Discord Bot too: https://github.com/DenizenScript/dDiscordBot  
 

@@ -17,7 +17,7 @@ keywords:
 
 You need to have GeyserMC installed to use these addons!
 
-Read about it [**here**](https://docs.bloom.host/plugins/geysermc)
+Read about it [**here**](/plugins/geysermc)
 
 ## How to install the addons
 
@@ -42,7 +42,7 @@ Floodgate Prefixes will no longer be a issue with this plugin installed!
 You can download it [**here**](https://www.spigotmc.org/resources/simplegeyservl.80300/)
 
 ### GeyserReversion
-GeyserReversion is like [Viabackwards](https://docs.bloom.host/plugins/viaversion) for Geyser! It allows older Bedrock versions to join your server.
+GeyserReversion is like [Viabackwards](/plugins/viaversion) for Geyser! It allows older Bedrock versions to join your server.
 Though this is almost never needed due to Bedrock Edition having auto updates it is still cool to have!
 It also adds support for the Education edition of the game to join via Geyser!
 

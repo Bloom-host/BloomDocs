@@ -17,7 +17,7 @@ keywords:
 :::important
 Before following this guide, make sure that the appropriate version of Java is installed on your computer and that you have at least 6GB of RAM available for the first time setup on your computer.
 
-You should also familiarize yourself with using SFTP to transfer files using our [SFTP guide](https://docs.bloom.host/sftp), it will be needed to transfer files.
+You should also familiarize yourself with using SFTP to transfer files using our [SFTP guide](/sftp), it will be needed to transfer files.
 :::
 
 :::note
@@ -66,7 +66,7 @@ In "File Manager" select and delete all files.
 
 # Uploading your server.
 
-Ensure you have familiarized yourself with using SFTP. You can follow our guide on [how to connect through SFTP](https://docs.bloom.host/sftp).
+Ensure you have familiarized yourself with using SFTP. You can follow our guide on [how to connect through SFTP](/sftp).
 
 In the folder where you extracted the Gregtech New Horizons server pack, select all files and compress them into a zip. It is a good idea to name it something like "GTNH.zip" so that you can easily find it for the next step. This is recommended as it will significantly speed up transfer via SFTP. Wait for the zipping to complete.
 

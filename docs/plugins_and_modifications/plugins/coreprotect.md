@@ -25,9 +25,9 @@ CoreProtect is a fast, efficient, data logging and anti-griefing tool. Rollback 
 
 
 :::important
-Before you get started, you need to have created a MySQL database. More info on that can be found [here](https://docs.bloom.host/databases).
+Before you get started, you need to have created a MySQL database. More info on that can be found [here](/databases).
 :::
-[Download the plugin](https://www.spigotmc.org/resources/coreprotect.8631/), and upload the jar into your `/plugins folder`, and then restart the server. If you need help installing plugins, check [How to install plugins](https://docs.bloom.host/installing-plugins).
+[Download the plugin](https://www.spigotmc.org/resources/coreprotect.8631/), and upload the jar into your `/plugins folder`, and then restart the server. If you need help installing plugins, check [How to install plugins](/installing-plugins).
 
  After that, go to the `CoreProtect` folder, which can be found inside the `plugins` folder. From there, edit the `config.yml` file.
 
