@@ -3,6 +3,7 @@ module.exports = {
     tagline: 'Docs for Bloom',
     url: 'https://docs.bloom.host',
     baseUrl: '/',
+    staticDirectories: [ 'static', 'docs' ],
     onBrokenLinks: 'warn',
     favicon: '/favicon.ico',
     organizationName: 'bloom-host',
