@@ -4,7 +4,7 @@
 help:
   title: 'BloomBot Help'
   title-icon: '%guildicon%'
-  thumbnail: 'https://cdn.discordapp.com/icons/720081782980083813/a_b14b3675972cae4aa909387ee4b7995f.gif'
+  thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/animated_icon.gif'
   footer: 'BloomBot - Bloom.host'
   fields:
     - title: ':grey_question: Help Commands'
@@ -21,7 +21,9 @@ help:
         • [Website](https://bloom.host/)
         • [Billing Panel](https://billing.bloom.host/)
         • [Duck Panel](https://mc.bloom.host/)
-        • [VPS Panel](https://vps.bloom.host/)
+        • [Old VPS Panel](https://vps.bloom.host/)
+        • [VPS Panel](https://virt.bloom.host/)
+        • [Bare Metal Panel](https://dedi.bloom.host/)
       inline: true
     - title: ':gear: Misc Commands'
       description: |+
