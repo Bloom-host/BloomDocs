@@ -40,6 +40,24 @@ help:
         • `!remove <@user | userid>` - Remove a user from your ticket
       inline: true
 
+
+timezone:
+  aliases: [ 'tz' ]
+  colour: '#FAFAFA'
+  description: |+
+    ## ⏱ Timezone Change
+    ### DuckPanel
+    It is **not** possible to change the timezone of the panel currently.
+    
+    ### Java
+    You can change the timezone for Minecraft and other Java-based servers by adding the following flag to the 'Startup'
+    tab:
+    ```
+    -Duser.timezone=<timezone here>
+    ```
+    You can find a [list of valid timezones here](https://tutorials.jenkov.com/java-date-time/java-util-timezone.html).
+  image: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/timezone.png'
+
 billing:
   aliases:
     - 'billingticket'
