@@ -40,6 +40,16 @@ help:
         • `!remove <@user | userid>` - Remove a user from your ticket
       inline: true
 
+clientlogs:
+  aliases: [ 'clogs' ]
+  colour: '#D7B48E'
+  description: |+
+    ## 🪵 Fetch Client Logs
+    In order to fetch your latest client-side logs, please follow these steps:
+    1. In-game, press 'Options', then 'Resource Packs' and then 'Open Pack Folder'.
+    2. In the file explorer, go a directory above your current one and locate `logs/`
+    3. Within, find the `latest.log` file and drag & drop it to Discord.
+  image: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/client_logs.gif'
 
 timezone:
   aliases: [ 'tz' ]
