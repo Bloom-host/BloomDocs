@@ -76,13 +76,13 @@ billing:
     - 'ticket'
     - 'verification'
     - 'verify'
-  title: '📜 Changes to services and accounts need Billing Account verification'
+  title: '📜 Changes To Services Require Account Verification'
   description: |+
-    The staff needs to confirm you are the account holder to be able to process
-    changes on your services and accounts.
+    Our staff need to confirm you are the account holder to be able to process changes on your services and accounts.
 
-    Please go to the support section of our Billing Panel located [here](https://billing.bloom.host/supporttickets.php), sign in with your Billing Account and open a Billing Ticket requesting the change or plan upgrade.
-  thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/tY6IAF.png'
+    Please go to the support section of our billing area [located here](https://billing.bloom.host/supporttickets.php).
+    Once signed in, please open a billing ticket requesting the change.
+  thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/docs_icon.png'
   image: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/billing_ticket.png'
   buttons:
     - [ 'Open Billing Ticket', 'https://billing.bloom.host/submitticket.php', '<:bloom:732019289741066379>', '1' ]
@@ -96,21 +96,21 @@ voicechat:
   image: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/voicechat-2.png'
   title: 'Sponsored by Bloom: Simple Voice Chat'
   title-icon: '%guildicon%'
-  description: |+
+  description: >
     Simple Voice Chat is an easy-to-use and reliable in-game voice chat
     modification and plugin for Minecraft servers.
   buttons:
     - [ 'Website', 'https://modrepo.de/minecraft/voicechat/wiki/?t=setup' ]
     - [ 'CurseForge', 'https://www.curseforge.com/minecraft/mc-mods/simple-voice-chat/' ]
     - [ 'Bukkit', 'https://dev.bukkit.org/projects/simple-voice-chat' ]
-    - [ 'Docs', '/multiplatform/simple-voice-chat/' ]
+    - [ 'Docs', 'https://docs.bloom.host/multiplatform/simple-voice-chat/' ]
 
 demo:
   aliases: [ 'demopanel' ]
   title: '<:aaaduck:755553395363938344> Bloom.host Demo Panel'
   image: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/demo.png'
   description: |+
-    Check out our demo panel with all the Duck panel's features and looks!
+    Check out our demo panel with all the DuckPanel's features and looks!
   buttons:
     - [ 'Open Demo', 'https://demo.bloom.host', '<:aaaduck:755553395363938344>' ]
 
@@ -520,7 +520,7 @@ importserver:
     An easy way to import your server files from your old host. Details
     [here](https://docs.bloom.host/server-importer).
   thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/tY6IAF.png'
-  image: '/assets/images/1-f63d21b5dd3fbb0392aa5c30a55e6650.png'
+  image: 'https://docs.bloom.host/assets/images/1-f63d21b5dd3fbb0392aa5c30a55e6650.png'
 
 importdatabase:
   aliases:
@@ -533,7 +533,7 @@ importdatabase:
     Check out our comprehensive guide on how to import databases.
     Details [here](https://docs.bloom.host/databases#importing-mysql-databases).
   thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/tY6IAF.png'
-  image: '/assets/images/3-c203038839d42eb177a6608cf37bcae6.png'
+  image: 'https://docs.bloom.host/assets/images/3-c203038839d42eb177a6608cf37bcae6.png'
 
 panel:
   aliases:
@@ -541,7 +541,7 @@ panel:
     - 'bc'
   title: '📜 Bloom Docs - Duck Panel'
   description: >
-    Check out our showcase of the Duckpanel
+    Check out our showcase of the DuckPanel
     [here](https://Bloom.host/duck-panel) and our in-depth documentation of it
     [here](https://docs.bloom.host/basic-controls/).
   thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/tY6IAF.png'
@@ -719,7 +719,7 @@ clumsyloader:
     [here](https://docs.bloom.host/extras/clumsyloader)! ClumsyLoader provides
     an alternative way to download your server backups to your VPS or computer.
   buttons:
-    - [ 'Open Docs', '/extras/clumsyloader/', '❔' ]
+    - [ 'Open Docs', 'https://docs.bloom.host/extras/clumsyloader/', '❔' ]
 
 whitelist:
   aliases:
@@ -729,7 +729,7 @@ whitelist:
     Check out our comprehensive guide on using a whitelist
     [here](https://docs.bloom.host/whitelist/)!
   buttons:
-    - [ 'Open Docs', '/whitelist/', '❔' ]
+    - [ 'Open Docs', 'https://docs.bloom.host/whitelist/', '❔' ]
 
 internal:
   aliases:
@@ -741,7 +741,7 @@ internal:
     Check out our comprehensive guide on internal servers
     [here](https://docs.bloom.host/internal-servers/)!
   buttons:
-    - [ 'Open Docs', '/internal-servers/', '❔' ]
+    - [ 'Open Docs', 'https://docs.bloom.host/internal-servers/', '❔' ]
 
 stripe:
   title: '📜 Bloom Docs - Stripe Subscriptions'
@@ -750,7 +750,7 @@ stripe:
     Subscription or how to cancel automatic payments
     [here](https://docs.bloom.host/billing/stripe).
   buttons:
-    - [ 'Open Docs', '/billing/stripe', '❔' ]
+    - [ 'Open Docs', 'https://docs.bloom.host/billing/stripe', '❔' ]
 
 paypal:
   title: '📜 Bloom Docs - PayPal Subscriptions'
@@ -759,7 +759,7 @@ paypal:
     Subscription or how to cancel automatic payments
     [here](https://docs.bloom.host/billing/paypal).
   buttons:
-    - [ 'Open Docs', '/billing/paypal', '❔' ]
+    - [ 'Open Docs', 'https://docs.bloom.host/billing/paypal', '❔' ]
 
 suspensions:
   aliases:
@@ -772,7 +772,7 @@ suspensions:
     Terminations work at Bloom
     [here](https://docs.bloom.host/billing/suspensions_and_terminations).
   buttons:
-    - [ 'Open Docs', '/billing/suspensions_and_terminations', '❔' ]
+    - [ 'Open Docs', 'https://docs.bloom.host/billing/suspensions_and_terminations', '❔' ]
 
 billingsubusers:
   aliases: [ 'billingsubuser' ]
@@ -781,7 +781,7 @@ billingsubusers:
     Check out our comprehensive guide on how to create billing subusers
     [here](https://docs.bloom.host/billing/billing_subusers).
   buttons:
-    - [ 'Open Docs', '/billing/billing_subusers', '❔' ]
+    - [ 'Open Docs', 'https://docs.bloom.host/billing/billing_subusers', '❔' ]
 
 cancellation:
   aliases:
@@ -792,7 +792,7 @@ cancellation:
     Check out our comprehensive guide on how to request a service
     cancellation [here](https://docs.bloom.host/billing/cancellations).
   buttons:
-    - [ 'Open Docs', '/billing/cancellations', '❔' ]
+    - [ 'Open Docs', 'https://docs.bloom.host/billing/cancellations', '❔' ]
 
 refunds:
   aliases: [ 'refund' ]
@@ -801,7 +801,7 @@ refunds:
     Check out our comprehensive guide on how to request a refund
     [here](https://docs.bloom.host/billing/refunds).
   buttons:
-    - [ 'Open Docs', '/billing/refunds', '❔' ]
+    - [ 'Open Docs', 'https://docs.bloom.host/billing/refunds', '❔' ]
 
 fabric:
   title: '📜 Bloom Docs - Fabric'
