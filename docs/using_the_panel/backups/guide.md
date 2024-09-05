@@ -84,8 +84,8 @@ If you would like more frequent backups, you can subscribe to the [Pro Backup Ad
 
 ## File Restoration Options
 
-Mounting, restoring and quick restoring are all similar and serve to restore specific files from a backup, 
-but when to use them will depend on the task at hand. 
+[Mounting](#mounting-backups), [restoring](#restoring-full-backups) and [quick restoring](#quick-restoring-backups) are 
+all similar and serve to restore specific files from a backup, but when to use them will depend on the task at hand. 
 
 Here is a flowchart to make the choice easier:
 
