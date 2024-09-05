@@ -51,6 +51,11 @@ When you are ready, press the 'Start Backup' button to continue.
 
 The backup then will start in the background, this may take some time depending on the size of your server.
 
+If you changed your mind, you can use the 'Abort' button to prevent the backup from completing.
+
+![Abort button shown in backups tab](abort_button.png)
+![Aborted backup](aborted.png)
+
 ---
 
 ## Automatic Backup Creation
@@ -135,7 +140,7 @@ The following menu consists of 3 steps. You can navigate by clicking the step ic
 
 1. **Backup selection**: You can select which backup to restore from. Only complete backups can be used:
    
-   ![](quick_restore_backups_step.png)
+   ![Quick restore backup selection step](quick_restore_backups_step.png)
 
 2. **Path selection**: Here you will see all the paths that you selected before.  
    You can use the text area to enter a list of custom paths, one path per line. Use the '+' button to add the paths.  
@@ -143,7 +148,7 @@ The following menu consists of 3 steps. You can navigate by clicking the step ic
    By default, all paths are restored to their original location, overwriting any existing paths.  
    You can select a different restoration path or even [server split](../split-server) at the bottom of the page.
 
-   ![](quick_restore_paths_step.png)
+   ![Quick restore path selection step](quick_restore_paths_step.png)
 
 3. **Options**: You can choose whether to stop the server to ensure restored files will not be overwritten by the
    running server. 
@@ -152,7 +157,7 @@ The following menu consists of 3 steps. You can navigate by clicking the step ic
    `world/playerdata/` folder, this option will delete the folder to ensure any player data files that were not in the
    the backup will not linger after the restoration.
    
-   ![](quick_restore_finalise_step.png)
+   ![Quick restore finalise step](quick_restore_finalise_step.png)
 
 Once the quick restore is started, you will be redirected to its status page.
 
@@ -171,7 +176,7 @@ Any files that could not be found in the backup will show their status as such.
 ### Dismissing
 
 All active quick restores can be found in the 'Backups' tab:
-![](quick_restore_list.png)
+![Quick restore list](quick_restore_list.png)
 
 If you no longer need their results, you can dismiss them with the ✅ or the dismiss button.
 
