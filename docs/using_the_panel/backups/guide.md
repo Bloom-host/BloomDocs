@@ -7,10 +7,6 @@ sidebar_label: Managing Backups
 description: Learn everything there is to know about creating, restoring, mounting, downloading, deleting backups and much more!
 ---
 
-<div style={{display: 'none'}}>
-// Todo (notgeri): update video
-</div>
-
 ## Introduction
 
 Game services come with our free user-managed off-site incremental backup system.
@@ -24,6 +20,9 @@ later [restore](#restoring-full-backups), [download](#downloading-backups), [mou
 or [delete](#deleting-backups) them.
 
 [MySQL databases](../databases) are also [backed up](#mysql-databases), as long as they are under 1 GB in size.
+
+Most actions require the backup repository to be locked, so certain actions cannot be done concurrently.
+You will see a conflict warning in the DuckPanel when this happens.
 
 | Plan                                    | Max Stored Backups | Max Backups Per Day |
 |-----------------------------------------|--------------------|---------------------|
@@ -70,24 +69,26 @@ Once created, you can access the schedule in the same place:
 You can edit this templated schedule like any other! Please refer to our [schedules guide](../schedules).
 
 :::caution HEADS UP!
-If there are no free slots available, the oldest backup will automatically be deleted before a new one is created unless
-you [lock the backup](#locking).
+If there are no free slots available, the oldest backup will automatically be [deleted](#deleting-backups) before a new
+one is created unless you [lock the backup](#locking).
 :::
 
 If you would like more frequent backups, you can subscribe to the [Pro Backup Addon](#pro-backup-addon).
 
 ---
 
-## Full Restores, Quick Restores and Mounting
+## File Restoration Options
 
-They are all similar and serve to restore specific files from a backup, but when to use them will depend on the task at
-hand. Here is a flowchart to make the choice easier:
+Mounting, restoring and quick restoring are all similar and serve to restore specific files from a backup, 
+but when to use them will depend on the task at hand. 
+
+Here is a flowchart to make the choice easier:
 
 ![Flowchart](flowchart.png)
 
 ---
 
-### Restoring Full Backups
+## Restoring Full Backups
 
 :::caution HEADS UP!
 This will restore **ALL** files from the backup. Any conflicting files will be overwritten.
@@ -101,14 +102,17 @@ backup you would like to restore.
 
 ![Restore button highlighted](restore_button.png)
 
-You can choose whether to delete all files first which will effectively return the server's state exactly how it was
-when the backup was created.
+You can restore the backup to any [server split](../split-server) you have access to.
+
+Additionally, you can choose whether to delete all files first which will return the files exactly
+how they were when the backup was created.
 
 Optionally, you can also ask to be notified via email when the backup has been restored.
 
 ![Backup full restore modal](restore_modal.png)
 
-Once started, you will be redirected to the 'Console' tab where you can monitor the progress of the restoration.
+Once started, you will be redirected to the 'Console' tab of the selected server where you can monitor the progress of
+the restoration.
 
 You can also use the 'Abort' button to cancel the restoration:
 
@@ -116,7 +120,7 @@ You can also use the 'Abort' button to cancel the restoration:
 
 ---
 
-### Quick Restoring Backups
+## Quick Restoring Backups
 
 In case you know that certain files or folders exist within a backup, you can use our quick restore feature, which does
 not require the server to be offline.
@@ -124,20 +128,31 @@ not require the server to be offline.
 If the files you want to roll back exist in the current state of the server, you can select them
 in the [File Manager](../file-manager-controls) tab and use the 'Restore' option to initialise
 a new quick restore session:
+
 ![Restore button highlighted](quick_restore_files_button.png)
 
-The following menu consists of 3 parts:
+The following menu consists of 3 steps. You can navigate by clicking the step icon or with your arrow keys:
 
-1. **Path selection**: Here you will see all the paths that you selected before, and you can add any custom paths.  
-   If you do not want to overwrite the existing path, you can click any any of them to forward them to be restored into
-   a specific directory instead. You can see an example [here](#custom-paths).
+1. **Backup selection**: You can select which backup to restore from. Only complete backups can be used:
+   
+   ![](quick_restore_backups_step.png)
 
-2. **Backup selection**: You can select which backup to restore from. Only complete backups can be used.
+2. **Path selection**: Here you will see all the paths that you selected before.  
+   You can use the text area to enter a list of custom paths, one path per line. Use the '+' button to add the paths.  
 
-3. **Options**: You can choose whether to stop the server to ensure restored files will not be overwritten
-   and whether to first delete found files and directories.
+   By default, all paths are restored to their original location, overwriting any existing paths.  
+   You can select a different restoration path or even [server split](../split-server) at the bottom of the page.
 
-![Quick restore modal showing options](quick_restore_files_modal.png)
+   ![](quick_restore_paths_step.png)
+
+3. **Options**: You can choose whether to stop the server to ensure restored files will not be overwritten by the
+   running server. 
+
+   Additionally, you can choose to delete paths that are found in the backup. As an example, if you are restoring the
+   `world/playerdata/` folder, this option will delete the folder to ensure any player data files that were not in the
+   the backup will not linger after the restoration.
+   
+   ![](quick_restore_finalise_step.png)
 
 Once the quick restore is started, you will be redirected to its status page.
 
@@ -153,19 +168,7 @@ You can abort specific tasks or the entire restoration at any point.
 
 Any files that could not be found in the backup will show their status as such.
 
----
-
-#### Custom Paths
-If the file does not current exist, you can access the quick restore menu from the context menu of a backup 
-in the 'Backups' tab:
-![Quick restore button highlighted](quick_restore_backup_button.png)
-
-You can enter a list of custom paths and start the restoration as you would otherwise:
-![Quick restore modal showing custom paths](quick_restore_custom_paths.gif)
-
----
-
-#### Dismissing
+### Dismissing
 
 All active quick restores can be found in the 'Backups' tab:
 ![](quick_restore_list.png)
@@ -174,7 +177,7 @@ If you no longer need their results, you can dismiss them with the ✅ or the di
 
 ---
 
-### Mounting Backups
+## Mounting Backups
 
 In case you only require a limited number of files from a backup, you can also 'mount' it to your server.
 
@@ -197,7 +200,7 @@ To mount a backup, first head over to the 'Backups' tab and locate the backup yo
 In its context menu, click the 'Mount' button:
 ![Mount button highlighted](mount_button.png)
 
-You can set a specific folder to mount it to or leave it on default to mount it to the `backup` folder:
+You can set a specific folder to mount it to or leave it on default to mount it to the `/backup` folder:
 ![Mount modal showing backup path](mount_modal.png)
 
 After confirming, wait until the backup shows up as mounted. This may take a few minutes at most:
@@ -211,7 +214,7 @@ You can also find it in the main folder of your File Manager:
 
 Similarly, you can use [SFTP](../sftp) to access this special folder.
 
-#### Restoring & Copying Mounted Files
+### Restoring & Copying Mounted Files
 
 You can select or right click any file or folder to either restore or copy them.
 
@@ -223,6 +226,13 @@ Copying works as it does by default, and you can even copy the files to a differ
 ![Extract and copy buttons in the file manager](mount_extract.png)
 
 Note that extracting may take significantly longer than a regular copy, since it's done over the network.
+
+### Unmounting
+
+Once you are done, you can unmount the backup by right clicking the backup in the 'Backups' tab or the folder in
+the 'File Manager' tab.
+
+![Unmount button showing for the backup folder row](unmount_folder.png)
 
 ---
 
@@ -279,11 +289,20 @@ You can use the 'Import to database' button in the context menu to re-import the
 
 If you no longer need a specific backup, you can delete it with the 'Delete' button in the context menu.
 
+Note that the backup has to be unlocked for this.
+
 :::warning HEADS UP!
 This is a completely irreversible action. Deleted backups cannot be recovered by any means.
 :::
 
 ![Delete button](delete_button.png)
+
+Since deleting may take a few minutes for larger backups, this is done in the background:
+![Backup marked as scheduled for deletion](delete_scheduled.png)
+![Backup marked as deleting](deleting.png)
+
+You may see this for [automatic backups](#automatic-backup-creation) as well. In that case,
+the scheduled backups are deleted after the new backup has finished generating.
 
 ---
 
@@ -324,9 +343,8 @@ This will **not** remove it from any existing backups.
 
 ## Pro Backup Addon
 
-This is a recurring paid addon for your server which allows you to create **8 backups per day** and store an *
-*additional
-10 backups total**.
+This is a recurring paid addon for your server which allows you to create **8 backups per day** and store an
+**additional 10 backups**.
 
 These changes apply to all [server splits](../split-server) in the same plan!
 
