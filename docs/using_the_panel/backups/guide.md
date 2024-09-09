@@ -31,8 +31,6 @@ You will see a conflict warning in the DuckPanel when this happens.
 | Performance Plus                        | 10                 | 3                   |
 | ✅ [Pro Backup Addon](#pro-backup-addon) | Base plan + 10     | 8                   |
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KnzimsqhwQs?si=NZM1oLrhgWiOqu4P" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
 ---
 
 ## Manual Backup Creation
