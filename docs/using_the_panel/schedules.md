@@ -38,11 +38,5 @@ Here you can also specify a delay. This is useful if you would like to send a ti
 
 ---
 
-## Examples
-
-#### ➤ Daily Restart
-
-![img](/using_the_panel/schedules/4.png)
-
 #### ➤ Daily Backups
 See our [guide](backups.md) on backups!
