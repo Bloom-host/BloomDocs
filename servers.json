@@ -1,5 +1,10 @@
 [
         {
+                "name": "CrackSMP",
+                "ip": "play.cracksmp.net",
+                "type": "PC"
+        },
+        {
                 "name": "BozoKits2",
                 "ip": "nolag.bozokits.net",
                 "type": "PC"
