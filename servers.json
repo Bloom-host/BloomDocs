@@ -1,5 +1,10 @@
 [
         {
+                "name": "Magbungkal.net",
+                "ip": "play.magbungkal.net",
+                "type": "PC"
+        },
+        {
                 "name": "CrackSMP",
                 "ip": "play.cracksmp.net",
                 "type": "PC"
