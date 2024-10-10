@@ -82,8 +82,8 @@ If you would like more frequent backups, you can subscribe to the [Pro Backup Ad
 
 ## File Restoration Options
 
-[Mounting](#mounting-backups), [restoring](#restoring-full-backups) and [quick restoring](#quick-restoring-backups) are 
-all similar and serve to restore specific files from a backup, but when to use them will depend on the task at hand. 
+[Mounting](#mounting-backups), [restoring](#restoring-full-backups) and [quick restoring](#quick-restoring-backups) are
+all similar and serve to restore specific files from a backup, but when to use them will depend on the task at hand.
 
 Here is a flowchart to make the choice easier:
 
@@ -137,11 +137,11 @@ a new quick restore session:
 The following menu consists of 3 steps. You can navigate by clicking the step icon or with your arrow keys:
 
 1. **Backup selection**: You can select which backup to restore from. Only complete backups can be used:
-   
+
    ![Quick restore backup selection step](quick_restore_backups_step.png)
 
 2. **Path selection**: Here you will see all the paths that you selected before.  
-   You can use the text area to enter a list of custom paths, one path per line. Use the '+' button to add the paths.  
+   You can use the text area to enter a list of custom paths, one path per line. Use the '+' button to add the paths.
 
    By default, all paths are restored to their original location, overwriting any existing paths.  
    You can select a different restoration path or even [server split](../split-server) at the bottom of the page.
@@ -149,12 +149,12 @@ The following menu consists of 3 steps. You can navigate by clicking the step ic
    ![Quick restore path selection step](quick_restore_paths_step.png)
 
 3. **Options**: You can choose whether to stop the server to ensure restored files will not be overwritten by the
-   running server. 
+   running server.
 
    Additionally, you can choose to delete paths that are found in the backup. As an example, if you are restoring the
    `world/playerdata/` folder, this option will delete the folder to ensure any player data files that were not in the
    the backup will not linger after the restoration.
-   
+
    ![Quick restore finalise step](quick_restore_finalise_step.png)
 
 Once the quick restore is started, you will be redirected to its status page.
@@ -300,12 +300,8 @@ This is a completely irreversible action. Deleted backups cannot be recovered by
 
 ![Delete button](delete_button.png)
 
-Since deleting may take a few minutes for larger backups, this is done in the background:
-![Backup marked as scheduled for deletion](delete_scheduled.png)
-![Backup marked as deleting](deleting.png)
-
-You may see this for [automatic backups](#automatic-backup-creation) as well. In that case,
-the scheduled backups are deleted after the new backup has finished generating.
+The oldest [unlocked](#locking) backup is deleted automatically when a [scheduled backups](#automatic-backup-creation)
+is generated as well.
 
 ---
 
