@@ -9,11 +9,6 @@ module.exports = {
     organizationName: 'bloom-host',
     projectName: 'bloomdocs',
 
-    plugins: [
-        // Todo (notgeri): waiting on https://github.com/gabrielcsapo/docusaurus-plugin-image-zoom/issues/29
-        /*require.resolve('docusaurus-plugin-image-zoom')*/
-    ],
-
     themeConfig: {
         image: 'https://bloom.host/favicon/favicon-og.png',
         colorMode: {
