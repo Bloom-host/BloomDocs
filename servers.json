@@ -1,5 +1,15 @@
 [
         {
+                "name": "Magbungkal.net",
+                "ip": "play.magbungkal.net",
+                "type": "PC"
+        },
+        {
+                "name": "CrackSMP",
+                "ip": "play.cracksmp.net",
+                "type": "PC"
+        },
+        {
                 "name": "BozoKits2",
                 "ip": "nolag.bozokits.net",
                 "type": "PC"

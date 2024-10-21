@@ -11,8 +11,10 @@ sidebar_label: Server Importer
 Duck Panel has a convenient server importer feature. The server importer allows you to easily import your server into Bloom, saving time and avoiding having to download/upload files yourself.
 
 :::note
-You can also import the databases hosted on your old host! Follow this [guide](https://docs.bloom.host/databases#importing-mysql-databases) to see how to import databases.
+You can also import the databases hosted on your old host! Follow this [guide](/databases#importing-mysql-databases) to see how to import databases.
 :::
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pkaASL6Xros?si=XUdlLLzRMGGoU2bF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
 

@@ -14,7 +14,7 @@ To avoid having to download and re-upload your world each time, Bloom has a pre-
 ## Preparation
 
 :::danger
-**WARNING**: Before doing anything else, please head over to the **[backups](../using_the_panel/backups.md)** guide to create a full backup of your server.
+**WARNING**: Before doing anything else, please head over to the **[backups](/using_the_panel/backups.md)** guide to create a full backup of your server.
 :::
 
 1. In the DuckPanel open your server and, select the 'Settings' tab.
@@ -37,6 +37,11 @@ The default flags will delete all chunks that have only been visited for **1 sec
 `InhabitedTime` is given in ticks, so while this is very safe, it's likely too low for survival servers and the like, so you may have to change `20` to something higher.
 
 If your world is named differently, make sure to adjust it!
+:::note
+If you want to delete chunks of The Nether or The End you will need to specify the DIM-1 folder for those two worlds, since the region folder isn't located in the root of the End/Nether folders. 
+
+Example: world_nether/DIM-1 or world_the_end/DIM-1
+:::
 
 Once you are happy with the flags, return to the 'Console' tab and start the server.
 

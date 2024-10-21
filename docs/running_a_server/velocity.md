@@ -60,7 +60,7 @@ The first section of the config file you need to edit is the `[servers]` section
 
 :::note
 
-Before you setup this section, you're going to want to make sure all your backend servers are internal. You can make your backend servers internal by going to the Ports and Proxies tab under the specific server and clicking "Make Internal", that will remove all public access to your backend servers which is what we want. When a server is internal they are only accessible via other servers in the same split. If you would like to read more information on our internal servers please see [here](/internal-servers).
+Before you setup this section, you're going to want to make sure all your backend servers are internal. You can make your backend servers internal by going to the Ports and Proxies tab under the specific server and clicking "Make Internal", that will remove all public access to your backend servers which is what we want. When a server is internal they are only accessible via other servers in the same split. If you would like to read more information on our internal servers please see [here](internal-servers.md).
 
 :::
 
@@ -92,14 +92,13 @@ After you configure and save your `server.properties` file along with completing
 
 ## Configuring Player Information Forwarding
 
-
 :::warning
 
 It is HIGHLY recommended that your Velocity server is set to online-mode, this is the most secure option for running your server and will reduce hackers and exploits by a ton simply by having it turned on. You can also visit [Velocity’s documentation](https://velocitypowered.com/wiki/users/forwarding/) for more setup help, but it highly recommended that you use modern forwarding.
 
 :::
 
-Part of what makes Velocity more secure than Bungee would be it's modern player information forwarding mode, it is much more secure than Bungee and doesn't require an additional plugin such as BungeeGuard to secure connections between your front-end and back-end servers. 
+Part of what makes Velocity more secure than Bungee would be it's modern player information forwarding mode, it is much more secure than Bungee and doesn't require an additional plugin such as BungeeGuard to secure connections between your front-end and back-end servers.
 
 This is pretty simple to setup. First turn your proxy server offline, then locate the option for `player-info-forwarding` inside `velocity.toml` and set it to `modern`. Next you need to perform additional steps depending on the type of server jar that you're running behind Velocity.
 
@@ -113,7 +112,7 @@ This section also applies to forks based upon Paper such as Purpur or Pufferfish
 
 `Paper 1.14+` and above, along with `Paper 1.13.1/1.13.2 build 377` and above support Velocity modern forwarding natively.
 
-First, turn your backend server offline. 
+First, turn your backend server offline.
 
 You need to disable BungeeCord forwarding if you had it enabled beforehand. Make sure `bungeecord` is set to `false` in your `spigot.yml`.
 
@@ -137,7 +136,7 @@ Keep in mind that this steps have to be repeated for every Paper/Backend server 
 
 ### Modern Forwarding for Fabric
 
-A mod called [FabricProxy-Lite](https://www.curseforge.com/minecraft/mc-mods/fabricproxy-lite) allows you to use Velocity modern forwarding with a modded server using Fabric.
+A mod called [FabricProxy-Lite](https://modrinth.com/mod/fabricproxy-lite) allows you to use Velocity modern forwarding with a modded server using Fabric.
 
 ### BungeeGuard Forwarding for Spigot/Paper
 
@@ -153,10 +152,9 @@ Note that the `bungeeguard` forwarding mode uses legacy BungeeCord forwarding wi
 This section also applies to forks based upon Paper such as Purpur or Pufferfish
 :::
 
-If you cannot use modern forwarding (for example, your server jar doesn’t support Velocity modern forwarding), you might be able to use BungeeGuard instead.
+If you cannot use modern forwarding (for example, your server jar doesn't support Velocity modern forwarding), you might be able to use BungeeGuard instead.
 
-To set this up, see the guide [on how to set up BungeeGuard](/plugins/bungeeguard).
-
+To set this up, see the guide [on how to set up BungeeGuard](waterfall.md#setting-up-bungeeguard).
 
 ## Additional configuation options for velocity.toml
 

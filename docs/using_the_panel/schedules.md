@@ -16,6 +16,8 @@ Schedules are ways to automate certain tasks through the Duck Panel such as star
 The schedule system and our nodes use the UTC time zone. Please keep this in mind while creating schedules. You can use this [website](https://www.timeanddate.com/worldclock/converter.html) to convert time zones. 
 :::
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hfjQ1FfGZVk?si=D7BVdfnsqETjQwJa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ### Creating A Schedule
 
 First, go to your [Duck Panel](https://mc.bloom.host/) and select **Schedules** on the navigation bar.
@@ -35,12 +37,6 @@ Here you can also specify a delay. This is useful if you would like to send a ti
 ![img](/using_the_panel/schedules/3.png)
 
 ---
-
-## Examples
-
-#### ➤ Daily Restart
-
-![img](/using_the_panel/schedules/4.png)
 
 #### ➤ Daily Backups
 See our [guide](backups.md) on backups!

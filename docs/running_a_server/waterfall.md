@@ -16,8 +16,10 @@ keywords:
 ---
 
 :::warning END OF LIFE SOFTWARE
-**As of March 26th, 2024, Waterfall has been marked as EOL by the Paper team**: https://forums.papermc.io/threads/announcing-the-end-of-life-of-waterfall.1088/
+**As of March 26th, 2024, Waterfall has been marked as EOL by the Paper team**: <https://forums.papermc.io/threads/announcing-the-end-of-life-of-waterfall.1088/>
+
 ### **Please migrate to [Velocity](velocity.md) as soon as possible!**
+
 :::
 
 <details>
@@ -42,6 +44,7 @@ To get started with Waterfall, you need to download their latest jar from their 
 When you have downloaded their latest jar file, then you can upload it to your waterfall server when it's created on the next step.
 
 ## Server split Waterfall server
+
 You can use the Server Split feature that Bloom has developed to create a proxy server on bloom's panel.
 You can see in the below image on how you can do so. You need to click on one of your servers to be able to see the server split menu on the left side.
 
@@ -68,6 +71,7 @@ Afterwards it will look like this:
 We'll configure waterfall in the `config.yml` file.
 
 This is how a standard waterfall configuration will look like:
+
 ```yml
 connection_throttle: 4000
 connection_throttle_limit: 3
@@ -126,6 +130,7 @@ You need to have 3 servers in total to be able to use a proxy server. 1 proxy se
 We need to add the backend servers to under the servers menu and the priorities list in the `config.yml` file.
 
 If for example, one of your backend servers is a survival server, you'll need to add this under your server section:
+
 ```yaml
 survival:
     motd: '&1Survival Server'
@@ -138,6 +143,7 @@ Remeber to use your backend server's own serverid and replace the example above
 Afterwards you'll need to add the survival server to under priorities.
 
 When you're done with adding backend servers it might look like this:
+
 ```yaml
 connection_throttle: 4000
 connection_throttle_limit: 3
@@ -234,11 +240,13 @@ Make sure your BungeeCord is on the latest version. Also, make sure to use versi
 After you have restarted the servers you installed BungeeGuard on, enter the `config.yml` file located in your BungeeCord's BungeeGuard directory and copy the authentication token. Paste this authentication token into the `config.yml` file within your Spigot servers' BungeeGuard directory.  
 
 Example configuration:
+
 ```YAML
 # Allowed authentication tokens.  
 allowed-tokens:
   - "AUSXEwebkOGVnbihJM8gBS0QUutDzvIG009xoAfo1Huba9pGvhfjrA21r8dWVsa8"
 ```
+
 Now, restart all your servers you installed BungeeGuard on and test to see if it's properly working!
 
 </details>

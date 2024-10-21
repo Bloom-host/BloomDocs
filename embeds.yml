@@ -4,7 +4,7 @@
 help:
   title: 'BloomBot Help'
   title-icon: '%guildicon%'
-  thumbnail: 'https://cdn.discordapp.com/icons/720081782980083813/a_b14b3675972cae4aa909387ee4b7995f.gif'
+  thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/animated_icon.gif'
   footer: 'BloomBot - Bloom.host'
   fields:
     - title: ':grey_question: Help Commands'
@@ -21,7 +21,9 @@ help:
         • [Website](https://bloom.host/)
         • [Billing Panel](https://billing.bloom.host/)
         • [Duck Panel](https://mc.bloom.host/)
-        • [VPS Panel](https://vps.bloom.host/)
+        • [Old VPS Panel](https://vps.bloom.host/)
+        • [VPS Panel](https://virt.bloom.host/)
+        • [Bare Metal Panel](https://dedi.bloom.host/)
       inline: true
     - title: ':gear: Misc Commands'
       description: |+
@@ -40,19 +42,47 @@ help:
         • `!remove <@user | userid>` - Remove a user from your ticket
       inline: true
 
+clientlogs:
+  aliases: [ 'clogs' ]
+  colour: '#D7B48E'
+  description: |+
+    ## 🪵 Fetch Client Logs
+    In order to fetch your latest client-side logs, please follow these steps:
+    1. In-game, press 'Options', then 'Resource Packs' and then 'Open Pack Folder'.
+    2. In the file explorer, go a directory above your current one and locate `logs/`
+    3. Within, find the `latest.log` file and drag & drop it to Discord.
+  image: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/client_logs.gif'
+
+timezone:
+  aliases: [ 'tz' ]
+  colour: '#FAFAFA'
+  description: |+
+    ## ⏱ Timezone Change
+    ### DuckPanel
+    It is **not** possible to change the timezone of the panel currently.
+    
+    ### Java
+    You can change the timezone for Minecraft and other Java-based servers by adding the following flag to the 'Startup'
+    tab:
+    ```
+    -Duser.timezone=<timezone here>
+    ```
+    You can find a [list of valid timezones here](https://tutorials.jenkov.com/java-date-time/java-util-timezone.html).
+  image: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/timezone.png'
+
 billing:
   aliases:
     - 'billingticket'
     - 'ticket'
     - 'verification'
     - 'verify'
-  title: '📜 Changes to services and accounts need Billing Account verification'
+  title: '📜 Changes To Services Require Account Verification'
   description: |+
-    The staff needs to confirm you are the account holder to be able to process
-    changes on your services and accounts.
+    Our staff need to confirm you are the account holder to be able to process changes on your services and accounts.
 
-    Please go to the support section of our Billing Panel located [here](https://billing.bloom.host/supporttickets.php), sign in with your Billing Account and open a Billing Ticket requesting the change or plan upgrade.
-  thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/tY6IAF.png'
+    Please go to the support section of our billing area [located here](https://billing.bloom.host/supporttickets.php).
+    Once signed in, please open a billing ticket requesting the change.
+  thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/docs_icon.png'
   image: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/billing_ticket.png'
   buttons:
     - [ 'Open Billing Ticket', 'https://billing.bloom.host/submitticket.php', '<:bloom:732019289741066379>', '1' ]
@@ -66,7 +96,7 @@ voicechat:
   image: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/voicechat-2.png'
   title: 'Sponsored by Bloom: Simple Voice Chat'
   title-icon: '%guildicon%'
-  description: |+
+  description: >
     Simple Voice Chat is an easy-to-use and reliable in-game voice chat
     modification and plugin for Minecraft servers.
   buttons:
@@ -80,7 +110,7 @@ demo:
   title: '<:aaaduck:755553395363938344> Bloom.host Demo Panel'
   image: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/demo.png'
   description: |+
-    Check out our demo panel with all the Duck panel's features and looks!
+    Check out our demo panel with all the DuckPanel's features and looks!
   buttons:
     - [ 'Open Demo', 'https://demo.bloom.host', '<:aaaduck:755553395363938344>' ]
 
@@ -94,7 +124,7 @@ updating:
   title: '📜 How to update, change versions or change server jar'
   description: >
     Check out our comprehensive guide on how to update, change versions
-    or server jar [here](https://docs.bloom.host/updating/).
+    or server jar [here](https://docs.bloom.host/running_a_server/updating).
   thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/tY6IAF.png'
   image: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/running_a_server/updating/1.png'
 
@@ -122,7 +152,7 @@ paper:
     security, and gameplay consistency. It's generally the most popular and
     recommended fork among the MC community, meeting the needs of most MC
     servers out there.
-    
+
     PaperMC is compatible with every plugin that works on Spigot (except outdated ones, you shouldn't be using these either way), and even improves performance on some optimized plugins meant to work better on Paper.
   thumbnail: 'https://avatars.githubusercontent.com/u/7608950'
   fields:
@@ -145,7 +175,7 @@ aikar:
     the server's available memory for better performance. You can see your
     server's actual memory usage by running `tps mem` command
     (or `memory` if you use EssentialsX) from your server console.
-    
+
     🔗 Wish to know more? Check out [this post](https://docs.papermc.io/paper/aikars-flags/)!
   thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/tY6IAF.png'
   image: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/gNzJPp.png'
@@ -158,7 +188,7 @@ contribute:
     contribute too! Fork the documentation repository or write an article in PDF
     or on a Word document and send it to us through a support ticket and we will
     add it.
-    
+
     🔗 Wish to know more? Check out [how to contribute to our documentation](https://github.com/Bloom-host/BloomDocs/blob/master/README.md)!
   thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/tY6IAF.png'
   image: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/documentation.png'
@@ -174,11 +204,12 @@ fbiinfo:
     - 'piracyisbad'
     - 'crackedserver'
     - 'cracked'
+    - 'offline'
   title: '🚫 Piracy Is Bad'
   colour: '#dd2e44'
   thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/85dAco.png'
   description: >
-    In case you are doing any of the following, you will  __not recieve
+    In case you are doing any of the following, you will  __not receive
     any support__ from Bloom community, staff members, most plugin developers
     and server/proxy software staff.
   fields:
@@ -193,7 +224,7 @@ fbiinfo:
     - title: '🏴‍☠ Pirated Software'
       description: >
         Using any kind of software obtained from unofficial sites such as
-        BlackSpigot has a high chance of containing viruses, force-op and more.
+        BlackSpigot has a high chance of containing viruses, force-op, and more.
         If you wish to use Premium software, pay for it.
       inline: false
 
@@ -214,7 +245,7 @@ winmtr:
     - title: '<:windows:849551086158741524> Windows'
       description: |+
         You can use a software such as [WinMTR](https://sourceforge.net/projects/winmtr/).
-        
+
         **1**. Click the link and download the application
         **2**. Extract the downloaded archive and open the folder.
         **3**. Start the `WinMTR.exe` file and enter your server's IP address in the 'host' field.
@@ -236,7 +267,7 @@ grafana:
   description: >
     Setup Grafana, Prometheus, and UnifiedMetrics so you can have more
     stats about your minecraft server, which couldn't be done without our lovely
-    server splitter :) 
+    server splitter :)
     Guide located [here](https://docs.bloom.host/other-servers/grafana/).
   image: 'https://raw.githubusercontent.com/Cubxity/UnifiedMetrics/dev/0.3.x/.github/assets/grafana.png'
 
@@ -358,9 +389,9 @@ velocity:
   title: 'Velocity'
   description: |+
     Velocity is a next-generation Minecraft proxy focused on scalability and flexibility created by the initial developer of Waterfall and RedisBungee.
-    
+
     Velocity uses less CPU and RAM, leaving more resources for your server.
-    
+
     Velocity also features modern forwarding, leaving your back-end servers safe.
 
     Check out our comprehensive guide on Velocity [here](https://docs.bloom.host/velocity).
@@ -382,6 +413,11 @@ security:
   fields:
     - title: 'Using BungeeCord/Waterfall'
       description: |+
+        ⚠️ Waterfall as of March 26th, 2024 is now considered End of Life and will not recieve updates going forward.
+        It is currently recommended to migrate to [Velocity](https://docs.bloom.host/velocity) as soon as possible.
+        More information is available [on the PaperMC website](https://forums.papermc.io/threads/announcing-the-end-of-life-of-waterfall.1088/)
+
+
         When using a proxy software such as BungeeCord or Waterfall, make sure:
         • `online-mode=` is set to `false` in server.properties
         • `bungeecord:` is set to `true` in spigot.yml
@@ -424,15 +460,15 @@ welcome:
   description: |+
     Welcome to Bloom! We are happy to have you!
     You can log in into our Minecraft panel using this link: https://mc.bloom.host
-    
+
     **The login credentials for our Minecraft panel are the same you use for your billing account.**
-    
+
     For **Virtual Private Servers (VPS)** you will receive an email with a randomly generated password, IP address and VNC credentials. You can reset the root and VNC password in the VPS control panel.
-    
+
     You can log in into our VPS panel using this link: https://vps.bloom.host
-    
+
     If you don't receive the email, you can click on 'Forgot Password?' and it will sent you a link to configure a new one.
-    
+
     **Remember to join our main Discord server:** https://discord.gg/bloom
   buttons:
     - [ 'Join main Discord', 'https://discord.gg/bloom' ]
@@ -449,17 +485,17 @@ panelissues:
     - Try clearing your browser cache from the browser settings or use Ctrl + F5 while on the Bloom panel.
     - Try using incognito mode on your browser to access the panel. (At the top right of your browser, click the three dots and then New Incognito Window.)
     - Try another browser.
-    
+
     If the steps above don't fix it then it indicates you may have an issue with your network connection, if that's the case follow the steps below:
     - Try accessing the panel with your phone using mobile data and not wifi. You can also share a hotspot to your PC.
     - Try using a VPN like Cloudflare WARP https://1.1.1.1/ and see if that fixes it. If the issue gets fixed by using a VPN then there's an issue with your network connection. You can try restarting your router/modem and computer and see if that fixes it, if not then you may need to contact your ISP to report the issue.
 
-# Todo: this is really generic
 waterfall:
-  title: '📜 Bloom Docs - Setting up a Waterfall Proxy Server'
+  title: '⚠️ Waterfall - End of Life'
   description: >
-    Check out our comprehensive guide on Setting up a Waterfall Proxy
-    Server' details [here](https://docs.bloom.host/waterfall).
+      Waterfall as of March 26th, 2024 is now considered End of Life and will not recieve updates going forward.
+      It is currently recommended to migrate to [Velocity](https://docs.bloom.host/velocity) as soon as possible.
+      More information is available [on the PaperMC website](https://forums.papermc.io/threads/announcing-the-end-of-life-of-waterfall.1088/)
   thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/tY6IAF.png'
 
 # Todo: this is really generic
@@ -505,7 +541,7 @@ panel:
     - 'bc'
   title: '📜 Bloom Docs - Duck Panel'
   description: >
-    Check out our showcase of the Duckpanel
+    Check out our showcase of the DuckPanel
     [here](https://Bloom.host/duck-panel) and our in-depth documentation of it
     [here](https://docs.bloom.host/basic-controls/).
   thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/tY6IAF.png'
@@ -524,7 +560,7 @@ upgrade:
     On the upgrade page you will be able to select to what location and plan you want to upgrade/downgrade to, here you can also switch between datacenter locations. Once you select the plan it will generate an invoice (if needed) which needs to be paid before the upgrade and transfer process begins.
 
     **If you want to upgrade/downgrade a VPS or downgrade to a Minecraft Essentials plan open a Billing Ticket [here](https://billing.bloom.host/clientarea.php?action=services)**
-    
+
     Read more about how upgrades work [here](https://docs.bloom.host/billing/upgrades/#transfers).
   thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/tY6IAF.png'
   image: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/upgrade.png'
@@ -791,6 +827,12 @@ forge:
   thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/tY6IAF.png'
   image: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/SylbcQ.png'
 
+gtnh:
+  title: '📜 Bloom Docs - GTNH'
+  description: >
+    Check out our guide to installing Gregtech: New Horizons [here](https://docs.bloom.host/gtnh/).
+  thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/plugins_and_modifications/gtnh/GTNH_icon.png'
+
 plugins:
   aliases:
     - 'plugin'
@@ -903,6 +945,10 @@ timings:
   aliases: [ 'timing' ]
   title: '📜 Bloom Docs - Timings'
   description: >
+    ⚠️ Timings has been deprecated by PaperMC team in 1.21 and will be removed in a future version.
+    The PaperMC team will be replacing timings with Spark (see `!spark`).
+    More information is available [here](https://github.com/PaperMC/Paper/discussions/10565).
+
     Check out our comprehensive guide on creating a timings report to
     debug TPS issues on your server [here](https://docs.bloom.host/timings/).
   thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/tY6IAF.png'
@@ -985,14 +1031,14 @@ codes:
     - `PERFPLUSME`: 20% off your first Performance Plus plan
   buttons:
     - [ 'Create Your Server Now', 'https://bloom.host/', '🎉' ]
-    
+
 api:
   aliases: ['ptapi', 'pterodactylapi']
   title: '📜 Bloom Docs - How to Use the Pterodactyl API'
   description: >
-    There are several ways to use the Pterodactyl API. 
-    For Python, you can use [Py-Dactyl](https://pypi.org/project/py-dactyl/). 
-    For Java, you can use [Pterodactyl4J](https://github.com/mattmalec/Pterodactyl4J). 
+    There are several ways to use the Pterodactyl API.
+    For Python, you can use [Py-Dactyl](https://pypi.org/project/py-dactyl/).
+    For Java, you can use [Pterodactyl4J](https://github.com/mattmalec/Pterodactyl4J).
     Alternatively, you can make requests using [Ptero API](https://api.ptero.sh/#/operations/get-server-file-contents).
 
 
@@ -1127,19 +1173,23 @@ translate-command:
   enabled: false
   text: '<:translate:989542523464716349> **%username%**: %newtext%'
 
-# Sent when the !translate command is sent without arguments
-# Placeholders: %status%
-translation-status:
-  enabled: false
-  title: '<:translate:989542523464716349> Translation Status: %status%'
-  description: Toggle to status with the `!ticket toggle` command!
-
-# Sent when the /notes list command is used
+# Sent when the /notes list command is used for a ticket
 # Placeholders: %ticketid%, %ticketstatus%
 # Custom data: note-format (%id%, %content%, %addedat%, %addedby%)
 ticket-notes:
   enabled: false
   title: 'Ticket #%ticketid% — Notes'
+  colour: '#ffc710'
+  description: '%notes%'
+  custom-data:
+    note-format: "`#%id%` <@%addedby%>: %content%\n"
+
+# Sent when the /notes list command is used for users
+# Placeholders: %username%, %userid%
+# Custom data: note-format (%id%, %content%, %addedat%, %addedby%)
+user-notes:
+  enabled: false
+  title: 'User %username% — Notes'
   colour: '#ffc710'
   description: '%notes%'
   custom-data:
@@ -1305,7 +1355,7 @@ tickets-general:
     Thank you, %username% for opening a ticket! We will be with you as soon as
     possible. For us to better assist you, please provide your server ID and a
     description of your issue.
-    
+
     For billing inquiries such as upgrades, downgrades, or refunds, please open a ticket on our billing panel: https://billing.bloom.host/submitticket.php
   footer: 'Tickets - Bloom.host'
   image: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/line.png'
@@ -1343,7 +1393,7 @@ minecraft-ess:
     Location: Dallas (US Central), Ashburn (US East), Los Angeles (US West), Miami (US Southeast), Germany
     Size: 4GB, 6GB
     ```
-    
+
     **Note: selecting multiple options can decrease your wait time significantly.**
     You will receive a ping when your spot is ready. In the mean time feel free to ask us any questions and don't forget to join our main Bloom discord at https://discord.gg/bloom
     **If this is a transfer from another Bloom location or a plan upgrade, please provide your Bloom.host Billing Account email address.**
@@ -1354,7 +1404,7 @@ minecraft-perf:
   description: |+
     :wave:
     Thank you for joining the **Minecraft Performance** waitlist!
-    
+
     **Please respond with the following choices:**
     ```YAML
     Location: Dallas (US Central), Ashburn (US East), Los Angeles (US West), Miami (US Southeast), Germany
@@ -1371,13 +1421,13 @@ minecraft-perfplus:
   description: |+
     :wave:
     Thank you for joining the **Minecraft Performance+** waitlist!
-    
+
     **Please respond with the following choices:**
     ```YAML
     Location: Dallas (US Central), Ashburn (US East), Los Angeles (US West), Miami (US Southeast), Germany, Singapore
     Size: 8GB, 12GB, 16GB, 20GB, 24GB, 32GB
     ```
-    
+
     **Note: selecting multiple options can decrease your wait time significantly.**
     You will receive a ping when your spot is ready. In the mean time feel free to ask us any questions and don't forget to join our main Bloom discord at https://discord.gg/bloom
     **If this is a transfer from another Bloom location or a plan upgrade, please provide your Bloom.host Billing Account email address.**
@@ -1394,7 +1444,7 @@ vps-perf:
     Location: Dallas (US Central), Ashburn (US East), Los Angeles (US West), Miami (US Southeast)
     Size: 4GB, 8GB, 12GB, 16GB, 20GB, 24GB
     ```
-    
+
     **Note: selecting multiple options can decrease your wait time significantly.**
     You will receive a ping when your spot is ready. In the mean time feel free to ask us any questions and don't forget to join our main Bloom discord at https://discord.gg/bloom
     **If this is a transfer from another Bloom location or a plan upgrade, please provide your Bloom.host Billing Account email address.**
@@ -1409,12 +1459,12 @@ baremetal-waitlist:
     **Please respond with which server(s) you are interested in, and one of our staff members will respond shortly to confirm your spot.**
     ```YAML
     Location: Ashburn (US east), Los Angeles (US West)
-    
+
     Options (Ashburn only): Ryzen 5 5600X, Ryzen 7 5800X, Ryzen 9 5950X
-    
+
     Options (Ashburn and Los Angeles): Ryzen 7 7700X, Ryzen 9 7950X (128GB RAM), Ryzen 9 7950X (192GB RAM)
     ```
-    
+
     The full specifications of each server can be found on our website at https://bloom.host/bare-metal-dedicated/ where you can also find a list of available add-ons
 
 vps-perfplus:
@@ -1429,7 +1479,7 @@ vps-perfplus:
     Location: Dallas (US Central), Ashburn (US East), Los Angeles (US West), Miami (US Southeast), Germany, Singapore
     Size: 8GB, 12GB, 16GB, 20GB, 24GB
     ```
-    
+
     **Note: selecting multiple options can decrease your wait time significantly.**
     You will receive a ping when your spot is ready. In the mean time feel free to ask us any questions and don't forget to join our main Bloom discord at https://discord.gg/bloom
     **If this is a transfer from another Bloom location or a plan upgrade, please provide your Bloom.host Billing Account email address.**

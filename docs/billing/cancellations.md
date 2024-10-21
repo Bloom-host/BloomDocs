@@ -47,5 +47,5 @@ To cancel a PayPal Subscription (recurring payment) follow this steps:
 :::caution
 You may request a refund on the basis that you have submitted an "Immediate" cancellation request and fall within 72 hours of the initial payment, and activation of your service. Refund requests should be requested via a ticket through our [billing panel](https://billing.bloom.host/supporttickets.php). These refunds are only issued on a one-time per customer basis.
 
-You can visit our [Refund documentation](https://docs.bloom.host/billing/refunds) to learn more about our refund policy. You can also read our [Terms and Service Policy](https://bloom.host/terms/).
+You can visit our [Refund documentation](/billing/refunds) to learn more about our refund policy. You can also read our [Terms and Service Policy](https://bloom.host/terms/).
 :::

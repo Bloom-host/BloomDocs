@@ -12,7 +12,7 @@ This guide is for BungeeCord/Velocity proxies. If you are looking for instructio
 
 :::caution Waterfall is End of Life
 Waterfall is considered end of life by the PaperMC team and is no longer maintained.
-The PaperMC group recommends that all users should migrate to [Velocity](velocity.md).
+The PaperMC group recommends that all users should migrate to [Velocity](/velocity).
 
 More information is available at: https://forums.papermc.io/threads/announcing-the-end-of-life-of-waterfall.1088/
 :::

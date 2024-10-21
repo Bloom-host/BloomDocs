@@ -23,13 +23,13 @@ Vault provides a common API to give plugins access to chat, permission and econo
 ## Installation Instructions
 Download Vault from its [Spigot Resource page](https://www.spigotmc.org/resources/vault.34315/) or its [BukkitDev page](https://dev.bukkit.org/projects/vault) or directly from its [GitHub repo](https://github.com/MilkBowl/Vault/releases).
 
-Next, install the plugin into the `plugins` folder in your server. Need help? Check out [this guide](https://docs.bloom.host/installing-plugins).
+Next, install the plugin into the `plugins` folder in your server. Need help? Check out [this guide](../installing-plugins.md).
 
 ## Usage instructions
 
-Vault works out of the box without configuration in most cases. Plugins that hook into Vault (e.g. [LuckPerms](https://docs.bloom.host/plugins/luckperms)) will automatically find Vault and connect to it and provides a hook for plugins to work with it.
+Vault works out of the box without configuration in most cases. Plugins that hook into Vault (e.g. [LuckPerms](../multiplatform/luckperms.md)) will automatically find Vault and connect to it and provides a hook for plugins to work with it.
 
-Other plugins, such as [DiscordSRV](https://docs.bloom.host/plugins/discordsrv) can use the information provided by Vault (e.g. DiscordSRV can get the group names from your permissions plugin)
+Other plugins, such as [DiscordSRV](discordsrv.md) can use the information provided by Vault (e.g. DiscordSRV can get the group names from your permissions plugin)
 
 ### Commands
 

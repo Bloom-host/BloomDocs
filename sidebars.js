@@ -53,7 +53,7 @@ module.exports = {
                 'using_the_panel/file-manager-controls',
                 'using_the_panel/server-importer',
                 'using_the_panel/schedules',
-                'using_the_panel/backups',
+                'using_the_panel/backups/backups',
                 'using_the_panel/users',
                 'using_the_panel/databases',
                 'using_the_panel/ports-and-proxies',
@@ -76,7 +76,7 @@ module.exports = {
                 'running_a_server/java-version',
                 'running_a_server/datapacks',
                 'running_a_server/spark',
-                'running_a_server/timings',
+                'running_a_server/timings', // Deprecated, will be removed in a future version of Paper (https://github.com/PaperMC/Paper/discussions/10565)
                 'running_a_server/icon',
                 'running_a_server/motd',
                 'running_a_server/whitelist', // How to turn on whitelist for both Java and Bedrock
@@ -85,7 +85,7 @@ module.exports = {
                 'running_a_server/converting-worlds', // Converting worlds used on Bukkit (and forks) servers to allow for use in singleplayer/other server software
                 "plugins_and_modifications/fabric-setup",
                 "plugins_and_modifications/forge-setup",
-                'running_a_server/waterfall', // [Unsupported] BungeeCord fork 
+                'running_a_server/waterfall', // [Unsupported] BungeeCord fork
                 'running_a_server/velocity',
                 'running_a_server/internal-servers',
                 'running_a_server/binarysearch', // Troubleshooting errors caused by plugins
@@ -183,6 +183,10 @@ module.exports = {
                     id: "plugins_and_modifications/modpacks",
                 },
                 {
+                    type: 'doc',
+                    id: "plugins_and_modifications/gtnh", //GTNH
+                },
+                {
                     type: 'category',
                     label: "Fabric mods",
                     items: [ // Note: Chunky and LuckPerms pages were moved to multiplatform category
@@ -195,6 +199,7 @@ module.exports = {
                     label: "Multi-platform plugins & mods",
                     items: [
                         'plugins_and_modifications/multiplatform/advancedban', // Bans and punishment manager (Bukkit/Spigot/Paper, BungeeCord)
+                        'plugins_and_modifications/multiplatform/bluemap', // 3D web map (Spigot/Paper, Paper/Folia, Forge, Fabric, Neoforge, Sponge)
                         'plugins_and_modifications/multiplatform/chunky', // World pre-generation plugin (Bukkit, Fabric, Forge)
                         'plugins_and_modifications/multiplatform/dynmap', // Dynamic web map of Minecraft worlds (Spigot/Paper, Forge, Fabric)
                         'plugins_and_modifications/multiplatform/litebans', // Bans and punishment manager (Spigot/Paper, BungeeCord, Velocity)
@@ -234,32 +239,14 @@ module.exports = {
                         'plugins_and_modifications/plugins/viaversion',
                         'plugins_and_modifications/plugins/votifier', // Minecraft server vote site listener
                         'plugins_and_modifications/plugins/vulcan', // anticheat
+                        'plugins_and_modifications/plugins/oraxen',
+                        'plugins_and_modifications/plugins/denizen',
+                        'plugins_and_modifications/plugins/ajLeaderboards',
+                        'plugins_and_modifications/plugins/AdvancedEnchantments',
+                        'plugins_and_modifications/plugins/CMI',
                         "plugins_and_modifications/install-proxy-plugin", // BungeeCord/Velocity proxy plugin install guide
                     ]
-                },
-                {
-                    type: 'category',
-                    label: "Fabric mods",
-                    items: [ // Note: Chunky and LuckPerms pages were moved to multiplatform category
-                        'plugins_and_modifications/fabric_mods/performance-mods' // Mods intended to improve client/server performance
-                    ]
-                },
-
-                {
-                    type: 'category',
-                    label: "Multi-platform plugins & mods",
-                    items: [
-                        'plugins_and_modifications/multiplatform/advancedban', // Bans and punishment manager (Bukkit/Spigot/Paper, BungeeCord)
-                        'plugins_and_modifications/multiplatform/chunky', // World pre-generation plugin (Bukkit, Fabric, Forge)
-                        'plugins_and_modifications/multiplatform/dynmap', // Dynamic web map of Minecraft worlds (Spigot/Paper, Forge, Fabric)
-                        'plugins_and_modifications/multiplatform/litebans', // Bans and punishment manager (Spigot/Paper, BungeeCord, Velocity)
-                        'plugins_and_modifications/multiplatform/luckperms', // Permissions (Bukkit/Spigot/Paper, BungeeCord, Sponge, Forge, Fabric, Nukkit, Velocity)
-                        'plugins_and_modifications/multiplatform/plan', // Player Analytics, (Bukkit/Spigot/Paper, Sponge, Nukkit, Fabric)
-                        'plugins_and_modifications/multiplatform/simple-voice-chat', // Voice chat (Bukkit/Spigot/Paper, Forge, Fabric)
-                        'plugins_and_modifications/multiplatform/squaremap', // Online map (Paper, Fabric, Sponge)
-                        'plugins_and_modifications/multiplatform/worldedit' // World management (Bukkit, Forge, Fabric, Sponge)
-                    ]
-                },
+                }
             ]
         },
 
@@ -307,18 +294,6 @@ module.exports = {
                 'billing/billing_subusers',
                 'billing/paypal',
                 'billing/stripe'
-            ],
-        },
-
-        {
-            type: 'category',
-            label: 'Other Servers',
-            collapsed: true,
-            items: [
-                'other-servers/ark',
-                'other-servers/caddy-server',
-                'other-servers/grafana',
-                'other-servers/namelessmc'
             ],
         },
 

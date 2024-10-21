@@ -24,6 +24,11 @@ It is recomended to use an alternative solution such as [Vulcan](vulcan.md).
 The following information is for archival purposes only.
 :::
 
+<details>
+<summary>
+VIEW LEGACY DOCUMENTATION
+</summary>
+
 ## What does the plugin do?
 
 AAC protects your server from gamebreaking hacks and unfair advantages such as:
@@ -70,7 +75,7 @@ A "check" in an anticheat is a part of the plugin that analyzes if the player is
 - `decay:` determines how fast violations for a player will decay
 
 The thresholds section is pretty simple, it just determines what commands should be run when a player/potential-hacker reaches a certain violation level (VL)
-- See [Conditional Commands](https://docs.bloom.host/plugins/cc) for info on reducing lag related kicks/bans
+- See [Conditional Commands](/plugins/cc) for info on reducing lag related kicks/bans
 
 ## There's a false positive, what do I do?
 ### AAC's configurability means that false positives are easily fixed. There are two types of false positives:
@@ -99,3 +104,5 @@ Advanced Anti-Cheat is very user configurable, and as a result of this, is highl
 :::
 
 [Spigot Page](https://www.spigotmc.org/resources/aac-advanced-anti-cheat-hack-kill-aura-blocker.6442/)  
+
+</details>

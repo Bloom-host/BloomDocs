@@ -12,6 +12,8 @@ You can access your server's main control panel [here](https://mc.bloom.host/). 
 
 ![console](/using_the_panel/basic_controls/1.png)
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0Gh5l5Ztw_c?si=w5bR9vGWFqGyRJ3E" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+
 ---
 
 ### Live Information
