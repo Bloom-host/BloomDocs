@@ -48,10 +48,6 @@ module.exports = {
             },
             items: [
                 {
-                    type: 'localeDropdown',
-                    position: 'right',
-                },
-                {
                     href: 'https://bloom.host/',
                     label: 'Website',
                 },
@@ -86,10 +82,5 @@ module.exports = {
             },
         ],
     ],
-
-    i18n: {
-        defaultLocale: 'en',
-        locales: ['en', 'es'],
-    },
 
 };
