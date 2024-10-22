@@ -9,10 +9,6 @@ module.exports = {
     organizationName: 'bloom-host',
     projectName: 'bloomdocs',
 
-    plugins: [
-        require.resolve('docusaurus-plugin-image-zoom')
-    ],
-
     themeConfig: {
         image: 'https://bloom.host/favicon/favicon-og.png',
         colorMode: {
@@ -52,10 +48,6 @@ module.exports = {
             },
             items: [
                 {
-                    type: 'localeDropdown',
-                    position: 'right',
-                },
-                {
                     href: 'https://bloom.host/',
                     label: 'Website',
                 },
@@ -90,10 +82,5 @@ module.exports = {
             },
         ],
     ],
-
-    i18n: {
-        defaultLocale: 'en',
-        locales: ['en', 'es'],
-    },
 
 };

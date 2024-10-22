@@ -64,6 +64,6 @@ Additionally, here are other settings that you can modify in the `config.yml` of
 ---
 
 ## Updating
-When updating from <1.4, please make sure to reset your `config.yml` by renaming or deleting it.
+When updating from \<1.4, please make sure to reset your `config.yml` by renaming or deleting it.
 
 Otherwise, simply re-upload the latest JAR file will work!  

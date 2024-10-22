@@ -70,13 +70,6 @@ and links.
 You can also see [a formatted version of the template](https://docs.bloom.host/extras/template/) to see what the
 formatted elements will look like when imported into the documentation website.
 
-### Internationalisation (i18n)
-
-You can also help translate the wiki into another language that you’re fluent in. Please see
-the [guide on how to do this](https://docs.bloom.host/extras/contributing#adding-a-language).
-
-You may also find the [Docusaurus documentation about i18n](https://docusaurus.io/docs/i18n/introduction) useful.
-
 ---
 
 ### Note

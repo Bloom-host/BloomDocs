@@ -54,23 +54,23 @@ LiteBans offers many commands to moderate your server, below will be a short lis
 /history
 ```
 The ban command disallows the affected player from joining the server for the specified time.
-The syntax for the ban command is /ban (-s) {Player} [Time] [Reason]
+The syntax for the ban command is /ban (-s) \{Player} [Time] [Reason]
 If no time is specified, it will be permanent, if no reason is provided, it will default to whatever is listed in the config.
 
 The Kick command kicks the player off of the server, they wont be prevented from joining again
-The syntax for the kick command is /kick {Player} [Reason]
+The syntax for the kick command is /kick \{Player} [Reason]
 If no reason is provided, it will default to whatever is listed in the config.
 
 The ban command disallows the affected player from speaking in chat for the specified time.
-The syntax for the ban command is /mute (-s) {Player} [Time] [Reason]
+The syntax for the ban command is /mute (-s) \{Player} [Time] [Reason]
 If no time is specified, it will be permanent, if no reason is provided, it will default to whatever is listed in the config.
 
 The warn command will send the targeted player a message in chat, and if enabled in the config, deal a punishment automatically on a certain number of warns.
-The syntax for the warn command is /warn (-s) {Player} [Reason]
+The syntax for the warn command is /warn (-s) \{Player} [Reason]
 A reason is required for a warn.
 
 The history command displays the punishment history of a given player, this includes all kicks, mutes, warns, and bands the player has received.
-The syntax for the history command is /history {Player}
+The syntax for the history command is /history \{Player}
 
 You may notice some of the commands have a (-s) in the syntax, if you put -s in that spot when executing the command it will silently execute the command. When done silently only players with a certain permission will see the punishment, otherwise everyone online will see it.
 
