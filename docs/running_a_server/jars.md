@@ -12,14 +12,12 @@ keywords:
   - Forge
   - Fabric
   - Purpur
-  - Airplane
   - Pufferfish
   - Server Jars
   - Minecraft
   - Modded Server Jars
   - Plugin Server Jars
   - Bloom.host
-  - Minestom 
 ---
 
 ## Recommended Software:
