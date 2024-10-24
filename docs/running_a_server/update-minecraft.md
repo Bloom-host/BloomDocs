@@ -1,26 +1,24 @@
 ---
-id: 1.19
-title: 1.19 Update
-slug: /1.19
+id: update-minecraft
+title: Update Minecraft Server
+slug: /updateminecraft
 hide_table_of_contents: true
-sidebar_label: ❗ How to update to 1.19 ❗
+sidebar_label: ❗ How to update your Minecraft Server ❗
 ---
 
 ### Introduction
 
-Minecraft 1.19 - The Wild Update has been released!
+With every update it takes a while for softwares such as Spigot, Paper and forks of it to update and support all the changes. Unfortunately it's not possible to have a set ETA for new versions, but you can keep track of updates on [SpigotMC.org](https://www.spigotmc.org) or on  [PaperMC's Discord](https://discord.gg/papermc)!
 
-With every update it takes a while for softwares such as Spigot, Paper and forks of it to update and support all the changes. Unfortunately it's not possible to have a set ETA for 1.19 support but you can keep track of updates on [SpigotMC.org](https://www.spigotmc.org) or on  [PaperMC's GitHub](https://github.com/PaperMC/Paper/issues/7780)!
-
-Moving forward the game will use Java's latest release, Java 17.
+Moving forward the games latest versions will use Java 21.
 
 ---
 
 ### Precautions
 A new version of the game with loads of new content also means potential new exploits and issues.
-- Before updating be sure to create and test a backup of your entire server. Downgrading a world without causing corruption is near impossible.
+- Before updating, be sure to create and test a backup of your entire server. Downgrading a world without causing corruption is near impossible.
 - Moreover, if you aren't utilizing our [completely free and automatic backup feature](../using_the_panel/backups.md), we would highly suggest you set that up before updating.
-- Once you update to 1.19 you can't go back to any previous version, unless you reset your worlds or restore a backup that was made when the server was on the previous version.
+- Once you update to a newer version of minecraft you can't go back to any previous version, unless you reset your worlds or restore a backup that was made when the server was on the previous version.
 
 :::important
 
@@ -37,17 +35,17 @@ From Paper 1.19.3 build 425, the server will not stop on cyclic dependencies for
 ---
 
 ### Updating The Jar using Bloom's Server Type System - How to update your server
-Once your desired server jar supports 1.19, simply follow these steps to update:
+Once your desired server jar supports the version you want to upgrade to, simply follow these steps to update:
 - Make sure that your server is backed up completely.
 - [Create full backup](../using_the_panel/backups.md) of your server. (As an additional step, we would suggest testing this backup on a local or a split test server)
 - Go to the Settings section of the Minecraft Panel and under the Change Server Type section click on the "Update" button.
-- If there's no update button you can choose the server type (Jar) you want to use, then on version select 1.19 and click on Change Egg then click on Reinstall Now. Do note that not all server jars have updated to support 1.19, so 1.19 will not appear on the list until the server jar is updated. 
+- If there's no update button you can choose the server type (Jar) you want to use, then on version select the latest version of minecraft available, click on Change Egg, then click on Reinstall Now. Do note that not all server jars have updated to support the latest version, so it will not appear on the list until the server jar is updated. 
 
 ---
 
 
 ### Updating The Jar Manually
-Once your desired server jar supports 1.19, simply follow these steps to update:
+Once your desired server jar supports the latest version of minecraft, simply follow these steps to update:
 - Make sure that your server is backed up completely.
 - [Create full backup](../using_the_panel/backups.md) of your server. (As an additional step, we would suggest testing this backup on a local or a split test server)
 - Remove your current server jar through [SFTP](../using_the_panel/sftp.md) or the [File Manager](../using_the_panel/file-manager-controls.md).
@@ -56,10 +54,10 @@ Once your desired server jar supports 1.19, simply follow these steps to update:
 
 ---
 
-### Changing To Java 17
+### Changing Java Version
 
 :::important
-If you are unable to change this next setting and you see a message such as "This server's Docker image has been manually set by an administrator and cannot be changed through this UI.", please [open a ticket on the support Discord.](https://discord.com/invite/bloom) and Bloom.host staff will need to change this for you.
+If you are unable to change this next setting, and you see a message such as "This server's Docker image has been manually set by an administrator and cannot be changed through this UI.", please [open a ticket on the support Discord.](https://discord.com/invite/bloom) and Bloom.host staff will need to change this for you.
 :::
 
 1. Firstly you want to go to the [Minecraft server control panel](https://mc.bloom.host/) and select the server that you want to change the Java version of.
