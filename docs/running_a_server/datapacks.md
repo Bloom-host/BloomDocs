@@ -72,7 +72,7 @@ If you are lucky, the game also created a `deviations/ticktime/` folder with sim
 
 ![Zip file open showing the profiling.txt file](/running_a_server/datapacks/zip.png)
 
-The easiest way to read this file is using a modern text editor, for example 
+The easiest way to read this file is using [Misode's report inspector tool](https://misode.github.io/report/) or a modern text editor, for example 
 [Sublime Text](https://www.sublimetext.com/) or [Notepad++](https://notepad-plus-plus.org/downloads/).
 
 Using any of these and find & replacing the following regular expression will allow the text editor to fold each section: `^\[.*?\]|\|`
