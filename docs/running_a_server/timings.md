@@ -26,6 +26,10 @@ Timings should be considered depricated and no longer be used.
 
 Paper 1.21 builds will have the timings system disabled by default.
 
+Paper 1.21.3 and newer have timings permanently disabled and timings can no longer be used.
+
+Purpur 1.19 and newer do not support timings.
+
 More information can be found [here](https://github.com/PaperMC/Paper/issues/8948)
 :::
 
@@ -36,9 +40,6 @@ As time has gone on, Timings has become a bit outdated, from the Bloom team we u
 ## What is a Timings Report
 A timings report is a way of detecting what is causing lag on your server, if you are running Paper or other Forks of paper you can take a report using the following steps,
 ## How to take a Timings Report
-:::info
-Purpur (and forks of it) no longer supports timings as of 1.19.
-:::
 First, in-game or in console, run the command `/timings on`. Once you have enabled timings wait at least 10m then go onto the next step.
 
 After waiting 10m, run the command `/timings paste`.
