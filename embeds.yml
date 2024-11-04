@@ -1028,7 +1028,7 @@ codes:
   colour: '#feab33'
   description: |+
     ### Here are the current active promo codes:
-    - `PERFPLUSME`: 20% off your first Performance Plus plan
+    - `PERFPLUSME`: 20% off your first invoice of any Performance Plus plan
   buttons:
     - [ 'Create Your Server Now', 'https://bloom.host/', '🎉' ]
 
