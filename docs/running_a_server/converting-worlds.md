@@ -22,6 +22,7 @@ If you upload or generate a world on a Bukkit/Spigot/Paper server, you will noti
 ## Part 1: Download the world
 **Note:** This is not strictly necessary, you CAN use SFTP or the file manager if you want, but downloading the files makes them much easier to work with.
 
+
 This is most easily done by archiving the files using the Pterodactyl file manager and downloading them using SFTP. For instructions on using the file manager and SFTP, please see [File Manager Controls](/file-manager-controls/) and [How to use SFTP](/sftp/), respectively.
 
 ## Part 2: Converting the world
@@ -46,4 +47,3 @@ Return to the root folder once again and go into `world_the_end`. From here, cop
 
 By copying the DIM-1 and DIM1 folders into `world`, you have made a copy of all the data of the Nether and End dimensions available in the `world` folder, which means that it now contains all the required data to run all three dimensions successfully (it already has its own copies of `level.dat`, `session.lock` and `uid.dat`) and can be run without issue on vanilla, Fabric, Forge and other servers. 
 
-You did it!
