@@ -1,6 +1,6 @@
 ---
 id: worlds
-title: Manging Worlds
+title: Managing Worlds
 hide_table_of_contents: true
 description: Learn how you can modify, manage, wipe or use custom worlds on your Rust server!
 ---
