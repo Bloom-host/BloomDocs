@@ -14,6 +14,10 @@ keywords:
 
 ## Requirements
 
+:::warning
+This was written before Bloom's one click modpack installer was updated and hence does not apply for bloom servers any more
+:::
+
 :::important
 Before following this guide, make sure that the appropriate version of Java is installed on your computer and that you have at least 6GB of RAM available for the first time setup on your computer.
 
