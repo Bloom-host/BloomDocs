@@ -76,6 +76,7 @@ module.exports = {
                 'running_a_server/java-version',
                 'running_a_server/datapacks',
                 'running_a_server/spark',
+                'running_a_server/spc', // spc = Server Pack Creator
                 'running_a_server/timings', // Deprecated, will be removed in a future version of Paper (https://github.com/PaperMC/Paper/discussions/10565)
                 'running_a_server/icon',
                 'running_a_server/motd',
