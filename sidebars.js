@@ -305,6 +305,7 @@ module.exports = {
                 'extras/ping-issues',
                 'extras/account-details',
                 'extras/available-modpacks',
+                'extras/serverpackcreator',
                 'extras/srvcontrol',
                 'extras/swap',
                 'extras/clumsyloader'
