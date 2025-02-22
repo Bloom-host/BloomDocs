@@ -1,6 +1,6 @@
 ---
 id: worlds
-title: Manging Worlds
+title: Managing Worlds
 hide_table_of_contents: true
 description: Learn how you can modify, manage, wipe or use custom worlds on your Rust server!
 ---
@@ -61,6 +61,8 @@ the [DuckPanel](https://mc.bloom.host).
 
 Here, paste the URL in the 'Custom Map URL' option:
 ![Panel variables showing map link](/games/rust/worlds/custom-variables.png)
+
+Make sure you go to the startup flag and click the 'Reset default' button under the following fields: Level, World Seed, World Size. This only needs to be done if you made changes to these before.
 
 Lastly, head back to the 'Console' tab of the server and restart it to apply the change.
 
