@@ -33,7 +33,7 @@ __Terminology__
 
 1. Open SPC and select your custom modpacks folder. IT CANNOT BE A ZIP/TAR.GZ OR ANY OTHER COMPRESSED FILE.
 2. When selected, SPC should automatically locate the Minecraft version, Modloader, and Modloader version. If it does not you might have not selected the right folder. If you use Prism launcher, the modpack directory would be inside prismlauncher/instances/YOURMODPACK/minecraft
-   ![Example](/running_a_server/SPC/spc.png)
+   ![Example](/extras/serverpackcreator/spc.png)
 3. Press the generate button! Then press the button under generate to find the serverpack! BE SURE TO CHECK THE SERVERPACK BEFORE ZIPPING AND UPLOADING.
 
 :::warning
