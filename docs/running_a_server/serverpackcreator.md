@@ -19,16 +19,16 @@ This guide gives you a step by step method on creating your own server-pack for 
 While Server-pack Creator can make serverpacks its not perfect and doesnt have a 100% garuntee in making the serverpack functional.
 
 :::
-## Step 1
-Be sure you have Java intalled as serverpack creator wont run without it.
-You can get your java from [Adoptium](https://adoptium.net/temurin/releases/)
-## Step 2
-:::important
+::important
 
-Be sure to download the correct version you require!
+Requirements!
+Java 21+
+[Serverpackcreator](https://github.com/Griefed/ServerPackCreator/releases)
 
+Terminology
+Server Pack Creator -> SPC (to make it easier to type out)
 :::
-Ensure you download [ServerPackCreator](https://github.com/Griefed/ServerPackCreator/releases)
-If you run windows be sure to download ServerPackCreator-<VERSION>-Installer-Windows-x86_64.exe
-## Step 3
-When installed open the application and follow the tutorial it gives you directly
+
+1. Open SPC and select your custom modpacks folder. IT CANNOT BE A ZIP/TAR.GZ OR ANY OTHER COMPRESSED FILE.
+2. When selected, SPC should automatically locate the Minecraft verion, Modloader, and Modloader version. If it does not you might have not selected the right folder. If you use Prism launcher, the modpack directory would be inside prismlauncher/instances/YOURMODPACK/minecraft
+   Example
