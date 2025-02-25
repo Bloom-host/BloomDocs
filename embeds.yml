@@ -1087,9 +1087,9 @@ join:
 # Placeholders: %time%, %from%, %to%, %timeraw%, %fromraw%, %toraw%
 time-warn:
   enabled: false
-  colour: '#ffdc5d'
-  title: ':warning: Outside standard support hours'
+  colour: '#dd2e44'
   description: |+
+    # ⚠️ Outside standard support hours
     Our standard support hours today are between **%fromraw%** and **%toraw%**
     US Eastern (**<t:%from%:t>** and **<t:%to%:t>** local time)
 
@@ -1097,7 +1097,7 @@ time-warn:
 
     Though we are often available outside of these hours, responses may be delayed until support hours resume.
 
-    Please consider using <#737803938430189678> for non-technical issues.
+    Please consider using #community-support for non-technical issues.
   buttons:
     - [ 'Use #support-chat', 'https://discord.com/channels/720081782980083813/737803938430189678' ]
 
