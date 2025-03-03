@@ -268,7 +268,8 @@ module.exports = {
             items: [
                 'VPS/starting-with-vps',
                 'VPS/vnc',
-                'VPS/credentials-vps'
+                'VPS/credentials-vps',
+                'VPS/virtfusion-subuser'
             ],
         },
 
