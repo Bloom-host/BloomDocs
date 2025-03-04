@@ -829,12 +829,12 @@ spc:
     Feel free to ask questions if you are confused.
 
 neoforge:
-  title: '📜 Bloom Docs - Forge'
+  title: '📜 Bloom Docs - NeoForge'
   description: >
-    Check out our comprehensive guide on installing Neoforge to your
+    Check out our comprehensive guide on installing NeoForge to your
     server [here](https://docs.bloom.host/neoforge-setup/).
   thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/tY6IAF.png'
-  image: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/neoimage.png
+  image: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/neoimage.png'
 
 forge:
   title: '📜 Bloom Docs - Forge'
