@@ -821,8 +821,8 @@ serverpack:
 
 spc:
   aliases:
-  - 'serverpackcreator'
-  - 'servermaker'
+    - 'serverpackcreator'
+    - 'servermaker'
   title: 'ServerPack-Creator'
   description: |+
     Follow [SPC Guide](https://docs.bloom.host/serverpackcreator) to make your own custom server pack from any modpack.
