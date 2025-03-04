@@ -819,6 +819,23 @@ serverpack:
     server [here](https://docs.bloom.host/modpacks/).
   thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/tY6IAF.png'
 
+spc:
+  aliases:
+  - 'serverpackcreator'
+  - 'servermaker'
+  title: 'ServerPack-Creator'
+  description: |+
+    Follow [SPC Guide](https://docs.bloom.host/serverpackcreator) to make your own custom server pack from any modpack.
+    Feel free to ask questions if you are confused.
+
+neoforge:
+  title: '📜 Bloom Docs - Forge'
+  description: >
+    Check out our comprehensive guide on installing Neoforge to your
+    server [here](https://docs.bloom.host/neoforge-setup/).
+  thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/tY6IAF.png'
+  image: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/neoimage.png
+
 forge:
   title: '📜 Bloom Docs - Forge'
   description: >
@@ -885,7 +902,7 @@ domain:
 resourcepack:
   aliases:
     - 'texturepack'
-    - 'serverpack'
+    - 'rp'
     - 'serverresource'
   title: '📜 Bloom Docs - Server-Side Resourcepack'
   description: >
