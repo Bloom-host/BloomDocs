@@ -50,3 +50,6 @@ Now, going back to the 'Console' page of the panel and restarting the server wil
 
 That's it! You can now connect to the server and use the mods! Make sure all players who want to play on the server
 have all the necessary mods installed.
+
+In order to configure **server-side aspects** of your mods, you can upload the same files from your local `ModConfigs` directory into the server's `saves/ModConfigs/` folder.  
+You may need to manually create this directory via the 'File Manager' tab initially.
