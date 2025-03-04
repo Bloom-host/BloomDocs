@@ -41,8 +41,8 @@ Fabric, with a few performance mods added, is recommended if you want to run a m
 
 
 
-### [Neo-Forge](https://neoforged.net/) ([Installation Guide](neoforge-setup))
-Neo-forge is a jar that adds the modding api of forge, and performance of fabric. While still being new and becoming widely adopted. Used in modern versions of the game.
+### [NeoForge](https://neoforged.net/) ([Installation Guide](neoforge-setup))
+Neoforge is a jar that adds the modding api of forge, and performance of fabric. While still being new and becoming widely adopted. Used in modern versions of the game.
 
 ---
 
