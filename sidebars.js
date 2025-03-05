@@ -80,11 +80,11 @@ module.exports = {
                 'running_a_server/icon',
                 'running_a_server/motd',
                 'running_a_server/whitelist', // How to turn on whitelist for both Java and Bedrock
-
                 'running_a_server/resourcepack',
                 'running_a_server/converting-worlds', // Converting worlds used on Bukkit (and forks) servers to allow for use in singleplayer/other server software
                 "plugins_and_modifications/fabric-setup",
                 "plugins_and_modifications/forge-setup",
+                "plugins_and_modifications/neoforge-setup",
                 'running_a_server/waterfall', // [Unsupported] BungeeCord fork
                 'running_a_server/velocity',
                 'running_a_server/internal-servers',
@@ -176,7 +176,7 @@ module.exports = {
                 },
                 {
                     type: 'doc',
-                    id: "plugins_and_modifications/mods-install", // Mods install guide for both Forge and Fabric
+                    id: "plugins_and_modifications/mods-install", // Mods install guide for both Forge and Fabric and Neoforge
                 },
                 {
                     type: 'doc',
