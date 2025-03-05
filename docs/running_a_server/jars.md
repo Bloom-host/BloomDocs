@@ -11,7 +11,7 @@ keywords:
   - Bukkit
   - Forge
   - Fabric
-  - Neoforge
+  - NeoForge
   - Purpur
   - Pufferfish
   - Server Jars
@@ -42,7 +42,7 @@ Fabric, with a few performance mods added, is recommended if you want to run a m
 
 
 ### [NeoForge](https://neoforged.net/) ([Installation Guide](neoforge-setup))
-Neoforge is a jar that adds the modding api of forge, and performance of fabric. While still being new and becoming widely adopted. Used in modern versions of the game.
+NeoForge is a jar that adds the modding api of Forge, and performance of Fabric. While still being new and becoming widely adopted. Used in modern versions of the game.
 
 ---
 
