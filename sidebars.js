@@ -278,7 +278,8 @@ module.exports = {
             label: 'Dedicated',
             collapsed: true,
             items: [
-                'dedicated/reset-password'
+                'dedicated/reset-password',
+                'dedicated/bmc-reset'
             ],
         },
 
