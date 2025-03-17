@@ -1058,6 +1058,20 @@ api:
     For Java, you can use [Pterodactyl4J](https://github.com/mattmalec/Pterodactyl4J).
     Alternatively, you can make requests using [Ptero API](https://api.ptero.sh/#/operations/get-server-file-contents).
 
+warp:
+  aliases: [ 'vpn' ]
+  color: '#F37E1F'
+  description: |+
+    # <:cloudflare:1350076860482060330> Cloudflare WARP
+    If you are experiencing routing issues with your internet service provider, we would recommend trying out Cloudflare's free VPN, WARP.
+
+    ✅ **Download WARP: https://1.1.1.1**
+
+    Once installed, make sure to remove the `.host` top level-domain to access our site:
+    1. Right-click the WARP icon on your task bar.
+    2. Click the ⚙️ option and select 'Preferences'.
+    3. Under the 'Advanced' tab, open the 'Local Domain Fallback' option.
+    4. Click `host` and remove it using the `-` button.
 
 # ┌─────────────────┐
 # │ Internal Embeds │
