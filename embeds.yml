@@ -227,25 +227,25 @@ fbiinfo:
         BlackSpigot has a high chance of containing viruses, force-op, and more.
         If you wish to use Premium software, pay for it.
       inline: false
-  
-  hybrid:
-    aliases:
-      - 'hybrids'
-      - 'magma'
-      - 'mohist'
-      - 'thermos'
-      - 'cardboard'
-      - 'arclight'
-    colour: '#dd2e44'
-    description: |+
-      ## :warning: Avoid Hybrids when possible
-      Using a Hyrbid server jar can cause multiple issues, mainly server jars clash apis, as Bukkit was made for plugins and Forge/Fabric/Neoforge for mods. Mixing them requires significant changes to the Bukkit API and Modded server code. If not done correctly, both plugins and mods can act strangely. Using these will almost guarantee to cause strange issues  that make it near-impossible to assist.
-      ## <:unlink:1135289952838615161> Support?
-          Mod developers and Plugin developers will not support Hybrid servers
-          Bloom community & staff members might not be able to help out due to Hybrids and their issues. The best line of support for Hybrids is the Hybrid developers.
-      ## <:book:849551086141833246> Resource links
-          [Essentials PSA about Mohist.](https://essentialsx.net/do-not-use-mohist.html)
-          [Pixelmon's warnings about Mohist.](https://pixelmonmod.com/viewtopic.php?f=5&t=29799%3E)
+
+hybrid:
+  aliases:
+    - 'hybrids'
+    - 'magma'
+    - 'mohist'
+    - 'thermos'
+    - 'cardboard'
+    - 'arclight'
+  colour: '#dd2e44'
+  description: |+
+    ## :warning: Avoid Hybrids when possible
+    Using a Hyrbid server jar can cause multiple issues, mainly server jars clash apis, as Bukkit was made for plugins and Forge/Fabric/Neoforge for mods. Mixing them requires significant changes to the Bukkit API and Modded server code. If not done correctly, both plugins and mods can act strangely. Using these will almost guarantee to cause strange issues  that make it near-impossible to assist.
+    ## <:unlink:1135289952838615161> Support?
+        Mod developers and Plugin developers will not support Hybrid servers
+        Bloom community & staff members might not be able to help out due to Hybrids and their issues. The best line of support for Hybrids is the Hybrid developers.
+    ## <:book:849551086141833246> Resource links
+        [Essentials PSA about Mohist.](https://essentialsx.net/do-not-use-mohist.html)
+        [Pixelmon's warnings about Mohist.](https://pixelmonmod.com/viewtopic.php?f=5&t=29799%3E)
 
 
 winmtr:
@@ -1080,14 +1080,14 @@ api:
 
 warp:
   aliases: [ 'vpn' ]
-  color: '#F37E1F'
+  colour: '#F37E1F'
   description: |+
     # <:cloudflare:1350076860482060330> Cloudflare WARP
     If you are experiencing routing issues with your internet service provider, we would recommend trying out Cloudflare's free VPN, WARP.
 
     ✅ **Download WARP: https://1.1.1.1**
 
-    Once installed, make sure to remove the `.host` top level-domain to access our site:
+    Once installed, if you need to access our site, make sure to remove the `.host` top level-domain to access our site:
     1. Right-click the WARP icon on your task bar.
     2. Click the ⚙️ option and select 'Preferences'.
     3. Under the 'Advanced' tab, open the 'Local Domain Fallback' option.
