@@ -45,7 +45,7 @@ With our new panel, you can simply head over to the [Duck Panel](https://mc.bloo
 
 ![console](/using_the_panel/sftp/3.png)
 
-WinSCP is very similar to your basic Windows Explorer. However, on the right side of the screen (green area) you can see your local files and on the left side (blue area), you can see the remote server's files.
+WinSCP is very similar to your basic Windows Explorer. However, on the left side of the screen (green area) you can see your local files and on the right side (blue area), you can see the remote server's files.
 You can drag, drop, rename and delete files as you wish. 
 
 ### Using MobaXTerm
