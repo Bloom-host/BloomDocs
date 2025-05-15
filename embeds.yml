@@ -827,7 +827,7 @@ fabric:
   title: '📜 Bloom Docs - Fabric'
   description: >
     Check out our comprehensive guide on installing Fabric to your
-    server [here](https://docs.bloom.host/fabric-setup/).
+    server [here](https://docs.bloom.host/jars/).
   thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/tY6IAF.png'
   image: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/cTEy1Q.png'
 
@@ -852,7 +852,7 @@ neoforge:
   title: '📜 Bloom Docs - NeoForge'
   description: >
     Check out our comprehensive guide on installing NeoForge to your
-    server [here](https://docs.bloom.host/neoforge-setup/).
+    server [here](https://docs.bloom.host/jars/).
   thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/tY6IAF.png'
   image: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/neoimage.png'
 
@@ -860,7 +860,7 @@ forge:
   title: '📜 Bloom Docs - Forge'
   description: >
     Check out our comprehensive guide on installing Forge to your
-    server [here](https://docs.bloom.host/forge-setup/).
+    server [here](https://docs.bloom.host/jars/).
   thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/tY6IAF.png'
   image: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/SylbcQ.png'
 
