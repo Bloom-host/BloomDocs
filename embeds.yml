@@ -1562,3 +1562,18 @@ waitlistpanel:
     :green_circle: to join the **VPS Performance** waitlist
     :orange_circle: to join the **VPS Performance+** waitlist
     :purple_circle: to join the **Bare Metal ** waitlist
+
+worldtype:
+  aliases: [ 'wt' ]
+  title: 'World Types'
+  description: |+
+    World Types define how terrain is generated in your Minecraft world.
+
+    Types: `default`, `flat`, `amplified`, `largebiomes`.
+
+    Location: `server.properties` file, at `level-type=`.
+
+    ⚠️ Don't change the world type on your current world; it will break generation.
+
+    Default value: `level-type=default`.
+
