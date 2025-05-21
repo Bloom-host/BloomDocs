@@ -35,9 +35,3 @@ Download a backup of all your files before submitting a refund request. Once the
 ![img](/billing/refunds/1.png)
 
 ![img](/billing/refunds/2.png)
-
-## PayPal Subscriptions (Recurring Payments) need to be cancelled manually
-
-:::caution
-IMPORTANT: You have to manually cancel your PayPal Subscription (Recurring Payment) after you request a refund or cancellation, otherwise PayPal will continue to send us the payment for your server. Please refer to our guide on [how to cancel a PayPal Subscription](/billing/paypal) to avoid overpayments.
-:::
