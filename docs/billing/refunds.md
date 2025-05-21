@@ -12,8 +12,6 @@ keywords:
   - request refund
 ---
 
-Hey Bloomers! In this guide we will be going over how to request a refund.
-
 ## How to know if you are eligible for a refund
 
 This is our Refund Policy which can be found on our [Terms and Conditions](https://bloom.host/terms/)

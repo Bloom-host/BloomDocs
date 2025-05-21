@@ -46,6 +46,5 @@ When a server is terminated all it's files are deleted.
 The service will be terminated 7 days after the due date if no payment is received.
 
 :::caution
-If your server is terminated it doesn't necessarily mean that we can't recover your files. We keep emergency node backups from where we can get your server files - but act quick, these emergency node backups are automatically rotated (deleted and replaced
-Contact us to know if we still have a backup of your files. If we do, you can order a new server and we can restore your server files to it.
+If your server is terminated it doesn't necessarily mean that we can't recover your files. We keep emergency node backups from where we can get your server files - but act quick, these emergency node backups are automatically rotated. Contact us to know if we still have a backup of your files. If we do, you can order a new server and we can restore your server files to it.
 :::
