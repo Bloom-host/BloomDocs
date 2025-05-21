@@ -2,7 +2,7 @@
 id: installing-plugin
 title: Installing Plugins
 slug: /installing-plugins
-hide_table_of_contents: false
+hide_table_of_contents: true
 sidebar_label: Installing Spigot Plugins
 ---
 

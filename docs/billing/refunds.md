@@ -1,7 +1,7 @@
 ---
 id: refunds
 title: How to request a refund
-hide_table_of_contents: false
+hide_table_of_contents: true
 sidebar_label: How to request a refund
 description: This guide will show you how to request a refund.
 keywords:
