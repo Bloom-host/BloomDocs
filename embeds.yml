@@ -205,6 +205,7 @@ fbiinfo:
     - 'crackedserver'
     - 'cracked'
     - 'offline'
+    - 'pirate'
   title: '🚫 Piracy Is Bad'
   colour: '#dd2e44'
   thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/85dAco.png'
@@ -645,6 +646,9 @@ database:
   aliases:
     - 'databases'
     - 'mysql'
+    - 'db'
+    - 'dbs'
+    - 'sql'
   title: '📜 Bloom Docs - MySQL'
   description: >
     Check out our comprehensive guide on MySQL databases
@@ -667,6 +671,7 @@ split:
   aliases:
     - 'splitserver'
     - 'serversplit'
+    - 'splits'
   title: '📜 Bloom Docs - Split Servers'
   description: >
     Check out our comprehensive guide on server splitting
@@ -722,11 +727,12 @@ jars:
   aliases:
     - 'serverjars'
     - 'whichjar'
+    - 'jar'
   title: '📜 Bloom Docs - Server Jars'
   description: >
     Check out our comprehensive guide on picking the right server
     software [here](https://docs.bloom.host/jars/).
-  thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/tY6IAF.png'
+  thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/bloom.gif'
   image: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/NniDCP.png'
 
 clumsyloader:
@@ -756,6 +762,7 @@ internal:
     - 'internal-servers'
     - 'internal-server'
     - 'backend'
+    - 'internals'
   title: '📜 Bloom Docs - Internal Servers'
   description: >
     Check out our comprehensive guide on internal servers
@@ -914,22 +921,20 @@ resourcepack:
   image: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/K3v1x4.png'
 
 java:
-  aliases: [ 'jvm' ]
-  title: '📜 Bloom Docs - Java Version'
-  description: >
-    Check out our comprehensive guide on changing your server's Java
-    version [here](https://docs.bloom.host/java-version/).
-  thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/tY6IAF.png'
-  image: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/a0Oz1b.png'
-
-java17:
-  aliases: [ 'jvm17' ]
-  title: '📜 Minecraft 1.18+ needs Java 17'
+  aliases: [ 'jvm', 'javas', 'java18', 'whichjava', 'jvm18', 'java17', 'jvm17' ]
+  title: '📜 Minecraft and their java requirements'
   description: |+
-    The new release of Minecraft 1.18 needs Java 17.
+    For Minecraft forge/fabric <1.16, Java 8 is recommended
+    
+    For Minecraft <1.17, Java 11 is recommended.
 
-    You can change your Java version by going to the startup tab and selecting Java 17 under the Java Version section. You can see our comprehensive guide on changing your server's Java version [here](https://docs.bloom.host/java-version/).
-  thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/tY6IAF.png'
+    Minecraft 1.17 **__won't start__** without Java 16 (or newer).
+
+    Minecraft 1.18 **__won't start__** without Java 17 (or newer).
+
+    Minecraft 1.20.5 **__won't start__** without Java 21 (or newer).
+    
+    For more information on how to change your java version on the panel, please visit [here](https://docs.bloom.host/java-version/)
   image: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/java.png'
 
 emergencyrestore:
@@ -976,11 +981,15 @@ timings:
 spark:
   aliases: [ 'profiler' ]
   title: '📜 Bloom Docs - Spark'
-  description: >
+  description: |+
     Check out our comprehensive guide on creating a spark profiler to
     debug TPS issues on your server [here](https://docs.bloom.host/spark/).
-  thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/running_a_server/spark/1.png'
-  image: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/running_a_server/spark/1.png'
+    Spark Profiler crash course:
+    For constant lag:``/spark profiler --timeout 300``
+    For lag spikes:``/spark profiler --only-ticks-over 100 --timeout 300``
+    For fps/render:``/sparkc profiler --timeout 300``
+  image: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/running_a_server/spark/1.png'
+
 
 motd:
   title: '📜 Bloom Docs - MOTD'
@@ -1043,11 +1052,12 @@ codes:
   aliases:
     - 'promo'
     - 'coupon'
+    - 'code'
   title: '💳 Promo Codes'
   colour: '#feab33'
   description: |+
     ### Here are the current active promo codes:
-    - `PERFPLUSME`: 20% off your first invoice of any Performance Plus plan
+    - `PERFPLUSME`: 20% off your **first** invoice of any Performance Plus plan
   buttons:
     - [ 'Create Your Server Now', 'https://bloom.host/', '🎉' ]
 
@@ -1061,7 +1071,7 @@ api:
     Alternatively, you can make requests using [Ptero API](https://api.ptero.sh/#/operations/get-server-file-contents).
 
 warp:
-  aliases: [ 'vpn' ]
+  aliases: [ 'vpn', 'cloudflare' ]
   colour: '#F37E1F'
   description: |+
     # <:cloudflare:1350076860482060330> Cloudflare WARP
@@ -1165,6 +1175,8 @@ modpacks:
   enabled: false
   aliases:
     - 'modpacklist'
+    - 'modpack'
+    - 'packs'
   title: 'List of Modpacks'
   description: '%modpacks%'
   footer: 'Suggest a pack to be added: !suggest <link/name>'
