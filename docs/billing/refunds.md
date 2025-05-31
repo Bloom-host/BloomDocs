@@ -1,7 +1,7 @@
 ---
 id: refunds
 title: How to request a refund
-hide_table_of_contents: false
+hide_table_of_contents: true
 sidebar_label: How to request a refund
 description: This guide will show you how to request a refund.
 keywords:
@@ -11,8 +11,6 @@ keywords:
   - cancellations
   - request refund
 ---
-
-Hey Bloomers! In this guide we will be going over how to request a refund.
 
 ## How to know if you are eligible for a refund
 
@@ -37,9 +35,3 @@ Download a backup of all your files before submitting a refund request. Once the
 ![img](/billing/refunds/1.png)
 
 ![img](/billing/refunds/2.png)
-
-## PayPal Subscriptions (Recurring Payments) need to be cancelled manually
-
-:::caution
-IMPORTANT: You have to manually cancel your PayPal Subscription (Recurring Payment) after you request a refund or cancellation, otherwise PayPal will continue to send us the payment for your server. Please refer to our guide on [how to cancel a PayPal Subscription](/billing/paypal) to avoid overpayments.
-:::

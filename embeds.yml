@@ -763,24 +763,6 @@ internal:
   buttons:
     - [ 'Open Docs', 'https://docs.bloom.host/internal-servers/', '❔' ]
 
-stripe:
-  title: '📜 Bloom Docs - Stripe Subscriptions'
-  description: >
-    Check out our comprehensive guide on how to configure a Stripe
-    Subscription or how to cancel automatic payments
-    [here](https://docs.bloom.host/billing/stripe).
-  buttons:
-    - [ 'Open Docs', 'https://docs.bloom.host/billing/stripe', '❔' ]
-
-paypal:
-  title: '📜 Bloom Docs - PayPal Subscriptions'
-  description: >
-    Check out our comprehensive guide on how to configure a PayPal
-    Subscription or how to cancel automatic payments
-    [here](https://docs.bloom.host/billing/paypal).
-  buttons:
-    - [ 'Open Docs', 'https://docs.bloom.host/billing/paypal', '❔' ]
-
 suspensions:
   aliases:
     - 'suspension'
