@@ -38,7 +38,7 @@ The bukkit platform allows you to use plugins, and fabric allows you to run mods
 
 For the Bukkit platform you have many options for a server jar, the most stable of which is [Paper](https://papermc.io). Paper includes many performance improvements, bug fixes and configuration options. If you want additional configuration options along with getting the latest stable patches early [Purpur](https://purpurmc.org/downloads) might be for you.
 
-For Fabric check our [Fabric Setup](/fabric-setup) page. Fabric by itself doesn't change the game at all, to get performance improvements check out our [Fabric Performance Mods](../plugins_and_modifications/fabric_mods/performance-mods.md) page.
+For Fabric check our [Fabric Setup](/jars) page. Fabric by itself doesn't change the game at all, to get performance improvements check out our [Fabric Performance Mods](../plugins_and_modifications/fabric_mods/performance-mods.md) page.
 
 ---
 ## Guides to optimize your server

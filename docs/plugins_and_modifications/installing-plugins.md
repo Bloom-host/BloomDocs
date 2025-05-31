@@ -13,7 +13,7 @@ This guide is for Bukkit/Spigot/Paper servers. If you are looking for instructio
 ### The Basics
 > #### Requirements
 > 
-> In order to run plugins on your server, you have to be using a fork of Bukkit. (such as Spigot, Paper, Pupur, Pufferfish, etc. See our [guide on server jars](../running_a_server/jars.md) for more information.) If you wish to make client-side modifications (as well), see our guide on [installing server mods](mods-install.md)!
+> In order to run plugins on your server, you have to be using a fork of Bukkit. (such as Spigot, Paper, Pupur, Pufferfish, etc. See our [guide on server jars](/jars) for more information.) If you wish to make client-side modifications (as well), see our guide on [installing server mods](mods-install.md)!
 
 > #### What are plugins?
 >
