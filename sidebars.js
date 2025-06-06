@@ -212,7 +212,6 @@ module.exports = {
                     type: 'category',
                     label: "Plugins", // Bukkit/Spigot/Paper plugins
                     items: [ // Note: Chunky, LiteBans, LuckPerms and PLAN pages were moved to multiplatform category
-                        'plugins_and_modifications/plugins/advancedanticheat', // anticheat (discontinued)
                         'plugins_and_modifications/plugins/ajparkour', // ajParkour
                         'plugins_and_modifications/plugins/banannouncer', // announce bans in discord
                         'plugins_and_modifications/plugins/citizens2',
@@ -225,12 +224,13 @@ module.exports = {
                         'plugins_and_modifications/plugins/geysermc', // Minecraft Bedrock player bridge
                         'plugins_and_modifications/plugins/geyseraddons', // GeyserMC addons
                         'plugins_and_modifications/plugins/griefprevention',
-                        'plugins_and_modifications/plugins/milk',
                         'plugins_and_modifications/plugins/multiverse', //Bukkit multi-world manager
                         'plugins_and_modifications/plugins/papi', // PlaceholderAPI
                         'plugins_and_modifications/plugins/prism',
                         'plugins_and_modifications/plugins/servernpc',
                         'plugins_and_modifications/plugins/tebex', // Minecraft server donation store integration, formerly known as BuyCraft
+                        'plugins_and_modifications/plugins/topper',
+                        'plugins_and_modifications/plugins/worldguard',
                         'plugins_and_modifications/plugins/vault',
                         'plugins_and_modifications/plugins/venturechat', // Chat handler
                         'plugins_and_modifications/plugins/viaversion',
@@ -290,8 +290,6 @@ module.exports = {
                 'billing/refunds',
                 'billing/suspensions_and_terminations',
                 'billing/billing_subusers',
-                'billing/paypal',
-                'billing/stripe'
             ],
         },
 

@@ -15,7 +15,7 @@ This same steps apply to changing the version your server runs on.
 
 ### Precautions
 - Before updating or changing Minecraft versions be sure to create and test a backup of your entire server. Downgrading a world without causing corruption is near impossible.
-- Moreover, if you aren't utilizing our [completely free and automatic backup feature](../using_the_panel/backups.md), we would highly suggest you set that up before updating.
+- Moreover, if you aren't utilizing our [completely free and automatic backup feature](/backups), we would highly suggest you set that up before updating.
 - Once you update to a new version you can't go back to any previous version, unless you reset your worlds or restore a backup that was made when the server was on the previous version.
 
 ### Updating or changing versions and jars through the panel
@@ -32,7 +32,7 @@ After you have followed the steps above, you can periodically check the **Settin
 
 ### Updating the server manually
 - Make sure that your server is backed up completely.
-- [Create full backup](../using_the_panel/backups.md) of your server. (As an additional step, we would suggest testing this backup on a local or a split test server)
+- [Create full backup](/backups) of your server. (As an additional step, we would suggest testing this backup on a local or a split test server)
 - Remove your current server jar through [SFTP](../using_the_panel/sftp.md) or the [File Manager](../using_the_panel/file-manager-controls.md).
-- Download the new version of your server software. If you are unsure which one to use, check out our guide on server jars [here](jars.md).
+- Download the new version of your server software. If you are unsure which one to use, check out our guide on server jars [here](/jars).
 - Upload it using SFTP or the File Manager and make sure to define the full name (such as `paper-1.18-023` in the 'Startup' tab on the panel)
