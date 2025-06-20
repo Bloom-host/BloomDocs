@@ -240,13 +240,13 @@ hybrid:
   colour: '#dd2e44'
   description: |+
     ## :warning: Avoid Hybrids when possible
-    Using a Hyrbid server jar can cause multiple issues, mainly server jars clash apis, as Bukkit was made for plugins and Forge/Fabric/Neoforge for mods. Mixing them requires significant changes to the Bukkit API and Modded server code. If not done correctly, both plugins and mods can act strangely. Using these will almost guarantee to cause strange issues  that make it near-impossible to assist.
+    Using a Hyrbid server jar can cause multiple issues, mainly server JARs clash APIs, as Bukkit was made for plugins and Forge/Fabric/Neoforge for mods. Mixing them requires significant changes to the Bukkit API and Modded server code. If not done correctly, both plugins and mods can act strangely. Using these will almost guarantee to cause strange issues that make it nearly impossible to assist.
     ## <:unlink:1135289952838615161> Support?
         Mod developers and Plugin developers will not support Hybrid servers
         Bloom community & staff members might not be able to help out due to Hybrids and their issues. The best line of support for Hybrids is the Hybrid developers.
     ## <:book:849551086141833246> Resource links
-        [Essentials PSA about Mohist.](https://essentialsx.net/do-not-use-mohist.html)
-        [Pixelmon's warnings about Mohist.](https://pixelmonmod.com/viewtopic.php?f=5&t=29799%3E)
+        - [Essentials PSA about Mohist](https://essentialsx.net/do-not-use-mohist.html)
+        - [Pixelmon's warnings about Magma](https://pixelmonmod.com/viewtopic.php?f=5&t=29799%3E)
 
 
 winmtr:
