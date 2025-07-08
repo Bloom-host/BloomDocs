@@ -27,8 +27,8 @@ You can change your Pterodactyl icon (along with the icon for any service that u
 
 ![img](/using_the_panel/users/3.png)
 
-3. Once you have clicked add user, an email will be sent to that email stating they have been invited to that server. Have the sub-user open up the email and go to the link provided.
+3. Once you have clicked add user, an email will be sent to that email stating they have been invited to the server. Have the sub-user open the email and click on the provided link.
 
-4. After clicking the button in the email, they will be redirected to the password reset page. This is where they will put in your email and setup a password for your account.
+4. After clicking the button in the email, they will be redirected to the password reset page, where they can set a brand new password.
 
-5. After setting up your account, go to the [Duck Panel](https://mc.bloom.host/) and log in with your freshly generated credentials!
+5. After setting up the account, they can go to the [Duck Panel](https://mc.bloom.host/) and log in with their freshly generated credentials!
