@@ -450,7 +450,7 @@ security:
         sure:
         • `online-mode=` is set to `false` in server.properties
         • `bungeecord:` is set to `false` in spigot.yml
-        • `enabled:` and `online-mode` under `velocity-support` is set to true in paper.yml
+        • `enabled:` and `online-mode` under `proxies` and `velocity` is set to true in `config/paper-global.yml`
         • `secret` under `velocity-support` is set to Velocity's `forwarding-secret` setting. Both of these must be exactly the same or you will be unable to connect to your server!
       inline: false
     - title: 'Using Velocity with BungeeGuard forwarding'
@@ -458,7 +458,7 @@ security:
         When using Velocity with BungeeGuard forwarding as your proxy, make sure:
         • `online-mode=` is set to `false` in server.properties
         • `bungeecord:` is set to `true` in spigot.yml
-        • `enabled:` under `velocity-support` is set to false in paper.yml – This setting is for Velocity modern forwarding and you will not be able to join your server with both this and bungeecord forwarding enabled!
+        • `enabled:` and `online-mode` under `proxies` and `velocity` is set to false in `config/paper-global.yml` – This setting is for Velocity modern forwarding and you will not be able to join your server with both this and bungeecord forwarding enabled!
         • you have BungeeGuard installed (!`bungeeguard`) and that your token in the BungeeGuard plugin on the backend servers matches what is set for Velocity's `forwarding-secret` setting or you will be unable to connect to your server!
       inline: false
 
