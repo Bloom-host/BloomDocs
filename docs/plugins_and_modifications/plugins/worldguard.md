@@ -14,6 +14,10 @@ description: An in-game world guard plugin to protect blocks and regions.
   - Minecraft
 ---
 
+:::important
+To use WorldGuard, you need to install [WorldEdit](../multiplatform/worldedit.md) onto your server.
+:::
+
 ### What does the plugin do?
 
 WorldGuard protects your Minecraft world by allowing you to define regions with specific falgs(rules). You can prevent griefing, control mob spawning, manage PvP, and customize many other settings per area.
