@@ -1,5 +1,5 @@
 ---
-id: Topper
+id: topper
 title: Topper
 slug: /plugins/Topper
 hide_table_of_contents: true
