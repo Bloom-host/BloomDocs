@@ -20,7 +20,7 @@ and [Discord](https://discord.gg/Cav9nYX)!
 ## Usage
 
 :::caution HEADS UP!
-If your server is already using the regular Terraria, install, make sure to [create a backup](/using_the_panel/backups.md) before following the
+If your server is already using the regular Terraria, install, make sure to [create a backup](/using_the_panel/backups/guide.md) before following the
 steps below.
 
 If your server is using [TModLoader](/games/terraria/tmodloader/overview.md) with mods that modify the world, it may not

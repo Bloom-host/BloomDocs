@@ -14,7 +14,7 @@ To avoid having to download and re-upload your world each time, Bloom has a pre-
 ## Preparation
 
 :::danger
-**WARNING**: Before doing anything else, please head over to the **[backups](/using_the_panel/backups.md)** guide to create a full backup of your server.
+**WARNING**: Before doing anything else, please head over to the **[backups](/using_the_panel/backups/guide.md)** guide to create a full backup of your server.
 :::
 
 1. In the DuckPanel open your server and, select the 'Settings' tab.

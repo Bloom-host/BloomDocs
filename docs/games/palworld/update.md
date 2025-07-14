@@ -11,7 +11,7 @@ Restarting the server.
 Server should auto update on restarts, if it doesn't follow Method 2
 
 # Method 2
-First, stop your server. Then, go to the [Backups](/using_the_panel/backups.md) tab. 
+First, stop your server. Then, go to the [Backups](/using_the_panel/backups/guide.md) tab. 
 Make a backup just incase something goes wrong, after that go to Settings tab, click Reinstall. 
 
 
