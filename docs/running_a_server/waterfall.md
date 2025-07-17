@@ -16,7 +16,7 @@ keywords:
 ---
 
 :::warning END OF LIFE SOFTWARE
-**As of March 26th, 2024, Waterfall has been marked as EOL by the Paper team**. More details are available on [the PaperMC forums](https://forums.papermc.io/threads/announcing-the-end-of-life-of-waterfall.1088/)
+**As of March 26th, 2024, Waterfall has been marked as EOL by the Paper team**. More details are available on [the PaperMC forums](https://forums.papermc.io/threads/announcing-the-end-of-life-of-waterfall.1088/).
 
 ### **Please migrate to [Velocity](velocity.md) as soon as possible!**
 
