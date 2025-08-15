@@ -14,6 +14,7 @@ People such as server's staff members can be given partial, so called "sub-user"
 ---
 
 ### Adding subusers
+**If the subuser doesn't yet have an account, it'll be automatically created when they are first invited to a server.**
 
 1. First, head over to the [Duck Panel](https://mc.bloom.host/) and go to the Users tab found on the left sidebar. Here you can manage all your subusers. Now, click `Create New` button to begin setting up a subuser.
 
