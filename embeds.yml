@@ -256,9 +256,7 @@ winmtr:
     - 'mtr'
   title: 'Diagnosing Connection Issues'
   description: >
-    *MTR probes routers on the route path by limiting the number of
-    hops individual packets may traverse, and listening to responses of their
-    expiry.*
+    *MTR is a tool we use to help identify network problems between your internet service provider and the server. It works by sending small packets of data across the internet and measuring how they travel from one point to another. By tracking each step (called a "hop") along the route, MTR helps us see where packet loss or connection issues might be happening.*
   footer: 'BloomBot - Bloom.host'
   footer-icon: '%guildicon%'
   image: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/G7k4om.png'
@@ -273,11 +271,28 @@ winmtr:
         **4**. Click start and let it run for at least a minute.
         **5**. Take a screenshot of the results so we can analyze your route.
       inline: false
-    - title: '<:apple:849551086028849152> <:linux:955230938084818964> Other Operating Systems'
+    - title: '<:apple:849551086028849152> macOS'
       description: |+
-        In case you are using another operating system such as macOS or Linux, be sure to let us know we'll guide you through the process!
+        **1**. Open Terminal.  
+        **2**. If you don’t have Homebrew, install it:  
+        `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`  
+        **3**. Install MTR:  
+        `brew install mtr`  
+        **4**. Run the test (replace `your.server.ip` with your actual server IP):  
+        `mtr -b your.server.ip`  
+        **5**. Let it run for a couple of minutes, then copy the full output and send it to us for review.
       inline: false
-
+    - title: '<:linux:955230938084818964> Linux'
+      description: |+
+        **1**. Open a terminal.  
+        **2**. Install MTR with your package manager:  
+        - Debian/Ubuntu: `sudo apt install mtr`  
+        - CentOS/RHEL: `sudo yum install mtr`  
+        - Fedora: `sudo dnf install mtr`  
+        **3**. Run the test (replace `your.server.ip` with your actual server IP):  
+        `mtr -b your.server.ip`  
+        **4**. Let it run for a couple of minutes, then copy the full output and send it to us for analysis.
+      inline: false
 grafana:
   aliases:
     - 'unifiedmetrics'
@@ -981,14 +996,32 @@ timings:
 spark:
   aliases: [ 'profiler' ]
   title: '📜 Bloom Docs - Spark'
-  description: |+
-    Check out our comprehensive guide on creating a spark profiler to
-    debug TPS issues on your server [here](https://docs.bloom.host/spark/).
-    Spark Profiler crash course:
-    For constant lag:``/spark profiler --timeout 300``
-    For lag spikes:``/spark profiler --only-ticks-over 100 --timeout 300``
-    For fps/render:``/sparkc profiler --timeout 300``
+  description: >
+    *Check out our comprehensive guide on creating a Spark profiler to debug TPS issues on your server [here](https://docs.bloom.host/spark/).*
+  footer: 'BloomBot - Bloom.host'
+  footer-icon: '%guildicon%'
   image: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/running_a_server/spark/1.png'
+  fields:
+    - title: 'What is Spark?'
+      description: |+
+        Spark is a performance profiling tool we use to help diagnose lag on Minecraft servers.
+        It collects data about what's happening on the server in real-time.
+        This allows us to pinpoint the cause of lag, whether it's constant low TPS or occasional spikes, and suggest targeted optimizations.
+      inline: false
+    - title: 'Spark Profiler Crash Course'
+      description: |+
+        Here are some quick command for profiling:
+
+        - For constant lag:  
+          ``/spark profiler --timeout 300``
+
+        - For lag spikes:  
+          ``/spark profiler --only-ticks-over 100 --timeout 300``
+
+        - For FPS/render issues (client):  
+          ``/sparkc profiler --timeout 300``
+      inline: false
+
 
 
 motd:
