@@ -10,7 +10,7 @@ sidebar_label: MySQL Databases
 Databases can be used by certain plugins to allow for a more efficient, organized method of storing large amounts of data. Common plugins that can utilize MySQL databases are Dynmap, CoreProtect, and LuckPerms.
 
 ### Database Storage
-The data stored by these databases do not affect your servers storage limit.
+The data stored by these databases do not affect your servers storage limit. However, you should follow our [Fair Usage Policy](https://bloom.host/terms/#fair-usage-policy-for-bloom-minecraft-and-game-hosting-plans) regarding database usage.
 > This does not apply to dedicated servers and MySQL databases will contribute the dedicated servers overall data usage.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/X_JCB6NbIEI?si=NHmEau_Za8Yy2_hS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

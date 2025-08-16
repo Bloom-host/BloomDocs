@@ -25,7 +25,7 @@ First, you will want to head over to your domain's DNS settings panel. In this d
 
 The DNS record usually used for a reverse proxy is a CNAME (canonical name). Different DNS providers may use different methods to reference the root of a domain. In most cases, you should put an `@` inside the Name box. 
 
-You will want to create an identical CNAME record as the one pictured above, but you will replace the '**Target**' field with the revproxy address corresponding to your location. For US servers it is: `revproxy-us.bloom.host` and for EU servers it is `revproxy-eu.bloom.host`. 
+You will want to create an identical CNAME record as the one pictured above, but you will replace the '**Target**' field with the revproxy address corresponding to your location. For US servers it is: `revproxy-us.bloom.host`, Germany servers: `revproxy-eu.bloom.host` and Singapore: `revproxy-sgp.bloom.host`. 
 
 ---
 
