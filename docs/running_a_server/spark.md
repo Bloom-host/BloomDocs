@@ -17,7 +17,7 @@ keywords:
 ---
 
 ### What does the plugin do?
-Spark is a performance profiling plugin (with limited availability for Forge and Fabric) that can display server information, such as TPS, memory, tick durations, CPU usage, and disk usage. But more importantly it can create a performance profile that can be viewed on a fully feature web interface.
+Spark is a performance profiling plugin that can display server information, such as TPS, memory, tick durations, CPU usage, and disk usage. But more importantly it can create a performance profile that can be viewed on a fully feature web interface.
 It does not require any configuration and is incredibly easy to install.
 
 ### Setup
