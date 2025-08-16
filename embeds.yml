@@ -256,7 +256,7 @@ winmtr:
     - 'mtr'
   title: 'Diagnosing Connection Issues'
   description: >
-    *MTR is a tool we use to help identify network problems between your internet service provider and the server. It works by sending small packets of data across the internet and measuring how they travel from one point to another. By tracking each step (called a "hop") along the route, MTR helps us see where packet loss or connection issues might be happening.*
+    *MTR is a tool we use to diagnose network issues between your internet provider and the server. It traces each step along the connection path to detect latency increase, packet loss, or other problems.*
   footer: 'BloomBot - Bloom.host'
   footer-icon: '%guildicon%'
   image: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/G7k4om.png'
@@ -267,9 +267,8 @@ winmtr:
 
         **1**. Click the link and download the application
         **2**. Extract the downloaded archive and open the folder.
-        **3**. Start the `WinMTR.exe` file and enter your server's IP address in the 'host' field.
-        **4**. Click start and let it run for at least a minute.
-        **5**. Take a screenshot of the results so we can analyze your route.
+        **3**. Start the `WinMTR.exe` file and enter your server's IP address in the 'host' field. Don't include the port of the server.
+        **4**. Let it run for at least a minute, take a screenshot and send it to us for review.
       inline: false
     - title: '<:apple:849551086028849152> macOS'
       description: |+
@@ -278,9 +277,9 @@ winmtr:
         `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`  
         **3**. Install MTR:  
         `brew install mtr`  
-        **4**. Run the test (replace `your.server.ip` with your actual server IP):  
+        **4**. Run the test (replace `your.server.ip` with your actual server IP without the port):  
         `mtr -b your.server.ip`  
-        **5**. Let it run for a couple of minutes, then copy the full output and send it to us for review.
+        **4**. Let it run for at least a minute, take a screenshot and send it to us for review.
       inline: false
     - title: '<:linux:955230938084818964> Linux'
       description: |+
@@ -289,9 +288,9 @@ winmtr:
         - Debian/Ubuntu: `sudo apt install mtr`  
         - CentOS/RHEL: `sudo yum install mtr`  
         - Fedora: `sudo dnf install mtr`  
-        **3**. Run the test (replace `your.server.ip` with your actual server IP):  
+        **3**. Run the test (replace `your.server.ip` with your actual server IP without the port):  
         `mtr -b your.server.ip`  
-        **4**. Let it run for a couple of minutes, then copy the full output and send it to us for analysis.
+        **4**. Let it run for at least a minute, take a screenshot and send it to us for review.
       inline: false
 grafana:
   aliases:
