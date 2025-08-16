@@ -265,14 +265,14 @@ winmtr:
       description: |+
         You can use a software such as [WinMTR](https://sourceforge.net/projects/winmtr/).
 
-        **1**. Click the link and download the application
+        **1**. Download [WinMTR](https://sourceforge.net/projects/winmtr/)
         **2**. Extract the downloaded archive and open the folder.
         **3**. Start the `WinMTR.exe` file and enter your server's IP address in the 'host' field. Don't include the port of the server.
         **4**. Let it run for at least a minute, take a screenshot and send it to us for review.
       inline: false
     - title: '<:apple:849551086028849152> macOS'
       description: |+
-        **1**. Open Terminal.  
+        **1**. Open the Terminal.  
         **2**. If you don’t have Homebrew, install it:  
         `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`  
         **3**. Install MTR:  
@@ -1003,13 +1003,11 @@ spark:
   fields:
     - title: 'What is Spark?'
       description: |+
-        Spark is a performance profiling tool we use to help diagnose lag on Minecraft servers.
-        It collects data about what's happening on the server in real-time.
-        This allows us to pinpoint the cause of lag, whether it's constant low TPS or occasional spikes, and suggest targeted optimizations.
+        Spark is a profiling tool that monitors your Minecraft server in real time, helping us identify the cause of lag (low TPS or spikes) and recommend specific optimizations.
       inline: false
     - title: 'Spark Profiler Crash Course'
       description: |+
-        Here are some quick command for profiling:
+        Here are some quick commands for profiling:
 
         - For constant lag:  
           ``/spark profiler --timeout 300``
