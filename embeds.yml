@@ -259,7 +259,7 @@ winmtr:
     *MTR is a tool we use to diagnose network issues between your internet provider and the server. It traces each step along the connection path to detect latency increase, packet loss, or other problems.*
   footer: 'BloomBot - Bloom.host'
   footer-icon: '%guildicon%'
-  image: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/G7k4om.png'
+  image: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/winmtr.png'
   fields:
     - title: '<:windows:849551086158741524> Windows'
       description: |+
