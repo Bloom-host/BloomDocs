@@ -39,4 +39,4 @@ Here you can also specify a delay. This is useful if you would like to send a ti
 ---
 
 #### ➤ Daily Backups
-See our [guide](backups.md) on backups!
+See our [guide](/backups) on backups!

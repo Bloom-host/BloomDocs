@@ -229,11 +229,13 @@ module.exports = {
                         'plugins_and_modifications/plugins/prism',
                         'plugins_and_modifications/plugins/servernpc',
                         'plugins_and_modifications/plugins/tebex', // Minecraft server donation store integration, formerly known as BuyCraft
+                        'plugins_and_modifications/plugins/topper',
                         'plugins_and_modifications/plugins/vault',
                         'plugins_and_modifications/plugins/venturechat', // Chat handler
                         'plugins_and_modifications/plugins/viaversion',
                         'plugins_and_modifications/plugins/votifier', // Minecraft server vote site listener
                         'plugins_and_modifications/plugins/vulcan', // anticheat
+                        'plugins_and_modifications/plugins/worldguard', //worldguard
                         'plugins_and_modifications/plugins/oraxen',
                         'plugins_and_modifications/plugins/denizen',
                         'plugins_and_modifications/plugins/ajLeaderboards',

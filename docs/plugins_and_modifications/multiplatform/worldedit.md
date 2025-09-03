@@ -49,6 +49,15 @@ In order to make a sphere, run `//sphere [block] [radii]`. This command will cre
 
 If you feel like making a cylinder, run `//cyl [block] [radii] [height]`. This will create a solid cylinder out of `[block]`, with `[radii]` as the distance to the edges and `[height]` as how tall it is going up from your feet. Like spheres, you can run `//hcyl` with the same syntax to create the same shape, but hollow.  
 
+## Useful additions
+
+#### WorldGuard:
+
+Allows for the creation of regions to protect areas.
+
+Download WorldGuard here: [Bukkit](https://dev.bukkit.org/projects/worldguard/files)
+See Bloom’s documentation: [plugins/worldguard](https://docs.bloom.host/plugins/worldguard)
+
 ## Info
 
 [Bukkit](https://dev.bukkit.org/projects/worldedit)  

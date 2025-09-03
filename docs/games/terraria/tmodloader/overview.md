@@ -25,7 +25,7 @@ through [Steam](https://store.steampowered.com/app/1281930/tModLoader/) on your 
 :::
 
 :::caution HEADS UP!
-If your server is already using Terraria, make sure to [create a backup](/using_the_panel/backups.md) before following
+If your server is already using Terraria, make sure to [create a backup](/using_the_panel/backups/guide.md) before following
 the steps below.
 :::
 

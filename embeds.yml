@@ -205,6 +205,7 @@ fbiinfo:
     - 'crackedserver'
     - 'cracked'
     - 'offline'
+    - 'pirate'
   title: '🚫 Piracy Is Bad'
   colour: '#dd2e44'
   thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/85dAco.png'
@@ -239,13 +240,13 @@ hybrid:
   colour: '#dd2e44'
   description: |+
     ## :warning: Avoid Hybrids when possible
-    Using a Hyrbid server jar can cause multiple issues, mainly server jars clash apis, as Bukkit was made for plugins and Forge/Fabric/Neoforge for mods. Mixing them requires significant changes to the Bukkit API and Modded server code. If not done correctly, both plugins and mods can act strangely. Using these will almost guarantee to cause strange issues  that make it near-impossible to assist.
+    Using a Hyrbid server jar can cause multiple issues, mainly server JARs clash APIs, as Bukkit was made for plugins and Forge/Fabric/Neoforge for mods. Mixing them requires significant changes to the Bukkit API and Modded server code. If not done correctly, both plugins and mods can act strangely. Using these will almost guarantee to cause strange issues that make it nearly impossible to assist.
     ## <:unlink:1135289952838615161> Support?
         Mod developers and Plugin developers will not support Hybrid servers
         Bloom community & staff members might not be able to help out due to Hybrids and their issues. The best line of support for Hybrids is the Hybrid developers.
     ## <:book:849551086141833246> Resource links
-        [Essentials PSA about Mohist.](https://essentialsx.net/do-not-use-mohist.html)
-        [Pixelmon's warnings about Mohist.](https://pixelmonmod.com/viewtopic.php?f=5&t=29799%3E)
+        - [Essentials PSA about Mohist](https://essentialsx.net/do-not-use-mohist.html)
+        - [Pixelmon's warnings about Magma](https://pixelmonmod.com/viewtopic.php?f=5&t=29799%3E)
 
 
 winmtr:
@@ -255,28 +256,42 @@ winmtr:
     - 'mtr'
   title: 'Diagnosing Connection Issues'
   description: >
-    *MTR probes routers on the route path by limiting the number of
-    hops individual packets may traverse, and listening to responses of their
-    expiry.*
+    *MTR is a tool we use to diagnose network issues between your internet provider and the server. It traces each step along the connection path to detect latency increase, packet loss, or other problems.*
   footer: 'BloomBot - Bloom.host'
   footer-icon: '%guildicon%'
-  image: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/G7k4om.png'
+  image: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/winmtr.png'
   fields:
     - title: '<:windows:849551086158741524> Windows'
       description: |+
         You can use a software such as [WinMTR](https://sourceforge.net/projects/winmtr/).
 
-        **1**. Click the link and download the application
+        **1**. Download [WinMTR](https://sourceforge.net/projects/winmtr/)
         **2**. Extract the downloaded archive and open the folder.
-        **3**. Start the `WinMTR.exe` file and enter your server's IP address in the 'host' field.
-        **4**. Click start and let it run for at least a minute.
-        **5**. Take a screenshot of the results so we can analyze your route.
+        **3**. Start the `WinMTR.exe` file and enter your server's IP address in the 'host' field. Don't include the port of the server.
+        **4**. Let it run for at least a minute, take a screenshot and send it to us for review.
       inline: false
-    - title: '<:apple:849551086028849152> <:linux:955230938084818964> Other Operating Systems'
+    - title: '<:apple:849551086028849152> macOS'
       description: |+
-        In case you are using another operating system such as macOS or Linux, be sure to let us know we'll guide you through the process!
+        **1**. Open the Terminal.  
+        **2**. If you don’t have Homebrew, install it:  
+        `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`  
+        **3**. Install MTR:  
+        `brew install mtr`  
+        **4**. Run the test (replace `your.server.ip` with your actual server IP without the port):  
+        `mtr -b your.server.ip`  
+        **4**. Let it run for at least a minute, take a screenshot and send it to us for review.
       inline: false
-
+    - title: '<:linux:955230938084818964> Linux'
+      description: |+
+        **1**. Open a terminal.  
+        **2**. Install MTR with your package manager:  
+        - Debian/Ubuntu: `sudo apt install mtr`  
+        - CentOS/RHEL: `sudo yum install mtr`  
+        - Fedora: `sudo dnf install mtr`  
+        **3**. Run the test (replace `your.server.ip` with your actual server IP without the port):  
+        `mtr -b your.server.ip`  
+        **4**. Let it run for at least a minute, take a screenshot and send it to us for review.
+      inline: false
 grafana:
   aliases:
     - 'unifiedmetrics'
@@ -449,7 +464,7 @@ security:
         sure:
         • `online-mode=` is set to `false` in server.properties
         • `bungeecord:` is set to `false` in spigot.yml
-        • `enabled:` and `online-mode` under `velocity-support` is set to true in paper.yml
+        • `enabled:` and `online-mode` under `proxies` and `velocity` is set to true in `config/paper-global.yml`
         • `secret` under `velocity-support` is set to Velocity's `forwarding-secret` setting. Both of these must be exactly the same or you will be unable to connect to your server!
       inline: false
     - title: 'Using Velocity with BungeeGuard forwarding'
@@ -457,7 +472,7 @@ security:
         When using Velocity with BungeeGuard forwarding as your proxy, make sure:
         • `online-mode=` is set to `false` in server.properties
         • `bungeecord:` is set to `true` in spigot.yml
-        • `enabled:` under `velocity-support` is set to false in paper.yml – This setting is for Velocity modern forwarding and you will not be able to join your server with both this and bungeecord forwarding enabled!
+        • `enabled:` and `online-mode` under `proxies` and `velocity` is set to false in `config/paper-global.yml` – This setting is for Velocity modern forwarding and you will not be able to join your server with both this and bungeecord forwarding enabled!
         • you have BungeeGuard installed (!`bungeeguard`) and that your token in the BungeeGuard plugin on the backend servers matches what is set for Velocity's `forwarding-secret` setting or you will be unable to connect to your server!
       inline: false
 
@@ -645,6 +660,9 @@ database:
   aliases:
     - 'databases'
     - 'mysql'
+    - 'db'
+    - 'dbs'
+    - 'sql'
   title: '📜 Bloom Docs - MySQL'
   description: >
     Check out our comprehensive guide on MySQL databases
@@ -667,6 +685,7 @@ split:
   aliases:
     - 'splitserver'
     - 'serversplit'
+    - 'splits'
   title: '📜 Bloom Docs - Split Servers'
   description: >
     Check out our comprehensive guide on server splitting
@@ -722,11 +741,12 @@ jars:
   aliases:
     - 'serverjars'
     - 'whichjar'
+    - 'jar'
   title: '📜 Bloom Docs - Server Jars'
   description: >
     Check out our comprehensive guide on picking the right server
     software [here](https://docs.bloom.host/jars/).
-  thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/tY6IAF.png'
+  thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/bloom.gif'
   image: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/NniDCP.png'
 
 clumsyloader:
@@ -756,6 +776,7 @@ internal:
     - 'internal-servers'
     - 'internal-server'
     - 'backend'
+    - 'internals'
   title: '📜 Bloom Docs - Internal Servers'
   description: >
     Check out our comprehensive guide on internal servers
@@ -809,7 +830,7 @@ fabric:
   title: '📜 Bloom Docs - Fabric'
   description: >
     Check out our comprehensive guide on installing Fabric to your
-    server [here](https://docs.bloom.host/fabric-setup/).
+    server [here](https://docs.bloom.host/jars/).
   thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/tY6IAF.png'
   image: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/cTEy1Q.png'
 
@@ -834,7 +855,7 @@ neoforge:
   title: '📜 Bloom Docs - NeoForge'
   description: >
     Check out our comprehensive guide on installing NeoForge to your
-    server [here](https://docs.bloom.host/neoforge-setup/).
+    server [here](https://docs.bloom.host/jars/).
   thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/tY6IAF.png'
   image: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/neoimage.png'
 
@@ -842,7 +863,7 @@ forge:
   title: '📜 Bloom Docs - Forge'
   description: >
     Check out our comprehensive guide on installing Forge to your
-    server [here](https://docs.bloom.host/forge-setup/).
+    server [here](https://docs.bloom.host/jars/).
   thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/tY6IAF.png'
   image: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/SylbcQ.png'
 
@@ -914,22 +935,20 @@ resourcepack:
   image: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/K3v1x4.png'
 
 java:
-  aliases: [ 'jvm' ]
-  title: '📜 Bloom Docs - Java Version'
-  description: >
-    Check out our comprehensive guide on changing your server's Java
-    version [here](https://docs.bloom.host/java-version/).
-  thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/tY6IAF.png'
-  image: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/a0Oz1b.png'
-
-java17:
-  aliases: [ 'jvm17' ]
-  title: '📜 Minecraft 1.18+ needs Java 17'
+  aliases: [ 'jvm', 'javas', 'java18', 'whichjava', 'jvm18', 'java17', 'jvm17' ]
+  title: '📜 Minecraft and their java requirements'
   description: |+
-    The new release of Minecraft 1.18 needs Java 17.
+    For Minecraft forge/fabric <1.16, Java 8 is recommended
+    
+    For Minecraft <1.17, Java 11 is recommended.
 
-    You can change your Java version by going to the startup tab and selecting Java 17 under the Java Version section. You can see our comprehensive guide on changing your server's Java version [here](https://docs.bloom.host/java-version/).
-  thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/tY6IAF.png'
+    Minecraft 1.17 **__won't start__** without Java 16 (or newer).
+
+    Minecraft 1.18 **__won't start__** without Java 17 (or newer).
+
+    Minecraft 1.20.5 **__won't start__** without Java 21 (or newer).
+    
+    For more information on how to change your java version on the panel, please visit [here](https://docs.bloom.host/java-version/)
   image: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/java.png'
 
 emergencyrestore:
@@ -977,10 +996,30 @@ spark:
   aliases: [ 'profiler' ]
   title: '📜 Bloom Docs - Spark'
   description: >
-    Check out our comprehensive guide on creating a spark profiler to
-    debug TPS issues on your server [here](https://docs.bloom.host/spark/).
-  thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/running_a_server/spark/1.png'
-  image: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/imgs/running_a_server/spark/1.png'
+    *Check out our comprehensive guide on creating a Spark profiler to debug TPS issues on your server [here](https://docs.bloom.host/spark/).*
+  footer: 'BloomBot - Bloom.host'
+  footer-icon: '%guildicon%'
+  image: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/running_a_server/spark/1.png'
+  fields:
+    - title: 'What is Spark?'
+      description: |+
+        Spark is a profiling tool that monitors your Minecraft server in real time, helping us identify the cause of lag (low TPS or spikes) and recommend specific optimizations.
+      inline: false
+    - title: 'Spark Profiler Crash Course'
+      description: |+
+        Here are some quick commands for profiling:
+
+        - For constant lag:  
+          ``/spark profiler --timeout 300``
+
+        - For lag spikes:  
+          ``/spark profiler --only-ticks-over 100 --timeout 300``
+
+        - For FPS/render issues (client):  
+          ``/sparkc profiler --timeout 300``
+      inline: false
+
+
 
 motd:
   title: '📜 Bloom Docs - MOTD'
@@ -1043,11 +1082,12 @@ codes:
   aliases:
     - 'promo'
     - 'coupon'
+    - 'code'
   title: '💳 Promo Codes'
   colour: '#feab33'
   description: |+
     ### Here are the current active promo codes:
-    - `PERFPLUSME`: 20% off your first invoice of any Performance Plus plan
+    - `PERFPLUSME`: 20% off your **first** invoice of any Performance Plus plan
   buttons:
     - [ 'Create Your Server Now', 'https://bloom.host/', '🎉' ]
 
@@ -1061,7 +1101,7 @@ api:
     Alternatively, you can make requests using [Ptero API](https://api.ptero.sh/#/operations/get-server-file-contents).
 
 warp:
-  aliases: [ 'vpn' ]
+  aliases: [ 'vpn', 'cloudflare' ]
   colour: '#F37E1F'
   description: |+
     # <:cloudflare:1350076860482060330> Cloudflare WARP
@@ -1074,6 +1114,20 @@ warp:
     2. Click the ⚙️ option and select 'Preferences'.
     3. Under the 'Advanced' tab, open the 'Local Domain Fallback' option.
     4. Click `host` and remove it using the `-` button.
+
+worldtype:
+  aliases: [ 'wt', 'worldtypes' ]
+  title: 'World Types'
+  description: |+
+    World Types define how terrain is generated in your Minecraft world.
+
+    Types: `default`, `flat`, `amplified`, `largebiomes`.
+
+    Location: `server.properties` file, at `level-type=`.
+
+    ⚠️ Don't change the world type on your current world; it will break generation.
+
+    Default value: `level-type=default`.
 
 # ┌─────────────────┐
 # │ Internal Embeds │
@@ -1165,6 +1219,8 @@ modpacks:
   enabled: false
   aliases:
     - 'modpacklist'
+    - 'modpack'
+    - 'packs'
   title: 'List of Modpacks'
   description: '%modpacks%'
   footer: 'Suggest a pack to be added: !suggest <link/name>'

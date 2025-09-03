@@ -23,7 +23,7 @@ The following steps will __completely erase__ your worlds.
 
 If you wish to have multiple worlds on your server at once, add a prefix to the end of each world (such as `_old`), OR use a plugin such as [Multiverse](https://dev.bukkit.org/projects/multiverse-core).
 
-We recommend you take a backup before deleting any worlds in your server. Follow this [guide](/using_the_panel/backups.md) to learn how to make and schedule backups.
+We recommend you take a backup before deleting any worlds in your server. Follow this [guide](/using_the_panel/backups/guide.md) to learn how to make and schedule backups.
 :::
 
 You now have to locate your world files, on *most* Minecraft servers these folders will be `world`, `world_nether`, and `world_the_end` - if not, check your `level-name` in `server.properties`.

@@ -4,7 +4,7 @@ title: Using SFTP
 slug: /sftp
 hide_table_of_contents: true
 sidebar_label: Using SFTP For Files
-description: This guide will help you use SFTP (MobaXTerm/WinSCP/FileZilla) to transfer files.
+description: This guide will help you use SFTP (WinSCP/Cyberduck/MobaXTerm/FileZilla/Visual Studio COde) to transfer files.
 keywords:
   - Bloom.host
   - Import Files
@@ -14,6 +14,13 @@ keywords:
   - File Access
   - Bloom.host file access
   - Pterodactyl Panel
+  - FTP
+  - FIle Transfer
+  - WinSCP
+  - Cyberduck
+  - FileZilla
+  - MobaXTerm
+  - Visual Studio Code
 ---
 
 ### What is SFTP? 
@@ -38,7 +45,7 @@ Here you will be able to see your server's SFTP host IP address and port as well
  
 *If you have WinSCP installed, you can launch straight away by clicking `Launch SFTP`.*
 
-### Using WinSCP
+### Using WinSCP (Recommended, available only on Windows)
 Firstly, you'll have to download [WinSCP](https://winscp.net/eng/download.php) to your computer. - This should be simple with their installation wizard.
 
 With our new panel, you can simply head over to the [Duck Panel](https://mc.bloom.host/) and click 'Launch SFTP' under 'Settings' on the left side of the screen. You'll simply need to enter your panel password and you are good to go!
@@ -48,44 +55,69 @@ With our new panel, you can simply head over to the [Duck Panel](https://mc.bloo
 WinSCP is very similar to your basic Windows Explorer. However, on the left side of the screen (green area) you can see your local files and on the right side (blue area), you can see the remote server's files.
 You can drag, drop, rename and delete files as you wish. 
 
-### Using MobaXTerm
-Firstly, you'll have to download [MobaXTerm](https://mobaxterm.mobatek.net/download.html). They do have a free edition and also a professional, paid one. - This should be simple with their installation wizard.
+---
+
+<details>
+  <summary>Using Cyberduck (Available only on Mac)</summary>
+
+[Cyberduck](https://cyberduck.io/) is a popular free SFTP client for macOS.  
+
+1. Download Cyberduck from the official website or the Mac App Store.  
+2. Open the application and click **Open Connection**.  
+3. From the dropdown menu, choose **SFTP (SSH File Transfer Protocol)**.  
+4. Enter your server’s host IP, port, username, and password (the same as your game panel password).  
+5. Click **Connect**.  
+6. You will now see your server files. Drag and drop files to upload or download them.  
+
+</details>
+
+<details>
+  <summary>Other Options to connect to SFTP such as MobaXTerm (Windows), FileZilla (Windows, Mac and Linux), and Visual Studio Code</summary>
+
+### Using MobaXTerm (Available only on Windows)
+Firstly, you'll have to download [MobaXTerm](https://mobaxterm.mobatek.net/download.html). They offer both a free edition and a paid professional version. The installation wizard is straightforward.  
  
-Once that's done, simply launch the application. Right-click on the left side of the screen and click 'New Session'!
-Here, select 'SFTP' in the middle.
+Once installed, launch the application. Right-click on the left side of the screen and click 'New Session'. Select 'SFTP' in the middle.  
 
 ![console](/using_the_panel/sftp/4.png)
 
-You'll have to enter your host's IP, port and SFTP username (as discussed above). Once that's done, simply click 'Ok'.
- 
-You'll be asked for your panel password. By default, this password will be stored.
+Enter your host's IP, port, and SFTP username (which can be found in the Duck Panel server settings tab). Then click 'Ok'.  
+You will be asked for your panel password, which will be stored by default.  
 
-![console](/using_the_panel/sftp/5.png)
+On the left side (green area) you can see your local files, and on the right side (blue area) you can see the remote server's files. You can drag, drop, rename, and delete files as needed.  
 
-On the left side (green area) of your screen, you can see your local file tree and files and on the left side (blue area) you can see your remote files.
-You can drag, drop, rename and delete files as you wish.
+---
+
+
+## Using FileZilla (Available for Windows, Mac and Linux)
+[FileZilla](https://filezilla-project.org/) is another popular and free SFTP client available for Windows, Mac, and Linux.
+
+1. Download FileZilla from the official website and install it.  
+2. Open the program and go to the top bar where it says **Host**, **Username**, **Password**, and **Port**.  
+3. Enter your server’s SFTP details (host IP, username, password, and port). Make sure the **protocol** is set to **SFTP**.  
+4. Click **Quickconnect**.  
+5. Your local files will appear on the left and your server files on the right. You can drag and drop files between them.
 
 ---
 
 ### Using Visual Studio Code
-You can also use VSC to edit files via SFTP!
+You can also use Visual Studio Code to edit files via SFTP.  
 
-To do this, we will use the **SFTP** addon for Visual Studio Code for efficient transferring files to remote servers.
+To do this, install the **SFTP** addon for Visual Studio Code for efficient file transfer.  
 
-1. Install the extension on your IDE:
+1. Install the extension on your IDE.  
    ![VSC addon](/using_the_panel/sftp/vsc/addon.png)
-2. Open a folder for your SFTP files (preferably separated so as not to be cluttered)
+2. Open a folder for your SFTP files (preferably separated to avoid clutter).  
    ![Windows context menu](/using_the_panel/sftp/vsc/context-menu.png)
-3. Open the command palette in VSC, (By default, CTRL+SHIFT+P), and find the 'SFTP: Config' command:
+3. Open the command palette (CTRL+SHIFT+P by default) and find the 'SFTP: Config' command.  
    ![VSC command palette](/using_the_panel/sftp/vsc/command-palette.png)
-4. Set up your SFTP credentials in the `sftp.json` config. Make sure to set `uploadOnSave` to `true`
+4. Set up your SFTP credentials in the `sftp.json` config. Be sure to set `uploadOnSave` to `true`.  
    ![sftp.json file](/using_the_panel/sftp/vsc/sftp.json.png)
-5. After that, go to your settings and ensure 'Download When Open In Remote Explorer' is enabled. 
-   ![Remote explorer setting](/using_the_panel/sftp/vsc/remote-explorer.png) 
-6. That's it! You can find your files in the sidebar:
+5. In your settings, enable 'Download When Open In Remote Explorer'.  
+   ![Remote explorer setting](/using_the_panel/sftp/vsc/remote-explorer.png)
+6. That’s it. You can now find your files in the sidebar.  
    ![VSC sidebar](/using_the_panel/sftp/vsc/sidebar.png)
 
-**TIP**: when you open a file that has a copy from local version, we highly suggested
-not modifying the local. If you edit the same file somewhere (e.g Bloom
-File Explorer) there is a chance that the local file will be uploaded to delete the file
-you have edited.
+**Tip**: When you open a file that exists locally, avoid editing the local copy. If you edit the same file elsewhere (for example in Bloom File Explorer), there is a risk the local copy will overwrite your changes.  
+
+</details>

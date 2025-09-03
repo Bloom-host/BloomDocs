@@ -22,7 +22,7 @@ Floodgate allows Bedrock players to connect to Java servers running [GeyserMC](/
 
 ## Usage
 
-[Download the plugin](https://ci.opencollab.dev/job/GeyserMC/job/Floodgate/job/master/lastSuccessfulBuild/artifact/spigot/build/libs/floodgate-spigot.jar) and upload the jar into your `plugins` folder. Restart or turn on the server. If you need help installing plugins, check out [this guide](/installing-plugins).  
+[Download the plugin](https://geysermc.org/download/?project=floodgate) and upload the jar into your `plugins` folder. Restart or turn on the server. If you need help installing plugins, check out [this guide](/installing-plugins).  
 
 Once you've installed the plugin, you will have to modify your GeyserMC config. in `/plugins/Geyser-Spigot/config.yml` (Plugin folder may be different) set `auth-type` to `floodgate`
 
@@ -32,7 +32,5 @@ After that, restart your server; Bedrock players should now be able to connect t
 
 ## Info
 [Website](https://geysermc.org/)  
-
-[Jenkins](https://ci.opencollab.dev/job/GeyserMC/job/Floodgate/job/master/)  
 
 [Wiki](https://github.com/GeyserMC/Floodgate/wiki)
