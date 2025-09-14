@@ -266,7 +266,8 @@ module.exports = {
                 'VPS/starting-with-vps',
                 'VPS/vnc',
                 'VPS/credentials-vps',
-                'VPS/virtfusion-subuser'
+                'VPS/virtfusion-subuser',
+                'VPS/virtfusion-windows-install',
             ],
         },
 
