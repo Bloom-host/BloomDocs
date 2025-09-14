@@ -23,7 +23,7 @@ Oraxen command start with the same label, however, Oraxen has a few aliases to u
 
 - `/oraxen inventory` - Oraxen Inventory
 - `/oraxen give <player> <item> <amount>` - Gives amount items to a player
-- `/oraxen pack send <player>` - Send to a \<player> the pack directly through the game
+- `/oraxen pack send <player>` - Sends to the player the pack directly through the game
 - `/oraxen reload [all|items|pack|recipes]`
 
 You can find out more about their commands here: https://docs.oraxen.com/usage/commands
