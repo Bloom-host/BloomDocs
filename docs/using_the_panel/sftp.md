@@ -58,7 +58,9 @@ You can drag, drop, rename and delete files as you wish.
 ---
 
 <details>
-  <summary>Using Cyberduck (Available only on Mac)</summary>
+<summary>
+### Using Cyberduck (Available only on Mac)
+</summary>
 
 [Cyberduck](https://cyberduck.io/) is a popular free SFTP client for macOS.  
 
@@ -72,7 +74,9 @@ You can drag, drop, rename and delete files as you wish.
 </details>
 
 <details>
-  <summary>Other Options to connect to SFTP such as MobaXTerm (Windows), FileZilla (Windows, Mac and Linux), and Visual Studio Code</summary>
+<summary>
+### Other Options to connect to SFTP such as MobaXTerm (Windows), FileZilla (Windows, Mac and Linux), and Visual Studio Code
+</summary>
 
 ### Using MobaXTerm (Available only on Windows)
 Firstly, you'll have to download [MobaXTerm](https://mobaxterm.mobatek.net/download.html). They offer both a free edition and a paid professional version. The installation wizard is straightforward.  
