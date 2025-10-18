@@ -287,6 +287,7 @@ module.exports = {
             items: [
                 'billing/email_change',
                 'billing/cancellations',
+                'billing/early_renewal',
                 'billing/upgrades',
                 'billing/refunds',
                 'billing/suspensions_and_terminations',
