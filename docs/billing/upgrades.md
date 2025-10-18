@@ -1,39 +1,57 @@
----
-id: upgrades
-title: How to upgrade, downgrade or transfer your server
-hide_table_of_contents: true
-sidebar_label: How to upgrade, downgrade or transfer your server
-description: This guide will show you how to upgrade, downgrade or transfer your server
-keywords:
-  - upgrade
-  - downgrade
-  - transfer
+# **How to Upgrade/Downgrade Your Plan**
+Need more power (RAM, CPU, or storage) for your server or want to scale down? This guide walks you through the process step by step.
+
 ---
 
-## How to upgrade, downgrade or transfer your server to another Bloom datacenter location
+## Step 1. Log in to your Billing Account.
+- Go to the Dashboard and click on your server under **Active Services**.
+- In this example, the selected service is **"Premium+ - SGP"**.
+![](./image-1753926182772.png)
 
-:::note
-If you want to downgrade to an Essentials plan please open a billing ticket [here](https://billing.bloom.host/submitticket.php).
-:::
-:::note
-To upgrade or transfer a VPS service please open a billing ticket [here](https://billing.bloom.host/submitticket.php).
-:::
-:::caution
-Downgrading VPS services is not possible due to the limitations of KVM software. Reducing disk size is not possible without rebulding the VM. To downgrade you can purchase a new VPS and transfer your data over, once you are done you can request a prorated credit refund for your old VPS plan. To request the credit refund you'll need to open a billing ticket [here](https://billing.bloom.host/submitticket.php) 
-:::
+---
 
-To request a plan upgrade, downgrade or a change of location go to the Products section of our billing panel [here](https://billing.bloom.host/clientarea.php?action=services), sign in with your Billing Account, click the three dots to the right side of the Product you want to upgrade, then select the Upgrade/Downgrade button.
+## Step 2. Click the **“Upgrade”** Button.
+On the service page, click the **UPGRADE** button. This will open the upgrade configuration panel.
 
-![img](/discord/upgrade.png)
+![](./image-1753926209710.png)
 
-On the upgrade page you will be able to select to what location and plan you want to upgrade/downgrade to, here you can also switch between datacenter locations. Once you select the plan it will generate an invoice (if needed) which needs to be paid before the upgrade and transfer process begins.
+---
 
-## Transfers
+## Step 3. Adjust Your Configuration
+- Your current specs will be shown by default.
+- Increase or decrease vCPU, RAM, or Storage as needed.
 
-If you see a **'Requires server transfer'** message below the plan you want to upgrade or downgrade to it means that the server needs to be transferred to another node before the upgrade or downgrade can be completed. This is because the server is currently on a node that doesn't have enough resources to support the plan you want to upgrade or downgrade to.
+>[!NOTE]
+> In the example below, the current server configuration is displayed. Let's say we originally have 5 vCPU, and want to upgrade to 7 vCPU.
+> ![](./image-1753926246452.png)
 
-This warning message also appears when you want to switch between datacenter locations.
+On the right side of the configuration, you will see the price difference for the new plan.
 
-**Keep in mind that when a server is transferred to another node it will be offline while the transfer is being processed. Your server IP and database host will change.**
+![](./image-1753926299104.png)
 
-You will receive an email notification when the transfer is started and completed, the last notification will have the new IP, and the new database host can be obtained by going to the Database section of our game panel.
+---
+
+## Step 4. Click “Upgrade” and Choose a Payment Method
+- Click **Upgrade** to proceed.
+- You’ll be directed to an **invoice page** where you can choose your payment method.
+
+![](./image-1753926327096.png)
+
+---
+
+## Step 5. Complete Your Payment
+Choose your preferred payment method:
+- Paying with GCash - [[Click here to view instructions|Home/02_Billing/Paying With Gcash]]
+- Paying with InstaPay/Bank Transfers  - [[Click here to view instructions|Home/02_Billing/Paying With Bank Transfer]]
+- Paypal/Stripe - Payments are processed automatically through our site.
+- Crypto and Others - Please [create a support ticket](https://discord.atbphosting.com) to confirm if we can accommodate your request.
+
+---
+
+## Step 6. Done!
+Your server will automatically upgrade once the invoice is marked as Paid.
+
+---
+
+>[!NOTE]
+> Don’t forget to restart your server to apply the new resources.
