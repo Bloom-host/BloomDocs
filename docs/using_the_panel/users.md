@@ -36,7 +36,7 @@ You can change your Pterodactyl icon (along with the icon for any service that u
 
 ### Leaving a server if you are a subuser
 
-A user can leave a server by going into our [Duck Panel](https://mc.bloom.host) > select the server they want to leave > then on the left side bar they should see a "Leave Server" option below the Settings option.
+A subuser can remove themselves from a server by opening our [Duck Panel](https://mc.bloom.host), selecting the server they wish to leave, and then choosing the "Leave Server" option found in the left sidebar beneath "Settings".
 
 ![img](/using_the_panel/users/leaving.png)
 
