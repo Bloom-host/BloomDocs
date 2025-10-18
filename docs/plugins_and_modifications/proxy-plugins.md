@@ -39,10 +39,12 @@ Make sure you trust the source of your plugin. Plugins have high-level access to
 
 ### Installing Plugins
 
-1. You'll first need to find the plugin you wish to install. Downloads can be found on a variety of sites. Common places are [spigotmc.org](https://spigotmc.org/resources) (look at the BungeeCord or Universal sections), [Hangar](https://hangar.papermc.io/) (under platforms select which proxy software you are using) or [Modrinth](https://modrinth.com/plugins) (under proxies filter select the proxy software you are using).
-2. In any case, save the plugin to your local machine. Plugins can either be uploaded via the [web panel](https://mc.bloom.host) or through [SFTP](../using_the_panel/sftp.md). If you're uploading in bulk, go with the latter.
+1. You'll first need to find the plugin you wish to install. Downloads can be found on a variety of sites. Common places are [spigotmc.org](https://spigotmc.org/resources) (look at the BungeeCord or Universal sections), [Hangar](https://hangar.papermc.io/) (under platforms select which proxy software you are using), [Modrinth](https://modrinth.com/plugins), or you can use our [Plugin Installer](https://panel.atbphosting.com) (under proxies filter select the proxy software you are using).
+2. In any case, save the plugin to your local machine. Plugins can either be uploaded via the [web panel](https://panel.atbphosting.com) or through [SFTP](../using_the_panel/sftp.md). If you're uploading in bulk, go with the latter.
 3. In your server's root directory, locate the `plugins` folder, if it's not there then create a new directory named `plugins`. Navigate into this folder, and upload your plugin's file there!
 4. Most plugins will require you to restart your server before they take effect.
+### Note:
+If you install your plugin using [Plugin Installer](https://panel.atbphosting.com) you can skip step 2 & 3 and proceed to step 4.
 
 :::caution
 BungeeCord and Velocity plugins are usually not cross-compatible, i.e. BungeeCord plugins do not work on Velocity unless it is stated to do so otherwise and vice versa (Velocity plugins can not be used on BungeeCord unless stated overwise).
