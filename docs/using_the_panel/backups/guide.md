@@ -347,7 +347,7 @@ This is a recurring paid addon for your server which allows you to create **8 ba
 
 These changes apply to all [server splits](../split-server) in the same plan!
 
-It costs $5/mo and can be cancelled at any time.
+It costs $5/mo for our Minecraft Plans and can be cancelled at any time. For Bare Metal servers opt for our Game Panel Management option, we offer the Pro Backup Add-on for an additional $10/mo.
 
 ### For New Plans
 
@@ -355,6 +355,10 @@ Select the 'Upgraded' option in 'Pro Backup Addon' at the last step of the check
 ![Checkout pro backup addon addon selected](pro_backup_checkout.png)
 
 ### For Existing Plans
+
+:::note Bare Metal with the Game Panel Management Addon
+Please [open a ticket](https://billing.bloom.host/submitticket.php) on our billing panel requesting the Pro Backup Addon.
+:::
 
 1. Head over to the [billing area](https://billing.bloom.host) and click 'Manage' next to your plan:
    ![Manage button in the client area](pro_backup_manage_service.png)
