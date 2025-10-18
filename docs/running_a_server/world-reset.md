@@ -1,25 +1,34 @@
----
-id: world-reset
-slug: /world-reset
-title: Resetting your World(s)
-hide_table_of_contents: true
-sidebar_label: Resetting your world(s)
-description: How to reset the world(s) on your Minecraft server.
-keywords:
-  - Template
-  - Pterodactyl Panel
-  - Minecraft
-  - Spigot
-  - Plugins
-  - Bloom.host
----
+![](./image-1754207478811.png)
 
-You'll need a way to access your server files. This tutorial references the [web panel](https://mc.bloom.host), but you can also use [SFTP](/using_the_panel/sftp.md). **Shutdown your server before proceeding!**
+# Resetting your World(s)
 
-Either way, go to the root directory of your server. On the web panel, this can be done by selecting your server, dropping down the "File Management" menu, then selecting "File Explorer". When you connect to your server via SFTP, you should be already at your root directory.
+You'll need a way to access your server files. This tutorial references the [web panel](https://panel.atbphosting.com/), but you can also use SFTP. Shutdown your server before proceeding!
 
-:::caution
-The following steps will __completely erase__ your worlds.
+# Step 1: Go to your "Files" Tab on your Panel
+After clicking the button , you will see the container which your server files in.
+![](./image-1754207694333.png) 
+
+# Step 2: Find you worlds to delete.
+There are three types of worlds: Overworld (world), Nether (nether_world), and The End (world_the_end). If you want to delete all of them, simply check the box on the left side of each file.
+![](./image-1754207900994.png)
+
+# Step 3:
+After selecting your worlds, locate the Delete button (highlighted with a pink box) and click it.
+
+![](./image-1754208382976.png)
+
+:::warning
+# CAUTION
+We recommend backing up your old world before resetting, so you can restore it later if needed. But if you’re sure you don’t need it, you can skip the backup.
+:::
+
+# Optional Step:
+You can archive your world by clicking the archive button (highlighted with pink box) to the bottom right side on the panel.
+
+![](./image-1754208620310.png)
+
+> [!IMPORTANT]
+> Once you've completed these steps, you can now start your server again with a fresh new world!
 
 If you wish to have multiple worlds on your server at once, add a prefix to the end of each world (such as `_old`), OR use a plugin such as [Multiverse](https://dev.bukkit.org/projects/multiverse-core).
 
