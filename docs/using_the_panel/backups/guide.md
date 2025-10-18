@@ -356,7 +356,7 @@ Select the 'Upgraded' option in 'Pro Backup Addon' at the last step of the check
 
 ### For Existing Plans
 
-:::note Bare Metal with the Game Panel Management Addon
+:::note Bare Metal Servers with the Game Panel Management Addon
 Please [open a ticket](https://billing.bloom.host/submitticket.php) on our billing panel requesting the Pro Backup Addon.
 :::
 
