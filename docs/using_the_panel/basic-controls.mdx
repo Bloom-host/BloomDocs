@@ -6,54 +6,117 @@ hide_table_of_contents: true
 sidebar_label: Basic Controls
 ---
 
-### Accessing The Panel
+# BASIC NAVIGATIONS
 
-You can access your server's main control panel [here](https://mc.bloom.host/). If you have multiple servers, you can choose which you want to modify from the panel page. Or, simply choose the server you want to control from the drop-down box of each page within the panel.
+## ACCESSING THE PANEL
 
-![console](/using_the_panel/basic_controls/1.png)
+![](./image-1753962014564.png)
 
-<div style={{ position: 'relative', paddingTop: '56.25%', textAlign: 'center' }}>
-  <iframe
-    src="https://www.youtube.com/embed/0Gh5l5Ztw_c?si=w5bR9vGWFqGyRJ3E"
-    title="YouTube video player"
-    frameBorder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    referrerPolicy="strict-origin-when-cross-origin"
-    allowFullScreen
-    style={{
-      position: 'absolute',
-      top: 0,
-      left: 0,
-      width: '100%',
-      height: '100%',
-    }}
-  />
-</div>
+You can access your server's main control panel [here](https://panel.atbphosting.com/). If you have multiple servers, you can choose which you want to modify from the panel page. Or, simply choose the server you want to control from the drop-down box of each page within the panel.
 
+## HOME
 
----
+![](./image-1753962023451.png)
 
-### Live Information
-![console](/using_the_panel/basic_controls/2.png)
+This is likely your main dashboard or overview page for the server. It typically shows basic server status (online/offline), resource usage (CPU, RAM, disk), and perhaps quick access to server actions like starting, stopping, or restarting.
 
-- Purple - Your server's IP address and port.
-- Blue - Your server's ID which is needed when opening a support ticket.
-- Green - The amount of RAM your server is using. Do not be alarmed if this is maxed out, as many of our servers utilize Aikar's optimized JVM flags.
-- Orange - The amount of CPU your server is using. The max amount is equivalent to 100% multiplied by the number of logical cores your plan has.
-- Red - The amount of storage your server is using. If you reach the maximum amount of storage, your server will not boot until space is cleared.
+## CONSOLE
 
----
+![](./image-1753962032547.png)
 
-### Game Console & Server Control
-Here, you can send any command and see what everyone on your server is doing. When launching a command, remember to remove the `/`. If you still want to use a `/`, consider using [this](https://www.spigotmc.org/resources/81157) plugin!
+This is a crucial feature for server management. The terminal provides a command-line interface directly to your Minecraft server console. Here, you can:
 
-These buttons allow you to start, stop, and restart your server. It is not recommended killing your server as plugins and worlds won’t save and may become corrupted. Only use it if your server becomes unresponsive.
+*   See server logs (e.g., player joins/leaves, chat messages, errors).
+*   Execute server commands (e.g., `/op <player>`, `/gamemode <player> creative`, `/save-all`, `/stop`).
+*   Monitor server activity in real-time.
 
-![console](/using_the_panel/basic_controls/3.png)
+## FILES
 
----
+![](./image-1753962041180.png)
 
-### Graphs
-Lastly, you can see the server's live RAM, CPU and network usage in a form of graphs! As mentioned above, with Aikar's flags, it will show up as if you were using most of this. 
+This section allows you to manage the files and folders on your Minecraft server. You can:
 
-![graphs](/using_the_panel/basic_controls/4.png)
+*   Upload and download server files (e.g., world saves, plugin JARs, configuration files like `server.properties`).
+*   Edit text files directly in the browser (e.g., plugin configurations, whitelist.json).
+*   Create, delete, and rename files/folders.
+*   Manage permissions for files if necessary.
+
+## DATABASES
+
+![](./image-1753962052380.png)
+
+While not always required for a basic vanilla Minecraft server, many advanced setups and plugins (like economy plugins, some claim plugins, or BungeeCord/Velocity setups) utilize databases (e.g., MySQL or SQLite) to store persistent data. This section would allow you to:
+
+*   Create and manage databases for your server.
+*   Create database users and set permissions.
+*   View database credentials for your server to connect to them.
+
+## SCHEDULES
+
+![](./image-1753962059772.png)
+
+This feature is incredibly useful for automating server tasks. You can set up schedules to:
+
+*   Automatically restart the server at specific intervals (e.g., daily at 3 AM for maintenance).
+*   Run backup commands at set times.
+*   Send warning messages to players before a scheduled restart.
+*   Execute other server commands periodically.
+
+## USERS
+
+![](./image-1753962065365.png)
+
+If you have multiple people managing your Minecraft server, this section allows you to:
+
+*   Add new users to your Server panel.
+*   Assign specific permissions to each user (e.g., allow someone to only view the console, or give another person full file management access).
+
+## BACKUPS
+
+![](./image-1753962075236.png)
+
+This is essential for disaster recovery. The backups section allows you to:
+
+*   Create manual backups of your entire server (including world, plugins, and configurations).
+*   Download existing backups.
+*   Restore your server from a previous backup in case of data corruption or accidental deletion.
+
+## NETWORK ALLOCATION
+
+![](./image-1753962083973.png)
+
+This section typically deals with network settings for your server. For a Minecraft server, this might include:
+
+*   Viewing the assigned IP address and port.
+*   Managing additional ports if your server requires them for specific plugins or services (though less common for standard Minecraft).
+
+## STARTUP
+
+![](./image-1753962091869.png)
+
+This is where you configure how your Minecraft server starts up. You can:
+
+*   Select the Minecraft version or server JAR file to use.
+*   Set Java arguments (e.g., memory allocation `-Xmx` and `-Xms`).
+*   Configure specific startup parameters for your Minecraft server (e.g., `nogui`, `online-mode`).
+
+## SETTINGS
+
+![](./image-1753962101326.png)
+
+This is a general settings area for your server instance. It might include:
+
+*   Changing the server name displayed in the panel.
+*   Reinstalling the server software (a clean slate).
+*   Deleting the server.
+*   Other general configuration options not covered by other specific sections.
+
+## ACTIVITY
+
+This log provides an audit trail of actions performed on your server through the Pterodactyl panel. You can see:
+
+*   Who performed what action (e.g., server started, files uploaded, commands executed).
+*   When the action occurred.
+*   This is useful for troubleshooting and monitoring user activity.
+
+**This navigation provides a comprehensive interface for managing all aspects of a Minecraft server hosted on a ATBP HOSTING panel, from basic operations to advanced configurations and security.**
