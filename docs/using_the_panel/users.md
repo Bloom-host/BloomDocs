@@ -33,3 +33,11 @@ You can change your Pterodactyl icon (along with the icon for any service that u
 4. After clicking the button in the email, they will be redirected to the password reset page, where they can set a brand new password.
 
 5. After setting up the account, they can go to the [Duck Panel](https://mc.bloom.host/) and log in with their freshly generated credentials!
+
+### Leaving a server if you are a subuser
+
+A user can leave a server by going into our [Duck Panel](https://mc.bloom.host) > select the server they want to leave > then on the left side bar they should see a "Leave Server" option below the Settings option.
+
+![img](/using_the_panel/users/leaving.png)
+
+ 
