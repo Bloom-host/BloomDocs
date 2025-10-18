@@ -980,14 +980,14 @@ datapack:
   image: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/Qryijp.png'
 
 earlyrenewal:
-  aliases: [ 'early-renewal', 'renew-early', 'renew' ]
+  aliases: [ 'early-renewal', 'renew-early', 'renew', 'renewal' ]
   title: '🕓 Bloom Docs - Early Renewal'
   description: >
     Clients can renew their services early, as long as the next due date is less than **31 days away**.  
-    
+
     Services can be renewed from the Billing Panel by visiting the [Early Renewal](https://billing.bloom.host/service-renewals) page, clicking **Add to Cart** on the service you want to renew, and completing the **Checkout** process. If multiple services are eligible for early renewal, you can renew them all at once. 
-    
-    You can learn more in our detailed [Early Renewal Guide](https://docs.bloom.host/early-renewal/).
+
+    You can learn more in our detailed [Early Renewal Guide](https://docs.bloom.host/billing/early_renewal).
   thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/tY6IAF.png'
   image: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/billing/early_renewal/1.png'
 
