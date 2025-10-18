@@ -47,8 +47,8 @@ After adding the service to your cart, click Checkout and complete the checkout 
 
 | Feature | Details |
 |----------|----------|
-| **When available Early Renewal is Available** | Within 31 days of the due date |
-| **Where to renew** | [Early Renewal page](https://billing.bloom.host/service-renewals) |
+| **When Early Renewal is Available?** | Within 31 days of the due date |
+| **Where to renew?** | [Early Renewal page](https://billing.bloom.host/service-renewals) |
 | **Can renew manually before 31 days?** | No |
 | **Affects future due dates?** | No |
 | **Can staff renew early manually?** | No |
