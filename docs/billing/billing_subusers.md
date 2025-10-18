@@ -12,7 +12,7 @@ keywords:
   - billing
 ---
 
-To create a subuser account for your billing account go to the [User Management](https://billing.bloom.host/index.php?rp=/account/users) tab on our billing portal. This tab can be find by clicking on your account name on the top right.
+To create a subuser account for your billing account go to the [User Management](https://billing.atbphosting.com) tab on our billing portal. This tab can be find by clicking on your account name on the top right.
 
 ![img](/billing/billing_subusers/1.png)
 
