@@ -3,7 +3,7 @@ id: velocity
 title: Setting Up Velocity
 slug: /velocity
 hide_table_of_contents: true
-sidebar_label: Setting up a Velocity Server
+sidebar_label: Setting up a Velocity Proxy
 description: How to setup a Velocity Proxy Server
 keywords:
   - Minecraft
@@ -28,11 +28,23 @@ To get started with Velocity, you first need to download the latest version of V
 
 Once you have downloaded Velocity you may proceed to the next step in the setup process: creating a server split to run Velocity off of. Velocity is it’s own server jar file and will require it’s own server to run from.
 
-## Creating a Velocity Server Split
+## Recommended RAM Allocation for Velocity
 
-:::note
-It is recommended that you give Velocity at least 524 to 750 megabytes of RAM to operate off of, for servers with a lot of traffic it is probably better to allocate 1 gigabyte of RAM for Velocity to ensure a smooth experience for your users.
-:::
+The official [Velocity documentation](https://docs.papermc.io/velocity/tuning/#allocate-enough-heap) recommends allocating 512 MB of RAM per 500 players, plus around 1 GB of overhead to provide room for error. While 512MB of RAM can work for lightweight setups with few or no plugins, in practice most modern proxies need more memory, especially when using additional plugins such as Geyser, Floodgate, among others.
+
+We always recommend starting with a small allocation to test your setup, then increasing the amount if you experience performance issues. Monitoring memory usage during operation will help you determine the right balance for your server.
+
+Based on our experience and feedback from our users:
+
+Small or low player setups (no plugins): 512 – 750 MB
+
+Moderate amount of players and a few plugins: 1 GB
+
+Heavier setups (Geyser, analytics, multiple plugins): 1.5 GB – 2 GB
+
+For most Bloom hosted servers, 1 GB is a solid baseline, and 1.5 GB is ideal if you are using Geyser or multiple proxy plugins. Allocating more memory will usually not harm performance unless it's a huge amount, but allocating too little may cause instability or slowdowns under high connection loads. Do note that setups with a high number of Geyser users will require more RAM, since from our experience each Bedrock player consumes a significant amount of memory.
+
+## Creating a Velocity Server Split
 
 First you will need to head to your server split section via the server panel sidebar.
 
