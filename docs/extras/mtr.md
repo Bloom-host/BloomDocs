@@ -46,8 +46,10 @@ On Windows you can use a software such as [WinMTR](https://sourceforge.net/proje
 `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`  
 3.  Install MTR:  
 `brew install mtr`  
-4. Run the test: `mtr -b <server ip>`  
-  Make sure to replace `<server ip>` with your actual server IP **without the port**.
+4. Run the test: `sudo /opt/homebrew/opt/mtr/sbin/mtr -b <server ip>`  
+  Make sure to replace `<server ip>` with your actual server IP **without the port**. It will ask you for your user password, make sure to type it and hit enter (it won't show it in the temrinal)
+
+![img](/extras/ping-issues/mac-mtr.png)
 </details>
 
 <details>
@@ -62,6 +64,8 @@ On Windows you can use a software such as [WinMTR](https://sourceforge.net/proje
     - Fedora: `sudo dnf install mtr`  
 3. Run the test: `mtr -b <server ip>`  
   Make sure to replace `<server ip>` with your actual server IP **without the port**.
+
+![img](/extras/ping-issues/linux-mtr.png)
 </details>
 
 In any case, let it run for at least a minute.
