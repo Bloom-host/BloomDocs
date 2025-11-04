@@ -25,9 +25,7 @@ _Click on the section to expand it._
 ![Windows logo](/icons/windows.png)
 ## Windows
 </summary>
-On Windows you can use a software such as [WinMTR](https://sourceforge.net/projects/winmtr/).
-
-1. Click the link and download the application.
+1. Download [WinMTR](https://sourceforge.net/projects/winmtr/)
 2. Extract the downloaded archive and open the folder.
 3. Start the WinMTR.exe file and enter your server's IP address in the 'host' field.
 4. Click start and let it run for at least a minute.
