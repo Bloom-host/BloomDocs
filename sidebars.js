@@ -273,10 +273,11 @@ module.exports = {
 
         {
             type: 'category',
-            label: 'Dedicated',
+            label: 'Bare Metal',
             collapsed: true,
             items: [
-                'dedicated/reset-password'
+                'dedicated/reset-password',
+                'dedicated/mss'
             ],
         },
 
@@ -301,7 +302,6 @@ module.exports = {
             collapsed: true,
             items: [
                 'extras/ping-issues',
-                'extras/mss',
                 'extras/mtr',
                 'extras/account-details',
                 'extras/available-modpacks',
