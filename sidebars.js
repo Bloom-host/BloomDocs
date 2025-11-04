@@ -301,6 +301,7 @@ module.exports = {
             collapsed: true,
             items: [
                 'extras/ping-issues',
+                'extras/mtr',
                 'extras/account-details',
                 'extras/available-modpacks',
                 'extras/serverpackcreator',

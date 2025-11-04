@@ -24,7 +24,7 @@ keywords:
 
 <details>
 <summary>
-VIEW LEGACY DOCUMENTATION
+### VIEW LEGACY DOCUMENTATION
 </summary>
 
 :::caution
