@@ -265,33 +265,16 @@ winmtr:
       description: |+
         You can use a software such as [WinMTR](https://sourceforge.net/projects/winmtr/).
 
-        **1**. Download [WinMTR](https://sourceforge.net/projects/winmtr/)
-        **2**. Extract the downloaded archive and open the folder.
-        **3**. Start the `WinMTR.exe` file and enter your server's IP address in the 'host' field. Don't include the port of the server.
-        **4**. Let it run for at least a minute, take a screenshot and send it to us for review.
+        **1**. Download [WinMTR](https://sourceforge.net/projects/winmtr/).  
+        **2**. Extract the downloaded archive and open the folder.  
+        **3**. Start the `WinMTR.exe` file and enter your server's IP address in the 'host' field. Do not include the port of the server.  
+        **4**. Let it run for at least a minute, take a screenshot, and send it to us for review.
       inline: false
-    - title: '<:apple:849551086028849152> macOS'
+    - title: '<:apple:849551086028849152> macOS & <:linux:955230938084818964> Linux'
       description: |+
-        **1**. Open the Terminal.  
-        **2**. If you don’t have Homebrew, install it:  
-        `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`  
-        **3**. Install MTR:  
-        `brew install mtr`  
-        **4**. Run the test (replace `your.server.ip` with your actual server IP without the port):  
-        `mtr -b your.server.ip`  
-        **4**. Let it run for at least a minute, take a screenshot and send it to us for review.
+        For macOS and Linux instructions, please visit [our in-depth guide](https://docs.bloom.host/mtr).
       inline: false
-    - title: '<:linux:955230938084818964> Linux'
-      description: |+
-        **1**. Open a terminal.  
-        **2**. Install MTR with your package manager:  
-        - Debian/Ubuntu: `sudo apt install mtr`  
-        - CentOS/RHEL: `sudo yum install mtr`  
-        - Fedora: `sudo dnf install mtr`  
-        **3**. Run the test (replace `your.server.ip` with your actual server IP without the port):  
-        `mtr -b your.server.ip`  
-        **4**. Let it run for at least a minute, take a screenshot and send it to us for review.
-      inline: false
+
 grafana:
   aliases:
     - 'unifiedmetrics'
