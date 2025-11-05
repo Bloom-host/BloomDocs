@@ -273,10 +273,11 @@ module.exports = {
 
         {
             type: 'category',
-            label: 'Dedicated',
+            label: 'Bare Metal',
             collapsed: true,
             items: [
-                'dedicated/reset-password'
+                'dedicated/reset-password',
+                'dedicated/mss'
             ],
         },
 
