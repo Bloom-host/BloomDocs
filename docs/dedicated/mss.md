@@ -8,7 +8,7 @@ description: This guide will show you how to clamp TCP MSS to avoid issues with 
 
 ## Introduction
 
-MSS is the max payload size a TCP connection agrees to send, so packets don't get broken up in transit.
+MSS is the maximum payload size a TCP connection agrees to send, so packets don't get broken up in transit.
 
 When traffic reaches via Cloudflare Magic Transit, the effective path MTU is smaller than standard Ethernet.  
 If TCP peers advertise the default MSS of 1460, larger packets on that path can get dropped or fragmented,
@@ -44,7 +44,7 @@ Make sure to replace `<server IP here>` with your server's public IPv4 address.
 sudo tcpdump -i any -nn -vvv -s0 'outbound and src host <server IP here> and tcp[13] & 2 != 0 and tcp[13] & 16 = 0'
   ```
 
-While that's running, execute a simple HTTP request from the machine from another terminal:
+While that's running, execute a simple HTTP request from the machine in another terminal:
 
 ```bash
 curl -4 --http1.1 -s -o /dev/null https://google.com
@@ -57,13 +57,14 @@ Flags [S], ... options [mss 1400,sackOK,TS,...]
 ```
 
 ![TCPDump showing the MSS](/dedicated/mss/tcpdump.png)
+</details>
 
 ---
 
 ## Setting Up Clamping
 
-All of our standard Bare Metal installations have MSS clamping enabled by default, however, if you install
-your OS manually or before this change, you'll need to make sure to set this up.
+All of our standard Bare Metal installations have MSS clamping enabled by default; however, if you are installing your
+operating system manually or before this change, you'll need to make sure to set this up.
 
 _Click on the section to expand it._
 
@@ -74,7 +75,8 @@ _Click on the section to expand it._
 </summary>
 Each distribution has its own way to set this up, but here are some common ones.
 
-In either case, make sure to check the new MSS value after the adjustment using the [diagnostic step](#diagnosing) to confirm it worked.
+In either case, make sure to check the new MSS value after the adjustment using the [diagnostic step](#diagnosing) to
+confirm it worked.
 
 ---
 
@@ -108,7 +110,7 @@ firewall-cmd --reload
 
 ### Automatically
 
-If you're unsure about your setup specifics, you can also use our script which will automatically
+If you're unsure about your setup specifics, you can also use our script, which will automatically
 attempt to create the necessary rule for you using `nftables`
 
 We have tested this on the following distributions:
