@@ -64,7 +64,7 @@ Flags [S], ... options [mss 1400,sackOK,TS,...]
 ## Setting Up Clamping
 
 All of our standard Bare Metal installations have MSS clamping enabled by default; however, if you are installing your
-operating system manually or before this change, you'll need to make sure to set this up.
+operating system manually, you'll need to make sure to set this up.
 
 _Click on the section to expand it._
 
