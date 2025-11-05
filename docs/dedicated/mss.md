@@ -24,6 +24,18 @@ The fix is to clamp TCP MSS of IPv4 to 1436 on SYN at an operating-system level.
 
 ## Diagnosing
 
+To determine your current MSS, simply make an HTTP (**not** HTTPS) request to `http://mss.bloom.host` using your
+favourite client, such as `curl` or `wget` for Linux and `Invoke-WebRequest` for Windows.
+
+The resulting `Client MSS` should be `1436`. Otherwise, make sure to follow the steps below to change it.
+
+Here's an example:
+![curl showing the MSS](/dedicated/mss/curl.png)
+
+<details>
+<summary>
+### Using TCPDump (Alternative)
+</summary>
 To confirm your current MSS, you can use TCPDump to listen to the traffic.
 
 Make sure to replace `<server IP here>` with your server's public IPv4 address.
