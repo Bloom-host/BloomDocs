@@ -199,3 +199,4 @@ If your name is missing, please let us know on [Discord](https://bloom.host/disc
 - Kurumi78 (`kurumitokisaki`)
 - Amgelo (`amgelo563`)
 - ProGamingDk (`progamingdk`)
+- Swiftality (`swiftality`)
