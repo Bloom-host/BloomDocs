@@ -116,10 +116,10 @@ attempt to create the necessary rule for you using `nftables`
 We have tested this on the following distributions:
 
 - Debian 13, 12, 11
-- Rocky Linux 10
-- Alma Linux 10
-- Oracle Linux 9
-- Proxmox VE 9
+- Rocky Linux 9, 10
+- Alma Linux 8, 9, 10
+- Oracle Linux 8, 9
+- Proxmox VE 8, 9
 - Ubuntu 20, 24
 
 ```bash
