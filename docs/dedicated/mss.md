@@ -27,7 +27,7 @@ The fix is to clamp TCP MSS of IPv4 to 1436 on SYN at an operating-system level.
 To determine your current MSS, simply make an HTTP (**not** HTTPS) request to `http://mss.bloom.host` using your
 favourite client, such as `curl` or `wget` for Linux and `Invoke-WebRequest` for Windows.
 
-The resulting `Client MSS` should be `1436`. Otherwise, make sure to follow the steps below to change it.
+The resulting `Client MSS` should be `1436` or **lower**. Otherwise, make sure to follow the steps below to change it.
 
 Here's an example:
 ![curl showing the MSS](/dedicated/mss/curl.png)
@@ -101,8 +101,7 @@ To make sure it's applied after a reboot, you can do the following to add it to 
 When using `firewalld`, you can use the following command to set the MSS:
 
 ```bash
-firewall-cmd --direct --add-rule ipv4 mangle POSTROUTING 0 -p tcp --tcp-flags SYN,RST SYN -j TCPMSS --set-mss 1436
-firewall-cmd --permanent --direct --add-rule ipv4 mangle POSTROUTING 0 -p tcp --tcp-flags SYN,RST SYN -j TCPMSS --set-mss 1436
+firewall-cmd --permanent --add-rich-rule='rule tcp-mss-clamp value=1436'
 firewall-cmd --reload
 ```
 
@@ -134,7 +133,11 @@ curl -s https://bloom.host/scripts/mss-clamping.sh | sudo bash
 ## Windows
 </summary>
 
-Open a new PowerShell window as Administrator.
+Unfortunately, Windows does not support MSS clamping via the built-in firewall or netsh. Instead, you'll need to set the
+interface MTU instead. MSS will follow from MTU. For IPv4, MSS = MTU - 40. In our case, setting MTU to 1476 will ensure
+MSS will match the required 1436.
+
+To do this, open a new PowerShell window as Administrator.
 
 Check the name of the active interface, usually something like `Ethernet0`:
 
