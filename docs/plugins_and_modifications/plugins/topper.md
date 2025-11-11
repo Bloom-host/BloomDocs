@@ -36,7 +36,7 @@ holders:
     statistic: deaths
   playtime:   #using PlaceholderAPI for a top playtime leaderboard
     type: placeholder
-    line: '%statistic_days_played%'
+    placeholder: '%statistic_days_played%'
 ```
 Topper allows the use of differnt types statistics:
 [Paper](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Statistic.html) and [PlaceholderAPI](https://wiki.placeholderapi.com/users/placeholder-list/)
