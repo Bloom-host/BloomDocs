@@ -45,7 +45,7 @@ You can verify if the datapack was correctly installed by using the command `/da
 
 ---
 
-## Disclaimer
+## Performance Issues
 
 While datapacks are built into the game, they can still have a large impact on server performance.
 
