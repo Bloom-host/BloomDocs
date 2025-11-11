@@ -14,7 +14,7 @@ keywords:
 
 Topper allows you to create customizable leaderboards using PlaceholderAPI placeholders and even paper. It's perfect for displaying top players, stats, or any placeholder-based data directly in-game via holograms.
 
-![image](https://topper-mc.github.io/Wiki/spigot/quickstart/gettop.png)
+![image](https://topper-mc.github.io/Wiki/topper/quickstart/gettop.png)
 
 ### Installation
 
@@ -83,4 +83,4 @@ You're all set!
 
 ### Advanced Configuration
 
-For more detailed setup and customization, see [Topper’s Documentation](https://topper-mc.github.io/Wiki/spigot/quickstart.html).
+For more detailed setup and customization, see [Topper’s Documentation](https://topper-mc.github.io/Wiki/topper/quickstart.html).
