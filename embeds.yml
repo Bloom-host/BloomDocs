@@ -1081,7 +1081,9 @@ codes:
   colour: '#feab33'
   description: |+
     ### Here are the current active promo codes:
-    - `PERFPLUSME`: 20% off your **first** invoice of any Performance Plus plan
+    - `BF2025-GAME30`: 30% off your **first** invoice of any **Game or VPS** plan
+    - `BF2025-BM25`: 25% off your **first** invoice of any **Bare Metal** plan
+    -# Both of these deals are active until January 15th or while supplies last.
   buttons:
     - [ 'Create Your Server Now', 'https://bloom.host/', '🎉' ]
 
