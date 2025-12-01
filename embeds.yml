@@ -1013,8 +1013,6 @@ spark:
           ``/sparkc profiler --timeout 300``
       inline: false
 
-
-
 motd:
   title: '📜 Bloom Docs - MOTD'
   description: >
@@ -1264,27 +1262,85 @@ translate-command:
   enabled: false
   text: '<:translate:989542523464716349> **%username%**: %newtext%'
 
-# Sent when the /notes list command is used for a ticket
-# Placeholders: %ticketid%, %ticketstatus%
-# Custom data: note-format (%id%, %content%, %addedat%, %addedby%)
-ticket-notes:
+# Sent when the summary page of a /notes list type:User ID id:<some ID > is used
+notes-user-summary:
   enabled: false
-  title: 'Ticket #%ticketid% — Notes'
   colour: '#ffc710'
-  description: '%notes%'
+  description: |+
+    %user_notes%
+    %linked_services%
+  footer: 'Page %current_page%/%page_count%'
   custom-data:
-    note-format: "`#%id%` <@%addedby%>: %content%\n"
+    user-notes-format: |
+      ## User %user_mention%
+      %lines%
+    user-notes-line-format: "`#%id%` <@%added_by%>: %content%"
+    user-notes-empty: "-# No user notes found."
 
-# Sent when the /notes list command is used for users
-# Placeholders: %username%, %userid%
-# Custom data: note-format (%id%, %content%, %addedat%, %addedby%)
-user-notes:
+    linked-services-format: |-
+      ## Linked Services [`#%user_id%`](https://mc.bloom.host/admin/users/%user_id%)
+      -# ✉️ `%user_email%`
+      %lines%
+    linked-services-empty: "-# No linked services found."
+    linked-services-line-format: |-
+      %prefix% %emoji% %name% ([%short_uuid%](https://mc.bloom.host/server/%short_uuid%))
+    linked-services-not-found-format: "`%short_uuid%` _(Not Found)_"
+    linked-services-owner-emoji: '💰'
+    linked-services-regular-emoji: '🔓'
+    linked-services-subserver-prefix: '  -'
+    linked-services-regular-prefix: '-'
+
+# Sent when the summary page of a /notes list is shown in an open ticket
+notes-current-ticket-summary:
   enabled: false
-  title: 'User %username% — Notes'
   colour: '#ffc710'
-  description: '%notes%'
+  description: |+
+    %user_notes%
+    %linked_services%
+    %current_ticket_notes%
+  footer: 'Page %current_page%/%page_count%'
   custom-data:
-    note-format: "`#%id%` <@%addedby%>: %content%\n"
+    user-notes-format: |-
+      ## User %user_mention%
+      %lines%
+    user-notes-line-format: "`#%id%` <@%added_by%>: %content%"
+    user-notes-empty: "-# No user notes found."
+
+    ticket-notes-format: |-
+      ## Current Ticket [`#%current_ticket_id%`](%current_ticket_link%)
+      %lines%
+    ticket-notes-line-format: "- `#%id%` <@%added_by%>: %content%"
+    ticket-notes-empty: "-# No notes found for the current ticket."
+
+    linked-services-format: |-
+      ## Linked Services [`#%user_id%`](https://mc.bloom.host/admin/users/%user_id%)
+      -# ✉️ `%user_email%`
+      %lines%
+    linked-services-empty: "-# No linked services found."
+    linked-services-line-format: |-
+      %prefix% %emoji% %name% ([%short_uuid%](https://mc.bloom.host/server/%short_uuid%))
+    linked-services-not-found-format: "`%short_uuid%` _(Not Found)_"
+    linked-services-owner-emoji: '💰'
+    linked-services-regular-emoji: '🔓'
+    linked-services-subserver-prefix: '  -'
+    linked-services-regular-prefix: '-'
+
+# Sent when ticket pages are shown for any /note list
+notes-ticket-pages:
+  enabled: false
+  colour: '#ffc710'
+  description: |+
+    %ticket_notes%
+  footer: 'Page %current_page%/%page_count%'
+  custom-data:
+    ticket-notes-format: |-
+      ## Ticket [`#%ticket_id%`](%ticket_link%) - _<t:%ticket_opened_at%:f>_
+      %lines%
+    ticket-notes-empty: ""
+    ticket-notes-line-format: "- `#%id%` <@%added_by%>: %content%\n"
+
+    linked-server-format: "[`%short_uuid%`](%server_link%) [[Billing]](%billing_link%)"
+    linked-server-not-found-format: "`%short_uuid%` _(Not Found)_"
 
 # Sent when the !stats or /stats command is used
 # Placeholders: %totalsuggestions%, %pendingsuggestions%, %approvedsuggestions%, %deniedsuggestions%, %duckcount%, %uptime%, %avgfirstresponse%, %membercount%, %rolecount%
@@ -1326,7 +1382,10 @@ stats-embed:
 
 # Sent when a panel link is found when a ticket is opened
 # Placeholders: %id%, %email%, %servers%
-# Custom data owner-emoji, regular-emoji, subuser-prefix, regular-prefix, line-format (%prefix%, %emoji%, %name%, %shortUuid%, %externalParentId%)
+# Custom data:
+# linked-services-owner-emoji, linked-services-regular-emoji,
+# linked-services-subuser-prefix, linked-services-regular-prefix,
+# linked-services-line-format (%prefix%, %emoji%, %name%, %short_uuid%, %external_parent_id%)
 panel-link:
   enabled: false
   title: '🔗 Panel Account Found'
@@ -1345,12 +1404,12 @@ panel-link:
   buttons:
     - [ 'Unlink Account', 'https://mc.bloom.host/account', '<:unlink:1135289952838615161>' ]
   custom-data:
-    line-format: >
-      %prefix% %emoji% %name% ([%shortUuid%](https://mc.bloom.host/server/%shortUuid%))
-    owner-emoji: '💰'
-    regular-emoji: '🔓'
-    subserver-prefix: '  -'
-    regular-prefix: '-'
+    linked-services-line-format: |-
+      %prefix% %emoji% %name% ([%short_uuid%](https://mc.bloom.host/server/%short_uuid%))
+    linked-services-owner-emoji: '💰'
+    linked-services-regular-emoji: '🔓'
+    linked-services-subserver-prefix: '  -'
+    linked-services-regular-prefix: '-'
 
 # Sent when a suggestion is created or edited
 # Placeholders: %suggestion%, %username%, %date%, %suggestionid%
