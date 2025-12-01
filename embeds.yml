@@ -1184,6 +1184,12 @@ time-warn:
   buttons:
     - [ 'Use #support-chat', 'https://discord.com/channels/720081782980083813/737803938430189678' ]
 
+# Sent when a server ID is detected and the user does not have their account linked
+link-account-warn:
+  enabled: false
+  text: |+
+    -# ✅ Server found! We recommend [linking your DuckPanel account](https://docs.bloom.host/extras/account-details/#discord-linking) for faster support!
+
 # Sent when the !duck or /duck command is used
 # Placeholders: %link%
 duck:
