@@ -1432,6 +1432,9 @@ tickets-default:
   image: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/line.png'
   footer: 'Tickets - Bloom.host'
   buttons:
+    - [ 'danger', 'Close Ticket', 'close', '🔒' ]
+    - [ 'link', 'Open Billing Ticket', 'https://billing.bloom.host/submitticket.php', '💰' ]
+    - [ 'secondary', 'Notes', 'notes:{"type":"current_ticket", "action":"new"}', '📔', '6' ]
 
 minecraft-ess:
   enabled: false
