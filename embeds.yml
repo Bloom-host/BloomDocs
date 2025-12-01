@@ -1013,8 +1013,6 @@ spark:
           ``/sparkc profiler --timeout 300``
       inline: false
 
-
-
 motd:
   title: '📜 Bloom Docs - MOTD'
   description: >
@@ -1184,6 +1182,12 @@ time-warn:
   buttons:
     - [ 'Use #support-chat', 'https://discord.com/channels/720081782980083813/737803938430189678' ]
 
+# Sent when a server ID is detected and the user does not have their account linked
+link-account-warn:
+  enabled: false
+  text: |+
+    -# ✅ Server found! We recommend [linking your DuckPanel account](https://docs.bloom.host/extras/account-details/#discord-linking) for faster support!
+
 # Sent when the !duck or /duck command is used
 # Placeholders: %link%
 duck:
@@ -1258,27 +1262,85 @@ translate-command:
   enabled: false
   text: '<:translate:989542523464716349> **%username%**: %newtext%'
 
-# Sent when the /notes list command is used for a ticket
-# Placeholders: %ticketid%, %ticketstatus%
-# Custom data: note-format (%id%, %content%, %addedat%, %addedby%)
-ticket-notes:
+# Sent when the summary page of a /notes list type:User ID id:<some ID > is used
+notes-user-summary:
   enabled: false
-  title: 'Ticket #%ticketid% — Notes'
   colour: '#ffc710'
-  description: '%notes%'
+  description: |+
+    %user_notes%
+    %linked_services%
+  footer: 'Page %current_page%/%page_count%'
   custom-data:
-    note-format: "`#%id%` <@%addedby%>: %content%\n"
+    user-notes-format: |
+      ## User %user_mention%
+      %lines%
+    user-notes-line-format: "`#%id%` <@%added_by%>: %content%"
+    user-notes-empty: "-# No user notes found."
 
-# Sent when the /notes list command is used for users
-# Placeholders: %username%, %userid%
-# Custom data: note-format (%id%, %content%, %addedat%, %addedby%)
-user-notes:
+    linked-services-format: |-
+      ## Linked Services [`#%user_id%`](https://mc.bloom.host/admin/users/%user_id%)
+      -# ✉️ `%user_email%`
+      %lines%
+    linked-services-empty: "-# No linked services found."
+    linked-services-line-format: |-
+      %prefix% %emoji% %name% ([%short_uuid%](https://mc.bloom.host/server/%short_uuid%))
+    linked-services-not-found-format: "`%short_uuid%` _(Not Found)_"
+    linked-services-owner-emoji: '💰'
+    linked-services-regular-emoji: '🔓'
+    linked-services-subserver-prefix: '  -'
+    linked-services-regular-prefix: '-'
+
+# Sent when the summary page of a /notes list is shown in an open ticket
+notes-current-ticket-summary:
   enabled: false
-  title: 'User %username% — Notes'
   colour: '#ffc710'
-  description: '%notes%'
+  description: |+
+    %user_notes%
+    %linked_services%
+    %current_ticket_notes%
+  footer: 'Page %current_page%/%page_count%'
   custom-data:
-    note-format: "`#%id%` <@%addedby%>: %content%\n"
+    user-notes-format: |-
+      ## User %user_mention%
+      %lines%
+    user-notes-line-format: "`#%id%` <@%added_by%>: %content%"
+    user-notes-empty: "-# No user notes found."
+
+    ticket-notes-format: |-
+      ## Current Ticket [`#%current_ticket_id%`](%current_ticket_link%)
+      %lines%
+    ticket-notes-line-format: "- `#%id%` <@%added_by%>: %content%"
+    ticket-notes-empty: "-# No notes found for the current ticket."
+
+    linked-services-format: |-
+      ## Linked Services [`#%user_id%`](https://mc.bloom.host/admin/users/%user_id%)
+      -# ✉️ `%user_email%`
+      %lines%
+    linked-services-empty: "-# No linked services found."
+    linked-services-line-format: |-
+      %prefix% %emoji% %name% ([%short_uuid%](https://mc.bloom.host/server/%short_uuid%))
+    linked-services-not-found-format: "`%short_uuid%` _(Not Found)_"
+    linked-services-owner-emoji: '💰'
+    linked-services-regular-emoji: '🔓'
+    linked-services-subserver-prefix: '  -'
+    linked-services-regular-prefix: '-'
+
+# Sent when ticket pages are shown for any /note list
+notes-ticket-pages:
+  enabled: false
+  colour: '#ffc710'
+  description: |+
+    %ticket_notes%
+  footer: 'Page %current_page%/%page_count%'
+  custom-data:
+    ticket-notes-format: |-
+      ## Ticket [`#%ticket_id%`](%ticket_link%) - _<t:%ticket_opened_at%:f>_
+      %lines%
+    ticket-notes-empty: ""
+    ticket-notes-line-format: "- `#%id%` <@%added_by%>: %content%\n"
+
+    linked-server-format: "[`%short_uuid%`](%server_link%) [[Billing]](%billing_link%)"
+    linked-server-not-found-format: "`%short_uuid%` _(Not Found)_"
 
 # Sent when the !stats or /stats command is used
 # Placeholders: %totalsuggestions%, %pendingsuggestions%, %approvedsuggestions%, %deniedsuggestions%, %duckcount%, %uptime%, %avgfirstresponse%, %membercount%, %rolecount%
@@ -1320,7 +1382,10 @@ stats-embed:
 
 # Sent when a panel link is found when a ticket is opened
 # Placeholders: %id%, %email%, %servers%
-# Custom data owner-emoji, regular-emoji, subuser-prefix, regular-prefix, line-format (%prefix%, %emoji%, %name%, %shortUuid%, %externalParentId%)
+# Custom data:
+# linked-services-owner-emoji, linked-services-regular-emoji,
+# linked-services-subuser-prefix, linked-services-regular-prefix,
+# linked-services-line-format (%prefix%, %emoji%, %name%, %short_uuid%, %external_parent_id%)
 panel-link:
   enabled: false
   title: '🔗 Panel Account Found'
@@ -1339,12 +1404,12 @@ panel-link:
   buttons:
     - [ 'Unlink Account', 'https://mc.bloom.host/account', '<:unlink:1135289952838615161>' ]
   custom-data:
-    line-format: >
-      %prefix% %emoji% %name% ([%shortUuid%](https://mc.bloom.host/server/%shortUuid%))
-    owner-emoji: '💰'
-    regular-emoji: '🔓'
-    subserver-prefix: '  -'
-    regular-prefix: '-'
+    linked-services-line-format: |-
+      %prefix% %emoji% %name% ([%short_uuid%](https://mc.bloom.host/server/%short_uuid%))
+    linked-services-owner-emoji: '💰'
+    linked-services-regular-emoji: '🔓'
+    linked-services-subserver-prefix: '  -'
+    linked-services-regular-prefix: '-'
 
 # Sent when a suggestion is created or edited
 # Placeholders: %suggestion%, %username%, %date%, %suggestionid%
@@ -1431,40 +1496,10 @@ tickets-default:
     and a description of your issue.
   image: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/line.png'
   footer: 'Tickets - Bloom.host'
-
-tickets-general:
-  enabled: false
-  title: '🦆 Ticket Created'
-  colour: '#FFFFF1'
-  description: >
-    Thank you, %username% for opening a ticket! We will be with you as soon as
-    possible. For us to better assist you, please provide your server ID and a
-    description of your issue.
-
-    For billing inquiries such as upgrades, downgrades, or refunds, please open a ticket on our billing panel: https://billing.bloom.host/submitticket.php
-  footer: 'Tickets - Bloom.host'
-  image: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/line.png'
   buttons:
-    - [ 'Open Billing Ticket', 'https://billing.bloom.host/submitticket.php', '💰', '2' ]
-
-tickets-billing:
-  enabled: false
-  title: '💰 Billing Ticket'
-  colour: '#fdd888'
-  description: Thank you %username% for opening a ticket! We will be with you as
-    soon as possible. In order for us to best assist you, please provide your
-    server ID and a description of your issue below.
-  footer: Tickets - Bloom.host
-
-tickets-minecraft:
-  enabled: false
-  title: '⛏️ Minecraft Ticket'
-  colour: '#3ba55d'
-  description: |+
-    Thank you %username% for opening a ticket! We will be with you as
-    soon as possible. In order for us to best assist you, please provide your
-    server ID and a description of your issue below.
-  footer: 'Tickets - Bloom.host'
+    - [ 'danger', 'Close Ticket', 'close', '🔒' ]
+    - [ 'link', 'Open Billing Ticket', 'https://billing.bloom.host/submitticket.php', '💰' ]
+    - [ 'secondary', 'Notes', 'notes:{"type":"current_ticket", "action":"new"}', '📔', '6' ]
 
 minecraft-ess:
   enabled: false
