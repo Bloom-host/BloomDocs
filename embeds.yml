@@ -1266,7 +1266,7 @@ translate-command:
 notes-user-summary:
   enabled: false
   colour: '#ffc710'
-  description: |+
+  description: |-
     %user_notes%
     %linked_services%
   footer: 'Page %current_page%/%page_count%'
@@ -1294,7 +1294,7 @@ notes-user-summary:
 notes-current-ticket-summary:
   enabled: false
   colour: '#ffc710'
-  description: |+
+  description: |-
     %user_notes%
     %linked_services%
     %current_ticket_notes%
@@ -1329,7 +1329,7 @@ notes-current-ticket-summary:
 notes-ticket-pages:
   enabled: false
   colour: '#ffc710'
-  description: |+
+  description: |-
     %ticket_notes%
   footer: 'Page %current_page%/%page_count%'
   custom-data:
