@@ -1186,7 +1186,7 @@ time-warn:
 link-account-warn:
   enabled: false
   text: |+
-    -# ✅ Server found! We recommend [linking your DuckPanel account](https://docs.bloom.host/extras/account-details/#discord-linking) for faster support!
+    -# ✅ Server found! We recommend [linking your DuckPanel account](<https://docs.bloom.host/extras/account-details/#discord-linking>) for faster support!
 
 # Sent when the !duck or /duck command is used
 # Placeholders: %link%
