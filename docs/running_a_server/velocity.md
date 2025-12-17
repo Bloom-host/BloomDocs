@@ -20,15 +20,7 @@ When running your servers behind a proxy like Velocity or Waterfall, it requires
 
 :::
 
-## Downloading Velocity
-
-To get started with Velocity, you first need to download the latest version of Velocity from PaperMC [downloads page](https://papermc.io/downloads#Velocity).
-
-![console](/running_a_server/velocity/1.png)
-
-Once you have downloaded Velocity you may proceed to the next step in the setup process: creating a server split to run Velocity off of. Velocity is it’s own server jar file and will require it’s own server to run from.
-
-## Recommended RAM Allocation for Velocity
+# Recommended RAM Allocation for Velocity
 
 The official [Velocity documentation](https://docs.papermc.io/velocity/tuning/#allocate-enough-heap) recommends allocating 512 MB of RAM per 500 players, plus around 1 GB of overhead to provide room for error. While 512MB of RAM can work for lightweight setups with few or no plugins, in practice most modern proxies need more memory, especially when using additional plugins such as Geyser, Floodgate, among others.
 
