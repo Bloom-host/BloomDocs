@@ -1343,7 +1343,7 @@ notes-ticket-pages:
     linked-server-not-found-format: "`%short_uuid%` _(Not Found)_"
 
 # Sent when the !stats or /stats command is used
-# Placeholders: %totalsuggestions%, %pendingsuggestions%, %approvedsuggestions%, %deniedsuggestions%, %duckcount%, %uptime%, %avgfirstresponse%, %membercount%, %rolecount%
+# Placeholders: %totalsuggestions%, %pendingsuggestions%, %approvedsuggestions%, %deniedsuggestions%, %duckcount%, %uptime%, %membercount%, %rolecount%
 stats-embed:
   enabled: false
   title: 'Bloom Statistics'
@@ -1376,7 +1376,6 @@ stats-embed:
       description: |+
         ```yml
         Current Uptime: %uptime%
-        Avg. First Response: %avgfirstresponse%
         ```
       inline: false
 
