@@ -1457,7 +1457,7 @@ denied-suggestion:
       inline: false
 
 # Sent in the transcripts channel and in the user's DMs when a ticket is closed
-# Placeholders: %ticketid%, %username%, %usermention%, %claimers%, %staffname%, %staffmention%, %openedat%, %fancyopenedat%, %closedat%, %fancyclosedat%, %reason%, %link%
+# Placeholders: %ticketid%, %username%, %usermention%, %claimers%, %closedbyname%, %closedbymention%, %openedat%, %fancyopenedat%, %closedat%, %fancyclosedat%, %reason%, %link%
 ticket-close:
   enabled: false
   title: 'Support Ticket Closed'
@@ -1476,7 +1476,7 @@ ticket-close:
       inline: true
     - title: 'Closed'
       description: |+
-        • **By**: %staffmention%
+        • **By**: %closedbymention%
         • **At**: %fancyclosedat%
       inline: true
 
