@@ -31,7 +31,7 @@ We recommend you zip the files you want to upload to your server, uploading indi
 :::
 
 ### More Actions like compress, extract, rename, and others
-If you wish to archive, unarchive or mass delete files, please check out or [guide](../using_the_panel/file-manager-controls.md) on file management through the panel.
+If you wish to archive, unarchive or mass delete files, please check out or [guide](../using_the_panel/file-manager-controls) on file management through the panel.
 
 ### Using SFTP
 

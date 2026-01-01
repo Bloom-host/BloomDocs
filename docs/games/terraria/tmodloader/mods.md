@@ -37,7 +37,7 @@ which one your mod is, you can search it up in the Steam workshop to get its ID!
 ![Mods directory open in file explorer](/games/terraria/tmodloader/mods/folder.png)
 
 Open your server in the [DuckPanel](https://mc.bloom.host/) and select
-the [File Manager](/using_the_panel/file-manager-controls.md) tab.
+the [File Manager](/using_the_panel/file-manager-controls) tab.
 
 Here, open the `mods` folder and drag & drop all the files ending in `.tmod` from the previously opened local folder.
 

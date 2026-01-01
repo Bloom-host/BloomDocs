@@ -8,7 +8,7 @@ description: Learn how you can upload, export and manage your Minecraft worlds.
 ---
 
 :::note
-If you'd like to import ALL your files from another hosting company, please follow our [Server Importer](/using_the_panel/server-importer.md) guide instead!
+If you'd like to import ALL your files from another hosting company, please follow our [Server Importer](../using_the_panel/server-importer) guide instead!
 :::
 
 # Importing Worlds

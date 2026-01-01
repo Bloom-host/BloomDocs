@@ -19,7 +19,7 @@ First, you will need to find the world file. If the world is from a server, you 
 directory with the `.wld` extension.
 You can find your single player worlds by pressing Windows Key + R and entering: `Documents/My Games/Terraria/Worlds`
 
-Once you have found the file, you can use the panel's [File Manager](/using_the_panel/file-manager-controls.md)
+Once you have found the file, you can use the panel's [File Manager](/using_the_panel/file-manager-controls)
 or [SFTP](/using_the_panel/sftp.md) to access your server's files.
 
 Here, find for the `saves/Worlds/` directory and upload your `.wld` into it.

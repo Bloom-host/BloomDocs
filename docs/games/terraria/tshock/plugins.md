@@ -20,7 +20,7 @@ the `/version` command in-game or in the console.
 For the purpose of this guide, we'll be installing [Creative Mode](https://github.com/bippity/CreativeMode) by Bippity.
 ![GitHub list showing a download link](/games/terraria/tshock/plugins/list.png)
 
-Once you have your plugin(s), head over to the [File Manager](/using_the_panel/file-manager-controls.md) in
+Once you have your plugin(s), head over to the [File Manager](/using_the_panel/file-manager-controls) in
 the [DuckPanel](https://mc.bloom.host/). Here, locate and open the `ServerPlugins` folder.
 ![Panel file manager showing ServerPlugins folder](/games/terraria/tshock/plugins/folder.png)
 

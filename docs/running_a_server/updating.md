@@ -33,6 +33,6 @@ After you have followed the steps above, you can periodically check the **Settin
 ### Updating the server manually
 - Make sure that your server is backed up completely.
 - [Create full backup](/backups) of your server. (As an additional step, we would suggest testing this backup on a local or a split test server)
-- Remove your current server jar through [SFTP](../using_the_panel/sftp.md) or the [File Manager](../using_the_panel/file-manager-controls.md).
+- Remove your current server jar through [SFTP](../using_the_panel/sftp.md) or the [File Manager](../using_the_panel/file-manager-controls).
 - Download the new version of your server software. If you are unsure which one to use, check out our guide on server jars [here](/jars).
 - Upload it using SFTP or the File Manager and make sure to define the full name (such as `paper-1.18-023` in the 'Startup' tab on the panel)

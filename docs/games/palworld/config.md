@@ -7,7 +7,7 @@ description: Learn how you can change the settings of your Palworld server!
 
 ## Palworld Modifying Settings
 
-First, stop your server. Then, using the [File Manager](/using_the_panel/file-manager-controls.md), 
+First, stop your server. Then, using the [File Manager](/using_the_panel/file-manager-controls), 
 copy the contents of the `DefaultPalWorldSettings.ini` file to the 
 `Pal/Saved/Config/LinuxServer/PalWorldSettings.ini` file.
 Lastly, remove the first 3 lines of the file.
