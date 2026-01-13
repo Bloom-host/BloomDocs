@@ -1123,6 +1123,18 @@ worldtype:
 
     Default value: `level-type=default`.
 
+hytaleauth:
+  title: '📜 Hytale authentication quickstart'
+  description: |+
+    If you cannot connect to your server due to authentication issues please do the following
+    1. Go to the console
+    2. type ``auth login device``
+    3. Follow the link and enter the code shown in the console Or press the link with the code added
+    4. Login with your Hytale account
+    5. Your server should now be authenticated
+    ⚠️ This is **PER-SESSION** so you will need to do this every time the server restarts, for now.
+    This is only for the server and not per user.
+
 # ┌─────────────────┐
 # │ Internal Embeds │
 # └─────────────────┘
