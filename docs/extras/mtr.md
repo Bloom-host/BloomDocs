@@ -5,6 +5,8 @@ slug: /mtr
 hide_table_of_contents: true
 sidebar_label: MTRs
 description: Learn how you can run an MTR to help us diagnose network issues
+keywords:
+  - MTR
 ---
 
 ## Introduction

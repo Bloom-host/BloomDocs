@@ -18,12 +18,9 @@ Hytale handles mod installation when a client joins automatically.
 
 ## How to add mods
 
-1. Download the mods you want from:
- > [CurseForge](https://www.curseforge.com/hytale/search?page=1&pageSize=20&sortBy=relevancy)
- >
- > Modrinth (Hytale support not yet available)
-2. Navigate to your Hytale server in the panel and open the mods folder.
-3. Drag and drop the mod jar into the mods folder.
+1. Download the mods you want from [CurseForge](https://www.curseforge.com/hytale/search?page=1&pageSize=20&sortBy=relevancy)
+2. Go to your Hytale server in the control panel, open the File Manager, then open the mods folder.
+3. Drag and drop the mod or plugin jar into the mods folder.
 4. Restart your server to apply the changes.
 
 ## How to use mods

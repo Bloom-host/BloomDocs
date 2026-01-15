@@ -8,7 +8,6 @@ description: This guide will help you diagnose and potentially fix ping issues.
 keywords:
   - Bloom.host
   - ping issues
-  - MTR
   - ping
 ---
 
@@ -21,7 +20,7 @@ This guide will go over how to run an MTR, how to diagnose ping issues and poten
 ## How to run an MTR
 
 :::warning
-This guide has been moved to [a dedicated page](mtr.md).
+Please follow our [MTR guide](mtr.md).
 :::
 
 ---
