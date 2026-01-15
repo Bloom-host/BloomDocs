@@ -1,8 +1,8 @@
 ---
 id: mods
-title: How to add mods
+title: How to add mods and plugins
 hide_table_of_contents: true
-sidebar_label: How to add mods
+sidebar_label: How to add mods and plugins
 description: This guide will help you understand how to mod hytale!
 keywords:
   - modding hytale

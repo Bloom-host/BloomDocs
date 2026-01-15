@@ -1,8 +1,8 @@
 ---
 id: performance
-title: Performance optimizations
+title: Performance Optimizations
 hide_table_of_contents: true
-sidebar_label: Performance
+sidebar_label: Performance Optimizations
 description: This guide will help fix some general issues with hytale performance
 keywords:
   - hytale lag
