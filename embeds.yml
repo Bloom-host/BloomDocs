@@ -1063,7 +1063,7 @@ plan:
 
 icon:
   title: '📜 Bloom Docs - Server Favicon'
-  aliases: [ 'favicon' ]
+  aliases: [ 'favicon', 'servericon' , 'serverfavicon' ]
   description: >
     Check out our comprehensive guide on how to add a favicon to your
     server [here](https://docs.bloom.host/icon/).
@@ -1110,7 +1110,7 @@ warp:
     4. Click `host` and remove it using the `-` button.
 
 worldtype:
-  aliases: [ 'wt', 'worldtypes' ]
+  aliases: [ 'world', 'worldtypes' ]
   title: 'World Types'
   description: |+
     World Types define how terrain is generated in your Minecraft world.
@@ -1123,7 +1123,14 @@ worldtype:
 
     Default value: `level-type=default`.
 
+worldimport:
+  aliases: [ 'importworld', 'import-world' ]
+  title: '📜 Bloom Docs - How to import a world to your Minecraft server'
+  description: >
+    Check out our comprehensive guide on how to import a world to your Minecraft server [here](https://docs.bloom.host/worlds).
+
 hytaleauth:
+  aliases: [ 'hyauth' ]
   title: '📜 Hytale authentication quickstart'
   description: |+
     If you cannot connect to your server due to authentication issues please do the following
@@ -1134,6 +1141,27 @@ hytaleauth:
     5. Your server should now be authenticated
     ⚠️ This is **PER-SESSION** so you will need to do this every time the server restarts, for now.
     This is only for the server and not per user.
+
+hytale:
+  aliases: [ 'hy' ]
+  title: 'How can I purchase hytale?'
+  description: |+
+    Hytale is available on [our website](https://bloom.host)! As a supported game!
+    You can click [here](https://bloom.host/hytale/?plan=plus#order) to purchase your Hytale server today!
+    You can learn more about Hytale on their official website: [Hytale Official Site](https://hytale.com/)
+  thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/animated_icon.gif'
+
+hynetwork:
+  aliases: [ 'hytalenetwork' ]
+  title: '📜 Bloom Docs - Hytale Network Setup'
+  description: >
+    If you are having connection issues to your server check out our guide [here](https://docs.bloom.host/games/hytale/connection-issues)
+    to have a quick FAQ on how to fix it!
+
+paperchan:
+  title: '📜 Paperchan | Paper optimization guide'
+  description: >
+    Check out PaperChan's optimization guide for Paper servers [here](https://paper-chan.moe/paper-optimization/)
 
 # ┌─────────────────┐
 # │ Internal Embeds │

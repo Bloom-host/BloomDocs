@@ -158,8 +158,17 @@ module.exports = {
                             ]
                         }
                     ]
+                },
+                {
+                    type: 'category',
+                    label: 'Hytale',
+                    items: [
+                        'games/hytale/performance',
+                        'games/hytale/mods',
+                        'games/hytale/connection-issues',
+                    ]
                 }
-            ]
+            ]  
         },
 
         {
@@ -308,7 +317,7 @@ module.exports = {
                 'extras/serverpackcreator',
                 'extras/srvcontrol',
                 'extras/swap',
-                'extras/clumsyloader'
+                'extras/clumsyloader',
             ],
         },
 

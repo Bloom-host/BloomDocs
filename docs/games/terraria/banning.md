@@ -14,7 +14,7 @@ By default, since Terraria stores player profiles locally, it's only possible to
 If a player is online, you can utilize the `ban <username>` command in the server console.
 
 If they are offline but you know their IP address, you can add it as an entry into the `banlist.txt` file using
-the [File Manager](/using_the_panel/file-manager-controls.md). We would recommend following the `ban` command's
+the [File Manager](/file-manager-controls). We would recommend following the `ban` command's
 formatting and adding a comment with the player's name above the entry.
 
 As an example, here is how two entries would look:
@@ -30,7 +30,7 @@ Changes to the file are reflected instantly.
 
 ### Unbanning
 
-In order to lift a ban, open the `banlist.txt` file using the [File Manager](/using_the_panel/file-manager-controls.md).
+In order to lift a ban, open the `banlist.txt` file using the [File Manager](/file-manager-controls).
 
 There, find the name or IP address of the player you wish to unban and remove the two lines related to them.
 

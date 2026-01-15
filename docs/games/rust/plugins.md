@@ -33,7 +33,7 @@ as [the official plugin list](https://umod.org/plugins?page=1&sort=downloads&sor
 In this example, we will install [Welcomer](https://umod.org/plugins/welcomer) by [Dana](https://umod.org/user/Dana).
 ![Download button on Oxide](/games/rust/plugins/download.png)
 
-Once downloaded, head over to the [File Manager](/using_the_panel/file-manager-controls.md) tab and open the `plugins`
+Once downloaded, head over to the [File Manager](/file-manager-controls) tab and open the `plugins`
 directory within the `oxide` one.
 
 If you have not restarted the server after installing Oxide/uMod, feel free to create these folders manually.
