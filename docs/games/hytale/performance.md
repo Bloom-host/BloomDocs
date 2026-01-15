@@ -44,7 +44,7 @@ To pregen the server simply use this command ``world settings pregenerate <x1,y1
 
 Example; ``world settings pregenerate 1200 1200 -1200 -1200``
 
-Then restart your hytale server so pregen can begin. 
+Then restart your Hytale server so pregen can begin. 
 
 You can cancel the pregen anytime via the command: ```world settings pregenerate cancel```
 
