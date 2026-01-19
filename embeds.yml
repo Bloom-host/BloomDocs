@@ -229,6 +229,19 @@ fbiinfo:
         If you wish to use Premium software, pay for it.
       inline: false
 
+macro:
+  aliases:
+  - 'fisch'
+  - 'roblox'
+  - 'macros'
+  colour: '#CF3422'
+  description: >
+    ## <:abbymad:755119026224496782> Fisch / Roblox Macros
+
+    This server is strictly for [Bloom Host](https://bloom.host), a game server hosting company. We are **not** affiliated with Roblox hacking or macros in any way.
+
+    These topics are against Discord's community guidelines, so please do not discuss them on this server.
+
 hybrid:
   aliases:
     - 'hybrids'
