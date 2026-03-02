@@ -53,13 +53,16 @@ The most common issue one can come accross with MAT is simply running out of hea
 
 The wrong version of Java got picked up? You can also specify the Java exe to be used by adding: 
 
-`-vm`
-`C:\path/to/java/exe`
+```
+-vm
+C:\path/to/java/exe
+```
 
 In my case it would look like: 
 
-`-vm`
-`C:\Program Files\Java\jdk-21\bin\javaw.exe`
-
+```
+-vm
+C:\Program Files\Java\jdk-21\bin\javaw.exe
+```
 
 
