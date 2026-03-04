@@ -87,7 +87,8 @@ module.exports = {
                 'running_a_server/internal-servers',
                 'running_a_server/binarysearch', // Troubleshooting errors caused by plugins
                 'running_a_server/worlds',
-                'running_a_server/mcaselector'
+                'running_a_server/mcaselector',
+                'running_a_server/memoryleakanalysis'
             ],
         },
 
