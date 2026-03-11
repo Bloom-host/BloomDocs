@@ -42,12 +42,6 @@ With all anticheats, false postives are expected. Please get as much information
 
 ## Info
 :::warning
-
 As with every anti-cheat, there is always the possibility for false positives and bypasses, and Vulcan is no exception. Please check out Vulcan's [Spigot Page](https://www.spigotmc.org/resources/vulcan-advanced-cheat-detection-1-7-1-17-1.83626/), and make sure to read the disclaimers!
-
 :::
-
-[Spigot Page](https://www.spigotmc.org/resources/vulcan-advanced-cheat-detection-1-7-1-17-1.83626/)
-
-[Join Bloom's Discord for help](https://discord.gg/bloom)
 
