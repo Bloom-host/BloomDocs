@@ -19,7 +19,7 @@ Hello there Bloomers! 👋
 
 In this guide, we will go over on how to make your server go from lots of numbers (`148.251.209.38:25565`) to a fancy domain name such as `play.example.com`!
 
-First, go to the [game panel](https://mc.bloom.host) and select your server. On the main page, above your console you will be able to find your IP. All bloom servers come with a dedicated IP, so you only need the IP and not any of the ports (`25565`). 
+First, go to the [game panel](https://mc.bloom.host) and select your server. On the main page, above your console you will be able to find your IP. All Performance and Performance+ bloom servers come with a dedicated IP, so you only need the IP and not any of the ports (`25565`), unless you have the essentials plan.
 
 ![Bloom.host Pointing A Domain](/running_a_server/domain/1.png)
 
