@@ -64,7 +64,7 @@ In order to run Simple Voice Chat on your server, you need one of the following 
 ![console](/plugins_and_modifications/simple_voice_chat/3.png)
 4. Enter the number `24454` in the port field and click on **OPEN PORT**
 ![console](/plugins_and_modifications/simple_voice_chat/4.png)
-**NOTE:** Use a port above `24454` (or `25565` if needed), e.g. `27787` or `30000`. If querying is enabled, avoid `25565` for the svc port (may crash).
+**NOTE:** Please use ports within the range `24454` - `24459`, otherwise voicechat might be cut off during attacks. It is strongly recommended that you do not use port `25565` for voicechat. 
 
  
 5. If your server is already running, you will be prompted to restart your server - If this is the case, click on **RESTART NOW**
