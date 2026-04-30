@@ -231,9 +231,9 @@ fbiinfo:
 
 macro:
   aliases:
-  - 'fisch'
-  - 'roblox'
-  - 'macros'
+    - 'fisch'
+    - 'roblox'
+    - 'macros'
   colour: '#CF3422'
   description: >
     ## <:abbymad:755119026224496782> Fisch / Roblox Macros
@@ -522,9 +522,9 @@ panelissues:
 waterfall:
   title: '⚠️ Waterfall - End of Life'
   description: >
-      Waterfall as of March 26th, 2024 is now considered End of Life and will not recieve updates going forward.
-      It is currently recommended to migrate to [Velocity](https://docs.bloom.host/velocity) as soon as possible.
-      More information is available [on the PaperMC website](https://forums.papermc.io/threads/announcing-the-end-of-life-of-waterfall.1088/)
+    Waterfall as of March 26th, 2024 is now considered End of Life and will not recieve updates going forward.
+    It is currently recommended to migrate to [Velocity](https://docs.bloom.host/velocity) as soon as possible.
+    More information is available [on the PaperMC website](https://forums.papermc.io/threads/announcing-the-end-of-life-of-waterfall.1088/)
   thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/tY6IAF.png'
 
 # Todo: this is really generic
@@ -1076,7 +1076,7 @@ plan:
 
 icon:
   title: '📜 Bloom Docs - Server Favicon'
-  aliases: [ 'favicon', 'servericon' , 'serverfavicon' ]
+  aliases: [ 'favicon', 'servericon', 'serverfavicon' ]
   description: >
     Check out our comprehensive guide on how to add a favicon to your
     server [here](https://docs.bloom.host/icon/).
@@ -1097,7 +1097,7 @@ codes:
     - [ 'Create Your Server Now', 'https://bloom.host/', '🎉' ]
 
 api:
-  aliases: ['ptapi', 'pterodactylapi']
+  aliases: [ 'ptapi', 'pterodactylapi' ]
   title: '📜 Bloom Docs - How to Use the Pterodactyl API'
   description: >
     There are several ways to use the Pterodactyl API.
@@ -1507,18 +1507,18 @@ denied-suggestion:
       description: '%reason%'
       inline: false
 
-# Sent in the transcripts channel and in the user's DMs when a ticket is closed
+# Sent in DMs to the user when the ticket is closed
 # Placeholders: %ticketid%, %username%, %usermention%, %claimers%, %closedbyname%, %closedbymention%, %openedat%, %fancyopenedat%, %closedat%, %fancyclosedat%, %reason%, %link%
-ticket-close:
+ticket-close-dm:
   enabled: false
-  title: 'Support Ticket Closed'
   colour: '#2ecc70'
   footer: 'Tickets - Bloom.host'
   description: |+
+    ## Support Ticket `#%ticketid%` Closed
     :tools: **Reason**: %reason%
-    :link: **Archive**: [Transcript link here](%link%)
-    :grey_question: **Ticket ID**: `#%ticketid%`
-    :duck: **Claimed By:** %claimers%
+    :link: **Transcript**: %link%
+    
+    To open a new ticket, please head to <#777907843214737440>.
   fields:
     - title: 'Opened'
       description: |+
@@ -1530,6 +1530,80 @@ ticket-close:
         • **By**: %closedbymention%
         • **At**: %fancyclosedat%
       inline: true
+  buttons:
+    - [ 'link', 'View Transcript', '%link%', '🔗' ]
+    - [ 'secondary', 'Leave Feedback', 'feedback:%ticketid%', '⭐' ]
+
+
+# Sent in the ticket channel when the ticket is closed
+# Placeholders: %ticketid%, %username%, %usermention%, %claimers%, %closedbyname%, %closedbymention%, %openedat%, %fancyopenedat%, %closedat%, %fancyclosedat%, %reason%, %link%
+ticket-close-channel:
+  enabled: false
+  colour: '#2ecc70'
+  footer: 'Tickets - Bloom.host'
+  description: |+
+    ## Support Ticket `#%ticketid%` Closed
+    By %closedbymention% at %fancyclosedat%
+    
+    :tools: **Reason**: %reason%
+    :link: **Transcript**: %link%
+    
+    ⭐ **Please take a moment to rate our support with the button below.** 
+    
+    -# This channel will be deleted %fancydeleteat%. 
+    -# To open a new ticket, please head to <#777907843214737440>.
+  buttons:
+    - [ 'link', 'View Transcript', '%link%', '🔗' ]
+    - [ 'secondary', 'Leave Feedback', 'feedback:%ticketid%', '⭐' ]
+
+# Sent in the transcripts channel when the ticket is closed
+# Placeholders: %ticketid%, %username%, %usermention%, %claimers%, %closedbyname%, %closedbymention%, %openedat%, %fancyopenedat%, %closedat%, %fancyclosedat%, %reason%, %link%
+ticket-close-staff:
+  enabled: false
+  colour: '#2ecc70'
+  footer: 'Tickets - Bloom.host'
+  description: |+
+    ## Support Ticket `#%ticketid%` Closed
+    :tools: **Reason**: %reason%
+    :link: **Transcript**: %link%
+  fields:
+    - title: 'Opened'
+      description: |+
+        • **By**: %usermention%
+        • **At**: %fancyopenedat%
+      inline: true
+    - title: 'Closed'
+      description: |+
+        • **By**: %closedbymention%
+        • **At**: %fancyclosedat%
+      inline: true
+  buttons:
+    - [ 'link', 'View Transcript', '%link%', '🔗' ]
+
+# Sent to the feedback channel when ticket feedback is received
+# Placeholders: %ticketid%, %usermention%, %agent-stars%, %agent-rating%, %system-stars%, %system-rating%, %resolved%, %notes%
+feedback-received:
+  enabled: false
+  colour: '#f85002'
+  description: |
+    ## Support Ticket `#%ticketid%` Feedback
+  fields:
+    - title: 'User'
+      description: '%usermention%'
+      inline: true
+    - title: 'Agent Rating'
+      description: '%agent-stars% (%agent-rating%/5)'
+      inline: true
+    - title: 'System Rating'
+      description: '%system-stars% (%system-rating%/5)'
+      inline: true
+    - title: 'Issue Resolved'
+      description: '%resolved%'
+      inline: true
+    - title: 'Notes'
+      description: '%notes%'
+      inline: false
+  footer: 'Tickets - Bloom.host'
 
 # ┌───────────────────────┐
 # │ Ticket Opening Embeds │
