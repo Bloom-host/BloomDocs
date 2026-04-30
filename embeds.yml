@@ -231,9 +231,9 @@ fbiinfo:
 
 macro:
   aliases:
-  - 'fisch'
-  - 'roblox'
-  - 'macros'
+    - 'fisch'
+    - 'roblox'
+    - 'macros'
   colour: '#CF3422'
   description: >
     ## <:abbymad:755119026224496782> Fisch / Roblox Macros
@@ -522,9 +522,9 @@ panelissues:
 waterfall:
   title: '⚠️ Waterfall - End of Life'
   description: >
-      Waterfall as of March 26th, 2024 is now considered End of Life and will not recieve updates going forward.
-      It is currently recommended to migrate to [Velocity](https://docs.bloom.host/velocity) as soon as possible.
-      More information is available [on the PaperMC website](https://forums.papermc.io/threads/announcing-the-end-of-life-of-waterfall.1088/)
+    Waterfall as of March 26th, 2024 is now considered End of Life and will not recieve updates going forward.
+    It is currently recommended to migrate to [Velocity](https://docs.bloom.host/velocity) as soon as possible.
+    More information is available [on the PaperMC website](https://forums.papermc.io/threads/announcing-the-end-of-life-of-waterfall.1088/)
   thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/tY6IAF.png'
 
 # Todo: this is really generic
@@ -1076,7 +1076,7 @@ plan:
 
 icon:
   title: '📜 Bloom Docs - Server Favicon'
-  aliases: [ 'favicon', 'servericon' , 'serverfavicon' ]
+  aliases: [ 'favicon', 'servericon', 'serverfavicon' ]
   description: >
     Check out our comprehensive guide on how to add a favicon to your
     server [here](https://docs.bloom.host/icon/).
@@ -1097,7 +1097,7 @@ codes:
     - [ 'Create Your Server Now', 'https://bloom.host/', '🎉' ]
 
 api:
-  aliases: ['ptapi', 'pterodactylapi']
+  aliases: [ 'ptapi', 'pterodactylapi' ]
   title: '📜 Bloom Docs - How to Use the Pterodactyl API'
   description: >
     There are several ways to use the Pterodactyl API.
