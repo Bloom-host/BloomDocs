@@ -1581,21 +1581,28 @@ ticket-close-staff:
     - [ 'link', 'View Transcript', '%link%', '🔗' ]
 
 # Sent to the feedback channel when ticket feedback is received
-# Placeholders: %ticketid%, %usermention%, %agent-stars%, %agent-rating%, %system-stars%, %system-rating%, %resolved%, %notes%
+# Placeholders: %ticket_id%, %ticket_link%, %user_mention%, %agent_list%, %agent_stars%, %agent_rating%, %system_stars%, %system_rating%, %resolved%, %notes%
+# Custom data: format (%lines%), line-format (%agent_id%, %agent_name%, %message_count%), resolved-yes, resolved-no, no-notes
 feedback-received:
   enabled: false
   colour: '#f85002'
   description: |
-    ## Support Ticket `#%ticketid%` Feedback
+    ## Support Ticket [`#%ticket_id%`](%ticket_link%) Feedback
   fields:
     - title: 'User'
-      description: '%usermention%'
+      description: '%user_mention%'
+      inline: true
+    - title: 'Agents'
+      description: '%agent_list%'
+      inline: true
+    - title: ' '
+      description: ' '
       inline: true
     - title: 'Agent Rating'
-      description: '%agent-stars% (%agent-rating%/5)'
+      description: '%agent_stars% (%agent_rating%/5)'
       inline: true
     - title: 'System Rating'
-      description: '%system-stars% (%system-rating%/5)'
+      description: '%system_stars% (%system_rating%/5)'
       inline: true
     - title: 'Issue Resolved'
       description: '%resolved%'
@@ -1604,6 +1611,14 @@ feedback-received:
       description: '%notes%'
       inline: false
   footer: 'Tickets - Bloom.host'
+  buttons:
+    - [ 'link', 'View Transcript', '%ticket_link%', '🔗' ]
+  custom-data:
+    format: '%lines%'
+    line-format: "- <@%agent_id%>: %message_count% messages\n"
+    resolved-yes: '✅ Yes'
+    resolved-no: '❌ No'
+    no-notes: '-'
 
 # ┌───────────────────────┐
 # │ Ticket Opening Embeds │
