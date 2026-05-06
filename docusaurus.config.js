@@ -8,6 +8,7 @@ module.exports = {
     favicon: '/favicon.ico',
     organizationName: 'bloom-host',
     projectName: 'bloomdocs',
+    trailingSlash: false,
 
     themeConfig: {
         image: 'https://bloom.host/favicon/favicon-og.png',
