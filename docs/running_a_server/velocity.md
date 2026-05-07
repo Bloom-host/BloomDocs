@@ -14,10 +14,9 @@ keywords:
   - Modern Forwarding
   - Server Split
 ---
+
 :::important
-
 When running your servers behind a proxy like Velocity or Waterfall, it requires them to be set to offline-mode. Normally hosting companies will not provide support for offline mode servers, but in this case it is required for the proxy to function properly. It will act as the gateway to your servers and handle authentication for you.
-
 :::
 
 ## Recommended RAM Allocation for Velocity
@@ -28,11 +27,9 @@ We always recommend starting with a small allocation to test your setup, then in
 
 Based on our experience and feedback from our users:
 
-Small or low player setups (no plugins): 512 – 750 MB
-
-Moderate amount of players and a few plugins: 1 GB
-
-Heavier setups (Geyser, analytics, multiple plugins): 1.5 GB – 2 GB
+* Small or low player setups (no plugins): 512 – 750 MB
+* Moderate amount of players and a few plugins: 1 GB
+* Heavier setups (Geyser, analytics, multiple plugins): 1.5 GB – 2 GB
 
 For most Bloom hosted servers, 1 GB is a solid baseline, and 1.5 GB is ideal if you are using Geyser or multiple proxy plugins. Allocating more memory will usually not harm performance unless it's a huge amount, but allocating too little may cause instability or slowdowns under high connection loads. Do note that setups with a high number of Geyser users will require more RAM, since from our experience each Bedrock player consumes a significant amount of memory.
 
