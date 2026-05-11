@@ -50,7 +50,7 @@ If you have a split server or Essentials Plans server and it doesn't have a 2556
 :::note
 SRV records are only supported on Java clients, Bedrock clients will be unable to resolve this record.
 
-If you wish to have multiple servers with clean domains on a network, [it's recommended to setup a network proxy](../running_a_server/velocity.md).
+If you wish to have multiple servers with clean domains on a network, [it's recommended to setup a network proxy](/velocity).
 :::
 
 :::warning

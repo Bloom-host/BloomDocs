@@ -43,7 +43,7 @@ by [Caitthulu](https://codefling.com/caitthulu).
 
 Once you have your map, you will need a way to host it. There are several ways, such as:
 
-1. Using a [Caddy](/other-servers/caddy-server.md) server split
+1. Using a [Caddy](/other-servers/caddy-server) server split
 2. Using Dropbox's free tier
 3. Any other direct file hosting services
 

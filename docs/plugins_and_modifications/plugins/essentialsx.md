@@ -28,15 +28,15 @@ This guide does not cover all of EssentialsX's features, please check the [Essen
 
 ## What does this plugin do?
 
-This is a plugin that offers basic commands and features such as a mail system, request tp system,  economy systems (sign shops, command costs), player nicknames and moderation tools if you don't want to install plugins such as [LiteBans](../multiplatform/litebans.md) or [AdvancedBan](../multiplatform/advancedban.md).
+This is a plugin that offers basic commands and features such as a mail system, request tp system,  economy systems (sign shops, command costs), player nicknames and moderation tools if you don't want to install plugins such as [LiteBans](/multiplatform/litebans) or [AdvancedBan](/multiplatform/advancedban).
 
-This plugin also hooks into [Vault](vault.md) to provide an economy service that other economy plugins on your server can use. It can also get group names from your permission plugin.
+This plugin also hooks into [Vault](/plugins/vault) to provide an economy service that other economy plugins on your server can use. It can also get group names from your permission plugin.
 
 ## Install
 
 You can either download stable builds from its [Spigot Resource page](https://www.spigotmc.org/resources/essentialsx.9089/), its [Modrinth Resource page](https://modrinth.com/mod/essentialsx) or you can download dev, experimental builds directly from [its website.](https://essentialsx.net/downloads.html)
 
-Next, place the EssentialsX jar file into the `plugins` folder in your server. If you need help with installing plugins, [click here for a guide.](../installing-plugins.md)
+Next, place the EssentialsX jar file into the `plugins` folder in your server. If you need help with installing plugins, [click here for a guide.](/installing-plugins)
 
 ## Usage
 

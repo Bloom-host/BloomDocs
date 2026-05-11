@@ -15,7 +15,7 @@ description: An in-game world guard plugin to protect blocks and regions.
 ---
 
 :::important
-To use WorldGuard, you need to install [WorldEdit](../multiplatform/worldedit.md) onto your server.
+To use WorldGuard, you need to install [WorldEdit](/multiplatform/worldedit) onto your server.
 :::
 
 ### What does the plugin do?

@@ -34,7 +34,7 @@ Additionally, please make sure you are using Waterfall, Velocity or a Spigot-bas
 Here is how you can install the plugin:
 
 1. Ensure your server is using a supported port. Currently, this is `25565`, `25566` and `25567`.
-  If this isn't the case, please update your main port to one of the supported ones in the [Ports & Proxies tab](../using_the_panel/ports-and-proxies.md) 
+  If this isn't the case, please update your main port to one of the supported ones in the [Ports & Proxies tab](/ports-and-proxies)
 2. Open the [latest release on GitHub](https://github.com/Bloom-host/BloomAB/releases/latest) and download the `BloomAB-xxx.jar` file.  
   This JAR file will work for all 3 platforms.
 3. Open your server in the [DuckPanel](https://mc.bloom.host) and click the 'File Manager' tab.  
@@ -51,7 +51,7 @@ Here is how you can install the plugin:
 
 By default, you do not need to modify anything after the initial setup for this to work. Whenever a bot attack happens, the plugin will detect it and notify the DDoS protection.
 
-There are a few commands you can use in-game with the `bab.admin.manage` [permission](../plugins_and_modifications/multiplatform/luckperms.md) or in the console:
+There are a few commands you can use in-game with the `bab.admin.manage` [permission](/multiplatform/luckperms) or in the console:
 - `/bloomab force <seconds>`: Force trigger the protection for X seconds.
 - `/bloomab forcestop <seconds>`: Force disable the protection for X seconds.
 - `/bloomab set <maxjps|duration|location> <new value>`: Modify the `config.yml` and update the values live. 

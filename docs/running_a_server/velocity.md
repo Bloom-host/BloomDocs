@@ -64,7 +64,7 @@ The first section of the config file you need to edit is the `[servers]` section
 
 :::note
 
-Before you setup this section, you're going to want to make sure all your backend servers are internal. You can make your backend servers internal by going to the Ports and Proxies tab under the specific server and clicking "Make Internal", that will remove all public access to your backend servers which is what we want. When a server is internal they are only accessible via other servers in the same split. If you would like to read more information on our internal servers please see [here](internal-servers.md).
+Before you setup this section, you're going to want to make sure all your backend servers are internal. You can make your backend servers internal by going to the Ports and Proxies tab under the specific server and clicking "Make Internal", that will remove all public access to your backend servers which is what we want. When a server is internal they are only accessible via other servers in the same split. If you would like to read more information on our internal servers please see [here](/internal-servers).
 
 :::
 
@@ -158,7 +158,7 @@ This section also applies to forks based upon Paper such as Purpur or Pufferfish
 
 If you cannot use modern forwarding (for example, your server jar doesn't support Velocity modern forwarding), you might be able to use BungeeGuard instead.
 
-To set this up, see the guide [on how to set up BungeeGuard](waterfall.md#setting-up-bungeeguard).
+To set this up, see the guide [on how to set up BungeeGuard](/waterfall#setting-up-bungeeguard).
 
 ## Additional configuation options for velocity.toml
 
