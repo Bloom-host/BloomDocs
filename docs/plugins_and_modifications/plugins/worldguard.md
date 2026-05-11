@@ -1,7 +1,7 @@
 ---
 id: worldguard
 title: WorldGuard
-slug: worldguard
+slug: /plugins/worldguard
 hide_table_of_contents: true
 sidebar_label: WorldGuard
 description: An in-game world guard plugin to protect blocks and regions.
