@@ -8,7 +8,7 @@ description: Learn how you can upload, export and manage your Minecraft worlds.
 ---
 
 :::note
-If you'd like to import ALL your files from another hosting company, please follow our [Server Importer](../using_the_panel/server-importer) guide instead!
+If you'd like to import ALL your files from another hosting company, please follow our [Server Importer](../server-importer) guide instead!
 :::
 
 # Importing Worlds
@@ -27,7 +27,7 @@ Then, select all the files within the open directory and right click. Select 'Se
 ![img](/running_a_server/worlds/3.png)
 You may get a warning about empty folders being skipped but that is okay!
 
-Next, follow [our guide on connecting to your server with an SFTP client](/using_the_panel/sftp.md). In most cases, your world files will be fairly large, so it's best to use a dedicated file transfer protocol, instead of the built-in web file manager.
+Next, follow [our guide on connecting to your server with an SFTP client](/sftp.md). In most cases, your world files will be fairly large, so it's best to use a dedicated file transfer protocol, instead of the built-in web file manager.
 Once connected via SFTP, right click in SFTP and create a new folder, such as `my-world` and open it.
 ![img](/running_a_server/worlds/4.png)
 
@@ -80,7 +80,7 @@ Scroll down to the very bottom of the main page and press 'Export World':
 Select your desktop, or another easy to access location:
 ![img](/running_a_server/worlds/14.png)
 
-Next, follow [our guide on connecting to your server with an SFTP client](/using_the_panel/sftp.md). In most cases, your world files will be fairly large, so it's best to use a dedicated file transfer protocol, instead of the built-in web file manager.
+Next, follow [our guide on connecting to your server with an SFTP client](/sftp.md). In most cases, your world files will be fairly large, so it's best to use a dedicated file transfer protocol, instead of the built-in web file manager.
 Once connected via SFTP, open the `worlds` directory and create a new folder, such as `my-world` and open it.
 ![img](/running_a_server/worlds/15.png)
 
