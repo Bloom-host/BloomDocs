@@ -20,7 +20,7 @@ This guide will go over how to run an MTR, how to diagnose ping issues and poten
 ## How to run an MTR
 
 :::warning
-Please follow our [MTR guide](mtr.md).
+Please follow our [MTR guide](/mtr).
 :::
 
 ---

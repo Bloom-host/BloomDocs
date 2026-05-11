@@ -7,13 +7,13 @@ sidebar_label: Installing Spigot Plugins
 ---
 
 :::important
-This guide is for Bukkit/Spigot/Paper servers. If you are looking for instructions on how to install plugins on a BungeeCord/Waterfall or Velocity proxy, please see [this guide](proxy-plugins.md)
+This guide is for Bukkit/Spigot/Paper servers. If you are looking for instructions on how to install plugins on a BungeeCord/Waterfall or Velocity proxy, please see [this guide](/installing-proxy-plugins)
 :::
 
 ### The Basics
 > #### Requirements
 > 
-> In order to run plugins on your server, you have to be using a fork of Bukkit. (such as Spigot, Paper, Pupur, Pufferfish, etc. See our [guide on server jars](/jars) for more information.) If you wish to make client-side modifications (as well), see our guide on [installing server mods](mods-install.md)!
+> In order to run plugins on your server, you have to be using a fork of Bukkit. (such as Spigot, Paper, Pupur, Pufferfish, etc. See our [guide on server jars](/jars) for more information.) If you wish to make client-side modifications (as well), see our guide on [installing server mods](/mods-install)!
 
 > #### What are plugins?
 >
@@ -30,7 +30,7 @@ Make sure you trust the source of your plugin. Plugins have high-level access to
 ### Installing Plugins
 
 1. You'll first need to find the plugin you wish to install. Downloads can be found on a variety of sites. Common places are [spigotmc.org](https://spigotmc.org/resources), [bukkit.org](https://dev.bukkit.org), [Modrinth](https://modrinth.com/plugins) or [Hangar](https://hangar.papermc.io/) websites.
-2. In any case, save the plugin to your local machine. Plugins can either be uploaded via the [web panel](https://mc.bloom.host) or through [SFTP](../using_the_panel/sftp.md). If you're uploading in bulk, go with the latter.
+2. In any case, save the plugin to your local machine. Plugins can either be uploaded via the [web panel](https://mc.bloom.host) or through [SFTP](/sftp). If you're uploading in bulk, go with the latter.
 3. In your server's root directory, locate the `plugins` folder, if it's not there then create a new directory named `plugins`. Navigate into this folder, and upload your plugin's file there!
 4. Most plugins will require you to restart your server before they take effect.
 
