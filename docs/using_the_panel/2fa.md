@@ -25,9 +25,9 @@ Remember to write down the recovery code shown while setting up 2FA, without it 
 :::
 ## Billing Area 2FA
 
-To setup 2FA in the billing area, head over to the [billing area and login](https://www.bloom.host/portal/clientarea.php)
+To setup 2FA in the billing area, head over to the [billing area and login](https://billing.bloom.host/clientarea.php)
 
-Next, head over to [Security Settings](https://www.bloom.host/portal/clientarea.php?action=security) which you can find here: 
+Next, head over to [Security Settings](https://billing.bloom.host/clientarea.php?action=security) which you can find here: 
 
 ![console](/using_the_panel/2fa/1.png)
 
