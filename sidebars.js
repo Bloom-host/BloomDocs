@@ -210,6 +210,8 @@ module.exports = {
                         'plugins_and_modifications/multiplatform/bluemap', // 3D web map (Spigot/Paper, Paper/Folia, Forge, Fabric, Neoforge, Sponge)
                         'plugins_and_modifications/multiplatform/chunky', // World pre-generation plugin (Bukkit, Fabric, Forge)
                         'plugins_and_modifications/multiplatform/dynmap', // Dynamic web map of Minecraft worlds (Spigot/Paper, Forge, Fabric)
+                        'plugins_and_modifications/multiplatform/floodgate', // Works with GeyserMC to allow bedrock connections, without a Java Edition account.
+                        'plugins_and_modifications/multiplatform/geysermc', // Bedrock <-> Java bridge (Spigot/Paper, BungeeCord, Fabric, NeoForge, Standalone, Velocity, ViaProxy)
                         'plugins_and_modifications/multiplatform/litebans', // Bans and punishment manager (Spigot/Paper, BungeeCord, Velocity)
                         'plugins_and_modifications/multiplatform/luckperms', // Permissions (Bukkit/Spigot/Paper, BungeeCord, Sponge, Forge, Fabric, Nukkit, Velocity)
                         'plugins_and_modifications/multiplatform/plan', // Player Analytics, (Bukkit/Spigot/Paper, Sponge, Nukkit, Fabric)
@@ -231,9 +233,6 @@ module.exports = {
                         'plugins_and_modifications/plugins/craftingstore',
                         'plugins_and_modifications/plugins/discordsrv', //Discord <-> Minecraft bridge
                         'plugins_and_modifications/plugins/essentialsx',
-                        'plugins_and_modifications/plugins/floodgate', // Works with GeyserMC to allow bedrock connections, without a Java Edition account.
-                        'plugins_and_modifications/plugins/geysermc', // Minecraft Bedrock player bridge
-                        'plugins_and_modifications/plugins/geyseraddons', // GeyserMC addons
                         'plugins_and_modifications/plugins/griefprevention',
                         'plugins_and_modifications/plugins/multiverse', //Bukkit multi-world manager
                         'plugins_and_modifications/plugins/papi', // PlaceholderAPI
