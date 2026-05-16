@@ -399,6 +399,7 @@ chunky:
     - title: '⭐ Chunky'
       description: |+
         • [Spigot - Plugin Version](https://www.spigotmc.org/resources/chunky.81534/)
+        • [Modrinth - Universal](https://modrinth.com/plugin/chunky)
         • [CurseForge - Forge Mod Version](https://www.curseforge.com/minecraft/mc-mods/chunky-pregenerator-forge)
         • [CurseForge - Fabric Mod Version](https://www.curseforge.com/minecraft/mc-mods/chunky-pregenerator)
         • [Official Documentation](https://github.com/pop4959/Chunky/wiki)
@@ -408,6 +409,7 @@ chunky:
       description: |+
         An add-on for Chunky which lets you create and manage custom world borders.
         • [Spigot- Plugin Version](https://www.spigotmc.org/resources/chunkyborder.84278/)
+        • [Modrinth - Universal](https://modrinth.com/plugin/chunkyborder)
         • [CurseForge - Fabric Mod Version](https://www.curseforge.com/minecraft/mc-mods/chunky-border)
         • [GitHub Repository](https://github.com/pop4959/ChunkyBorder)
         • [Support Server](https://discord.gg/ZwVJukcNQG)
