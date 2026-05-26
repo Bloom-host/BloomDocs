@@ -328,19 +328,6 @@ vps:
 
     Are you new to VPS? Check out our [Get Started with VPS guide](https://docs.bloom.host/VPS/starting-with-vps)!
 
-waitlist:
-  aliases: [ 'wl' ]
-  title: 'About the Waitlist'
-  description: |+
-    To enter the Bloom.host waitlist, follow these steps
-
-    **1.** Join the Waitlist Discord server [here](https://Bloom.host/waitlist).
-    **2.** Create a ticket and let us know what plan/location you want to wait for.
-    **3.** When it's your turn, you'll be pinged in your ticket. You have 24 hours to respond, otherwise, you lose your spot in line.
-    **4.** Transfer or purchase your server!
-
-    Thanks again for your interest in our plans!
-
 palworld:
   title: 'How to change config on your Palworld server'
   description: |+
@@ -1642,109 +1629,6 @@ tickets-default:
     - [ 'link', 'Open Billing Ticket', 'https://billing.bloom.host/submitticket.php', '💰' ]
     - [ 'secondary', 'Notes', 'notes:{"type":"current_ticket", "action":"new"}', '📔', '6' ]
 
-minecraft-ess:
-  enabled: false
-  title: 'Minecraft Essentials'
-  description: |+
-    :wave:
-    Thank you for joining the **Minecraft Essentials** waitlist!
-
-    **Please respond with the following choices:**
-    ```YAML
-    Location: Dallas (US Central), Ashburn (US East), Los Angeles (US West), Miami (US Southeast), Germany
-    Size: 4GB, 6GB
-    ```
-
-    **Note: selecting multiple options can decrease your wait time significantly.**
-    You will receive a ping when your spot is ready. In the mean time feel free to ask us any questions and don't forget to join our main Bloom discord at https://discord.gg/bloom
-    **If this is a transfer from another Bloom location or a plan upgrade, please provide your Bloom.host Billing Account email address.**
-
-minecraft-perf:
-  enabled: false
-  title: 'Minecraft Performance'
-  description: |+
-    :wave:
-    Thank you for joining the **Minecraft Performance** waitlist!
-
-    **Please respond with the following choices:**
-    ```YAML
-    Location: Dallas (US Central), Ashburn (US East), Los Angeles (US West), Miami (US Southeast), Germany
-    Size: 8GB, 12GB, 16GB, 20GB, 24GB, 32GB
-    ```
-
-    **Note: selecting multiple options can decrease your wait time significantly.**
-    You will receive a ping when your spot is ready. In the mean time feel free to ask us any questions and don't forget to join our main Bloom discord at https://discord.gg/bloom
-    **If this is a transfer from another Bloom location or a plan upgrade, please provide your Bloom.host Billing Account email address.**
-
-minecraft-perfplus:
-  enabled: false
-  title: 'Minecraft Performance+'
-  description: |+
-    :wave:
-    Thank you for joining the **Minecraft Performance+** waitlist!
-
-    **Please respond with the following choices:**
-    ```YAML
-    Location: Dallas (US Central), Ashburn (US East), Los Angeles (US West), Miami (US Southeast), Germany, Singapore
-    Size: 8GB, 12GB, 16GB, 20GB, 24GB, 32GB
-    ```
-
-    **Note: selecting multiple options can decrease your wait time significantly.**
-    You will receive a ping when your spot is ready. In the mean time feel free to ask us any questions and don't forget to join our main Bloom discord at https://discord.gg/bloom
-    **If this is a transfer from another Bloom location or a plan upgrade, please provide your Bloom.host Billing Account email address.**
-
-vps-perf:
-  enabled: false
-  title: 'VPS Performance'
-  description: |+
-    :wave:
-    Thank you for joining the **VPS Performance** waitlist!
-
-    **Please respond with the following choices:**
-    ```YAML
-    Location: Dallas (US Central), Ashburn (US East), Los Angeles (US West), Miami (US Southeast)
-    Size: 4GB, 8GB, 12GB, 16GB, 20GB, 24GB
-    ```
-
-    **Note: selecting multiple options can decrease your wait time significantly.**
-    You will receive a ping when your spot is ready. In the mean time feel free to ask us any questions and don't forget to join our main Bloom discord at https://discord.gg/bloom
-    **If this is a transfer from another Bloom location or a plan upgrade, please provide your Bloom.host Billing Account email address.**
-
-baremetal-waitlist:
-  enabled: false
-  title: 'Bare Metal'
-  description: |+
-    :wave:
-    Thank you for joining the **Bare Metal** wait list!
-
-    **Please respond with which server(s) you are interested in, and one of our staff members will respond shortly to confirm your spot.**
-    ```YAML
-    Location: Ashburn (US east), Los Angeles (US West)
-
-    Options (Ashburn only): Ryzen 5 5600X, Ryzen 7 5800X, Ryzen 9 5950X
-
-    Options (Ashburn and Los Angeles): Ryzen 7 7700X, Ryzen 9 7950X (128GB RAM), Ryzen 9 7950X (192GB RAM)
-    ```
-
-    The full specifications of each server can be found on our website at https://bloom.host/bare-metal-dedicated/ where you can also find a list of available add-ons
-
-vps-perfplus:
-  enabled: false
-  title: 'VPS Performance+'
-  description: |+
-    :wave:
-    Thank you for joining the **VPS Performance+** waitlist!
-
-    **Please respond with the following choices:**
-    ```YAML
-    Location: Dallas (US Central), Ashburn (US East), Los Angeles (US West), Miami (US Southeast), Germany, Singapore
-    Size: 8GB, 12GB, 16GB, 20GB, 24GB
-    ```
-
-    **Note: selecting multiple options can decrease your wait time significantly.**
-    You will receive a ping when your spot is ready. In the mean time feel free to ask us any questions and don't forget to join our main Bloom discord at https://discord.gg/bloom
-    **If this is a transfer from another Bloom location or a plan upgrade, please provide your Bloom.host Billing Account email address.**
-
 # ┌─────────────────────┐
 # │ Ticket Panel Embeds │
 # └─────────────────────┘
@@ -1762,13 +1646,191 @@ ticket-panel:
   buttons:
     - [ 'Open Billing Ticket', 'https://billing.bloom.host/submitticket.php', '💰', '2' ]
 
-waitlistpanel:
+waitlist-panel:
   enabled: false
-  title: 'Join the waitlist'
   description: |+
-    :white_circle: to join the **Minecraft Essentials** waitlist
-    :blue_circle: to join the **Minecraft Performance** waitlist
-    :red_circle: to join the **Minecraft Performance+** waitlist
-    :green_circle: to join the **VPS Performance** waitlist
-    :orange_circle: to join the **VPS Performance+** waitlist
-    :purple_circle: to join the **Bare Metal ** waitlist
+    # 🌻 Bloom Host Waitlist
+    Welcome to the waitlist! Please select your desired plan below:
+  buttons:
+    - [ 'primary', 'Game', 'waitlist:start:game', '🎮' ]
+    - [ 'primary', 'VPS', 'waitlist:start:vps', '☁️' ]
+    - [ 'primary', 'Bare Metal', 'waitlist:start:bare_metal', '⚡' ]
+    - [ 'primary', 'Inquiry', 'waitlist:confirm:custom', '🎫' ]
+
+waitlist-select-level:
+  enabled: true
+  colour: '#5865F2'
+  description: |+
+    # 📶 Select Plan Level
+    Please select your desired plan level:
+
+waitlist-select-location-single:
+  enabled: true
+  colour: '#5865F2'
+  description: |+
+    # 🌍 Select Location
+    Please select your preferred location.
+
+waitlist-select-location-multiple:
+  enabled: true
+  colour: '#5865F2'
+  description: |+
+    # 🌍 Select Locations
+    Please select your preferred locations.
+    **Note**: selecting multiple options can decrease your wait time significantly!
+
+waitlist-select-size:
+  enabled: true
+  colour: '#5865F2'
+  description: |+
+    # ⚙️ Select Plan
+    **Location**: %location_name%
+
+    Please select your desired plan.
+    **Note**: selecting multiple options can decrease your wait time significantly!
+
+waitlist-confirm:
+  enabled: true
+  colour: '#5865F2'
+  description: |+
+    # ✅ Confirm Waitlist Entry
+    **Type**: %plan_label%
+    **Location**: %location_name%
+    **Size:** %size_label%
+
+    Are you signing up for a new plan or upgrading an existing one?
+
+waitlist-select-quantity:
+  enabled: true
+  colour: '#5865F2'
+  description: |+
+    # ✅ Confirm Quantity 
+    **Type**: %plan_label%
+    **Location**: %location_name%
+    **Size**: %size_label%
+
+    How many plans would you like to sign up for?
+
+waitlist-open-game-essentials:
+  enabled: false
+  colour: '#77b255'
+  description: |+
+    # ✅ %count%x %waitlist_type% Waitlist Entry Confirmed
+    - **Plans**: %size_label% Essentials Game  
+    - **Locations**: %location_name%
+    - **Email**: `%email%`
+    
+    Thank you for joining the waitlist! 
+    
+    You will be notified once the plan is ready. You will have 24 hours to claim it.
+    In the meantime, feel free to ask us any questions regarding the waitlist here!
+    
+    ⚠️ Please note that this server is **not actively monitored**, so for any immediate concerns, please make sure to [contact us](https://bloom.host/support) directly.
+  buttons:
+    - [ 'danger', 'Abandon Waitlist Spot', 'close', '🔒' ]
+    - [ 'link', 'Contact Support', 'https://bloom.host/support', '🔗' ]
+
+waitlist-open-game-performance:
+  enabled: false
+  colour: '#77b255'
+  description: |+
+    # ✅ %count%x %waitlist_type% Waitlist Entry Confirmed
+    - **Plans**: %size_label% Performance Game  
+    - **Locations**: %location_name%
+    - **Email**: `%email%`
+    
+    Thank you for joining the waitlist! 
+    
+    You will be notified once the plan is ready. You will have 24 hours to claim it.
+    In the meantime, feel free to ask us any questions regarding the waitlist here!
+    
+    ⚠️ Please note that this server is **not actively monitored**, so for any immediate concerns, please make sure to [contact us](https://bloom.host/support) directly.
+  buttons:
+    - [ 'danger', 'Abandon Waitlist Spot', 'close', '🔒' ]
+    - [ 'link', 'Contact Support', 'https://bloom.host/support', '🔗' ]
+
+waitlist-open-game-performance-plus:
+  enabled: false
+  colour: '#77b255'
+  description: |+
+    # ✅ %count%x %waitlist_type% Waitlist Entry Confirmed
+    - **Plans**: %size_label% Performance Plus Game  
+    - **Locations**: %location_name%
+    - **Email**: `%email%`
+    
+    Thank you for joining the waitlist! 
+    
+    You will be notified once the plan is ready. You will have 24 hours to claim it.
+    In the meantime, feel free to ask us any questions regarding the waitlist here!
+    
+    ⚠️ Please note that this server is **not actively monitored**, so for any immediate concerns, please make sure to [contact us](https://bloom.host/support) directly.
+  buttons:
+    - [ 'danger', 'Abandon Waitlist Spot', 'close', '🔒' ]
+    - [ 'link', 'Contact Support', 'https://bloom.host/support', '🔗' ]
+
+waitlist-open-vps:
+  enabled: false
+  colour: '#77b255'
+  description: |+
+    # ✅ %count%x %waitlist_type% Waitlist Entry Confirmed
+    - **Plans**: %size_label% VPS  
+    - **Locations**: %location_name%
+    - **Email**: `%email%`
+    
+    Thank you for joining the waitlist! 
+    
+    You will be notified once the plan is ready. You will have 24 hours to claim it.
+    In the meantime, feel free to ask us any questions regarding the waitlist here!
+    
+    ⚠️ Please note that this server is **not actively monitored**, so for any immediate concerns, please make sure to [contact us](https://bloom.host/support) directly.
+  buttons:
+    - [ 'danger', 'Abandon Waitlist Spot', 'close', '🔒' ]
+    - [ 'link', 'Contact Support', 'https://bloom.host/support', '🔗' ]
+
+waitlist-open-baremetal:
+  enabled: false
+  colour: '#77b255'
+  description: |+
+    # ✅ %count%x %waitlist_type% Waitlist Entry Confirmed
+    - **Plans**: %size_label% Bare Metal  
+    - **Locations**: %location_name%
+    - **Email**: `%email%`
+    
+    Thank you for joining the waitlist! 
+    
+    You will be notified once the plan is ready. You will have 24 hours to claim it.
+    In the meantime, feel free to ask us any questions regarding the waitlist here!
+    
+    ⚠️ Please note that this server is **not actively monitored**, so for any immediate concerns, please make sure to [contact us](https://bloom.host/support) directly.
+  buttons:
+    - [ 'danger', 'Abandon Waitlist Spot', 'close', '🔒' ]
+    - [ 'link', 'Contact Support', 'https://bloom.host/support', '🔗' ]
+
+waitlist-open-custom:
+  enabled: false
+  colour: '#77b255'
+  description: |+
+    # ✅ Custom Inquiry
+    > %inquiry%
+    
+    Thank you for your inquiry! Our team will contact you here within 24 hours to discuss further.
+    
+    ⚠️ Please note that this server is **not actively monitored**, so for any immediate concerns, please make sure to [contact us](https://bloom.host/support) directly.
+  buttons:
+    - [ 'danger', 'Abandon Waitlist Spot', 'close', '🔒' ]
+    - [ 'link', 'Contact Support', 'https://bloom.host/support', '🔗' ]
+
+waitlist:
+  aliases: [ 'wl' ]
+  description: |+
+    # 🌻 Bloom Host Waitlist
+    In case you are looking for a plan currently not in stock, please enter the waitlist with the following steps:
+
+    1. Join the Waitlist Discord server [here](https://bloom.host/waitlist).
+    2. Select your desired plan in the `#join-waitlist` channel.
+    3. When it's your turn, you'll be pinged in your ticket. You have 24 hours to respond; otherwise, you lose your spot in line.
+    4. Transfer or purchase your server!
+
+    Thanks again for your interest in our plans!
+  buttons:
+    - [ 'link', 'Join Waitlist', 'https://bloom.host/waitlist', '🔗' ]
