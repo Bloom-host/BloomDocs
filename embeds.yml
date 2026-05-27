@@ -1648,31 +1648,40 @@ ticket-panel:
 
 waitlist-panel:
   enabled: false
+  colour: '#77b255'
   description: |+
     # 🌻 Bloom Host Waitlist
-    Welcome to the waitlist! Please select your desired plan below:
+    In case you are looking for a plan currently not in stock, please enter the waitlist by selecting your desired plan below.
+
+    When it's your turn, you'll be pinged in your ticket. You have 24 hours to respond; otherwise, you lose your spot in line.
+
+    Selecting multiple plans or locations can significantly decrease your wait time!
+
+    Thanks again for your interest in our plans!
+
+    ⚠️ Please note that this server is **not actively monitored**, so for any immediate concerns, please make sure to [contact us](https://bloom.host/support) directly.
   buttons:
-    - [ 'primary', 'Game', 'waitlist:start:game', '🎮' ]
-    - [ 'primary', 'VPS', 'waitlist:start:vps', '☁️' ]
-    - [ 'primary', 'Bare Metal', 'waitlist:start:bare_metal', '⚡' ]
-    - [ 'primary', 'Inquiry', 'waitlist:confirm:custom', '🎫' ]
+    - [ 'secondary', 'Game', 'waitlist:start:game', '🎮', ]
+    - [ 'secondary', 'VPS', 'waitlist:start:vps', '☁️', ]
+    - [ 'secondary', 'Bare Metal', 'waitlist:start:bare_metal', '⚡', ]
+    - [ 'secondary', 'Inquire', 'waitlist:confirm:custom', '🎫', ]
 
 waitlist-select-level:
-  enabled: true
+  enabled: false
   colour: '#5865F2'
   description: |+
     # 📶 Select Plan Level
     Please select your desired plan level:
 
 waitlist-select-location-single:
-  enabled: true
+  enabled: false
   colour: '#5865F2'
   description: |+
     # 🌍 Select Location
     Please select your preferred location.
 
 waitlist-select-location-multiple:
-  enabled: true
+  enabled: false
   colour: '#5865F2'
   description: |+
     # 🌍 Select Locations
@@ -1680,7 +1689,7 @@ waitlist-select-location-multiple:
     **Note**: selecting multiple options can decrease your wait time significantly!
 
 waitlist-select-size:
-  enabled: true
+  enabled: false
   colour: '#5865F2'
   description: |+
     # ⚙️ Select Plan
@@ -1690,7 +1699,7 @@ waitlist-select-size:
     **Note**: selecting multiple options can decrease your wait time significantly!
 
 waitlist-confirm:
-  enabled: true
+  enabled: false
   colour: '#5865F2'
   description: |+
     # ✅ Confirm Waitlist Entry
@@ -1701,7 +1710,7 @@ waitlist-confirm:
     Are you signing up for a new plan or upgrading an existing one?
 
 waitlist-select-quantity:
-  enabled: true
+  enabled: false
   colour: '#5865F2'
   description: |+
     # ✅ Confirm Quantity 
@@ -1827,7 +1836,7 @@ waitlist:
     In case you are looking for a plan currently not in stock, please enter the waitlist with the following steps:
 
     1. Join the Waitlist Discord server [here](https://bloom.host/waitlist).
-    2. Select your desired plan in the `#join-waitlist` channel.
+    2. Select your desired plan in the `#info` channel.
     3. When it's your turn, you'll be pinged in your ticket. You have 24 hours to respond; otherwise, you lose your spot in line.
     4. Transfer or purchase your server!
 
