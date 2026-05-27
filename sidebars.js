@@ -318,6 +318,7 @@ module.exports = {
                 'extras/serverpackcreator',
                 'extras/srvcontrol',
                 'extras/swap',
+				'extras/templatexample',
                 'extras/clumsyloader',
             ],
         },
