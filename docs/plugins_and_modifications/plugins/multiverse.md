@@ -23,7 +23,7 @@ Multiverse core allows you to create multiple different worlds in one server. Yo
 
 This example shows some of the worlds being our very own and also some of the worlds being imported into our server.  
 
-[This guide](https://github.com/Multiverse/Multiverse-Core/wiki/Basics) outlines how to set up worlds, import worlds, and some basic settings for the plugin.  
+[This guide](https://mvplugins.org/core/fundamentals/basic-usage/) outlines how to set up worlds, import worlds, and some basic settings for the plugin.  
 
 ## Plugins to use with Multiverse
 
