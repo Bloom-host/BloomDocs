@@ -23,7 +23,7 @@ Multiverse core allows you to create multiple different worlds in one server. Yo
 
 This example shows some of the worlds being our very own and also some of the worlds being imported into our server.  
 
-[This guide](https://github.com/Multiverse/Multiverse-Core/wiki/Basics) outlines how to set up worlds, import worlds, and some basic settings for the plugin.  
+[This guide](https://mvplugins.org/core/fundamentals/basic-usage/) outlines how to set up worlds, import worlds, and some basic settings for the plugin.  
 
 ## Plugins to use with Multiverse
 
@@ -35,11 +35,9 @@ Multiverse Sign Portals is a plugin made by the Multiverse dev team which allows
 
 Multiverse Nether Portals is very similar to Multiverse Sign Portals, but instead of signs it uses nether portals. You can find more about it here [Nether Portals Link](https://dev.bukkit.org/projects/multiverse-netherportals/)
 
-### Per World Inventory
-Per World Inventory is useful plugin for seperating stastics between worlds when using a plugin like Multiverse.
+### Multiverse Inventories
 
-The [GitHub](https://github.com/EbonJaeger/perworldinventory-kt/wiki) can help you setup Per World Inventories to your liking. It includes the commands that Per World Inventory uses and how to setup world groups. 
-
+Multiverse Inventories allow you to have seperate inventories and player statistics for your different worlds. You can find out more about it here: [Multiverse Inventories Link](https://modrinth.com/mod/multiverse-inventories)
 
 That's about it for Multiverse! If you need any more help, feel free to make a ticket in the [discord](https://discord.gg/bloom) :)  
 
