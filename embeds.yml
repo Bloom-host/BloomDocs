@@ -1638,7 +1638,7 @@ ticket-panel:
   colour: '#77b255'
   description: |+
     # <:bloom:732019289741066379> Bloom Host Support
-    For billing inquiries such as upgrades, downgrades, or refunds, **please open billing ticket**: https://billing.bloom.host/submitticket.php
+    For billing inquiries such as upgrades, downgrades, or refunds, **please open a billing ticket**: https://billing.bloom.host/submitticket.php
 
     Our standard support hours are between 8 AM and 8 PM US Eastern, (<t:1655985600:t> and <t:1656028800:t> local time). Although we are often available outside of these hours, responses may be delayed until support hours resume.
 
