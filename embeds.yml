@@ -1103,12 +1103,6 @@ warp:
 
     ✅ **Download WARP: https://1.1.1.1**
 
-    Once installed, if you need to access our site, make sure to remove the `.host` top level-domain to access our site:
-    1. Right-click the WARP icon on your task bar.
-    2. Click the ⚙️ option and select 'Preferences'.
-    3. Under the 'Advanced' tab, open the 'Local Domain Fallback' option.
-    4. Click `host` and remove it using the `-` button.
-
 worldtype:
   aliases: [ 'world', 'worldtypes' ]
   title: 'World Types'
