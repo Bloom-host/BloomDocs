@@ -242,6 +242,17 @@ macro:
 
     These topics are against Discord's community guidelines, so please do not discuss them on this server.
 
+pvz:
+  colour: '#CF3422'
+  description: |+
+    ## <:abbymadpeek:765411216042229760> PVZ Fusion
+
+    This server is strictly for [Bloom Host](https://bloom.host), a game server hosting company. We are **not** affiliated with PVZ in any way.
+
+    We would recommend checking [PVZ's wiki](https://pvz-fusion.fandom.com/wiki/FAQ).
+  buttons:
+  - ["Visit Wiki", "https://pvz-fusion.fandom.com/wiki/FAQ", "🔗"]
+
 hybrid:
   aliases:
     - 'hybrids'
