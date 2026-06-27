@@ -251,7 +251,7 @@ pvz:
 
     We would recommend checking [PVZ's wiki](https://pvz-fusion.fandom.com/wiki/FAQ).
   buttons:
-  - ["Visit Wiki", "https://pvz-fusion.fandom.com/wiki/FAQ", "🔗"]
+    - ["Visit Wiki", "https://pvz-fusion.fandom.com/wiki/FAQ", "🔗"]
 
 hybrid:
   aliases:
