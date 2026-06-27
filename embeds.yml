@@ -932,15 +932,17 @@ java:
   aliases: [ 'jvm', 'javas', 'java18', 'whichjava', 'jvm18', 'java17', 'jvm17' ]
   title: '📜 Minecraft and their java requirements'
   description: |+
-    For Minecraft forge/fabric <1.16, Java 8 is recommended
+    For Minecraft forge/fabric < 1.16, Java 8 is recommended
     
-    For Minecraft <1.17, Java 11 is recommended.
+    For Minecraft < 1.17, Java 11 is recommended.
 
-    Minecraft 1.17 **__won't start__** without Java 16 (or newer).
+    Minecraft > 1.17 **__won't start__** without Java 16 (or newer).
 
-    Minecraft 1.18 **__won't start__** without Java 17 (or newer).
+    Minecraft > 1.18 **__won't start__** without Java 17 (or newer).
 
-    Minecraft 1.20.5 **__won't start__** without Java 21 (or newer).
+    Minecraft > 1.20.5 **__won't start__** without Java 21 (or newer).
+
+    Minecraft > 26.1 **__won't start__** without Java 26 (or newer).
     
     For more information on how to change your java version on the panel, please visit [here](https://docs.bloom.host/java-version/)
   image: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/java.png'
