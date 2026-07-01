@@ -1,0 +1,5 @@
+# Old asset URLs that are hotlinked from external sites but no longer exist.
+# Redirect to the current docs page covering the same content so inbound
+# links keep resolving instead of 404ing.
+/assets/images/1-e4119d5e1e7531ff74cf6567d46828ba.png  /java-version  301
+/assets/images/2-aedb1ee786c18940ccb6f4ed4273f823.png  /split-server  301
