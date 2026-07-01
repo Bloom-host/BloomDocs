@@ -1,0 +1,128 @@
+---
+id: serverpackcreator
+title: "Serverpack Creator"
+slug: /extras/serverpackcreator
+hide_table_of_contents: true
+sidebar_label: "Serverpack Creator"
+description: How can I make a serverpack to upload to my server?
+keywords:
+  - Minecraft
+  - Forge
+  - Fabric
+  - Neoforge
+  - Server
+---
+
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+
+This guide gives you a step by step method on creating your own server pack for a custom modpack, or a modpack that doesn't have an available server pack yet.
+
+:::warning
+While Server pack Creator can make serverpacks it's not perfect and doesn't have a 100% guarantee in making the serverpack functional. Test to be sure it works.  
+:::
+
+:::important
+
+**Requirements!**
+
+- Java 21+
+- **[Download Server pack Creator](https://github.com/Griefed/ServerPackCreator/releases)**
+
+**Terminology**
+
+- Server Pack Creator -> SPC (to make it easier to type out)
+
+:::
+---
+## Part 1. Serverpack creator.
+
+### Follow the steps below for your launcher on how to properly use SPC for each launcher. Ensure you select the correct launcher.
+
+#### The example modpack is [Beyond Depth](https://www.curseforge.com/minecraft/modpacks/beyond-depth) for curseforge & prism, and [Homestead](https://modrinth.com/modpack/homestead) for modrinth. Both do not have a serverpack available from their respective platforms natively.
+
+While Beyond depth and Homestead provide their own ways to do their serverspacks, we use these modpacks strictly as **examples** for SPC as they are good examples of popular modpacks and have a good selection of mods.
+
+---
+
+<Tabs groupId="Launchers">
+  <TabItem value="curseforge" label="Curseforge">
+  Steps:
+
+    1. Open SPC and navigate to your modpack folder. To find out the modpack folder, right-click the modpack in the launcher and click "Open Folder". Then read the folder location and navigate to it from SPC. ![Curseforge1](/extras/serverpackcreator/curseforge/curseforge1.gif)
+
+    2. After entering the modpack folder, SPC should automatically detect the mods, configs, and other folders that the modpack uses. It will also detect the Minecraft version, mod loader (software that loads mods), and mod loader version. ![Curseforge2](/extras/serverpackcreator/curseforge/curseforge2.png)
+
+    3. If all details are correct from step 2, click Create ZIP Archive, then Generate, and wait. ![Curseforge3](/extras/serverpackcreator/curseforge/curseforge3.png)
+
+    4. If successful, you will be prompted to open the Serverpacks folder. Select No. Instead, press Server packs under the generate command. ![Curseforge4](/extras/serverpackcreator/curseforge/curseforge4.png)
+
+    5. Once done, move on to part 2 of the guide below.
+
+</TabItem>
+  <TabItem value="modrinth" label="Modrinth">
+  Steps:
+
+    1. Open SPC and go to your modpack folder. To find the folder, left-click your modpack icon on the left, select the three dots at the top right, and choose "Open Folder." Note the folder location and navigate to it in SPC. ![Modrinth1](/extras/serverpackcreator/modrinth/modrinth1.gif)
+
+    2. After entering the modpack folder, SPC should automatically detect the mods, configs, and other folders that the modpack uses. If it does not auto detect the version of the loader, you can follow the gif below to know the correct process. ![Modrinth2](/extras/serverpackcreator/modrinth/modrinth2.gif)
+
+    3. If all details are correct from step 2, click Create ZIP Archive, then Generate, and wait. ![Modrinth3](/extras/serverpackcreator/modrinth/modrinth3.png)
+
+    4. If successful, you will be prompted to open the Serverpacks folder. Select No. Instead, press Server packs under the generate command. ![Modrinth4](/extras/serverpackcreator/modrinth/modrinth4.png)
+
+    5. Once done, move on to part 2 of the guide below.
+
+</TabItem>
+  <TabItem value="prismlauncher" label="Prism Launcher">
+  Steps:
+    1. Open SPC and navigate to your modpack folder. To find out the modpack folder, left click your modpack once, then press "Folder" button on the right side. Then read the folder location and navigate to it from SPC. ![prism1](/extras/serverpackcreator/prism/prism1.gif)
+
+    :::note
+    Please ensure you are using a version of serverpack creator that is 8.1.0 or higher, as older versions will not autodetect the mods, configs, and other folders from Prism Launcher automatically.
+    :::
+    
+    2. After entering the modpack folder, There should be an extra popup saying "Prism Launcher keeps the interesting files in a sub folder called minecraft. Would you like to use that directory instead?" Select Yes, Then SPC should automatically detect the mods, configs, and other folders that the modpack uses. ![prism2](/extras/serverpackcreator/prism/prism2.gif)
+    
+    3. After you confirm everything in 2 is correct, click create ZIP archive, then Generate, and wait. ![prism3](/extras/serverpackcreator/prism/prism3.png)
+    
+    4. If successful, you will be prompted to open the Serverpacks folder. Select No. Instead, press Server packs under the generate command. ![prism4](/extras/serverpackcreator/prism/prism4.png)
+    
+    5. Once done, move on to part 2 of the guide below.
+</TabItem>
+
+</Tabs>
+---
+## Part 2. Installing on panel.
+
+  1. To prepare for the server pack, start with installing the server jar, you can install the server [jar with this simple method.](/jars)   
+:::info
+If you are confused on what jar to select, you can check the **variables.txt** file that SPC generates with the serverpack.     
+**For example, below is the variables.txt Server type Fabric for Version 1.20.1 with Build 0.18.6.**
+![img](/extras/serverpackcreator/serverpack_variables.png)
+:::
+  1.1  Ensure for this step you click Remove all files before changing server type.
+  ![img](/extras/serverpackcreator/jarselect.png) 
+  
+2. After the server jar is installed, you can upload the serverpack zip that was generated via [sftp](/sftp).
+
+3. Once uploaded, extract the zip **via the file manager** by right clicking the zip and selecting unarchive. ![img](/extras/serverpackcreator/unzip.png)
+
+4. Once unarchived, you can start the server, and enjoy the serverpack you just made!
+
+If you need more help. Join the [discord server](https://bloom.host/discord).
+
+## Possible issues you may encounter.
+
+
+---
+
+<details>
+<summary>
+### Java version is not correct for the serverpack.
+</summary>
+
+If you are encountering this issue, its a simple solution. You can change the java version via the popup that shows up when its wrong, or if that doesn't show up [you can follow this guide to change the java version from the startup tab](/java-version).
+
+</details>
+
