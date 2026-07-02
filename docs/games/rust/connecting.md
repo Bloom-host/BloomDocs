@@ -3,6 +3,13 @@ id: connecting
 title: Connecting To A Server
 hide_table_of_contents: true
 description: Learn how to connect to your Rust server!
+keywords:
+  - Rust
+  - Connecting
+  - Join server
+  - Steam server list
+  - client.connect
+  - Query port
 ---
 
 ### Method #1 - Steam Server List

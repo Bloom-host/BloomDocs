@@ -4,6 +4,14 @@ title: Simple Voice Chat
 slug: /multiplatform/simple-voice-chat
 hide_table_of_contents: true
 sidebar_label: Simple Voice Chat
+keywords:
+  - Simple Voice Chat
+  - Voice chat
+  - Fabric
+  - Forge
+  - Bukkit
+  - Quilt
+  - Proximity chat
 ---
 
 :::note

@@ -4,6 +4,13 @@ title: Installing Plugins
 slug: /installing-plugins
 hide_table_of_contents: true
 sidebar_label: Installing Spigot Plugins
+keywords:
+  - Installing plugins
+  - Plugins
+  - Spigot
+  - Paper
+  - Bukkit
+  - plugins folder
 ---
 
 :::important

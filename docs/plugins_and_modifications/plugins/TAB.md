@@ -16,9 +16,9 @@ keywords:
   - Nametags
 ---
 
-## What does it do?
+## Overview
 
-[TAB](https://modrinth.com/plugin/tab-was-taken) Is "the" tab plugin you were looking for, with [PlaceholderAPI](https://docs.bloom.host/plugins/placeholderapi) it's the most versatily open source tab plugin available. 
+[TAB](https://modrinth.com/plugin/tab-was-taken) Is "the" tab plugin you were looking for, with [PlaceholderAPI](https://docs.bloom.host/plugins/placeholderapi) it's the most versatily open source tab plugin available. This guide will explain the basic setup to use this plugin on Paper. 
 
 ## Installation
 
@@ -28,7 +28,11 @@ Currently, this plugin is only available for download on [Modrinth](https://modr
 
 ### Manual
 
-Download the plugin from [Modrinth](https://modrinth.com/plugin/tab-was-taken). Here you'll be prompted by the website to select the Version and Server Type, select the appropriate settings for your server.  Once downloaded, drag the `.jar` file from your file explorer to your `plugins` folder in the `"File Manager"`. Restart your server to generate the config files. 
+Even manually, the process is still pretty simple to follow:
+
+1. **Download:** Download the plugin from [Modrinth](https://modrinth.com/plugin/tab-was-taken). Here you'll be prompted by the website to select the Version and Server Type, select the appropriate settings for your server.  
+2. **Upload:** Once downloaded, drag the `.jar` file from your file explorer to your `plugins` folder in the `"File Manager"`. 
+3. **Restart** Restart your server to generate the config files. 
 
 You can also read our [Plugin Installaion Doc](https://docs.bloom.host/installing-plugins) for additional information on the process.
 

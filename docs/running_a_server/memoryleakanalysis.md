@@ -5,6 +5,13 @@ slug: /memoryleakanalysis
 hide_table_of_contents: true
 sidebar_label: Memory Leak Analysis
 description: This guide explains how to quickly generate an Eclipse Memory Analyzer (MAT) “Leak Suspects” report
+keywords:
+  - Memory leak
+  - Eclipse MAT
+  - Memory Analyzer
+  - Heapdump
+  - Spark
+  - Leak Suspects
 ---
 
 [MAT](https://eclipse.dev/mat/) is a a free utility provided by the Eclipse Foundation. It's extremly helpful when it comes to analyzing heapdumpds from the plugin Spark

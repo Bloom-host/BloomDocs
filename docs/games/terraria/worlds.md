@@ -3,6 +3,15 @@ id: worlds
 title: Worlds
 hide_table_of_contents: true
 description: Learn how you can manage worlds for your Terraria server!
+keywords:
+  - Terraria
+  - Worlds
+  - Import world
+  - Steam Workshop
+  - World seed
+  - World size
+  - Difficulty
+  - .wld
 ---
 
 ## Importing An Existing World

@@ -5,13 +5,17 @@ slug: /plugins/worldguard
 hide_table_of_contents: true
 sidebar_label: WorldGuard
 description: An in-game world guard plugin to protect blocks and regions.
+keywords:
   - WorldGuard
   - Protection
+  - Regions
+  - Flags
+  - WorldEdit
   - Spigot
   - Paper
   - regions
   - region
-  - Minecraft
+  - Minecraft  
 ---
 
 :::important

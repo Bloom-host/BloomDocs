@@ -5,6 +5,15 @@ slug: /backups
 hide_table_of_contents: false
 sidebar_label: Managing Backups
 description: Learn everything there is to know about creating, restoring, mounting, downloading, deleting backups and much more!
+keywords:
+  - Backups
+  - Backup
+  - Restore
+  - Quick restore
+  - Mount backup
+  - Download backup
+  - Pro Backup Addon
+  - .bloomignore
 ---
 
 ## Introduction

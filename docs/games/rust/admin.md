@@ -3,6 +3,14 @@ id: admin
 title: Admin Privileges
 hide_table_of_contents: true
 description: Learn how you can manage admin privileges on your Rust server!
+keywords:
+  - Rust
+  - Admin
+  - Moderator
+  - ownerid
+  - moderatorid
+  - Steam ID
+  - Privileges
 ---
 
 ### Adding Admin Privileges

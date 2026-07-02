@@ -3,6 +3,12 @@ id: config
 title: Modifying Settings
 hide_table_of_contents: true
 description: Learn how you can change the settings of your Palworld server!
+keywords:
+  - Palworld
+  - Palworld settings
+  - PalWorldSettings.ini
+  - Server config
+  - Configuration
 ---
 
 ## Palworld Modifying Settings

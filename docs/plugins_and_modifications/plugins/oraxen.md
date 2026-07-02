@@ -5,6 +5,12 @@ slug: /plugins/oraxen
 hide_table_of_contents: true
 sidebar_label: Oraxen
 description: Learn about the Oraxen plugin
+keywords:
+  - Oraxen
+  - Custom items
+  - Resource pack
+  - ProtocolLib
+  - Spigot
 ---
 
 # Oraxen

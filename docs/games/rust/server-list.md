@@ -3,6 +3,13 @@ id: server-list
 title: Editing Server List Entry
 hide_table_of_contents: true
 description: Learn how you can edit the server list entry for your Rust server!
+keywords:
+  - Rust
+  - Server list
+  - Server name
+  - Description
+  - Header image
+  - Startup variables
 ---
 
 In order to customize the server list entry of your Rust server, head over to the 'Startup' tab of your server in the

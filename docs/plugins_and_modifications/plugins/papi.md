@@ -5,6 +5,13 @@ slug: /plugins/placeholderapi
 hide_table_of_contents: true
 sidebar_label: PlaceholderAPI
 description: Information about PlaceholderAPI Bukkit plugin
+keywords:
+  - PlaceholderAPI
+  - PAPI
+  - Placeholders
+  - eCloud
+  - Expansions
+  - Spigot
 ---
 
 

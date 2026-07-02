@@ -4,6 +4,13 @@ slug: /multiplatform/plan
 title: PLAN
 hide_table_of_contents: true
 sidebar_label: PLAN (Player Analytics)
+keywords:
+  - Plan
+  - Player Analytics
+  - Stats
+  - Reverse proxy
+  - CNAME
+  - Spigot
 ---
 
 ### How to set up PLAN (Player Analytics)	

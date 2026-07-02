@@ -3,6 +3,13 @@ id: overview
 title: Overview
 hide_table_of_contents: true
 description: Learn about what TShock is and how you can set it up on your Bloom server!
+keywords:
+  - Terraria
+  - TShock
+  - Server software
+  - Anti-cheat
+  - Server type
+  - Install TShock
 ---
 
 ## Introduction
