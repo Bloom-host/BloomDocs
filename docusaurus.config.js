@@ -25,9 +25,9 @@ module.exports = {
         ],
 
         algolia: {
-            apiKey: '6e10e6fc7bbd9b5093c45f689e51d2df',
-            appId: 'INL0MGKMMA',
-            indexName: 'bloom',
+            apiKey: '9d206eee5e6487183bbd02153df1117c',
+            appId: '0BDNFV7PXK',
+            indexName: 'BloomDocs',
             contextualSearch: true,
             searchParameters: {},
         },
