@@ -256,6 +256,7 @@ module.exports = {
                         'plugins_and_modifications/plugins/AdvancedEnchantments',
                         'plugins_and_modifications/plugins/CMI',
                         "plugins_and_modifications/install-proxy-plugin", // BungeeCord/Velocity proxy plugin install guide
+                        "plugins_and_modifications/plugins/TAB",
                     ]
                 }
             ]
