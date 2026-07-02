@@ -184,6 +184,10 @@ module.exports = {
                 },
                 {
                     type: 'doc',
+                    id: "plugins_and_modifications/serverpackcreator", // Bukkit/Spigot/Paper plugin installation guide
+                },                
+                {
+                    type: 'doc',
                     id: "plugins_and_modifications/mods-install", // Mods install guide for both Forge and Fabric and Neoforge
                 },
                 {
@@ -315,7 +319,6 @@ module.exports = {
                 'extras/mtr',
                 'extras/account-details',
                 'extras/available-modpacks',
-                'extras/serverpackcreator',
                 'extras/srvcontrol',
                 'extras/swap',
 				'extras/templatexample',
