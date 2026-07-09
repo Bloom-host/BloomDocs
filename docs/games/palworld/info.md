@@ -24,7 +24,7 @@ keywords:
 3. **The server does not show up in the steam server list**:
    - This is currently and might never be supported.
 4. **The config file gets deleted / reset on server restart**:
-   - Before editing the config file always make sure to fully stop the server first. Otherwise all changes wont be saved.
+   - Before editing the config file always make sure to fully stop the server first. Otherwise all changes won't be saved.
 
 ---
 

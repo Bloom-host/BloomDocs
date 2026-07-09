@@ -31,7 +31,7 @@ Once that's done, head over to the 'Console' tab of your server in the [DuckPane
 
 There are two levels of privileges, and each has a different command to use:
 
-1. `ownerid <id>`: Full privileges; can make other players administrators as wel
+1. `ownerid <id>`: Full privileges; can make other players administrators as well
 2. `moderatorid <id>`: Full privileges; can't make other players administrators
 
 In the text box below the console, enter your desired command.

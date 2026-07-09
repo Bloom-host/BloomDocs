@@ -24,7 +24,7 @@ To use WorldGuard, you need to install [WorldEdit](/multiplatform/worldedit) ont
 
 ### What does the plugin do?
 
-WorldGuard protects your Minecraft world by allowing you to define regions with specific falgs(rules). You can prevent griefing, control mob spawning, manage PvP, and customize many other settings per area.
+WorldGuard protects your Minecraft world by allowing you to define regions with specific flags(rules). You can prevent griefing, control mob spawning, manage PvP, and customize many other settings per area.
 
 ### Region setup
 How to Create a Simple Region and Set Flags

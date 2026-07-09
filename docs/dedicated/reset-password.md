@@ -38,4 +38,4 @@ Once that is done we can now chroot into the machine and change the password
 Now change the password of the user you want to change
 `passwd <USER>`
 
-And now you can simply `exit` and then `reboot` and your users password has now been sucessfully changed :)
+And now you can simply `exit` and then `reboot` and your users password has now been successfully changed :)

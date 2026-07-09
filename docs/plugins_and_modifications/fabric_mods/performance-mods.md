@@ -22,7 +22,7 @@ Make sure to also check out the [Server Optimization Guide](/optimization)
 
 Check out the [Installing Mods](/mods-install) page.
 
---- 
+---
 
 ## The mod list
 
@@ -77,11 +77,11 @@ Performance enhancing mod by Jellysquid that optimizes general-purpose systems.
 
 ### Phosphor
 
-Performance enhancing mod by Jellysquid that optimizes the lighting engine. The most noticable impact of this mod is chunk generation speed.  
+Performance enhancing mod by Jellysquid that optimizes the lighting engine. The most noticeable impact of this mod is chunk generation speed.
 
 "Phosphor is a Minecraft mod which works to optimize one of game's most inefficient areas-- the lighting engine."
 
-> Phosphor and Starlight are alternatives to eachother, you can't use both at the same time.
+> Phosphor and Starlight are alternatives to each other, you can't use both at the same time.
 
 [Modrinth Page](https://modrinth.com/mod/phosphor)  
 [CurseForge Page](https://www.curseforge.com/minecraft/mc-mods/phosphor/)
@@ -90,11 +90,11 @@ Performance enhancing mod by Jellysquid that optimizes the lighting engine. The 
 
 ### Starlight
 
-Performance enhancing mod by Spottedleaf that completely rewrites the vanilla lighting engine to make it *much* faster. The most noticable impact of this mod is chunk generation speed.  
+Performance enhancing mod by Spottedleaf that completely rewrites the vanilla lighting engine to make it *much* faster. The most noticeable impact of this mod is chunk generation speed.
 
 "Mod for rewriting the light engine to fix lighting performance and lighting errors."
 
-> Phosphor and Starlight are alternatives to eachother, you can't use both at the same time.
+> Phosphor and Starlight are alternatives to each other, you can't use both at the same time.
 
 [Modrinth Page](https://modrinth.com/mod/starlight)  
 

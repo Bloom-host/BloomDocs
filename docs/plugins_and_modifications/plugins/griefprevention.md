@@ -31,7 +31,7 @@ For assistance on how to install plugins, please refer to the [plugin installati
 
 GriefPrevention will work out of the box for most users. By default, your players will be able to claim land up to a 'claim allowance' which will prevent new players from claiming very large amounts of land that they might not use (making others unable to use that area.). There are commands which can be used to give allowance (for example, as a voting reward) to players.
 
-Claiming land is very simple. A player will need a golden shovel (changable in the config) and all they need to do is right click the two corners that they want to claim as long as it does not overlap other claims and they have enough claim allowance.
+Claiming land is very simple. A player will need a golden shovel (changeable in the config) and all they need to do is right click the two corners that they want to claim as long as it does not overlap other claims and they have enough claim allowance.
 
 There are a few basic commands that players will need to know. These are:
 
@@ -44,7 +44,7 @@ There are a few basic commands that players will need to know. These are:
 * `/trustlist` - See a list of `/trust`ed players for that claim. See the trust commands above.
 * `/claimslist` - See the current claim allowance and all of a player's claims that they own.
 
-There is obviously more commands and features - please refer to the [GriefPrevention Wiki](https://github.com/TechFortress/GriefPrevention/wiki) for more infomation on how to use them.
+There is obviously more commands and features - please refer to the [GriefPrevention Wiki](https://github.com/TechFortress/GriefPrevention/wiki) for more information on how to use them.
 
 ## Info
 

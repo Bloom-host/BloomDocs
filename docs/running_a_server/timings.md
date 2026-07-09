@@ -22,7 +22,7 @@ keywords:
 
 :::important
 The PaperMC team has decided to remove the Timings system and replace it with [Spark](/spark) in a future version. 
-Timings should be considered depricated and no longer be used.
+Timings should be considered deprecated and no longer be used.
 
 Paper 1.21 builds will have the timings system disabled by default.
 

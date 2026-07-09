@@ -34,7 +34,7 @@ Even manually, the process is still pretty simple to follow:
 2. **Upload:** Once downloaded, drag the `.jar` file from your file explorer to your `plugins` folder in the `"File Manager"`. 
 3. **Restart** Restart your server to generate the config files. 
 
-You can also read our [Plugin Installaion Doc](https://docs.bloom.host/installing-plugins) for additional information on the process.
+You can also read our [Plugin Installation Doc](https://docs.bloom.host/installing-plugins) for additional information on the process.
 
 ## Configuration
 

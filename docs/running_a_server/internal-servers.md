@@ -35,7 +35,7 @@ The full serverid can be found under the Ports and Proxies tab when you make you
 
 ________
 
-Connectivity between splits is fully accessible over your splits hostname. For example, in the past if you had voting fowarding setup, you would have to open a private port on each of your backend servers. Now once you have votifier setup (in plugin configs it still has to be bound to 0.0.0.0 like normal even though it's not accessible) you can just access it via your server's longid and the corresponding port.
+Connectivity between splits is fully accessible over your splits hostname. For example, in the past if you had voting forwarding setup, you would have to open a private port on each of your backend servers. Now once you have votifier setup (in plugin configs it still has to be bound to 0.0.0.0 like normal even though it's not accessible) you can just access it via your server's longid and the corresponding port.
 
 Below is an example of a Velocity instance setup with internal backend servers
 

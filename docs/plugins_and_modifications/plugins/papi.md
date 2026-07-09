@@ -34,7 +34,7 @@ Be sure to check with each plugin developer if the plugin supports PlaceholderAP
 Support for each plugin might be downloaded through the eCloud or built-in to the plugin.
 :::
 
-You first need to determine whether the expansion (file holding the placeholders for your plugins) needs to be downloaded seperately through the [eCloud](https://api.extendedclip.com/home/). To do this, check the [PlaceholderAPI support list](https://github.com/PlaceholderAPI/PlaceholderAPI/wiki/Plugins-using-PlaceholderAPI) and press CTRL-F (Cmd-F on macOS) and type the plugin name into the search window.
+You first need to determine whether the expansion (file holding the placeholders for your plugins) needs to be downloaded separately through the [eCloud](https://api.extendedclip.com/home/). To do this, check the [PlaceholderAPI support list](https://github.com/PlaceholderAPI/PlaceholderAPI/wiki/Plugins-using-PlaceholderAPI) and press CTRL-F (Cmd-F on macOS) and type the plugin name into the search window.
 
 :::important
 A ticked checkbox next to `Supports placeholders.` means that that plugin can use placeholders from PlaceholderAPI.

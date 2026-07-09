@@ -51,9 +51,9 @@ Make sure you trust the source of your plugin. Plugins have high-level access to
 4. Most plugins will require you to restart your server before they take effect.
 
 :::caution
-BungeeCord and Velocity plugins are usually not cross-compatible, i.e. BungeeCord plugins do not work on Velocity unless it is stated to do so otherwise and vice versa (Velocity plugins can not be used on BungeeCord unless stated overwise).
+BungeeCord and Velocity plugins are usually not cross-compatible, i.e. BungeeCord plugins do not work on Velocity unless it is stated to do so otherwise and vice versa (Velocity plugins can not be used on BungeeCord unless stated otherwise).
 
-Sometimes the BungeeCord and Velocity versions of a plugin might be two seperate jar files, other times plugins have one jar which works on both.
+Sometimes the BungeeCord and Velocity versions of a plugin might be two separate jar files, other times plugins have one jar which works on both.
 
 :::
 

@@ -14,7 +14,7 @@ keywords:
   - Leak Suspects
 ---
 
-[MAT](https://eclipse.dev/mat/) is a a free utility provided by the Eclipse Foundation. It's extremly helpful when it comes to analyzing heapdumpds from the plugin Spark
+[MAT](https://eclipse.dev/mat/) is a a free utility provided by the Eclipse Foundation. It's extremely helpful when it comes to analyzing heapdumpds from the plugin Spark
 
 We'll require both Spark on our server, and MAT on our PC for this guide. 
 
@@ -56,7 +56,7 @@ After some processing it'll provide us with a list of suspected leaks. They will
 
 ## MAT Issues
 
-The most common issue one can come accross with MAT is simply running out of heap space for the software. To try and fix this, we'll locate our `MemoryAnalyzer.ini` file within the MAT directory and right click it to edit. Within this file we'll modify `-Xmx1024m` to be equal to your total RAM in GBs - 4 GBs, then multiplied by 1024. So if we have 16GBs on our PC, we can set it to `-Xmx12228m`. 
+The most common issue one can come across with MAT is simply running out of heap space for the software. To try and fix this, we'll locate our `MemoryAnalyzer.ini` file within the MAT directory and right click it to edit. Within this file we'll modify `-Xmx1024m` to be equal to your total RAM in GBs - 4 GBs, then multiplied by 1024. So if we have 16GBs on our PC, we can set it to `-Xmx12228m`.
 
 The wrong version of Java got picked up? You can also specify the Java exe to be used by adding: 
 
@@ -71,5 +71,4 @@ In my case it would look like:
 -vm
 C:\Program Files\Java\jdk-21\bin\javaw.exe
 ```
-
 

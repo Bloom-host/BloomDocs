@@ -47,6 +47,6 @@ Then, add a new account and scan the QR code. Once it is scanned, type the token
 
 ![console](/using_the_panel/2fa/2.png)
 
-You are set and fully protected! Rememeber to keep the device near you when you login so can authenticate yourself!
+You are set and fully protected! Remember to keep the device near you when you login so can authenticate yourself!
 
 ---

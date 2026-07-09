@@ -56,13 +56,13 @@ Here are a list of key terms you have seen in the above configuration that can b
 
 `cooldown` - Defines how quickly you can send messages in seconds. E.g. If you set this option to 3, people can only send a message per 3 seconds.
 
-`bungeecord` - This enables cross-server messages. Due to the complexities of this function, read the relevent wiki page [here](https://www.spigotmc.org/wiki/venturechat-wiki/).
+`bungeecord` - This enables cross-server messages. Due to the complexities of this function, read the relevant wiki page [here](https://www.spigotmc.org/wiki/venturechat-wiki/).
 
 `autojoin` - Defines whether or not this channel is the first channel you enter on join. It is recommended you only enable autojoin for one channel only to avoid conflicts.
 
 ## How to use VentureChat Broadcast and Messaging
 
-Unfortunately with plugins such as [EssentialsX](https://www.spigotmc.org/resources/essentialsx.9089/), you may be unable to use `/msg` and `/broadcast` functions due to conflicting plugins. In order to fix said conflicts, make the following adjustements below.
+Unfortunately with plugins such as [EssentialsX](https://www.spigotmc.org/resources/essentialsx.9089/), you may be unable to use `/msg` and `/broadcast` functions due to conflicting plugins. In order to fix said conflicts, make the following adjustments below.
 
 Add to the bukkit `commands.yml` (found at `/`)
 
@@ -96,7 +96,7 @@ disabled-commands:
 - essentials:ignore
 ```
 
-Once the above additions are added save the following files and run `/essentials reload` before restarting your server, or start your server. Now you should be able to use VentureChat's broadcast and messaging funcitons while overriding EssentialsX's default ones if you have EssentialsX also.
+Once the above additions are added save the following files and run `/essentials reload` before restarting your server, or start your server. Now you should be able to use VentureChat's broadcast and messaging functions while overriding EssentialsX's default ones if you have EssentialsX also.
 
 ## Info
 

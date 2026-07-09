@@ -38,7 +38,7 @@ holders:
     type: placeholder
     line: '%statistic_days_played%'
 ```
-Topper allows the use of differnt types statistics:
+Topper allows the use of different types statistics:
 [Paper](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Statistic.html) and [PlaceholderAPI](https://wiki.placeholderapi.com/users/placeholder-list/)
 
 After you have added your placeholders to the config you can now restart the server.

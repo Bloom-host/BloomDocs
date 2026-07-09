@@ -35,7 +35,7 @@ For steps to fix slow connections or worlds not loading, refer to the [official 
 
 >Use [Cloudflare WARP](https://one.one.one.one/) to see if it improves your connection.
 >
->Ensure local firewalls are not blocking UDP traffic or your server port. Non-residential internet connections are known for blocking the neccesary ports and protocols for games like Hytale.
+>Ensure local firewalls are not blocking UDP traffic or your server port. Non-residential internet connections are known for blocking the necessary ports and protocols for games like Hytale.
 >
 >Restart networking equipment (router/modem)
 >
