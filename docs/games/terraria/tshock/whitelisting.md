@@ -3,6 +3,12 @@ id: whitelisting
 title: Setting Up A Whitelist
 hide_table_of_contents: true
 description: Learn how to set up and manage a whitelist on your Terraria server!
+keywords:
+  - Terraria
+  - TShock
+  - Whitelist
+  - whitelist.txt
+  - EnableWhitelist
 ---
 
 :::info HEADS UP

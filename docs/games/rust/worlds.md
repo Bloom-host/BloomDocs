@@ -3,6 +3,14 @@ id: worlds
 title: Managing Worlds
 hide_table_of_contents: true
 description: Learn how you can modify, manage, wipe or use custom worlds on your Rust server!
+keywords:
+  - Rust
+  - Worlds
+  - Map
+  - Seed
+  - World size
+  - Wipe
+  - Custom map
 ---
 
 ## Changing Worlds Seeds, Sizes

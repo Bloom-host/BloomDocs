@@ -5,6 +5,13 @@ slug: /internal-servers
 hide_table_of_contents: true
 sidebar_label: Internal Servers
 description: This doc just has some information on our internal servers
+keywords:
+  - Internal servers
+  - Velocity
+  - BungeeCord
+  - Proxy network
+  - Backend server
+  - Ports and Proxies
 ---
 :::important
 

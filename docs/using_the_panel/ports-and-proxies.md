@@ -5,6 +5,13 @@ slug: /ports-and-proxies
 hide_table_of_contents: true
 sidebar_label: Creating a Reverse Proxy
 description: This guide will help you to create a reverse proxy.
+keywords:
+  - Ports and Proxies
+  - Reverse proxy
+  - CNAME
+  - Allocation
+  - Cloudflare
+  - Subdomain
 ---
 
 ---

@@ -3,6 +3,13 @@ id: banning
 title: Banning / Unbanning
 hide_table_of_contents: true
 description: Learn how you can ban or unban players on your Terraria server!
+keywords:
+  - Terraria
+  - Ban
+  - Unban
+  - banlist.txt
+  - TShock
+  - IP ban
 ---
 
 ## Vanilla

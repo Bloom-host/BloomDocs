@@ -5,9 +5,16 @@ slug: /java-version
 hide_table_of_contents: true
 sidebar_label: Changing Java Version
 description: Instructions on how to change the version of Java used on your server
+keywords:
+  - Java version
+  - Java
+  - Java 17
+  - Java 21
+  - Java 25
+  - Startup
 ---
 
-Bloom.host offers different versions of Java to suit your server. The default Java 11 (8 for Forge servers if you specified that when purchasing your server.) will suit most people.
+Bloom.host offers different versions of Java to suit your server. The default Java 25 for modern Minecraft versions, this should suit most use cases.
 This guide will show you how to change the version of Java if it does not work for your server.
 
 1. Firstly you want to go to the [Minecraft server control panel](https://mc.bloom.host/) and select the server that you want to change the Java version of.
@@ -19,7 +26,7 @@ All Minecraft 1.18 - 1.20.4 versions require Java 17 to work. Use the Java 17 op
 
 Minecraft 1.20.5+ will require a minimum of Java 21 to work.
 
-Minecraft 26.1+ will require a minimum of Java 26 to work.
+Minecraft 26.1+ will require a minimum of Java 25 to work.
 :::
 
 ![console](/running_a_server/java_version/1.png)

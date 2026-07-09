@@ -5,6 +5,13 @@ slug: /mcaselector
 hide_table_of_contents: true
 sidebar_label: MCASelector CLI
 description: Using MCASelector on your server
+keywords:
+  - MCASelector
+  - Chunks
+  - Prune chunks
+  - World editing
+  - Disk usage
+  - CLI
 ---
 
 [MCASelector](https://github.com/Querz/mcaselector) is an extremely helpful graphical and CLI tool that server administrators can use to modify their worlds, for example, to remove unused chunks to lower disk usage and so on.

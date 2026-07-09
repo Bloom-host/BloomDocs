@@ -3,6 +3,11 @@ id: password
 title: Using A Server Password
 hide_table_of_contents: true
 description: Learn how to create a server password for your Terraria server!
+keywords:
+  - Terraria
+  - Server password
+  - Password
+  - Private server
 ---
 
 In case you would like to make sure that only people with a passphrase can connect to your server, you will want to use

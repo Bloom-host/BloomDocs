@@ -5,6 +5,14 @@ slug: /worlds
 hide_table_of_contents: true
 sidebar_label: Managing Worlds
 description: Learn how you can upload, export and manage your Minecraft worlds.
+keywords:
+  - Worlds
+  - Import world
+  - Java Edition
+  - Bedrock Edition
+  - Realms
+  - level-name
+  - .mcworld
 ---
 
 :::note

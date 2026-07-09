@@ -13,15 +13,17 @@ keywords:
   - Bloom.host
   - Pterodactyl Panel
   - Minecraft
+  - FAWE
+  - Fast Async World Edit
 ---
 
-### What does the plugin do?
+### Overview
 
-WorldEdit is an in-game world editing plugin. You can select areas, fill them in with a block (or multiple types of blocks), save the area as a schematic, and more.  
+WorldEdit is an in-game world editing plugin. You can select areas, fill them in with a block (or multiple types of blocks), save the area as a schematic, and more. We'll learn the basics of this plugin, and how to install it
 
-:::warning
-Pasting huge schematics or constructions with WorldEdit consumes a lot of server resources and as a result the server can lag and crash. We recommend you use [AsyncWorldEdit](https://www.spigotmc.org/resources/asyncworldedit.327/) for better performance (Bukkit/Spigot/Paper only). Keep in mind that you have to install both (AsyncWorldEdit and WorldEdit), and that AsyncWorldEdit is only compatible with specific WorldEdit versions. Check [AsyncWorldEdit Spigot page](https://www.spigotmc.org/resources/asyncworldedit.327/) for more information.
-:::
+## Fast Async World Edit
+
+Pasting huge schematics or constructions with WorldEdit consumes a lot of server resources, specially the main thread. As a result the server can lag and crash. We recommend you use [AsyncWorldEdit](https://www.spigotmc.org/resources/asyncworldedit.327/) for better performance (Bukkit/Spigot/Paper only). Keep in mind that you have to install both (AsyncWorldEdit and WorldEdit), and that AsyncWorldEdit is only compatible with specific WorldEdit versions. Check [AsyncWorldEdit Spigot page](https://www.spigotmc.org/resources/asyncworldedit.327/) for more information.
 
 ### Setup
 
@@ -66,6 +68,8 @@ See Bloom’s documentation: [plugins/worldguard](https://docs.bloom.host/plugin
 
 [Github](https://github.com/EngineHub/WorldEdit)  
 
-[Wiki](https://worldedit.enginehub.org/en/latest/)
+[Wiki WorldEdit](https://worldedit.enginehub.org/en/latest/)
+
+[Wiki FAWE](https://github.com/SBPrime/AsyncWorldEdit/wiki)
 
 [Support Discord](https://discord.gg/enginehub)

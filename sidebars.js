@@ -184,6 +184,10 @@ module.exports = {
                 },
                 {
                     type: 'doc',
+                    id: "plugins_and_modifications/serverpackcreator",
+                },                
+                {
+                    type: 'doc',
                     id: "plugins_and_modifications/mods-install", // Mods install guide for both Forge and Fabric and Neoforge
                 },
                 {
@@ -252,6 +256,7 @@ module.exports = {
                         'plugins_and_modifications/plugins/AdvancedEnchantments',
                         'plugins_and_modifications/plugins/CMI',
                         "plugins_and_modifications/install-proxy-plugin", // BungeeCord/Velocity proxy plugin install guide
+                        "plugins_and_modifications/plugins/TAB",
                     ]
                 }
             ]
@@ -278,6 +283,8 @@ module.exports = {
                 'VPS/credentials-vps',
                 'VPS/virtfusion-subuser',
                 'VPS/virtfusion-windows-install',
+                'VPS/virtfusion-vnc',
+                'VPS/virtfusion-rescue',
             ],
         },
 
@@ -315,7 +322,6 @@ module.exports = {
                 'extras/mtr',
                 'extras/account-details',
                 'extras/available-modpacks',
-                'extras/serverpackcreator',
                 'extras/srvcontrol',
                 'extras/swap',
 				'extras/templatexample',

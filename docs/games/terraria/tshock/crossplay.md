@@ -3,6 +3,13 @@ id: crossplay
 title: Enabling Crossplay
 hide_table_of_contents: true
 description: Learn how you can enable mobile <-> PC crossplay on your TShock server!
+keywords:
+  - Terraria
+  - TShock
+  - Crossplay
+  - Mobile
+  - PC
+  - Crossplay plugin
 ---
 
 :::caution HEADS UP!

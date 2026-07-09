@@ -4,6 +4,13 @@ title: Frequent Issues & FAQ
 slug: info
 hide_table_of_contents: true
 description: Find useful information, such as known issues, frequently asked questions, and more, for Palworld
+keywords:
+  - Palworld
+  - FAQ
+  - Known issues
+  - Memory leak
+  - RAM requirements
+  - Server limits
 ---
 
 ## Known Issues / FAQ

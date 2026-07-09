@@ -3,6 +3,14 @@ id: admin
 title: Admin Privileges
 hide_table_of_contents: true
 description: Learn how you can earn admin privileges on your TShock server!
+keywords:
+  - Terraria
+  - TShock
+  - Admin
+  - setup
+  - Owner
+  - Login
+  - Permissions
 ---
 
 :::caution HEADS UP!

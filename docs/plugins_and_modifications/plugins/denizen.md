@@ -5,6 +5,12 @@ slug: /plugins/denizen
 hide_table_of_contents: true
 sidebar_label: Denizen
 description: Learn about the Denizen plugin
+keywords:
+  - Denizen
+  - Scripting
+  - Spigot
+  - Citizens
+  - Depenizen
 ---
 
 # Denizen

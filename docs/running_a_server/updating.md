@@ -4,6 +4,13 @@ title: How to update or change version
 slug: /updating
 hide_table_of_contents: true
 sidebar_label: Updating or changing versions
+keywords:
+  - Updating
+  - Update server
+  - Change version
+  - Server type
+  - Server jar
+  - Reinstall
 ---
 
 ### Introduction
