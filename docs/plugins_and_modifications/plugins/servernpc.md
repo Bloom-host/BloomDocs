@@ -26,9 +26,9 @@ First, download the [ServerNPC](https://www.spigotmc.org/resources/servernpc-fre
 Next, make sure to download all of its dependencies.
 ```
 PlaceholderAPI - Required (Hard Dependency)
-ProtocolLib - Reccomended (Soft Dependency)
-HolographicDisplays - Reccomended (Soft Dependency)
-HolographicExtension - Reccomended (Soft Dependency)
+ProtocolLib - Recommended (Soft Dependency)
+HolographicDisplays - Recommended (Soft Dependency)
+HolographicExtension - Recommended (Soft Dependency)
 
 ```
 ## Commands

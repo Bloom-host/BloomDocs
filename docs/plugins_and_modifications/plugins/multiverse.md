@@ -37,7 +37,7 @@ Multiverse Nether Portals is very similar to Multiverse Sign Portals, but instea
 
 ### Multiverse Inventories
 
-Multiverse Inventories allow you to have seperate inventories and player statistics for your different worlds. You can find out more about it here: [Multiverse Inventories Link](https://modrinth.com/mod/multiverse-inventories)
+Multiverse Inventories allow you to have separate inventories and player statistics for your different worlds. You can find out more about it here: [Multiverse Inventories Link](https://modrinth.com/mod/multiverse-inventories)
 
 That's about it for Multiverse! If you need any more help, feel free to make a ticket in the [discord](https://discord.gg/bloom) :)  
 

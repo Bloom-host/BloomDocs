@@ -32,4 +32,4 @@ Be sure to use the correct version of the mod. Unlike Spigot/Paper plugins, mods
 :::
 
 
-Some mods need players to install them locally as well. Consult the documentation of your mod to see if this is required. Some mods may provide a seperate file for players and servers.
+Some mods need players to install them locally as well. Consult the documentation of your mod to see if this is required. Some mods may provide a separate file for players and servers.

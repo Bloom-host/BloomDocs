@@ -52,7 +52,7 @@ Some server packs already come with Forge installed or require you to run a .bat
 
 This tutorial only applies to server packs that don't come with Forge installed. if the server pack comes with Forge installed you just need to upload the files to your Bloom server and start the server with the Forge .jar (not the one that says minecraft_server.jar).
 
-If the server doesn't come with Forge installed or a Forge installer, it most likely comes with a .bat to download all the files, in this case just click on the .bat and it should start downloading the neccesary files. Then you just need to follow the rest of this tutorial to upload the files to your Bloom server and start it.
+If the server doesn't come with Forge installed or a Forge installer, it most likely comes with a .bat to download all the files, in this case just click on the .bat and it should start downloading the necessary files. Then you just need to follow the rest of this tutorial to upload the files to your Bloom server and start it.
 :::
 
 After starting the Forge installer .jar, you will be presented with 3 options. We need to select the option that says "Install server", then click on the three dots to select the directory where Forge needs to be installed. This directory needs to be the directory where you previously extracted the server pack files.
@@ -67,7 +67,7 @@ After selecting the "Install server" option and the directory where we want to i
 
 ![](/plugins_and_modifications/serverpacks/9.png)
 
-After sucessfully installing Forge, you will need to select all files in the directory and compress them. It's recommended you use a tool like 7Zip to compress the files, since Windows default compression option doesn't usually work with the panel.
+After successfully installing Forge, you will need to select all files in the directory and compress them. It's recommended you use a tool like 7Zip to compress the files, since Windows default compression option doesn't usually work with the panel.
 
 ![](/plugins_and_modifications/serverpacks/9.png)
 
@@ -93,6 +93,6 @@ The last step is to accept the EULA, just click on the "Accept" button and the s
 
 ![](/plugins_and_modifications/serverpacks/15.png)
 
-That's everything! You have sucessfully installed a server pack on your Bloom server. 
+That's everything! You have successfully installed a server pack on your Bloom server.
 
 ![](/plugins_and_modifications/serverpacks/12.png)

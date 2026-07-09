@@ -14,7 +14,7 @@ Hey Bloomers! In this guide we will be going over how to use ClumsyLoader to dow
 
 An example use case for this tool is if you want to take your own backups, you can run this tool on a server of some kind and have it run on a schedule, constantly downloading your backups for you automatically
 
-We can start by heading over to the [Github Releases page](https://github.com/ClumsyAdmin/ClumsyLoader/releases) and download the appropiate version for your OS. In this example we will use ```Bloomloader_windows_amd64.exe``` which is the executable for Windows. Once you have downloaded ClumsyLoader make sure to create a new folder and put the executable in it.
+We can start by heading over to the [Github Releases page](https://github.com/ClumsyAdmin/ClumsyLoader/releases) and download the appropriate version for your OS. In this example we will use ```Bloomloader_windows_amd64.exe``` which is the executable for Windows. Once you have downloaded ClumsyLoader make sure to create a new folder and put the executable in it.
 
 After we have done this, we now want to create the API Key that ClumsyLoader will use to access your server backups. To do this, simply head over to the [panel](https://mc.bloom.host/) and once you are logged in, click **Account API** on the left.
 

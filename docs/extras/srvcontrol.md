@@ -29,7 +29,7 @@ Please keep this key secure as anyone with this API key can utilize it to do any
 
 SRVControl is a reputable discord bot so I would trust them. However the choice to do this is always up to you.
 
-After inviting it to your server with the proper permissions, go to your discord server and type ```<preifx>register``` (default prefix is ```.```) in one of the channels. This will initiate the API key registration. The bot will DM you asking for your API key. Be aware you only have 60 seconds to send it, so just paste it and press enter. This will complete the API registration and you should receieve a **"Success"** message if you followed this documentation correctly.
+After inviting it to your server with the proper permissions, go to your discord server and type ```<preifx>register``` (default prefix is ```.```) in one of the channels. This will initiate the API key registration. The bot will DM you asking for your API key. Be aware you only have 60 seconds to send it, so just paste it and press enter. This will complete the API registration and you should receive a **"Success"** message if you followed this documentation correctly.
 
 Now, back in your discord server you can type ```<prefix>help``` (default prefix is ```.```) to show you all the commands you can do which interacts with your server.
 

@@ -52,7 +52,7 @@ Rather than go over basic commands, listed below are several examples on how to 
 ### Creating an NPC
 
 :::note
-These examples are assuming you have instaled Citizens as well as Denzien, Sentinel, and dtlTraders plugins.
+These examples are assuming you have installed Citizens as well as Denzien, Sentinel, and dtlTraders plugins.
 :::
 
 #### Basic Human NPC

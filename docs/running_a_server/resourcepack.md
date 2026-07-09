@@ -30,7 +30,7 @@ Locate `server.properties` and open it. Find `resource-pack` and paste your URL 
 
 ![img](/running_a_server/resourcepack/4.png)
 
-Optionally, you can add the SHA1 checksum of your chosen resource pack so that clients will be able to reliably update the pack, even if the name doesn't change. To obtain the SHA1 checksum, you can run `certUtil -hashfile \path\to\file SHA1` on Windows or `shasum /path/to/file` on Mac or Linux. Alternitively, you can simply use [emn178's online SHA1 checksum checker](https://emn178.github.io/online-tools/sha1_checksum.html). Once you have it, simply append it to `resource-pack-sha1=` on the second-to-last line of server.properties.
+Optionally, you can add the SHA1 checksum of your chosen resource pack so that clients will be able to reliably update the pack, even if the name doesn't change. To obtain the SHA1 checksum, you can run `certUtil -hashfile \path\to\file SHA1` on Windows or `shasum /path/to/file` on Mac or Linux. Alternatively, you can simply use [emn178's online SHA1 checksum checker](https://emn178.github.io/online-tools/sha1_checksum.html). Once you have it, simply append it to `resource-pack-sha1=` on the second-to-last line of server.properties.
 
 ![img](/running_a_server/resourcepack/4.png)
 

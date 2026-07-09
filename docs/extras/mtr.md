@@ -47,7 +47,7 @@ _Click on the section to expand it._
 3.  Install MTR:  
 `brew install mtr`  
 4. Run the test: `sudo /opt/homebrew/opt/mtr/sbin/mtr -b <server ip>`  
-  Make sure to replace `<server ip>` with your actual server IP **without the port**. It will ask you for your user password, make sure to type it and hit enter (it won't show it in the temrinal)
+  Make sure to replace `<server ip>` with your actual server IP **without the port**. It will ask you for your user password, make sure to type it and hit enter (it won't show it in the terminal)
 
 ![img](/extras/ping-issues/mac-mtr.png)
 </details>

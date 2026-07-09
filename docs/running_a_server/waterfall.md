@@ -138,7 +138,7 @@ survival:
     restricted: false
 ```
 
-Remeber to use your backend server's own serverid and replace the example above
+Remember to use your backend server's own serverid and replace the example above
 
 Afterwards you'll need to add the survival server to under priorities.
 

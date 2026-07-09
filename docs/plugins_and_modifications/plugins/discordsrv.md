@@ -40,7 +40,7 @@ Paste the bot's token that was taken from the Discord Developers website into th
 In the config option labeled `Channels`, paste the Discord channel ID that you want to be set for your chat under "global" (You can set up more channels and link more channels later).
 
 :::important
-If you want your server console to be accessable from Discord in a channel, add a console channel ID in the config as well.
+If you want your server console to be accessible from Discord in a channel, add a console channel ID in the config as well.
 :::
 
 Finally, start your server! DiscordSRV has been installed and you will see your discord bot start reporting all chat logs from your Minecraft server into your Discord server and vice-versa!

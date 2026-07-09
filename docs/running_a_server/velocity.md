@@ -157,7 +157,7 @@ If you cannot use modern forwarding (for example, your server jar doesn't suppor
 
 To set this up, see the guide [on how to set up BungeeGuard](/waterfall#setting-up-bungeeguard).
 
-## Additional configuation options for velocity.toml
+## Additional configuration options for velocity.toml
 
 The following table contains additional noteworthy configuration options for `velocity.toml`
 

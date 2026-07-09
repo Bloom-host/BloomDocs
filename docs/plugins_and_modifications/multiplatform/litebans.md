@@ -40,7 +40,7 @@ In-game punishments can still be issued as normal.
 :::
 
 ## Punishment storage
-Next, you have to decide what type of storage you want for all your punishments, your options are H2, MySQL, MariaDB, and PostgreSQL. On Bloom you are going to want to use H2, or MySQL. H2 will store the information on your server, while MySQL will store it on a separate database. MySQL allows you to sync data accross a network if you are running one. Otherwise its your choice.
+Next, you have to decide what type of storage you want for all your punishments, your options are H2, MySQL, MariaDB, and PostgreSQL. On Bloom you are going to want to use H2, or MySQL. H2 will store the information on your server, while MySQL will store it on a separate database. MySQL allows you to sync data across a network if you are running one. Otherwise its your choice.
 
 If you are using MySQL, you can see how to set up LiteBans with MySQL [HERE](/databases)
 
@@ -57,7 +57,7 @@ The ban command disallows the affected player from joining the server for the sp
 The syntax for the ban command is /ban (-s) \{Player} [Time] [Reason]
 If no time is specified, it will be permanent, if no reason is provided, it will default to whatever is listed in the config.
 
-The Kick command kicks the player off of the server, they wont be prevented from joining again
+The Kick command kicks the player off of the server, they won't be prevented from joining again
 The syntax for the kick command is /kick \{Player} [Reason]
 If no reason is provided, it will default to whatever is listed in the config.
 
@@ -80,9 +80,9 @@ LiteBans web is a very powerful tool to sync your bans, mutes, warns and kicks r
 
 ## How to install
 
-Firstly you can choose between a theme, Here are a free one: [LiteBans Material UI](https://www.spigotmc.org/resources/litebans-material-ui.46648/) and there are many paid ones on MC-Market, Spigot ect..
+Firstly you can choose between a theme, Here are a free one: [LiteBans Material UI](https://www.spigotmc.org/resources/litebans-material-ui.46648/) and there are many paid ones on MC-Market, Spigot etc..
 
-Next you will need a web host, you can get a VPS or a webhost. It really doesnt matter. [Blooms VPS's](https://bloom.host/vps)
+Next you will need a web host, you can get a VPS or a webhost. It really doesn't matter. [Blooms VPS's](https://bloom.host/vps)
 
 *Please note you must use MySQL for this to work. With Bloom you get a free MySQL Database. Change your LiteBans config to use MySQL as its database and fill in the information.*
 

@@ -38,7 +38,7 @@ By default, all servers are allowed to use swap. We cover Aikar's overhead with 
 
 The main reason is modpacks running forge. Modpacks are extremely memory intensive during startup, so with Aikar's Flags customers experienced bad performance due to Aikar's causing the server to swap (not Aikar's themselves). But we are also giving customers the option if they want to get a tiny boost out of it, say maybe being able to hold a few more players, or better MSPT.
 
-By default we deploy Forge with no aikar's and just plain vanilla flags, this is great and leads to no swapping and performance degredation because of it, however GC (Garbage Collection) is worse and because of that RAM is eventually filled up faster with garbage and may need restarts more often.
+By default we deploy Forge with no aikar's and just plain vanilla flags, this is great and leads to no swapping and performance degradation because of it, however GC (Garbage Collection) is worse and because of that RAM is eventually filled up faster with garbage and may need restarts more often.
 
 So in typical scenarios, the ideal conditions for Forge (unless modpack developer says otherwise), are Aikar's Flags with swap disabled.
 
