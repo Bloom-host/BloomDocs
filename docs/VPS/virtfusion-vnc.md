@@ -18,7 +18,7 @@ In this guide we'll learn how to enable VNC in our Virtfusion panel, and then ac
 
 ### Enabling VNC
 
-:::important Security Risks
+:::caution Security Risks
 To minimize attack vectors, it's recommended that VNC be only enabled as needed. Disabling the function between uses. 
 :::
 

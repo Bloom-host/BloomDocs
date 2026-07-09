@@ -184,7 +184,7 @@ module.exports = {
                 },
                 {
                     type: 'doc',
-                    id: "plugins_and_modifications/serverpackcreator", // Bukkit/Spigot/Paper plugin installation guide
+                    id: "plugins_and_modifications/serverpackcreator",
                 },                
                 {
                     type: 'doc',

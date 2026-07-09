@@ -52,6 +52,10 @@ Now you are logged in and ready to continue with your task in Rescue Mode.
 
 ### Ending Rescue Session
 
+:::caution Security Risks
+To minimize attack vectors, it's recommended that VNC be only enabled as needed. Disabling the function between uses. 
+:::
+
 ![img](/VPS/virtfusion-rescue/5.png)
 
-Once you are done with your task wtihin the rescue OS, you'll want to return to your normal OS. To end the Rescue Session, simply return to the panel and click the banner button that presents you with the option to "End Rescue Session". 
+Once you are done with your task within the rescue OS, you'll want to return to your normal OS. To end the Rescue Session, simply return to the panel and click the banner button that presents you with the option to "End Rescue Session". 
