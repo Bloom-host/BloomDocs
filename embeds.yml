@@ -842,7 +842,7 @@ spc:
     - 'servermaker'
   title: 'ServerPack-Creator'
   description: |+
-    Follow [SPC Guide](https://docs.bloom.host/extras/serverpackcreator) to make your own custom server pack from any modpack.
+    Follow [SPC Guide](https://docs.bloom.host/plugins_and_modifications/serverpackcreator) to make your own custom server pack from any modpack.
     Feel free to ask questions if you are confused.
 
 neoforge:
