@@ -221,7 +221,8 @@ module.exports = {
                         'plugins_and_modifications/multiplatform/plan', // Player Analytics, (Bukkit/Spigot/Paper, Sponge, Nukkit, Fabric)
                         'plugins_and_modifications/multiplatform/simple-voice-chat', // Voice chat (Bukkit/Spigot/Paper, Forge, Fabric)
                         'plugins_and_modifications/multiplatform/squaremap', // Online map (Paper, Fabric, Sponge)
-                        'plugins_and_modifications/multiplatform/worldedit' // World management (Bukkit, Forge, Fabric, Sponge)
+                        'plugins_and_modifications/multiplatform/worldedit', // World management (Bukkit, Forge, Fabric, Sponge)
+                        'plugins_and_modifications/multiplatform/servercore' // Server optimization mod (Forge, Fabric, Neoforge)
                     ]
                 },
 
