@@ -15,7 +15,7 @@ keywords:
   - Minecraft
 ---
 
-### What does it do?
+## What does it do?
 
 Multiverse core allows you to create multiple different worlds in one server. You can import maps and create worlds with custom generation! It also easily allows you to teleport to each world that you create using the commands /mv list and /mv tp. Here's an example of the worlds that you could have on your server:  
 
@@ -24,6 +24,8 @@ Multiverse core allows you to create multiple different worlds in one server. Yo
 This example shows some of the worlds being our very own and also some of the worlds being imported into our server.  
 
 [This guide](https://mvplugins.org/core/fundamentals/basic-usage/) outlines how to set up worlds, import worlds, and some basic settings for the plugin.  
+
+---
 
 ## Plugins to use with Multiverse
 
@@ -40,6 +42,8 @@ Multiverse Nether Portals is very similar to Multiverse Sign Portals, but instea
 Multiverse Inventories allow you to have separate inventories and player statistics for your different worlds. You can find out more about it here: [Multiverse Inventories Link](https://modrinth.com/mod/multiverse-inventories)
 
 That's about it for Multiverse! If you need any more help, feel free to make a ticket in the [discord](https://discord.gg/bloom) :)  
+
+---
 
 ## Info
 

@@ -13,16 +13,18 @@ keywords:
   - Spigot
 ---
 
-# Oraxen
-
 ## What Does The Plugin Do?
 
 Create custom content, automatically generate, compress, protect and upload your resourcepack!
+
+---
 
 ## Info
 
 You need [ProtocolLib](https://www.spigotmc.org/resources/protocollib.1997/) to run Oraxen.  
 Download Oraxen from its [Spigot page](https://www.spigotmc.org/resources/oraxen.72448/).
+
+---
 
 ## Usage
 Oraxen command start with the same label, however, Oraxen has a few aliases to use, such as: `/oxn` or `/o`

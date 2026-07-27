@@ -20,10 +20,12 @@ keywords:
   - Acceptable Usage Policy
 ---
 
-### What does the plugin do?
+## What does the plugin do?
 
 CoreProtect is a fast, efficient, data logging and anti-griefing tool. Rollback and restore any amount of damage.
 
+
+---
 
 ## Usage
 
@@ -54,6 +56,8 @@ One command you can use in CoreProtect is `/co i`. This will allow you to left c
 Another command you can use is `/co rollback u:<user> t:<time> r:<radius> a:<action> b:<blocks> e:<exclude>`. Running that command will print a list of every action (that you choose) within the radius and time period, by a user you choose. Not all of those parameters are necessary.  
 
 There are, of course, more commands in the plugin, which you can check out [here](https://www.minerealm.com/community/viewtopic.php?f=32&t=6781).
+
+---
 
 ## Management of large databases
 
@@ -108,6 +112,8 @@ If you need to perform a rollback using data from the old database (for example,
 6. **Restart your server**
 
 
+
+---
 
 ## Info
 

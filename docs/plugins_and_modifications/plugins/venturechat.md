@@ -14,9 +14,11 @@ keywords:
   - Minecraft
 ---
 
-### What does the plugin do?
+## What does the plugin do?
 
 VentureChat is the #1 Bukkit chat resource on Spigot which is a do-it-all chat plugin, from chat-format to customisable channels, you can accomplish this all with VentureChat. Unlike competing plugins such as HeroChat Pro and EssentialsX, you can customise to your liking for free and with ease. It is notable that VentureChat is one of the few chat plugins to fully support HEX colours easily.
+
+---
 
 ## Usage
 
@@ -60,6 +62,8 @@ Here are a list of key terms you have seen in the above configuration that can b
 
 `autojoin` - Defines whether or not this channel is the first channel you enter on join. It is recommended you only enable autojoin for one channel only to avoid conflicts.
 
+---
+
 ## How to use VentureChat Broadcast and Messaging
 
 Unfortunately with plugins such as [EssentialsX](https://www.spigotmc.org/resources/essentialsx.9089/), you may be unable to use `/msg` and `/broadcast` functions due to conflicting plugins. In order to fix said conflicts, make the following adjustments below.
@@ -97,6 +101,8 @@ disabled-commands:
 ```
 
 Once the above additions are added save the following files and run `/essentials reload` before restarting your server, or start your server. Now you should be able to use VentureChat's broadcast and messaging functions while overriding EssentialsX's default ones if you have EssentialsX also.
+
+---
 
 ## Info
 

@@ -19,6 +19,8 @@ keywords:
 
 [ajParkour](https://www.spigotmc.org/resources/ajparkour-rewards-1-7-10-1-18-x-mysql-storage-option.60909/) automatically generates parkour courses on the fly, below your players feet.
 
+---
+
 ## Installation
 
 ### Plugin installer
@@ -32,6 +34,8 @@ Then click install and restart your server.
 ### Manual
 
 Download the plugin from [spigot](https://www.spigotmc.org/resources/ajparkour-rewards-1-7-10-1-18-x-mysql-storage-option.60909/) and place it in your `plugins` folder. Then just restart your server!
+
+---
 
 ## Configuration
 
@@ -74,9 +78,13 @@ Once you have completed the former steps, you can save your configuration to be 
 
 If you want to edit your setup at any later point you can run `/ajp edit <name>` with name being the name of the area with capitalization.
 
+---
+
 ## Joining
 
 Now you have created your course you can join it via `/ajp start <player> <course>` with player being the player name and course the name you gave it
+
+---
 
 ## Portals
 

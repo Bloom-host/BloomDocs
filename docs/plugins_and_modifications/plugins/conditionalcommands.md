@@ -15,18 +15,22 @@ keywords:
   - Minecraft
 ---
 
-### Introduction to how all anticheat plugins work:
+## Introduction to how all anticheat plugins work:
 - Anticheat plugins have various "checks" that detect cheating (say if a player is going above a certain speed limit)
   - When these checks are triggered, the anticheat adds "VL" or violation level points to the offender
   - All anticheats are configurable to execute a certain command (notify, kicking, or banning a player) at a certain violation level
 - However, sometimes a player may be lagging, and the kicking/banning command by itself does not account for this lag, resulting in false kicks/bans and complaints
 
-### Why you should use conditional commands and what it does:
+---
+
+## Why you should use conditional commands and what it does:
 - Conditional commands are a command that has parameters like ping, tps, etc. tied to an actual executed command
 - Let's say you wanted a player to be kicked for hacking when they reach a certail violation level (VL) in your anticheat configuration, conditional commands will let you kick that player ONLY if their ping is below a certain threshold
   - This means that you are able to exempt laggy players with high ping or when server TPS is low from getting false kicked/banned
 
-### Usage
+---
+
+## Usage
 :::caution
 Although the plugin page says the plugin was only tested up to 1.12, conditional commands works without issue on all server versions due to its simplicity. Versions such as 1.16.3 have been tested to work on numerous servers
 :::
@@ -61,6 +65,8 @@ Examples of conditional commands:
 :::important
 If you are configuring an anticheat, it's best practice to have a test server (even a local one if getting a hosted one isn't an option) to test your anti-cheat configuration before deploying 
 :::
+
+---
 
 ## Info
 

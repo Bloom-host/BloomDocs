@@ -16,6 +16,8 @@ keywords:
 Citizens2 is an advanced NPC plugin for Spigot that allows developers to extend basic NPCs to provide varied gameplay and functionality.
 
 
+---
+
 ## Installation
 
 1. Download the plugin [directly from the developer](https://wiki.citizensnpcs.co/Versions) or [from the Premium spigot page](https://www.spigotmc.org/resources/citizens.13811/) (The premium version posted as a premium resource to motivate the continued development.  Citizens can be used for free though.).  
@@ -31,6 +33,8 @@ You may also want to look at installing the Denzien, Sentinel, and dtlTraders pl
 - dtlTraders is an extension for Citizens that allows NPCs as merchants who can buy, sell, and/or trade with players.
 ::: 
 
+---
+
 ## Configuration
 
 Citizens (and the related plugins) can be tweaked via the config settings.  
@@ -44,6 +48,8 @@ The config files are:
 - Sentinel - `/plugins/Denizen/config.yml` - [Docs](https://github.com/mcmonkeyprojects/Sentinel/blob/master/README.md)
 - dtlTraders - `/plugins/dtlTraders/config.yml` - [Docs](https://www.spigotmc.org/resources/dtltraders.35890/)
 - dtlTradersPlus (Premium Version) - `/plugins/dtlTradersPlus/config.yml` - [Docs](https://www.spigotmc.org/resources/dtltradersplus.63690/)
+
+---
 
 ## Commands
 
@@ -141,6 +147,8 @@ Notes:
 - You can set permissions on individual shop items
 - You can limit the number of items a player can buy, sell, or trade to a shop.
 :::
+
+---
 
 ## Additional Information
 

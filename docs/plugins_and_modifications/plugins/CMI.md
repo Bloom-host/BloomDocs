@@ -11,7 +11,7 @@ keywords:
   - Minecraft
 ---
 
-### What does the plugin do?
+## What does the plugin do?
 
 :::important
 This is a paid plugin, similar functions can be achieved with Essentials + a variety of free alternatives to replace any missing feature.
@@ -22,7 +22,9 @@ CMI plugin is made for Spigot and Paper server versions 1.7.x and up, and helps 
 This plugin has over 290 commands & features.
 
 
-### Installation
+---
+
+## Installation
 
 :::important
 [CMILib](https://www.spigotmc.org/resources/cmilib.87610/) is required as of 9.x version. 
@@ -30,6 +32,8 @@ This plugin has over 290 commands & features.
 
 Once you download CMILib, and [CMI](https://www.spigotmc.org/resources/cmi-298-commands-insane-kits-portals-essentials-economy-mysql-sqlite-much-more.3742/) upload them to your servers `plugins` folder, and restart your server.
 
-### Usage & Configuration
+---
+
+## Usage & Configuration
 
 CMI is a feature packed plugin, to learn how to configure and use it, you can check out [CMI's Documentation](https://www.zrips.net/cmi/).

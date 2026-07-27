@@ -16,9 +16,11 @@ keywords:
   - Minecraft
 ---
 
-### What does the plugin do?
+## What does the plugin do?
 
 Prism is a highly configurable, powerful, high-performance grief management (rollbacks, restores, etc) plugin for your server. Prism V4 is a complete rewrite of the plugin and works with Paper-based servers 1.21.4+.
+
+---
 
 ## Usage
 
@@ -55,6 +57,8 @@ mariadb {
 ```
 
 Once you've done that, you need to restart the server in order for changes to take effect. Check the log file for any errors from Prism. If necessary, adjust the database credentials in `storage.conf` and try again.
+
+---
 
 ## Info
 

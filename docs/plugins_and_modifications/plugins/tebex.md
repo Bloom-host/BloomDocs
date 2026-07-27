@@ -19,11 +19,15 @@ keywords:
 
 Tebex (BuyCraft) is a plugin that links your Tebex Donation Store to your Minecraft Server. You can use this plugin to automate the giving of permissions, groups, items, etc to players on the store for purchase via this integration.
 
+---
+
 ## Installation
  
 In order to install Tebex (BuyCraft), you need to download the .jar file from the official [Tebex Download page](https://server.tebex.io/plugins/124/download). You will need to log in to access this download page.
 
 Once you have done this, please upload the .jar file into your `/plugins` folder. For further assistance on how to install plugins, please refer to this [guide](/installing-plugins).
+
+---
 
 ## Usage
 
@@ -46,6 +50,8 @@ tebex secret key
 ```
 
 With that, you have integrated your Tebex Store with your Minecraft Server! If the command fails, be sure to check you have entered your Secret key correctly.
+
+---
 
 ## Info
 

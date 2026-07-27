@@ -10,19 +10,19 @@ keywords:
   - paper
   - Optimized
 ---
-### What does the plugin do?
+## What does the plugin do?
 
 Topper allows you to create customizable leaderboards using PlaceholderAPI placeholders and even paper. It's perfect for displaying top players, stats, or any placeholder-based data directly in-game via holograms.
 
 ![image](https://topper-mc.github.io/Wiki/spigot/quickstart/gettop.png)
 
-### Installation
+## Installation
 
 Download both [Topper](https://www.spigotmc.org/resources/topper.110417/) and [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/), then upload them to your server's `plugins` folder. Restart the server afterward.
 
 ---
 
-### Usage
+## Usage
 Head to the config file: `plugins/Topper/config.yml`
 Then under the `Holders` section add the following:
 
@@ -49,7 +49,7 @@ you can do this with:
 
 ---
 
-### Leaderboard Setup
+## Leaderboard Setup
 
 To add this to a leaderboard, follow these steps:
 
@@ -81,6 +81,6 @@ You're all set!
 
 ---
 
-### Advanced Configuration
+## Advanced Configuration
 
 For more detailed setup and customization, see [Topper’s Documentation](https://topper-mc.github.io/Wiki/spigot/quickstart.html).

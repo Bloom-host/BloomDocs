@@ -21,9 +21,13 @@ PlaceholderAPI (sometimes referred to as PAPI) is a plugin library that allows s
 
 Placeholders for individual plugins is downloaded and installed via the eCloud in-game (`/papi ecloud download [expansion]`) or added by a plugin developer.
 
+---
+
 ## Install
 
 Download the plugin off the [Spigot resource page](https://www.spigotmc.org/resources/placeholderapi.6245/) and install into the plugins folder (See the [help page](/installing-plugins) for help on how to do this)
+
+---
 
 ## Usage
 
@@ -56,6 +60,8 @@ In a plugin which supports PAPI, usually they can be added into the config file 
 
 Refer to the documentation of your plugins for information on how to use PAPI placeholders.
 
+---
+
 ## Commands
 
 The following is a list of common commands you may need to use when setting up PAPI or plugins which may use them.
@@ -67,6 +73,8 @@ The following is a list of common commands you may need to use when setting up P
 - `/papi list` - Shows a list of all installed expansions (including those through other plugins).
 
 
+
+---
 
 ## Resources
 [Spigot page](https://github.com/PlaceholderAPI/PlaceholderAPI)
