@@ -23,7 +23,7 @@ Currently it has: Over 450 Unique Enchantments Available with configurable Coold
 
 ## Installation
 
-Once you download [AdvancedEnchantments](https://www.spigotmc.org/resources/1-17-1-21-%E2%AD%95-advancedenchantments-%E2%AD%90-450-custom-enchants-%E2%AD%90create-custom-enchantments-%E2%9C%85.43058/) upload them to your servers `plugins` folder, and restart your server.
+Once you download [AdvancedEnchantments](https://www.spigotmc.org/resources/1-17-1-21-%E2%AD%95-advancedenchantments-%E2%AD%90-450-custom-enchants-%E2%AD%90create-custom-enchantments-%E2%9C%85.43058/) upload it to your server's `plugins` folder, and restart your server.
 
 ---
 

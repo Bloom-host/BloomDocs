@@ -25,14 +25,14 @@ keywords:
 
 ## Why you should use conditional commands and what it does:
 - Conditional commands are a command that has parameters like ping, tps, etc. tied to an actual executed command
-- Let's say you wanted a player to be kicked for hacking when they reach a certail violation level (VL) in your anticheat configuration, conditional commands will let you kick that player ONLY if their ping is below a certain threshold
+- Let's say you wanted a player to be kicked for hacking when they reach a certain violation level (VL) in your anticheat configuration, conditional commands will let you kick that player ONLY if their ping is below a certain threshold
   - This means that you are able to exempt laggy players with high ping or when server TPS is low from getting false kicked/banned
 
 ---
 
 ## Usage
 :::caution
-Although the plugin page says the plugin was only tested up to 1.12, conditional commands works without issue on all server versions due to its simplicity. Versions such as 1.16.3 have been tested to work on numerous servers
+Although the plugin page says the plugin was only tested up to 1.12, conditional commands work without issue on all server versions due to its simplicity. Versions such as 1.16.3 have been tested to work on numerous servers
 :::
 
 Install conditional commands by dragging it into your plugin folder, and restart your server.
@@ -63,11 +63,11 @@ Examples of conditional commands:
   - This command when executed, will kick the player 'iLoveDucks' unless their ping is above 200ms, meaning that laggy players will not get kicked should you use conditional commands
 
 :::important
-If you are configuring an anticheat, it's best practice to have a test server (even a local one if getting a hosted one isn't an option) to test your anti-cheat configuration before deploying 
+If you are configuring an anticheat, it's best practice to have a test server (even a local one if getting a hosted one isn't an option) to test your anti-cheat configuration before deploying
 :::
 
 ---
 
 ## Info
 
-[Spigot Page](https://www.spigotmc.org/resources/conditionalcommands.14295/) 
+[Spigot Page](https://www.spigotmc.org/resources/conditionalcommands.14295/)

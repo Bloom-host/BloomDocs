@@ -97,7 +97,7 @@ You must have permission to manage the selected Discord server.
    - **Add Reactions** and **Read Message History** for truncated-message notifications.
 5. Make sure the role has the required permissions in the Discord channel you plan to link.
 
-For tighter security, use the minimum permissions and grant additional permissions only when enabling DiscordSRV features that require them. See the [official DiscordSRV setup guide](https://docs.discordsrv.com/installation/initial-setup/) for the complete permissions list.
+For tighter security, use the minimum permissions and grant additional permissions only when enabling DiscordSRV features that require them. See the [official DiscordSRV initial setup guide](https://docs.discordsrv.com/installation/initial-setup/) for the complete permissions list.
 
 ---
 
@@ -160,7 +160,7 @@ If the bot does not come online or messages are not relayed:
 5. Confirm that the channel ID in `Channels` is correct.
 6. Review the Minecraft server console for DiscordSRV errors.
 
-See the official [DiscordSRV initial setup guide](https://docs.discordsrv.com/installation/initial-setup/) for its complete permissions list and advanced setup information.
+See the official [DiscordSRV initial setup guide](https://docs.discordsrv.com/installation/initial-setup/) for the complete permissions list and advanced setup information.
 
 ## Additional Resources
 

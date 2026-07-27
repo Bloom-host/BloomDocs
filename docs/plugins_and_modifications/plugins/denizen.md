@@ -22,7 +22,7 @@ server as they see fit, in a way that is ten times more efficient and easier tha
 
 ## Info
 
-Download Denizen from its [Spigot page](https://www.spigotmc.org/resources/denizen.21039/).  
+Download Denizen from its [Spigot page](https://www.spigotmc.org/resources/denizen.21039/).
 If you are a beginner or a new denizen scripter start here: https://guide.denizenscript.com/
 
 ![Example chat narration](/plugins_and_modifications/plugins/denizen/example.png)
@@ -31,9 +31,9 @@ If you are a beginner or a new denizen scripter start here: https://guide.denize
 
 ## Addons
 
-- Denizen can be use on [Citizens](citizens2) NPCs too: https://www.spigotmc.org/resources/citizens.13811/  
-- Use Depenizen to effectively communicate with a wide range of other plugins: https://github.com/DenizenScript/Depenizen/blob/master/README.md  
-- You can make your own Discord Bot too: https://github.com/DenizenScript/dDiscordBot  
+- Denizen can be used on [Citizens](citizens2) NPCs too: https://www.spigotmc.org/resources/citizens.13811/
+- Use Depenizen to effectively communicate with a wide range of other plugins: https://github.com/DenizenScript/Depenizen/blob/master/README.md
+- You can make your own Discord Bot too: https://github.com/DenizenScript/dDiscordBot
 
 ---
 

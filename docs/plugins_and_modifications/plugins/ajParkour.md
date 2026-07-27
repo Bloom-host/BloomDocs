@@ -17,7 +17,7 @@ keywords:
 
 ## What does it do?
 
-[ajParkour](https://www.spigotmc.org/resources/ajparkour-rewards-1-7-10-1-18-x-mysql-storage-option.60909/) automatically generates parkour courses on the fly, below your players feet.
+[ajParkour](https://www.spigotmc.org/resources/ajparkour-rewards-1-7-10-1-18-x-mysql-storage-option.60909/) automatically generates parkour courses on the fly, below your players' feet.
 
 ---
 
@@ -88,7 +88,7 @@ Now you have created your course you can join it via `/ajp start <player> <cours
 
 ## Portals
 
-Typing commands is hard for players... Lets make some portals to join out course!
+Typing commands is hard for players... Let's make some portals to join our course!
 
 Stand where you would like your portal and run `/ajp portals create <name>`. A good name would be the name of you course with `_portal` on the end
 

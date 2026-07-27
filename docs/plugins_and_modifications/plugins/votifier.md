@@ -15,12 +15,12 @@ keywords:
   - Minecraft
 ---
 ## What does the plugin do?
-NuVotifier is a plugin that allows players to receive rewards when voting for your server on server list sites, There is an extensive amount of plugins that listen to Votifier, and give rewards when a player votes.
+NuVotifier is a plugin that allows players to receive rewards when voting for your server on server list sites, there is an extensive amount of plugins that listen to Votifier, and give rewards when a player votes.
 
 ---
 
 ## Do I need to use the plugin in the example?
-No, You can use any plugin that is advertised as hooking into NuVotifier.
+No, you can use any plugin that is advertised as hooking into NuVotifier.
 
 ---
 
@@ -56,16 +56,16 @@ The next step is to restart your server, so the port can be opened.
 #### VotingPlugin Requirements
 - [NuVotifier](https://www.spigotmc.org/resources/nuvotifier.13449/)
 
-Once you have successfully installed the plugin, If you do not want to configure MySQL for user storage. You have completed the tutorial!
+Once you have successfully installed the plugin, if you do not want to configure MySQL for user storage, you have completed the tutorial!
 You can move on to the next step and that is to read the [VotingPlugin's wiki](https://github.com/BenCodez/VotingPlugin/wiki) or the wiki of the resource you chose.
 
 #### Configuring SQL for VotingPlugin
-If you didn't do it already, Please read this guide on how to create and find logins for your databases, [click here](/databases)
+If you didn't do it already, please read [this guide](/databases) on how to create and find logins for your databases.
 
 VotingPlugin has the option to configure what type of `data storage` you would like to use
 - SQLITE (flat file storage, works out of the box)
 - MYSQL (works with Bloom's database which is based on MariaDB, however needs extra configuration)
-  - A guide on how to create and find logins for your databases, [click here](/databases)
+  - To create and find logins for your databases, [click here](/databases).
 
 **Requirements:**
 - Username, Password. They can be found in the `Database` tab!

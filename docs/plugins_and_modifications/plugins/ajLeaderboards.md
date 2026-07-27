@@ -13,7 +13,7 @@ keywords:
 
 ## What does the plugin do?
 
-This plugin to allow you to create leaderboards for basically anything using PlaceholderAPI placeholders. This is one of the many options available to create and implement the popular scoreboard format as part of the ingame GUI.
+This plugin allows you to create leaderboards for basically anything using PlaceholderAPI placeholders. This is one of the many options available to create and implement the popular scoreboard format as part of the in-game GUI.
 
 ![image](https://i.imgur.com/P05opDe.png)
 
@@ -22,10 +22,10 @@ This plugin to allow you to create leaderboards for basically anything using Pla
 ## Installation
 
 :::important
-You must have [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/) installed! 
+You must have [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/) installed!
 :::
 
-Once you download PlaceholderAPI, and [ajLeaderboards](https://www.spigotmc.org/resources/ajleaderboards.85548/) upload them to your servers `plugins` folder, and restart your server.
+Once you download PlaceholderAPI, and [ajLeaderboards](https://www.spigotmc.org/resources/ajleaderboards.85548/) upload them to your server's `plugins` folder, and restart your server.
 
 ---
 
