@@ -17,11 +17,17 @@ keywords:
 ## What does the plugin do?
 NuVotifier is a plugin that allows players to receive rewards when voting for your server on server list sites, There is an extensive amount of plugins that listen to Votifier, and give rewards when a player votes.
 
+---
+
 ## Do I need to use the plugin in the example?
 No, You can use any plugin that is advertised as hooking into NuVotifier.
 
+---
+
 ## NuVotifier hasn't been updated since 2021, does it still work?
 Yes, NuVotifier is like Vault where it's version independent.
+---
+
 ## Pre-requisites
 - [NuVotifier](https://www.spigotmc.org/resources/nuvotifier.13449/)
 - Any plugin that hooks into NuVotifier, [VotingPlugin](https://www.spigotmc.org/resources/votingplugin.15358/) is what will be used for the tutorial.
@@ -53,7 +59,7 @@ The next step is to restart your server, so the port can be opened.
 Once you have successfully installed the plugin, If you do not want to configure MySQL for user storage. You have completed the tutorial!
 You can move on to the next step and that is to read the [VotingPlugin's wiki](https://github.com/BenCodez/VotingPlugin/wiki) or the wiki of the resource you chose.
 
-##### Configuring SQL for VotingPlugin
+#### Configuring SQL for VotingPlugin
 If you didn't do it already, Please read this guide on how to create and find logins for your databases, [click here](/databases)
 
 VotingPlugin has the option to configure what type of `data storage` you would like to use

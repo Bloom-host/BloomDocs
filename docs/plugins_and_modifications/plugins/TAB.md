@@ -20,6 +20,8 @@ keywords:
 
 [TAB](https://modrinth.com/plugin/tab-was-taken) Is "the" tab plugin you were looking for, with [PlaceholderAPI](https://docs.bloom.host/plugins/placeholderapi) it's the most versatily open source tab plugin available. This guide will explain the basic setup to use this plugin on Paper. 
 
+---
+
 ## Installation
 
 ### Plugin installer
@@ -36,6 +38,8 @@ Even manually, the process is still pretty simple to follow:
 
 You can also read our [Plugin Installation Doc](https://docs.bloom.host/installing-plugins) for additional information on the process.
 
+---
+
 ## Configuration
 
 We'll edit the plugin's main config file at `home/plugins/TAB/config.yml`. We'll focus on what most people are looking to edit, which would be the `tablist` and `nametags`.
@@ -51,6 +55,8 @@ Before getting to the config file itself, we should import any `eCloud` packages
 ### Nametags
 
 The other main feature most people care about is the nametags for players, which show up like any other nametag but for players themselves. To edit this we can check their [Nametag Guide](https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Nametags)
+
+---
 
 ## Info
 

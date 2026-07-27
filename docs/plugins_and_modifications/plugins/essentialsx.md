@@ -32,11 +32,15 @@ This is a plugin that offers basic commands and features such as a mail system, 
 
 This plugin also hooks into [Vault](/plugins/vault) to provide an economy service that other economy plugins on your server can use. It can also get group names from your permission plugin.
 
+---
+
 ## Install
 
 You can either download stable builds from its [Spigot Resource page](https://www.spigotmc.org/resources/essentialsx.9089/), its [Modrinth Resource page](https://modrinth.com/mod/essentialsx) or you can download dev, experimental builds directly from [its website.](https://essentialsx.net/downloads.html)
 
 Next, place the EssentialsX jar file into the `plugins` folder in your server. If you need help with installing plugins, [click here for a guide.](/installing-plugins)
+
+---
 
 ## Usage
 
@@ -100,6 +104,8 @@ enabledSigns:
 
 There are various right-clickable signs that you can use (and can be enabled in the section above.)
 For example, warp signs can take your player to a warp you defined with `/setwarp` and the mail sign can show the player's mail.
+
+---
 
 ## Info
 

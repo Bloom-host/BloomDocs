@@ -22,10 +22,14 @@ GriefPrevention is a land claiming / region plugin that is simple and easy to us
 GriefPrevention can also prevent spam in multiple ways (fast message spam, join/leave spam, advertising, death spam, etc.)
 Most features can be turned on or off through the config.
 
+---
+
 ## Installation
 
 To install this plugin, download the server jar from its [Spigot resource page](https://www.spigotmc.org/resources/griefprevention.1884/) and install it into the `plugins` folder.
 For assistance on how to install plugins, please refer to the [plugin installation page](/installing-plugins).
+
+---
 
 ## Usage
 
@@ -45,6 +49,8 @@ There are a few basic commands that players will need to know. These are:
 * `/claimslist` - See the current claim allowance and all of a player's claims that they own.
 
 There is obviously more commands and features - please refer to the [GriefPrevention Wiki](https://github.com/TechFortress/GriefPrevention/wiki) for more information on how to use them.
+
+---
 
 ## Info
 

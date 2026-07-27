@@ -24,6 +24,8 @@ Cheats detected by Vulcan:
 - Player Hacks (Bad Packets, Interact, Improbable, Scaffold, etc.)
 
 
+---
+
 ## Setup & Configuration:
 First, download the plugin on their [Spigot Page](https://www.spigotmc.org/resources/vulcan-advanced-cheat-detection-1-7-1-17-1.83626/) (Please note pthat this plugin is premium, and you will need to pay to use it). Then, drop the plugin into your `/plugins` folder, and restart the server. If you want to use this plugin with bungeecord, check out extra steps on Vulcan's [Bungee Page](https://www.spigotmc.org/resources/vulcanbungee-bungee-hook-for-vulcan-anti-cheat.94194/).
 
@@ -35,10 +37,14 @@ It's best practice to have a test server (even a local one if getting a hosted o
 
 :::
 
+---
+
 ## There's a false positive, what do I do?
 With all anticheats, false positives are expected. Please get as much information as possible to help with fixing the check, and then report the bug on Vulcans [Support Discord](https://discord.gg/SCNuwUG). Vulcan is well known for their quick and helpful support, and the false positive should be fixed quickly.
 
 
+
+---
 
 ## Info
 :::warning
