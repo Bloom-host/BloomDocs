@@ -1,0 +1,45 @@
+name: Build Preview Deployment
+
+on:
+  pull_request:
+    types:
+      - opened
+      - reopened
+      - synchronize
+
+# This workflow runs untrusted PR code (including from forks), so it gets no
+# secrets and read-only permissions. It only produces a build artifact, which
+# the privileged "Upload Preview Deployment" workflow then deploys.
+permissions:
+  contents: read
+
+concurrency:
+  group: preview-build-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  build-preview:
+    runs-on: ubuntu-latest
+    name: Build Preview Site and Upload Build Artifact
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24.18.0
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build site
+        run: npm run build
+
+      - name: Upload build artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: preview-build
+          path: build
+          retention-days: 1
