@@ -15,19 +15,19 @@ keywords:
 
 ## What Does The Plugin Do?
 
-Create custom content, automatically generate, compress, protect and upload your resourcepack!
+Create custom content, automatically generate, compress, protect and upload your resource pack!
 
 ---
 
 ## Info
 
-You need [ProtocolLib](https://www.spigotmc.org/resources/protocollib.1997/) to run Oraxen.  
+You need [ProtocolLib](https://www.spigotmc.org/resources/protocollib.1997/) to run Oraxen.
 Download Oraxen from its [Spigot page](https://www.spigotmc.org/resources/oraxen.72448/).
 
 ---
 
 ## Usage
-Oraxen command start with the same label, however, Oraxen has a few aliases to use, such as: `/oxn` or `/o`
+Oraxen commands start with the same label, however, Oraxen has a few aliases to use, such as: `/oxn` or `/o`
 
 - `/oraxen inventory` - Oraxen Inventory
 - `/oraxen give <player> <item> <amount>` - Gives amount items to a player

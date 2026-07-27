@@ -20,24 +20,24 @@ Citizens2 is an advanced NPC plugin for Spigot that allows developers to extend 
 
 ## Installation
 
-1. Download the plugin [directly from the developer](https://wiki.citizensnpcs.co/Versions) or [from the Premium spigot page](https://www.spigotmc.org/resources/citizens.13811/) (The premium version posted as a premium resource to motivate the continued development.  Citizens can be used for free though.).  
+1. Download the plugin [directly from the developer](https://wiki.citizensnpcs.co/Versions) or [from the Premium spigot page](https://www.spigotmc.org/resources/citizens.13811/) (The premium version is posted as a premium resource to motivate the continued development. Citizens can be used for free though.).
 1. Upload the jar(s) to your `/plugins` folder.
-1. Restart the server. 
+1. Restart the server.
 
 If you need help installing plugins, check [How to install plugins](/installing-plugins).
 
 :::note
-You may also want to look at installing the Denzien, Sentinel, and dtlTraders plugins for Citizens.
+You may also want to look at installing the Denizen, Sentinel, and dtlTraders plugins for Citizens.
 - [Denizen](denizen) is an extension for Citizens that allows scripting of NPCs to handle tasks, quests, player interaction and more!
 - Sentinel is an extension for Citizens that allows Combat NPCs who can protect players, towns, etc.
 - dtlTraders is an extension for Citizens that allows NPCs as merchants who can buy, sell, and/or trade with players.
-::: 
+:::
 
 ---
 
 ## Configuration
 
-Citizens (and the related plugins) can be tweaked via the config settings.  
+Citizens (and the related plugins) can be tweaked via the config settings.
 
 :::note
 Generally, you can probably get started using Citizens (and the related plugins) without having to go a lot of configuration.
@@ -58,7 +58,7 @@ Rather than go over basic commands, listed below are several examples on how to 
 ### Creating an NPC
 
 :::note
-These examples are assuming you have installed Citizens as well as Denzien, Sentinel, and dtlTraders plugins.
+These examples are assuming you have installed Citizens as well as Denizen, Sentinel, and dtlTraders plugins.
 :::
 
 #### Basic Human NPC

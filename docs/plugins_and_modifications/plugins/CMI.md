@@ -27,13 +27,13 @@ This plugin has over 290 commands & features.
 ## Installation
 
 :::important
-[CMILib](https://www.spigotmc.org/resources/cmilib.87610/) is required as of 9.x version. 
+[CMILib](https://www.spigotmc.org/resources/cmilib.87610/) is required as of 9.x version.
 :::
 
-Once you download CMILib, and [CMI](https://www.spigotmc.org/resources/cmi-298-commands-insane-kits-portals-essentials-economy-mysql-sqlite-much-more.3742/) upload them to your servers `plugins` folder, and restart your server.
+Once you download CMILib, and [CMI](https://www.spigotmc.org/resources/cmi-298-commands-insane-kits-portals-essentials-economy-mysql-sqlite-much-more.3742/) upload them to your server's `plugins` folder, and restart your server.
 
 ---
 
 ## Usage & Configuration
 
-CMI is a feature packed plugin, to learn how to configure and use it, you can check out [CMI's Documentation](https://www.zrips.net/cmi/).
+CMI is a feature-packed plugin, to learn how to configure and use it, you can check out [CMI's Documentation](https://www.zrips.net/cmi/).

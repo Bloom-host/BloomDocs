@@ -17,9 +17,9 @@ keywords:
 
 ## Introduction
 
-PlaceholderAPI (sometimes referred to as PAPI) is a plugin library that allows servers to display information from many plugins using a common format. 
+PlaceholderAPI (sometimes referred to as PAPI) is a plugin library that allows servers to display information from many plugins using a common format.
 
-Placeholders for individual plugins is downloaded and installed via the eCloud in-game (`/papi ecloud download [expansion]`) or added by a plugin developer.
+Placeholders for individual plugins are downloaded and installed via the eCloud in-game (`/papi ecloud download [expansion]`) or added by a plugin developer.
 
 ---
 
@@ -66,8 +66,8 @@ Refer to the documentation of your plugins for information on how to use PAPI pl
 
 The following is a list of common commands you may need to use when setting up PAPI or plugins which may use them.
 
-- `/papi ecloud download <expansion>` - Downloads a expansion off the eCloud 
-- `/papi ecloud list <all|<author>|installed>` - Shows a list of all or installed eCloud expansions, or to display expansions from a specific author  
+- `/papi ecloud download <expansion>` - Downloads a expansion off the eCloud
+- `/papi ecloud list <all|<author>|installed>` - Shows a list of all or installed eCloud expansions, or to display expansions from a specific author
 - `/papi parse <player|me> <string>` - Parse a text string with placeholder strings in them. Supports formatting marks.
 - `/papi reload` - Reloads PAPI config. Also used after installing eCloud plugins to ensure they are registered properly.
 - `/papi list` - Shows a list of all installed expansions (including those through other plugins).

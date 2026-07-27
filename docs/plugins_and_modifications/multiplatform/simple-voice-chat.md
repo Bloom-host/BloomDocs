@@ -20,7 +20,7 @@ You also need to install **Simple Voice Chat** on your game client!
 
 ## Requirements
 
-In order to run Simple Voice Chat on your server, you need one of the following [server jars](/running_a_server/updating) installed:
+In order to run Simple Voice Chat on your server, you need one of the following [server jars](/updating) installed:
 
 - [Fabric](#fabric)
 - [Forge](#forge)

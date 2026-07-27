@@ -31,7 +31,7 @@ Next, install the plugin into the `plugins` folder in your server. Need help? Ch
 
 ## Usage instructions
 
-Vault works out of the box without configuration in most cases. Plugins that hook into Vault (e.g. [LuckPerms](/multiplatform/luckperms)) will automatically find Vault and connect to it and provides a hook for plugins to work with it.
+Vault works out of the box without configuration in most cases. Plugins that hook into Vault (e.g. [LuckPerms](/multiplatform/luckperms)) will automatically find Vault and connect to it and provide a hook for plugins to work with it.
 
 Other plugins, such as [DiscordSRV](/plugins/discordsrv) can use the information provided by Vault (e.g. DiscordSRV can get the group names from your permissions plugin)
 
@@ -39,7 +39,7 @@ Other plugins, such as [DiscordSRV](/plugins/discordsrv) can use the information
 
 Vault has two commands which server admins can use to manage the plugin. These are:
 
-* `/vault-info` - Shows plugins which are installed that provides chat, permissions or economy systems.
+* `/vault-info` - Shows plugins which are installed that provide chat, permissions or economy systems.
 * `/vault-convert` - Converts data between economy systems that are installed. Requires you to have at least *two* economy systems loaded.
 
 ---

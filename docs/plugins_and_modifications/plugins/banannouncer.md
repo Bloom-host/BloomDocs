@@ -27,35 +27,35 @@ You must have Spicord, a Discord account, and a **Compatible** moderation plugin
 ---
 
 ## Installation
-Once you download Spicord, BanAnnouncer, and the Moderation plugin of your choice, upload them to your servers `plugins` folder, and restart your server. After you have restarted, head over to the Discord [Developer Portal](https://discord.com/developers/applications), make a new application, and give it a name. Next, you'll want to head to the `Bot` tab on the left hand side, and add a bot. Here you can customize your bot, by giving it a name, Changing it's Avatar, and a lot of other cool features. 
+Once you download Spicord, BanAnnouncer, and the moderation plugin of your choice, upload them to your server's `plugins` folder and restart your server. After you have restarted, head over to the Discord [Developer Portal](https://discord.com/developers/applications), create a new application, and give it a name. Next, you'll want to head to the `Bot` tab on the left-hand side and add a bot. Here you can customize your bot by giving it a name, changing its avatar, and adjusting other settings.
 
 ---
 
 ## Setting up your bot
-After you've created your Discord Bot, you can find your token in the `Bots` Tab. You'll have to click `Reset Token` and enter your 2fa code if you have it enabled, you will then be able to copy the token. 
+After you've created your Discord bot, you can find your token in the `Bot` tab. You'll have to click `Reset Token` and enter your 2FA code if you have it enabled. You will then be able to copy the token.
 
 :::warning
-DO NOT SHARE YOUR BOT TOKEN. 
+DO NOT SHARE YOUR BOT TOKEN.
 :::
 
 Once you copy your token, scroll down to the bottom of the page, under **Privileged Gateway Intents**, and enable all three settings.
 
 ![image](https://i.imgur.com/GKh1zhU.png)
 
-For the sake of this guide, We're going to use the Administrator permission to guarantee it works correctly. Ideally, you would want to set the **proper permissions** for the channel. 
+For the sake of this guide, we're going to use the Administrator permission to guarantee it works correctly. Ideally, you would want to set the **proper permissions** for the channel.
 
 
-After you enable the options above, You can head over to the `OAuth2` tab, and select `URL Generator`. Under `Scopes` select `bot` and under `Bot Permissions` select `Administrator`. This will generate a URL at the bottom. Use this invite to add your bot, to your guilds.
+After you enable the options above, you can head over to the `OAuth2` tab and select `URL Generator`. Under `Scopes` select `bot`, and under `Bot Permissions` select `Administrator`. This will generate a URL at the bottom. Use this invite to add your bot to your guilds.
 
 ---
 
 ## Configuration
 
 ### Ban Announcer
-Head over to BanAnnouncer's config `/plugins/banannouncer/config.yml`, and paste the Channel ID of the channel you want to use, in `channels-to-announce`. 
+Head over to BanAnnouncer's config `/plugins/banannouncer/config.yml`, and paste the Channel ID of the channel you want to use, in `channels-to-announce`.
 
 :::note
-If you don't know how to get the Channel ID, see [This](https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID) guide.
+If you don't know how to get the Channel ID, see [this](https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID) guide.
 :::
 
 ### Spicord
@@ -72,6 +72,6 @@ As long as you set everything up correctly, your next punishment should show up 
 ## Links
 [Bloom.host Discord](https://discord.gg/bloom)
 
-[Ban Announcer - SpigotMC](https://spigotmc.org/resources/64976/)  
+[Ban Announcer - SpigotMC](https://spigotmc.org/resources/64976/)
 
 [Spicord - SpigotMC](https://spigotmc.org/resources/64918)
