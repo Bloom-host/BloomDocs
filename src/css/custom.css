@@ -91,11 +91,19 @@ blockquote {
 }
 
 .theme-doc-markdown .theme-admonition-note a:not(.button):not(:has(> img)) {
-    color: var(--ifm-link-color);
+    color: #c94e00;
 }
 
 .theme-doc-markdown .theme-admonition-note a:not(.button):not(:has(> img)):is(:hover, :focus-visible) {
-    color: var(--ifm-link-hover-color);
+    color: #a84300;
+}
+
+html[data-theme='dark'] .theme-doc-markdown .theme-admonition-note a:not(.button):not(:has(> img)) {
+    color: #ff7a26;
+}
+
+html[data-theme='dark'] .theme-doc-markdown .theme-admonition-note a:not(.button):not(:has(> img)):is(:hover, :focus-visible) {
+    color: #ff924d;
 }
 
 .float-right {
