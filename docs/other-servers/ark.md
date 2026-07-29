@@ -24,7 +24,7 @@ First, go to the [game panel](https://mc.bloom.host) and select your server, the
 
 ### How to create a split ARK Survival Evolved server
 
-If you want to create a split server for ARK Survival Evolved, you can do so by following the same steps as above, but instead of changing the server type of an existing server just fill in the **Split Server** form on the right, this will create a new server and install ARK Survival Evolved on it.
+If you want to create a split server for ARK Survival Evolved, you can do so by following the same steps as above, but instead of changing the server type of an existing server just fill in the **Split Server** form on the right; this will create a new server and install ARK Survival Evolved on it.
 
 :::important
 ARK Survival Evolved requires about **4GB to run with no players on the default map**. Although it is recommended to run the server with 6GB by the ARK creators, if you decide to run one of the DLC maps you will need to increase the RAM; maps such as Genesis 2 require over 13GB to start.
@@ -90,7 +90,7 @@ To enable crossplay you will need to add the `--crossplay flag option in the **S
 
 ### Connecting through the multiplayer tab on ARK Survival Evolved
 
-Keep in mind that it will take a while for your server to appear on the unofficial tab of the ARK server list, it can take a few hours up to a day. If it hasn't appeared on the unofficial list yet, try to connect using the two options above.
+Keep in mind that it will take a while for your server to appear on the unofficial tab of the ARK server list; it can take a few hours up to a day. If it hasn't appeared on the unofficial list yet, try to connect using the two options above.
 
 1. Open ARK and click on **Join ARK**
 2. Click on the **Unofficial Servers** tab and search for your server then join.

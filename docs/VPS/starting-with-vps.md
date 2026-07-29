@@ -62,7 +62,7 @@ Start PuTTY, select the SSH option and then put your VPS IP in the Host Name (or
 
 ![img](/VPS/starting-with-vps/2.png)
 
-After that, click on the "Open" button and the SSH connection will start, you will then be asked for a username. The default username is "Root", click enter and then you will be asked for the password. Keep in mind that the password is not shown and you do not see that you are typing, but it is working, so just type your password and click on enter to connect.
+After that, click on the "Open" button and the SSH connection will start, you will then be asked for a username. The default username is `root`, click enter and then you will be asked for the password. Keep in mind that the password is not shown and you do not see that you are typing, but it is working, so just type your password and click on enter to connect.
 
 ![img](/VPS/starting-with-vps/3.png)
 

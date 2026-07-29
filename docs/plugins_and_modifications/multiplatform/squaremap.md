@@ -60,4 +60,4 @@ Your server needs to be restarted after the port has been allocated.
 
 :::
 
-For more information, the download link, their support discord, the wiki and a demo! you can go to the [Squaremap GitHub page](https://github.com/jpenilla/squaremap)
+For more information, the download link, support Discord, wiki, and demo, visit the [Squaremap GitHub page](https://github.com/jpenilla/squaremap).

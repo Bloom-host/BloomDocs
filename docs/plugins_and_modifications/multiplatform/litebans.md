@@ -40,7 +40,7 @@ In-game punishments can still be issued as normal.
 :::
 
 ## Punishment storage
-Next, you have to decide what type of storage you want for all your punishments, your options are H2, MySQL, MariaDB, and PostgreSQL. On Bloom you are going to want to use H2, or MySQL. H2 will store the information on your server, while MySQL will store it on a separate database. MySQL allows you to sync data across a network if you are running one. Otherwise it's your choice.
+Next, you have to decide what type of storage you want for all your punishments. Your options are H2, MySQL, MariaDB, and PostgreSQL. On Bloom you are going to want to use H2 or MySQL. H2 will store the information on your server, while MySQL will store it on a separate database. MySQL allows you to sync data across a network if you are running one. Otherwise it's your choice.
 
 If you are using MySQL, you can see how to set up LiteBans with MySQL [HERE](/databases)
 

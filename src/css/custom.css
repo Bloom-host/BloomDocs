@@ -91,11 +91,11 @@ blockquote {
 }
 
 .theme-doc-markdown .theme-admonition-note a:not(.button):not(:has(> img)) {
-    color: #c94e00;
+    color: var(--ifm-link-color);
 }
 
 .theme-doc-markdown .theme-admonition-note a:not(.button):not(:has(> img)):is(:hover, :focus-visible) {
-    color: #a84300;
+    color: var(--ifm-link-hover-color);
 }
 
 .float-right {

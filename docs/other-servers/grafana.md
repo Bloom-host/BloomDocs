@@ -37,7 +37,7 @@ We're now done with UnifiedMetrics, onto Prometheus :)
 
 ## Prometheus
 
-Now we're going to set up a Prometheus server, you're gonna want to split a Prometheus instance which is located under the "NO SUPPORT SERVERS" category with 150MB of RAM and 10GB of Storage (may need to be adjusted to your needs).
+Now we're going to set up a Prometheus server. You will want to split a Prometheus instance which is located under the "NO SUPPORT SERVERS" category with 150MB of RAM and 10GB of Storage (may need to be adjusted to your needs).
 For assistance on how the server splitter works, please refer to the [server splitter page](/split-server).
 
 Once the server is created, head to it under the Server Split tab.

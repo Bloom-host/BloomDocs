@@ -17,7 +17,7 @@ keywords:
 
 This doc just has some important information you may need if you are running internal servers for your Velocity/Bungee networks :)
 
-If you would like to set up your bungee/velocity servers with internal servers you can follow our regular [Waterfall](/waterfall)/[Velocity](/velocity) guides.
+If you would like to set up your BungeeCord/Velocity servers with internal servers, you can follow our regular [Waterfall](/waterfall)/[Velocity](/velocity) guides.
 
 Please note that Waterfall is now considered End of Life and it is currently being recommended to switch to [Velocity](/velocity) instead.
 
