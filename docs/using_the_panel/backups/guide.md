@@ -361,7 +361,7 @@ It costs $5/mo for our Minecraft Plans and can be cancelled at any time. For Bar
 ### For New Plans
 
 Select the 'Upgraded' option in 'Pro Backup Addon' at the last step of the checkout:
-![Checkout pro backup addon addon selected](pro_backup_checkout.png)
+![Checkout pro backup addon selected](pro_backup_checkout.png)
 
 ### For Existing Plans
 

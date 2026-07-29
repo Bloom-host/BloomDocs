@@ -18,7 +18,7 @@ keywords:
 
 ### What does the plugin do?
 
-Allows your server staff to issue punishments to players who break your server's rules, and can be used as an free alternative to [LiteBans](/multiplatform/litebans).
+Allows your server staff to issue punishments to players who break your server's rules, and can be used as a free alternative to [LiteBans](/multiplatform/litebans).
 
 ## Installation
 
@@ -27,7 +27,7 @@ For assistance on how to install plugins, please refer to the [Bukkit plugin ins
 
 You will then need to decide if you are going to be using internal storage (HSQLDB) or external storage (MySQL).
 
-If you decide to use MySQL for AdvancedBan, you can [learn how to setup a MySQL database here](/databases).
+If you decide to use MySQL for AdvancedBan, you can [learn how to set up a MySQL database here](/databases).
 
 ## Usage 
 AdvancedBan has many commands to be able to moderate and punish rule-breakers, the most important commands are here:
@@ -51,4 +51,4 @@ There are more commands and features such as pre-prepared punishment layouts and
 
 [Spigot Resource Page](https://www.spigotmc.org/resources/advancedban.8695/)
 
-[Github](https://github.com/DevLeoko/AdvancedBan)
+[GitHub](https://github.com/DevLeoko/AdvancedBan)

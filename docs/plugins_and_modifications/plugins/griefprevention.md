@@ -58,6 +58,6 @@ There are obviously more commands and features - please refer to the [GriefPreve
 
 [Website](https://griefprevention.com/)
 
-[Github](https://github.com/TechFortress/GriefPrevention)
+[GitHub](https://github.com/TechFortress/GriefPrevention)
 
 [Support](https://discord.com/invite/3TXnkfa)

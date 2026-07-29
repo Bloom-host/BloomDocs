@@ -14,18 +14,18 @@ keywords:
 ---
  
 Hey there Bloomers! 👋
-In this guide, we will go over how to setup 2FA on your account.
+In this guide, we will go over how to set up 2FA on your account.
 
 ---
 :::warning
-Only use 2FA on devices you trust. It's not recommended to setup 2FA on a shared or compromised device.
+Only use 2FA on devices you trust. It's not recommended to set up 2FA on a shared or compromised device.
 :::
 :::note
 Remember to write down the recovery code shown while setting up 2FA, without it you'll be unable to restore access to your account if you lose access to your verification device.
 :::
 ## Billing Area 2FA
 
-To setup 2FA in the billing area, head over to the [billing area and login](https://billing.bloom.host/clientarea.php)
+To set up 2FA in the billing area, head over to the [billing area and log in](https://billing.bloom.host/clientarea.php)
 
 Next, head over to [Security Settings](https://billing.bloom.host/clientarea.php?action=security) which you can find here: 
 
@@ -37,7 +37,7 @@ You can then follow the instruction on the screen. You will need to download Goo
 
 ## Game Panel 2FA
 
-To setup 2FA in the game panel area, head over to [Account Security](https://mc.bloom.host/account/security) in the game panel area.
+To set up 2FA in the game panel area, head over to [Account Security](https://mc.bloom.host/account/security) in the game panel area.
 
 Hit **Enable 2-Factor Authentication** to show a QR code that you can scan. 
 
@@ -47,6 +47,6 @@ Then, add a new account and scan the QR code. Once it is scanned, type the token
 
 ![console](/using_the_panel/2fa/2.png)
 
-You are set and fully protected! Remember to keep the device near you when you login so can authenticate yourself!
+You are set and fully protected! Remember to keep the device near you when you log in so you can authenticate yourself!
 
 ---

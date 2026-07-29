@@ -15,6 +15,8 @@
     --ifm-color-primary-light: #ff731a;
     --ifm-color-primary-lighter: #ff7a26;
     --ifm-color-primary-lightest: #ff924d;
+    --ifm-link-color: #c94e00;
+    --ifm-link-hover-color: #a84300;
     --ifm-code-font-size: 95%;
 }
 
@@ -49,6 +51,8 @@ html[data-theme='dark'] {
     --ifm-color-success-contrast-background: #00a400;
     --ifm-color-note-contrast-background: #fff;
     --ifm-color-secondary-contrast-background: #fff;
+    --ifm-link-color: var(--ifm-color-primary-lighter);
+    --ifm-link-hover-color: var(--ifm-color-primary-lightest);
     --ifm-color-info-contrast-foreground: #000000;
     --ifm-color-secondary-contrast-foreground: #000000;
     --ifm-color-success-contrast-foreground: #000000;
@@ -73,6 +77,25 @@ blockquote {
     color: var(--ifm-color);
     line-height: 1.5;
     padding: 10px;
+}
+
+.theme-doc-markdown :is(p, li, dd, td, blockquote) a:not(.button):not(:has(> img)) {
+    text-decoration-line: underline;
+    text-decoration-thickness: .1em;
+    text-underline-offset: .16em;
+    text-decoration-skip-ink: auto;
+}
+
+.theme-doc-markdown :is(p, li, dd, td, blockquote) a:not(.button):not(:has(> img)):is(:hover, :focus-visible) {
+    text-decoration-thickness: .14em;
+}
+
+.theme-doc-markdown .theme-admonition-note a:not(.button):not(:has(> img)) {
+    color: #c94e00;
+}
+
+.theme-doc-markdown .theme-admonition-note a:not(.button):not(:has(> img)):is(:hover, :focus-visible) {
+    color: #a84300;
 }
 
 .float-right {

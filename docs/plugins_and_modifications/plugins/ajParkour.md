@@ -41,7 +41,7 @@ Download the plugin from [spigot](https://www.spigotmc.org/resources/ajparkour-r
 
 Firstly, you need to give your area a name, for this we will use "BloomDocs" so we run `/ajp setup create BloomDocs`
 
-Next we need to setup the areas our random blocks will spawn in. To do that we have two options, Worldedit or vanilla.
+Next we need to set up the areas our random blocks will spawn in. To do that we have two options, Worldedit or vanilla.
 
 ### Worldedit
 
@@ -57,7 +57,7 @@ ajParkour has another method built in using `/ajp setup pos1` for one corner and
 
 ### Difficulty
 
-The next thing to setup is difficulty, there are 5 options, described below.
+The next thing to set up is difficulty, there are 5 options, described below.
 
 * Easy - The easiest with only one block jumps
 * Medium - Adds two and three block jumps
@@ -91,4 +91,3 @@ Now you have created your course you can join it via `/ajp start <player> <cours
 Typing commands is hard for players... Let's make some portals to join our course!
 
 Stand where you would like your portal and run `/ajp portals create <name>`. A good name would be the name of you course with `_portal` on the end
-

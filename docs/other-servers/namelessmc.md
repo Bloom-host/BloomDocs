@@ -82,7 +82,7 @@ If this is your first time setting up a forum, and you don't have any data to im
 
 ![nmc-cvt-img](https://i.imgur.com/PiJildm.png)
 
-Congratulations! Your forum now set up, and ready to go! You will be prompted to sign in to your Admin Control Panel after completion.
+Congratulations! Your forum is now set up and ready to go! You will be prompted to sign in to your Admin Control Panel after completion.
 This is the password you set up for your admin account.
 
 # Additional Information

@@ -12,7 +12,7 @@ keywords:
 
 Hello there Bloomers! 👋 
 
-In this guide, we will go over on how to create an ARK Survival Evolved server.
+In this guide, we will go over how to create an ARK Survival Evolved server.
 
 :::important
 ARK - Survival Evolved is currently an unsupported server, this means that Bloom doesn't officially provide support for in-game issues and some panel and server features may not work.
@@ -22,12 +22,12 @@ ARK - Survival Evolved is currently an unsupported server, this means that Bloom
 
 First, go to the [game panel](https://mc.bloom.host) and select your server, then click on the **server split** button. Here you will be able to change your existing server to ARK Survival Evolved by clicking the three dots to the right of the server name, selecting **Change Server Type** then under Server Category select **No Supports Servers** and in **Server Type** dropdown select **ARK Survival Evolved**. Remember to click the **Reinstall** button to reinstall the server, this process will start downloading ARK Survival Server to your Bloom server, keep in mind that this process will take a while because it has to download around 20GB of games files.
 
-### How to create an split ARK Survival Evolved server
+### How to create a split ARK Survival Evolved server
 
-If you want to create an split server for ARK Survival Evolved, you can do so by following the same steps as above, but instead of changing the server type of an existing server just fill in the form **Split Server** form on the right, this will create a new server and install ARK Survival Evolved on it.
+If you want to create a split server for ARK Survival Evolved, you can do so by following the same steps as above, but instead of changing the server type of an existing server just fill in the **Split Server** form on the right, this will create a new server and install ARK Survival Evolved on it.
 
 :::important
-ARK Survival Evolved requires about **4GB to run with no players on the default map**. Although it is recommended to run the server with 6GB by the ARK creators, if you decide to run one of the DLC maps you will need increase the RAM, maps as Genesis 2 require over 13GB to start.
+ARK Survival Evolved requires about **4GB to run with no players on the default map**. Although it is recommended to run the server with 6GB by the ARK creators, if you decide to run one of the DLC maps you will need to increase the RAM; maps such as Genesis 2 require over 13GB to start.
 
 **Keep in mind that ARK Survival Evolved is a big game, and it will take a while to download all the files (server install)**, it's recommended you assign at least **30GB of storage** to the server, since the base server files will take around 20GB of space, DLC maps will require more storage space.
 
@@ -90,7 +90,7 @@ To enable crossplay you will need to add the `--crossplay flag option in the **S
 
 ### Connecting through the multiplayer tab on ARK Survival Evolved
 
-Keep in mind that it will take a while for your server to appear on the unnoficial tab of the ARK server list, it can take a few hours up to a day. If it hasn't appeared on the unnoficial list yet, try to connect using the two options above.
+Keep in mind that it will take a while for your server to appear on the unofficial tab of the ARK server list, it can take a few hours up to a day. If it hasn't appeared on the unofficial list yet, try to connect using the two options above.
 
 1. Open ARK and click on **Join ARK**
-2. Click on the **Unnoficial Servers** tab and search for your server then join.
+2. Click on the **Unofficial Servers** tab and search for your server then join.

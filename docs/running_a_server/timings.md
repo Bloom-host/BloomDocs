@@ -48,7 +48,7 @@ Said command will paste a link on the console, which when clicked will take you 
 
 ![img](/running_a_server/timings/1.png)
 
-Anything in red is using a excess of resources. You can also click the plugins tab to see what plugins are using the most resources on your server.
+Anything in red is using an excess of resources. You can also click the plugins tab to see what plugins are using the most resources on your server.
 ## Alternatives to Timings
 Timings, while a great tool to get an overview of performance at a basic level, might not be the best utility to use for more indepth troubleshooting or performance breakdowns.
 A new and popular alternative that we recommend is Spark. Learn more about it [here](/spark).

@@ -28,7 +28,7 @@ Then under the `Holders` section add the following:
 
 ```jsx title="plugins/Topper/config.yml"
 holders:
-  money:   #Using PlaceholderAPI and vault to setup a money leaderboard
+  money:   #Using PlaceholderAPI and vault to set up a money leaderboard
     type: placeholder
     placeholder: '%vault_eco_balance%'
   deaths:   #death leaderboard using toppers statistics feature

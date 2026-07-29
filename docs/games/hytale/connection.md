@@ -47,4 +47,4 @@ When players experience high latency, timeouts, or unstable connections, running
 
 We have a guide on [How to run an MTR](/mtr), please use that to go further with this guide.
 
-Once you have ran a MTR please create a ticket in our [discord](https://discord.gg/bloom) or [billing](https://billing.bloom.host/submitticket.php?step=2&deptid=3) for further assistance.
+Once you have run an MTR, please create a ticket in our [Discord](https://discord.gg/bloom) or [billing panel](https://billing.bloom.host/submitticket.php?step=2&deptid=3) for further assistance.

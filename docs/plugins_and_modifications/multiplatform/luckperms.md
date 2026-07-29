@@ -57,7 +57,7 @@ There are many commands that can be used to manage the permissions on your serve
 
 [Website](https://luckperms.net/)  
 
-[Github](https://github.com/lucko/LuckPerms)  
+[GitHub](https://github.com/lucko/LuckPerms)  
 
 [Support](https://discord.com/invite/luckperms)
 

@@ -4,7 +4,7 @@ title: Installing Modpacks from CurseForge
 slug: /modpacks
 hide_table_of_contents: true
 sidebar_label: Installing Modpacks from CurseForge
-description: This guide will help you setup a server pack from CurseForge
+description: This guide will help you set up a server pack from CurseForge
 keywords:
   - Forge
   - Minecraft

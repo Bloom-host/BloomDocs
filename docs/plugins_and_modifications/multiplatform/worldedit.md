@@ -66,7 +66,7 @@ See Bloom’s documentation: [plugins/worldguard](https://docs.bloom.host/plugin
 
 [Modrinth](https://modrinth.com/plugin/worldedit)
 
-[Github](https://github.com/EngineHub/WorldEdit)  
+[GitHub](https://github.com/EngineHub/WorldEdit)  
 
 [Wiki WorldEdit](https://worldedit.enginehub.org/en/latest/)
 

@@ -20,7 +20,7 @@ This guide will go over how to change your account details in your client area a
 
 ![img](/extras/account_details/1.png)
 
-Head on over to the billing area by going to the header, hovering over support, then clicking Billing Login. Login to your account or register an account from there. 
+Head on over to the billing area by going to the header, hovering over support, then clicking Billing Login. Log in to your account or register an account from there. 
 
 ![img](/extras/account_details/2.png)
 

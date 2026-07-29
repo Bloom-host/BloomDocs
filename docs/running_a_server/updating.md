@@ -16,9 +16,9 @@ keywords:
 ### Introduction
 ![logo](/running_a_server/updating/1.png)
 
-Updating or changing the version of your your Bloom.host server is super easy and fast. We have integrated the API of many popular Minecraft jars into our panel, so you can update your server in seconds, no need to download anything to your local computer.
+Updating or changing the version of your Bloom.host server is super easy and fast. We have integrated the API of many popular Minecraft jars into our panel, so you can update your server in seconds, no need to download anything to your local computer.
 
-This same steps apply to changing the version your server runs on.
+These same steps apply to changing the version your server runs on.
 
 ### Precautions
 - Before updating or changing Minecraft versions be sure to create and test a backup of your entire server. Downgrading a world without causing corruption is near impossible.
