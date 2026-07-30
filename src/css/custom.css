@@ -125,13 +125,22 @@ img:is(.small) {
     max-height: 30dvh;
 }
 
+.doc-page-logo {
+    display: block;
+    width: 72px;
+    height: 72px;
+    margin: 0 auto .75rem;
+    object-fit: cover;
+    border-radius: 14px;
+}
+
 /* Hide the title, we show it differently below */
 .theme-doc-markdown.markdown > header > h1 {
     display: none;
 }
 
-/** Hide the other navbar and footer */
-.pagination-nav, .footer, .react-toggle {
+/** Hide the unused toggle */
+.react-toggle {
     display: none;
 }
 

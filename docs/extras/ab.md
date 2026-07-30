@@ -2,6 +2,7 @@
 id: ab
 title: Bloom Anti Bot
 slug: /ab
+unlisted: true
 hide_table_of_contents: true
 description: Learn more about Bloom's Anti Bot plugin!
 ---

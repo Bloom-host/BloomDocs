@@ -33,7 +33,7 @@ module.exports = {
         {
             type: 'category',
             label: 'Getting Started',
-            collapsed: false,
+            collapsed: true,
             items: [
                 'getting_started/overview',
             ],
@@ -42,7 +42,7 @@ module.exports = {
         {
             type: 'category',
             label: 'Using the Panel',
-            collapsed: false,
+            collapsed: true,
             items: [
                 {
                     type: 'link',
@@ -175,7 +175,7 @@ module.exports = {
 
         {
             type: 'category',
-            label: 'Plugins & Modification',
+            label: 'Plugins & Modifications',
             collapsed: true,
             items: [
                 {
@@ -271,6 +271,7 @@ module.exports = {
                 'other-servers/ark',
                 'other-servers/caddy-server',
                 'other-servers/grafana',
+                'other-servers/namelessmc',
             ],
         },
 

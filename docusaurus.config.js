@@ -1,6 +1,6 @@
 module.exports = {
-    title: 'Docs',
-    tagline: 'Docs for Bloom',
+    title: 'Bloom.host Docs',
+    tagline: 'Guides for Bloom.host servers and services',
     url: 'https://docs.bloom.host',
     baseUrl: '/',
     staticDirectories: [ 'static', 'docs' ],
@@ -66,7 +66,7 @@ module.exports = {
 
         footer: {
             style: 'dark',
-            copyright: `Copyright © ${new Date().getFullYear()} Super Duper Broccoli, Inc. Built with Docusaurus.`,
+            copyright: `Copyright © ${new Date().getFullYear()} Bloom.host.`,
         },
     },
 
