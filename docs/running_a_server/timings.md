@@ -18,8 +18,6 @@ keywords:
   - Bloom.host
 ---
 
-## How to take a Timings Report
-
 :::warning Legacy guide
 The Timings system is no longer available on current Paper and Purpur servers. Use [Spark](/spark) for current performance reports.
 Timings should be considered deprecated and no longer be used.
@@ -36,8 +34,6 @@ More information is available in the [Paper Timings deprecation issue](https://g
 :::note
 As time has gone on, Timings has become a bit outdated, from the Bloom team we usually recommend using [Spark](/spark) instead.
 :::
-
----
 
 ## What is a Timings Report
 A timings report is a way of detecting what is causing lag on your server, if you are running Paper or other Forks of paper you can take a report using the following steps,

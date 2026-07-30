@@ -89,10 +89,6 @@ This is the password you set up for your admin account.
 
 ---
 
-## Additional Information
-
----
-
 ## Friendly URLs
 To use Friendly URLs, navigate to your CaddyServer configuration (`home/caddy/Caddyfile`), and uncomment `# import namelessmc`
 ```text
