@@ -18,11 +18,11 @@ Start by heading over to the [GitHub Releases page](https://github.com/ClumsyAdm
 
 After we have done this, we now want to create the API Key that ClumsyLoader will use to access your server backups. To do this, simply head over to the [panel](https://mc.bloom.host/) and once you are logged in, click **Account API** on the left.
 
-![img](/extras/srvcontrol/1.png)
+![DuckPanel Account API page](/extras/srvcontrol/1.png)
 
 Then click **Create New** and give it a relevant description so that you will remember what this API key is for. There is no need to specify the an IP in the allowed IPs field unless you want to restrict the API access to your IP address or your VPS address, by default it will allow all IP addresses to use the API key. Once you are done, click **create**. Now there will be a list of API keys, in your case there will only be one so just click the key icon to reveal the long key and copy it. 
 
-![img](/extras/srvcontrol/2.png)
+![DuckPanel API key creation form and key reveal control](/extras/srvcontrol/2.png)
 
 :::caution
 Please keep this key secure! Anyone with this API key can utilize it to do anything to the servers hosted under your account. 

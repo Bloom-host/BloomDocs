@@ -2,7 +2,7 @@
 id: sftp
 title: Using SFTP
 slug: /sftp
-hide_table_of_contents: true
+hide_table_of_contents: false
 sidebar_label: Using SFTP For Files
 description: This guide will help you use SFTP (WinSCP/Cyberduck/MobaXTerm/FileZilla/Visual Studio COde) to transfer files.
 keywords:
@@ -27,15 +27,15 @@ keywords:
 **S**SH **F**ile **T**ransfer **P**rotocol is one of the most popular methods of securely transferring files to remote servers.
 
 :::important
-We recommend you zip the files you want to upload to your server, uploading individual files through SFTP can take a long time. Once you have uploaded the .zip file to your server, you can go to the file manager in our Duck Panel, click on the three dots `...` to the right of the .zip and click on `Extract`.  
+We recommend you zip the files you want to upload to your server, uploading individual files through SFTP can take a long time. Once you have uploaded the .zip file to your server, you can go to the File Manager in DuckPanel, click on the three dots `...` to the right of the .zip and click on `Extract`.
 :::
 
 ### More Actions like compress, extract, rename, and others
-If you wish to archive, unarchive or mass delete files, please check out or [guide](../file-manager-controls) on file management through the panel.
+If you wish to archive, unarchive or mass delete files, please check out our [File Manager guide](../file-manager-controls).
 
 ### Using SFTP
 
-![console](/using_the_panel/sftp/2.png)
+![SFTP client connected to the server file system](/using_the_panel/sftp/2.png)
 
 There are several so called *SFTP Clients* few of the more popular ones being [WinSCP](https://winscp.net/), [MobaXTerm](https://mobaxterm.mobatek.net/) or [FileZilla](https://filezilla-project.org/). 
 
@@ -48,9 +48,9 @@ Here you will be able to see your server's SFTP host IP address and port as well
 ### Using WinSCP (Recommended, available only on Windows)
 Firstly, you'll have to download [WinSCP](https://winscp.net/eng/download.php) to your computer. - This should be simple with their installation wizard.
 
-With our new panel, you can simply head over to the [Duck Panel](https://mc.bloom.host/) and click 'Launch SFTP' under 'Settings' on the left side of the screen. You'll simply need to enter your panel password and you are good to go!
+With our new panel, you can simply head over to [DuckPanel](https://mc.bloom.host/) and click 'Launch SFTP' under 'Settings' on the left side of the screen. You'll simply need to enter your panel password and you are good to go!
 
-![console](/using_the_panel/sftp/3.png)
+![DuckPanel Settings menu with the Launch SFTP option](/using_the_panel/sftp/3.png)
 
 WinSCP is very similar to your basic Windows Explorer. However, on the left side of the screen (green area) you can see your local files and on the right side (blue area), you can see the remote server's files.
 You can drag, drop, rename and delete files as you wish. 
@@ -83,9 +83,9 @@ Firstly, you'll have to download [MobaXTerm](https://mobaxterm.mobatek.net/downl
  
 Once installed, launch the application. Right-click on the left side of the screen and click 'New Session'. Select 'SFTP' in the middle.  
 
-![console](/using_the_panel/sftp/4.png)
+![WinSCP New Session form configured for SFTP](/using_the_panel/sftp/4.png)
 
-Enter your host's IP, port, and SFTP username (which can be found in the Duck Panel server settings tab). Then click 'Ok'.  
+Enter your host's IP, port, and SFTP username (which can be found in the DuckPanel server settings tab). Then click 'OK'.
 You will be asked for your panel password, which will be stored by default.  
 
 On the left side (green area) you can see your local files, and on the right side (blue area) you can see the remote server's files. You can drag, drop, rename, and delete files as needed.  

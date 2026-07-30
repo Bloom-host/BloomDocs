@@ -2,7 +2,7 @@
 id: servernpc
 title: ServerNPC
 slug: /plugins/servernpc
-hide_table_of_contents: true
+hide_table_of_contents: false
 sidebar_label: ServerNPC
 description: ServerNPC is a plugin that allows you to create non-player characters, or NPCs, and have them do certain actions.
 keywords:
@@ -26,7 +26,7 @@ ServerNPC is a plugin that allows you to create non-player characters, or NPCs, 
 First, download the [ServerNPC](https://www.spigotmc.org/resources/servernpc-frequently-updates.74524/) plugin and install it into your `plugins` folder.
 
 Next, make sure to download all of its dependencies.
-```
+```text
 PlaceholderAPI - Required (Hard Dependency)
 ProtocolLib - Recommended (Soft Dependency)
 HolographicDisplays - Recommended (Soft Dependency)
@@ -37,7 +37,7 @@ HolographicExtension - Recommended (Soft Dependency)
 
 ## Commands
 Many commands are offered to modify and change the NPCs you create.
-```
+```text
 /npc
 /npc lookRange
 /npc move
@@ -66,7 +66,7 @@ If you open the menu that appears in /npc, and right click the "See NPCs" button
 ![A view of the Editing Wand Menu](https://imgur.com/lDWNO3K.png)
 
 Within the editing wand you can do the following (from left to right in the menu shown above)
-```
+```text
  1. Change the NPC's skin
  2. Add Actions to the NPC
  3. Change what the NPC is holding and wearing

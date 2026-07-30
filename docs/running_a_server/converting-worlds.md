@@ -16,14 +16,14 @@ keywords:
 
 ---
 
-# Converting Bukkit Worlds to vanilla
+## Converting Bukkit Worlds to vanilla
 If you upload or generate a world on a Bukkit/Spigot/Paper server, you will notice that when the server loads it splits the world into three folders: `world`, `world_nether` and `world_the_end`, or one for each dimension. This is fine until you want to download the world and run it in singleplayer or switch to a vanilla/Fabric/Forge server. This guide shows you how to convert Bukkit/Spigot/Paper worlds back to ones that can be used on vanilla or other server types. Note that the screenshots provided were taken on macOS, but the method should work for all platforms.
 
 ## Part 1: Download the world
-**Note:** This is not strictly necessary, you CAN use SFTP or the file manager if you want, but downloading the files makes them much easier to work with.
+**Note:** This is not strictly necessary, you CAN use SFTP or the File Manager if you want, but downloading the files makes them much easier to work with.
 
 
-This is most easily done by archiving the files using the Pterodactyl file manager and downloading them using SFTP. For instructions on using the file manager and SFTP, please see [File Manager Controls](/file-manager-controls/) and [How to use SFTP](/sftp/), respectively.
+This is most easily done by archiving the files using the File Manager and downloading them using SFTP. For instructions on using the File Manager and SFTP, please see [File Manager Controls](/file-manager-controls/) and [How to use SFTP](/sftp/), respectively.
 
 ## Part 2: Converting the world
 

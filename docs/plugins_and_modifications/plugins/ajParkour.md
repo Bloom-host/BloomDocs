@@ -2,7 +2,7 @@
 id: ajparkour
 title: ajParkour
 slug: /plugins/ajparkour
-hide_table_of_contents: true
+hide_table_of_contents: false
 sidebar_label: ajParkour
 description: A randomly generated parkour plugin
 keywords:
@@ -43,7 +43,7 @@ Firstly, you need to give your area a name, for this we will use "BloomDocs" so 
 
 Next we need to set up the areas our random blocks will spawn in. To do that we have two options: WorldEdit or vanilla.
 
-### Worldedit
+### WorldEdit
 
 :::caution
 [WorldEdit](https://dev.bukkit.org/projects/worldedit) must be installed for this to work, if you don't have it installed, use the method below

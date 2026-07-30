@@ -24,11 +24,11 @@ management tab.
 
 Open your server in the DuckPanel and open the 'File Manager' tab.
 
-![File manager tab](/running_a_server/datapacks/1.png)
+![File Manager tab](/running_a_server/datapacks/1.png)
 
 Select the world you want to install the datapack onto.
 
-![File manager tab showing the datapacks folder](/running_a_server/datapacks/2.png)
+![File Manager tab showing the datapacks folder](/running_a_server/datapacks/2.png)
 
 Open the `datapacks/` folder and click the 'Upload' button in the top right corner. 
 Select your datapack to upload it. You can also drag and drop the datapack `.zip` file.
@@ -37,7 +37,7 @@ Select your datapack to upload it. You can also drag and drop the datapack `.zip
 Remember that you need to upload the `.zip` datapack file, you don't need to unzip it.
 :::
 
-![File manager tab showing the datapacks folder with a zip file](/running_a_server/datapacks/3.png)
+![File Manager tab showing the datapacks folder with a zip file](/running_a_server/datapacks/3.png)
 
 Now restart your server, feel free to open a ticket if you need any assistance.
 

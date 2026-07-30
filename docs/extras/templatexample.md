@@ -143,7 +143,7 @@ Spark is included by default in Paper versions 1.20 and above.
 :::
 
 :::tip Custom Tip Title
-You can install plugins via SFTP or directly through the Panel's file manager.
+You can install plugins via SFTP or directly through the panel's File Manager.
 :::
 
 :::caution

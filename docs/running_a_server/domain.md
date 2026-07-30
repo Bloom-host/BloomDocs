@@ -23,7 +23,7 @@ First, go to the [game panel](https://mc.bloom.host) and select your server. On 
 
 ![Bloom.host Pointing A Domain](/running_a_server/domain/1.png)
 
-In this guide we're going use CloudFlare to point our domain to the server. Simply register [here](https://dash.cloudflare.com/sign-up). After registration, they will guide you through the process of connecting your domain to CloudFlare.
+In this guide we're going use Cloudflare to point our domain to the server. Simply [create a Cloudflare account](https://dash.cloudflare.com/sign-up). After registration, they will guide you through the process of connecting your domain to Cloudflare.
 
 Alternatively, some domain providers allow you to use their own systems for DNS. Though all sites look different, the task is the same for all of them. 
 
@@ -31,7 +31,7 @@ Alternatively, some domain providers allow you to use their own systems for DNS.
 Ensure that the server is grey cloud (not proxied by cloudflare). You can still use cloudflare, just make sure it has a grey cloud so it's <u>not proxied</u>.
 :::
 
-![img](/running_a_server/domain/2.png)
+![Cloudflare DNS record pointing a domain to the server address](/running_a_server/domain/2.png)
 
 ---
 
@@ -43,7 +43,7 @@ Ensure that the server is grey cloud (not proxied by cloudflare). You can still 
 Click Save. This process will now take up to 48 hours to apply, but in most cases, it will be under a couple of minutes with Cloudflare!
 
 ---
-# Pointing a domain to a server that doesn't use port 25565 (split servers or Essentials Plans servers)
+## Pointing a domain to a server that doesn't use port 25565 (split servers or Essentials Plans servers)
 
 If you have a split server or Essentials Plans server and it doesn't have a 25565 port, and you want to join to them directly you will need to use something similar to this: `play.example.com:25566`. We can get around this by using a **DNS SRV record** that points to the split server port.
 
@@ -57,7 +57,7 @@ If you wish to have multiple servers with clean domains on a network, [it's reco
 For the following steps we assume you already have created an A record pointing to your server IP. If you haven't done so, please follow the steps above to create another A record before you create the SRV Record.
 :::
 
-![img](/running_a_server/domain/3.png)
+![Cloudflare SRV record configured for a non-default Minecraft port](/running_a_server/domain/3.png)
 
 To create a DNS SRV record you will head to your registrar or Cloudflare DNS configuration page. 
 - Once you are there, you will click on add a new DNS record and you will select `SRV`.

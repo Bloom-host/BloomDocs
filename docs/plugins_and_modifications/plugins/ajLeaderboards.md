@@ -15,7 +15,7 @@ keywords:
 
 This plugin allows you to create leaderboards for basically anything using PlaceholderAPI placeholders. This is one of the many options available to create and implement the popular scoreboard format as part of the in-game GUI.
 
-![image](https://i.imgur.com/P05opDe.png)
+![Minecraft leaderboard created with ajLeaderboards](https://i.imgur.com/P05opDe.png)
 
 ---
 

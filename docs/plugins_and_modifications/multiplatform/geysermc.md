@@ -29,14 +29,14 @@ Geyser translates network traffic so Bedrock players can join Java servers. It m
 
 [Download the plugin](https://geysermc.org/download) according to your platform and upload the `.jar` into your `plugins` or `mods` folder. Restart the server once to generate the configuration files.
 
-If you need help installing plugins, check out [this guide](/installing-plugins).  
+If you need help installing plugins, check out our [plugin installation guide](/installing-plugins).
 
 Once installed, go to the **Ports & Proxies** page on the Bloom.Host panel. Create a new port allocation using `19132`. While it is the default, you can use any available port assigned to your server.
 
 After assigning the port, update the `port:` value in Geyser's `config.yml` to match your new allocation (if not the default), then restart the server.
 
 :::important
-Players on consoles must follow the instructions on [this page](https://wiki.geysermc.org/geyser/using-geyser-with-consoles/) as consoles do not allow joining custom servers by default.
+Players on consoles must follow the [Geyser console connection instructions](https://wiki.geysermc.org/geyser/using-geyser-with-consoles/) as consoles do not allow joining custom servers by default.
 :::
 
 :::note

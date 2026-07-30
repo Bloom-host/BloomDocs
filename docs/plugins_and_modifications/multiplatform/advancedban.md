@@ -27,7 +27,7 @@ For assistance on how to install plugins, please refer to the [Bukkit plugin ins
 
 You will then need to decide if you are going to be using internal storage (HSQLDB) or external storage (MySQL).
 
-If you decide to use MySQL for AdvancedBan, you can [learn how to set up a MySQL database here](/databases).
+If you decide to use MySQL for AdvancedBan, you can [learn how to set up a MySQL database](/databases).
 
 ## Usage 
 AdvancedBan has many commands to be able to moderate and punish rule-breakers, the most important commands are here:

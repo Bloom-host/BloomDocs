@@ -18,7 +18,7 @@ keywords:
   - Bloom.host
 ---
 
-# **How to take a Timings Report**
+## How to take a Timings Report
 
 :::warning Legacy guide
 The Timings system is no longer available on current Paper and Purpur servers. Use [Spark](/spark) for current performance reports.
@@ -30,7 +30,7 @@ Paper 1.21.3 and newer have timings permanently disabled and timings can no long
 
 Purpur 1.19 and newer do not support timings.
 
-More information can be found [here](https://github.com/PaperMC/Paper/issues/8948)
+More information is available in the [Paper Timings deprecation issue](https://github.com/PaperMC/Paper/issues/8948).
 :::
 
 :::note
@@ -46,11 +46,11 @@ After waiting 10m, run the command `/timings paste`.
 
 Said command will paste a link on the console, which when clicked will take you to a web interface similar to the one shown below.
 
-![img](/running_a_server/timings/1.png)
+![Paper Timings report web interface](/running_a_server/timings/1.png)
 
 Anything in red is using an excess of resources. You can also click the plugins tab to see what plugins are using the most resources on your server.
 ## Alternatives to Timings
 Timings, while a great tool to get an overview of performance at a basic level, might not be the best utility to use for more indepth troubleshooting or performance breakdowns.
-A new and popular alternative that we recommend is Spark. Learn more about it [here](/spark).
+A new and popular alternative that we recommend is Spark. Learn more in our [Spark guide](/spark).
 
 If you require help with reading your timings, create a ticket in [Bloom.host Discord!](https://discord.gg/bloom)

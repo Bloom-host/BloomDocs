@@ -2,7 +2,7 @@
 id: worldedit
 title: WorldEdit
 slug: /multiplatform/worldedit
-hide_table_of_contents: true
+hide_table_of_contents: false
 sidebar_label: WorldEdit
 description: An in-game world editing plugin to manipulate blocks
 keywords:
@@ -35,15 +35,15 @@ For other platforms (such as Forge or Fabric,) refer to [EngineHub’s guide on 
 
 There are many commands in WorldEdit. This doc will go over a few simple ones, but if you want to learn more, consult WorldEdit's [Wiki](https://worldedit.enginehub.org/en/latest/).  
 
-#### //wand and //pos
+### //wand and //pos
 
 Running the command `//wand` in-game will give you a wooden axe. You can use this to make area selections by *left clicking* on a block to set pos1, and *right clicking* on a block to set pos2. If you don't have a block to click on, you can run `//pos1` and `//pos2` in each position to make selections in the air.  
 
-#### //set and //walls
+### //set and //walls
 
 You can run the command `//set [block]` to fill your selection entirely with that one block. You can also run `//set [block],[another block]` to fill 50% of the selection with the first block, and the other 50% with the second block. You can, of course, create more complicated patterns (like setting percentages of blocks), but for that, you should consult the [Wiki](https://worldedit.enginehub.org/en/latest/). `//walls [block]` will build the four sides of your selection out of that block or pattern, and it uses the same syntax as `//set`.  
 
-#### Shapes
+### Shapes
 
 This part of the doc will go over how to make 2 shapes, spheres and cylinders. If you want to learn how to make other shapes, check out WorldEdit's [Wiki](https://worldedit.enginehub.org/en/latest/).  
 
@@ -53,7 +53,7 @@ If you feel like making a cylinder, run `//cyl [block] [radii] [height]`. This w
 
 ## Useful additions
 
-#### WorldGuard:
+### WorldGuard:
 
 Allows for the creation of regions to protect areas.
 
@@ -66,7 +66,7 @@ See Bloom’s documentation: [plugins/worldguard](https://docs.bloom.host/plugin
 
 [Modrinth](https://modrinth.com/plugin/worldedit)
 
-[GitHub](https://github.com/EngineHub/WorldEdit)  
+[GitHub](https://github.com/EngineHub/WorldEdit)
 
 [Wiki WorldEdit](https://worldedit.enginehub.org/en/latest/)
 

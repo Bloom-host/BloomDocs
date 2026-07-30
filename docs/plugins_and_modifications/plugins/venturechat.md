@@ -2,7 +2,7 @@
 id: venturechat
 title: VentureChat
 slug: /plugins/venturechat
-hide_table_of_contents: true
+hide_table_of_contents: false
 sidebar_label: VentureChat
 description: An easy to use and customisable plugin for your chat needs.
 keywords:
@@ -23,16 +23,16 @@ VentureChat is the #1 Bukkit chat resource on Spigot which is a do-it-all chat p
 ## Usage
 
 :::important
-This plugin requires Java 17 or higher to work. The instructions on how to change the Java version used by your server are [here](/java-version)
+This plugin requires Java 17 or higher to work. See our [Java version guide](/java-version) for instructions.
 :::
 
-To use this plugin, [download](https://www.spigotmc.org/resources/venturechat.771/) the jar file you will use for installation. This plugin can be used on Bungeecord servers by placing it into the relative plugins folder too.
+To use this plugin, [download VentureChat](https://www.spigotmc.org/resources/venturechat.771/) for installation. This plugin can be used on BungeeCord servers by placing it into the relevant `plugins` folder too.
 
-Once you have downloaded the .jar file, upload it into your `plugins` folder then either start or restart the server. If you need assistance in installing plugins, check out [this guide](/installing-plugins).  
+Once you have downloaded the .jar file, upload it into your `plugins` folder then either start or restart the server. If you need assistance, check out our [plugin installation guide](/installing-plugins).
 
 To begin, simply edit the `config.yml` channels below. Here is an example from the [VentureChat Wiki](https://www.spigotmc.org/wiki/venturechat-wiki/)
 
-```
+```yaml
 Build:
     color: dark_green
     chatcolor: white
@@ -58,7 +58,7 @@ Here are a list of key terms you have seen in the above configuration that can b
 
 `cooldown` - Defines how quickly you can send messages in seconds. E.g. If you set this option to 3, people can only send a message per 3 seconds.
 
-`bungeecord` - This enables cross-server messages. Due to the complexities of this function, read the relevant wiki page [here](https://www.spigotmc.org/wiki/venturechat-wiki/).
+`bungeecord` - This enables cross-server messages. Due to the complexities of this function, read the [VentureChat wiki](https://www.spigotmc.org/wiki/venturechat-wiki/).
 
 `autojoin` - Defines whether or not this channel is the first channel you enter on join. It is recommended you only enable autojoin for one channel only to avoid conflicts.
 

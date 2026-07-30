@@ -72,7 +72,7 @@ You can utilise our [schedule feature](../schedules) to automatically generate b
 First, open the 'Schedules' tab of the panel. Here, click the 'Templates' button in the bottom right corner:
 ![Templates button](templates_button.png)
 
-Lastly, click 'Create' next to the 'Daily Restart' template:
+Lastly, click 'Create' next to the 'Daily Backup' template:
 ![Template list showing backups](templates.png)
 
 Once created, you can access the schedule in the same place:
@@ -222,7 +222,7 @@ You can use the 'View' button in its context menu to navigate to the mounted fol
 ![Backup mounted with view button highlighted](mounted.png)
 
 You can also find it in the main folder of your File Manager:
-![File manager showing mounted backup](mounted_file_manager.png)
+![File Manager showing the mounted backup](mounted_file_manager.png)
 
 Similarly, you can use [SFTP](../sftp) to access this special folder.
 
@@ -235,7 +235,7 @@ it to `plugins/Chunky/`.
 
 Copying works as it does by default, and you can even copy the files to a different server split.
 
-![Extract and copy buttons in the file manager](mount_extract.png)
+![Extract and copy buttons in the File Manager](mount_extract.png)
 
 Note that extracting may take significantly longer than a regular copy, since it's done over the network.
 
@@ -291,7 +291,7 @@ You can find out more in [our dedicated guide](../../extras/clumsyloader)!
 When you [restore](#restoring-full-backups) or [mount](#mounting-backups) a backup, you can find them
 as [SQL dumps](https://en.wikipedia.org/wiki/Database_dump) in a special `backup_db/` directory:
 
-![MySQL backup_db folder in the file manager](./mysql_backups.png)
+![MySQL backup_db folder in the File Manager](./mysql_backups.png)
 
 You can use the 'Import to database' button in the context menu to re-import them to a new database.
 
@@ -366,7 +366,7 @@ Select the 'Upgraded' option in 'Pro Backup Addon' at the last step of the check
 ### For Existing Plans
 
 :::note Bare Metal Servers with the Game Panel Management Addon
-Please [open a ticket](https://billing.bloom.host/submitticket.php) on our billing panel requesting the Pro Backup Addon.
+Please [open a ticket](https://billing.bloom.host/submitticket.php) in our Billing Portal requesting the Pro Backup Addon.
 :::
 
 1. Head over to the [billing area](https://billing.bloom.host) and click 'Manage' next to your plan:

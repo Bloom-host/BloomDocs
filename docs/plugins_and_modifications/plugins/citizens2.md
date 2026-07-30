@@ -2,7 +2,7 @@
 id: citizens2
 title: Citizens 2
 slug: /plugins/citizens2
-hide_table_of_contents: true
+hide_table_of_contents: false
 sidebar_label: Citizens 2
 description: How do I find you when I cannot solve this problem
 keywords:
@@ -58,7 +58,7 @@ Rather than go over basic commands, listed below are several examples on how to 
 ### Creating an NPC
 
 :::note
-These examples are assuming you have installed Citizens as well as Denizen, Sentinel, and dtlTraders plugins.
+These examples assume you have installed Citizens as well as Denizen, Sentinel, and dtlTraders.
 :::
 
 #### Basic Human NPC
@@ -103,7 +103,7 @@ To rename an NPC, do the following:
 1. Make sure you have the NPC selected (see above)
 1. Type `/npc2 rename [name]` (For example, to rename Bob above to Jill, type `/npc2 rename Jill`).
 
-### Deleting or despawing
+### Deleting or despawning
 
 - To delete an NPC, make sure you have the NPC selected and then type `/npc2 remove`.  Note that there is no undo!
 - To despawn an NPC without deleting them, make sure you have the NPC selected and then type `/npc2 despawn`.  To repawn them, type `/npc2 spawn [name]` (e.g. `/npc2 spawn Jill`)

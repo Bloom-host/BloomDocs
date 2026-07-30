@@ -28,4 +28,4 @@ Hytale handles mod installation when a client joins automatically.
 The best way to learn how to use a mod is to review its mod page. Most mods list their available commands and configuration options there (for example, [Spark](https://spark.lucko.me/docs/Command-Usage)).
 
 If a mod does not document its commands, you can run the following command to list all available commands and identify which mod provides them:
-```commands dump```
+`commands dump`

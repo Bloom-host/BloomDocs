@@ -32,15 +32,15 @@ ViaVersion **needs** to be installed for ViaBackwards and ViaRewind to work and 
 :::
 
 :::note
-Confused about which Via plugin you need to use to support certain versions? Use this [website](https://jo0001.github.io/ViaSetup/?lang=en) to know which Via plugins you need to install.
+Confused about which Via plugin you need to support certain versions? Use the [ViaSetup compatibility tool](https://jo0001.github.io/ViaSetup/?lang=en) to identify which Via plugins to install.
 :::
 
-![img](/plugins_and_modifications/plugins/viaversion/1.png)
+![ViaSetup compatibility chart for ViaVersion, ViaBackwards, and ViaRewind](/plugins_and_modifications/plugins/viaversion/1.png)
 
 ---
 
 ## Usage
-Download the plugins and upload them into your `plugins` folder. Restart or turn on your server. If you need help with installing plugins, check out [this guide](/installing-plugins).
+Download the plugins and upload them into your `plugins` folder. Restart or turn on your server. If you need help, check out our [plugin installation guide](/installing-plugins).
 
 Once you have installed the plugins and restarted your server, Java players should be able to join from any version!
 

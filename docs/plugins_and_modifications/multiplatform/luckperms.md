@@ -31,15 +31,15 @@ Unlike PermissionsEx (Bukkit/Spigot) which has not been updated since January 20
 
 ### Bukkit/Spigot/Paper and forks 
 
-To use this plugin, [download](https://luckperms.net/download) the jar you need it for. Most commonly, for single servers, it would be the Bukkit jar.  
+To use this plugin, [download LuckPerms](https://luckperms.net/download) for the platform you need. Most commonly, for single servers, it would be the Bukkit jar.
 
-Upload the jar into your `plugins` folder. Turn on or restart the server. If you need help installing plugins, check out [this guide](/installing-plugins).  
+Upload the jar into your `plugins` folder. Turn on or restart the server. If you need help installing plugins, check out our [plugin installation guide](/installing-plugins).
 
 ### Forge/Fabric
 
-To use this mod, [download](https://luckperms.net/download) the Forge or Fabric jar.  
+To use this mod, [download LuckPerms](https://luckperms.net/download) for Forge or Fabric.
 
-Upload the jar into your `mods` folder. Turn on or restart the server. If you need help installing mods, check out [this guide](/mods-install).  
+Upload the jar into your `mods` folder. Turn on or restart the server. If you need help installing mods, check out our [server mod installation guide](/mods-install).
 
 ### Network install
 Refer to the [LuckPerms wiki](https://luckperms.net/wiki/Network-Installation) for instructions on how to complete a network installation (A [MySQL database](/databases) is required.)
@@ -57,7 +57,7 @@ There are many commands that can be used to manage the permissions on your serve
 
 [Website](https://luckperms.net/)  
 
-[GitHub](https://github.com/lucko/LuckPerms)  
+[GitHub](https://github.com/lucko/LuckPerms)
 
 [Support](https://discord.com/invite/luckperms)
 

@@ -1,9 +1,9 @@
 ---
 id: early_renewal
 title: Early Renewal
-hide_table_of_contents: true
+hide_table_of_contents: false
 sidebar_label: Early Renewal
-description: This guide will show you how to renew a service early on our billing panel
+description: This guide will show you how to renew a service early in our Billing Portal
 keywords:
   - early renewal
   - service renewal
@@ -19,11 +19,11 @@ Bloom.host clients can renew their services early, **as long as the next due dat
 
 ### How It Works
 
-You can renew your services early directly from our billing panel, specifically on the [Early Renewal](https://billing.bloom.host/service-renewals) page.
+You can renew your services early directly from our Billing Portal, specifically on the [Early Renewal](https://billing.bloom.host/service-renewals) page.
 
 On this page, you can choose the service you want to renew early by clicking Add to Cart. If multiple services are eligible for early renewal, you can renew them all at once.
 
-![img](/billing/early_renewal/1.png)
+![Early renewal page listing an eligible service and Add to Cart button](/billing/early_renewal/1.png)
 
 After adding the service to your cart, click Checkout and complete the checkout process. Once the process is complete, your service will be renewed.
 

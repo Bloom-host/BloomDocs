@@ -13,18 +13,18 @@ keywords:
 ## How to upgrade, downgrade or transfer your server to another Bloom datacenter location
 
 :::note
-If you want to downgrade to an Essentials plan please open a billing ticket [here](https://billing.bloom.host/submitticket.php).
+If you want to downgrade to an Essentials plan, please [open a billing ticket](https://billing.bloom.host/submitticket.php).
 :::
 :::note
-To upgrade or transfer a VPS service please open a billing ticket [here](https://billing.bloom.host/submitticket.php).
+To upgrade or transfer a VPS service, please [open a billing ticket](https://billing.bloom.host/submitticket.php).
 :::
 :::caution
-Downgrading VPS services is not possible due to the limitations of KVM software. Reducing disk size is not possible without rebuilding the VM. To downgrade you can purchase a new VPS and transfer your data over, once you are done you can request a prorated credit refund for your old VPS plan. To request the credit refund you'll need to open a billing ticket [here](https://billing.bloom.host/submitticket.php)
+Downgrading VPS services is not possible due to the limitations of KVM software. Reducing disk size is not possible without rebuilding the VM. To downgrade you can purchase a new VPS and transfer your data over, once you are done you can request a prorated credit refund for your old VPS plan. To request the credit refund, you'll need to [open a billing ticket](https://billing.bloom.host/submitticket.php)
 :::
 
-To request a plan upgrade, downgrade or a change of location go to the Products section of our billing panel [here](https://billing.bloom.host/clientarea.php?action=services), sign in with your Billing Account, click the three dots to the right side of the Product you want to upgrade, then select the Upgrade/Downgrade button.
+To request a plan upgrade, downgrade or a change of location, go to the [Products section of our Billing Portal](https://billing.bloom.host/clientarea.php?action=services), sign in with your Billing Account, click the three dots to the right side of the product you want to upgrade, then select the Upgrade/Downgrade button.
 
-![img](/discord/upgrade.png)
+![Billing Portal product menu showing the Upgrade or Downgrade option](/discord/upgrade.png)
 
 On the upgrade page you will be able to select to what location and plan you want to upgrade/downgrade to, here you can also switch between datacenter locations. Once you select the plan it will generate an invoice (if needed) which needs to be paid before the upgrade and transfer process begins.
 

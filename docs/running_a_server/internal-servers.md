@@ -29,7 +29,7 @@ Now we have fully internal servers that are only accessible via servers on the s
 
 To make your server internal you can click the "Make Internal" button on the Ports and Proxies tab. Keep in mind this will wipe all your public ports so keep them in mind, if you forget which ports you're using and accidentally wipe them you can see which ones were deleted in your audit log.
 
-![img](/running_a_server/internal_servers/1.PNG)
+![Ports and Proxies tab with the Make Internal button](/running_a_server/internal_servers/1.PNG)
 
 The full serverid can be found under the Ports and Proxies tab when you make your server internal, but you can also find it by clicking your serverid in the console tab, or under the settings tab.
 
@@ -39,10 +39,10 @@ Connectivity between splits is fully accessible over your splits hostname. For e
 
 Below is an example of a Velocity instance setup with internal backend servers
 
-![img](/running_a_server/internal_servers/2.PNG)
+![Velocity split with internal backend servers](/running_a_server/internal_servers/2.PNG)
 
 ________
 
 You can also open public ports like normal even after you make your server internal. For example, below is an internal backend server but with a public 8123 port for Dynmap
 
-![img](/running_a_server/internal_servers/3.PNG)
+![Internal backend server with a public Dynmap port](/running_a_server/internal_servers/3.PNG)

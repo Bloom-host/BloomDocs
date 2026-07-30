@@ -27,7 +27,7 @@ Floodgate is a hybrid-mode plugin that enables [Geyser](/multiplatform/geysermc)
 
 [Download the plugin](https://geysermc.org/download/?project=floodgate) for your specific platform (Spigot, Velocity, Fabric, etc.) and upload the `.jar` into your `plugins` or `mods` folder. Restart the server once to generate the necessary encryption keys.
 
-If you need help installing plugins, check out [this guide](/installing-plugins).  
+If you need help installing plugins, check out our [plugin installation guide](/installing-plugins).
 
 Once installed, you must configure Geyser to use Floodgate for authentication:
 1. Locate the Geyser configuration file.

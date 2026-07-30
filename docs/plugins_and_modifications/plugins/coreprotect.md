@@ -31,7 +31,7 @@ CoreProtect is a fast, efficient, data logging and anti-griefing tool. Rollback 
 
 
 :::important
-Before you get started, you need to have created a MySQL database. More info on that can be found [here](/databases).
+Before you get started, you need to have created a MySQL database. See our [database guide](/databases) for instructions.
 :::
 [Download the plugin](https://www.spigotmc.org/resources/coreprotect.8631/), and upload the jar into your `/plugins folder`, and then restart the server. If you need help installing plugins, check [How to install plugins](/installing-plugins).
 
@@ -55,7 +55,7 @@ One command you can use in CoreProtect is `/co i`. This will allow you to left c
 
 Another command you can use is `/co rollback u:<user> t:<time> r:<radius> a:<action> b:<blocks> e:<exclude>`. Running that command will print a list of every action (that you choose) within the radius and time period, by a user you choose. Not all of those parameters are necessary.  
 
-There are, of course, more commands in the plugin, which you can check out [here](https://www.minerealm.com/community/viewtopic.php?f=32&t=6781).
+You can find more commands in the [CoreProtect command reference](https://www.minerealm.com/community/viewtopic.php?f=32&t=6781).
 
 ---
 

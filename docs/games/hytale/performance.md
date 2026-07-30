@@ -1,7 +1,7 @@
 ---
 id: performance
 title: Performance Optimizations
-hide_table_of_contents: true
+hide_table_of_contents: false
 sidebar_label: Performance Optimizations
 description: This guide will help fix some general issues with hytale performance
 keywords:
@@ -46,7 +46,7 @@ Example; ``world settings pregenerate 1200 1200 -1200 -1200``
 
 Then restart your Hytale server so pregen can begin. 
 
-You can cancel the pregen anytime via the command: ```world settings pregenerate cancel```
+You can cancel the pregen anytime via the command: `world settings pregenerate cancel`
 
 ## Checking Performance Improvements
 

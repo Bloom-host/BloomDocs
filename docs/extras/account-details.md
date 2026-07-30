@@ -3,7 +3,7 @@ id: account-details
 title: Editing Account Details
 hide_table_of_contents: true
 sidebar_label: Editing Account Details
-description: This guide will help you edit your account details in the billing panel, and on the minecraft panel
+description: This guide will help you edit your account details in the Billing Portal and DuckPanel
 keywords:
   - Bloom.host
   - Edit Account Details
@@ -18,15 +18,15 @@ This guide will go over how to change your account details in your client area a
 
 ## Client Area
 
-![img](/extras/account_details/1.png)
+![Bloom.host website navigation with Billing Login under Support](/extras/account_details/1.png)
 
 Head on over to the billing area by going to the header, hovering over support, then clicking Billing Login. Log in to your account or register an account from there. 
 
-![img](/extras/account_details/2.png)
+![Billing Portal login and registration page](/extras/account_details/2.png)
 
 Now, click **Update** under Your Info. 
 
-![img](/extras/account_details/3.png)
+![Billing Portal account page with the Update button](/extras/account_details/3.png)
 
 This area lets you edit any details about your account from payment methods to emails sent to changing your password. Once done, click **Save Changes** for all your changes to take effect. 
 
@@ -66,4 +66,4 @@ You will be redirected back to the DuckPanel where it will show your currently l
 
 If you ever need to unlink your account, simply click 'Unlink Account' in the panel, or 'Deauthorise' under 'Authorised
 Apps' in your Discord settings.
-![img](/extras/account_details/deauthorize.png)
+![Discord Authorized Apps page with the Deauthorize button](/extras/account_details/deauthorize.png)

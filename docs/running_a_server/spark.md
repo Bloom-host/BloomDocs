@@ -2,7 +2,7 @@
 id: spark
 title: Taking a Spark Profile
 slug: /spark
-hide_table_of_contents: true
+hide_table_of_contents: false
 sidebar_label: Taking a Spark Profile
 description: How to run a Spark profile to identify causes of lag on your server.
 keywords:
@@ -31,7 +31,7 @@ Download the latest build from [Spark](https://spark.lucko.me/download) and drop
 ## Using The Profiler
 
 :::note
-Some versions of spark use different command roots, /sparkb for BungeeCord, /sparkv for Velocity, and /sparkc for Fabric/Forge. If you are having trouble running the command try using the corresponding subfix. 
+Some versions of Spark use different command roots: `/sparkb` for BungeeCord, `/sparkv` for Velocity, and `/sparkc` for Fabric/Forge. If you are having trouble running the command, try using the corresponding suffix.
 :::
 
 The most useful tool in terms of diagnostics is the profiler feature which can be run with `/spark profiler start`.
@@ -42,17 +42,17 @@ Once you are ready to check the results of the profiler you should run `/spark p
 
 When you open the link you'll find a useful web interface that displays all the data collected.
 
-![img](/running_a_server/spark/1.png)
+![Spark profiler web interface showing collected performance data](/running_a_server/spark/1.png)
 
 ## Other Useful Commands
 
 Running `/tps` will display an output that looks like this:
 
-![img](/running_a_server/spark/2.png)
+![Server console output from the TPS command](/running_a_server/spark/2.png)
 
 Running `/spark healthreport` will display an output that looks like this:
 
-![img](/running_a_server/spark/3.png)
+![Server console output from the Spark health report command](/running_a_server/spark/3.png)
 
 The values will depend on your server, newer versions of Spark will contain more useful information, as the utility is in active development.
 

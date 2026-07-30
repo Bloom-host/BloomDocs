@@ -15,13 +15,13 @@ keywords:
 ---
 
 :::important
-This guide is for Bukkit/Spigot/Paper servers. If you are looking for instructions on how to install plugins on a BungeeCord/Waterfall or Velocity proxy, please see [this guide](/installing-proxy-plugins)
+This guide is for Bukkit/Spigot/Paper servers. If you are looking for instructions on how to install plugins on a BungeeCord/Waterfall or Velocity proxy, please see our [proxy plugin installation guide](/installing-proxy-plugins).
 :::
 
 ### The Basics
 > #### Requirements
 > 
-> In order to run plugins on your server, you have to be using a fork of Bukkit. (such as Spigot, Paper, Pupur, Pufferfish, etc. See our [guide on server jars](/jars) for more information.) If you wish to make client-side modifications (as well), see our guide on [installing server mods](/mods-install)!
+> In order to run plugins on your server, you have to be using a fork of Bukkit. (such as Spigot, Paper, Purpur, Pufferfish, etc. See our [guide on server jars](/jars) for more information.) If you wish to make client-side modifications (as well), see our guide on [installing server mods](/mods-install)!
 
 > #### What are plugins?
 >

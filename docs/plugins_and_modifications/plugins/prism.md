@@ -25,12 +25,12 @@ Prism is a highly configurable, powerful, high-performance grief management (rol
 ## Usage
 
 :::important
-Although Prism can use a local database, it's recommended to use a MySQL database. That requires you to have created a MySQL database. More info on that can be found [here](/databases).
+Although Prism can use a local database, it's recommended to use a MySQL database. That requires you to have created a MySQL database. See our [database guide](/databases) for instructions.
 :::
 
 [Download the plugin](https://modrinth.com/plugin/prism/versions) and upload the jar into your `plugins` folder.
 
-Also upload the NBT-API plugin from [here](https://modrinth.com/plugin/nbtapi/versions) into your `plugins` folder. You need both the Prism and NBT-API jar files. If you need help installing plugins, check out [this guide](/installing-plugins).
+Also upload the [NBT-API plugin](https://modrinth.com/plugin/nbtapi/versions) into your `plugins` folder. You need both the Prism and NBT-API jar files. If you need help installing plugins, check out our [plugin installation guide](/installing-plugins).
 
 Restart or turn on the server. After that, go to the `prism` folder, which can be found inside the `plugins` folder. From there, edit the `storage.conf` file.
 

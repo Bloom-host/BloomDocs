@@ -2,7 +2,7 @@
 id: multiverse
 title: Multiverse
 slug: /plugins/multiverse
-hide_table_of_contents: true
+hide_table_of_contents: false
 sidebar_label: Multiverse
 description: A plugin called multiverse which lets you have multiple worlds on one server.
 keywords:
@@ -10,7 +10,7 @@ keywords:
   - Multiple Worlds
   - Spigot
   - Bloom.host
-  - Bloom Host
+  - Bloom.host
   - Pterodactyl Panel
   - Minecraft
 ---

@@ -1,7 +1,7 @@
 ---
 id: connection-issues
 title: Connection issues
-hide_table_of_contents: true
+hide_table_of_contents: false
 sidebar_label: Connection issues
 description: This guide will help fix some issues with ping spikes or general lag with hytale.
 keywords:

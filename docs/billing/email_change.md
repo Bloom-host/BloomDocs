@@ -14,7 +14,7 @@ keywords:
 
 Hey Bloomers! In this guide we will be going over how to change your account email address in our Billing and Minecraft panel.
 
-## How to change your Billing Panel Email Address
+## How to change your Billing Portal email address
 :::caution
 The billing system we use requires you to change your email address in two sections, the account details section and the profile section. You may face sign-in or notification issues if you change your email address in only one of these sections, so make sure you change the email in both of them.
 
@@ -23,14 +23,14 @@ The email used to log in to your billing account is the one defined in the "Prof
 
 The first step is to change your email address on the [Profile section](https://billing.bloom.host/clientarea.php?action=profile), sign in with your billing credentials and put the new email on the **Email Address** field then click on save.
 
-![img](/billing/email_change/2.png)
+![Billing profile form with the Email Address field](/billing/email_change/2.png)
 
 Finally you can modify your billing information by going to the [Account Details section](https://billing.bloom.host/clientarea.php?action=details), sign in with your billing credentials and put the new email on the **Email Address** field then click on save.
 
-![img](/billing/email_change/1.png)
+![Billing account details form with the Email Address field](/billing/email_change/1.png)
 
 ## How to change your Minecraft Panel Email Address
 
 To change the email account used for our Minecraft Panel (DuckPanel) go to the [Account](https://mc.bloom.host/account) section of the panel, sign in to your Minecraft Panel account and change the email address on the **Email Address** field then click on update email address.
 
-![img](/billing/email_change/3.png)
+![DuckPanel account page with the email address update form](/billing/email_change/3.png)

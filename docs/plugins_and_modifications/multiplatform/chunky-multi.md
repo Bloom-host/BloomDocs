@@ -2,7 +2,7 @@
 id: chunky
 title: Chunky
 slug: /multiplatform/chunky
-hide_table_of_contents: true
+hide_table_of_contents: false
 sidebar_label: Chunky
 description: A cool plugin/mod called chunky, which lets you pre generate a minecraft world quickly and efficiently to avoid lag.
 keywords:

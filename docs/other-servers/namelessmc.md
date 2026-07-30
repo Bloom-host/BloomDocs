@@ -2,7 +2,7 @@
 id: namelessmc
 title: NamelessMC
 slug: /other-servers/namelessmc
-hide_table_of_contents: true
+hide_table_of_contents: false
 sidebar_label: NamelessMC
 description: NamelessMC is a free, easy to use & powerful website software for your Minecraft server, which includes a large range of features.
 keywords:
@@ -21,7 +21,7 @@ NamelessMC is a Free and Open-Source forum software that you can use to supercha
 
 ## Installation
 :::note
-You **will need** a Database to use NamelessMC. See [this guide](/databases) if you are not familiar with using a database.
+You **will need** a database to use NamelessMC. See our [database guide](/databases) if you are not familiar with using a database.
 :::
 
 To begin installing NamelessMC, you will need access to a Web Server - we will use [CaddyServer](/other-servers/caddy-server) for this guide.
@@ -31,7 +31,7 @@ Scroll to the bottom of the "Assets" section of the latest release, and download
 
 ![nmc-release-img](https://i.imgur.com/xasuqVz.png)
 
-From there, open your File Manager for the webserver you just setup. navigate to `home/public/`, and delete the default file (`index.html`).
+From there, open the File Manager for the web server you just set up. Navigate to `home/public/`, and delete the default file (`index.html`).
 After deleting this file, you can upload the zipped folder you just downloaded to this directory.
 
 ![file-mgr-img](https://i.imgur.com/KKdmU58.png)
@@ -85,11 +85,11 @@ If this is your first time setting up a forum, and you don't have any data to im
 Congratulations! Your forum is now set up and ready to go! You will be prompted to sign in to your Admin Control Panel after completion.
 This is the password you set up for your admin account.
 
-# Additional Information
+## Additional Information
 
 ## Friendly URLs
-To use Friendly URL's, navigate to your CaddyServer Configuration (`home/caddy/Caddyfile`), and uncomment `# import namelessmc`
-```
+To use Friendly URLs, navigate to your CaddyServer configuration (`home/caddy/Caddyfile`), and uncomment `# import namelessmc`
+```text
     # Uncomment for NamelessMC websites; if Nameless is under a sub directory add route /forum { ... } around the code.
     import namelessmc
 ```

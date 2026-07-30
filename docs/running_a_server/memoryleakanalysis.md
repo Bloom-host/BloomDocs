@@ -14,7 +14,7 @@ keywords:
   - Leak Suspects
 ---
 
-[MAT](https://eclipse.dev/mat/) is a free utility provided by the Eclipse Foundation. It's extremely helpful when it comes to analyzing heap dumps from the plugin Spark.
+[MAT](https://eclipse.dev/mat/) is a free utility provided by the Eclipse Foundation. It's extremely helpful when it comes to analyzing heap dumps from the Spark plugin.
 
 We'll require both Spark on our server, and MAT on our PC for this guide. 
 
@@ -44,15 +44,15 @@ With the right version of Java in our PC, we can now unarchive both the MAT file
 
 Once we open MAT, we'll need to click "Files", then "Open Heap Dump"
 
-![](/running_a_server/memoryleakanalysis/1.png)
+![Eclipse Memory Analyzer Open Heap Dump command](/running_a_server/memoryleakanalysis/1.png)
 
 MAT Will automatically grab and mount the file for review, once the software is ready it'll prompt us to specify the type of report we would like to take. In this case, we'll want to select "Leak Suspect Report".
 
-![](/running_a_server/memoryleakanalysis/2.png)
+![Eclipse Memory Analyzer report selection with Leak Suspects Report](/running_a_server/memoryleakanalysis/2.png)
 
 After some processing it'll provide us with a list of suspected leaks. They will be shown in order of heap usage by their corresponding class name. The class name is key to finding out what's using up all your memory. Besides checking for anything that might be familiar within said names, we can also Google the class name to try and find a GitHub repository. MAT will always show leak suspects, so a healthy server can also produce a "Leak Suspects Report" which is actually completely normal. 
 
-![](/running_a_server/memoryleakanalysis/3.png)
+![Eclipse Memory Analyzer Leak Suspects Report results](/running_a_server/memoryleakanalysis/3.png)
 
 ## MAT Issues
 
@@ -60,14 +60,14 @@ The most common issue one can come across with MAT is simply running out of heap
 
 The wrong version of Java got picked up? You can also specify the Java exe to be used by adding: 
 
-```
+```text
 -vm
 C:\path/to/java/exe
 ```
 
 In my case it would look like: 
 
-```
+```text
 -vm
 C:\Program Files\Java\jdk-21\bin\javaw.exe
 ```

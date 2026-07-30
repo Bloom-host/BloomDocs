@@ -14,7 +14,7 @@ keywords:
 ---
 
 :::important
-This guide is for BungeeCord/Velocity proxies. If you are looking for instructions on how to install plugins on a Bukkit/Spigot/Paper server, please see [this guide](/installing-plugins)
+This guide is for BungeeCord/Velocity proxies. If you are looking for instructions on how to install plugins on a Bukkit/Spigot/Paper server, please see our [Bukkit plugin installation guide](/installing-plugins).
 :::
 
 :::caution Waterfall is End of Life
