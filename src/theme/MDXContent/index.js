@@ -10,7 +10,7 @@ export default function MDXContentWrapper(props) {
         <>
             {showHeader && (
                 <div className="text--center">
-                    <img src="/logo.webp" alt="" className="doc-page-logo"/>
+                    <img src="/logo.svg" alt="" className="doc-page-logo"/>
                     {title && <h1>{title}</h1>}
                 </div>
             )}
