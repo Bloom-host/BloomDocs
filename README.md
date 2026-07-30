@@ -52,6 +52,7 @@ id: <id>
 title: <title>
 description: <short description>
 hide_table_of_contents: false
+sidebar_label: <sidebar title>
 keywords:
   - <keyword>
 ---

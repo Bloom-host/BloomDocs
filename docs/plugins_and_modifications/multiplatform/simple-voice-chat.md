@@ -47,7 +47,7 @@ In order to run Simple Voice Chat on your server, you need one of the following 
 1. Download the Forge version of [Simple Voice Chat](https://modrinth.com/mod/simple-voice-chat/versions?l=forge) ([Alternative download link](https://www.curseforge.com/minecraft/mc-mods/simple-voice-chat/files/all?filter-game-version=2020709689%3A7498))
 2. Open the [File Manager](/file-manager-controls) in your dashboard
 3. Open the **mods** folder or create it if it doesn't exist
-![File Manager with the plugins folder open](/plugins_and_modifications/simple_voice_chat/1.png)
+![File Manager with the mods folder open](/plugins_and_modifications/simple_voice_chat/1.png)
 4. Drag and drop the **Simple Voice Chat jar** into the browser window.
 5. Continue with the [common installation](#common)
 

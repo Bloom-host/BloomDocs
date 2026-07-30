@@ -29,7 +29,7 @@ The message of the day (MOTD) is the text players see beside your server in the 
 
 ## How to change your MOTD with ServerListPlus
 
-:::warning ServerListPlus maintenance
+:::note ServerListPlus maintenance
 ServerListPlus is no longer in active development. For current configuration details and supported options, refer to the [ServerListPlus wiki](https://github.com/Minecrell/ServerListPlus/wiki).
 :::
 
@@ -48,6 +48,6 @@ MiniMOTD is a plugin for Spigot, Paper, BungeeCord, and Velocity, or a mod for F
 
 1. Upload the plugin to your server's `plugins` folder, or the mod to its `mods` folder, and restart the server.
 2. Open the generated MiniMOTD `config.hocon` file.
-3. Use the [MiniMessage documentation](https://docs.adventure.kyori.net/minimessage/format.html#minimessage-format) to create your MOTD. MiniMOTD also supports multiple icons and [different MOTDs per virtual host](https://github.com/jpenilla/MiniMOTD/wiki#advanced-configuration) on BungeeCord and Velocity.
+3. Use the [MiniMessage documentation](https://docs.papermc.io/adventure/minimessage/format/) to create your MOTD. MiniMOTD also supports multiple icons and [different MOTDs per virtual host](https://github.com/jpenilla/MiniMOTD/wiki#advanced-configuration) on BungeeCord and Velocity.
    ![MiniMOTD configuration and resulting server-list preview](/running_a_server/motd/minimotd-1.png)
 4. Restart the server after saving the configuration.
