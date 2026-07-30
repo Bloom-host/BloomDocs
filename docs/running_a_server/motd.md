@@ -29,7 +29,7 @@ The message of the day (MOTD) is the text players see beside your server in the 
 
 ## How to change your MOTD with ServerListPlus
 
-:::warning ServerListPlus maintenance
+:::note ServerListPlus maintenance
 ServerListPlus is no longer in active development. For current configuration details and supported options, refer to the [ServerListPlus wiki](https://github.com/Minecrell/ServerListPlus/wiki).
 :::
 
