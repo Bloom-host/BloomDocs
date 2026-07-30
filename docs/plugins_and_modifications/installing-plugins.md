@@ -4,6 +4,7 @@ title: Installing Plugins
 slug: /installing-plugins
 hide_table_of_contents: true
 sidebar_label: Installing Spigot Plugins
+description: Learn how to install Bukkit, Spigot, and Paper plugins on a Bloom.host Minecraft server.
 keywords:
   - Installing plugins
   - Plugins

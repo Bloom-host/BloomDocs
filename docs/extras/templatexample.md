@@ -1,8 +1,8 @@
 ---
 id: templatexample
-title: Template
+title: Documentation Style Guide and Template
 hide_table_of_contents: false
-sidebar_label: Template
+sidebar_label: Documentation Template
 description: The template and style guide used for contributing to Bloom.host documentation.
 keywords:
   - Template
@@ -12,7 +12,7 @@ keywords:
 ---
 
 :::tip Before You Start
-This page is a **contributor template and style reference**. Copy this file as a starting point for any new documentation page. Sections marked with `(*)` are mandatory.
+This page is a **contributor template and style reference**. Copy this file as a starting point for any new documentation page. Sections marked with `(*)` are required; sections marked `if applicable` are optional.
 :::
 
 ## Overview (*)
@@ -83,12 +83,12 @@ Sometimes a step has multiple valid paths. Use a table or side-by-side breakdown
 
 When referencing commands or config files, always use a code block with the appropriate language tag:
 
-```
+```text
 # Run this in your server console
 spark profiler start
 ```
 
-```
+```yaml
 # Example config.yml snippet
 setting: true
 value: 42
@@ -100,7 +100,7 @@ value: 42
 
 If adding images, place them in the appropriate subfolder under `/static/` and reference them with a relative path. Always add descriptive alt text.
 
-![](/extras/templatexample/duck.jpg)
+![Duck standing beside a pond](/extras/templatexample/duck.jpg)
 
 
 ## Docusaurus Admonitions Reference
@@ -111,7 +111,7 @@ Docusaurus supports special callout blocks called **admonitions**, created using
 
 The basic structure is:
 
-```
+```md
 :::type
 Your content here. Supports **Markdown** formatting.
 :::
@@ -119,7 +119,7 @@ Your content here. Supports **Markdown** formatting.
 
 You can also add a **custom title** by appending it after the type:
 
-```
+```md
 :::note My Custom Title
 Your content here.
 :::

@@ -4,6 +4,7 @@ title: Simple Voice Chat
 slug: /multiplatform/simple-voice-chat
 hide_table_of_contents: true
 sidebar_label: Simple Voice Chat
+description: Install and configure Simple Voice Chat for supported Minecraft server platforms.
 keywords:
   - Simple Voice Chat
   - Voice chat

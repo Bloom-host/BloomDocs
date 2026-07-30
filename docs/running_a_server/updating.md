@@ -4,6 +4,7 @@ title: How to update or change version
 slug: /updating
 hide_table_of_contents: true
 sidebar_label: Updating or changing versions
+description: Update or change the Minecraft server type and version from DuckPanel.
 keywords:
   - Updating
   - Update server

@@ -1,6 +1,6 @@
 ---
 id: plugins
-title: Using Plugins
+title: Using TShock Plugins
 hide_table_of_contents: true
 description: Learn how you can install and use plugins on your TShock server!
 note: This is referenced on the /terraria page on the main site

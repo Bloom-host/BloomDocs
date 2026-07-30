@@ -1,6 +1,6 @@
 ---
 id: connecting
-title: Connecting To A Server
+title: Connecting to a Rust Server
 hide_table_of_contents: true
 description: Learn how to connect to your Rust server!
 keywords:

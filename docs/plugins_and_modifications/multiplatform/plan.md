@@ -4,6 +4,7 @@ slug: /multiplatform/plan
 title: PLAN
 hide_table_of_contents: true
 sidebar_label: PLAN (Player Analytics)
+description: Install and expose PLAN Player Analytics on a Bloom.host Minecraft server.
 keywords:
   - Plan
   - Player Analytics

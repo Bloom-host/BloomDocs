@@ -325,7 +325,6 @@ module.exports = {
                 'extras/available-modpacks',
                 'extras/srvcontrol',
                 'extras/swap',
-				'extras/templatexample',
                 'extras/clumsyloader',
             ],
         },

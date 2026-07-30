@@ -1,15 +1,20 @@
 ---
 id: template
-title: Template
+title: Markdown Syntax Reference
+unlisted: true
 hide_table_of_contents: false
-sidebar_label: Template :)
-description: The template used for contributing 
+sidebar_label: Markdown Syntax Reference
+description: Examples of supported Markdown formatting in Bloom.host documentation.
 keywords:
   - Template
   - Pterodactyl Panel
   - Minecraft
   - Bloom.host
 ---
+
+:::note
+This page demonstrates Markdown formatting. Contributors should use the [Documentation Style Guide and Template](/extras/templatexample) when creating a page.
+:::
 
 You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).
 

@@ -1,6 +1,6 @@
 ---
 id: admin
-title: Admin Privileges
+title: Rust Admin Privileges
 hide_table_of_contents: true
 description: Learn how you can manage admin privileges on your Rust server!
 keywords:

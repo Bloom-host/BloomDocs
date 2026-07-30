@@ -1,6 +1,6 @@
 ---
 id: plugins
-title: Using Plugins
+title: Using Rust Plugins
 hide_table_of_contents: true
 description: Learn how you can install and use plugins on your Rust server!
 keywords:

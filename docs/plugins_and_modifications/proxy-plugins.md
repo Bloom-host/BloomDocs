@@ -4,6 +4,7 @@ title: Installing Proxy Plugins (BungeeCord/Velocity)
 slug: /installing-proxy-plugins
 hide_table_of_contents: true
 sidebar_label: Proxy (BungeeCord/Velocity) Plugins
+description: Learn how to install plugins on BungeeCord, Waterfall, and Velocity proxy servers.
 keywords:
   - Proxy plugins
   - BungeeCord

@@ -1,6 +1,6 @@
 ---
 id: overview
-title: Overview
+title: tModLoader Overview
 hide_table_of_contents: true
 description: Learn about what tModLoader is and how you can set it up on your Bloom server!
 keywords:

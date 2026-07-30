@@ -50,10 +50,10 @@ The document format is listed below, and also listed in [`README.md`](/README.md
 ---
 id: <id>
 title: <title>
-slug: <id>
-hide_table_of_contents: true
-sidebar_label: <sidebar title>
 description: <short description>
+hide_table_of_contents: false
+keywords:
+  - <keyword>
 ---
 
 ... rest of the document ...
@@ -63,12 +63,11 @@ description: <short description>
 
 ### Templates and formatting help:
 
-There is a [Markdown template](https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/docs/extras/template.md)
-which has some examples of markdown-formatting elements (and how to use them) such as bold text, strikethrough, headings
-and links.
+There is a [documentation style guide and template](https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/docs/extras/templatexample.md)
+with the required page structure and examples of supported formatting.
 
-You can also see [a formatted version of the template](https://docs.bloom.host/extras/template/) to see what the
-formatted elements will look like when imported into the documentation website.
+You can also see [the formatted template](https://docs.bloom.host/extras/templatexample/) to preview how the
+elements will look on the documentation website.
 
 ---
 
