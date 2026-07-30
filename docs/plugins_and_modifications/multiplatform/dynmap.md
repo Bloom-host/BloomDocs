@@ -24,7 +24,7 @@ keywords:
 ## What does the plugin do?
 Dynmap allows you to see your Minecraft world in 3D in real time, like Google Maps.  
 
-![Dynmap preview](https://cdn.discordapp.com/attachments/716405933105872938/750877749954084875/unknown.png)  
+![Dynmap browser map showing terrain, roads, and player markers](/dynmap-preview.svg)
 
 # Usage
 Spigot/Paper: Download the Dynmap plugin and place into the `plugins` folder then restart your server to generate `configuration.txt`. Create a MySQL database. If you are unsure, [check out this guide](/databases).

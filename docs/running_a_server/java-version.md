@@ -33,3 +33,4 @@ Minecraft 26.1+ will require a minimum of Java 25 to work.
 
 :::important
 If you are unable to change this next setting and you see a message such as "This server's Docker image has been manually set by an administrator and cannot be changed through this UI.", please [open a ticket on the support Discord.](https://discord.com/invite/bloom) and Bloom.host staff will need to change this for you.
+:::

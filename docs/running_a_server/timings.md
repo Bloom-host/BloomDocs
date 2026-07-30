@@ -20,8 +20,8 @@ keywords:
 
 # **How to take a Timings Report**
 
-:::important
-The PaperMC team has decided to remove the Timings system and replace it with [Spark](/spark) in a future version. 
+:::warning Legacy guide
+The Timings system is no longer available on current Paper and Purpur servers. Use [Spark](/spark) for current performance reports.
 Timings should be considered deprecated and no longer be used.
 
 Paper 1.21 builds will have the timings system disabled by default.

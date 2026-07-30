@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="360" viewBox="0 0 960 360" role="img" aria-labelledby="title desc">
+  <title id="title">ServerListPlus MOTD preview</title>
+  <desc id="desc">A ServerListPlus configuration example beside a Minecraft server-list preview.</desc>
+  <rect width="960" height="360" rx="18" fill="#151a2d"/>
+  <rect x="34" y="34" width="425" height="292" rx="12" fill="#0d1120"/>
+  <text x="58" y="70" fill="#fff" font-family="Arial, sans-serif" font-size="20" font-weight="700">ServerListPlus.yml</text>
+  <text x="58" y="112" fill="#9dc5ff" font-family="Consolas, monospace" font-size="17">Description:</text>
+  <text x="78" y="142" fill="#dce6ff" font-family="Consolas, monospace" font-size="17">- |</text>
+  <text x="98" y="172" fill="#dce6ff" font-family="Consolas, monospace" font-size="17">A Minecraft Server</text>
+  <text x="98" y="202" fill="#ff8d8d" font-family="Consolas, monospace" font-size="17">Welcome, {PLAYER}!</text>
+  <rect x="493" y="78" width="433" height="160" rx="12" fill="#252c45"/>
+  <rect x="519" y="108" width="68" height="68" rx="8" fill="#f9c511"/>
+  <text x="610" y="137" fill="#fff" font-family="Arial, sans-serif" font-size="21" font-weight="700">A Minecraft Server</text>
+  <text x="610" y="170" fill="#ff8d8d" font-family="Arial, sans-serif" font-size="18">Welcome, Player!</text>
+  <text x="610" y="205" fill="#65df8d" font-family="Arial, sans-serif" font-size="15">Online</text>
+</svg>

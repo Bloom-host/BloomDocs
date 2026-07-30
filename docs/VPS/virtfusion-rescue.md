@@ -20,7 +20,7 @@ In this guide we'll learn how to access our VPS via our Virtfusion Bloom panel i
 
 ## Prerequisites
 
-Before following this guide, make sure you've enabled VNC and opened the Console. To do so, follow our [Virtfusion VNC Guide](https://docs.bloom.host/VPS/virtfusion-rescue)-
+Before following this guide, make sure you've enabled VNC and opened the Console. To do so, follow our [VirtFusion VNC Guide](/VPS/virtfusion-vnc).
 
 ### Starting Rescue Mode
 

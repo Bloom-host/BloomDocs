@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="420" viewBox="0 0 960 420" role="img" aria-labelledby="title desc">
+  <title id="title">Topper gettop leaderboard output</title>
+  <desc id="desc">A Minecraft chat-style illustration showing the gettop command followed by a ten-player money leaderboard.</desc>
+  <rect width="960" height="420" rx="18" fill="#151a2d"/>
+  <rect x="34" y="34" width="892" height="352" rx="12" fill="#0d1120"/>
+  <text x="58" y="75" fill="#b8c5e8" font-family="Consolas, monospace" font-size="18">&gt; /gettop money 10</text>
+  <text x="58" y="112" fill="#f9c511" font-family="Consolas, monospace" font-size="20" font-weight="700">Top money leaderboard</text>
+  <g fill="#e9efff" font-family="Consolas, monospace" font-size="18">
+    <text x="58" y="148">1. Alex — $12,450</text><text x="58" y="178">2. Steve — $10,980</text>
+    <text x="58" y="208">3. Robin — $9,740</text><text x="58" y="238">4. Sam — $8,920</text>
+    <text x="58" y="268">5. Taylor — $8,410</text><text x="480" y="148">6. Jordan — $7,995</text>
+    <text x="480" y="178">7. Casey — $7,340</text><text x="480" y="208">8. Morgan — $6,850</text>
+    <text x="480" y="238">9. Jamie — $6,200</text><text x="480" y="268">10. Riley — $5,775</text>
+  </g>
+  <text x="58" y="336" fill="#65df8d" font-family="Consolas, monospace" font-size="17">Leaderboard loaded successfully.</text>
+</svg>
