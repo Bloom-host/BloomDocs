@@ -19,7 +19,8 @@ keywords:
    - Palworld treats direct-connect and Community Servers as separate server types. Direct-connect servers are joined by IP address and port, while Community Servers must be configured for the in-game list. See the [official server-type guide](https://docs.palworldgame.com/getting-started/about-server/).
 2. **The server is using a lot of memory**:
    - Palworld officially requires 16 GB of memory and recommends more than 32 GB for larger servers. An 8 GB server may start, but is more likely to crash from running out of memory.
-   - Monitor memory usage and schedule restarts if your server needs them.
+   - The `bEnableInvaderEnemy` option seems to have a huge impact on the current RAM usage. Disabling it might be a wise choice.
+   - Monitor memory usage and schedule restarts if your server needs them. You can run them every 6 hours if your server is having RAM issues.
 3. **Should I use direct connection or the Community Server list?**:
    - Use direct connection for a private server joined by IP address and port. Configure a Community Server when it needs to appear in the in-game server list.
 4. **The config file gets deleted / reset on server restart**:
