@@ -29,6 +29,8 @@ You will then need to decide if you are going to be using internal storage (HSQL
 
 If you decide to use MySQL for AdvancedBan, you can [learn how to set up a MySQL database](/databases).
 
+---
+
 ## Usage 
 AdvancedBan has many commands to be able to moderate and punish rule-breakers, the most important commands are here:
 
@@ -46,6 +48,8 @@ Note: Command arguments in square brackets are required. Command arguments in le
 You can add -s to most of the punishment commands to make their outputs silent - this makes it so that people won't see an announcement when someone gets punished.
 
 There are more commands and features such as pre-prepared punishment layouts and the ability to set notes on players - see the [wiki](https://github.com/DevLeoko/AdvancedBan/wiki) for more information.
+
+---
 
 ## Info
 

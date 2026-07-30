@@ -36,6 +36,8 @@ Or just look at it from far away to get an overview.
 It's an alternative to Dynmap or Squaremap, but unlike those, it is _fully_ 3D. You can orbit around everywhere, and fly through the world like spectator mode.
 
 
+---
+
 ## Usage
 Download BlueMap for your platform and install it like any other plugin/mod.
 Config files for it will be generated in the `plugins/BlueMap` (plugin) directory or the `config/BlueMap` (modded) directory, depending on your platform.

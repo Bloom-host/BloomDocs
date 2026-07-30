@@ -28,6 +28,8 @@ In order to run Simple Voice Chat on your server, you need one of the following 
 - [Bukkit/Spigot/Paper](#bukkitspigotpaper)
 - [Quilt](#quilt)
 
+---
+
 ## Installation
 
 ### Fabric

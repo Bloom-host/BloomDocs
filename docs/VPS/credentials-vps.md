@@ -24,6 +24,8 @@ You need to Poweroff and START your VPS for the password change to take effect.
 
 ![VirtFusion VPS dashboard showing credential controls](/VPS/credentials/1.png)
 
+---
+
 ## How to change your VPS VNC password?
 
 Head over to our [VPS Panel](https://VPS.bloom.host), sign in, and select the VPS.

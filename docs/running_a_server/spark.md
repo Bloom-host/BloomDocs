@@ -28,6 +28,8 @@ Paper 1.21+ includes Spark by default and you do not need to download Spark sepa
 :::
 Download the latest build from [Spark](https://spark.lucko.me/download) and drop it into your plugins (or mod folder if you are running Forge/Fabric) folder. Turn on or restart the server, and you're done! If you need help installing plugins, check [How to install plugins](/installing-plugins).
 
+---
+
 ## Using The Profiler
 
 :::note
@@ -44,6 +46,8 @@ When you open the link you'll find a useful web interface that displays all the 
 
 ![Spark profiler web interface showing collected performance data](/running_a_server/spark/1.png)
 
+---
+
 ## Other Useful Commands
 
 Running `/tps` will display an output that looks like this:
@@ -58,9 +62,13 @@ The values will depend on your server, newer versions of Spark will contain more
 
 For more parameters to use, and other useful commands you can check the [Official Spark Documentation](https://spark.lucko.me/docs/Command-Usage)
 
+---
+
 ## Need Help Reading the Profile?
 
 If you require help with reading your Spark profile, create a ticket in [Bloom.host Discord!](https://discord.gg/bloom).
+
+---
 
 ## Info
 

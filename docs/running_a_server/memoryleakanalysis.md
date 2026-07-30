@@ -36,6 +36,8 @@ When the time is right we can grab our heapdump with `/spark heapdump --compress
 
 We'll need to download our heapdump file from `plugins/spark/`. The precise name will be given in chat or console when you run the command, but the file will always end with hprof.gz, as we decided to use gzip for compression. 
 
+---
+
 ## It's MAT Time
 
 Before using MAT we'll want to ensure we have Java 17 or newer installed. We can grab this directly from [Oracle](https://download.oracle.com/java/17/archive/jdk-17.0.12_windows-x64_bin.exe).
@@ -53,6 +55,8 @@ MAT Will automatically grab and mount the file for review, once the software is 
 After some processing it'll provide us with a list of suspected leaks. They will be shown in order of heap usage by their corresponding class name. The class name is key to finding out what's using up all your memory. Besides checking for anything that might be familiar within said names, we can also Google the class name to try and find a GitHub repository. MAT will always show leak suspects, so a healthy server can also produce a "Leak Suspects Report" which is actually completely normal. 
 
 ![Eclipse Memory Analyzer Leak Suspects Report results](/running_a_server/memoryleakanalysis/3.png)
+
+---
 
 ## MAT Issues
 

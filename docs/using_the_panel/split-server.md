@@ -47,6 +47,8 @@ When you log in to the game panel, you can see your new server in the list of se
 The server list sorts servers by alphabetical order, you can rename your servers using numbers to arrange them. Here is an example: `1. Proxy` `2. Lobby`. You can rename servers in the settings tab.
 :::
 
+---
+
 ## Split Server options
 
 You can change your main server, edit ports, change server type and edit RAM/Storage in the Server Split section. Keep in mind that you can also open new allocations (ports) using the Ports & Proxies section.

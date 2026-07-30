@@ -43,6 +43,8 @@ Players on consoles must follow the [Geyser console connection instructions](htt
 If you are also using Floodgate, set `auth-type` to `floodgate` in your Geyser `config.yml`.
 :::
 
+---
+
 ## Geyser Addons & Extensions
 
 There are two ways to extend Geyser. The first is through standard server plugins or mods that interact with the Geyser/Floodgate API. The second is via **Geyser Extensions**, which are platform-agnostic and run directly inside Geyser.
@@ -58,6 +60,8 @@ To install an extension, place the `.jar` file into Geyser's `/extensions/` fold
 * [GeyserBlockJavaPlayers ↗](https://github.com/Camotoy/GeyserBlockJavaPlayers/releases) is a plugin that prevents Java Edition players from joining your server. This is useful if you want to make a Bedrock-only server but still want to use Geyser for some reason.
 * [GeyserPreventServerSwitch ↗](https://github.com/Camotoy/GeyserPreventServerSwitch/releases) prevents Bedrock Edition players from joining specific subservers on your proxy. This is useful if you want to limit Bedrock players from joining certain subservers on your proxy, such as a PvP server.
 * [Hurricane ↗](https://github.com/GeyserMC/Hurricane) is a Paper/Spigot plugin, and Fabric mod (unofficial port), that fixes some bugs that otherwise cannot be fixed without server modification, particularly bamboo and dripstone collision.
+
+---
 
 ## Additional Resources
 

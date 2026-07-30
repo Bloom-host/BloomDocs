@@ -32,6 +32,8 @@ Insert the VirtIO-Driver image and then return to VNC. Click Load Driver and the
 
 If your VPS does not boot to Windows automatically, you may need to move Windows Boot Manager to the top of the boot order in the BIOS.
 
+---
+
 ## Installing Your Network Driver
 
 Similarly to the steps above, insert the VirtIO Drivers image under Media. This time, however, insert it while the VPS is already booted into Windows. A new CD/DVD entry will appear in File Explorer. From this media device, run virtio-win-gt-x64. After doing this, you can unmount the image from Media.

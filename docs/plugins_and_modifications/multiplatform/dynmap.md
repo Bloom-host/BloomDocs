@@ -24,7 +24,7 @@ keywords:
 ## What does the plugin do?
 Dynmap allows you to see your Minecraft world in 3D in real time, like Google Maps.  
 
-![Dynmap browser map showing terrain, roads, and player markers](/dynmap-preview.svg)
+---
 
 ## Usage
 Spigot/Paper: Download the Dynmap plugin and place into the `plugins` folder then restart your server to generate `configuration.txt`. Create a MySQL database. If you are unsure, [check out this guide](/databases).
@@ -46,6 +46,8 @@ Now enter the database information into this section remembering to remove the `
 Now go into the minecraft panel, click the "Ports & Proxies" tab, and create a new port. You will be able to choose a port that you want to use and enter the port number you just opened into the config file.
 
 You can also add your Dynmap IP to Bloom's reverse proxy (on the sidebar of the panel), changing the website link from `123.456.67.2:8123` to `subdomain.yourdomain.com`. Please read our [Ports and Proxies guide](/ports-and-proxies/).
+
+---
 
 ## Info
 

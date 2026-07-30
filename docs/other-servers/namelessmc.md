@@ -44,6 +44,8 @@ To use your website, you will need a domain, preferably using [Bloom's Reverse P
 
 NamelessMC is installed, and you are ready to set it up! Navigate to your domain to begin setting up your website.
 
+---
+
 ## Setup
 
 After navigating to your website, you should see this page. Select "New Installation", then "Proceed".
@@ -85,7 +87,11 @@ If this is your first time setting up a forum, and you don't have any data to im
 Congratulations! Your forum is now set up and ready to go! You will be prompted to sign in to your Admin Control Panel after completion.
 This is the password you set up for your admin account.
 
+---
+
 ## Additional Information
+
+---
 
 ## Friendly URLs
 To use Friendly URLs, navigate to your CaddyServer configuration (`home/caddy/Caddyfile`), and uncomment `# import namelessmc`
@@ -93,6 +99,8 @@ To use Friendly URLs, navigate to your CaddyServer configuration (`home/caddy/Ca
     # Uncomment for NamelessMC websites; if Nameless is under a sub directory add route /forum { ... } around the code.
     import namelessmc
 ```
+
+---
 
 ## Links
 [GitHub](https://github.com/NamelessMC/Nameless)

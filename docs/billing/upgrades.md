@@ -28,6 +28,8 @@ To request a plan upgrade, downgrade or a change of location, go to the [Product
 
 On the upgrade page you will be able to select to what location and plan you want to upgrade/downgrade to, here you can also switch between datacenter locations. Once you select the plan it will generate an invoice (if needed) which needs to be paid before the upgrade and transfer process begins.
 
+---
+
 ## Transfers
 
 If you see a **'Requires server transfer'** message below the plan you want to upgrade or downgrade to it means that the server needs to be transferred to another node before the upgrade or downgrade can be completed. This is because the server is currently on a node that doesn't have enough resources to support the plan you want to upgrade or downgrade to.

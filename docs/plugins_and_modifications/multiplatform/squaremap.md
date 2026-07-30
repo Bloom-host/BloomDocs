@@ -25,6 +25,8 @@ keywords:
 Squaremap allows you to see your Minecraft world in 2D in real time in a browser, like Google Maps. It's an alternative to Dynmap or Bluemap, however it uses way less storage and is significantly faster. The tradeoff being that there is no 3D or isometric view.
 
 
+---
+
 ## Usage
 Download Squaremap for your platform and install it. A file named `config.yml` among other files will be generated in the `/squaremap` folder. This file contains options to customise the appearance of your map as well as the web server your map will be on. 
 

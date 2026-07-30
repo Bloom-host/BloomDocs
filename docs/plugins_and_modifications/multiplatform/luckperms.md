@@ -27,6 +27,8 @@ LuckPerms is regularly updated by the developer Luck who is the developer for Sp
 
 Unlike PermissionsEx (Bukkit/Spigot) which has not been updated since January 2016, LuckPerms is regularly updated by the developer Luck who is the developer for Spark as well.
 
+---
+
 ## Install
 
 ### Bukkit/Spigot/Paper and forks 
@@ -47,11 +49,15 @@ Refer to the [LuckPerms wiki](https://luckperms.net/wiki/Network-Installation) f
 
 Refer to the [LuckPerms wiki](https://luckperms.net/wiki/Installation) for information on how to install on other platforms. 
 
+---
+
 ## Usage
 
 To begin, simply run `/lp editor`. Once you have made your edits in the GUI, click save and run the command it gives you. If you need more help, consult the [LuckPerms wiki](https://luckperms.net/wiki/Home).  
 
 There are many commands that can be used to manage the permissions on your server(s) – see the [LuckPerms wiki](https://luckperms.net/wiki/Home) for more info.
+
+---
 
 ## Info
 

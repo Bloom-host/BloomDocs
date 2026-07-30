@@ -31,6 +31,8 @@ Download the latest version for your Minecraft version (e.g. if your server is 1
 
 For other platforms (such as Forge or Fabric,) refer to [EngineHub’s guide on installing WorldEdit](https://worldedit.enginehub.org/en/latest/install/).
 
+---
+
 ## Commands
 
 There are many commands in WorldEdit. This doc will go over a few simple ones, but if you want to learn more, consult WorldEdit's [Wiki](https://worldedit.enginehub.org/en/latest/).  
@@ -51,6 +53,8 @@ In order to make a sphere, run `//sphere [block] [radii]`. This command will cre
 
 If you feel like making a cylinder, run `//cyl [block] [radii] [height]`. This will create a solid cylinder out of `[block]`, with `[radii]` as the distance to the edges and `[height]` as how tall it is going up from your feet. Like spheres, you can run `//hcyl` with the same syntax to create the same shape, but hollow.  
 
+---
+
 ## Useful additions
 
 ### WorldGuard:
@@ -59,6 +63,8 @@ Allows for the creation of regions to protect areas.
 
 Download WorldGuard here: [Bukkit](https://dev.bukkit.org/projects/worldguard/files)
 See Bloom’s documentation: [plugins/worldguard](https://docs.bloom.host/plugins/worldguard)
+
+---
 
 ## Info
 

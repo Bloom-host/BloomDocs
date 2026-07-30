@@ -29,6 +29,8 @@ From there you'll want to click your User icon in the top right corner and selec
 
 ![VirtFusion Sharing tab showing the Generate Token control](/VPS/virtfusion-subuser/1.png)
 
+---
+
 ## Owner Side
 
 With your friend's token in the clipboard, you can now access your VPS's dashboard and select the "Sharing" tab.

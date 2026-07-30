@@ -33,6 +33,8 @@ Based on our experience and feedback from our users:
 
 For most Bloom hosted servers, 1 GB is a solid baseline, and 1.5 GB is ideal if you are using Geyser or multiple proxy plugins. Allocating more memory will usually not harm performance unless it's a huge amount, but allocating too little may cause instability or slowdowns under high connection loads. Do note that setups with a high number of Geyser users will require more RAM, since from our experience each Bedrock player consumes a significant amount of memory.
 
+---
+
 ## Creating a Velocity Server Split
 
 First you will need to head to your server split section via the server panel sidebar.
@@ -54,6 +56,8 @@ Now you need to start up the Velocity server and then shut it down once it's loa
 ![Velocity files generated in the File Manager](/running_a_server/velocity/velocity-initial-fs.PNG)
 
 The `velocity.toml` file is the config file for Velocity, we will be editing this and more in the following sections.
+
+---
 
 ## Setting up the [servers] section in velocity.toml
 
@@ -83,6 +87,8 @@ Make sure to replace the serverids with your own server's ids. You can get this 
 
 The `try` section you see in the above example is extremely important, essentially this is the order of servers in which Velocity will try to connect incoming players to. If you have it set up like `try = ["survival", "creative", "minigames"]` then players will connect to `survival` by default, then `creative` if `survival` is down, and then `minigames` if the first two are down. Set up your preferred order and then we will continue our editing.
 
+---
+
 ## Configuring server.properties on your backend servers
 
 In the `/home` directory of the servers you are running behind Velocity, you need to go to `server.properties` and set `online-mode` to `false`. For Velocity to work correctly and communicate with your backend servers it needs to be turned off.
@@ -90,6 +96,8 @@ In the `/home` directory of the servers you are running behind Velocity, you nee
 Remember that running your server in offline mode is not supported by Bloom.host normally, but in the case of setting up a proxy like Velocity or Waterfall you need to do so for the proxy to work so it is acceptable.
 
 After you configure and save your `server.properties` file along with completing the next section on Player Information Forwarding, make sure to `restart` your backend servers so that the changes are applied.
+
+---
 
 ## Configuring Player Information Forwarding
 
@@ -157,6 +165,8 @@ If you cannot use modern forwarding (for example, your server jar doesn't suppor
 
 To set this up, see the guide [on how to set up BungeeGuard](/waterfall#setting-up-bungeeguard).
 
+---
+
 ## Additional configuration options for velocity.toml
 
 The following table contains additional noteworthy configuration options for `velocity.toml`
@@ -169,6 +179,8 @@ The following table contains additional noteworthy configuration options for `ve
 | **bind** | This is the default IP address that players will connect to when connecting to Velocity, it's recommended to set it like the example here so that it uses Minecraft’s default port | `bind: "0.0.0.0:25565"`|
 
 You can find other `velocity.toml` settings in the [Velocity configuration reference](https://velocitypowered.com/wiki/users/configuration/)!
+
+---
 
 ## Finishing up
 

@@ -43,11 +43,15 @@ If you are running a proxy (Velocity or BungeeCord), Floodgate must be installed
 Floodgate automatically generates a `key.pem` file. If you are using a proxy, this key must be identical across all servers in your network for authentication to work correctly.
 :::
 
+---
+
 ## Configuration & Compatibility
 
 ### Username Prefixes
 
 By default, Floodgate adds a `.` prefix to Bedrock players (e.g., `.PlayerName`) to prevent name collisions with Java players. You can change this in the Floodgate `config.yml`.
+
+---
 
 ## Additional Resources
 

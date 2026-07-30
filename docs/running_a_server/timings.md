@@ -37,8 +37,12 @@ More information is available in the [Paper Timings deprecation issue](https://g
 As time has gone on, Timings has become a bit outdated, from the Bloom team we usually recommend using [Spark](/spark) instead.
 :::
 
+---
+
 ## What is a Timings Report
 A timings report is a way of detecting what is causing lag on your server, if you are running Paper or other Forks of paper you can take a report using the following steps,
+---
+
 ## How to take a Timings Report
 First, in-game or in console, run the command `/timings on`. Once you have enabled timings wait at least 10m then go onto the next step.
 
@@ -49,6 +53,8 @@ Said command will paste a link on the console, which when clicked will take you 
 ![Paper Timings report web interface](/running_a_server/timings/1.png)
 
 Anything in red is using an excess of resources. You can also click the plugins tab to see what plugins are using the most resources on your server.
+---
+
 ## Alternatives to Timings
 Timings, while a great tool to get an overview of performance at a basic level, might not be the best utility to use for more indepth troubleshooting or performance breakdowns.
 A new and popular alternative that we recommend is Spark. Learn more in our [Spark guide](/spark).
