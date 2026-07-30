@@ -139,8 +139,8 @@ img:is(.small) {
     display: none;
 }
 
-/** Hide the unused toggle */
-.react-toggle {
+/** Hide the footer and unused toggle */
+.footer, .react-toggle {
     display: none;
 }
 
