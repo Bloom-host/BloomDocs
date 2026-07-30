@@ -17,7 +17,7 @@ keywords:
 
 Hello there Bloomers! 👋 
 
-In this guide, we will go over on how to make your server go from lots of numbers (`148.251.209.38:25565`) to a fancy domain name such as `play.example.com`!
+In this guide, we will go over how to make your server go from lots of numbers (`148.251.209.38:25565`) to a fancy domain name such as `play.example.com`!
 
 First, go to the [game panel](https://mc.bloom.host) and select your server. On the main page, above your console you will be able to find your IP. All Performance and Performance+ bloom servers come with a dedicated IP, so you only need the IP and not any of the ports (`25565`), unless you have the essentials plan.
 
@@ -36,7 +36,7 @@ Ensure that the server is grey cloud (not proxied by cloudflare). You can still 
 ---
 
 - For the name, it will be `mc`. This is the subdomain which we have assigned to it, so whatever name we put there will be put before the domain when we type it in. In this case, it's `mc.example.com`. If you put `play` instead of `mc`, it would be `play.example.com`. 
-- You can use `@` in the **Name** field if you want your root domain to point to your Minecraft server. A root domain is a one like this: **example.com**
+- You can use `@` in the **Name** field if you want your root domain to point to your Minecraft server. A root domain is one like this: **example.com**
 - We will then put into the IP we got from our server into the IPv4 address. Remember that you don't need to write your server port here.
 - Lastly, double check that the cloud icon is set to 'DNS only'!
 
@@ -50,7 +50,7 @@ If you have a split server or Essentials Plans server and it doesn't have a 2556
 :::note
 SRV records are only supported on Java clients, Bedrock clients will be unable to resolve this record.
 
-If you wish to have multiple servers with clean domains on a network, [it's recommended to setup a network proxy](/velocity).
+If you wish to have multiple servers with clean domains on a network, [it's recommended to set up a network proxy](/velocity).
 :::
 
 :::warning

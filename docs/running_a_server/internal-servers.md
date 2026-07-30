@@ -17,7 +17,7 @@ keywords:
 
 This doc just has some important information you may need if you are running internal servers for your Velocity/Bungee networks :)
 
-If you would like to setup your bungee/velocity servers with internal servers you can follow our regular [Waterfall](/waterfall)/[Velocity](/velocity) guides.
+If you would like to set up your BungeeCord/Velocity servers with internal servers, you can follow our regular [Waterfall](/waterfall)/[Velocity](/velocity) guides.
 
 Please note that Waterfall is now considered End of Life and it is currently being recommended to switch to [Velocity](/velocity) instead.
 
@@ -43,6 +43,6 @@ Below is an example of a Velocity instance setup with internal backend servers
 
 ________
 
-You can also open public ports like normal even after you make your server internal. For example, below is a internal backend server but with a public 8123 port for Dynmap
+You can also open public ports like normal even after you make your server internal. For example, below is an internal backend server but with a public 8123 port for Dynmap
 
 ![img](/running_a_server/internal_servers/3.PNG)

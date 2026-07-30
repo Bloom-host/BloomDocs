@@ -32,13 +32,13 @@ If you just want to host Minecraft servers we recommend our [Dedicated Minecraft
 
 If you just ordered a VPS, you should've received an email titled "VPS created". This email contains the IP, username, root password and VNC details of your VPS.
 
-You will also receive another email with a randomly generated password for our [VPS Panel](https://VPS.bloom.host). If you didn't received it, you can click the "Forgot Password?" button on the VPS panel sign in page.
+You will also receive another email with a randomly generated password for our [VPS Panel](https://VPS.bloom.host). If you didn't receive it, you can click the "Forgot Password?" button on the VPS panel sign-in page.
 
 ![img](/VPS/starting-with-vps/1.png)
 
 ## Our VPS panel
 
-Our VPS panel is under the VPS.bloom.host domain. Once you place a order, you will receive a randomly generated password to your email. If you didn't received the password, you can head to our [VPS panel](https://VPS.bloom.host) and click on the "Forgot Password?" button to reset your password.
+Our VPS panel is under the VPS.bloom.host domain. Once you place an order, you will receive a randomly generated password by email. If you didn't receive the password, you can head to our [VPS panel](https://VPS.bloom.host) and click on the "Forgot Password?" button to reset your password.
 
 To manage your VPS, just click on the arrow and it will open the management page.
 
@@ -62,7 +62,7 @@ Start PuTTY, select the SSH option and then put your VPS IP in the Host Name (or
 
 ![img](/VPS/starting-with-vps/2.png)
 
-After that, click on the "Open" button and the SSH connection will start, you will then be asked for a username. The default username is "Root", click enter and then you will be asked for the password. Keep in mind that the password is not shown and you do not see that you are typing but it its working, so just type your password and click on enter to connect.
+After that, click on the "Open" button and the SSH connection will start, you will then be asked for a username. The default username is `root`, click enter and then you will be asked for the password. Keep in mind that the password is not shown and you do not see that you are typing, but it is working, so just type your password and click on enter to connect.
 
 ![img](/VPS/starting-with-vps/3.png)
 

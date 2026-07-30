@@ -16,7 +16,7 @@ Hey Bloomers! In this guide we will be going over how to change your account ema
 
 ## How to change your Billing Panel Email Address
 :::caution
-The billing system we use require you to change your email address on two sections, the account details section and the profile section. You may face sign in or notification issues if you change your email address on only one of these sections, so make sure you change the email on both of them.
+The billing system we use requires you to change your email address in two sections, the account details section and the profile section. You may face sign-in or notification issues if you change your email address in only one of these sections, so make sure you change the email in both of them.
 
 The email used to log in to your billing account is the one defined in the "Profile" section.
 :::

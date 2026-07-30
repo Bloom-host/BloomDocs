@@ -39,7 +39,7 @@ Click on `confirm` and your server will be split. Success! You have successfully
 
 You can interact and manage this new server in the same way as you would with your main server.
 
-When you login to the game panel, you can see your new server in the list of servers you can manage.
+When you log in to the game panel, you can see your new server in the list of servers you can manage.
 
 ![console](/using_the_panel/split_server/3.png)
 

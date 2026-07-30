@@ -14,7 +14,7 @@ keywords:
   - Leak Suspects
 ---
 
-[MAT](https://eclipse.dev/mat/) is a a free utility provided by the Eclipse Foundation. It's extremely helpful when it comes to analyzing heapdumpds from the plugin Spark
+[MAT](https://eclipse.dev/mat/) is a free utility provided by the Eclipse Foundation. It's extremely helpful when it comes to analyzing heap dumps from the plugin Spark.
 
 We'll require both Spark on our server, and MAT on our PC for this guide. 
 
@@ -71,4 +71,3 @@ In my case it would look like:
 -vm
 C:\Program Files\Java\jdk-21\bin\javaw.exe
 ```
-

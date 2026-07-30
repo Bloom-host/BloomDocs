@@ -41,9 +41,9 @@ Support for each plugin might be downloaded through the eCloud or built-in to th
 You first need to determine whether the expansion (file holding the placeholders for your plugins) needs to be downloaded separately through the [eCloud](https://api.extendedclip.com/home/). To do this, check the [PlaceholderAPI support list](https://github.com/PlaceholderAPI/PlaceholderAPI/wiki/Plugins-using-PlaceholderAPI) and press CTRL-F (Cmd-F on macOS) and type the plugin name into the search window.
 
 :::important
-A ticked checkbox next to `Supports placeholders.` means that that plugin can use placeholders from PlaceholderAPI.
+A ticked checkbox next to `Supports placeholders.` means that the plugin can use placeholders from PlaceholderAPI.
 
-A ticked checkbox next to `Provides own placeholders.` means that that plugin provides its own placeholders to PAPI. Click the link to see information on what placeholders it provides and the download command needed to install it (if required - if no download command is provided and it says `NO DOWNLOAD COMMAND` then it does not need to be installed)
+A ticked checkbox next to `Provides own placeholders.` means that the plugin provides its own placeholders to PAPI. Click the link to see information on what placeholders it provides and the download command needed to install it (if required - if no download command is provided and it says `NO DOWNLOAD COMMAND` then it does not need to be installed)
 :::
 
 #### eCloud install
@@ -66,7 +66,7 @@ Refer to the documentation of your plugins for information on how to use PAPI pl
 
 The following is a list of common commands you may need to use when setting up PAPI or plugins which may use them.
 
-- `/papi ecloud download <expansion>` - Downloads a expansion off the eCloud
+- `/papi ecloud download <expansion>` - Downloads an expansion from the eCloud
 - `/papi ecloud list <all|<author>|installed>` - Shows a list of all or installed eCloud expansions, or to display expansions from a specific author
 - `/papi parse <player|me> <string>` - Parse a text string with placeholder strings in them. Supports formatting marks.
 - `/papi reload` - Reloads PAPI config. Also used after installing eCloud plugins to ensure they are registered properly.

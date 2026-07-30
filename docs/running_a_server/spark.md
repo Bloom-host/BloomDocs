@@ -65,4 +65,4 @@ If you require help with reading your Spark profile, create a ticket in [Bloom.h
 ## Info
 
 [Spark's Official Website](https://spark.lucko.me/)
-[Github](https://github.com/lucko/spark)
+[GitHub](https://github.com/lucko/spark)

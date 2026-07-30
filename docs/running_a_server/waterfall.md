@@ -4,7 +4,7 @@ title: Setting Up Waterfall/Bungee
 slug: /waterfall
 hide_table_of_contents: true
 sidebar_label: Setting up a Waterfall/Bungee Server
-description: How to setup a Waterfall Proxy Server
+description: How to set up a Waterfall Proxy Server
 keywords:
   - Minecraft
   - Proxy
@@ -56,7 +56,7 @@ After you've created the waterfall server in your server split, you'll be able t
 
 ## Configure Waterfall
 
-*Before you setup this section, go to each of your backend servers and click the "Make Internal" button under the Ports and Proxies tab.*
+*Before you set up this section, go to each of your backend servers and click the "Make Internal" button under the Ports and Proxies tab.*
 
 If you would like to read more information on our internal servers please see [here](/internal-servers).
 

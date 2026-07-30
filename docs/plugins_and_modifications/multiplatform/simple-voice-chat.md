@@ -45,7 +45,7 @@ In order to run Simple Voice Chat on your server, you need one of the following 
 2. Open the [file manager](/file-manager-controls) in your dashboard
 3. Open the **mods** folder or create it if it doesn't exist
 ![console](/plugins_and_modifications/simple_voice_chat/1.png)
-4. Drag and drop the the **Simple Voice Chat jar** into the browser window.
+4. Drag and drop the **Simple Voice Chat jar** into the browser window.
 5. Continue with the [common installation](#common)
 
 ### Bukkit/Spigot/Paper
@@ -53,7 +53,7 @@ In order to run Simple Voice Chat on your server, you need one of the following 
 1. Download the Bukkit version of [Simple Voice Chat](https://modrinth.com/mod/simple-voice-chat/versions?l=bukkit) ([Alternative download link](https://www.curseforge.com/minecraft/bukkit-plugins/simple-voice-chat/files/all))
 2. Open the [file manager](/file-manager-controls) in your dashboard
 3. Open the **plugins** folder or create it if it doesn't exist
-4. Drag and drop the the **Simple Voice Chat jar** into the browser window.
+4. Drag and drop the **Simple Voice Chat jar** into the browser window.
 5. Continue with the [common installation](#common)
 
 ### Quilt

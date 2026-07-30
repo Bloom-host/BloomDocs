@@ -4,7 +4,7 @@ title: Setting Up Velocity
 slug: /velocity
 hide_table_of_contents: true
 sidebar_label: Setting up a Velocity Proxy
-description: How to setup a Velocity Proxy Server
+description: How to set up a Velocity Proxy Server
 keywords:
   - Minecraft
   - Proxy
@@ -61,7 +61,7 @@ The first section of the config file you need to edit is the `[servers]` section
 
 :::note
 
-Before you setup this section, you're going to want to make sure all your backend servers are internal. You can make your backend servers internal by going to the Ports and Proxies tab under the specific server and clicking "Make Internal", that will remove all public access to your backend servers which is what we want. When a server is internal they are only accessible via other servers in the same split. If you would like to read more information on our internal servers please see [here](/internal-servers).
+Before you set up this section, you're going to want to make sure all your backend servers are internal. You can make your backend servers internal by going to the Ports and Proxies tab under the specific server and clicking "Make Internal", that will remove all public access to your backend servers which is what we want. When a server is internal they are only accessible via other servers in the same split. If you would like to read more information on our internal servers please see [here](/internal-servers).
 
 :::
 
@@ -81,7 +81,7 @@ try = [
 
 Make sure to replace the serverids with your own server's ids. You can get this from the Ports and Proxies tab after making a server internal, clicking your serverid in the console tab, or under the settings tab. All backend servers use port 25565 so make sure to specify 25565 as shown above.
 
-The `try` section you see in the above example is extremely important, essentially this is the order of servers in which Velocity will try to connect incoming players to. If you have it setup like `try = ["survival", "creative", "minigames"]` then players will connect to `survival` by default, then `creative` if `survival` is down, and then `minigames` if the first two are down. Setup your preferred order and then we will continue our editing.
+The `try` section you see in the above example is extremely important, essentially this is the order of servers in which Velocity will try to connect incoming players to. If you have it set up like `try = ["survival", "creative", "minigames"]` then players will connect to `survival` by default, then `creative` if `survival` is down, and then `minigames` if the first two are down. Set up your preferred order and then we will continue our editing.
 
 ## Configuring server.properties on your backend servers
 
@@ -101,7 +101,7 @@ It is HIGHLY recommended that your Velocity server is set to online-mode, this i
 
 Part of what makes Velocity more secure than Bungee would be it's modern player information forwarding mode, it is much more secure than Bungee and doesn't require an additional plugin such as BungeeGuard to secure connections between your front-end and back-end servers.
 
-This is pretty simple to setup. First turn your proxy server offline, then locate the option for `player-info-forwarding` inside `velocity.toml` and set it to `modern`. Next you need to perform additional steps depending on the type of server jar that you're running behind Velocity.
+This is pretty simple to set up. First turn your proxy server offline, then locate the option for `player-info-forwarding` inside `velocity.toml` and set it to `modern`. Next you need to perform additional steps depending on the type of server jar that you're running behind Velocity.
 
 ### Modern Forwarding for Paper
 
@@ -144,7 +144,7 @@ A mod called [FabricProxy-Lite](https://modrinth.com/mod/fabricproxy-lite) allow
 :::caution
 Legacy BungeeCord forwarding mode is less secure than modern Velocity forwarding mode and may result in security issues if not setup properly.
 
-If you need to use legacy BungeeCord forwarding mode, make sure you setup BungeeGuard to ensure people do not connect directly to your backend servers.
+If you need to use legacy BungeeCord forwarding mode, make sure you set up BungeeGuard to ensure people do not connect directly to your backend servers.
 
 Note that the `bungeeguard` forwarding mode uses legacy BungeeCord forwarding with the `forwarding-secret` as the BungeeGuard token.
 :::
@@ -163,7 +163,7 @@ The following table contains additional noteworthy configuration options for `ve
 
 | Option | Description | Example    |
 | -------- | --------- | ---------- |
-| **[forced-hosts]**  | This lets you setup your custom domain with velocity, set the right side up to match your **try** section from earlier | `"host.name" = ["lobby", "survival", "creative"]` |
+| **[forced-hosts]**  | This lets you set up your custom domain with velocity, set the right side up to match your **try** section from earlier | `"host.name" = ["lobby", "survival", "creative"]` |
 | **show-max-players** | The max player count that displays in the multiplayer menu | `show-max-players: 100` |
 | **forwarding-secret**| Do not change this. This is the secret you need to insert into configuration files on your backend servers | `forwarding-secret: "someRandomStringHere"` |
 | **bind** | This is the default IP address that players will connect to when connecting to Velocity, it's recommended to set it like the example here so that it uses Minecraft’s default port | `bind: "0.0.0.0:25565"`|
