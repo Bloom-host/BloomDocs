@@ -23,7 +23,7 @@ First, go to the [game panel](https://mc.bloom.host) and select your server. On 
 
 ![Bloom.host Pointing A Domain](/running_a_server/domain/1.png)
 
-In this guide we're going use Cloudflare to point our domain to the server. Simply [create a Cloudflare account](https://dash.cloudflare.com/sign-up). After registration, they will guide you through the process of connecting your domain to Cloudflare.
+In this guide we're going to use Cloudflare to point our domain to the server. Simply [create a Cloudflare account](https://dash.cloudflare.com/sign-up). After registration, they will guide you through the process of connecting your domain to Cloudflare.
 
 Alternatively, some domain providers allow you to use their own systems for DNS. Though all sites look different, the task is the same for all of them. 
 
