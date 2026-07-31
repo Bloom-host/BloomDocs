@@ -21,7 +21,7 @@ Crafting store is an automatic Minecraft donation store page where you can creat
 ---
 
 ## Usage
-To install, [download the latest CraftingStore version](https://www.spigotmc.org/resources/craftingstore-net-free-minecraft-donation-system-1-16-compatible.31331/) then move the file to your `plugins` folder. Afterwards, restart the server. Once you have done that, create an account at [https://craftingstore.net/register](https://craftingstore.net/register) and follow the CraftingStore panel's setup instructions.
+To install, [download the latest CraftingStore version](https://www.spigotmc.org/resources/craftingstore-net-free-minecraft-donation-system-1-16-compatible.31331/) then move the file to your `plugins` folder. Afterwards, restart the server. Once you have done that, create an account at the [CraftingStore registration page](https://craftingstore.net/register) and follow the CraftingStore panel's setup instructions.
 
 After your store is configured to your liking, get the API key from the servers page and enter it in the plugin `config.yml` found in the CraftingStore folder to link your server with your CraftingStore page. Restart one last time, and you can now start accepting donations!
 
