@@ -55,7 +55,7 @@ One command you can use in CoreProtect is `/co i`. This will allow you to left c
 
 Another command you can use is `/co rollback u:<user> t:<time> r:<radius> a:<action> b:<blocks> e:<exclude>`. Running that command will print a list of every action (that you choose) within the radius and time period, by a user you choose. Not all of those parameters are necessary.  
 
-You can find more commands in the [CoreProtect command reference](https://www.minerealm.com/community/viewtopic.php?f=32&t=6781).
+You can find more commands in the [CoreProtect command reference](https://docs.coreprotect.net/commands/).
 
 ---
 
