@@ -11,7 +11,6 @@ keywords:
   - Core Protect
   - MySQL
   - Spigot
-  - Bloom.host
   - Pterodactyl Panel
   - Minecraft
   - Purge

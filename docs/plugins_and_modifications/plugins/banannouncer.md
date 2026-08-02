@@ -11,7 +11,6 @@ keywords:
   - Spigot
   - Moderation
   - Discord
-  - Bloom.host
   - Minecraft
 ---
 

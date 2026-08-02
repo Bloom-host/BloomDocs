@@ -11,7 +11,6 @@ keywords:
   - Minecraft
   - Spigot
   - Plugins
-  - Bloom.host
 ---
 
 You'll need a way to access your server files. This tutorial references the [web panel](https://mc.bloom.host), but you can also use [SFTP](/sftp). **Shutdown your server before proceeding!**

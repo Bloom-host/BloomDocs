@@ -11,7 +11,6 @@ keywords:
   - Citizens
   - paper
   - Spigot
-  - Bloom.host
   - Pterodactyl Panel
   - Minecraft
 ---

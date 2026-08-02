@@ -10,7 +10,6 @@ keywords:
   - Performance
   - Spigot
   - Paper
-  - Bloom.host
   - Pterodactyl Panel
   - Minecraft
   - FAWE

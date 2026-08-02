@@ -23,7 +23,6 @@ keywords:
   - neo Forge
   - Sponge
   - CLI
-  - Bloom.host
   - Pterodactyl Panel
   - Minecraft
 ---

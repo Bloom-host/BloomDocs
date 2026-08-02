@@ -10,10 +10,10 @@ keywords:
   - splitting server
   - Pterodactyl Panel
   - Minecraft
-  - Bloom.host
+  - Bloom
 ---
 
-Bloom.host allows you to split the server that you have with them, for example to run more Minecraft servers for different gamemodes or to run a Discord bot off of your server.
+Our DuckPanel allows you to split the server that you have with them, for example to run more Minecraft servers for different gamemodes or to run a Discord bot off of your server.
 
 :::important
 Splitting your server will take resources (Storage and RAM) from your main server. It's important to make sure that you leave enough resources so that your main server runs properly!

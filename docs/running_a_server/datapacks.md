@@ -11,7 +11,6 @@ keywords:
   - Lag
   - Server
   - Plugin
-  - Bloom.host
   - Pterodactyl Panel
   - Minecraft
 ---

@@ -1,51 +1,81 @@
 ---
 id: plan
 slug: /multiplatform/plan
-title: PLAN
-hide_table_of_contents: true
-sidebar_label: PLAN (Player Analytics)
-description: Install and expose PLAN Player Analytics on a Bloom.host Minecraft server.
+title: Plan (Player Analytics)
+hide_table_of_contents: false
+sidebar_label: Plan (Player Analytics)
+description: Install and configure Plan Player Analytics on a Bloom Minecraft server.
 keywords:
   - Plan
   - Player Analytics
   - Stats
   - Reverse proxy
-  - CNAME
   - Spigot
+  - Minecraft
 ---
 
-### How to set up PLAN (Player Analytics)	
+## Overview
 
-Plan is an extremely popular & useful plugin that you can use to track server stats such as player counts, average playtime, and much more. You can find it on the [PLAN Spigot resource page](https://www.spigotmc.org/resources/plan-player-analytics.32536/).
+Plan (Player Analytics) records server activity such as player counts and playtime and displays the results in a web dashboard. This guide covers installing Plan on a Paper-based server, connecting its web interface through Bloom's reverse proxy, and creating your first account.
 
-#### Installation Steps:
-1. For this to work you will need your own custom domain, such as **domain.com**. Go to your DNS page and set up a new CNAME record. Set the name to “plan” (you can also use anything else like “stats”, note that you will have to use that value instead of “plan” later on as well), and set the target to `revproxy-us.bloom.host` if your server is in the US or `revproxy-eu.bloom.host` if your server is in the EU. Also, make sure proxy status is set to “DNS only” so that the little cloud icon is gray instead of orange.
+**Related Pages:**
 
-This guide will teach you how to set it up for the first time and how to secure it using the reverse proxy.
+- [Installing Plugins](/installing-plugins)
+- [Creating a Reverse Proxy](/ports-and-proxies)
 
-![PLAN web server settings in its configuration file](/plugins_and_modifications/plugins/plan/1.png)
 
-*Example CNAME record using Cloudflare*
+---
 
-2. Go to your bloom panel, click on “Ports and Proxies”, and create a new Allocation with the port “8804”. Once you’re done with that, set the Reverse Proxy Domain to “revproxy-us.bloom.host” (or the EU one if you’re in the EU)
+## Install Plan
 
-![PLAN port allocation and reverse proxy configured in DuckPanel](/plugins_and_modifications/plugins/plan/2.png)
+1. Download Plan from the [Spigot resource page](https://www.spigotmc.org/resources/plan-player-analytics.32536/).
+2. Follow the [plugin installation guide](/installing-plugins) to upload the downloaded `.jar` file to your server's `plugins` folder.
+3. Restart the server. Plan should create its configuration file at `plugins/Plan/config.yml`.
 
-3. Install the Minecraft plugin from here and restart your server
-4. Open the plugin’s config.yml and change the following values:
-	- Webserver.Alternative_IP: true
-	- Webserver.Alternative_IP.Address: plan.YOURDOMAIN.com (obviously change it to your domain)
-	- Webserver.Security.SSL_certificate.KeyStore_path: proxy
-![PLAN configuration with the public domain and proxy keystore path](/plugins_and_modifications/plugins/plan/3.png)
+---
 
-5. If you would like to track players’ locations:
-`Data_gathering.Accept_GeoLite2_EULA`
+## Configure Plan
 
-That’s it! You can now go to plan.YOURDOMAIN.com and click “Create Account” to make your account!
+### Configure the Web Server
 
-### Info 
+1. In the DuckPanel File Manager, open `plugins/Plan/config.yml`.
+2. Update the following settings. Replace `plan.example.com` with the domain or subdomain you configured in the reverse proxy guide.
 
-[Spigot resource page](https://www.spigotmc.org/resources/plan-player-analytics.32536/)
+```yaml
+Webserver:
+  Port: 8804
+  Alternative_IP:
+    Enabled: true
+    Address: "plan.example.com"
+  Security:
+    SSL_certificate:
+      KeyStore_path: proxy
+```
 
-[GitHub repository](https://github.com/plan-player-analytics/Plan)
+3. Save the file and restart the server to apply the changes.
 
+### Enable Location Tracking *(optional)*
+
+To allow Plan to download its GeoLite2 geolocation database, review and accept the [GeoLite2 End User License Agreement](https://www.maxmind.com/en/geolite2/eula), then update this setting in `plugins/Plan/config.yml`:
+
+```yaml
+Data_gathering:
+  Accept_GeoLite2_EULA: true
+```
+
+Save the file and restart the server after changing this setting.
+
+---
+
+## Verify the Setup
+
+1. Open `https://plan.example.com` in your browser, replacing the example address with your domain or subdomain.
+2. Select **Create Account** and complete the registration form.
+3. Confirm that the Plan dashboard loads and displays your server's analytics.
+
+---
+
+## Resources
+
+- [Plan Spigot resource page](https://www.spigotmc.org/resources/plan-player-analytics.32536/)
+- [Plan GitHub repository](https://github.com/plan-player-analytics/Plan)

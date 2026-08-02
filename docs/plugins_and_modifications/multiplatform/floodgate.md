@@ -16,7 +16,6 @@ keywords:
   - Velocity
   - Fabric
   - NeoForge
-  - Bloom.host
   - Pterodactyl Panel
   - Minecraft
 ---

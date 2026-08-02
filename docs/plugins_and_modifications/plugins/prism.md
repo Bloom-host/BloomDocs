@@ -11,7 +11,6 @@ keywords:
   - Core Protect
   - MySQL
   - Paper
-  - Bloom.host
   - Pterodactyl Panel
   - Minecraft
 ---

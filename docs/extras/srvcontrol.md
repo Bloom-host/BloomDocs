@@ -8,7 +8,6 @@ keywords:
   - Mobile App
   - Pterodactyl Panel
   - SRVControl
-  - Bloom.host
 ---
 
 Hey Bloomers! In this guide we will be going over how to connect SRVControl (Discord Bot) to your Minecraft servers hosted on Pterodactyl. This discord bot uses the Pterodactyl API to allow you to control your servers through discord.

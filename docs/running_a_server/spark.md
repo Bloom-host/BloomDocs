@@ -10,8 +10,6 @@ keywords:
   - Performance
   - Spigot
   - Paper
-  - Bloom.host
-  - Bloom.host
   - Pterodactyl Panel
   - Minecraft
 ---

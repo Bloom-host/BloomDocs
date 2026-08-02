@@ -1,18 +1,17 @@
 ---
-id: templatexample
-title: Documentation Style Guide and Template
+id: documentation-template
+title: Documentation Template
 hide_table_of_contents: false
 sidebar_label: Documentation Template
-description: The template and style guide used for contributing to Bloom.host documentation.
+description: The template and style guide used for contributing to Bloom documentation.
 keywords:
   - Template
   - Contributing
   - Style Guide
-  - Bloom.host
 ---
 
-:::tip Before You Start
-This page is a **contributor template and style reference**. Copy this file as a starting point for any new documentation page. Sections marked with `(*)` are required; sections marked `if applicable` are optional.
+:::note Markdown Syntax
+You can also reference our [Syntax Markdown Guide](/extras/markdown-syntax-reference) 
 :::
 
 ## Overview (*)
@@ -34,7 +33,7 @@ This page is a **contributor template and style reference**. Copy this file as a
 
 
 Before following this guide, make sure you have:
-- [ ] Access to the [Bloom.host Panel](https://mc.bloom.host)
+- [ ] Access to the [DuckPanel](https://mc.bloom.host)
 - [ ] A running server (Paper, Spigot, Fabric, etc.)
 - [ ] *(Add any other requirements here)*
 

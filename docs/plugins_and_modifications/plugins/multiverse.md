@@ -9,8 +9,6 @@ keywords:
   - Multiverse
   - Multiple Worlds
   - Spigot
-  - Bloom.host
-  - Bloom.host
   - Pterodactyl Panel
   - Minecraft
 ---

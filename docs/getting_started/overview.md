@@ -4,7 +4,7 @@ title: Docs Overview
 slug: /
 hide_table_of_contents: true
 sidebar_label: Documentation Overview
-description: Learn how to navigate Bloom.host documentation and find common server, panel, and account guides.
+description: Learn how to navigate Bloom documentation and find common server, panel, and account guides.
 ---
 
 ## Introduction

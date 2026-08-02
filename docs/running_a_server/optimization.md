@@ -12,7 +12,6 @@ keywords:
   - Lag
   - Server
   - Server Optimization
-  - Bloom.host
   - Pterodactyl Panel
   - Minecraft
 ---

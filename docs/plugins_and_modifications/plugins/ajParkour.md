@@ -11,7 +11,6 @@ keywords:
   - auto
   - automatic
   - Spigot
-  - Bloom.host
   - Minecraft
 ---
 

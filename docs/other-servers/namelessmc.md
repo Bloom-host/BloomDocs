@@ -13,7 +13,6 @@ keywords:
 - Website Software
 - Website
 - Pterodactyl Panel
-- Bloom.host
 ---
 
 ### What is NamelessMC

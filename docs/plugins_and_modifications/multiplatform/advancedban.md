@@ -13,7 +13,6 @@ keywords:
   - ban
   - Pterodactyl Panel
   - Minecraft
-  - Bloom.host
 ---
 
 ### What does the plugin do?

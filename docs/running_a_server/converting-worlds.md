@@ -4,20 +4,19 @@ title: Converting Bukkit Worlds to Vanilla
 slug: /converting-worlds
 hide_table_of_contents: true
 sidebar_label: Converting Bukkit Worlds to vanilla
-description: How to convert a Bukkit/Spigot/Paper world to a vanilla one
+description: How to convert a Bukkit/Spigot/Paper world to a Vanilla one
 keywords:
  - Bukkit
  - Spigot
  - Paper
- - Bloom.host
  - Minecraft
  - world
  - saves
 
 ---
 
-## Converting Bukkit Worlds to vanilla
-If you upload or generate a world on a Bukkit/Spigot/Paper server, you will notice that when the server loads it splits the world into three folders: `world`, `world_nether` and `world_the_end`, or one for each dimension. This is fine until you want to download the world and run it in singleplayer or switch to a vanilla/Fabric/Forge server. This guide shows you how to convert Bukkit/Spigot/Paper worlds back to ones that can be used on vanilla or other server types. Note that the screenshots provided were taken on macOS, but the method should work for all platforms.
+## Converting Bukkit Worlds to Vanilla
+If you upload or generate a world on a Bukkit/Spigot/Paper server, you will notice that when the server loads it splits the world into three folders: `world`, `world_nether` and `world_the_end`, or one for each dimension. This is fine until you want to download the world and run it in singleplayer or switch to a Vanilla/Fabric/Forge server. This guide shows you how to convert Bukkit/Spigot/Paper worlds back to ones that can be used on Vanilla or other server types. Note that the screenshots provided were taken on macOS, but the method should work for all platforms.
 
 ---
 
@@ -49,5 +48,5 @@ Return to the root folder once again and go into `world_the_end`. From here, cop
 ![converting worlds](/running_a_server/converting_worlds/4.png)
 ![converting worlds](/running_a_server/converting_worlds/5.png)
 
-By copying the DIM-1 and DIM1 folders into `world`, you have made a copy of all the data of the Nether and End dimensions available in the `world` folder, which means that it now contains all the required data to run all three dimensions successfully (it already has its own copies of `level.dat`, `session.lock` and `uid.dat`) and can be run without issue on vanilla, Fabric, Forge and other servers. 
+By copying the DIM-1 and DIM1 folders into `world`, you have made a copy of all the data of the Nether and End dimensions available in the `world` folder, which means that it now contains all the required data to run all three dimensions successfully (it already has its own copies of `level.dat`, `session.lock` and `uid.dat`) and can be run without issue on Vanilla, Fabric, Forge and other servers. 
 

@@ -1,8 +1,8 @@
 ---
-id: virtfusion-image
-title: Mounting an Image in VirtFusion
+id: virtfusion-iso
+title: Mounting a CD/ISO in VirtFusion
 hide_table_of_contents: true
-sidebar_label: VirtFusion Images
+sidebar_label: VirtFusion CD/ISO
 description: How to mount an installation or utility image on a VirtFusion VPS.
 keywords:
   - VirtFusion
@@ -23,7 +23,7 @@ Use the Media tab in VirtFusion to mount an operating-system installer, driver i
 3. Under **CD/DVD-ROM**, select the image you want to mount.
 4. Click **Insert**. VirtFusion will configure the VPS to boot from the mounted CD/DVD image.
 
-![VirtFusion Media tab showing where to select and insert an image](/VPS/virtfusion-image/mount-image.png)
+![VirtFusion Media tab showing where to select and insert an image](/VPS/virtfusion-iso/mount-iso.png)
 
 The VPS will not restart automatically, do so manually after following the VNC steps below.
 

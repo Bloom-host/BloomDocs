@@ -10,7 +10,6 @@ keywords:
   - Anticheat
   - Vulcan AAC
   - Spigot
-  - Bloom.host
   - Minecraft
 ---
 

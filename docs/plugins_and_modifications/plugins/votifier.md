@@ -10,7 +10,6 @@ keywords:
   - Votifier
   - Set up voting
   - Spigot
-  - Bloom.host
   - Pterodactyl Panel
   - Minecraft
 ---

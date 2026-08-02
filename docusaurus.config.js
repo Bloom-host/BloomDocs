@@ -1,6 +1,6 @@
 module.exports = {
     title: 'Bloom.host Docs',
-    tagline: 'Guides for Bloom.host servers and services',
+    tagline: 'Guides for Bloom servers and services',
     url: 'https://docs.bloom.host',
     baseUrl: '/',
     staticDirectories: [ 'static', 'docs' ],

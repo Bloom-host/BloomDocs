@@ -10,7 +10,6 @@ keywords:
   - Server
   - Pterodactyl Panel
   - Minecraft
-  - Bloom.host
 ---
 
 Once you found the resource pack you want on your server you need to upload the resource pack to a website and get the direct download link of it. You can use [MC-Packs](https://mc-packs.net/).

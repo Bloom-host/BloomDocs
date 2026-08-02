@@ -14,7 +14,6 @@ keywords:
   - Discord Bot
   - Paper
   - Spigot
-  - Bloom.host
 ---
 
 ## Overview

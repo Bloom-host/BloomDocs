@@ -14,7 +14,7 @@ keywords:
   - Startup
 ---
 
-Bloom.host offers different versions of Java to suit your server. The default Java 25 for modern Minecraft versions, this should suit most use cases.
+Bloom offers different versions of Java to suit your server. The default Java 25 for modern Minecraft versions, this should suit most use cases.
 This guide will show you how to change the version of Java if it does not work for your server.
 
 1. Firstly you want to go to the [Minecraft server control panel](https://mc.bloom.host/) and select the server that you want to change the Java version of.

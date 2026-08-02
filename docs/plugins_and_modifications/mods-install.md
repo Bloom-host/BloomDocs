@@ -7,7 +7,6 @@ sidebar_label: Installing Mods
 description: How to install minecraft mods on your forge/fabric server.
 keywords:
   - Template
-  - Bloom.host
   - Pterodactyl Panel
   - Minecraft
   - Fabric

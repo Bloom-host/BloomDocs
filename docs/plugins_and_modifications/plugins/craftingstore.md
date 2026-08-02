@@ -7,10 +7,8 @@ sidebar_label: CraftingStore
 description: How to enable donations on your server!
 keywords:
   - CraftingStore
-  - Bloom.host
   - donations
   - plugins
-  - Bloom.host
   - Minecraft
 ---
 

@@ -12,7 +12,6 @@ keywords:
   - mute
   - kick
   - Spigot
-  - Bloom.host
   - Pterodactyl Panel
   - Minecraft
 ---

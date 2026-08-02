@@ -15,7 +15,6 @@ keywords:
   - 1.16
   - 1.17
   - Minecraft
-  - Bloom.host
 ---
 
 :::warning Legacy guide

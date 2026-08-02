@@ -6,7 +6,9 @@ hide_table_of_contents: true
 sidebar_label: How to diagnose and fix ping issues
 description: This guide will help you diagnose and potentially fix ping issues.
 keywords:
-  - Bloom.host
+  - MTR
+  - Anti-Xray
+  - Engine Mode 2
   - ping issues
   - ping
 ---

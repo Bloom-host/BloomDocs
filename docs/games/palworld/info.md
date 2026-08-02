@@ -31,9 +31,6 @@ keywords:
 ## Recommended Server Limits
 
 The [official requirements](https://docs.palworldgame.com/getting-started/requirements/) specify 16 GB of memory and recommend more than 32 GB for larger servers. An 8 GB server may start, but has a higher risk of crashing due to insufficient memory.
-
-Use SSD storage where possible; the official guide warns that low-performance storage may corrupt save data.
-
 ---
 
 ## Credits

@@ -7,7 +7,6 @@ sidebar_label: Adding an icon
 description: How to add a server icon to your minecraft server
 keywords:
   - Server icon
-  - Bloom.host
   - Pterodactyl Panel
   - Minecraft
   - server-icon

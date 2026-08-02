@@ -9,7 +9,7 @@ description: A list of mods that will help combat lag on fabric servers.
 keywords:
   - Performance
   - Fabric
-  - Bloom.host
+  - Bloom.hos
   - Pterodactyl Panel
   - Minecraft
 ---

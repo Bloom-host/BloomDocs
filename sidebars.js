@@ -284,7 +284,7 @@ module.exports = {
                 'VPS/vnc',
                 'VPS/credentials-vps',
                 'VPS/virtfusion-subuser',
-                'VPS/virtfusion-image',
+                'VPS/virtfusion-iso',
                 'VPS/virtfusion-windows-install',
                 'VPS/virtfusion-vnc',
                 'VPS/virtfusion-rescue',
@@ -323,6 +323,8 @@ module.exports = {
             items: [
                 'extras/ping-issues',
                 'extras/mtr',
+                'extras/documentation-template',
+                'extras/markdown-syntax-reference',                
                 'extras/account-details',
                 'extras/available-modpacks',
                 'extras/srvcontrol',

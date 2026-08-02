@@ -13,7 +13,6 @@ keywords:
   - currency
   - Pterodactyl Panel
   - Minecraft
-  - Bloom.host
 ---
 
 :::important

@@ -16,7 +16,6 @@ keywords:
   - Spigot
   - Forge
   - Fabric
-  - Bloom.host
   - Pterodactyl Panel
   - Minecraft
 ---

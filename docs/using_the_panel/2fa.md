@@ -6,8 +6,8 @@ hide_table_of_contents: true
 sidebar_label: 2-Factor Authentication
 description: This guide will help you secure your account through 2-Factor Authentication
 keywords:
-  - BloomVPS
-  - Bloom.host
+  - Bloom
+  - DuckPanel
   - Pterodactyl Panel
   - 2FA
   - 2FA Gameserver

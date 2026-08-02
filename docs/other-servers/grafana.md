@@ -8,7 +8,6 @@ keywords:
   - Grafana
   - Pterodactyl Panel
   - Minecraft
-  - Bloom.host
   - UnifiedMetrics
   - Prometheus
 ---

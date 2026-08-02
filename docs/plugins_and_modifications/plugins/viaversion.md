@@ -19,7 +19,6 @@ keywords:
   - 1.9
   - 1.8
   - Spigot
-  - Bloom.host
   - Pterodactyl Panel
   - Minecraft
 ---

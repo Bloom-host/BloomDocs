@@ -8,7 +8,6 @@ description: How do I find you when I cannot solve this problem
 keywords:
   - Citizens
   - Minecraft
-  - Bloom.host
 ---
 
 ## What does the plugin do?

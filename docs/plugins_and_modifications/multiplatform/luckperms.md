@@ -14,7 +14,6 @@ keywords:
   - Bukkit
   - BungeeCord
   - Velocity
-  - Bloom.host
   - Pterodactyl Panel
   - Minecraft
 ---

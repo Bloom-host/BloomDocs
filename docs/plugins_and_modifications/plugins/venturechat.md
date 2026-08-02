@@ -9,7 +9,6 @@ keywords:
   - VentureChat
   - Chat
   - Spigot
-  - Bloom.host
   - Pterodactyl Panel
   - Minecraft
 ---

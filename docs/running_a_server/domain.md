@@ -12,7 +12,6 @@ keywords:
   - Pterodactyl Panel
   - Minecraft Domain
   - A Record
-  - Bloom.host
 ---
 
 Hello there Bloomers! 👋 

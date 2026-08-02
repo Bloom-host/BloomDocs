@@ -1,6 +1,6 @@
 ---
 id: worlds
-title: Managing Minecraft Worlds
+title: Managing Worlds
 slug: /worlds
 hide_table_of_contents: false
 sidebar_label: Managing Worlds

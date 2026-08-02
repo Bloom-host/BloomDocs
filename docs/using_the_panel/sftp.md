@@ -6,13 +6,12 @@ hide_table_of_contents: false
 sidebar_label: Using SFTP For Files
 description: This guide will help you use SFTP (WinSCP/Cyberduck/MobaXTerm/FileZilla/Visual Studio COde) to transfer files.
 keywords:
-  - Bloom.host
   - Import Files
   - Export Files
   - Transfer Files
   - SFTP
   - File Access
-  - Bloom.host file access
+  - file access
   - Pterodactyl Panel
   - FTP
   - FIle Transfer

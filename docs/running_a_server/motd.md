@@ -11,7 +11,6 @@ keywords:
   - Spigot
   - 1.16
   - Minecraft
-  - Bloom.host
 ---
 
 The message of the day (MOTD) is the text players see beside your server in the multiplayer server list. This guide covers the built-in `server.properties` setting, ServerListPlus, and MiniMOTD. Choose the option that matches your server software and the features you need.

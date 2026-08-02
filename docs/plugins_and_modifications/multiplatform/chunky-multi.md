@@ -10,7 +10,6 @@ keywords:
   - Server Pregeneration
   - Spigot
   - Fabric
-  - Bloom.host
   - Pterodactyl Panel
   - Minecraft
 ---

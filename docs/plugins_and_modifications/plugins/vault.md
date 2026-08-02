@@ -13,7 +13,6 @@ keywords:
   - Bukkit
   - Pterodactyl Panel
   - Minecraft
-  - Bloom.host
 ---
 
 ## What does this plugin do?
