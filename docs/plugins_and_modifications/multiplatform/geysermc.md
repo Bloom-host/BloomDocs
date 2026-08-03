@@ -30,7 +30,7 @@ Geyser translates network traffic so Bedrock players can join Java servers. It m
 
 If you need help installing plugins, check out our [plugin installation guide](/installing-plugins).
 
-Once installed, go to the **Ports & Proxies** page on the DuckPanel panel. Create a new port allocation using `19132`. While it is the default, you can use any available port assigned to your server.
+Once installed, go to the **Ports & Proxies** page in DuckPanel. Create a new port allocation using `19132`. While it is the default, you can use any available port assigned to your server.
 
 After assigning the port, update the `port:` value in Geyser's `config.yml` to match your new allocation (if not the default), then restart the server.
 
