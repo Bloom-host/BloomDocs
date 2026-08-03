@@ -13,7 +13,7 @@ keywords:
   - Bloom
 ---
 
-DuckPanel allows you to split your server, for example, to run more Minecraft servers for different game modes or to run a Discord bot on your server.
+DuckPanel allows you to split your server, for example, to run more Minecraft servers for different game modes or to run a Discord bot on a separate split server.
 
 :::important
 Splitting your server will take resources (Storage and RAM) from your main server. It's important to make sure that you leave enough resources so that your main server runs properly!
