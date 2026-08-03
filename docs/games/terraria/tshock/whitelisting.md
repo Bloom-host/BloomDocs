@@ -12,7 +12,7 @@ keywords:
 ---
 
 :::info HEADS UP
-The game does not provide a whitelisting functionality by default, so we will have to use [TShock](overview), a
+The game does not provide a Whitelisting functionality by default, so we will have to use [TShock](overview), a
 third party server software.
 
 As an alternative for the vanilla server, you can use [server passwords](/games/terraria/password).
@@ -22,7 +22,7 @@ If you haven't already, make sure to install is using [the steps here](overview)
 
 ## Toggling Whitelist
 
-In order to toggle the IP whitelist on your TShock server, head over to the 'File Manager' tab in the panel.
+In order to toggle the IP Whitelist on your TShock server, head over to the 'File Manager' tab in the panel.
 
 There, find and open the `tshock` folder:
 ![TShock folder opened in file manager](/games/terraria/tshock/whitelisting/folder.png)
@@ -34,14 +34,14 @@ In order to enable it, set it to `true`. Save the config once that's done!
 
 Lastly, go back to the 'Console' tab of the panel and hit 'Restart' to apply the change.
 
-Now if anyone tries to connect without being added to the whitelist, their account will be kicked:
+Now if anyone tries to connect without being added to the Whitelist, their account will be kicked:
 ![Kick message in game](/games/terraria/tshock/whitelisting/kicked.png)
 
 ---
 
 ## Adding & Removing Players
 
-The whitelist is based on IP addresses. In order to add or remove players, open the `tshock` folder like before, and
+The Whitelist is based on IP addresses. In order to add or remove players, open the `tshock` folder like before, and
 find the `whitelist.txt` file.
 
 To add a new entry, find the IP address you want to allow. You can see the IP address whenever someone attempts to
@@ -50,7 +50,7 @@ connect:
 
 Then, add a new line to the aforementioned `whitelist.txt` with the following format: `whitelist <ip address here>`
 
-As an example, to whitelist `1.1.1.1`, you would add: `whitelist 1.1.1.1`
+As an example, to Whitelist `1.1.1.1`, you would add: `whitelist 1.1.1.1`
 
 ![Whitelist config showing 2 entries](/games/terraria/tshock/whitelisting/file.png)
 
