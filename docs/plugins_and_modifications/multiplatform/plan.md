@@ -38,7 +38,7 @@ Plan (Player Analytics) records server activity such as player counts and playti
 
 ### Configure the Web Server
 
-1. In the DuckPanel File Manager, open `plugins/Plan/config.yml`.
+1. In the DuckPanel File Manager, open `plugins/Plan/config.yml`. Make sure to open port `8804` for Plan setups, instead of just `any port`. If it's not available, you can use a different port but remember to change the config file shown below accordingly. 
 2. Update the following settings. Replace `plan.example.com` with the domain or subdomain you configured in the reverse proxy guide.
 
 ```yaml
