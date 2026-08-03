@@ -26,7 +26,7 @@ keywords:
 **S**SH **F**ile **T**ransfer **P**rotocol is one of the most popular methods of securely transferring files to remote servers.
 
 :::important
-We recommend you zip the files you want to upload to your server, uploading individual files through SFTP can take a long time. Once you have uploaded the .zip file to your server, you can go to the File Manager in DuckPanel, click on the three dots `...` to the right of the .zip and click on `Extract`.
+We recommend you zip the files you want to upload to your server. Uploading individual files through SFTP can take a long time. Once you have uploaded the .zip file to your server, you can go to the File Manager in DuckPanel, click on the three dots `...` to the right of the .zip and click on `Extract`.
 :::
 
 ### More Actions like compress, extract, rename, and others
