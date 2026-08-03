@@ -1,6 +1,8 @@
 ---
 id: connecting
-title: Connecting to a Terraria Server
+title: Connecting to Server
+tags:
+  - Connecting to a Terraria Server
 hide_table_of_contents: true
 description: Learn how to connect to your Terraria server!
 keywords:
@@ -9,6 +11,7 @@ keywords:
   - Join via IP
   - Multiplayer
   - Server IP
+  - Connecting to a Terraria Server
 ---
 
 In order to connect to your Terraria server, open your server in the [DuckPanel](https://mc.bloom.host). If this is a

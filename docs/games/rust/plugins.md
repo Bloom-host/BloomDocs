@@ -1,6 +1,8 @@
 ---
 id: plugins
-title: Using Rust Plugins
+title: Using Plugins
+tags:
+  - Using Rust Plugins
 hide_table_of_contents: true
 description: Learn how you can install and use plugins on your Rust server!
 keywords:
@@ -10,6 +12,7 @@ keywords:
   - uMod
   - Install plugins
   - Plugin config
+  - Using Rust Plugins
 ---
 
 ## Introduction
