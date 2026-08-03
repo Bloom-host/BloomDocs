@@ -70,7 +70,7 @@ Save the file and restart the server after changing this setting.
 ## Verify the Setup
 
 1. Open `https://plan.example.com` in your browser, replacing the example address with your domain or subdomain.
-2. Select **Create Account** and complete the registration form.
+2. Select **Create Account**, complete the registration form, then run the displayed `/plan register --code <code>` command in-game to finalize the account.
 3. Confirm that the Plan dashboard loads and displays your server's analytics.
 
 ---
