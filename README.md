@@ -44,7 +44,7 @@ and they can be uploaded to the documentation.
 
 You should start your guides with the base [Documentation Template](https://docs.bloom.host/extras/documentation-template/).
 
-You can reference our [Markdown Syntax Guide](https://docs.bloom.host/extras/markdown-syntax-reference/) for further references regarding the use of markdown. 
+You can reference our [Markdown Syntax Guide](https://docs.bloom.host/extras/markdown-syntax-reference/) for more information about using Markdown.
 
 ---
 
