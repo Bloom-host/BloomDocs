@@ -11,7 +11,7 @@ keywords:
 ---
 
 :::note Markdown Syntax
-You can also reference our [Syntax Markdown Guide](/extras/markdown-syntax-reference) 
+You can also reference our [Markdown Syntax Guide](/extras/markdown-syntax-reference).
 :::
 
 ## Overview (*)
