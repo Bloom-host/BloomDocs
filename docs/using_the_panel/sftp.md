@@ -82,7 +82,7 @@ Firstly, you'll have to download [MobaXTerm](https://mobaxterm.mobatek.net/downl
  
 Once installed, launch the application. Right-click on the left side of the screen and click 'New Session'. Select 'SFTP' in the middle.  
 
-![WinSCP New Session form configured for SFTP](/using_the_panel/sftp/4.png)
+![MobaXTerm New Session form configured for SFTP](/using_the_panel/sftp/4.png)
 
 Enter your host's IP, port, and SFTP username (which can be found in the DuckPanel server settings tab). Then click 'OK'.
 You will be asked for your panel password, which will be stored by default.  
