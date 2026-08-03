@@ -1,6 +1,6 @@
 ---
 id: connecting
-title: Connecting to Servers
+title: Connecting to Server
 tags:
   - Connecting to a Rust Server
 hide_table_of_contents: true

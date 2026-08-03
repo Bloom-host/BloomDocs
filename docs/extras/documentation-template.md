@@ -10,6 +10,10 @@ keywords:
   - Style Guide
 ---
 
+:::important Before You Start
+This page is a **contributor template and style reference**. Copy this file as a starting point for any new documentation page. Sections marked with `(*)` are mandatory.
+:::
+
 :::note Markdown Syntax
 You can also reference our [Markdown Syntax Guide](/extras/markdown-syntax-reference).
 :::
@@ -157,6 +161,6 @@ Deleting your `world/` folder is **irreversible**. Always take a backup first.
 
 - ✅ **Do** use admonitions to surface genuinely important context that would be easy to miss in body text.
 - ✅ **Do** keep the content inside admonitions brief.
-- ❌ **Don't** stack multiple admonitions back-to-back.
+- ❌ **Don't** stack multiple admonitions back-to-back, unless there is no other clearer way to communicate both messages. 
 - ❌ **Don't** use `:::warning` for anything less than a real risk of data loss or breakage.
 - ❌ **Don't** use admonitions as a substitute for well-structured body text.
