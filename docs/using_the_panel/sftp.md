@@ -26,7 +26,7 @@ keywords:
 **S**SH **F**ile **T**ransfer **P**rotocol is one of the most popular methods of securely transferring files to remote servers.
 
 :::important
-We recommend you zip the files you want to upload to your server, uploading individual files through SFTP can take a long time. Once you have uploaded the .zip file to your server, you can go to the File Manager in DuckPanel, click on the three dots `...` to the right of the .zip and click on `Extract`.
+We recommend you zip the files you want to upload to your server. Uploading individual files through SFTP can take a long time. Once you have uploaded the `.zip` file to your server, you can go to the File Manager in DuckPanel, click on the three dots `...` to the right of the `.zip` file, and click on `Extract`.
 :::
 
 ### More Actions like compress, extract, rename, and others
@@ -82,7 +82,7 @@ Firstly, you'll have to download [MobaXTerm](https://mobaxterm.mobatek.net/downl
  
 Once installed, launch the application. Right-click on the left side of the screen and click 'New Session'. Select 'SFTP' in the middle.  
 
-![WinSCP New Session form configured for SFTP](/using_the_panel/sftp/4.png)
+![MobaXTerm New Session form configured for SFTP](/using_the_panel/sftp/4.png)
 
 Enter your host's IP, port, and SFTP username (which can be found in the DuckPanel server settings tab). Then click 'OK'.
 You will be asked for your panel password, which will be stored by default.  
