@@ -1,18 +1,21 @@
 ---
-id: templatexample
-title: Template
+id: documentation-template
+title: Documentation Template
 hide_table_of_contents: false
-sidebar_label: Template
-description: The template and style guide used for contributing to Bloom.host documentation.
+sidebar_label: Documentation Template
+description: The template and style guide used for contributing to Bloom documentation.
 keywords:
   - Template
   - Contributing
   - Style Guide
-  - Bloom.host
 ---
 
-:::tip Before You Start
+:::important Before You Start
 This page is a **contributor template and style reference**. Copy this file as a starting point for any new documentation page. Sections marked with `(*)` are mandatory.
+:::
+
+:::note Markdown Syntax
+You can also reference our [Markdown Syntax Guide](/extras/markdown-syntax-reference).
 :::
 
 ## Overview (*)
@@ -34,7 +37,7 @@ This page is a **contributor template and style reference**. Copy this file as a
 
 
 Before following this guide, make sure you have:
-- [ ] Access to the [Bloom.host Panel](https://mc.bloom.host)
+- [ ] Access to the [DuckPanel](https://mc.bloom.host)
 - [ ] A running server (Paper, Spigot, Fabric, etc.)
 - [ ] *(Add any other requirements here)*
 
@@ -83,12 +86,12 @@ Sometimes a step has multiple valid paths. Use a table or side-by-side breakdown
 
 When referencing commands or config files, always use a code block with the appropriate language tag:
 
-```
+```text
 # Run this in your server console
 spark profiler start
 ```
 
-```
+```yaml
 # Example config.yml snippet
 setting: true
 value: 42
@@ -100,7 +103,7 @@ value: 42
 
 If adding images, place them in the appropriate subfolder under `/static/` and reference them with a relative path. Always add descriptive alt text.
 
-![](/extras/templatexample/duck.jpg)
+![Duck standing beside a pond](/extras/templatexample/duck.jpg)
 
 
 ## Docusaurus Admonitions Reference
@@ -111,7 +114,7 @@ Docusaurus supports special callout blocks called **admonitions**, created using
 
 The basic structure is:
 
-```
+```md
 :::type
 Your content here. Supports **Markdown** formatting.
 :::
@@ -119,7 +122,7 @@ Your content here. Supports **Markdown** formatting.
 
 You can also add a **custom title** by appending it after the type:
 
-```
+```md
 :::note My Custom Title
 Your content here.
 :::
@@ -143,7 +146,7 @@ Spark is included by default in Paper versions 1.20 and above.
 :::
 
 :::tip Custom Tip Title
-You can install plugins via SFTP or directly through the Panel's file manager.
+You can install plugins via SFTP or directly through the panel's File Manager.
 :::
 
 :::caution
@@ -158,6 +161,6 @@ Deleting your `world/` folder is **irreversible**. Always take a backup first.
 
 - ✅ **Do** use admonitions to surface genuinely important context that would be easy to miss in body text.
 - ✅ **Do** keep the content inside admonitions brief.
-- ❌ **Don't** stack multiple admonitions back-to-back.
+- ❌ **Don't** stack multiple admonitions back-to-back, unless there is no other clearer way to communicate both messages. 
 - ❌ **Don't** use `:::warning` for anything less than a real risk of data loss or breakage.
 - ❌ **Don't** use admonitions as a substitute for well-structured body text.

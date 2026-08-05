@@ -2,7 +2,7 @@
 id: votifier
 title: NuVotifier
 slug: /plugins/votifier
-hide_table_of_contents: true
+hide_table_of_contents: false
 sidebar_label: NuVotifier
 description: NuVotifier allows you to be put on voting sites, which increases your servers visibility.
 keywords:
@@ -10,7 +10,6 @@ keywords:
   - Votifier
   - Set up voting
   - Spigot
-  - Bloom.host
   - Pterodactyl Panel
   - Minecraft
 ---
@@ -45,11 +44,11 @@ Please check your `config.yml`, you'll notice there is a list of configuration o
 
 After you have found your port, you need to head to DuckPanel and open Ports & Proxies. It should look something like below.
 
-![console](/plugins_and_modifications/plugins/votifier/1.png)
+![DuckPanel Ports and Proxies tab with existing allocations](/plugins_and_modifications/plugins/votifier/1.png)
 
 You'll already have a batch of allocations most likely, simply need to hit `Open Port` and type in `8192` then hit `open port`
 
-![console](/plugins_and_modifications/plugins/votifier/2.png)
+![Open Port dialog configured for Votifier port 8192](/plugins_and_modifications/plugins/votifier/2.png)
 
 The next step is to restart your server, so the port can be opened.
 

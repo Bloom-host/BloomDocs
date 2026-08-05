@@ -2,7 +2,7 @@
 id: TAB
 title: TAB
 slug: /plugins/TAB
-hide_table_of_contents: true
+hide_table_of_contents: false
 sidebar_label: TAB
 description: The tab plugin for Paper
 keywords:
@@ -18,7 +18,7 @@ keywords:
 
 ## Overview
 
-[TAB](https://modrinth.com/plugin/tab-was-taken) is "the" tab plugin you were looking for, with [PlaceholderAPI](https://docs.bloom.host/plugins/placeholderapi) it's the most versatile open source tab plugin available. This guide will explain the basic setup to use this plugin on Paper.
+[TAB](https://modrinth.com/plugin/tab-was-taken) is "the" tab plugin you were looking for; with [PlaceholderAPI](https://docs.bloom.host/plugins/placeholderapi), it's the most versatile open-source tab plugin available. This guide will explain the basic setup to use this plugin on Paper.
 
 ---
 

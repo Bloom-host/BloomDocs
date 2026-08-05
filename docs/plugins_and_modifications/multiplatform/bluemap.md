@@ -23,7 +23,6 @@ keywords:
   - neo Forge
   - Sponge
   - CLI
-  - Bloom.host
   - Pterodactyl Panel
   - Minecraft
 ---
@@ -36,7 +35,9 @@ Or just look at it from far away to get an overview.
 It's an alternative to Dynmap or Squaremap, but unlike those, it is _fully_ 3D. You can orbit around everywhere, and fly through the world like spectator mode.
 
 
-# Usage
+---
+
+## Usage
 Download BlueMap for your platform and install it like any other plugin/mod.
 Config files for it will be generated in the `plugins/BlueMap` (plugin) directory or the `config/BlueMap` (modded) directory, depending on your platform.
 
@@ -51,7 +52,7 @@ By default, BlueMap will use an internal web server. It is recommended you don't
 In the webserver.conf file, you can set the port you wish to use for your BlueMap. By default it is set to `8100`, but you may want to change it to something else.
 You can do that by opening it and modifying the following line:
 
-```
+```yaml
 port: 8100
 ```
 

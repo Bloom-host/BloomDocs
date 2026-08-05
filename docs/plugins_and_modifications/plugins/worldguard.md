@@ -37,7 +37,7 @@ Use WorldEdit’s wand tool (usually a wooden axe) to select two opposite corner
 **Step 2: Define the region**
 Run the command:
 
-```/rg define <region_name>```
+`/rg define <region_name>`
 
 to create a region with your chosen name.
 
@@ -47,8 +47,7 @@ Flags control what players can do in the region. Some common examples:
 
 * Example: Disabling pvp in a region
 
-  ```/rg flag <region_name> pvp deny```
-
+  `/rg flag <region_name> pvp deny`
 * Step 4: Check your region
   Use:
 `/rg info <region_name>`

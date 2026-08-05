@@ -4,6 +4,7 @@ title: How to update or change version
 slug: /updating
 hide_table_of_contents: true
 sidebar_label: Updating or changing versions
+description: Update or change the Minecraft server type and version from DuckPanel.
 keywords:
   - Updating
   - Update server
@@ -27,7 +28,7 @@ These same steps apply to changing the version your server runs on.
 
 ### Updating or changing versions and jars through the panel
 
-To update or change the version of your server, go to the Duck Panel, select your server and click on the **Settings** tab. There you will find a box that says **Change Server Type**.
+To update or change the version of your server, go to DuckPanel, select your server and click on the **Settings** tab. There you will find a box that says **Change Server Type**.
 
 After you have selected the server type, you will be able to see the available versions of Minecraft and builds, here you can also select the type of server you want to run: Vanilla, Paper, Forge and others. After this, you can click on the "Change Server Type" button to change the jar, version or build your server runs on. Make sure to hit "Reinstall now" if you want the upgrade to proceed.
 
@@ -41,5 +42,5 @@ After you have followed the steps above, you can periodically check the **Settin
 - Make sure that your server is backed up completely.
 - [Create full backup](/backups) of your server. (As an additional step, we would suggest testing this backup on a local or a split test server)
 - Remove your current server jar through [SFTP](/sftp) or the [File Manager](/file-manager-controls).
-- Download the new version of your server software. If you are unsure which one to use, check out our guide on server jars [here](/jars).
+- Download the new version of your server software. If you are unsure which one to use, check out our [server jars guide](/jars).
 - Upload it using SFTP or the File Manager and make sure to define the full name (such as `paper-1.18-023` in the 'Startup' tab on the panel)

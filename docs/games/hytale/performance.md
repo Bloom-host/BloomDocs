@@ -1,7 +1,7 @@
 ---
 id: performance
 title: Performance Optimizations
-hide_table_of_contents: true
+hide_table_of_contents: false
 sidebar_label: Performance Optimizations
 description: This guide will help fix some general issues with hytale performance
 keywords:
@@ -18,6 +18,8 @@ These optimizations are general recommendations and results may vary depending o
 
 For reading into where lag is coming from, [spark has ported their mod to hytale](https://www.curseforge.com/hytale/mods/spark)!
 
+---
+
 ## Lowering Render Distance
 
 Render distance has a direct impact on server performance. Higher render distances require the server to process and send more world data to players, which can increase CPU and memory usage.
@@ -26,11 +28,15 @@ Lowering the render distance is recommended if your server has frequent lag spik
 
 To lower the render distance, navigate to your server’s [File Manager](/file-manager-controls), open config.json, and locate the default render distance value on line 7, the specific value name is "MaxViewRadius". Change this value from 32 to a number below 16, then save the file and restart your server.
 
+---
+
 ## Installing Performance mods
 
 At the moment, there are limited performance-focused plugins available for Hytale, as the game was recently released. However, some plugins can still help improve stability and support larger player counts.
 
 One example plugin you can try is the [Hytale-Plugin-Performance-Saver](https://github.com/nitrado/hytale-plugin-performance-saver/releases)
+
+---
 
 ## Pregenerating the World
 
@@ -46,7 +52,9 @@ Example; ``world settings pregenerate 1200 1200 -1200 -1200``
 
 Then restart your Hytale server so pregen can begin. 
 
-You can cancel the pregen anytime via the command: ```world settings pregenerate cancel```
+You can cancel the pregen anytime via the command: `world settings pregenerate cancel`
+
+---
 
 ## Checking Performance Improvements
 

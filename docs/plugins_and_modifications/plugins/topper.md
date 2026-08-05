@@ -2,7 +2,7 @@
 id: topper
 title: Topper
 slug: /plugins/Topper
-hide_table_of_contents: true
+hide_table_of_contents: false
 sidebar_label: Topper
 description: A highly optimized plugin for leaderboard creation
 keywords:
@@ -13,8 +13,6 @@ keywords:
 ## What does the plugin do?
 
 Topper allows you to create customizable leaderboards using PlaceholderAPI placeholders and even paper. It's perfect for displaying top players, stats, or any placeholder-based data directly in-game via holograms.
-
-![image](https://topper-mc.github.io/Wiki/spigot/quickstart/gettop.png)
 
 ## Installation
 
@@ -45,7 +43,7 @@ After you have added your placeholders to the config you can now restart the ser
 in-game you can run the following command to test out the placeholders, 
 
 you can do this with: 
-```/gettop money 10```
+`/gettop money 10`
 
 ---
 
@@ -56,20 +54,20 @@ To add this to a leaderboard, follow these steps:
 **Step 1:**
 Create a hologram using your preferred plugin. This example uses [DecentHolograms](https://modrinth.com/plugin/decentholograms):
 
-```
+```text
 /dh create MoneyTop
 ```
 
 **Step 2:**
 Add a placeholder to the hologram:
 
-```
+```text
 /dh line add MoneyTop 1 %topper_money;top_name;1% &7- &b%topper_money;top_value;1%
 ```
 
 **Add more lines if you want to add more rows, e.g**
 
-```
+```text
 /dh line add MoneyTop 1 %topper_money;top_name;2% &7- &b%topper_money;top_value;2%
 /dh line add MoneyTop 1 %topper_money;top_name;3% &7- &b%topper_money;top_value;3%
 ...

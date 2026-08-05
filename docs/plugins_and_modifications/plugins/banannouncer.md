@@ -2,7 +2,7 @@
 id: banannouncer
 title: Ban Announcer
 slug: /plugins/banannouncer
-hide_table_of_contents: true
+hide_table_of_contents: false
 sidebar_label: Ban Announcer
 description: A Spigot plugin to send punishments to a discord channel, of your choosing!
 keywords:
@@ -11,14 +11,13 @@ keywords:
   - Spigot
   - Moderation
   - Discord
-  - Bloom.host
   - Minecraft
 ---
 
 ## What does the plugin do?
 This plugin allows you to send a message (like the one below) to a channel in your discord through a discord bot, when somebody receives a punishment. (Muted, Warned, Banned, Unbanned, etc)
 
-![image](https://i.imgur.com/QuK1heu.png)
+![Discord punishment notification sent by BanAnnouncer](https://i.imgur.com/QuK1heu.png)
 
 :::important
 You must have Spicord, a Discord account, and a **Compatible** moderation plugin such as [AdvancedBan](https://www.spigotmc.org/resources/advancedban.8695/)
@@ -40,7 +39,7 @@ DO NOT SHARE YOUR BOT TOKEN.
 
 Once you copy your token, scroll down to the bottom of the page, under **Privileged Gateway Intents**, and enable all three settings.
 
-![image](https://i.imgur.com/GKh1zhU.png)
+![Discord bot settings with all privileged gateway intents enabled](https://i.imgur.com/GKh1zhU.png)
 
 For the sake of this guide, we're going to use the Administrator permission to guarantee it works correctly. Ideally, you would want to set the **proper permissions** for the channel.
 
@@ -61,7 +60,7 @@ If you don't know how to get the Channel ID, see [this](https://support.discord.
 ### Spicord
 In your Spicord config `/plugins/Spicord/config.toml`, under the `[[bots]]` section, add your token where it says `"YOUR BOT TOKEN HERE"`. After you add your token, find the `addons` section, and add `"ban_announcer"` on the next line. **Make sure you put a comma after the last option already there**
 
-![image](https://i.imgur.com/9itDSVi.png)
+![Spicord configuration with the bot token and BanAnnouncer addon](https://i.imgur.com/9itDSVi.png)
 
 As long as you set everything up correctly, your next punishment should show up in discord!
 

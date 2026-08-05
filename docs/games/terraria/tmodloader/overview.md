@@ -1,6 +1,8 @@
 ---
 id: overview
 title: Overview
+tags:
+  - tModLoader Overview
 hide_table_of_contents: true
 description: Learn about what tModLoader is and how you can set it up on your Bloom server!
 keywords:
@@ -9,6 +11,7 @@ keywords:
   - Modding
   - Server type
   - Install tModLoader
+  - tModLoader Overview
 ---
 
 ## Introduction

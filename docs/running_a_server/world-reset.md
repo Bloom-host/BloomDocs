@@ -11,7 +11,6 @@ keywords:
   - Minecraft
   - Spigot
   - Plugins
-  - Bloom.host
 ---
 
 You'll need a way to access your server files. This tutorial references the [web panel](https://mc.bloom.host), but you can also use [SFTP](/sftp). **Shutdown your server before proceeding!**
@@ -23,7 +22,7 @@ The following steps will __completely erase__ your worlds.
 
 If you wish to have multiple worlds on your server at once, add a prefix to the end of each world (such as `_old`), OR use a plugin such as [Multiverse](https://dev.bukkit.org/projects/multiverse-core).
 
-We recommend you take a backup before deleting any worlds in your server. Follow this [guide](/backups) to learn how to make and schedule backups.
+We recommend you take a backup before deleting any worlds in your server. Follow the [backups guide](/backups) to learn how to make and schedule backups.
 :::
 
 You now have to locate your world files, on *most* Minecraft servers these folders will be `world`, `world_nether`, and `world_the_end` - if not, check your `level-name` in `server.properties`.

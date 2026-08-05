@@ -2,9 +2,9 @@
 id: whitelist
 title: Setting Up Whitelist
 slug: /whitelist
-hide_table_of_contents: true
+hide_table_of_contents: false
 sidebar_label: Setting up Whitelist
-description: How to set up Whitelist on Java/Bedrock
+description: How to set up a whitelist on Java or Bedrock
 keywords:
   - Minecraft
   - Whitelist
@@ -60,7 +60,7 @@ Otherwise, it'll look something like this, we will use Notch as a placeholder:
 ]
 ```
 * Step 3: Add someone to your file, to do this you'll need their UUID, an easy way to get this is to goto a website like https://mcuuid.net/ and search their username you will get a result similar to this:
-![](/running_a_server/whitelisting/mcuuid-example.png)
+![MCUUID lookup result showing a player's full UUID](/running_a_server/whitelisting/mcuuid-example.png)
 From this page, we need one thing, the user's Full UUID. Once you have that copied, you can head back to the `whitelist.json` file and add them to the file using this format:
 ```yaml
 [

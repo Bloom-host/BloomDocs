@@ -1,9 +1,9 @@
 ---
 id: early_renewal
 title: Early Renewal
-hide_table_of_contents: true
+hide_table_of_contents: false
 sidebar_label: Early Renewal
-description: This guide will show you how to renew a service early on our billing panel
+description: This guide will show you how to renew a service early in our Billing Portal
 keywords:
   - early renewal
   - service renewal
@@ -13,17 +13,17 @@ keywords:
 
 ## Early Renewals
 
-Bloom.host clients can renew their services early, **as long as the next due date is less than 31 days away**. Please note that all Bloom.host services operate on a subscription basis. If you have a valid payment method linked to your Bloom.host Billing Account, your service will automatically renew on its due date.
+Bloom clients can renew their services early, **as long as the next due date is less than 31 days away**. Please note that all Bloom services operate on a subscription basis. If you have a valid payment method linked to your Bloom Billing Account, your service will automatically renew on its due date.
 
 ---
 
 ### How It Works
 
-You can renew your services early directly from our billing panel, specifically on the [Early Renewal](https://billing.bloom.host/service-renewals) page.
+You can renew your services early directly from our Billing Portal, specifically on the [Early Renewal](https://billing.bloom.host/service-renewals) page.
 
 On this page, you can choose the service you want to renew early by clicking Add to Cart. If multiple services are eligible for early renewal, you can renew them all at once.
 
-![img](/billing/early_renewal/1.png)
+![Early renewal page listing an eligible service and Add to Cart button](/billing/early_renewal/1.png)
 
 After adding the service to your cart, click Checkout and complete the checkout process. Once the process is complete, your service will be renewed.
 
@@ -33,7 +33,7 @@ After adding the service to your cart, click Checkout and complete the checkout 
 
 - You can only renew a service when the service’s **next due date is less than 31 days away**.  
 - If your service is **more than 31 days away** from its due date, early renewal is **not available**.  
-- Bloom.host staff **cannot manually renew** services outside of this 31-day window.
+- Bloom staff **cannot manually renew** services outside of this 31-day window.
 
 ---
 

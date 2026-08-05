@@ -9,7 +9,6 @@ keywords:
   - no swap
   - swapping
   - ram
-  - Bloom.host
   - Pterodactyl Panel
   - Minecraft
 ---

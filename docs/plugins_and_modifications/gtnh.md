@@ -4,7 +4,7 @@ title: Installing Gregtech New Horizons
 slug: /gtnh
 hide_table_of_contents: true
 sidebar_label: Installing Gregtech New Horizons
-description: This guide will help you set up the Gregtech New Horizons modpack on Bloom.host
+description: This guide will help you set up the Gregtech New Horizons modpack on Bloom
 keywords:
   - Forge
   - Minecraft

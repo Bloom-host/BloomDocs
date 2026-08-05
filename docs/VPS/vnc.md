@@ -24,17 +24,19 @@ If you forgot your VNC Password you can go to our [VPS Panel](https://VPS.bloom.
 
 Keep in mind that you may need to shutdown and power back on your VPS for the VNC password change to take effect. To do this, click on the red power button at the top right of the panel, wait for the VPS to turn on and then click on the green start button to turn it back on.
 
+---
+
 ## How to connect to VNC via the panel using your SSH credentials
 
 Our panel provides an HTML 5 VNC Client that you can use to connect to your VPS.
 
 To use the HTML 5 VNC Client, go to our [VPS Panel](https://VPS.bloom.host), sign in, select the VPS and click on the VNC button at the top right.
 
-![img](/VPS/VNC/1.png)
+![VPS panel with the VNC button highlighted](/VPS/VNC/1.png)
 
 Then click on the "Launch HTML 5 VNC Client"
 
-![img](/VPS/VNC/2.png)
+![VPS panel showing the Launch HTML 5 VNC Client button](/VPS/VNC/2.png)
 
 After you launch the HTML 5 VNC Client, you will be prompted to put your SSH credentials. 
 

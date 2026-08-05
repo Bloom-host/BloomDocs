@@ -12,7 +12,6 @@ keywords:
   - Lag
   - Server
   - Server Optimization
-  - Bloom.host
   - Pterodactyl Panel
   - Minecraft
 ---
@@ -48,7 +47,7 @@ There are **many** different options you can utilize to change your servers game
 
 Remember that each server is be different, and that *you* have to decide for yourself which features you want to change. **Don't blindly copy paste values ;)**
 
-You can also check this [guide]( https://github.com/YouHaveTrouble/minecraft-optimization) if you would prefer something less heavy on the details. 
+You can also check the [Minecraft server optimization guide](https://github.com/YouHaveTrouble/minecraft-optimization) if you would prefer something less heavy on the details.
 
 ---
 

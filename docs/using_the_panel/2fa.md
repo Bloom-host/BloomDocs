@@ -6,8 +6,8 @@ hide_table_of_contents: true
 sidebar_label: 2-Factor Authentication
 description: This guide will help you secure your account through 2-Factor Authentication
 keywords:
-  - BloomVPS
-  - Bloom.host
+  - Bloom
+  - DuckPanel
   - Pterodactyl Panel
   - 2FA
   - 2FA Gameserver
@@ -25,11 +25,11 @@ Remember to write down the recovery code shown while setting up 2FA, without it 
 :::
 ## Billing Area 2FA
 
-To set up 2FA in the billing area, head over to the [billing area and log in](https://billing.bloom.host/clientarea.php)
+To set up 2FA in the Billing Portal, head over to the [Billing Portal login](https://billing.bloom.host/clientarea.php).
 
 Next, head over to [Security Settings](https://billing.bloom.host/clientarea.php?action=security) which you can find here: 
 
-![console](/using_the_panel/2fa/1.png)
+![Billing Portal Security Settings with two-factor authentication controls](/using_the_panel/2fa/1.png)
 
 You can then follow the instruction on the screen. You will need to download Google Authenticator or DUO from the android or IOS app store.
 
@@ -37,7 +37,7 @@ You can then follow the instruction on the screen. You will need to download Goo
 
 ## Game Panel 2FA
 
-To set up 2FA in the game panel area, head over to [Account Security](https://mc.bloom.host/account/security) in the game panel area.
+To set up 2FA in DuckPanel, head over to [Account Security](https://mc.bloom.host/account/security).
 
 Hit **Enable 2-Factor Authentication** to show a QR code that you can scan. 
 
@@ -45,7 +45,7 @@ For this, download an app on your phone that is a 2FA app, such as [Authy](https
 
 Then, add a new account and scan the QR code. Once it is scanned, type the token that you have on the app into the Authentication Token box.
 
-![console](/using_the_panel/2fa/2.png)
+![Two-factor authentication setup with QR code and token field](/using_the_panel/2fa/2.png)
 
 You are set and fully protected! Remember to keep the device near you when you log in so you can authenticate yourself!
 

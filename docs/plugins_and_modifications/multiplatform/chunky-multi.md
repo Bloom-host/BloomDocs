@@ -2,7 +2,7 @@
 id: chunky
 title: Chunky
 slug: /multiplatform/chunky
-hide_table_of_contents: true
+hide_table_of_contents: false
 sidebar_label: Chunky
 description: A cool plugin/mod called chunky, which lets you pre generate a minecraft world quickly and efficiently to avoid lag.
 keywords:
@@ -10,7 +10,6 @@ keywords:
   - Server Pregeneration
   - Spigot
   - Fabric
-  - Bloom.host
   - Pterodactyl Panel
   - Minecraft
 ---
@@ -20,6 +19,8 @@ keywords:
 Chunky is a fast, easy, and safe tool for pre-generating chunks on your server.
 
 Chunk generation in Minecraft is slow, which can sometimes cause server lag or slow chunk loading for players. Generating them upfront will help improve performance and gameplay on almost any server.
+
+---
 
 ## How to install
 
@@ -32,6 +33,8 @@ If you run Chunky on Paper, adding the argument shown below can greatly improve 
 For Bukkit/Spigot/Paper servers, check out the [Installing Bukkit/Spigot/Paper plugins](/installing-plugins) page.
 
 For Forge/Fabric servers, check out the [Installing Fabric Mods](/mods-install) page.
+
+---
 
 ## Usage
 
@@ -52,6 +55,8 @@ If you wish to pause or cancel pre-generation, you can run `chunky pause` or `ch
 If it is paused, you can run `chunky continue` to resume pre-generation.
 
 
+---
+
 ## File Size
 
 The table below can be used to estimate the file size of your world after you generate it. The values below are for 2k by 2k blocks (1k radius). Note that every time you double the radius, the area (and correspondingly the disk space / time taken) increases by 4x.
@@ -62,6 +67,8 @@ The table below can be used to estimate the file size of your world after you ge
 | world         | 110 MB    |
 | world_nether  | 115 MB    |
 | world_the_end | 75 MB     |
+
+---
 
 ## Info & Sources
 

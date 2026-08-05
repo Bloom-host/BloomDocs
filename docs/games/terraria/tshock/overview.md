@@ -1,6 +1,8 @@
 ---
 id: overview
 title: Overview
+tags:
+  - TShock Overview
 hide_table_of_contents: true
 description: Learn about what TShock is and how you can set it up on your Bloom server!
 keywords:
@@ -10,6 +12,7 @@ keywords:
   - Anti-cheat
   - Server type
   - Install TShock
+  - TShock Overview
 ---
 
 ## Introduction

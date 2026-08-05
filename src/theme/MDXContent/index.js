@@ -10,7 +10,7 @@ export default function MDXContentWrapper(props) {
         <>
             {showHeader && (
                 <div className="text--center">
-                    <img src="https://bloom.host/logo-white.svg" alt="Bloom logo"/>
+                    <img src="/logo.webp" alt="Bloom logo" className="doc-page-logo"/>
                     {title && <h1>{title}</h1>}
                 </div>
             )}

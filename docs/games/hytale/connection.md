@@ -1,7 +1,7 @@
 ---
 id: connection-issues
 title: Connection issues
-hide_table_of_contents: true
+hide_table_of_contents: false
 sidebar_label: Connection issues
 description: This guide will help fix some issues with ping spikes or general lag with hytale.
 keywords:
@@ -16,6 +16,8 @@ Before continuing with the troubleshoot guide, please restart your server to ens
 
 Players may experience slow connections or issues loading into a Hytale server, even when their general internet connection appears stable. Common symptoms include the world not loading, delayed movement, or disconnects during login. These issues are often related to local network configuration or routing problems.
 
+---
+
 ## Common Connection Problems
 
 If a player can connect to the server but the world does not load properly, the issue may be related to the network interface or driver configuration. Hytale uses modern networking protocols (QUIC), and some network adapters or drivers may have compatibility issues.
@@ -27,9 +29,13 @@ If possible, have affected players:
 
 If the issue improves, the original network interface or configuration is likely the cause.
 
+---
+
 ## Official Hytale Support Guide
 
 For steps to fix slow connections or worlds not loading, refer to the [official Hytale support article](https://support.hytale.com/hc/en-us/articles/45419578597403-Slow-Connection-World-Not-Loading-on-Server):
+
+---
 
 ## Additional Troubleshooting Steps
 
@@ -40,6 +46,8 @@ For steps to fix slow connections or worlds not loading, refer to the [official 
 >Restart networking equipment (router/modem)
 >
 >Use a wired connection where possible.
+
+---
 
 ## Diagnosing Network Issues with MTR
 

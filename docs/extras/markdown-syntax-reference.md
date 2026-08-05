@@ -1,15 +1,17 @@
 ---
-id: template
-title: Template
+id: markdown-syntax-reference
+title: Markdown Syntax Reference
 hide_table_of_contents: false
-sidebar_label: Template :)
-description: The template used for contributing 
+sidebar_label: Markdown Syntax Reference
+description: Examples of supported Markdown formatting in Bloom documentation.
 keywords:
   - Template
   - Pterodactyl Panel
-  - Minecraft
-  - Bloom.host
 ---
+
+:::note
+This page demonstrates Markdown formatting. Contributors should use the [Documentation Style Guide and Template](/extras/documentation-template) when creating a page.
+:::
 
 You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).
 
@@ -110,11 +112,6 @@ alert(s);
 ```python
 s = "Python syntax highlighting"
 print(s)
-```
-
-```
-No language indicated, so no syntax highlighting.
-But let's throw in a <b>tag</b>.
 ```
 
 ```js {2}

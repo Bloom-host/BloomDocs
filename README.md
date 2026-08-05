@@ -40,35 +40,11 @@ and they can be uploaded to the documentation.
 
 ---
 
-### Document format:
-
-When adding new pages to the documentation, be sure to use the document format.
-The document format is listed below, and also listed in [`README.md`](/README.md) in the root of the repo.
-
-```yaml
-
----
-id: <id>
-title: <title>
-slug: <id>
-hide_table_of_contents: true
-sidebar_label: <sidebar title>
-description: <short description>
----
-
-... rest of the document ...
-```
-
----
-
 ### Templates and formatting help:
 
-There is a [Markdown template](https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/docs/extras/template.md)
-which has some examples of markdown-formatting elements (and how to use them) such as bold text, strikethrough, headings
-and links.
+You should start your guides with the base [Documentation Template](https://docs.bloom.host/extras/documentation-template/).
 
-You can also see [a formatted version of the template](https://docs.bloom.host/extras/template/) to see what the
-formatted elements will look like when imported into the documentation website.
+You can reference our [Markdown Syntax Guide](https://docs.bloom.host/extras/markdown-syntax-reference/) for more information about using Markdown.
 
 ---
 
