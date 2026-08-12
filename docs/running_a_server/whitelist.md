@@ -92,7 +92,7 @@ Notice the `,` after the `}` from the first user, you would continue adding this
 ---
 ## Whitelisting On Bedrock
 :::important
-The command for Whitelisting on bedrock is `/allowlist` NOT `/whitelist`
+The command for Whitelisting on Bedrock is `/allowlist` NOT `/whitelist`
 :::
 
 To start off heres a list of all the sub commands under the Whitelist command:
