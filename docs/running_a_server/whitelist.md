@@ -95,7 +95,7 @@ Notice the `,` after the `}` from the first user, you would continue adding this
 The command for Whitelisting on Bedrock is `/allowlist` NOT `/whitelist`
 :::
 
-To start off heres a list of all the sub commands under the Whitelist command:
+To start off here's a list of all the sub-commands under the Whitelist command:
 * `/allowlist add [player]` - Adds a player to the list
 * `/allowlist list` - Shows you the current list of Whitelisted players
 * `/allowlist off` - Turns off the Whitelist, which allows anyone to join
