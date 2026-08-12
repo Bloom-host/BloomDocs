@@ -161,6 +161,6 @@ Deleting your `world/` folder is **irreversible**. Always take a backup first.
 
 - ✅ **Do** use admonitions to surface genuinely important context that would be easy to miss in body text.
 - ✅ **Do** keep the content inside admonitions brief.
-- ❌ **Don't** stack multiple admonitions back-to-back, unless there is no other clearer way to communicate both messages. 
+- ❌ **Don't** stack multiple admonitions back-to-back, unless there is no other clearer way to communicate both messages.
 - ❌ **Don't** use `:::warning` for anything less than a real risk of data loss or breakage.
 - ❌ **Don't** use admonitions as a substitute for well-structured body text.
