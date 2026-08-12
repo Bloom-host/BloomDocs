@@ -1,6 +1,8 @@
 ---
 id: connecting
-title: Connecting To A Server
+title: Connecting to Server
+tags:
+  - Connecting to a Terraria Server
 hide_table_of_contents: true
 description: Learn how to connect to your Terraria server!
 keywords:
@@ -9,6 +11,7 @@ keywords:
   - Join via IP
   - Multiplayer
   - Server IP
+  - Connecting to a Terraria Server
 ---
 
 In order to connect to your Terraria server, open your server in the [DuckPanel](https://mc.bloom.host). If this is a
@@ -20,7 +23,7 @@ Under the 'Console' tab, above the console itself, copy the value in the 'IP Add
 
 In Terraria, go to 'Multiplayer' in the main menu. There, select 'Join via IP' and select your player profile.
 
-Please note that if the server is using Journey difficult, you must only use a Journey account to connect.
+Please note that if the server is using Journey difficulty, you must only use a Journey character to connect.
 
 When prompted, paste the first part of the address, **without** the trailing port. 
 

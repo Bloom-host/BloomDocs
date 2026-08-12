@@ -80,7 +80,7 @@ server. Then, head to the 'Startup' tab.
 Here, you can adjust the size of the world, the difficulty and the seed as well.
 
 :::caution HEADS UP!
-Journey player profiles can only connected to worlds using the Journey difficulty, and regular characters cannot
+Journey player profiles can only connect to worlds using the Journey difficulty, and regular characters cannot
 connect when this is selected.
 :::
 

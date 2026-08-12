@@ -16,7 +16,6 @@ keywords:
   - Velocity
   - Fabric
   - NeoForge
-  - Bloom.host
   - Pterodactyl Panel
   - Minecraft
 ---
@@ -27,7 +26,7 @@ Floodgate is a hybrid-mode plugin that enables [Geyser](/multiplatform/geysermc)
 
 [Download the plugin](https://geysermc.org/download/?project=floodgate) for your specific platform (Spigot, Velocity, Fabric, etc.) and upload the `.jar` into your `plugins` or `mods` folder. Restart the server once to generate the necessary encryption keys.
 
-If you need help installing plugins, check out [this guide](/installing-plugins).  
+If you need help installing plugins, check out our [plugin installation guide](/installing-plugins).
 
 Once installed, you must configure Geyser to use Floodgate for authentication:
 1. Locate the Geyser configuration file.
@@ -43,11 +42,15 @@ If you are running a proxy (Velocity or BungeeCord), Floodgate must be installed
 Floodgate automatically generates a `key.pem` file. If you are using a proxy, this key must be identical across all servers in your network for authentication to work correctly.
 :::
 
+---
+
 ## Configuration & Compatibility
 
 ### Username Prefixes
 
 By default, Floodgate adds a `.` prefix to Bedrock players (e.g., `.PlayerName`) to prevent name collisions with Java players. You can change this in the Floodgate `config.yml`.
+
+---
 
 ## Additional Resources
 

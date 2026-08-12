@@ -25,13 +25,19 @@ While it is technically possible to use plugins such as ServerUtils to unload an
 
 First, you need to be 100% sure that this bug is not caused by the server JAR you are using. If you are using forks of Paper switch back to Paper first or check if you set something in the JAR configuration that you did not mean to. Also check if it is not an issue with your startup flags, database details, ports and proxies, etc.
 
+---
+
 ## Step 2
 
 Remove half of your plugins. To do this, select the plugins and move them outside of the /plugins folder. After this, reboot your server.
 
+---
+
 ## Step 3
 
 If the bug is not fixed after that, now you know that the bug is among the plugins that are left. If the bug was fixed, you know that the bug is among the plugins that you removed. If you still cannot determine which plugin is the culprit after narrowing it down, remove half of the group of plugins again.
+
+---
 
 ## Step 4
 

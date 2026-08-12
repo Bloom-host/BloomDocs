@@ -4,6 +4,7 @@ title: Installing Plugins
 slug: /installing-plugins
 hide_table_of_contents: true
 sidebar_label: Installing Spigot Plugins
+description: Learn how to install Bukkit, Spigot, and Paper plugins on a Bloom.host Minecraft server.
 keywords:
   - Installing plugins
   - Plugins
@@ -14,13 +15,13 @@ keywords:
 ---
 
 :::important
-This guide is for Bukkit/Spigot/Paper servers. If you are looking for instructions on how to install plugins on a BungeeCord/Waterfall or Velocity proxy, please see [this guide](/installing-proxy-plugins)
+This guide is for Bukkit/Spigot/Paper servers. If you are looking for instructions on how to install plugins on a BungeeCord/Waterfall or Velocity proxy, please see our [proxy plugin installation guide](/installing-proxy-plugins).
 :::
 
 ### The Basics
 > #### Requirements
 > 
-> In order to run plugins on your server, you have to be using a fork of Bukkit. (such as Spigot, Paper, Pupur, Pufferfish, etc. See our [guide on server jars](/jars) for more information.) If you wish to make client-side modifications (as well), see our guide on [installing server mods](/mods-install)!
+> To run plugins on your server, you must use a fork of Bukkit, such as Spigot, Paper, Purpur, or Pufferfish. See our [guide on server jars](/jars) for more information. If you also wish to make client-side modifications, see our guide on [installing server mods](/mods-install)!
 
 > #### What are plugins?
 >

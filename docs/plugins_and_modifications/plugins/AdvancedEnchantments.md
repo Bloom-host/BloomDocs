@@ -17,7 +17,7 @@ AdvancedEnchantments is the first Spigot Custom Enchants Plugin that allows you 
 
 Currently it has: Over 450 Unique Enchantments Available with configurable Cooldowns, Chances, and More.
 
-![image](https://i.imgur.com/OXkaNoy.png)
+![AdvancedEnchantments interface showing custom enchantments](https://i.imgur.com/OXkaNoy.png)
 
 ---
 

@@ -7,14 +7,13 @@ sidebar_label: Installing Mods
 description: How to install minecraft mods on your forge/fabric server.
 keywords:
   - Template
-  - Bloom.host
   - Pterodactyl Panel
   - Minecraft
   - Fabric
   - Forge
   - Mods
 ---
-# Install Guide
+## Install Guide
 You'll first need to find the mod that you wish to install. Downloads can be found on a variety of sites. Many mods can be found on [Modrinth](https://modrinth.com/mods) and [CurseForge](https://www.curseforge.com/minecraft/mc-mods). Make sure you trust the source of your downloads.
 
 :::important

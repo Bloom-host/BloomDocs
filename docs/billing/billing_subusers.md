@@ -14,10 +14,10 @@ keywords:
 
 To create a subuser account for your billing account go to the [User Management](https://billing.bloom.host/index.php?rp=/account/users) tab on our billing portal. This tab can be find by clicking on your account name on the top right.
 
-![img](/billing/billing_subusers/1.png)
+![User Management page with the Invite New User button](/billing/billing_subusers/1.png)
 
 Then click on the "Invite New User" button and write the email of the person you want to add as a subuser to your billing account. On this section you can also select the permission you want that subuser to have.
 
-![img](/billing/billing_subusers/2.png)
+![New user invitation form with email and permission fields](/billing/billing_subusers/2.png)
 
-![img](/billing/billing_subusers/3.png)
+![Billing subuser permissions selected in the invitation form](/billing/billing_subusers/3.png)

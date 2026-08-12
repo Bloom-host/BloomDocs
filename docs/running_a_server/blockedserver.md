@@ -21,7 +21,7 @@ Mojang has a pretty useful site we can use to check: https://sessionserver.mojan
 
 Within this site we'll find the SHA1 hash of the wildcard domain of the servers Mojang is currently blocking. We can use a website such as [SHA-1 Online](https://www.sha1-online.com/) to get the hash of our domain. We want to check the wildcard domain, so for example if our server is using "minecraft.blockaventure.com" our wildcard domain will be "*.blockadventure.com". Once we have our hash rate we can simply look for a match on Mojang's website by using our trust CNTRL + F combo. If you find your SHA1 hash there, your server has been blocked. 
 
-![img](/running_a_server/blockedserver/1.png)
+![SHA-1 domain hash matched in Mojang's blocked-server list](/running_a_server/blockedserver/1.png)
 
 ---
 

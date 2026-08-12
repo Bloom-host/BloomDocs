@@ -16,6 +16,8 @@ Hytale supports modding out of the box. Its modding system is similar to Minecra
 Unlike Minecraft, Hytale mods are fully server-side. Players do not need to install any mods on their client in order to join your server.
 Hytale handles mod installation when a client joins automatically.
 
+---
+
 ## How to add mods
 
 1. Download the mods you want from [CurseForge](https://www.curseforge.com/hytale/search?page=1&pageSize=20&sortBy=relevancy)
@@ -23,9 +25,11 @@ Hytale handles mod installation when a client joins automatically.
 3. Drag and drop the mod or plugin jar into the mods folder.
 4. Restart your server to apply the changes.
 
+---
+
 ## How to use mods
 
 The best way to learn how to use a mod is to review its mod page. Most mods list their available commands and configuration options there (for example, [Spark](https://spark.lucko.me/docs/Command-Usage)).
 
 If a mod does not document its commands, you can run the following command to list all available commands and identify which mod provides them:
-```commands dump```
+`commands dump`

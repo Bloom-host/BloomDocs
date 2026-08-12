@@ -2,7 +2,7 @@
 id: vault
 title: Vault
 slug: /plugins/vault
-hide_table_of_contents: true
+hide_table_of_contents: false
 sidebar_label: Vault
 description: A common API for chat, permission and economy plugins.
 keywords:
@@ -13,7 +13,6 @@ keywords:
   - Bukkit
   - Pterodactyl Panel
   - Minecraft
-  - Bloom.host
 ---
 
 ## What does this plugin do?
@@ -25,7 +24,7 @@ Vault provides a common API to give plugins access to chat, permission and econo
 ## Installation Instructions
 Download Vault from its [Spigot Resource page](https://www.spigotmc.org/resources/vault.34315/) or its [BukkitDev page](https://dev.bukkit.org/projects/vault) or directly from its [GitHub repo](https://github.com/MilkBowl/Vault/releases).
 
-Next, install the plugin into the `plugins` folder in your server. Need help? Check out [this guide](/installing-plugins).
+Next, install the plugin into the `plugins` folder in your server. Need help? Check out our [plugin installation guide](/installing-plugins).
 
 ---
 

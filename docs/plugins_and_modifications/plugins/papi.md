@@ -2,7 +2,7 @@
 id: papi
 title: PlaceholderAPI
 slug: /plugins/placeholderapi
-hide_table_of_contents: true
+hide_table_of_contents: false
 sidebar_label: PlaceholderAPI
 description: Information about PlaceholderAPI Bukkit plugin
 keywords:

@@ -5,8 +5,7 @@ hide_table_of_contents: true
 sidebar_label: Available Modpacks on our One-Click Installer
 description: List of available modpacks on Bloom's Modpack One-Click Installer
 keywords:
-  - Bloom.host
-  - Bloom.host mods
+  - mods
   - Modpacks
   - Modpack installer
   - Modpacks installer
@@ -31,10 +30,6 @@ To request a modpack make sure that the modpack has a server pack under the "Fil
 Grab the link to the Modpack CurseForge page and make a suggestion on our [Discord server](https://discord.gg/bloom).
 
 To create a suggestion go to the [#bot-commands](https://discord.gg/pTUkQ2Dmbw) channel of our [Discord server](https://discord.gg/bloom) and type !suggest (suggestion goes here), make sure that you include the link to the modpack.
-
-:::note
-The list of modpacks in this document is updated manually, if you want to see the actual list of modpacks please go to https://demo.bloom.host and sign in with user demo and password demo, select the server, then go to the modpack section to see the most up to date list of modpacks.
-:::
 
 ## Modpacks currently available listed on our website (list is updated automatically and is in alphabetical order)
 

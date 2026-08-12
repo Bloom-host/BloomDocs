@@ -1,7 +1,7 @@
 ---
 id: banning
 title: Banning / Unbanning
-hide_table_of_contents: true
+hide_table_of_contents: false
 description: Learn how you can ban or unban players on your Terraria server!
 keywords:
   - Terraria
@@ -26,7 +26,7 @@ formatting and adding a comment with the player's name above the entry.
 
 As an example, here is how two entries would look:
 
-```
+```text
 // Mr.Griefer
 1.1.1.1
 // BadDuck07

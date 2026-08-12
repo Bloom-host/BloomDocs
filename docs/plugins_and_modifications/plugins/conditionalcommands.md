@@ -10,7 +10,6 @@ keywords:
   - Advanced Anticheat
   - Anticheat
   - Spigot
-  - Bloom.host
   - Pterodactyl Panel
   - Minecraft
 ---

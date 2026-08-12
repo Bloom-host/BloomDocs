@@ -4,6 +4,7 @@ title: Docs Overview
 slug: /
 hide_table_of_contents: true
 sidebar_label: Documentation Overview
+description: Learn how to navigate Bloom documentation and find common server, panel, and account guides.
 ---
 
 ## Introduction
@@ -13,6 +14,17 @@ Welcome to the Bloom Docs!
 
 Here you can find useful information about our services, panel, running servers, frequently asked questions, and more!
 For the sake of easy navigation, we've created a list of few of the more frequently used documents below.
+
+## Common Tasks
+
+- [Start, stop, or restart your server](/basic-controls)
+- [Upload and manage server files](/file-manager-controls)
+- [Create and restore backups](/backups)
+- [Install Minecraft plugins](/installing-plugins)
+- [Install Minecraft mods](/mods-install)
+- [Install Minecraft modpacks](/modpacks)
+- [Update or change your server version](/updating)
+- [Open a billing support ticket](https://billing.bloom.host/supporttickets.php)
 
 Most of the articles in this documentation were created by our community. 
 You can help us too! Visit our guide on 

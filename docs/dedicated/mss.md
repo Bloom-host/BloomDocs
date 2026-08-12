@@ -52,7 +52,7 @@ curl -4 --http1.1 -s -o /dev/null https://google.com
 
 Stop TCPDump with CTRL+C and above, you should see something like this:
 
-```
+```text
 Flags [S], ... options [mss 1400,sackOK,TS,...]
 ```
 

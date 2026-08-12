@@ -12,7 +12,6 @@ keywords:
   - mute
   - kick
   - Spigot
-  - Bloom.host
   - Pterodactyl Panel
   - Minecraft
 ---
@@ -21,6 +20,8 @@ keywords:
 
 LiteBans is a premium plugin that allows you and your server staff to manage and distribute punishments to your players. It is a plugin that can be used on Spigot/Paper or BungeeCord/Waterfall/Velocity servers. 
 
+
+---
 
 ## Usage
 First, download the [LiteBans](https://www.spigotmc.org/resources/litebans.3715/) plugin and install it into your `plugins` folder.
@@ -39,14 +40,18 @@ If LiteBans is installed onto a BungeeCord/Waterfall proxy, bans, mutes and othe
 In-game punishments can still be issued as normal.
 :::
 
+---
+
 ## Punishment storage
 Next, you have to decide what type of storage you want for all your punishments. Your options are H2, MySQL, MariaDB, and PostgreSQL. On Bloom you are going to want to use H2 or MySQL. H2 will store the information on your server, while MySQL will store it on a separate database. MySQL allows you to sync data across a network if you are running one. Otherwise it's your choice.
 
-If you are using MySQL, you can see how to set up LiteBans with MySQL [HERE](/databases)
+If you are using MySQL, see our [database guide](/databases) to set up LiteBans with MySQL.
+
+---
 
 ## Commands
 LiteBans offers many commands to moderate your server, below will be a short list of the important ones.
-```
+```text
 /ban
 /kick
 /mute
@@ -78,6 +83,8 @@ You may notice some of the commands have a (-s) in the syntax, if you put -s in 
 
 LiteBans web is a very powerful tool to sync your bans, mutes, warns and kicks right to a webpage for all to use. Most of the time people use this to show people that you will get punished for breaking the rules and enforce them more.
 
+---
+
 ## How to install
 
 Firstly you can choose between themes. Here is a free one: [LiteBans Material UI](https://www.spigotmc.org/resources/litebans-material-ui.46648/), and there are many paid ones on MC-Market, Spigot, etc.
@@ -91,6 +98,8 @@ Upload your files to the host and navigate to the file `/inc/settings.php` and f
 Once done, navigate to your website and done!
 
 
+
+---
 
 ## Links
 

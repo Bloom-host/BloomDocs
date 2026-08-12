@@ -1,8 +1,8 @@
 ---
 id: motd
-title: motd
+title: How to Change Your MOTD
 slug: /motd
-hide_table_of_contents: true
+hide_table_of_contents: false
 sidebar_label: How to change MOTD
 description: How to change the MOTD that people see on the server list. 
 keywords:
@@ -11,28 +11,45 @@ keywords:
   - Spigot
   - 1.16
   - Minecraft
-  - Bloom.host
+---
+
+The message of the day (MOTD) is the text players see beside your server in the multiplayer server list. This guide covers the built-in `server.properties` setting, ServerListPlus, and MiniMOTD. Choose the option that matches your server software and the features you need.
+
 ---
 
 ## How to change your MOTD without a plugin
 
-First you need to write your MOTD, you can use [this website](https://mctools.org/motd-creator) to help you. Once you have your MOTD like you want it, copy the `server.properties` code, like the one shown below
-![server.properties](https://cdn.discordapp.com/attachments/716405933105872938/751221395622723715/unknown.png)
-Open your server panel and head to File Explorer, if you need a hand, check out [this guide!](/file-manager-controls). Now, enter your `server.properties` and head to the motd section and paste the copied text where the old one was, then restart your server and your changes will be made.
+1. Write your MOTD using the [Minecraft MOTD creator](https://mctools.org/motd-creator), then copy the generated `server.properties` value.
+2. In your server panel, open File Manager and then open `server.properties`. See the [File Manager guide](/file-manager-controls) if you need help finding the file.
+   ![server.properties file showing the MOTD setting](/running_a_server/motd/server-properties.png)
+3. Replace the existing `motd` value with the copied text and restart the server to apply the change.
 
-## How to change your MOTD with ServerListPlus
-ServerListPlus is a plugin that changes your MOTD through a plugin also adding features like custom MOTDs for separate players. You can download it [here!](https://www.spigotmc.org/resources/serverlistplus.241/)
-
-Now download and place the plugin into your server's `plugins` folder and restart. Once you have restarted, head into the ServerListPlus folder and open the `config.yml`. Now you can change the MOTD how you like. [This website](https://mctools.org/motd-creator) can help you make one shown below. ![ServerListPlus MOTD configuration example](https://cdn.discordapp.com/attachments/716405933105872938/751223535405629510/unknown.png)
+---
 
 ## How to change your MOTD with MiniMOTD
-MiniMOTD is a plugin (Spigot/Paper/BungeeCord/Velocity) or mod (Fabric/Sponge only) that changes your MOTD using the MiniMessage system and supports RGB (1.16+). You can download it [here!](https://www.spigotmc.org/resources/minimotd-server-list-motd-plugin-with-rgb-gradients.81254/) 
 
-Now download and place the plugin into your server's `plugins` folder (or mods folder) and restart. Once you have restarted, head into the MiniMOTD folder and open the `config.hocon`. Now you can change the MOTD how you like. [The MiniMessage docs](https://docs.adventure.kyori.net/minimessage/format.html#minimessage-format) can help you make one shown below. ![MiniMOTD configuration example](/running_a_server/motd/minimotd-1.png). MiniMOTD also has some advanced features such as multiple icons per MOTD and [different MOTDs per virtual hosts](https://github.com/jpenilla/MiniMOTD/wiki#advanced-configuration) (BungeeCord/Velocity only).
+MiniMOTD is a plugin for Spigot, Paper, BungeeCord, and Velocity, or a mod for Fabric and Sponge. It uses the MiniMessage system and supports RGB colors on Minecraft 1.16 and newer. Download it from the [MiniMOTD project page](https://www.spigotmc.org/resources/minimotd-server-list-motd-plugin-with-rgb-gradients.81254/), then:
 
-The [MiniMessage docs](https://docs.adventure.kyori.net/minimessage/format.html#minimessage-format) can help you to create the MOTDs and use more advanced features such as gradient colours as MiniMessage works differently to other plugins.
+1. Upload the plugin to your server's `plugins` folder, or the mod to its `mods` folder, and restart the server.
+2. Open the generated MiniMOTD `config.hocon` file.
+3. Use the [MiniMessage documentation](https://docs.papermc.io/adventure/minimessage/format/) to create your MOTD. MiniMOTD also supports multiple icons and [different MOTDs per virtual host](https://github.com/jpenilla/MiniMOTD/wiki#advanced-configuration) on BungeeCord and Velocity.
+   ![MiniMOTD configuration and resulting server-list preview](/running_a_server/motd/minimotd-1.png)
+4. Restart the server after saving the configuration.
 
-## How to change your MOTD on Bungeecord
-Changing your MOTD on Bungeecord is slightly different. You can still use ServerListPlus or MiniMOTD, following the guide above, but if you want to do it without ServerListPlus or MiniMOTD, enter your Bungeecord `config.yml` and head to the MOTD 
-you can use [this website](https://mctools.org/motd-creator) to help you like the one below.
-![Bungeecord motd](https://cdn.discordapp.com/attachments/716405933105872938/751224804815667230/unknown.png)
+---
+
+## How to change your MOTD with ServerListPlus
+
+:::note ServerListPlus maintenance
+ServerListPlus is no longer in active development. For current configuration details and supported options, refer to the [ServerListPlus wiki](https://github.com/Minecrell/ServerListPlus/wiki).
+:::
+
+ServerListPlus can customize the MOTD and add separate messages for different players. Download it from the [ServerListPlus project page](https://www.spigotmc.org/resources/serverlistplus.241/), then:
+
+1. Upload the plugin to your server's `plugins` folder and restart the server.
+2. Open the generated ServerListPlus `config.yml` file.
+3. Follow the [ServerListPlus wiki](https://github.com/Minecrell/ServerListPlus/wiki) to configure the MOTD format and any player-specific messages.
+4. Restart the server after saving the configuration.
+
+
+
