@@ -32,7 +32,7 @@ Plan (Player Analytics) records server activity such as player counts and playti
 ## Install Plan
 
 1. Download the Plan build that matches your platform and Minecraft version. Use the [Spigot resource page](https://www.spigotmc.org/resources/plan-player-analytics.32536/) for Paper or Spigot, or download the appropriate `PlanFabric-<version>-build-<build>.jar` from the [Plan GitHub releases](https://github.com/plan-player-analytics/Plan/releases) for Fabric.
-2. Place `Plan.jar` in your server's `plugins` folder for Paper or Spigot, or place `PlanFabric.jar` in its `mods` folder for Fabric. See the [plugin installation guide](/installing-plugins) or [mod installation guide](/mods-install) for panel-specific instructions.
+2. Place the downloaded Plan `.jar` in your server's `plugins` folder for Paper or Spigot, or place the downloaded PlanFabric `.jar` in its `mods` folder for Fabric. Fabric installations also require [Fabric API](https://modrinth.com/mod/fabric-api). See the [plugin installation guide](/installing-plugins) or [mod installation guide](/mods-install) for panel-specific instructions.
 3. Restart the server. Plan should generate `Plan/config.yml` in its platform-specific data directory. Those being the `plugins` directory for Paper and `config` for Fabric.
 
 ---
