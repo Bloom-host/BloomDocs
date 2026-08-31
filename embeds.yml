@@ -1650,8 +1650,11 @@ ticket-panel:
     Our standard support hours are between 8 AM and 8 PM US Eastern, (<t:1655985600:t> and <t:1656028800:t> local time). Although we are often available outside of these hours, responses may be delayed until support hours resume.
 
     Please consider using <#737803938430189678> for non-technical issues.
+
+    -# Opening a ticket means we process your messages. Learn more in our [privacy policy](https://bloom.host/privacy-policy#support-requests).
   buttons:
     - [ 'Open Billing Ticket', 'https://billing.bloom.host/submitticket.php', '💰', '2' ]
+    - [ 'Privacy Policy', 'https://bloom.host/privacy-policy#support-requests', '🔗', '3' ]
 
 waitlist-panel:
   enabled: false
@@ -1667,11 +1670,14 @@ waitlist-panel:
     Thanks again for your interest in our plans!
 
     ⚠️ Please note that this server is **not actively monitored**, so for any immediate concerns, please make sure to [contact us](https://bloom.host/support) directly.
+
+    -# Opening a ticket means we process your messages. Learn more in our [privacy policy](https://bloom.host/privacy-policy#support-requests).
   buttons:
     - [ 'secondary', 'Game', 'waitlist:start:game', '🎮', ]
     - [ 'secondary', 'VPS', 'waitlist:start:vps', '☁️', ]
     - [ 'secondary', 'Bare Metal', 'waitlist:start:bare_metal', '⚡', ]
     - [ 'secondary', 'Inquire', 'waitlist:confirm:custom', '🎫', ]
+    - [ 'Privacy Policy', 'https://bloom.host/privacy-policy#support-requests', '🔗', ]
 
 waitlist-select-level:
   enabled: false
