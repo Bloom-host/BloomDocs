@@ -313,6 +313,8 @@ module.exports = {
                 'billing/refunds',
                 'billing/suspensions_and_terminations',
                 'billing/billing_subusers',
+                'billing/payments-&-subscriptions',
+                'billing/due-date-change',                                
             ],
         },
 
