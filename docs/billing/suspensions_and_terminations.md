@@ -23,7 +23,7 @@ You can also visit the [Invoices section](https://billing.bloom.host/clientarea.
 
 ## At what exact time is the invoice due?
 
-Invoices are due at 1:00 AM UTC of the due date listed on our billing portal.
+Invoices are due at 12:00 UTC of the due date listed on our billing portal.
 
 ## What does a suspended service means?
 
@@ -31,11 +31,11 @@ Your service will not be accessible when it's in a suspended state. You cannot d
 
 ## How Suspensions work
 
-Failure to pay an invoice will result in the service being automatically suspended two days after the due date at 1:00AM UTC.
+Failure to pay an invoice will result in the service being automatically suspended two days after the due date at 12:00 UTC.
 
 Example:
 
-Your invoice is due the 1st at 1:00 AM UTC. If you don't pay it before the 3rd at 1:00 AM UTC the service will be automatically suspended the 3rd at 1:00 AM UTC.
+Your invoice is due the 1st at 12:00 UTC. If you don't pay it before the 3rd at 12:00 UTC the service will be automatically suspended the 3rd at 12:00 UTC.
 
 ## What is a Termination?
 
