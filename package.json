@@ -28,5 +28,418 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "overrides": {
+    "@csstools/postcss-alpha-function": {
+      "nanoid": "5.1.16"
+    },
+    "@csstools/postcss-cascade-layers": {
+      "nanoid": "5.1.16"
+    },
+    "@csstools/postcss-color-function": {
+      "nanoid": "5.1.16"
+    },
+    "@csstools/postcss-color-function-display-p3-linear": {
+      "nanoid": "5.1.16"
+    },
+    "@csstools/postcss-color-mix-function": {
+      "nanoid": "5.1.16"
+    },
+    "@csstools/postcss-color-mix-variadic-function-arguments": {
+      "nanoid": "5.1.16"
+    },
+    "@csstools/postcss-content-alt-text": {
+      "nanoid": "5.1.16"
+    },
+    "@csstools/postcss-contrast-color-function": {
+      "nanoid": "5.1.16"
+    },
+    "@csstools/postcss-exponential-functions": {
+      "nanoid": "5.1.16"
+    },
+    "@csstools/postcss-font-format-keywords": {
+      "nanoid": "5.1.16"
+    },
+    "@csstools/postcss-gamut-mapping": {
+      "nanoid": "5.1.16"
+    },
+    "@csstools/postcss-gradients-interpolation-method": {
+      "nanoid": "5.1.16"
+    },
+    "@csstools/postcss-hwb-function": {
+      "nanoid": "5.1.16"
+    },
+    "@csstools/postcss-ic-unit": {
+      "nanoid": "5.1.16"
+    },
+    "@csstools/postcss-initial": {
+      "nanoid": "5.1.16"
+    },
+    "@csstools/postcss-is-pseudo-class": {
+      "nanoid": "5.1.16"
+    },
+    "@csstools/postcss-light-dark-function": {
+      "nanoid": "5.1.16"
+    },
+    "@csstools/postcss-logical-float-and-clear": {
+      "nanoid": "5.1.16"
+    },
+    "@csstools/postcss-logical-overflow": {
+      "nanoid": "5.1.16"
+    },
+    "@csstools/postcss-logical-overscroll-behavior": {
+      "nanoid": "5.1.16"
+    },
+    "@csstools/postcss-logical-resize": {
+      "nanoid": "5.1.16"
+    },
+    "@csstools/postcss-logical-viewport-units": {
+      "nanoid": "5.1.16"
+    },
+    "@csstools/postcss-media-minmax": {
+      "nanoid": "5.1.16"
+    },
+    "@csstools/postcss-media-queries-aspect-ratio-number-values": {
+      "nanoid": "5.1.16"
+    },
+    "@csstools/postcss-nested-calc": {
+      "nanoid": "5.1.16"
+    },
+    "@csstools/postcss-normalize-display-values": {
+      "nanoid": "5.1.16"
+    },
+    "@csstools/postcss-oklab-function": {
+      "nanoid": "5.1.16"
+    },
+    "@csstools/postcss-position-area-property": {
+      "nanoid": "5.1.16"
+    },
+    "@csstools/postcss-progressive-custom-properties": {
+      "nanoid": "5.1.16"
+    },
+    "@csstools/postcss-property-rule-prelude-list": {
+      "nanoid": "5.1.16"
+    },
+    "@csstools/postcss-random-function": {
+      "nanoid": "5.1.16"
+    },
+    "@csstools/postcss-relative-color-syntax": {
+      "nanoid": "5.1.16"
+    },
+    "@csstools/postcss-scope-pseudo-class": {
+      "nanoid": "5.1.16"
+    },
+    "@csstools/postcss-sign-functions": {
+      "nanoid": "5.1.16"
+    },
+    "@csstools/postcss-stepped-value-functions": {
+      "nanoid": "5.1.16"
+    },
+    "@csstools/postcss-syntax-descriptor-syntax-production": {
+      "nanoid": "5.1.16"
+    },
+    "@csstools/postcss-system-ui-font-family": {
+      "nanoid": "5.1.16"
+    },
+    "@csstools/postcss-text-decoration-shorthand": {
+      "nanoid": "5.1.16"
+    },
+    "@csstools/postcss-trigonometric-functions": {
+      "nanoid": "5.1.16"
+    },
+    "@csstools/postcss-unset-value": {
+      "nanoid": "5.1.16"
+    },
+    "@csstools/utilities": {
+      "nanoid": "5.1.16"
+    },
+    "@docusaurus/bundler": {
+      "nanoid": "5.1.16"
+    },
+    "@docusaurus/core": {
+      "nanoid": "5.1.16"
+    },
+    "@docusaurus/cssnano-preset": {
+      "nanoid": "5.1.16"
+    },
+    "@docusaurus/plugin-content-blog": {
+      "nanoid": "5.1.16"
+    },
+    "@docusaurus/plugin-content-docs": {
+      "nanoid": "5.1.16"
+    },
+    "@docusaurus/plugin-content-pages": {
+      "nanoid": "5.1.16"
+    },
+    "@docusaurus/plugin-css-cascade-layers": {
+      "nanoid": "5.1.16"
+    },
+    "@docusaurus/plugin-debug": {
+      "nanoid": "5.1.16"
+    },
+    "@docusaurus/plugin-google-analytics": {
+      "nanoid": "5.1.16"
+    },
+    "@docusaurus/plugin-google-gtag": {
+      "nanoid": "5.1.16"
+    },
+    "@docusaurus/plugin-google-tag-manager": {
+      "nanoid": "5.1.16"
+    },
+    "@docusaurus/plugin-sitemap": {
+      "nanoid": "5.1.16"
+    },
+    "@docusaurus/plugin-svgr": {
+      "nanoid": "5.1.16"
+    },
+    "@docusaurus/preset-classic": {
+      "nanoid": "5.1.16"
+    },
+    "@docusaurus/theme-classic": {
+      "nanoid": "5.1.16"
+    },
+    "@docusaurus/theme-common": {
+      "nanoid": "5.1.16"
+    },
+    "@docusaurus/theme-search-algolia": {
+      "nanoid": "5.1.16"
+    },
+    "autoprefixer": {
+      "nanoid": "5.1.16"
+    },
+    "css-blank-pseudo": {
+      "nanoid": "5.1.16"
+    },
+    "css-declaration-sorter": {
+      "nanoid": "5.1.16"
+    },
+    "css-has-pseudo": {
+      "nanoid": "5.1.16"
+    },
+    "css-loader": {
+      "nanoid": "5.1.16"
+    },
+    "css-minimizer-webpack-plugin": {
+      "nanoid": "5.1.16"
+    },
+    "css-prefers-color-scheme": {
+      "nanoid": "5.1.16"
+    },
+    "cssnano": {
+      "nanoid": "5.1.16"
+    },
+    "cssnano-preset-advanced": {
+      "nanoid": "5.1.16"
+    },
+    "cssnano-preset-default": {
+      "nanoid": "5.1.16"
+    },
+    "cssnano-utils": {
+      "nanoid": "5.1.16"
+    },
+    "icss-utils": {
+      "nanoid": "5.1.16"
+    },
+    "nanoid": {
+      "nanoid": "5.1.16"
+    },
+    "postcss": {
+      "nanoid": "5.1.16"
+    },
+    "postcss-attribute-case-insensitive": {
+      "nanoid": "5.1.16"
+    },
+    "postcss-calc": {
+      "nanoid": "5.1.16"
+    },
+    "postcss-clamp": {
+      "nanoid": "5.1.16"
+    },
+    "postcss-color-functional-notation": {
+      "nanoid": "5.1.16"
+    },
+    "postcss-color-hex-alpha": {
+      "nanoid": "5.1.16"
+    },
+    "postcss-color-rebeccapurple": {
+      "nanoid": "5.1.16"
+    },
+    "postcss-colormin": {
+      "nanoid": "5.1.16"
+    },
+    "postcss-convert-values": {
+      "nanoid": "5.1.16"
+    },
+    "postcss-custom-media": {
+      "nanoid": "5.1.16"
+    },
+    "postcss-custom-properties": {
+      "nanoid": "5.1.16"
+    },
+    "postcss-custom-selectors": {
+      "nanoid": "5.1.16"
+    },
+    "postcss-dir-pseudo-class": {
+      "nanoid": "5.1.16"
+    },
+    "postcss-discard-comments": {
+      "nanoid": "5.1.16"
+    },
+    "postcss-discard-duplicates": {
+      "nanoid": "5.1.16"
+    },
+    "postcss-discard-empty": {
+      "nanoid": "5.1.16"
+    },
+    "postcss-discard-overridden": {
+      "nanoid": "5.1.16"
+    },
+    "postcss-discard-unused": {
+      "nanoid": "5.1.16"
+    },
+    "postcss-double-position-gradients": {
+      "nanoid": "5.1.16"
+    },
+    "postcss-focus-visible": {
+      "nanoid": "5.1.16"
+    },
+    "postcss-focus-within": {
+      "nanoid": "5.1.16"
+    },
+    "postcss-font-variant": {
+      "nanoid": "5.1.16"
+    },
+    "postcss-gap-properties": {
+      "nanoid": "5.1.16"
+    },
+    "postcss-image-set-function": {
+      "nanoid": "5.1.16"
+    },
+    "postcss-lab-function": {
+      "nanoid": "5.1.16"
+    },
+    "postcss-loader": {
+      "nanoid": "5.1.16"
+    },
+    "postcss-logical": {
+      "nanoid": "5.1.16"
+    },
+    "postcss-merge-idents": {
+      "nanoid": "5.1.16"
+    },
+    "postcss-merge-longhand": {
+      "nanoid": "5.1.16"
+    },
+    "postcss-merge-rules": {
+      "nanoid": "5.1.16"
+    },
+    "postcss-minify-font-values": {
+      "nanoid": "5.1.16"
+    },
+    "postcss-minify-gradients": {
+      "nanoid": "5.1.16"
+    },
+    "postcss-minify-params": {
+      "nanoid": "5.1.16"
+    },
+    "postcss-minify-selectors": {
+      "nanoid": "5.1.16"
+    },
+    "postcss-modules-extract-imports": {
+      "nanoid": "5.1.16"
+    },
+    "postcss-modules-local-by-default": {
+      "nanoid": "5.1.16"
+    },
+    "postcss-modules-scope": {
+      "nanoid": "5.1.16"
+    },
+    "postcss-modules-values": {
+      "nanoid": "5.1.16"
+    },
+    "postcss-nesting": {
+      "nanoid": "5.1.16"
+    },
+    "postcss-normalize-charset": {
+      "nanoid": "5.1.16"
+    },
+    "postcss-normalize-display-values": {
+      "nanoid": "5.1.16"
+    },
+    "postcss-normalize-positions": {
+      "nanoid": "5.1.16"
+    },
+    "postcss-normalize-repeat-style": {
+      "nanoid": "5.1.16"
+    },
+    "postcss-normalize-string": {
+      "nanoid": "5.1.16"
+    },
+    "postcss-normalize-timing-functions": {
+      "nanoid": "5.1.16"
+    },
+    "postcss-normalize-unicode": {
+      "nanoid": "5.1.16"
+    },
+    "postcss-normalize-url": {
+      "nanoid": "5.1.16"
+    },
+    "postcss-normalize-whitespace": {
+      "nanoid": "5.1.16"
+    },
+    "postcss-opacity-percentage": {
+      "nanoid": "5.1.16"
+    },
+    "postcss-ordered-values": {
+      "nanoid": "5.1.16"
+    },
+    "postcss-overflow-shorthand": {
+      "nanoid": "5.1.16"
+    },
+    "postcss-page-break": {
+      "nanoid": "5.1.16"
+    },
+    "postcss-place": {
+      "nanoid": "5.1.16"
+    },
+    "postcss-preset-env": {
+      "nanoid": "5.1.16"
+    },
+    "postcss-pseudo-class-any-link": {
+      "nanoid": "5.1.16"
+    },
+    "postcss-reduce-idents": {
+      "nanoid": "5.1.16"
+    },
+    "postcss-reduce-initial": {
+      "nanoid": "5.1.16"
+    },
+    "postcss-reduce-transforms": {
+      "nanoid": "5.1.16"
+    },
+    "postcss-replace-overflow-wrap": {
+      "nanoid": "5.1.16"
+    },
+    "postcss-selector-not": {
+      "nanoid": "5.1.16"
+    },
+    "postcss-sort-media-queries": {
+      "nanoid": "5.1.16"
+    },
+    "postcss-svgo": {
+      "nanoid": "5.1.16"
+    },
+    "postcss-unique-selectors": {
+      "nanoid": "5.1.16"
+    },
+    "postcss-zindex": {
+      "nanoid": "5.1.16"
+    },
+    "rtlcss": {
+      "nanoid": "5.1.16"
+    },
+    "stylehacks": {
+      "nanoid": "5.1.16"
+    }
   }
 }
