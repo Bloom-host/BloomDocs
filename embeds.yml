@@ -2,19 +2,22 @@
 # For more information, please see the README
 
 help:
+  slash-command: true
   title: 'BloomBot Help'
   title-icon: '%guildicon%'
   thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/animated_icon.gif'
   footer: 'BloomBot - Bloom.host'
+  description: |+
+    Most commands below are also available as slash commands (type `/` to see them). Any `!` command can also be triggered by @mentioning me instead of using `!`.
   fields:
     - title: ':grey_question: Help Commands'
       description: |+
-        • `!help` - Here you are!
-        • `!waitlist` - Join the waitlist
-        • `!rate` - Satisfied with Bloom?
-        • `!docs` - List of all other documents
-        • `!hastebin` - For all your pasting needs!
-        • `!duck` - Generate a random duck!
+        • `/help` - Here you are!
+        • `/waitlist` - Join the waitlist
+        • `/rate` - Satisfied with Bloom?
+        • `/docs` - List of all other documents
+        • `/logs` - For all your pasting needs!
+        • `/duck` - Generate a random duck!
       inline: true
     - title: ':link: Links'
       description: |+
@@ -27,19 +30,18 @@ help:
       inline: true
     - title: ':gear: Misc Commands'
       description: |+
-        • `!stats` - Some stats
-        • `!duck` - Get a random duck!
-        • `!suggest <idea>` - Create a suggestion
-        • `!steal <name> <link | emoji>` - Add a new emoji
-        • `!edit <id> <fixed idea>` - Modify your suggestion
+        • `/stats` - Some stats
+        • `/duck` - Get a random duck!
+        • `/suggestion create <suggestion>` - Create a suggestion
+        • `/suggestion edit <id> <suggestion>` - Modify your suggestion
       inline: false
     - title: ':label: Ticket Commands'
       description: |+
-        • `!close [reason]` - Close your ticket
-        • `!rename <name>` - Rename a ticket
-        • `!transfer <@tag | userid>` - Transfer a ticket to another user
-        • `!add <@user | userid>` - Add a user to your ticket
-        • `!remove <@user | userid>` - Remove a user from your ticket
+        • `/close [reason]` - Close your ticket
+        • `/rename <new_name>` - Rename a ticket
+        • `/transfer <user>` - Transfer a ticket to another user
+        • `/add <users>` - Add a user to your ticket
+        • `/remove <users>` - Remove a user from your ticket
       inline: true
 
 clientlogs:
@@ -85,7 +87,11 @@ billing:
   thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/docs_icon.png'
   image: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/billing_ticket.png'
   buttons:
-    - [ 'Open Billing Ticket', 'https://billing.bloom.host/submitticket.php', '<:bloom:732019289741066379>', '1' ]
+    - style: link
+      label: 'Open Billing Ticket'
+      id: 'https://billing.bloom.host/submitticket.php'
+      emoji: '<:bloom:732019289741066379>'
+      position: 1
 
 voicechat:
   aliases:
@@ -100,10 +106,18 @@ voicechat:
     Simple Voice Chat is an easy-to-use and reliable in-game voice chat
     modification and plugin for Minecraft servers.
   buttons:
-    - [ 'Website', 'https://modrepo.de/minecraft/voicechat/wiki/?t=setup' ]
-    - [ 'CurseForge', 'https://www.curseforge.com/minecraft/mc-mods/simple-voice-chat/' ]
-    - [ 'Bukkit', 'https://dev.bukkit.org/projects/simple-voice-chat' ]
-    - [ 'Docs', 'https://docs.bloom.host/multiplatform/simple-voice-chat/' ]
+    - style: link
+      label: 'Website'
+      id: 'https://modrepo.de/minecraft/voicechat/wiki/?t=setup'
+    - style: link
+      label: 'CurseForge'
+      id: 'https://www.curseforge.com/minecraft/mc-mods/simple-voice-chat/'
+    - style: link
+      label: 'Bukkit'
+      id: 'https://dev.bukkit.org/projects/simple-voice-chat'
+    - style: link
+      label: 'Docs'
+      id: 'https://docs.bloom.host/multiplatform/simple-voice-chat/'
 
 demo:
   aliases: [ 'demopanel' ]
@@ -112,7 +126,10 @@ demo:
   description: |+
     Check out our demo panel with all the DuckPanel's features and looks!
   buttons:
-    - [ 'Open Demo', 'https://demo.bloom.host', '<:aaaduck:755553395363938344>' ]
+    - style: link
+      label: 'Open Demo'
+      id: 'https://demo.bloom.host'
+      emoji: '<:aaaduck:755553395363938344>'
 
 updating:
   aliases:
@@ -251,7 +268,10 @@ pvz:
 
     We would recommend checking [PVZ's wiki](https://pvz-fusion.fandom.com/wiki/FAQ).
   buttons:
-    - ["Visit Wiki", "https://pvz-fusion.fandom.com/wiki/FAQ", "🔗"]
+    - style: link
+      label: 'Visit Wiki'
+      id: 'https://pvz-fusion.fandom.com/wiki/FAQ'
+      emoji: '🔗'
 
 hybrid:
   aliases:
@@ -273,11 +293,12 @@ hybrid:
         - [Pixelmon's warnings about Magma](https://pixelmonmod.com/viewtopic.php?f=5&t=29799%3E)
 
 
-winmtr:
+mtr:
   aliases:
+    - 'winmtr'
     - 'ping'
     - 'network'
-    - 'mtr'
+  slash-command: true
   title: 'Diagnosing Connection Issues'
   description: >
     *MTR is a tool we use to diagnose network issues between your internet provider and the server. It traces each step along the connection path to detect latency increase, packet loss, or other problems.*
@@ -311,20 +332,25 @@ grafana:
     Guide located [here](https://docs.bloom.host/other-servers/grafana/).
   image: 'https://raw.githubusercontent.com/Cubxity/UnifiedMetrics/dev/0.3.x/.github/assets/grafana.png'
 
-bin:
+logs:
   aliases:
+    - 'bin'
     - 'hastebin'
     - 'pastebin'
     - 'mclogs'
     - 'mclo.gs'
     - 'paste'
+  slash-command: true
   title: 'Log Sharing'
   image: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/mclogs.png'
   description: |+
     Use [mclo.gs](https://mclo.gs), a handy text sharing service!
     In the panel, use the `Uploads Logs` button next to the console area, or `Publish on mclo.gs` for config files!
   buttons:
-    - [ 'Open mclo.gs ', 'https://mclo.gs', '🔗' ]
+    - style: link
+      label: 'Open mclo.gs '
+      id: 'https://mclo.gs'
+      emoji: '🔗'
 
 vps:
   title: 'VPS - Virtual Private Servers'
@@ -361,6 +387,7 @@ palworldinfo:
 
 rate:
   aliases: [ 'support' ]
+  slash-command: true
   title: 'Rate Bloom.host!'
   description: 'If you''re having a good experience with Bloom.host, rate us!'
   fields:
@@ -377,9 +404,18 @@ bloomab:
     ##  <:bitwarden:805611737692766249> Bloom Anti Bot Plugin
     Learn about our plugin for Minecraft servers that interacts with our custom on-site DDoS protection to provide Layer 7 protection for Minecraft: Java Edition.
   buttons:
-    - [ 'Documentation', 'https://docs.bloom.host/ab', '<:info:849551086032781332>' ]
-    - [ 'Latest Release', 'https://github.com/Bloom-host/BloomAB/releases/latest', '<:CloseEmoji:777970302297833512>' ]
-    - [ 'Source Code', 'https://github.com/Bloom-host/BloomAB', '<:github:1205553982152515744>' ]
+    - style: link
+      label: 'Documentation'
+      id: 'https://docs.bloom.host/ab'
+      emoji: '<:info:849551086032781332>'
+    - style: link
+      label: 'Latest Release'
+      id: 'https://github.com/Bloom-host/BloomAB/releases/latest'
+      emoji: '<:CloseEmoji:777970302297833512>'
+    - style: link
+      label: 'Source Code'
+      id: 'https://github.com/Bloom-host/BloomAB'
+      emoji: '<:github:1205553982152515744>'
 
 chunky:
   title: 'Chunky'
@@ -500,9 +536,15 @@ welcome:
 
     **Remember to join our main Discord server:** https://discord.gg/bloom
   buttons:
-    - [ 'Join main Discord', 'https://discord.gg/bloom' ]
-    - [ 'Open Minecraft Panel', 'https://mc.bloom.host' ]
-    - [ 'Open VPS Panel', 'https://vps.bloom.host' ]
+    - style: link
+      label: 'Join main Discord'
+      id: 'https://discord.gg/bloom'
+    - style: link
+      label: 'Open Minecraft Panel'
+      id: 'https://mc.bloom.host'
+    - style: link
+      label: 'Open VPS Panel'
+      id: 'https://vps.bloom.host'
 
 panelissues:
   title: '📜 Panel Connection Issues - How to attempt to fix them'
@@ -594,7 +636,10 @@ upgrade:
   thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/tY6IAF.png'
   image: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/upgrade.png'
   buttons:
-    - [ 'Products page', 'https://billing.bloom.host/clientarea.php?action=services', '<:bloom:732019289741066379>' ]
+    - style: link
+      label: 'Products page'
+      id: 'https://billing.bloom.host/clientarea.php?action=services'
+      emoji: '<:bloom:732019289741066379>'
 
 documentation:
   aliases:
@@ -753,7 +798,10 @@ clumsyloader:
     [here](https://docs.bloom.host/extras/clumsyloader)! ClumsyLoader provides
     an alternative way to download your server backups to your VPS or computer.
   buttons:
-    - [ 'Open Docs', 'https://docs.bloom.host/extras/clumsyloader/', '❔' ]
+    - style: link
+      label: 'Open Docs'
+      id: 'https://docs.bloom.host/extras/clumsyloader/'
+      emoji: '❔'
 
 whitelist:
   aliases:
@@ -763,7 +811,10 @@ whitelist:
     Check out our comprehensive guide on using a whitelist
     [here](https://docs.bloom.host/whitelist/)!
   buttons:
-    - [ 'Open Docs', 'https://docs.bloom.host/whitelist/', '❔' ]
+    - style: link
+      label: 'Open Docs'
+      id: 'https://docs.bloom.host/whitelist/'
+      emoji: '❔'
 
 internal:
   aliases:
@@ -776,7 +827,10 @@ internal:
     Check out our comprehensive guide on internal servers
     [here](https://docs.bloom.host/internal-servers/)!
   buttons:
-    - [ 'Open Docs', 'https://docs.bloom.host/internal-servers/', '❔' ]
+    - style: link
+      label: 'Open Docs'
+      id: 'https://docs.bloom.host/internal-servers/'
+      emoji: '❔'
 
 suspensions:
   aliases:
@@ -789,7 +843,10 @@ suspensions:
     Terminations work at Bloom
     [here](https://docs.bloom.host/billing/suspensions_and_terminations).
   buttons:
-    - [ 'Open Docs', 'https://docs.bloom.host/billing/suspensions_and_terminations', '❔' ]
+    - style: link
+      label: 'Open Docs'
+      id: 'https://docs.bloom.host/billing/suspensions_and_terminations'
+      emoji: '❔'
 
 billingsubusers:
   aliases: [ 'billingsubuser' ]
@@ -798,7 +855,10 @@ billingsubusers:
     Check out our comprehensive guide on how to create billing subusers
     [here](https://docs.bloom.host/billing/billing_subusers).
   buttons:
-    - [ 'Open Docs', 'https://docs.bloom.host/billing/billing_subusers', '❔' ]
+    - style: link
+      label: 'Open Docs'
+      id: 'https://docs.bloom.host/billing/billing_subusers'
+      emoji: '❔'
 
 cancellation:
   aliases:
@@ -809,7 +869,10 @@ cancellation:
     Check out our comprehensive guide on how to request a service
     cancellation [here](https://docs.bloom.host/billing/cancellations).
   buttons:
-    - [ 'Open Docs', 'https://docs.bloom.host/billing/cancellations', '❔' ]
+    - style: link
+      label: 'Open Docs'
+      id: 'https://docs.bloom.host/billing/cancellations'
+      emoji: '❔'
 
 refunds:
   aliases: [ 'refund' ]
@@ -818,7 +881,10 @@ refunds:
     Check out our comprehensive guide on how to request a refund
     [here](https://docs.bloom.host/billing/refunds).
   buttons:
-    - [ 'Open Docs', 'https://docs.bloom.host/billing/refunds', '❔' ]
+    - style: link
+      label: 'Open Docs'
+      id: 'https://docs.bloom.host/billing/refunds'
+      emoji: '❔'
 
 fabric:
   title: '📜 Bloom Docs - Fabric'
@@ -1003,6 +1069,7 @@ timings:
 
 spark:
   aliases: [ 'profiler' ]
+  slash-command: true
   title: '📜 Bloom Docs - Spark'
   description: >
     *Check out our comprehensive guide on creating a Spark profiler to debug TPS issues on your server [here](https://docs.bloom.host/spark/).*
@@ -1096,7 +1163,10 @@ codes:
     ### Here are the current active promo codes:
     - `PERFPLUSME`: 20% off your **first** invoice of any Performance Plus plan
   buttons:
-    - [ 'Create Your Server Now', 'https://bloom.host/', '🎉' ]
+    - style: link
+      label: 'Create Your Server Now'
+      id: 'https://bloom.host/'
+      emoji: '🎉'
 
 api:
   aliases: [ 'ptapi', 'pterodactylapi' ]
@@ -1108,6 +1178,7 @@ api:
     Alternatively, you can make requests using [Ptero API](https://api.ptero.sh/#/operations/get-server-file-contents).
 
 warp:
+  slash-command: true
   aliases: [ 'vpn', 'cloudflare' ]
   colour: '#F37E1F'
   description: |+
@@ -1178,43 +1249,46 @@ paperchan:
 # Sent for any sort of generic error
 # Placeholders: %errormessage%
 error:
-  enabled: false
+  text-command: false
   title: '<:ex:849551085793837067> Error: %errormessage%'
   colour: '#dd2e44'
 
 # Sent when a command is missing some arguments
 # Placeholders: %errormessage%, %usage%
 error-usage:
-  enabled: false
+  text-command: false
   title: '<:ex:849551085793837067> Error: %errormessage%'
   description: 'Usage: `%usage%`'
   colour: '#dd2e44'
 
 # Sent when a main-server-only command is executed on the waitlist server
 server:
-  enabled: false
+  text-command: false
   title: '<:ex:849551085793837067> Error: this command can only be used on the main discord server!'
   colour: '#dd2e46'
   buttons:
-    - [ 'Join Server', 'https://discord.gg/bloom', '🔗' ]
+    - style: link
+      label: 'Join Server'
+      id: 'https://discord.gg/bloom'
+      emoji: '🔗'
 
 # Sent for any successful action
 # Placeholders: %successmessage%
 success:
-  enabled: false
+  text-command: false
   title: '<:greencheckmark:849551086033698856> Success: %successmessage%'
   colour: '#77b255'
 
 # Sent when someone joins the server
 # Placeholders: %username%, %usermention%, %membercount%
 join:
-  enabled: false
+  text-command: false
   description: '**<:blobwave:736379131696119860> Welcome, %username%!**'
 
 # Sent when the user opens a ticket or sends a ticket message outside of support hours
 # Placeholders: %time%, %from%, %to%, %timeraw%, %fromraw%, %toraw%
 time-warn:
-  enabled: false
+  text-command: false
   colour: '#dd2e44'
   description: |+
     # ⚠️ Outside standard support hours
@@ -1227,28 +1301,34 @@ time-warn:
 
     Please consider using <#737803938430189678> for non-technical issues.
   buttons:
-    - [ 'Use #support-chat', 'https://discord.com/channels/720081782980083813/737803938430189678' ]
+    - style: link
+      label: 'Use #support-chat'
+      id: 'https://discord.com/channels/720081782980083813/737803938430189678'
 
 # Sent when a server ID is detected and the user does not have their account linked
 link-account-warn:
-  enabled: false
+  text-command: false
   text: |+
     -# ✅ Server found! We recommend [linking your DuckPanel account](<https://docs.bloom.host/extras/account-details/#discord-linking>) for faster support!
 
 # Sent when the !duck or /duck command is used
 # Placeholders: %link%
 duck:
-  enabled: false
+  text-command: false
   title: '<:blobcheer:762884190210621440> Here''s your random duck!'
   image: '%link%'
   buttons:
-    - [ 'Original Image', '%link%', '🔗', '2' ]
+    - style: link
+      label: 'Original Image'
+      id: '%link%'
+      emoji: '🔗'
+      position: 2
 
 # Sent when the !unsupported or /unsupported command is used
 # Placeholders: %eggs%
 # Custom data: line-format (%egg%)
 unsupported:
-  enabled: false
+  text-command: false
   title: 'List of Unsupported Games'
   description: |+
     These games can be used on your Bloom server, but no support is given when
@@ -1263,7 +1343,7 @@ unsupported:
 # Placeholders: %modpacks%
 # Custom data: line-format (%modpack%)
 modpacks:
-  enabled: false
+  text-command: false
   aliases:
     - 'modpacklist'
     - 'modpack'
@@ -1272,14 +1352,17 @@ modpacks:
   description: '%modpacks%'
   footer: 'Suggest a pack to be added: !suggest <link/name>'
   buttons:
-    - [ 'Full List', 'https://bloom.host/modpacks/', '🔗' ]
+    - style: link
+      label: 'Full List'
+      id: 'https://bloom.host/modpacks/'
+      emoji: '🔗'
   custom-data:
     line-format: "- %modpack%\n"
 
 # Sent when the !claims command is used
 # Placeholders: %time%, %lines%, %total%, %unclaimed%
 claims:
-  enabled: false
+  text-command: false
   colour: '#ffcc4d'
   fields:
     - title: '🔗 Claimed Tickets Since `%time%`'
@@ -1292,26 +1375,26 @@ claims:
 # Sent when a ticket command finishes
 # Placeholders: %results%
 ticket-command-finished:
-  enabled: false
+  text-command: false
   title: 'Finished! Results:'
   title-icon: '%guildicon%'
   description: '%results%'
 
 # Sent when a ticket command starts
 ticket-command-pending:
-  enabled: false
+  text-command: false
   title: 'Attempting to add users...'
   title-icon: '%guildicon%'
 
 # Sent when a message is translated in a ticket
 # Placeholders: %oldtext%, %newtext%, %username%, %usermention%, %userid%, %from%, %fromflag%, %to%, %toflag%
 translate-command:
-  enabled: false
+  text-command: false
   text: '<:translate:989542523464716349> **%username%**: %newtext%'
 
 # Sent when the summary page of a /notes list type:User ID id:<some ID > is used
 notes-user-summary:
-  enabled: false
+  text-command: false
   colour: '#ffc710'
   description: |-
     %user_notes%
@@ -1339,7 +1422,7 @@ notes-user-summary:
 
 # Sent when the summary page of a /notes list is shown in an open ticket
 notes-current-ticket-summary:
-  enabled: false
+  text-command: false
   colour: '#ffc710'
   description: |-
     %user_notes%
@@ -1374,7 +1457,7 @@ notes-current-ticket-summary:
 
 # Sent when ticket pages are shown for any /note list
 notes-ticket-pages:
-  enabled: false
+  text-command: false
   colour: '#ffc710'
   description: |-
     %ticket_notes%
@@ -1392,7 +1475,7 @@ notes-ticket-pages:
 # Sent when the !stats or /stats command is used
 # Placeholders: %totalsuggestions%, %pendingsuggestions%, %approvedsuggestions%, %deniedsuggestions%, %duckcount%, %uptime%, %membercount%, %rolecount%
 stats-embed:
-  enabled: false
+  text-command: false
   title: 'Bloom Statistics'
   title-icon: '%guildicon%'
   footer: 'BloomBot - Bloom.host'
@@ -1433,7 +1516,7 @@ stats-embed:
 # linked-services-subuser-prefix, linked-services-regular-prefix,
 # linked-services-line-format (%prefix%, %emoji%, %name%, %short_uuid%, %external_parent_id%)
 panel-link:
-  enabled: false
+  text-command: false
   title: '🔗 Panel Account Found'
   colour: '#FFFFF1'
   footer: 'Tickets - Bloom.host'
@@ -1448,7 +1531,10 @@ panel-link:
       description: '%servers%'
       inline: false
   buttons:
-    - [ 'Unlink Account', 'https://mc.bloom.host/account', '<:unlink:1135289952838615161>' ]
+    - style: link
+      label: 'Unlink Account'
+      id: 'https://mc.bloom.host/account'
+      emoji: '<:unlink:1135289952838615161>'
   custom-data:
     linked-services-line-format: |-
       %prefix% %emoji% %name% ([%short_uuid%](https://mc.bloom.host/server/%short_uuid%))
@@ -1460,7 +1546,7 @@ panel-link:
 # Sent when a suggestion is created or edited
 # Placeholders: %suggestion%, %username%, %date%, %suggestionid%
 suggestion-embed:
-  enabled: false
+  text-command: false
   title: '%username%''s Suggestion'
   description: '%suggestion%'
   thumbnail: '%useravatar%'
@@ -1470,7 +1556,7 @@ suggestion-embed:
 # Sent when a suggestion is approved, both in the channel and in the suggestor's DMs
 # Placeholders: %username%, %staffname%, %reason%, %status%, %suggestion%, %date%, %upvotes%, %downvotes%, %suggestionid%
 approved-suggestion:
-  enabled: false
+  text-command: false
   title: 'Approved %username%''s Suggestion'
   colour: '#77b255'
   thumbnail: '%useravatar%'
@@ -1488,7 +1574,7 @@ approved-suggestion:
 # Sent when a suggestion is denied, both in the channel and in the suggestor's DMs
 # Placeholders: %username%, %staffname%, %reason%, %status%, %suggestion%, %date%, %upvotes%, %downvotes%, %suggestionid%
 denied-suggestion:
-  enabled: false
+  text-command: false
   title: 'Denied %username%''s Suggestion'
   colour: '#ff0000'
   thumbnail: '%useravatar%'
@@ -1506,7 +1592,7 @@ denied-suggestion:
 # Sent in DMs to the user when the ticket is closed
 # Placeholders: %ticketid%, %username%, %usermention%, %claimers%, %closedbyname%, %closedbymention%, %openedat%, %fancyopenedat%, %closedat%, %fancyclosedat%, %reason%, %link%
 ticket-close-dm:
-  enabled: false
+  text-command: false
   colour: '#2ecc70'
   footer: 'Tickets - Bloom.host'
   description: |+
@@ -1527,14 +1613,20 @@ ticket-close-dm:
         • **At**: %fancyclosedat%
       inline: true
   buttons:
-    - [ 'link', 'View Transcript', '%link%', '🔗' ]
-    - [ 'secondary', 'Leave Feedback', 'feedback:%ticketid%', '⭐' ]
+    - style: link
+      label: 'View Transcript'
+      id: '%link%'
+      emoji: '🔗'
+    - style: secondary
+      label: 'Leave Feedback'
+      id: 'feedback:%ticketid%'
+      emoji: '⭐'
 
 
 # Sent in the ticket channel when the ticket is closed
 # Placeholders: %ticketid%, %username%, %usermention%, %claimers%, %closedbyname%, %closedbymention%, %openedat%, %fancyopenedat%, %closedat%, %fancyclosedat%, %reason%, %link%
 ticket-close-channel:
-  enabled: false
+  text-command: false
   colour: '#2ecc70'
   footer: 'Tickets - Bloom.host'
   description: |+
@@ -1549,13 +1641,19 @@ ticket-close-channel:
     -# This channel will be deleted %fancydeleteat%. 
     -# To open a new ticket, please head to <#777907843214737440>.
   buttons:
-    - [ 'link', 'View Transcript', '%link%', '🔗' ]
-    - [ 'secondary', 'Leave Feedback', 'feedback:%ticketid%', '⭐' ]
+    - style: link
+      label: 'View Transcript'
+      id: '%link%'
+      emoji: '🔗'
+    - style: secondary
+      label: 'Leave Feedback'
+      id: 'feedback:%ticketid%'
+      emoji: '⭐'
 
 # Sent in the transcripts channel when the ticket is closed
 # Placeholders: %ticketid%, %username%, %usermention%, %claimers%, %closedbyname%, %closedbymention%, %openedat%, %fancyopenedat%, %closedat%, %fancyclosedat%, %reason%, %link%
 ticket-close-staff:
-  enabled: false
+  text-command: false
   colour: '#2ecc70'
   footer: 'Tickets - Bloom.host'
   description: |+
@@ -1574,13 +1672,16 @@ ticket-close-staff:
         • **At**: %fancyclosedat%
       inline: true
   buttons:
-    - [ 'link', 'View Transcript', '%link%', '🔗' ]
+    - style: link
+      label: 'View Transcript'
+      id: '%link%'
+      emoji: '🔗'
 
 # Sent to the feedback channel when ticket feedback is received
 # Placeholders: %ticket_id%, %ticket_link%, %user_mention%, %agent_list%, %agent_stars%, %agent_rating%, %system_stars%, %system_rating%, %resolved%, %notes%
 # Custom data: format (%lines%), line-format (%agent_id%, %agent_name%, %message_count%), resolved-yes, resolved-no, no-notes
 feedback-received:
-  enabled: false
+  text-command: false
   colour: '#f85002'
   description: |
     ## Support Ticket [`#%ticket_id%`](%ticket_link%) Feedback
@@ -1608,7 +1709,10 @@ feedback-received:
       inline: false
   footer: 'Tickets - Bloom.host'
   buttons:
-    - [ 'link', 'View Transcript', '%ticket_link%', '🔗' ]
+    - style: link
+      label: 'View Transcript'
+      id: '%ticket_link%'
+      emoji: '🔗'
   custom-data:
     format: '%lines%'
     line-format: "- <@%agent_id%>: %message_count% messages\n"
@@ -1622,7 +1726,7 @@ feedback-received:
 # The following embeds are used by the ticket system when a new ticket is opened.
 # Placeholders: %username%, %displayname%, %usermention%, %ticketid%
 tickets-default:
-  enabled: false
+  text-command: false
   title: '🦆 New Ticket'
   colour: '#FFFFF1'
   description: >
@@ -1632,16 +1736,31 @@ tickets-default:
   image: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/line.png'
   footer: 'Tickets - Bloom.host'
   buttons:
-    - [ 'danger', 'Close Ticket', 'close', '🔒' ]
-    - [ 'link', 'Open Billing Ticket', 'https://billing.bloom.host/submitticket.php', '💰' ]
-    - [ 'secondary', 'Notes', 'notes:{"type":"current_ticket", "action":"new"}', '📔', '6' ]
+    - style: danger
+      label: 'Close Ticket'
+      id: 'close'
+      emoji: '🔒'
+    - style: link
+      label: 'Open Billing Ticket'
+      id: 'https://billing.bloom.host/submitticket.php'
+      emoji: '💰'
+    - style: secondary
+      label: 'Notes'
+      id: 'notes:{"type":"current_ticket", "action":"new"}'
+      emoji: '📔'
+      position: 6
+    - style: secondary
+      label: 'Toggle Translate'
+      id: 'translate:toggle_select'
+      emoji: '🇺🇸'
+      position: 7
 
 # ┌─────────────────────┐
 # │ Ticket Panel Embeds │
 # └─────────────────────┘
 # The following embeds are used to post ticket panels
 ticket-panel:
-  enabled: false
+  text-command: false
   colour: '#77b255'
   description: |+
     # <:bloom:732019289741066379> Bloom Host Support
@@ -1653,11 +1772,21 @@ ticket-panel:
 
     -# Opening a ticket means we process your messages. Learn more in our [privacy policy](https://bloom.host/privacy-policy#support-requests).
   buttons:
-    - [ 'Open Billing Ticket', 'https://billing.bloom.host/submitticket.php', '💰', '2' ]
-    - [ 'Privacy Policy', 'https://bloom.host/privacy-policy#support-requests', '🔗', '3' ]
+    - style: success
+      label: 'Open Ticket'
+      id: 'ticket:open_a_ticket'
+      emoji: '🦆'
+    - style: link
+      label: 'Billing Ticket'
+      id: 'https://billing.bloom.host/submitticket.php'
+      emoji: '💰'
+    - style: link
+      label: 'Privacy Policy'
+      id: 'https://bloom.host/privacy-policy#support-requests'
+      emoji: '🔗'
 
 waitlist-panel:
-  enabled: false
+  text-command: false
   colour: '#77b255'
   description: |+
     # 🌻 Bloom Host Waitlist
@@ -1673,28 +1802,43 @@ waitlist-panel:
 
     -# Opening a ticket means we process your messages. Learn more in our [privacy policy](https://bloom.host/privacy-policy#support-requests).
   buttons:
-    - [ 'secondary', 'Game', 'waitlist:start:game', '🎮', ]
-    - [ 'secondary', 'VPS', 'waitlist:start:vps', '☁️', ]
-    - [ 'secondary', 'Bare Metal', 'waitlist:start:bare_metal', '⚡', ]
-    - [ 'secondary', 'Inquire', 'waitlist:confirm:custom', '🎫', ]
-    - [ 'Privacy Policy', 'https://bloom.host/privacy-policy#support-requests', '🔗', ]
+    - style: secondary
+      label: 'Game'
+      id: 'waitlist:start:game'
+      emoji: '🎮'
+    - style: secondary
+      label: 'VPS'
+      id: 'waitlist:start:vps'
+      emoji: '☁️'
+    - style: secondary
+      label: 'Bare Metal'
+      id: 'waitlist:start:bare_metal'
+      emoji: '⚡'
+    - style: secondary
+      label: 'Inquire'
+      id: 'waitlist:confirm:custom'
+      emoji: '🎫'
+    - style: link
+      label: 'Privacy Policy'
+      id: 'https://bloom.host/privacy-policy#support-requests'
+      emoji: '🔗'
 
 waitlist-select-level:
-  enabled: false
+  text-command: false
   colour: '#5865F2'
   description: |+
     # 📶 Select Plan Level
     Please select your desired plan level:
 
 waitlist-select-location-single:
-  enabled: false
+  text-command: false
   colour: '#5865F2'
   description: |+
     # 🌍 Select Location
     Please select your preferred location.
 
 waitlist-select-location-multiple:
-  enabled: false
+  text-command: false
   colour: '#5865F2'
   description: |+
     # 🌍 Select Locations
@@ -1702,7 +1846,7 @@ waitlist-select-location-multiple:
     **Note**: selecting multiple options can decrease your wait time significantly!
 
 waitlist-select-size:
-  enabled: false
+  text-command: false
   colour: '#5865F2'
   description: |+
     # ⚙️ Select Plan
@@ -1712,7 +1856,7 @@ waitlist-select-size:
     **Note**: selecting multiple options can decrease your wait time significantly!
 
 waitlist-confirm:
-  enabled: false
+  text-command: false
   colour: '#5865F2'
   description: |+
     # ✅ Confirm Waitlist Entry
@@ -1723,7 +1867,7 @@ waitlist-confirm:
     Are you signing up for a new plan or upgrading an existing one?
 
 waitlist-select-quantity:
-  enabled: false
+  text-command: false
   colour: '#5865F2'
   description: |+
     # ✅ Confirm Quantity 
@@ -1734,7 +1878,7 @@ waitlist-select-quantity:
     How many plans would you like to sign up for?
 
 waitlist-open-game-essentials:
-  enabled: false
+  text-command: false
   colour: '#77b255'
   description: |+
     # ✅ %count%x %waitlist_type% Waitlist Entry Confirmed
@@ -1749,11 +1893,17 @@ waitlist-open-game-essentials:
     
     ⚠️ Please note that this server is **not actively monitored**, so for any immediate concerns, please make sure to [contact us](https://bloom.host/support) directly.
   buttons:
-    - [ 'danger', 'Abandon Waitlist Spot', 'close', '🔒' ]
-    - [ 'link', 'Contact Support', 'https://bloom.host/support', '🔗' ]
+    - style: danger
+      label: 'Abandon Waitlist Spot'
+      id: 'close'
+      emoji: '🔒'
+    - style: link
+      label: 'Contact Support'
+      id: 'https://bloom.host/support'
+      emoji: '🔗'
 
 waitlist-open-game-performance:
-  enabled: false
+  text-command: false
   colour: '#77b255'
   description: |+
     # ✅ %count%x %waitlist_type% Waitlist Entry Confirmed
@@ -1768,11 +1918,17 @@ waitlist-open-game-performance:
     
     ⚠️ Please note that this server is **not actively monitored**, so for any immediate concerns, please make sure to [contact us](https://bloom.host/support) directly.
   buttons:
-    - [ 'danger', 'Abandon Waitlist Spot', 'close', '🔒' ]
-    - [ 'link', 'Contact Support', 'https://bloom.host/support', '🔗' ]
+    - style: danger
+      label: 'Abandon Waitlist Spot'
+      id: 'close'
+      emoji: '🔒'
+    - style: link
+      label: 'Contact Support'
+      id: 'https://bloom.host/support'
+      emoji: '🔗'
 
 waitlist-open-game-performance-plus:
-  enabled: false
+  text-command: false
   colour: '#77b255'
   description: |+
     # ✅ %count%x %waitlist_type% Waitlist Entry Confirmed
@@ -1787,11 +1943,17 @@ waitlist-open-game-performance-plus:
     
     ⚠️ Please note that this server is **not actively monitored**, so for any immediate concerns, please make sure to [contact us](https://bloom.host/support) directly.
   buttons:
-    - [ 'danger', 'Abandon Waitlist Spot', 'close', '🔒' ]
-    - [ 'link', 'Contact Support', 'https://bloom.host/support', '🔗' ]
+    - style: danger
+      label: 'Abandon Waitlist Spot'
+      id: 'close'
+      emoji: '🔒'
+    - style: link
+      label: 'Contact Support'
+      id: 'https://bloom.host/support'
+      emoji: '🔗'
 
 waitlist-open-vps:
-  enabled: false
+  text-command: false
   colour: '#77b255'
   description: |+
     # ✅ %count%x %waitlist_type% Waitlist Entry Confirmed
@@ -1806,11 +1968,17 @@ waitlist-open-vps:
     
     ⚠️ Please note that this server is **not actively monitored**, so for any immediate concerns, please make sure to [contact us](https://bloom.host/support) directly.
   buttons:
-    - [ 'danger', 'Abandon Waitlist Spot', 'close', '🔒' ]
-    - [ 'link', 'Contact Support', 'https://bloom.host/support', '🔗' ]
+    - style: danger
+      label: 'Abandon Waitlist Spot'
+      id: 'close'
+      emoji: '🔒'
+    - style: link
+      label: 'Contact Support'
+      id: 'https://bloom.host/support'
+      emoji: '🔗'
 
 waitlist-open-baremetal:
-  enabled: false
+  text-command: false
   colour: '#77b255'
   description: |+
     # ✅ %count%x %waitlist_type% Waitlist Entry Confirmed
@@ -1825,11 +1993,17 @@ waitlist-open-baremetal:
     
     ⚠️ Please note that this server is **not actively monitored**, so for any immediate concerns, please make sure to [contact us](https://bloom.host/support) directly.
   buttons:
-    - [ 'danger', 'Abandon Waitlist Spot', 'close', '🔒' ]
-    - [ 'link', 'Contact Support', 'https://bloom.host/support', '🔗' ]
+    - style: danger
+      label: 'Abandon Waitlist Spot'
+      id: 'close'
+      emoji: '🔒'
+    - style: link
+      label: 'Contact Support'
+      id: 'https://bloom.host/support'
+      emoji: '🔗'
 
 waitlist-open-custom:
-  enabled: false
+  text-command: false
   colour: '#77b255'
   description: |+
     # ✅ Custom Inquiry
@@ -1839,11 +2013,18 @@ waitlist-open-custom:
     
     ⚠️ Please note that this server is **not actively monitored**, so for any immediate concerns, please make sure to [contact us](https://bloom.host/support) directly.
   buttons:
-    - [ 'danger', 'Abandon Waitlist Spot', 'close', '🔒' ]
-    - [ 'link', 'Contact Support', 'https://bloom.host/support', '🔗' ]
+    - style: danger
+      label: 'Abandon Waitlist Spot'
+      id: 'close'
+      emoji: '🔒'
+    - style: link
+      label: 'Contact Support'
+      id: 'https://bloom.host/support'
+      emoji: '🔗'
 
 waitlist:
   aliases: [ 'wl' ]
+  slash-command: true
   description: |+
     # 🌻 Bloom Host Waitlist
     In case you are looking for a plan currently not in stock, please enter the waitlist with the following steps:
@@ -1855,4 +2036,7 @@ waitlist:
 
     Thanks again for your interest in our plans!
   buttons:
-    - [ 'link', 'Join Waitlist', 'https://bloom.host/waitlist', '🔗' ]
+    - style: link
+      label: 'Join Waitlist'
+      id: 'https://bloom.host/waitlist'
+      emoji: '🔗'
