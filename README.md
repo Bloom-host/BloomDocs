@@ -82,6 +82,13 @@ embed_name:
   aliases:
     - 'embed_name_alias'
     - 'another_alias'
+  # Whether this can be triggered as a "!"/"-" prefixed text command (or by @mentioning the bot
+  # instead of the prefix). Defaults to true
+  text-command: true
+  # Whether this is registered as its own dedicated slash command (e.g. /embed_name),
+  # independent of the text-command setting above. Defaults to false. Only the primary name is
+  # ever registered as a slash command, not any of the aliases above.
+  slash-command: false
   # The text of the message
   text: 'Suspendisse vitae sem imperdiet suspicit magna sed'
   # The title of the embed
@@ -127,14 +134,31 @@ embed_name:
   image: 'https://bloom.host/favicon/favicon-og.png'
   # The footer of the embed
   footer: 'Phasellus effictur dictum sem egel pretium'
-  # A list of buttons. [ <display name>, <link>, <emoji>, <order> ] 
+  # A list of buttons.
+  # - style: is one of: link, primary (blue), secondary (grey), success (green), danger (red).
+  # - id: is the link URL for a "link" style button; otherwise, a custom ID used to route button clicks in the bot
+  # - emoji: a unicode/Discord emoji, optional
+  # - position: 1-indexed, controls button order, optional
   buttons:
-    - [ 'Label', 'https://example.tld', '1️⃣' ]
-    - [ 'Label', 'https://example.tld', '2️⃣' ]
-    - [ 'Label', 'https://example.tld', '3️⃣' ] 
+    - style: link
+      label: 'Label'
+      id: 'https://example.tld'
+      emoji: '1️⃣'
+      position: 1
+    - style: link
+      label: 'Label'
+      id: 'https://example.tld'
+      emoji: '2️⃣'
+      position: 2
+    - style: link
+      label: 'Label'
+      id: 'https://example.tld'
+      emoji: '3️⃣'
+      position: 3
 ```
 
-Users with the `@Gardener` role can use the `!et` (embed test) command with YAML code to quickly test commands.
+Users with the `@Gardener` role can use the `/embed test` command with YAML code, or a file attachment, to
+quickly test embeds. Running it with no file opens a form to paste YAML directly instead.
 
 You can use these global placeholders anywhere: `%useravatar%`, `%guildicon%`
 
