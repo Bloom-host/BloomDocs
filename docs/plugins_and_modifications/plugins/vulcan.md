@@ -22,7 +22,7 @@ Cheats detected by Vulcan:
 - Movement Hacks (Speed, Bunny Hop, Jesus, Flight, etc.)
 - Player Hacks (Bad Packets, Interact, Improbable, Scaffold, etc.)
 
-
+Vulcan is usually used along with [GrimAC](/plugins_and_modifications/plugins/GrimAC) for a more complete hacking prevention system.
 ---
 
 ## Setup & Configuration:

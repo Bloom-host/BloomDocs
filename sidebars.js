@@ -250,6 +250,7 @@ module.exports = {
                         'plugins_and_modifications/plugins/viaversion',
                         'plugins_and_modifications/plugins/votifier', // Minecraft server vote site listener
                         'plugins_and_modifications/plugins/vulcan', // anticheat
+                        'plugins_and_modifications/plugins/GrimAC',
                         'plugins_and_modifications/plugins/worldguard', //worldguard
                         'plugins_and_modifications/plugins/oraxen',
                         'plugins_and_modifications/plugins/denizen',
@@ -258,6 +259,7 @@ module.exports = {
                         'plugins_and_modifications/plugins/CMI',
                         "plugins_and_modifications/install-proxy-plugin", // BungeeCord/Velocity proxy plugin install guide
                         "plugins_and_modifications/plugins/TAB",
+                        "plugins_and_modifications/plugins/fawe",
                     ]
                 }
             ]
