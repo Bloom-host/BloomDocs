@@ -260,6 +260,8 @@ module.exports = {
                         "plugins_and_modifications/install-proxy-plugin", // BungeeCord/Velocity proxy plugin install guide
                         "plugins_and_modifications/plugins/TAB",
                         "plugins_and_modifications/plugins/fawe",
+                        'plugins_and_modifications/plugins/viabackwards',
+                        'plugins_and_modifications/plugins/viarewind',                        
                     ]
                 }
             ]
