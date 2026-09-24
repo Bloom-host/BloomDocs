@@ -20,7 +20,7 @@ keywords:
 
 WorldEdit is an in-game world editing plugin. You can select areas, fill them in with a block (or multiple types of blocks), save the area as a schematic, and more. We'll learn the basics of this plugin and how to install it.
 
-If you regularly work with large selections or schematics, you can also check out our [FastAsyncWorldEdit guide](/plugins/fawe). FAWE is an alternative to WorldEdit that focuses on improving editing performance while keeping the familiar commands. However, FAWE is only available for Paper forks, while WorldEdit is multiplatform.
+If you regularly work with large selections or schematics, you can also check out our [FastAsyncWorldEdit guide](/plugins/fawe). FAWE is an alternative to WorldEdit that focuses on improving editing performance while keeping the familiar commands. FAWE supports Bukkit, Spigot, Paper, and compatible forks, while WorldEdit is multiplatform.
 
 ## Setup
 
