@@ -1,0 +1,148 @@
+---
+id: rtp
+title: RTP Plugins
+slug: /plugins/rtp
+hide_table_of_contents: false
+toc_max_heading_level: 2
+sidebar_label: RTP Plugins
+description: Set up random teleportation on your Minecraft server with WildRTP or BetterRTP.
+keywords:
+  - RTP
+  - Random Teleport
+  - WildRTP
+  - BetterRTP
+  - Minecraft
+  - Paper
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+## Overview
+
+:::important Plugin recommendation
+We currently recommend using **WildRTP**. As we consider BetterRTP to be deprecated since it doesn't work well on Minecraft **26.2 and newer** in our testing.
+
+The BetterRTP instructions below are available for existing servers running compatible versions.
+:::
+
+Random teleportation plugins let your players use `/rtp` to find somewhere new to explore or build. We'll go over installing a plugin, giving players access, and adjusting the teleport area and cooldown.
+
+
+---
+
+## Installation and setup
+
+Choose your plugin below to follow its setup instructions.
+
+<Tabs defaultValue="wildrtp">
+<TabItem value="wildrtp" label="WildRTP — Recommended">
+
+### Install WildRTP
+
+First, download a stable [WildRTP release](https://modrinth.com/plugin/wildrtp/versions) compatible with your Minecraft version and server platform.
+
+1. Open your server's **Console** in the Bloom panel and click **Stop**.
+2. Open the **File Manager**, then upload the `.jar` file to your server's `plugins` folder.
+3. Return to the **Console** and click **Start**. WildRTP will load and generate its configuration files.
+
+If you need more help with installation, check our [plugin installation guide](/installing-plugins).
+
+### Commands and permissions {#wildrtp-commands}
+
+Players can run `/rtp` or `/wild` to teleport to a random location. Use `/wild help` to view the available commands.
+
+The `wildrtp.rtp` permission allows players to use random teleportation and is enabled by default. If you've restricted permissions, you can grant it to your default group through [LuckPerms](/multiplatform/luckperms):
+
+```text
+lp group default permission set wildrtp.rtp true
+```
+
+Run this command in your server console without a leading `/`.
+
+Keep in mind that operators bypass cooldowns and teleport delays by default, so their experience may differ from a regular player's.
+
+### Configuration {#wildrtp-configuration}
+
+Open `plugins/WildRTP/config.yml` in the **File Manager**. The settings most servers will want to adjust are:
+
+- **Teleport area:** `global.min` and `global.max` control the minimum and maximum distance from the teleport center, in blocks. For example, `min: 100` and `max: 1000` keep destinations between those distances. Check `global.center` to choose the center.
+- **Cooldown and delay:** `global.cooldown.time` controls how long players wait between uses. `global.movetimer.time` controls how long they must stand still before teleporting. Both use seconds and have an `enabled` setting.
+- **Allowed worlds:** Use `list: whitelist` and add your world names to `whitelist` if RTP should only work in specific worlds.
+
+If you use a supported claim or region protection plugin, enable its integration under `hooks` so WildRTP can avoid protected areas. These integrations are disabled by default.
+
+Once you've saved your changes, run `/wild reload` in-game. Changes to protection hooks require a server restart.
+
+For per-world settings, teleport costs, and other options, check the [WildRTP server owner guide](https://github.com/LasaJoniHD/WildRTP/wiki/Server-Owner-Guide).
+
+</TabItem>
+<TabItem value="betterrtp" label="BetterRTP — Deprecated">
+
+### Install BetterRTP
+
+These instructions apply to servers running a compatible Minecraft version. For Minecraft **26.2 and newer**, use the WildRTP tab.
+
+First, download [BetterRTP](https://www.spigotmc.org/resources/betterrtp-random-wild-teleport.36081/) and check its listed compatibility.
+
+1. Open your server's **Console** in the Bloom panel and click **Stop**.
+2. Open the **File Manager**, then upload the `.jar` file to your server's `plugins` folder.
+3. Return to the **Console** and click **Start**. BetterRTP will load and generate its configuration files.
+
+If you need more help with installation, check our [plugin installation guide](/installing-plugins).
+
+### Commands and permissions {#betterrtp-commands}
+
+Players can run `/rtp` to teleport to a random location. They'll need `betterrtp.use` and permission to teleport in the destination world.
+
+For example, run these commands in your server console to give your default [LuckPerms](/multiplatform/luckperms) group access in a world named `world`:
+
+```text
+lp group default permission set betterrtp.use true
+lp group default permission set betterrtp.world.world true
+```
+
+Replace the final `world` in the second command with your actual world name.
+
+Keep in mind that operators and players with broad administrative permissions may bypass cooldowns and delays. You can find additional permissions in the [BetterRTP permissions reference](https://github.com/RonanPlugins/BetterRTP/wiki/Permissions).
+
+### Configuration {#betterrtp-configuration}
+
+Open `plugins/BetterRTP/config.yml` in the **File Manager**. Start with these settings:
+
+- **Teleport area:** `Default.MinRadius` and `Default.MaxRadius` control the distance from `CenterX` and `CenterZ`, in blocks. Set `Default.UseWorldBorder` to `true` if you want the world border to limit the area.
+- **Cooldown and delay:** `Settings.Cooldown.Time` controls the wait between uses. `Settings.Delay.Time` controls the wait before teleporting. Both use seconds and have an `Enabled` setting.
+- **Allowed worlds:** Add any worlds where RTP should be unavailable to `DisabledWorlds`.
+
+If you use a supported claim or region protection plugin, enable its integration under `Settings.Respect`. For Nether worlds, also check that their entry under `WorldType` uses `NETHER`.
+
+Once you've saved your changes, run `/rtp reload` in-game to apply them.
+
+For per-world settings, teleport costs, and other options, check the [BetterRTP configuration guide](https://github.com/RonanPlugins/BetterRTP/wiki/Config).
+
+</TabItem>
+</Tabs>
+
+---
+
+## Performance tips
+
+Random teleportation can load or generate chunks far away from your players. On a busy server, this can cause noticeable lag.
+
+- **Pregenerate your teleport area.** Use [Chunky](/multiplatform/chunky) to generate the destination area ahead of time.
+- **Keep the range manageable.** Choose an area that fits within your world border and, if you've pregenerated terrain, within that generated area.
+- **Use a cooldown.** Giving players a short wait between teleports helps limit repeated requests.
+
+If the plugin struggles to find a destination, check your teleport area and restrictions first. Very restrictive biome, height, or protection settings can leave few suitable locations.
+
+---
+
+## Info
+
+[WildRTP downloads](https://modrinth.com/plugin/wildrtp/versions)
+
+[WildRTP documentation](https://github.com/LasaJoniHD/WildRTP/wiki/Server-Owner-Guide)
+
+[BetterRTP downloads](https://www.spigotmc.org/resources/betterrtp-random-wild-teleport.36081/)
+
+[BetterRTP documentation](https://github.com/RonanPlugins/BetterRTP/wiki)

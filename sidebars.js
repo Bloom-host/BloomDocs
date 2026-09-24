@@ -242,6 +242,7 @@ module.exports = {
                         'plugins_and_modifications/plugins/multiverse', //Bukkit multi-world manager
                         'plugins_and_modifications/plugins/papi', // PlaceholderAPI
                         'plugins_and_modifications/plugins/prism',
+                        'plugins_and_modifications/plugins/rtp',
                         'plugins_and_modifications/plugins/servernpc',
                         'plugins_and_modifications/plugins/tebex', // Minecraft server donation store integration, formerly known as BuyCraft
                         'plugins_and_modifications/plugins/topper',
