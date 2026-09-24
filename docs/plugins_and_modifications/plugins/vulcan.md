@@ -23,6 +23,8 @@ Cheats detected by Vulcan:
 - Player Hacks (Bad Packets, Interact, Improbable, Scaffold, etc.)
 
 Vulcan is usually used along with [GrimAC](/plugins_and_modifications/plugins/GrimAC) for a more complete hacking prevention system.
+
+
 ---
 
 ## Setup & Configuration:

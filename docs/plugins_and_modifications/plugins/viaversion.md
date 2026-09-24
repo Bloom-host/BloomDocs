@@ -55,7 +55,7 @@ If you have a single Paper server, install ViaVersion and any required add-ons i
 
 If you're using a proxy, you can install the Via plugins on the proxy or on each backend server. Backend servers are the individual Minecraft servers players connect to through your proxy.
 
-Upstream recommends installing on the backends for better compatibility. Installing on the proxy is also an option, but some features and anticheat integrations may behave differently.
+Both locations are supported; choose the proxy or all backends based on the integrations you use, then keep ViaVersion and its add-ons together at that location.
 
 Keep ViaVersion and its add-ons together at the same installation location. Avoid installing them on both the proxy and the backends.
 
