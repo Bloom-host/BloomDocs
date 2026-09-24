@@ -14,49 +14,108 @@ keywords:
   - CLI
 ---
 
-[MCASelector](https://github.com/Querz/mcaselector) is an extremely helpful graphical and CLI tool that server administrators can use to modify their worlds, for example, to remove unused chunks to lower disk usage and so on.
+## Overview
 
-To avoid having to download and re-upload your world each time, Bloom has a pre-installation for this under 'No Support Games'.
+[MCASelector](https://github.com/Querz/mcaselector) lets you edit your Minecraft world, including removing chunks to free up disk space. Bloom’s MCASelector server type lets you run it directly through DuckPanel without downloading and re-uploading your world.
+
+In this guide, we’ll back up your server, choose the correct world folder, configure the chunk filter, and run MCASelector.
+
+---
 
 ## Preparation
 
-:::danger
-**WARNING**: Before doing anything else, please head over to the **[backups](/backups)** guide to create a full backup of your server.
+### Backup
+
+:::danger Back up your server
+MCASelector can permanently delete chunks, including any builds inside them. Create a full backup before making changes so you can restore your world if needed.
 :::
 
-1. In the DuckPanel open your server and, select the 'Settings' tab.
-2. On the right side of the page, locate 'Change Server Type' and select the 'No Support Servers' server category.
-3. Select the 'MCASelector' server type within the category and click the 'Change Server Type' button.
-4. After a few moments, the installation will finish, and you are good to go!
+1. Open your server in DuckPanel, go to **Console**, and click **Stop**. Wait for the server to shut down.
+2. Open **Backups** and click **Create Backup**.
+3. Give the backup a name, such as `Before MCASelector`, then click **Start Backup**.
+4. Wait until the backup’s **Archiving** phase has finished before continuing. Keep your server stopped, and don’t change its server type or run MCASelector while it’s still archiving.
 
-![MCA Selector installation completed in DuckPanel](/running_a_server/mcaselector/1.png)
+Archiving can take some time, especially on larger servers. For more information about creating and managing backups, see our [backups guide](/backups#manual-backup-creation).
+
+### Set up MCASelector
+
+With your server still stopped, follow these steps to install MCASelector:
+
+1. Open **Settings** in DuckPanel.
+2. Find **Change Server Type** and select the **No Support Servers** category.
+3. Select **MCASelector**, then click **Change Server Type**.
+4. Wait for the installation to finish before continuing.
+
+![MCASelector installation completed in DuckPanel](/running_a_server/mcaselector/1.png)
 
 ---
 
 ## Usage
-For this pre-install, everything is done in the 'Startup' tab of the panel:
 
-Here you can modify which specific flags are passed to MCASelector when you start the server.
+### Choose your world folder
 
-![DuckPanel Startup tab showing MCA Selector flags](/running_a_server/mcaselector/2.png)
+First, open **File Manager** and find the dimension you want to edit. MCASelector’s `--world` option needs the path to the folder containing `region`. The examples below assume your main world folder is named `world`. If yours has a different name, replace `world` with that folder’s name. All paths start from your server’s main directory. For example, if your main world folder is named `survival`, the Nether path would be `survival/dimensions/minecraft/the_nether`.
 
-The default flags will delete all chunks that have only been visited for **1 second or less** in the `world` world.
-`InhabitedTime` is given in ticks, so while this is very safe, it's likely too low for survival servers and the like, so you may have to change `20` to something higher.
+### Current folder structure — Minecraft 26.1 and newer
 
-If your world is named differently, make sure to adjust it!
-:::note
-If you want to delete chunks of The Nether or The End you will need to specify the DIM-1 folder for those two worlds, since the region folder isn't located in the root of the End/Nether folders. 
+Minecraft 26.1 moved the Overworld, Nether, and End data into the `dimensions/minecraft` folder. Now both Vanilla/Modded and Paper servers share the same folder structure: 
 
-Example: world_nether/DIM-1 or world_the_end/DIM-1
-:::
+| Dimension | Path to use with `--world` |
+| --- | --- |
+| Overworld | `world/dimensions/minecraft/overworld` |
+| Nether | `world/dimensions/minecraft/the_nether` |
+| End | `world/dimensions/minecraft/the_end` |
 
-Once you are happy with the flags, return to the 'Console' tab and start the server.
+Keep in mind that other server software, mods, or world-management plugins may store dimensions differently. Check your actual folders in **File Manager** before choosing a path. You can find more information in the [Minecraft Wiki’s world folder reference](https://minecraft.wiki/w/Java_Edition_level_format#Current).
 
-![MCA Selector running in the server console](/running_a_server/mcaselector/3.png)
+MCASelector added support for this structure in [version 2.7](https://github.com/Querz/mcaselector/releases/tag/2.7). Make sure you’re using a release that supports your server’s Minecraft version.
 
-In our example, it was only a few dozen chunks, so it only took a few moments but this process may take a very long time for larger worlds.
-Once it's finished, you can review the logs to ensure everything worked fine and then stop the server with the 'Stop' button.
+<details>
+<summary>Older folder structure (before Minecraft 26.1)</summary>
 
-If there is nothing else you want to do with MCASelector, head back to 'Settings' and select your original pre-install, such as Paper or Purpur.
+On older versions, the Overworld’s `region` folder sits directly inside your main world folder. The Nether uses `DIM-1`, and the End uses `DIM1`.
 
-🔗 For more advanced concepts, you can find the full documentation for the CLI mode here: https://github.com/Querz/mcaselector/wiki/CLI-Mode
+The paths differ depending on your server software:
+
+| Dimension | Vanilla | Paper |
+| --- | --- | --- |
+| Overworld | `world` | `world` |
+| Nether | `world/DIM-1` | `world_nether/DIM-1` |
+| End | `world/DIM1` | `world_the_end/DIM1` |
+
+For example, to edit the Nether on an older Paper server, use `--world "world_nether/DIM-1"`.
+
+</details>
+
+### Set your MCASelector flags
+
+Once you’ve found the correct folder, open **Startup** and find **MCA FLAGS** under **Variables**. This field controls which dimension MCASelector edits and which chunks it selects.
+
+![DuckPanel Startup tab showing MCASelector flags for the current Overworld folder](/running_a_server/mcaselector/2.png)
+
+For the Overworld using the current structure, enter the following flags as shown above:
+
+```text
+--mode delete --world "world/dimensions/minecraft/overworld" --query "InhabitedTime <= 20" --process-threads 2
+```
+
+This example deletes chunks in the selected dimension whose `InhabitedTime` is 20 ticks or less. That’s about one second of accumulated inhabited time, which tracks how long players have been nearby.
+
+You can increase `20` to select chunks with more inhabited time, but a higher value can delete more of your world. A low value also doesn’t guarantee that a chunk contains no builds, so keep your backup available.
+
+To edit the Nether or End, replace the value after `--world` with the appropriate path from the table. Run MCASelector separately for each dimension you want to edit.
+
+For more filters and advanced options, see the [MCASelector CLI documentation](https://github.com/Querz/mcaselector/wiki/CLI-Mode).
+
+### Run MCASelector
+
+Once you’re happy with the path and filter, return to **Console** and click **Start**. MCASelector will process the selected dimension and delete chunks matching your filter.
+
+![MCASelector running in the server console](/running_a_server/mcaselector/3.png)
+
+Small worlds may finish quickly, while larger worlds can take much longer. Wait for the process to finish, then review the console output for errors before clicking **Stop**.
+
+If MCASelector reports that it can’t find the world or region folder, return to **File Manager** and check that your `--world` path points to the folder directly containing `region`.
+
+Once you’ve finished editing your worlds, return to **Settings → Change Server Type** and select your original server type. Start your Minecraft server again and check the world. Deleted chunks will generate again when Minecraft loads those areas.
+
