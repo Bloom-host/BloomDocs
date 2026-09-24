@@ -334,7 +334,7 @@ Locked backups can be unlocked the same way with the 'Unlocked' button.
 
 ## SQLite Backups
 
-For plugins that use SQLite, such as CoreProtect, we recommend pausing their saving mechanisms before starting a backup. For example, with CoreProtect, run `/co consumer pause` to pause saving, then `/co consumer resume` once the backup is complete.
+For plugins that use SQLite, such as CoreProtect, we recommend pausing their saving mechanisms before starting a backup. For example, with CoreProtect, run `/co consumer pause` to pause saving, then `/co consumer resume` once the backup is complete. Both commands must run from the Console. For automatic backups you can set a delay on your `/co consumer resume` command based on the usual time your backups take in the Archiving state.
 
 This helps prevent data corruption. Alternatively, you can exclude these files from the backup using the method explained below.
 
