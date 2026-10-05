@@ -12,6 +12,9 @@ keywords:
   - Secure
   - Server 
 ---
+:::note
+As of version 26.3 whitelist is ON by default, so you may skip to step 2 when using any of the methods on this page.
+:::
 ## What Is Whitelisting?
 
 Basically a Whitelist is a list of player's usernames that are permitted to join the server while Whitelist is on.
