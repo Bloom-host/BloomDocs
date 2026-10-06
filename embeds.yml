@@ -1464,8 +1464,10 @@ notes-ticket-pages:
   footer: 'Page %current_page%/%page_count%'
   custom-data:
     ticket-notes-format: |-
-      ## Ticket [`#%ticket_id%`](%ticket_link%) - _<t:%ticket_opened_at%:f>_
+      ## Ticket [`#%ticket_id%`](%ticket_link%) - _<t:%ticket_opened_at%:f>_%ticket_subuser%
       %lines%
+    ticket-subuser-indicator: " 🔓"
+
     ticket-notes-empty: ""
     ticket-notes-line-format: "- `#%id%` <@%added_by%>: %content%\n"
 
