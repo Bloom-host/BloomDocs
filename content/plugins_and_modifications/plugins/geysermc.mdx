@@ -1,6 +1,6 @@
 ---
 title: "GeyserMC"
-description: "A cool plugin called GeyserMC, which allows users to connect to java servers through the bedrock client."
+description: "Let Bedrock players join your Java server with Geyser and Floodgate, including Auto-Crossplay and join fixes."
 ---
 
 import { Callout } from 'nextra/components'
@@ -13,9 +13,15 @@ GeyserMC enables clients from Minecraft Bedrock Edition to join your Minecraft J
 
 <Callout type="info">
 
-GeyserMC requires your server to be on the latest version.
+Geyser follows the newest Minecraft versions. Right after a new Minecraft release, Geyser and Floodgate can break for a while; stay one version back until they update, and make a backup before any upgrade.
 
 </Callout>
+
+## Easiest way: Auto-Crossplay
+
+On Paper or Leaf, open the **Startup** tab, turn on **Enable Auto-Crossplay**, then go to **Settings** and press **Reinstall Server**. Geyser and Floodgate are installed for you. Make a backup first. Then add a Bedrock port as described below.
+
+## Manual install
 
 [Download the plugin](https://geysermc.org/download) and upload the jar into your `plugins` folder. Restart or turn on the server. If you need help installing plugins, check out [this guide](/plugins_and_modifications/installing-plugins).  
 
@@ -24,6 +30,13 @@ Once you've installed it, open the **Network** tab in the panel and add a port f
 With **Enable Auto-Crossplay** on in the server's **Startup** tab, the Geyser config starts with `clone-remote-port: false`, and reinstalling the server keeps the Geyser config you set.
 
 After that, restart the server. Bedrock players join with your server's IP address and that port.
+
+## Bedrock players cannot join
+
+- **Console mentions NetherNet**: in the Geyser `config.yml`, set the Bedrock transport to `raknet`. NetherNet is new and not supported everywhere yet.
+- **After a port change**: Bedrock players need the new Bedrock port, and any subdomain still points at the old one. Delete the subdomain and create it again.
+- **Joining with the Java port**: Bedrock players must use the Bedrock port from the **Network** tab, not the Java one.
+- **Whitelist**: Bedrock names start with a `.` (for example `.Steve`). Add them with `fwhitelist add Steve` (Floodgate) or `whitelist add .Steve`, and op them with `op .Steve`.
 
 Players who are using the console version of Bedrock Minecraft must follow the instructions listed on [this page](https://wiki.geysermc.org/geyser/using-geyser-with-consoles/), as the console version does not allow joining custom servers by default.
 

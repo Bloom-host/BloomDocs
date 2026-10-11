@@ -12,12 +12,20 @@ This guide will show you how to change the version of Java if it does not work f
 2. On the left side, select 'Startup'.
 3. Next, find the Java Version tab (usually on the top right of the page).
 
-<Callout type="info">
+## Which Java for which version
 
-All Minecraft 1.18 - 1.20.4 versions require Java 17 to work. Use the Java 17 option to use Java 17 on your server.
+| Minecraft version | Java |
+|---|---|
+| 26.1 and newer | Java 25 |
+| 1.20.5 to 1.21.x | Java 21 |
+| 1.18 to 1.20.4 | Java 17 |
+| 1.17.x | Java 16 or 17 |
+| 1.12.2 and older (most old modpacks) | Java 8 |
 
-Minecraft 1.20.5+ will require a minimum of Java 21 to work.
+## Errors that mean the wrong Java
 
-</Callout>
+- `Unrecognized VM option 'UseCompactObjectHeaders'` or "Could not create the Java Virtual Machine": the server needs a newer Java. Pick Java 25 for Minecraft 26.1 and newer.
+- `UnsupportedClassVersionError` or "compiled by a more recent version of the Java Runtime": the server jar or a plugin needs a newer Java than the one selected.
+- Old modpacks crashing on start with Java 17 or 21: try Java 8.
 
 If you are unable to change this setting and you see a message such as "This server's Docker image has been manually set by an administrator and cannot be changed through this UI.", please [open a ticket on our Discord](https://discord.atbphosting.com) and our staff will change it for you.

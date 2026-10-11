@@ -14,6 +14,8 @@ We host Discord bots on AMD Ryzen 9 9950X machines in Singapore, running 24/7. O
 - There is no setup fee. Longer terms are cheaper: 5% off for 3 months, 10% off for 6 months, 15% off for 12 months, the same as game servers.
 - At checkout pick the bot type: **Python Bot**, **NodeJS Bot**, **Red Bot**, **Drako Bot** (needs your own licence) or **Lavalink**.
 - Your bot runs in the game panel (panel.atbphosting.com) with its own console, files and SFTP, like a game server. Upload your files, set the start file on the Startup tab, put your bot token in your own config, and start the server.
+- If your bot or web app listens on a port (a dashboard, a webhook, Lavalink), use the port shown on the **Network** tab. Other ports are not reachable.
+- Python bots that read a `.env` file need `python-dotenv` in `requirements.txt`, and the `.env` file uploaded next to your start file.
 - To run a bot and a Lavalink node, or several bots, on one plan, add server splits at checkout or later (₱20 per split per month). More backup slots are available as **Extra Backups**.
 - Never paste your bot token in a public channel or ticket. If it leaks, reset it in the Discord Developer Portal.
 
@@ -31,5 +33,7 @@ We host Discord bots on AMD Ryzen 9 9950X machines in Singapore, running 24/7. O
 - Can I host a Python bot?
 - Can I host Lavalink or Red bot?
 - Can I run more than one bot on one plan?
+- Which port does my bot use?
+- My Python bot cannot read .env
 
 </details>

@@ -28,9 +28,13 @@ You can also click the "Change Server Type" button to change the jar, version or
 
 <Callout type="warning">
 
-Only click the "Wipe Server Files" button if you want to wipe your server files.
+Only click the "Wipe Server Files" button if you want to wipe your server files. Changing to a different egg or server type with wipe on deletes **everything**, including worlds and plugins. Download a backup first.
 
 </Callout>
+
+Pick an exact version number rather than "latest". With "latest", a later reinstall can quietly upgrade your server to a new Minecraft version that your plugins do not support yet.
+
+Changing version can also need a different Java version. If the server will not start after a change, see [Change Java Version](/running_a_server/java-version).
 
 After you have followed the steps above, you can run your server and test out your new version.
 
@@ -45,4 +49,4 @@ You can periodically check the **Settings** tab, and you will see a **New build 
 
 ## After a new Minecraft release
 
-Right after a new Minecraft release many plugins and mods are not ready. Stay on the previous version until your plugins say they support the new one, and make a backup first. Run `ver` in the console to see which version you are on. Going back is only safe with a backup made before the upgrade: a world that was already opened on the newer version may not load on the older one.
+Right after a new Minecraft release many plugins and mods are not ready. Stay on the previous version until your plugins say they support the new one, and make a backup first. Run `ver` in the console to see which version you are on. Going back is only safe with a backup made before the upgrade: a world that was already opened on the newer version may not load on the older one. Never set a played world back to an older version to "undo" an update; restore the backup from before the upgrade instead.

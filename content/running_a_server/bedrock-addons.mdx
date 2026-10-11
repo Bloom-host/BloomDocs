@@ -1,31 +1,70 @@
 ---
 title: "Install Bedrock Add-ons"
-description: "Add behavior packs and resource packs to a Bedrock server."
+description: "Add behavior packs and resource packs to a Bedrock server, with a copy-paste JSON template."
 ---
+
+import { Callout } from 'nextra/components'
 
 Add-ons (behavior packs) and texture packs (resource packs) change how Minecraft Bedrock plays and looks. Players download resource packs automatically when they join.
 
+<Callout type="info">
+
+Make a backup in the **Backups** tab before adding packs. A broken pack can stop the world from loading.
+
+</Callout>
+
 ## If your panel has an add-on installer
 
-If your server page has a Bedrock add-on or content installer, use it, pick the add-on and restart. If you do not see one, use the manual method below.
+If your server page has a Bedrock add-on installer, use it: search for the add-on or upload your own pack, install it and restart. Give uploaded files simple names without spaces or symbols. If you do not see an installer, or a pack will not load, use the manual method below.
 
 ## Manual method
 
-1. Download the `.mcpack` or `.mcaddon` files from a trusted site.
-2. Open them on a Bedrock device so they import into the game.
-3. Create a new local world, turn on the packs under **Resource Packs** and **Behavior Packs**, then save and exit.
-4. Find the world folder on your device (in the `com.mojang` folder, under `minecraftWorlds`; newest date is yours).
-5. Stop the server in the panel.
-6. Upload these files from that world folder into your server's world folder (see [File Manager](/using_the_panel/file-manager-controls) or [SFTP](/using_the_panel/sftp)):
-   - `world_behavior_packs.json`
-   - `world_resource_packs.json`
-   - `world_behavior_pack_history.json`
-   - `world_resource_pack_history.json`
-7. Upload the pack folders from `behavior_packs` and `resource_packs` into folders with the same names in the main server directory, not inside the world.
-8. Start the server and join to check that the packs load.
+### 1. Put each pack in its own folder
+
+1. A `.mcpack` or `.mcaddon` file is a zip. Rename it to `.zip` on your computer and extract it. A `.mcaddon` usually holds two packs: one behavior pack and one resource pack.
+2. Stop the server in the panel.
+3. Upload each pack as its own folder (see [File Manager](/using_the_panel/file-manager-controls) or [SFTP](/using_the_panel/sftp)):
+   - behavior packs go in `behavior_packs/` in the main server folder
+   - resource packs go in `resource_packs/` in the main server folder
+4. Open each pack folder and check that `manifest.json` is **directly inside it**, not one folder deeper. `behavior_packs/MyPack/manifest.json` is right; `behavior_packs/MyPack/MyPack/manifest.json` will not load.
+
+### 2. Tell the world to use the packs
+
+1. Open each pack's `manifest.json`. In the **`header`** section, copy the `uuid` and the `version`. Use the header ones only, not the uuids under `modules`.
+2. Find your world folder: open `server.properties` and look at `level-name`. The world is `worlds/<level-name>/`. Keep whatever name is already there; changing it makes the server start a new empty world.
+3. In that world folder, create or edit `world_behavior_packs.json` for behavior packs and `world_resource_packs.json` for resource packs. Use this template, one entry per pack:
+
+```json
+[
+  {
+    "pack_id": "paste-the-header-uuid-here",
+    "version": [1, 0, 0]
+  },
+  {
+    "pack_id": "paste-the-second-pack-uuid-here",
+    "version": [1, 2, 3]
+  }
+]
+```
+
+4. Check the JSON before saving: every `{ }` entry except the last one ends with a comma, and there is **no comma after the last entry**. One stray comma and the server ignores the whole file.
+5. Start the server and join to check that the packs load.
+
+### Add-ons that need experiments
+
+Some add-ons need experimental features (for example Holiday Creator Features or Beta APIs). Stop the server first, then turn them on from the world's settings in the panel's config editor if your panel has one, or by importing the world from a single-player copy where the experiments are already on. Turning experiments on for a world cannot be undone, so back up first.
+
+## Using a world from your own device
+
+You can also set the packs up in single player and upload the world:
+
+1. Import the packs into Minecraft on your device, create a world and turn them on under **Resource Packs** and **Behavior Packs**.
+2. Find the world on your device (the `com.mojang` folder, under `minecraftWorlds`; the newest date is yours).
+3. Stop the server and upload that world folder's contents, including `world_behavior_packs.json` and `world_resource_packs.json`, into your server's world folder. Upload the pack folders into `behavior_packs/` and `resource_packs/` in the main server folder.
 
 ## Troubleshooting
 
-- Make sure the server was fully stopped before uploading.
-- Check the JSON files are in the active world folder.
-- Make sure the pack versions match your server version.
+- **Packs do not load**: check the folder depth of `manifest.json`, that the uuid came from the `header`, and that the JSON has no trailing comma.
+- **Players stuck on the loading screen** after adding packs: remove packs one at a time to find the one causing it.
+- **World reset after uploading**: the world folder name did not match `level-name`. Rename one so they match.
+- **Pack made for a newer version**: some add-ons need the latest Bedrock server version. Update the server, see [Updating](/running_a_server/updating).

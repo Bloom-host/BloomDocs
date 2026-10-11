@@ -1,31 +1,50 @@
 ---
 title: "Troubleshooting Lag"
-description: "Work out whether lag is the server or your connection."
+description: "Work out whether lag is the server (TPS), your connection (ping) or your device (FPS), and what to send support."
 ---
 
-Lag comes from the server running slowly or from the network between you and it. Find out which before changing anything.
+"Lag" can mean three different things, and each has a different fix. Find out which one you have before changing anything.
+
+| What players see | Type | Where to look |
+|---|---|---|
+| Blocks reappear, mobs freeze or teleport, everyone lags at once | Server lag (low TPS) | Step 1 and 2a |
+| Rubber-banding, high ping number, only some players affected | Network lag (ping) | Step 2b |
+| Choppy picture, low frame rate, only on one device | Your device (FPS) | Lower your render distance and graphics settings |
 
 ## Step 1: Check server speed
 
-1. Install Spark if it is not there (Paper includes it). See [Spark](/running_a_server/spark).
-2. Run `spark tps`.
-3. TPS of 20 with short tick times (under 50 ms) means the server is healthy.
+1. Install Spark if it is not there (Paper and Leaf include it). See [Spark](/running_a_server/spark).
+2. While players are online and the lag is happening, run `spark tps`.
+3. TPS of 20 with tick times (MSPT) under 50 ms means the server is healthy, so the lag is network or device.
+
+The panel's RAM graph often looks full. That is normal: Java reserves memory up front and does not hand it back. Run `spark healthreport --memory` to see the real use before deciding you need more RAM. See [Understanding RAM usage](/running_a_server/troubleshooting/understand-ram-usage).
 
 ## Step 2a: Server is slow
 
-1. Run `spark profiler start --timeout 300`, wait for it to finish, and open the link.
-2. Look at which tasks use the most time per tick.
-3. Common fixes:
-   - Lower `simulation-distance` in `server.properties`.
-   - Lower mob caps, see [Mob Spawn Limits](/running_a_server/mob-spawn-limits).
-   - Remove or replace heavy plugins.
-4. For more, see [Optimization](/running_a_server/optimization).
+1. Run `spark profiler start --timeout 120` while the lag is happening and players are online, wait for it to finish, and open the link. For short spikes, use `spark profiler start --only-ticks-over 100 --timeout 120`.
+2. Look at which plugins or tasks use the most time per tick.
+3. The usual causes and fixes:
+   - **Unexplored world**: pre-generate with [Chunky](/plugins_and_modifications/multiplatform/chunky-multi), with nobody online.
+   - **Distances too high**: view distance 6 to 8 and simulation distance 3 to 4 suit most servers. See [Common server.properties settings](/running_a_server/common-server-properties).
+   - **Too many entities**: big mob and villager farms, item drops and hopper chains. See [Mob Spawn Limits](/running_a_server/mob-spawn-limits).
+   - **Heavy or broken plugins**: large Skript scripts, plugins spamming the console, outdated or leaked plugins. Update or remove them.
+4. For more, see [Optimization](/running_a_server/optimization) and [Server optimisation (free)](/general/server-optimization).
+
+Plans have a set amount of CPU. A server that keeps running at its CPU limit will lag at busy times however it is tuned; the Spark report shows this, and staff can tell you if a bigger plan would help.
 
 ## Step 2b: Server is fine but you still lag
 
-This points to the network.
+This points to the network between the player and the server.
 
-- Run an MTR test, see [Diagnosing Ping Issues](/extras/ping-issues).
-- Restart your router, turn off downloads and try a different connection.
+1. Run `spark ping` to see every player's ping. If only one player is high, the problem is on their side.
+2. Run an MTR test from the lagging player's computer to the server IP (no port, no VPN) for 2 to 5 minutes. See [Diagnosing ping issues](/extras/ping-issues).
+3. Try a different DNS (for example `1.1.1.1`), mobile data instead of Wi-Fi, or a VPN for a few minutes. If the lag goes away, the route from that player's internet provider is the problem.
+4. Restart the router and stop downloads or streams on the same connection.
 
-Need help? Share your Spark link in a [support ticket](/general/getting-support).
+## What to send support
+
+Open a [support ticket](/general/getting-support) with:
+
+- for server lag: your Spark profiler link, taken while the lag happened
+- for ping: a screenshot of the ping or lag, the exact time it happened, and the MTR result
+- if a player suddenly cannot connect at all: their public IPv4 address (search "what is my IP"), so staff can check whether the anti-DDoS filter blocked it

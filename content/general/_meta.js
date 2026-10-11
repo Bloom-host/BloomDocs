@@ -1,5 +1,6 @@
 export default {
   "getting-support": "How to get support",
+  "first-hour": "Your first hour on a new server",
   "choosing-a-plan": "Which plan and size do I need?",
   "custom-domains-and-subdomains": "Custom domains and free subdomains",
   "domains": "Buying, transferring and managing domains",
