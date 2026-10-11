@@ -14,6 +14,7 @@ The [Spark Analyzer](https://atbphosting.com/tools/spark-analyzer/) reads a spar
 Two other kinds of profile help with specific problems:
 
 - **Ping spikes, or a fork that ticks worlds on separate threads (Leaf and similar).** Use `/spark profiler start --thread * --timeout 300` so the network (Netty) and world threads are included.
+- **Folia or Canvas.** These have no main thread: each area of the world (a region) ticks on one of the region threads. On Canvas, plain `/spark profiler start --timeout 300` already records the region threads. On Folia, use `/spark profiler start --thread * --timeout 300`.
 - **Lag spikes from garbage collection.** Use `/spark profiler start --alloc --timeout 300`. This records what creates garbage instead of what uses time.
 
 The profile is read in your browser and is not uploaded to ATBP Hosting. The page only reads spark's own data format: other files are refused, files over 200 MB are refused, and a profile that takes longer than 60 seconds to read is stopped. Nothing in a profile is ever run or shown as a link.
@@ -24,11 +25,12 @@ The profile is read in your browser and is not uploaded to ATBP Hosting. The pag
 - **Where tick time goes.** Entities, block entities (hoppers, furnaces, spawners), chunk loading, mob spawning, redstone, random ticks, player packets, plugin events and scheduler tasks, world saving and garbage collection.
 - **Known hotspots.** Dropped items, XP orbs, villagers, pathfinding, collisions, hoppers, pistons, explosions, armor stands, minecarts, map items and more. Each one comes with the settings that reduce it and the value your server uses now.
 - **Plugins.** How much main thread time each plugin uses and from which part of the plugin, plugins doing file, database or network work on the main thread, plugins that are not needed on Paper or Purpur, and plugins that do the same job twice (for example two anticheats).
+- **Folia and Canvas.** How busy the region threads are, whether `threaded-regions.threads` fits your CPU (all server threads together should stay under 80% of the CPU threads), the region scheduler (Canvas recommends `AFFINITY`), and the regions with the most entities. Canvas reports the average TPS of all regions, so one laggy area can hide behind a good number; the analyzer gives you a `--region` command to profile the busiest area on its own. Spark has no tick time (MSPT) on Folia, so that number shows as a dash.
 - **Waiting.** Time the main thread spent waiting on locks, futures or chunk loads during a tick, and which plugin caused it.
 - **Java and memory.** Java version for your Minecraft version, heap size, garbage collector, [Aikar's flags](https://docs.papermc.io/paper/aikars-flags), GC pause length and frequency, full GCs and how full the heap stays after a collection.
 - **Ping and network threads.** Player ping and whether it spikes. With `--thread *`, how busy each network thread is and what it spends time on: compressing, encrypting or encoding packets, or plugins that listen to packets (ProtocolLib, packetevents, ViaVersion and similar). A network thread near 100% busy delays packets for the players on it.
 - **Garbage (allocation profiles).** How much garbage the server creates per second, which plugins and which code create it, and how that lines up with GC pauses.
-- **Server settings.** `server.properties`, `bukkit.yml`, `spigot.yml`, Paper, Purpur and Pufferfish settings, including per-world overrides. Suggestions are shown only when your current value is on the costly side, and settings that change gameplay are marked.
+- **Server settings.** `server.properties`, `bukkit.yml`, `spigot.yml`, Paper, Purpur and Pufferfish settings, Leaf (`config/leaf-global.yml`) and Gale (`config/gale-global.yml`, `config/gale-world-defaults.yml`) settings on LeafMC servers, and Canvas settings, including per-world overrides. On Leaf it also warns about experimental options that can lose data, such as async player data saving. Suggestions are shown only when your current value is on the costly side, and settings that change gameplay are marked.
 - **World.** Entity counts, the busiest chunks with block coordinates you can teleport to, game rules such as `randomTickSpeed` and `maxEntityCramming`, and datapacks.
 - **Version.** Old Minecraft versions, Spigot or CraftBukkit instead of Paper, and abandoned forks.
 
@@ -41,6 +43,12 @@ Results are split into four tabs:
 - **What's lagging.** Where each tick's time goes, the plugins and entities that use the most, the network threads (with `--thread *`), what creates garbage (with `--alloc`), and the detailed findings.
 - **Server info.** Java version, memory, CPU, garbage collection and startup flags.
 
-The **Copy as text** button copies the whole report so you can paste it into a [Discord](https://discord.atbphosting.com) ticket.
+The **Copy for Claude** button copies the whole report together with your server's details (software, game port, CPU and memory) and the steps our support team follows. Paste it into a [Discord](https://discord.atbphosting.com) ticket and our team (helped by our Claude support agent) can apply the fixes for you. Before changing anything we:
+
+- ask for your OK, because optimisation is free and the 3-day full refund no longer applies once we have optimised your server (see the [refund policy](/billing/refund-policy));
+- copy every file we will change into an `atbp-backups` folder inside your server folder, so you can put the old settings back at any time;
+- change only the listed settings, and skip the ones marked **players notice** unless you agree to them.
+
+It never copies passwords or secrets from your settings.
 
 To change the settings it suggests, see [Server Optimization](/running_a_server/optimization) and [Mob Spawn Limits](/running_a_server/mob-spawn-limits). For help with a profile, open a ticket in our [Discord](https://discord.atbphosting.com) with the spark link.
