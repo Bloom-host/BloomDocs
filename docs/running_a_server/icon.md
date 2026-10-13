@@ -12,6 +12,10 @@ keywords:
   - server-icon
 ---
 
+:::tip Alternative
+The [BestMCServerList server icon maker](https://bestmcserverlist.net/tools/server-icon) builds the icon from templates, letters or your own image and downloads a ready 64x64 `server-icon.png`. If you use it, skip the genfavicon steps: open “file management” → “file explorer” on your server (see below step 6) and continue with step 7.
+:::
+
 1. Grab the picture you want to use and head over to http://www.genfavicon.com/
 
 
