@@ -25,7 +25,7 @@ Plan (Player Analytics) records server activity such as player counts and playti
 
 - [Installing Plugins](/installing-plugins)
 - [Installing Mods](/mods-install)
-- [Creating a Reverse Proxy](/ports-and-proxies)
+- [Adding a Website Connection](/ports-and-connections#websites)
 
 ---
 
@@ -41,8 +41,8 @@ Plan (Player Analytics) records server activity such as player counts and playti
 
 ### Configure the Web Server
 
-1. In the DuckPanel File Manager, open Plan's generated `config.yml`. Use port `8804` when creating Plan's allocation. If it is unavailable, choose a different port and update the configuration shown below to match.
-2. Update the following settings. Replace `plan.example.com` with the domain or subdomain you configured in the reverse proxy guide.
+1. In the DuckPanel File Manager, open Plan's generated `config.yml`. Use port `8804` when [opening Plan's port](/ports-and-connections#opening-a-port). If it is unavailable, choose a different port and update the configuration shown below to match.
+2. Update the following settings. Replace `plan.example.com` with the domain or subdomain of its [website connection](/ports-and-connections#websites).
 
 ```yaml
 Webserver:

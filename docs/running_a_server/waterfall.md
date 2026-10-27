@@ -56,7 +56,7 @@ After you've created the waterfall server in your server split, you'll be able t
 
 ## Configure Waterfall
 
-*Before you set up this section, go to each of your backend servers and click the "Make Internal" button under the Ports and Proxies tab.*
+*Before you set up this section, go to each of your backend servers and click the "Make Internal" button on the Ports & Connections tab.*
 
 If you would like to read more information on our internal servers please see [here](/internal-servers).
 

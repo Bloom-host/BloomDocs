@@ -65,7 +65,7 @@ The first section of the config file you need to edit is the `[servers]` section
 
 :::note
 
-Before you set up this section, you're going to want to make sure all your backend servers are internal. You can make your backend servers internal by going to the Ports and Proxies tab under the specific server and clicking "Make Internal", that will remove all public access to your backend servers which is what we want. When a server is internal they are only accessible via other servers in the same split. For more information, see our [internal servers guide](/internal-servers).
+Before you set up this section, you're going to want to make sure all your backend servers are internal. You can make your backend servers internal by going to the Ports & Connections tab under the specific server and clicking "Make Internal", that will remove all public access to your backend servers which is what we want. When a server is internal they are only accessible via other servers in the same split. For more information, see our [internal servers guide](/internal-servers).
 
 :::
 
@@ -83,7 +83,7 @@ try = [
 ]
 ```
 
-Make sure to replace the serverids with your own server's ids. You can get this from the Ports and Proxies tab after making a server internal, clicking your serverid in the console tab, or under the settings tab. All backend servers use port 25565 so make sure to specify 25565 as shown above.
+Make sure to replace the serverids with your own server's ids. You can get this from the Ports & Connections tab after making a server internal, clicking your serverid in the console tab, or under the settings tab. All backend servers use port 25565 so make sure to specify 25565 as shown above.
 
 The `try` section you see in the above example is extremely important, essentially this is the order of servers in which Velocity will try to connect incoming players to. If you have it set up like `try = ["survival", "creative", "minigames"]` then players will connect to `survival` by default, then `creative` if `survival` is down, and then `minigames` if the first two are down. Set up your preferred order and then we will continue our editing.
 

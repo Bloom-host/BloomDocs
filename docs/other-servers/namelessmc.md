@@ -37,9 +37,9 @@ After deleting this file, you can upload the zipped folder you just downloaded t
 
 Right-click your newly uploaded zip, and `Unarchive` it. This will generate a bunch of new files. After this is completed, feel free to delete the zipped folder.
 
-To use your website, you will need a domain, preferably using [Bloom's Reverse Proxy](/ports-and-proxies)
+To use your website, you will need a domain, preferably by adding a [website connection](/ports-and-connections#websites) to the server's port, with a free subdomain or your own domain.
 
-![rev-proxy-img](https://i.imgur.com/ZUxAW6g.png)
+![Port with a website connection for NamelessMC](/other-servers/namelessmc/1.png)
 
 NamelessMC is installed, and you are ready to set it up! Navigate to your domain to begin setting up your website.
 

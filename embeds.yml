@@ -713,10 +713,11 @@ revproxy:
   aliases:
     - 'reverseproxy'
     - 'rp'
-  title: '📜 Bloom Docs - Reverse-Proxy'
+  title: '📜 Bloom Docs - Ports & Connections'
   description: >
-    Check out our comprehensive guide on reverse-proxying web
-    applications [here](https://docs.bloom.host/ports-and-proxies/).
+    Check out our comprehensive guide on ports, free subdomains,
+    your own domains and reverse-proxying web applications
+    [here](https://docs.bloom.host/ports-and-connections).
   thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/tY6IAF.png'
   image: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/ZIT9nf.png'
 

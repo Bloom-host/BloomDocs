@@ -70,11 +70,11 @@ In order to run Simple Voice Chat on your server, you need one of the following 
 ### Common
 
 1. Make sure you followed the steps for [Fabric](#fabric), [Forge](#forge), [Bukkit/Spigot/Paper](#bukkitspigotpaper) or [Quilt](#quilt)
-2. Open the **Ports & Proxies** section in your dashboard
+2. Open the **Ports & Connections** tab in your dashboard
 3. Click on **OPEN PORT**
-![DuckPanel Ports and Proxies tab with the Open Port button](/plugins_and_modifications/simple_voice_chat/3.png)
+![DuckPanel Ports & Connections tab with the Open Port button](/plugins_and_modifications/simple_voice_chat/3.png)
 4. Enter the number `24454` in the port field and click on **OPEN PORT**
-![Open Port dialog configured for Simple Voice Chat port 24454](/plugins_and_modifications/simple_voice_chat/4.png)
+![Open a new port modal with Simple Voice Chat port 24454](/plugins_and_modifications/simple_voice_chat/4.png)
 **NOTE:** Please use ports within the range `24454` - `24459`, otherwise voicechat might be cut off during attacks. It is strongly recommended that you do not use port `25565` for voicechat. 
 
  
