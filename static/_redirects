@@ -3,3 +3,23 @@
 # links keep resolving instead of 404ing.
 /assets/images/1-e4119d5e1e7531ff74cf6567d46828ba.png  /java-version  301
 /assets/images/2-aedb1ee786c18940ccb6f4ed4273f823.png  /split-server  301
+
+# Images of the old Ports & Proxies page, and the hashed copies of images that
+# were replaced, sent to the closest current image so hotlinks keep resolving.
+/using_the_panel/ports_and_proxies/1.png  /using_the_panel/ports-and-connections/cloudflare_cname.png  301
+/using_the_panel/ports_and_proxies/2.png  /using_the_panel/ports-and-connections/cloudflare_cname.png  301
+/using_the_panel/ports_and_proxies/3.png  /using_the_panel/ports-and-connections/port_row.png  301
+/using_the_panel/ports_and_proxies/4.png  /using_the_panel/ports-and-connections/cloudflare_cname.png  301
+/using_the_panel/ports_and_proxies/5.png  /using_the_panel/ports-and-connections/overview.png  301
+/assets/images/1-b8adc4ff5a3105ca6ee5c39cf2d2030e.png  /using_the_panel/ports-and-connections/cloudflare_cname.png  301
+/assets/images/2-787592bc386c7582d99e7103a646b9cd.png  /using_the_panel/ports-and-connections/cloudflare_cname.png  301
+/assets/images/3-6b539bb590c8f606ab22cbcf5afe82d6.png  /using_the_panel/ports-and-connections/port_row.png  301
+/assets/images/2-c742ed35a200ba623c89dabd4fcc6cba.png  /other-servers/ARK/2.png  301
+/assets/images/1-788f906c6e47c7d0ddc011e4ce73eb0d.png  /plugins_and_modifications/plugins/votifier/1.png  301
+/assets/images/3-aaf5c2403333ede44a3b360ff46004a2.png  /plugins_and_modifications/simple_voice_chat/3.png  301
+/assets/images/1-1219e825fddf665f5068da7982269350.PNG  /running_a_server/internal_servers/1.PNG  301
+/assets/images/3-f05bff5e18651336fe158210bee2c978.PNG  /running_a_server/internal_servers/3.PNG  301
+
+# Renamed docs pages. Keep the old slugs working for bookmarks and external links.
+/ports-and-proxies  /ports-and-connections  301
+/ports-and-proxies/  /ports-and-connections  301

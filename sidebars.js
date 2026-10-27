@@ -56,7 +56,6 @@ module.exports = {
                 'using_the_panel/backups/backups',
                 'using_the_panel/users',
                 'using_the_panel/databases',
-                'using_the_panel/ports-and-proxies',
                 'using_the_panel/ports-and-connections/ports-and-connections',
                 'using_the_panel/sftp',
                 'using_the_panel/split-server',
