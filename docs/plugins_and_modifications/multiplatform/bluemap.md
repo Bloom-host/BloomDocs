@@ -56,15 +56,15 @@ You can do that by opening it and modifying the following line:
 port: 8100
 ```
 
-After you have decided on a port, proceed to the Ports & Proxies tab on the panel. Here you will see all your open ports, click `Create Allocation` on the bottom right to open a new one.
-Enter the port number that is specified in `webserver.conf` and save.
+After you have decided on a port, proceed to the Ports & Connections tab on the panel. Here you will see all your open ports, click `Open Port` on the bottom right to open a new one.
+Enter the port number that is specified in `webserver.conf` and press `Open Port`.
 
 :::note
 
-Your server needs to be restarted after the port has been allocated.
+Your server needs to be restarted after the port has been opened.
 
 :::
 
-You can also create a Proxy for your BlueMap link, to remove the need to type `:8100` after your IP address: /ports-and-proxies/
+You can also add a website connection for your BlueMap, so it opens at a domain over HTTPS without typing `:8100` after your IP address. See our [Ports & Connections guide](/ports-and-connections#websites).
 
 For more information, the download link, their support Discord, the wiki and a demo! you can go to the [BlueMap website](https://bluemap.bluecolored.de/)

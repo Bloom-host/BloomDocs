@@ -42,9 +42,9 @@ Now enter the database information into this section remembering to remove the `
      userid: u12323402
      password:  123456789
 ```
-Now go into the minecraft panel, click the "Ports & Proxies" tab, and create a new port. You will be able to choose a port that you want to use and enter the port number you just opened into the config file.
+Now go into the minecraft panel, click the "Ports & Connections" tab, and open a new port. You will be able to choose a port that you want to use and enter the port number you just opened into the config file.
 
-You can also add your Dynmap IP to Bloom's reverse proxy (on the sidebar of the panel), changing the website link from `123.456.67.2:8123` to `subdomain.yourdomain.com`. Please read our [Ports and Proxies guide](/ports-and-proxies/).
+You can also add a website connection for Dynmap on the same tab, changing the website link from `123.456.67.2:8123` to `https://map.yourdomain.com`. Please read our [Ports & Connections guide](/ports-and-connections#websites).
 
 ---
 

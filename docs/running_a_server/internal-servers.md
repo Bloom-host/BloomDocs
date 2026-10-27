@@ -11,7 +11,7 @@ keywords:
   - BungeeCord
   - Proxy network
   - Backend server
-  - Ports and Proxies
+  - Ports & Connections
 ---
 :::important
 
@@ -27,11 +27,11 @@ Previously we used to have private IPs (172.18.0.1) that were shared by everyone
 
 Now we have fully internal servers that are only accessible via servers on the same split. They are accessible via your servers full serverid and port 25565.
 
-To make your server internal you can click the "Make Internal" button on the Ports and Proxies tab. Keep in mind this will wipe all your public ports so keep them in mind, if you forget which ports you're using and accidentally wipe them you can see which ones were deleted in your audit log.
+To make your server internal you can click the "Make Internal" button on the [Ports & Connections](/ports-and-connections#internal-servers) tab. Keep in mind this will close all your public ports and remove their connections, so keep them in mind. If you forget which ports you were using, you can see which ones were deleted in the 'Activity Logs' tab.
 
-![Ports and Proxies tab with the Make Internal button](/running_a_server/internal_servers/1.PNG)
+![Ports & Connections tab with the Make Internal button](/running_a_server/internal_servers/1.PNG)
 
-The full serverid can be found under the Ports and Proxies tab when you make your server internal, but you can also find it by clicking your serverid in the console tab, or under the settings tab.
+The full serverid can be found on the Ports & Connections tab when you make your server internal, but you can also find it by clicking your serverid in the console tab, or under the settings tab.
 
 ________
 

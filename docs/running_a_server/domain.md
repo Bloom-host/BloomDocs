@@ -18,6 +18,12 @@ Hello there Bloomers! 👋
 
 In this guide, we will go over how to make your server go from lots of numbers (`148.251.209.38:25565`) to a fancy domain name such as `play.example.com`!
 
+:::tip
+The [Ports & Connections](/ports-and-connections) tab can do most of this for you. It can give your server a [free subdomain](/ports-and-connections#free-subdomains-for-players) such as `yourserver.minecraft.best` with no DNS setup at all, and for [your own domain](/ports-and-connections#your-own-domain-for-players) it shows the exact records to add and checks them for you.
+
+For a Bedrock server, connect your domain through our TLS proxy instead, see [NetherNet](/nethernet#connecting-with-a-domain).
+:::
+
 First, go to the [game panel](https://mc.bloom.host) and select your server. On the main page, above your console you will be able to find your IP. All Performance and Performance+ bloom servers come with a dedicated IP, so you only need the IP and not any of the ports (`25565`), unless you have the essentials plan.
 
 ![Bloom.host Pointing A Domain](/running_a_server/domain/1.png)

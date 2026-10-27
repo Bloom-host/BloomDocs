@@ -22,7 +22,7 @@ Open Steam and click the 'View' tab in the top left corner. There, select 'Game 
 
 Next, press the '+' button at the bottom.
 
-Open your server in the [DuckPanel](https://mc.bloom.host/) and ensure you are on the 'Ports & Proxies' tab.
+Open your server in the [DuckPanel](https://mc.bloom.host/) and ensure you are on the 'Ports & Connections' tab.
 
 Find the entry that says 'Query Port' and copy the IP and port into the Steam server list.
 

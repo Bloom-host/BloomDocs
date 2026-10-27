@@ -30,7 +30,7 @@ If you want to connect multiple servers to your Grafana dashboard you can do so 
 Download the plugin from [GitHub](https://github.com/Cubxity/UnifiedMetrics/releases) and install it in the `plugins` folder.
 For assistance on how to install plugins, please refer to the [plugin installation page](/installing-plugins).
 
-Now you're gonna want to open up the default port for UnifiedMetrics (9100) under the Ports & Proxies tab.
+Now you're gonna want to open up the default port for UnifiedMetrics (9100) on the Ports & Connections tab.
 
 We're now done with UnifiedMetrics, onto Prometheus :)
 
@@ -53,11 +53,11 @@ Time to split a Grafana instance using the server splitter with 150MB of RAM and
 
 Once the server is created, change it to the default Grafana port (3000) under the Server Split tab.
 
-At this point you may want to set up a reverse proxy for Grafana so it gets HTTPS and so users don't need to specify a port.
+At this point you may want to add a website connection for Grafana so it gets HTTPS and so users don't need to specify a port.
 
-Simply follow this guide [here](/ports-and-proxies).
+Simply follow this guide [here](/ports-and-connections#websites).
 
-Now, head to your Grafana's IP & Port (or subdomain if you set up the reverse proxy) and log in.
+Now, head to your Grafana's IP & Port (or the domain of its website connection) and log in.
 
 Default credentials
 User - admin
