@@ -58,8 +58,6 @@ whitelist list
 
 Check the reply after each addition and confirm that `whitelist list` contains everyone you intended to add. These commands keep existing entries. Enable the whitelist with `whitelist on` if it is not already enabled.
 
-For a longer roster, the optional [ServerBuddy whitelist command generator](https://serverbuddy.net/tools/minecraft-whitelist-command-generator) removes duplicate names and flags invalid username syntax. Review the roster, copy only the `whitelist add` lines, and remove their leading `/` before running them in the console. Name syntax checks do not confirm that an account exists; check the server's replies.
-
 ### Through The File
 Adding someone to Whitelist through the file is a bit more complicated:
 * Step 1: Run `whitelist on` in the console if the whitelist is not already enabled. In-game, use `/whitelist on`.
