@@ -73,9 +73,9 @@ you which one. Make sure to use that port in your plugin's configuration.
 New and closed ports only take effect once the server restarts.
 :::
 
-If your server is running, the panel asks whether you would like to restart it now:
+If your server is running, a notice above your ports reminds you to restart it, however many changes you make. Press **Restart Now** to restart it from there, or **Later** to put the notice away:
 
-![Restart to apply your changes modal](restart_modal.png)
+![Notice to restart the server to apply port changes](restart_notice.png)
 
 ### Managing a Port
 
