@@ -93,11 +93,9 @@ bedrock:
   webrtc-port: 0
   transport: nethernet
   signaling:
-    mode: builtin
-    builtin:
-      # The server's public IPv4 so the clients
-      # know what to connect to
-      advertise-addresses: ['<your-server-public-ip>']
+    # The server's public IPv4 so the clients
+    # know what to connect to
+    advertise-addresses: ['<your-server-public-ip>']
 ```
 
 Replace `<your-server-public-ip>` with your server's IP address, which the [Ports & Connections](/ports-and-connections) tab shows next to each port.
@@ -116,6 +114,8 @@ Our TLS proxy adds HTTPS in front of your server's signaling port. To use it, ad
 
 - **Bedrock - Vanilla**: the primary port (`19132` above)
 - **GeyserMC**: Geyser's port, such as `19132`
+
+With GeyserMC, Bedrock players need a domain or subdomain of their own. The one your Java players join with points straight at your server, so it can't also go through the TLS proxy.
 
 ### Using a Free Subdomain
 
@@ -143,6 +143,24 @@ Players can then join using the subdomain and that port, for example `yourserver
 Players can then join using your domain and the port, for example `play.yourserver.tld` with port `19132`.
 
 For more details, see our [Ports & Connections guide](/ports-and-connections#players-through-the-tls-proxy).
+
+### Players' Real IPs With GeyserMC
+
+Through the TLS proxy, Geyser sees our proxy's IP address as the address of every Bedrock player, so an antibot or a per-IP limit treats them all as one player. The proxy passes each player's real IP on, and Geyser reads it once it trusts the proxy:
+
+1. Update Geyser to its latest build. Older builds don't have this setting.
+2. Add our proxy's IP address to Geyser's `config.yml`:
+
+   ```yaml title="config.yml"
+   advanced:
+     bedrock:
+       signaling-trusted-proxies:
+         - <proxy-ip>
+   ```
+
+3. Restart the server.
+
+Replace `<proxy-ip>` with the IP address your Bedrock players show up with before this change, which is our proxy's. Only add our proxy here, since Geyser takes any address in this list at its word about which IP a player has.
 
 ---
 
