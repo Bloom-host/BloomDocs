@@ -25,14 +25,6 @@ module.exports = {
             {name: 'twitter:image', content: 'https://bloom.host/favicon/favicon-og.png'}
         ],
 
-        algolia: {
-            apiKey: '9d206eee5e6487183bbd02153df1117c',
-            appId: '0BDNFV7PXK',
-            indexName: 'BloomDocs',
-            contextualSearch: true,
-            searchParameters: {},
-        },
-
         zoom: {
             selector: '.markdown :not(em) > img',
             background: {
@@ -69,6 +61,10 @@ module.exports = {
             copyright: `Copyright © ${new Date().getFullYear()} Bloom.host.`,
         },
     },
+
+    themes: [
+        ['@easyops-cn/docusaurus-search-local', {hashed: true, indexBlog: false, docsRouteBasePath: '/', highlightSearchTermsOnTargetPage: true}],
+    ],
 
     presets: [
         [
