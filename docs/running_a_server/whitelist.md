@@ -39,22 +39,34 @@ To start off here's a list of all the sub-commands under the Whitelist command:
 
 
 ### In Game
-There is only 3 steps to turn on your Whitelist in game:
+There are only 3 steps to turn on your Whitelist in game:
 * Step 1: `/whitelist on` - Turns the Whitelist on.
 * Step 2: `/whitelist add [player]` - Add someone to your Whitelist.
 * Step 3: Repeat Step #2 for all of your friends.
 
 And that's it! Whitelist is now on, and only the people on the list can join your server!
 
+### Through the console (Java)
+
+You can add a group of players without editing `whitelist.json` or looking up UUIDs. In the panel console, run each command separately, without a leading `/`. Replace the example names with the players' Java usernames:
+
+```text
+whitelist add PlayerOne
+whitelist add PlayerTwo
+whitelist list
+```
+
+Check the reply after each addition and confirm that `whitelist list` contains everyone you intended to add. These commands keep existing entries. Enable the whitelist with `whitelist on` if it is not already enabled.
+
 ### Through The File
 Adding someone to Whitelist through the file is a bit more complicated:
-* Step 1 `/whitelist on` - Just like in game this will enable Whitelist.
+* Step 1: Run `whitelist on` in the console if the whitelist is not already enabled. In-game, use `/whitelist on`.
 * Step 2: Open the `whitelist.json` file in your file editor, if you have never added someone before to the Whitelist it'll look like this:
-```yaml
+```json
 []
 ```
 Otherwise, it'll look something like this, we will use Notch as a placeholder:
-```yaml
+```json
 [
   {
     "uuid": "069a79f4-44e9-4726-a5be-fca90e38aaf5",
@@ -62,10 +74,10 @@ Otherwise, it'll look something like this, we will use Notch as a placeholder:
   }
 ]
 ```
-* Step 3: Add someone to your file, to do this you'll need their UUID, an easy way to get this is to goto a website like https://mcuuid.net/ and search their username you will get a result similar to this:
+* Step 3: To add someone to your file, you'll need their UUID. Go to a website like https://mcuuid.net/ and search their username. You will get a result similar to this:
 ![MCUUID lookup result showing a player's full UUID](/running_a_server/whitelisting/mcuuid-example.png)
 From this page, we need one thing, the user's Full UUID. Once you have that copied, you can head back to the `whitelist.json` file and add them to the file using this format:
-```yaml
+```json
 [
   {
     "uuid": "Their Full UUID",
@@ -74,7 +86,7 @@ From this page, we need one thing, the user's Full UUID. Once you have that copi
 ]
 ```
 If you plan on adding multiple users it'll look something like this:
-```yaml
+```json
 [
   {
     "uuid": "069a79f4-44e9-4726-a5be-fca90e38aaf5",
@@ -87,10 +99,10 @@ If you plan on adding multiple users it'll look something like this:
 ]
 ```
 :::note
-Notice the `,` after the `}` from the first user, you would continue adding this after each player when adding a new player!
+Keep the existing entries when adding players to the array. Separate entries with a comma after `}`, but do not put a comma after the final entry. Replacing the whole file with a one-player example would remove the other entries.
 :::
-* Step 4: The final step is to go into the console and type `/whitelist reload` this will make the saved file take effect!
-* Step 5: Ensure that the list has been updated with `/whitelist list` and check to see that all the players you added are there!
+* Step 4: Save the file, then run `whitelist reload` in the console to load the changes.
+* Step 5: Run `whitelist list` in the console and check that all the players you intended to add are there. When running these commands in-game, add the leading `/`.
 
 ---
 ## Whitelisting On Bedrock
