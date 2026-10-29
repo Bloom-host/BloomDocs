@@ -116,8 +116,8 @@ For example, warp signs can take your player to a warp you defined with `/setwar
 
 [Modrinth Resource Page](https://modrinth.com/mod/essentialsx)
 
-[EssentialsX command reference](https://essinfo.xeya.me/commands.html)
+[EssentialsX command reference](https://essentialsx.net/commands)
 
-[EssentialsX permissions reference](https://essinfo.xeya.me/permissions.html)
+[EssentialsX permissions reference](https://essentialsx.net/permissions)
 
 [Support Discord](https://discord.com/invite/h8CnPSw)

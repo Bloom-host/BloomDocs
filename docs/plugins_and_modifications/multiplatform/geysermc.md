@@ -30,9 +30,11 @@ Geyser translates network traffic so Bedrock players can join Java servers. It m
 
 If you need help installing plugins, check out our [plugin installation guide](/installing-plugins).
 
-Once installed, go to the **Ports & Proxies** page in DuckPanel. Create a new port allocation using `19132`. While it is the default, you can use any available port assigned to your server.
+Once installed, go to the **Ports & Connections** tab in DuckPanel and [open a new port](/ports-and-connections#opening-a-port) using `19132`. While it is the default, you can use any available port assigned to your server. Keep it open on both TCP and UDP.
 
-After assigning the port, update the `port:` value in Geyser's `config.yml` to match your new allocation (if not the default), then restart the server.
+After opening the port, update the `port:` value in Geyser's `config.yml` to match your new port (if not the default), then restart the server.
+
+Since Bedrock Edition 26.60, Bedrock players connect with NetherNet. See our [NetherNet guide](/nethernet#geysermc) for the Geyser settings it needs, and for [connecting with a domain](/nethernet#connecting-with-a-domain) through our TLS proxy.
 
 :::important
 Players on consoles must follow the [Geyser console connection instructions](https://wiki.geysermc.org/geyser/using-geyser-with-consoles/) as consoles do not allow joining custom servers by default.

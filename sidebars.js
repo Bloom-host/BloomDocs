@@ -56,7 +56,7 @@ module.exports = {
                 'using_the_panel/backups/backups',
                 'using_the_panel/users',
                 'using_the_panel/databases',
-                'using_the_panel/ports-and-proxies',
+                'using_the_panel/ports-and-connections/ports-and-connections',
                 'using_the_panel/sftp',
                 'using_the_panel/split-server',
                 'using_the_panel/2fa'
@@ -80,6 +80,7 @@ module.exports = {
                 'running_a_server/icon',
                 'running_a_server/motd',
                 'running_a_server/whitelist', // How to turn on whitelist for both Java and Bedrock
+                'running_a_server/nethernet', // NetherNet on supported GeyserMC and Bedrock Dedicated Server installs
                 'running_a_server/resourcepack',
                 'running_a_server/converting-worlds', // Converting worlds used on Bukkit (and forks) servers to allow for use in singleplayer/other server software
                 'running_a_server/waterfall', // [Unsupported] BungeeCord fork
@@ -244,6 +245,7 @@ module.exports = {
                         'plugins_and_modifications/plugins/prism',
                         'plugins_and_modifications/plugins/rtp',
                         'plugins_and_modifications/plugins/servernpc',
+                        'plugins_and_modifications/plugins/spyglass',
                         'plugins_and_modifications/plugins/tebex', // Minecraft server donation store integration, formerly known as BuyCraft
                         'plugins_and_modifications/plugins/topper',
                         'plugins_and_modifications/plugins/vault',

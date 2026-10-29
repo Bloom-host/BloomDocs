@@ -26,7 +26,7 @@ Squaremap is a lightweight live map viewer that displays Minecraft worlds in a t
 
 - [Installing Plugins](/installing-plugins)
 - [Installing Mods](/mods-install)
-- [Creating a Reverse Proxy](/ports-and-proxies)
+- [Adding a Website Connection](/ports-and-connections#websites)
 
 ---
 
@@ -43,7 +43,7 @@ Squaremap is a lightweight live map viewer that displays Minecraft worlds in a t
 ### Configure the Web Server
 
 1. In the DuckPanel File Manager, open Squaremap's generated `config.yml` file.
-2. Choose an available port between `8100` and `25600`. Squaremap uses `8080` by default, which is outside DuckPanel's allocation range; the example below uses `8100`.
+2. Choose an available port between `8100` and `25600`. Squaremap uses `8080` by default, which is outside the range of ports DuckPanel can open; the example below uses `8100`.
 3. Update the web server settings, leaving the internal web server enabled and `bind` set to `0.0.0.0`:
 
 ```yaml
@@ -55,14 +55,14 @@ settings:
 ```
 
 4. Save the file.
-5. Follow the [reverse proxy guide](/ports-and-proxies) to connect a domain or subdomain to Squaremap. When creating the allocation, use the same port you set in `config.yml`.
-6. Restart the server after creating the allocation so the port and configuration changes take effect.
+5. [Open the port](/ports-and-connections#opening-a-port) you set in `config.yml` on the Ports & Connections tab, then [add a website connection](/ports-and-connections#websites) to it to connect a domain or subdomain to Squaremap.
+6. Restart the server after opening the port so the port and configuration changes take effect.
 
 ---
 
 ## Verify the Setup
 
-1. Open `https://map.example.com` in your browser, replacing the example address with the domain or subdomain you configured in the reverse proxy guide.
+1. Open `https://map.example.com` in your browser, replacing the example address with the domain or subdomain of its website connection.
 2. Confirm that the Squaremap page loads and displays your server's worlds.
 3. Check the server console and confirm that Squaremap reports no startup errors.
 

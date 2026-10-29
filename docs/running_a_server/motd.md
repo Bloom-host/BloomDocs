@@ -19,7 +19,7 @@ The message of the day (MOTD) is the text players see beside your server in the 
 
 ## How to change your MOTD without a plugin
 
-1. Write your MOTD using the [Minecraft MOTD creator](https://mctools.org/motd-creator), then copy the generated `server.properties` value.
+1. Write your MOTD using the [Minecraft MOTD creator](https://mctools.org/motd-creator) or the [BestMCServerList MOTD designer](https://bestmcserverlist.net/tools/motd), then copy the generated `server.properties` value.
 2. In your server panel, open File Manager and then open `server.properties`. See the [File Manager guide](/file-manager-controls) if you need help finding the file.
    ![server.properties file showing the MOTD setting](/running_a_server/motd/server-properties.png)
 3. Replace the existing `motd` value with the copied text and restart the server to apply the change.
@@ -32,7 +32,7 @@ MiniMOTD is a plugin for Spigot, Paper, BungeeCord, and Velocity, or a mod for F
 
 1. Upload the plugin to your server's `plugins` folder, or the mod to its `mods` folder, and restart the server.
 2. Open the generated MiniMOTD `config.hocon` file.
-3. Use the [MiniMessage documentation](https://docs.papermc.io/adventure/minimessage/format/) to create your MOTD. MiniMOTD also supports multiple icons and [different MOTDs per virtual host](https://github.com/jpenilla/MiniMOTD/wiki#advanced-configuration) on BungeeCord and Velocity.
+3. Use the [MiniMessage documentation](https://docs.papermc.io/adventure/minimessage/format/) to create your MOTD, or design it visually in the [BestMCServerList MOTD designer](https://bestmcserverlist.net/tools/motd) and copy its MiniMessage output. MiniMOTD also supports multiple icons and [different MOTDs per virtual host](https://github.com/jpenilla/MiniMOTD/wiki#advanced-configuration) on BungeeCord and Velocity.
    ![MiniMOTD configuration and resulting server-list preview](/running_a_server/motd/minimotd-1.png)
 4. Restart the server after saving the configuration.
 

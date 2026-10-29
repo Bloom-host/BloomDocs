@@ -51,6 +51,6 @@ The server list sorts servers by alphabetical order, you can rename your servers
 
 ## Split Server options
 
-You can change your main server, edit ports, change server type and edit RAM/Storage in the Server Split section. Keep in mind that you can also open new allocations (ports) using the Ports & Proxies section.
+You can change your main server, edit ports, change server type and edit RAM/Storage in the Server Split section. Keep in mind that you can also open new ports using the [Ports & Connections](/ports-and-connections) tab.
 
 ![Server Split settings for resources, ports, and server type](/using_the_panel/split_server/4.png)
