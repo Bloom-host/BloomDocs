@@ -47,8 +47,8 @@ Make sure you trust the source of your plugin. Plugins have high-level access to
 ### Installing Plugins
 
 1. You'll first need to find the plugin you wish to install. Downloads can be found on a variety of sites. Common places are [spigotmc.org](https://spigotmc.org/resources) (look at the BungeeCord or Universal sections), [Hangar](https://hangar.papermc.io/) (under platforms select which proxy software you are using) or [Modrinth](https://modrinth.com/plugins) (under proxies filter select the proxy software you are using).
-2. In any case, save the plugin to your local machine. Plugins can either be uploaded via the [web panel](https://mc.bloom.host) or through [SFTP](/sftp). If you're uploading in bulk, go with the latter.
-3. In your server's root directory, locate the `plugins` folder, if it's not there then create a new directory named `plugins`. Navigate into this folder, and upload your plugin's file there!
+2. Save the plugin's `.jar` file to your computer, then select your **proxy server** in [DuckPanel](https://mc.bloom.host) and open its File Manager. Follow our [File Manager upload guide](/file-manager-controls#uploading-files-without-sftp) to upload one or multiple plugins at once.
+3. In your proxy's root directory, locate the `plugins` folder. If it isn't there, create it. Open this folder and drag your plugin `.jar` files into it. Wait for all uploads to finish, and leave the `.jar` files intact rather than extracting them. Proxy plugins belong on the proxy, not in a backend Minecraft server's `plugins` folder.
 4. Most plugins will require you to restart your server before they take effect.
 
 :::caution
