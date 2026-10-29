@@ -75,7 +75,7 @@ After compressing the files, you will need to upload the compressed/archived fil
 
 ![](/plugins_and_modifications/serverpacks/11.png)
 
-Open the root (Home) directory in DuckPanel's File Manager and [upload the server pack archive](/file-manager-controls#uploading-files-without-sftp). Wait for the upload to finish, then use the archive's context menu to extract it.
+Open the root (Home) directory in DuckPanel's File Manager and [upload the server pack archive](/file-manager-controls#uploading-files-without-sftp). Wait for the upload to finish, then use the archive's context menu to extract it. After extraction finishes, delete the uploaded archive to reclaim disk space.
 
 Before starting the server, make sure the server JAR and folders such as `mods` and `config` are directly in the server root. If the archive extracted into an extra parent folder, [move its contents](/file-manager-controls#moving-files) into the root. Wait for extraction and any file moves to finish before continuing.
 
