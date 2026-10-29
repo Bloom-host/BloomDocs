@@ -75,9 +75,9 @@ After compressing the files, you will need to upload the compressed/archived fil
 
 ![](/plugins_and_modifications/serverpacks/11.png)
 
-Server packs contain a lot of files, so you will need to connect through SFTP to upload the archived file. You can follow our guide on [How to connect through SFTP](/sftp). After you connect through SFTP, you can just drag and drop the .zip to the SFTP server.
+Open the root (Home) directory in DuckPanel's File Manager and [upload the server pack archive](/file-manager-controls#uploading-files-without-sftp). Wait for the upload to finish, then use the archive's context menu to extract it. After extraction finishes, delete the uploaded archive to reclaim disk space.
 
-![](/plugins_and_modifications/serverpacks/13.png)
+Before starting the server, make sure the server JAR and folders such as `mods` and `config` are directly in the server root. If the archive extracted into an extra parent folder, [move its contents](/file-manager-controls#moving-files) into the root. Wait for extraction and any file moves to finish before continuing.
 
 We are almost finished! Now you can go to the console page, and start the server. But don't leave this page! You will be prompted to select the .jar to be used to start the server. You will need to select the Forge .jar, but not the one that says "Installer", just select the one that looks like this: Forge-1.16.5-36.2.8.jar (the version will be different).
 

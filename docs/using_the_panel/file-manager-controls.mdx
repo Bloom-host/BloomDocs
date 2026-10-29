@@ -12,39 +12,21 @@ keywords:
   - Recycle Bin
   - Archive
   - Download from URL
+  - Uploading
+  - Downloading
 ---
 
-### SFTP
-
+:::note SFTP
 If you would prefer to use SFTP to manage your files, please see our [guide on SFTP](/sftp).
-
----
-
-<div style={{ position: 'relative', paddingTop: '56.25%', textAlign: 'center' }}>
-  <iframe
-    src="https://www.youtube.com/embed/Dgl5JNRju-A?si=howzfCpQT7hsEfyo"
-    title="DuckPanel File Manager controls walkthrough"
-    frameBorder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    referrerPolicy="strict-origin-when-cross-origin"
-    allowFullScreen
-    style={{
-      position: 'absolute',
-      top: 0,
-      left: 0,
-      width: '100%',
-      height: '100%',
-    }}
-  />
-</div>
+:::
 
 
-### Controls Summary
+## Controls Summary
 By default you will be able to see the main/root folder of your server. You can click other folders to view their contents. On the top left corner you can see your current path.
 
 ![DuckPanel File Manager showing the current server path and files](/using_the_panel/file_manager_controls/1.png)
 
-#### Without selecting any files you can:
+### Without selecting any files you can:
 - Open the Recycle Bin to retrieve previously deleted files (up to 24h)
 - Download files from a link (if the link directly leads to a file!)
 - Create new directories or files
@@ -53,16 +35,56 @@ By default you will be able to see the main/root folder of your server. You can 
 
 You can also select individual files by clicking the checkbox to the left of the filename.
 
----
-
-#### While having file(s) selected you can:
+### While having file(s) selected you can:
 - Copy or move the file within the current server's directories or even to <u>other split servers</u>! Simply select the server's name and enter the destination directory. You can enter `../`to go up a directory and `/<directory>` to enter one. Here you can also specify whether to overwrite any files or folders with the same name.
 - Archive files/folder into a single compressed file. Selecting this option will create a file named `archive-yyyy-mm-dd.tar.gz`
 - Delete files. By default, this will send files to the Recycle Bin (space permitting) for 24 hours or until manually purged.
 
----
-
-#### You can also click `...` next to a file for additional options. Here you can also:
+### You can also click `...` next to a file for additional options. Here you can also:
 - Rename a file/folder
 - Duplicate files
 - Download files
+
+---
+
+## Moving Files
+
+With DuckPanel you can easily move files from one nested directory to a different directory under "home", and any other combination both on the same server and other servers in the same plan (same server split group). 
+
+![DuckPanel File Manager File Move](/using_the_panel/file_manager_controls/4.gif)
+
+### Moving Files via Drag & Drop
+
+Additionally you can easily drag and drop files to move within the same directory structure. You can even move the file "up" to its parent directory by dragging over the upward arrow, in our example it would be over "Back to Home".
+
+![DuckPanel File Manager File Move](/using_the_panel/file_manager_controls/5.gif)
+
+---
+
+## Uploading Files (Without SFTP)
+
+Our panel supports "drag & drop" uploads for single files, multiple files, and multiple directories. The process is just as simple as using traditional SFTP methods. You can see a short showcase of the features below:
+
+![DuckPanel File Manager Multifile Upload](/using_the_panel/file_manager_controls/3.gif)
+
+---
+
+## Downloading Files
+
+Our panel supports both file and folder downloads. You can download several files and/or folders at the same time, by simply selecting the group you wish to download by marking their checkbox, and then clicking the download button at the bottom middle submenu as shown in our example below. 
+
+For single file downloads you can simply right click the file to download it. 
+
+![DuckPanel File Manager Multifile Download](/using_the_panel/file_manager_controls/2.png)
+
+If you download multiple files (or a directory) they'll be shown as a tar.gz file in your PC's Download directory. In Windows 11 you can simply right click the file and select "Extract All". For other OSs you might need to extract the file twice, once to turn it into a .tar and then again to create the final directory. 
+
+---
+
+## Download From URL
+
+Download From URL is a DuckPanel feature that allows users to download to their server any file(s) that's provided by a directly downloadable link. While this will work for a large subset of download URLs you might encounter, it will not be the right tool for most, as usually download URLs are not direct. If the process fails, and you are sure that the URL was pasted in correctly, without any spaces, then you can assume the download type is not supported.
+
+The example below shows the feature being used with a backup URL from another Bloom server from a different plan. You can get this specific link by going to the "Backups" tab and clicking the "..." menu next to the backup of interest and selecting "Copy Link".
+
+![DuckPanel File Manager URL Download](/using_the_panel/file_manager_controls/6.gif)

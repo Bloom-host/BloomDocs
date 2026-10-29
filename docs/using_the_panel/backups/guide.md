@@ -193,8 +193,7 @@ If you no longer need their results, you can dismiss them with the ✅ or the di
 
 In case you only require a limited number of files from a backup, you can also 'mount' it to your server.
 
-The mounted backup is accessible as any other folder through the '[File Manager](../file-manager-controls)' tab
-and [SFTP](../sftp).
+The mounted backup is accessible through the '[File Manager](../file-manager-controls)' tab. You can browse it to locate the files you want to restore or download.
 
 :::caution HEADS UP!
 While a backup is mounted, you will **not be able to do the following actions**:
@@ -224,7 +223,7 @@ You can use the 'View' button in its context menu to navigate to the mounted fol
 You can also find it in the main folder of your File Manager:
 ![File Manager showing the mounted backup](mounted_file_manager.png)
 
-Similarly, you can use [SFTP](../sftp) to access this special folder.
+To save a local copy of selected files, open the mounted folder and follow our [file and folder download guide](/file-manager-controls#downloading-files). Multiple files or folders are downloaded as a `.tar.gz` archive. Keep the backup mounted until the download finishes. To recover files directly onto your server, use the restore or copy options below instead of downloading and uploading them again.
 
 ### Restoring & Copying Mounted Files
 

@@ -35,18 +35,14 @@ Then, select all the files within the open directory and right click. Select 'Se
 ![Windows context menu for creating a compressed world folder](/running_a_server/worlds/3.png)
 You may get a warning about empty folders being skipped but that is okay!
 
-Next, follow [our guide on connecting to your server with an SFTP client](/sftp). In most cases, your world files will be fairly large, so it's best to use a dedicated file transfer protocol, instead of the built-in File Manager.
-Once connected via SFTP, right click in SFTP and create a new folder, such as `my-world` and open it.
-![New world folder created in the SFTP client](/running_a_server/worlds/4.png)
+Stop your Bloom server and open its File Manager. In the root (Home) directory, create a new folder such as `my-world` and open it. Use a new folder name to avoid mixing the imported world with an existing world.
 
-Drag & drop the ZIP file you created previously and wait until it finishes uploading.
-![World archive uploading through SFTP](/running_a_server/worlds/5.gif)
+Follow our [File Manager upload guide](/file-manager-controls#uploading-files-without-sftp) to drag the ZIP you created into this folder. Keep the panel open and wait for the upload to finish before continuing.
 
-Once that's done, head over to the 'File Manager' tab of the panel and locate and your folder.
-Within, press the '...' button next to your ZIP and click 'Unarchive'. This may also take a few minutes depending on the size of your server.
+Press the '...' button next to your ZIP and click 'Unarchive'. Wait for extraction to finish; large worlds may take a few minutes.
 ![File Manager context menu with the Unarchive action](/running_a_server/worlds/6.png)
 
-After unzipping, here is how it should generally look.
+After unzipping, check that `level.dat` and the world's other files are directly inside `my-world`, rather than inside another nested folder. Here is how it should generally look.
 ![Extracted Java world files in the File Manager](/running_a_server/worlds/7.png)
 
 Now, if you'd like this to be your main world, open the `server.properties` file in the main directory of your server and ensure the `level-name=` setting matches with the folder that you created before:
@@ -88,19 +84,14 @@ Scroll down to the very bottom of the main page and press 'Export World':
 Select your desktop, or another easy to access location:
 ![File picker saving the exported Bedrock world to the desktop](/running_a_server/worlds/14.png)
 
-Next, follow [our guide on connecting to your server with an SFTP client](/sftp). In most cases, your world files will be fairly large, so it's best to use a dedicated file transfer protocol, instead of the built-in File Manager.
-Once connected via SFTP, open the `worlds` directory and create a new folder, such as `my-world` and open it.
-![New Bedrock world folder created in the SFTP client](/running_a_server/worlds/15.png)
+Stop your Bloom server and open its File Manager. Open the `worlds` directory, create a new folder such as `my-world`, and open it. Use a new folder name to avoid mixing the imported world with an existing world.
 
-Drag & drop the world file you exported previously and wait until it finishes uploading.
-Once it does, rename it, so instead of ending in `.mcworld`, it ends in `.zip`. The rest of the name does not matter.
-![Bedrock world file renamed from mcworld to zip](/running_a_server/worlds/16.gif)
+Follow our [File Manager upload guide](/file-manager-controls#uploading-files-without-sftp) to drag the exported `.mcworld` file into `worlds/my-world`. Keep the panel open and wait for the upload to finish. Then use the file's context menu to rename its extension from `.mcworld` to `.zip` so the panel can extract it.
 
-Once that's done, head over to the 'File Manager' tab of the panel and locate and your folder in the `worlds` directory.
-Then, press the '...' button next to your ZIP and click 'Unarchive'. This may also take a few minutes depending on the size of your server.
+Press the '...' button next to your ZIP and click 'Unarchive'. Wait for extraction to finish; large worlds may take a few minutes.
 ![File Manager context menu unarchiving the Bedrock world](/running_a_server/worlds/17.png)
 
-After unzipping, here is how it should generally look.
+After unzipping, check that `level.dat` and the `db` folder are directly inside `worlds/my-world`, rather than inside another nested folder. Here is how it should generally look.
 ![Extracted Bedrock world files in the File Manager](/running_a_server/worlds/18.png)
 
 Lastly, open the `server.properties` file in the main directory of your server and ensure the `level-name=` setting matches with the folder that you created before:

@@ -111,11 +111,11 @@ If you are confused on what jar to select, you can check the **variables.txt** f
   1.1  Ensure for this step you click Remove all files before changing server type.
   ![DuckPanel Change Server Type dialog with the matching server jar selected](/extras/serverpackcreator/jarselect.png)
   
-2. After the server jar is installed, you can upload the serverpack zip that was generated via [sftp](/sftp).
+2. After the server JAR is installed, open the root (Home) directory in DuckPanel's File Manager and [upload the generated server pack ZIP](/file-manager-controls#uploading-files-without-sftp). Wait for the upload to finish before extracting it.
 
 3. Once uploaded, extract the zip **via the File Manager** by right clicking the zip and selecting unarchive. ![File Manager context menu with the Unarchive action](/extras/serverpackcreator/unzip.png)
 
-4. Once unarchived, you can start the server, and enjoy the serverpack you just made!
+4. Check that the extracted pack's folders, such as `mods` and `config`, are directly in the server root. If they are inside an extra parent folder, [move its contents](/file-manager-controls#moving-files) into the root. Once extraction and any file moves are complete, you can start the server and enjoy the server pack you just made!
 
 If you need more help. Join the [discord server](https://bloom.host/discord).
 

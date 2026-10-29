@@ -20,9 +20,9 @@ You'll first need to find the mod that you wish to install. Downloads can be fou
 Make sure you are downloading the correct version of your mods. Forge and Fabric mods are most likely not cross compatible with each other unless stated so otherwise by the developer of those mods.
 :::
 
-You have two choices: save the mod to your local machine and then upload it to the panel or copy the link to the mod download and use our Download from URL feature which can be found on the File Manager. Mods can either be uploaded via the [web panel](https://mc.bloom.host) or through [SFTP](/sftp). If you're uploading in bulk, go with the latter.
+Save the mod files to your computer, then open your server's File Manager in [DuckPanel](https://mc.bloom.host), locate or create the `mods` folder in the server root, and open it. Follow our [File Manager upload guide](/file-manager-controls#uploading-files-without-sftp) to drag and drop one or multiple mods at once. Alternatively, use the File Manager's **Download from URL** feature if you have a direct link to the mod file, rather than its download page.
 
-In your server's root directory, locate the `/mods` folder, if it's not there then create a new directory named `/mods`. Navigate into this folder, and upload your mods' files there! The vast majority of mods require you to restart your server to take effect.
+In your server's root directory, locate the `mods` folder. If it isn't there, create it. Open this folder before uploading or downloading the mod files from a URL. Wait for all transfers to finish, and leave the mod `.jar` files intact rather than extracting them. The vast majority of mods require you to restart your server to take effect.
 
 Additionally, many Fabric mods require the [Fabric-API](https://www.curseforge.com/minecraft/mc-mods/fabric-api). Download the relevant Fabric API for you server version, and put this file in the `/mods` directory as well.
 

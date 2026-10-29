@@ -13,9 +13,7 @@ keywords:
   - Plugins
 ---
 
-You'll need a way to access your server files. This tutorial references the [web panel](https://mc.bloom.host), but you can also use [SFTP](/sftp). **Shutdown your server before proceeding!**
-
-Either way, go to the root directory of your server. On the web panel, this can be done by selecting your server, dropping down the "File Management" menu, then selecting "File Explorer". When you connect to your server via SFTP, you should be already at your root directory.
+**Shut down your server before proceeding!** Select your server in [DuckPanel](https://mc.bloom.host), open the [File Manager](/file-manager-controls), and go to the root (Home) directory.
 
 :::caution
 The following steps will __completely erase__ your worlds.
@@ -23,6 +21,8 @@ The following steps will __completely erase__ your worlds.
 If you wish to have multiple worlds on your server at once, add a prefix to the end of each world (such as `_old`), OR use a plugin such as [Multiverse](https://dev.bukkit.org/projects/multiverse-core).
 
 We recommend you take a backup before deleting any worlds in your server. Follow the [backups guide](/backups) to learn how to make and schedule backups.
+
+If you also want a local copy, select your world folders and follow our [file and folder download guide](/file-manager-controls#downloading-files). Wait for the download to finish and check the archive contains your worlds before deleting anything.
 :::
 
 You now have to locate your world files, on *most* Minecraft servers these folders will be `world`, `world_nether`, and `world_the_end` - if not, check your `level-name` in `server.properties`.

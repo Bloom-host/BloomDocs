@@ -41,6 +41,6 @@ After you have followed the steps above, you can periodically check the **Settin
 ### Updating the server manually
 - Make sure that your server is backed up completely.
 - [Create full backup](/backups) of your server. (As an additional step, we would suggest testing this backup on a local or a split test server)
-- Remove your current server jar through [SFTP](/sftp) or the [File Manager](/file-manager-controls).
+- Stop your server, then remove the current server JAR from the root (Home) directory through the [File Manager](/file-manager-controls). Keep your world, plugin, and configuration files.
 - Download the new version of your server software. If you are unsure which one to use, check out our [server jars guide](/jars).
-- Upload it using SFTP or the File Manager and make sure to define the full name (such as `paper-1.18-023` in the 'Startup' tab on the panel)
+- [Upload the new server JAR through the File Manager](/file-manager-controls#uploading-files-without-sftp) into the root directory. Wait for the upload to finish, then set **Server Jar File** in the 'Startup' tab to its exact filename, including `.jar` (for example, `paper-1.18-023.jar`). Leave the JAR intact rather than extracting it, then start the server.
