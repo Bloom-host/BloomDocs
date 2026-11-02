@@ -7,8 +7,6 @@ help:
   title-icon: '%guildicon%'
   thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/animated_icon.gif'
   footer: 'BloomBot - Bloom.host'
-  description: |+
-    Most commands below are also available as slash commands (type `/` to see them). Any `!` command can also be triggered by @mentioning me instead of using `!`.
   fields:
     - title: ':grey_question: Help Commands'
       description: |+
@@ -237,7 +235,7 @@ fbiinfo:
         entirely meaning there are __countless security exploits__ people can
         use. This feature is meant to be used for developers and proxies. (In
         case you *are* using an online-mode proxy, you seriously need to check
-        your configuration - See `!security`)
+        your configuration - See `/docs term:security`)
       inline: false
     - title: '🏴‍☠ Pirated Software'
       description: >
@@ -1312,7 +1310,7 @@ link-account-warn:
   text: |+
     -# ✅ [Server found](%panelLink%)! We recommend [linking your DuckPanel account](<https://docs.bloom.host/extras/account-details/#discord-linking>) for faster support!
 
-# Sent when the !duck or /duck command is used
+# Sent when the /duck command is used
 # Placeholders: %link%
 duck:
   text-command: false
@@ -1325,7 +1323,7 @@ duck:
       emoji: '🔗'
       position: 2
 
-# Sent when the !unsupported or /unsupported command is used
+# Sent when the /unsupported command is used
 # Placeholders: %eggs%
 # Custom data: line-format (%egg%)
 unsupported:
@@ -1336,11 +1334,11 @@ unsupported:
     using them:
 
     %eggs%
-  footer: 'Suggest a software to be added: !suggest <link/name>'
+  footer: 'Suggest a software to be added: /suggestion create:<link/name>'
   custom-data:
     line-format: "- %egg%\n"
 
-# Sent when the !modpacks or /modpacks command is used
+# Sent when the /modpacks command is used
 # Placeholders: %modpacks%
 # Custom data: line-format (%modpack%)
 modpacks:
@@ -1351,7 +1349,7 @@ modpacks:
     - 'packs'
   title: 'List of Modpacks'
   description: '%modpacks%'
-  footer: 'Suggest a pack to be added: !suggest <link/name>'
+  footer: 'Suggest a pack to be added: /suggestion create:<link/name>'
   buttons:
     - style: link
       label: 'Full List'
@@ -1360,7 +1358,7 @@ modpacks:
   custom-data:
     line-format: "- %modpack%\n"
 
-# Sent when the !claims command is used
+# Sent when the /claims command is used
 # Placeholders: %time%, %lines%, %total%, %unclaimed%
 claims:
   text-command: false
@@ -1475,7 +1473,7 @@ notes-ticket-pages:
     linked-server-format: "[`%short_uuid%`](%server_link%) [[Billing]](%billing_link%)"
     linked-server-not-found-format: "`%short_uuid%` _(Not Found)_"
 
-# Sent when the !stats or /stats command is used
+# Sent when the /stats command is used
 # Placeholders: %totalsuggestions%, %pendingsuggestions%, %approvedsuggestions%, %deniedsuggestions%, %duckcount%, %uptime%, %membercount%, %rolecount%
 stats-embed:
   text-command: false
