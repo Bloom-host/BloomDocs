@@ -1618,9 +1618,9 @@ ticket-close-dm:
       label: 'View Transcript'
       id: '%link%'
       emoji: '🔗'
-    - style: secondary
+    - style: link
       label: 'Leave Feedback'
-      id: 'feedback:%ticketid%'
+      id: 'https://www.trustpilot.com/evaluate/bloom.host'
       emoji: '⭐'
 
 
@@ -1646,9 +1646,9 @@ ticket-close-channel:
       label: 'View Transcript'
       id: '%link%'
       emoji: '🔗'
-    - style: secondary
+    - style: link
       label: 'Leave Feedback'
-      id: 'feedback:%ticketid%'
+      id: 'https://www.trustpilot.com/evaluate/bloom.host'
       emoji: '⭐'
 
 # Sent in the transcripts channel when the ticket is closed
