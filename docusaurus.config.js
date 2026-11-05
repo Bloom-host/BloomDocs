@@ -63,7 +63,7 @@ module.exports = {
     },
 
     themes: [
-        ['@easyops-cn/docusaurus-search-local', {hashed: true, indexBlog: false, docsRouteBasePath: '/', highlightSearchTermsOnTargetPage: true}],
+        ['@easyops-cn/docusaurus-search-local', {hashed: true, indexBlog: false, docsRouteBasePath: '/', highlightSearchTermsOnTargetPage: false}],
     ],
 
     presets: [
