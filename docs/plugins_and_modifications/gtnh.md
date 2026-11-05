@@ -21,7 +21,7 @@ This was written before Bloom's one click modpack installer was updated and henc
 :::important
 Before following this guide, make sure that the appropriate version of Java is installed on your computer and that you have at least 6GB of RAM available for the first time setup on your computer.
 
-You should also familiarize yourself with using SFTP to transfer files using our [SFTP guide](/sftp), it will be needed to transfer files.
+You will upload the prepared server pack through DuckPanel's File Manager. See our [File Manager upload guide](/file-manager-controls#uploading-files-without-sftp) for the upload steps.
 :::
 
 :::note
@@ -70,13 +70,11 @@ In "File Manager" select and delete all files.
 
 # Uploading your server.
 
-Ensure you have familiarized yourself with using SFTP. You can follow our guide on [how to connect through SFTP](/sftp).
+After completing the local setup above and stopping the local server, open the prepared Gregtech New Horizons server pack folder. Select all files and folders **inside it** and compress them into a ZIP such as `GTNH.zip`. Compressing the contents avoids adding an extra parent folder when you extract the pack on your server.
 
-In the folder where you extracted the Gregtech New Horizons server pack, select all files and compress them into a zip. It is a good idea to name it something like "GTNH.zip" so that you can easily find it for the next step. This is recommended as it will significantly speed up transfer via SFTP. Wait for the zipping to complete.
+Open your Bloom server's File Manager at the root (Home) directory. Follow our [File Manager upload guide](/file-manager-controls#uploading-files-without-sftp) to drag the ZIP into the panel, and wait for the upload to finish.
 
-Next, open your SFTP client and connect to your Bloom server. Navigate to the server pack directory on your computer. Drag the zip you just made to the Bloom server in your SFTP client. This will begin the upload. Wait for the upload to complete.
-
-After the upload has been completed, open your Bloom control panel and go to the "File Manager" tab. You will see your uploaded Gregtech New Horizons zip file. Select it. At the bottom of the screen a new option will appear named "unzip/extract". Press this and wait for extraction to finish. You can then delete the zip you uploaded, as you will not need it anymore.
+Use the uploaded ZIP's context menu to extract it, then wait for extraction to finish. Check that `lwjgl3ify-forgePatches.jar`, `java9args.txt`, and the pack's folders are directly in the server root, rather than inside a `GTNH` subfolder. Once you have confirmed the files are in place, you can delete the uploaded ZIP.
 
 In the "Console" tab of the Bloom panel, press "Start" and your server should start, assuming you followed the steps in this guide correctly.
 

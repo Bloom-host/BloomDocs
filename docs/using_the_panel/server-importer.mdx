@@ -42,8 +42,8 @@ You can also import the databases hosted on your old host! Follow the [database 
 
 ---
 
-### Remote S/FTP credentials
-First you will need the credentials to connect to the remote S/FTP server. If you are importing from another game host, this information should be located in their panel. You will need the following details:
+### Remote connection details
+The Server Importer connects directly to your previous host; you do not need a file transfer application on your computer. Find the connection details in your previous host's panel and enter them in DuckPanel. You will need the following details:
 - Server type (FTP, FTPS or SFTP)
 - Host and Port
 - Username
@@ -65,8 +65,20 @@ Once the import begins, you can navigate to the Console page to view the current
 ![DuckPanel console showing Server Importer progress](/using_the_panel/server-importer/1.png)
 
 
-#### Failsafe if your previous host is having issues with S/FTP
-If your previous provider is having issues with S/FTP connections, be it from having an outdated panel, or other credential complications, you can follow the steps below.
+### Uploading files from your computer instead
+
+If the Server Importer cannot connect to your previous host, or you already have a local copy of your server, you can transfer the files through DuckPanel's File Manager instead.
+
+1. Stop the source server before making a final copy so its files do not change during the transfer. Download its files or a backup using your previous host's panel. If the source is another Bloom server, follow our [file and folder download guide](/file-manager-controls#downloading-files).
+2. Stop the destination Bloom server and open its File Manager at the root (Home) directory. Back up any existing files you want to keep before replacing them.
+3. Follow our [File Manager upload guide](/file-manager-controls#uploading-files-without-sftp) to upload your archive, or drag in the contents of your local server folder. Wait for all uploads to finish.
+4. If you uploaded an archive, use its context menu to extract it and wait for extraction to finish. Check that the server files are directly in the destination's root directory rather than inside an extra backup or server folder. If needed, [move the contents](/file-manager-controls#moving-files) into the root.
+
+This transfers files only. If your server uses a separately hosted database, follow the [database import guide](/databases#importing-mysql-databases-through-the-panel) as well.
+
+### Importing a backup from a direct download link
+
+If your previous host provides a direct backup download link, DuckPanel can download the archive without you uploading a local copy.
 
 :::note
 This method only works if your former provider offers backups with the option to download them directly from a link.
@@ -77,3 +89,5 @@ This method only works if your former provider offers backups with the option to
 - Once the download has started, go to the "Downloads" manager of your browser of choice, and copy the link attached to the file-download.
 - In DuckPanel, go to File Manager, then click the top-right button "Download From URL".
 - If the link is direct, then it will begin the download. Once it's completed your backup archive will be available in the Home directory of your server.
+
+After the download finishes, extract the archive in the File Manager and check the folder layout as described above before starting the server. If the link requires a browser login or has expired, download the backup to your computer and use the upload method above instead.
