@@ -20,7 +20,7 @@ ARK - Survival Evolved is currently an unsupported server, this means that Bloom
 
 ### How to change your main server to ARK Survival Evolved
 
-First, go to the [game panel](https://mc.bloom.host) and select your server, then click on the **server split** button. Here you will be able to change your existing server to ARK Survival Evolved by clicking the three dots to the right of the server name, selecting **Change Server Type** then under Server Category select **No Supports Servers** and in **Server Type** dropdown select **ARK Survival Evolved**. Remember to click the **Reinstall** button to reinstall the server, this process will start downloading ARK Survival Server to your Bloom server, keep in mind that this process will take a while because it has to download around 20GB of games files.
+First, go to the [game panel](https://mc.bloom.host) and select your server, then click on the **server split** button. Here you will be able to change your existing server to ARK Survival Evolved by clicking the three dots to the right of the server name, selecting **Change Server Type** then under Server Category select **Other Games** and in **Server Type** dropdown select **ARK Survival Evolved**. Remember to click the **Reinstall** button to reinstall the server, this process will start downloading ARK Survival Server to your Bloom server, keep in mind that this process will take a while because it has to download around 20GB of game files.
 
 ### How to create a split ARK Survival Evolved server
 

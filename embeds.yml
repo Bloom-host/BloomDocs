@@ -1123,7 +1123,7 @@ caddy:
   description: |+
     Check out our comprehensive guide on how to split your server into a Caddy Server [here](https://docs.bloom.host/other-servers/caddy-server)!
 
-    As Caddy is an unsupported server split (which means you will not receive any support from staff), you can ask for community help in <#737803938430189678>!
+    As Caddy is an unsupported server split, staff can help if it fails to install, but not with configuring Caddy or your site. For that, you can ask for community help in <#737803938430189678>!
   thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/tY6IAF.png'
   image: 'https://caddyserver.com/resources/images/caddy-open-graph.jpg'
 
@@ -1330,10 +1330,9 @@ duck:
 # Custom data: line-format (%egg%)
 unsupported:
   text-command: false
-  title: 'List of Unsupported Games'
+  title: 'List of Unsupported Server Types'
   description: |+
-    These games can be used on your Bloom server, but no support is given when
-    using them:
+    These server types can be used on your Bloom server, but are not officially supported. Staff can help if one fails to install, but not with setting it up or using it:
 
     %eggs%
   footer: 'Suggest a software to be added: /suggestion create:<link/name>'
