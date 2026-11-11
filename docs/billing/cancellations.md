@@ -40,7 +40,7 @@ You can visit our [Refund documentation](/billing/refunds) to learn more about o
 
 ---
 
-## How Withdraw Your Cancellation Request
+## How to Withdraw Your Cancellation Request
 
 To undo your cancellation request you'll need to select the service in question via your [services page](https://billing.bloom.host/clientarea.php?action=services) on our billing portal. Once you are in the service's page you can select "Remove Cancellation" from the left side-menu as shown in our example screenshot below:
 
