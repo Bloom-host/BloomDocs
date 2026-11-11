@@ -67,7 +67,7 @@ After selecting the "Install server" option and the directory where we want to i
 
 ![](/plugins_and_modifications/serverpacks/9.png)
 
-After successfully installing Forge, you will need to select all files in the directory and compress them. It's recommended you use a tool like 7Zip to compress the files, since Windows default compression option doesn't usually work with the panel.
+After successfully installing Forge, select all files and folders inside the server pack directory and compress them into a `.zip` archive. You can use Windows File Explorer's built-in ZIP compression or a tool such as 7-Zip.
 
 ![](/plugins_and_modifications/serverpacks/9.png)
 
@@ -75,9 +75,9 @@ After compressing the files, you will need to upload the compressed/archived fil
 
 ![](/plugins_and_modifications/serverpacks/11.png)
 
-Open the root (Home) directory in DuckPanel's File Manager and [upload the server pack archive](/file-manager-controls#uploading-files-without-sftp). Wait for the upload to finish, then use the archive's context menu to extract it. After extraction finishes, delete the uploaded archive to reclaim disk space.
+Open the Home directory in DuckPanel's File Manager and [upload the server pack archive](/file-manager-controls#uploading-files-without-sftp). Wait for the upload to finish, then open the archive's context menu and select **Unarchive**. Wait for extraction to finish before deleting the uploaded archive to reclaim disk space.
 
-Before starting the server, make sure the server JAR and folders such as `mods` and `config` are directly in the server root. If the archive extracted into an extra parent folder, [move its contents](/file-manager-controls#moving-files) into the root. Wait for extraction and any file moves to finish before continuing.
+Before starting the server, make sure the server JAR and folders such as `mods` and `config` are directly in the server's Home directory. If the archive extracted into an extra parent folder, [move its contents](/file-manager-controls#moving-files) into the Home directory. Wait for extraction and any file moves to finish before continuing.
 
 We are almost finished! Now you can go to the console page, and start the server. But don't leave this page! You will be prompted to select the .jar to be used to start the server. You will need to select the Forge .jar, but not the one that says "Installer", just select the one that looks like this: Forge-1.16.5-36.2.8.jar (the version will be different).
 

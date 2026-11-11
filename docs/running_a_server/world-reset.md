@@ -13,7 +13,7 @@ keywords:
   - Plugins
 ---
 
-**Shut down your server before proceeding!** Select your server in [DuckPanel](https://mc.bloom.host), open the [File Manager](/file-manager-controls), and go to the root (Home) directory.
+**Shut down your server before proceeding!** Select your server in [DuckPanel](https://mc.bloom.host), open the [File Manager](/file-manager-controls), and go to the Home directory.
 
 :::caution
 The following steps will __completely erase__ your worlds.

@@ -38,8 +38,8 @@ Make sure you trust the source of your plugin. Plugins have high-level access to
 ### Installing Plugins
 
 1. You'll first need to find the plugin you wish to install. Downloads can be found on a variety of sites. Common places are [spigotmc.org](https://spigotmc.org/resources), [bukkit.org](https://dev.bukkit.org), [Modrinth](https://modrinth.com/plugins) or [Hangar](https://hangar.papermc.io/) websites.
-2. Save the plugin's `.jar` file to your computer, then open your server's File Manager in [DuckPanel](https://mc.bloom.host), locate or create the root `plugins` folder, and open it. Follow our [File Manager upload guide](/file-manager-controls#uploading-files-without-sftp) to upload one or multiple plugins at once.
-3. In your server's root directory, locate the `plugins` folder. If it isn't there, create it. Open this folder and drag your plugin `.jar` files into it. Wait for all uploads to finish, and leave the `.jar` files intact rather than extracting them.
+2. Save the plugin's `.jar` file to your computer, then open your server's File Manager in [DuckPanel](https://mc.bloom.host), locate or create the `plugins` folder in the Home directory, and open it.
+3. Follow our [File Manager upload guide](/file-manager-controls#uploading-files-without-sftp) to upload your plugin `.jar` files into the open `plugins` folder. Wait for all uploads to finish, and leave the `.jar` files intact rather than extracting them.
 4. Most plugins will require you to restart your server before they take effect.
 
 Once the server is online, type `plugins` in your console. If you are able to see the freshly installed plugin's name in green, you're good to go! If not, see what to do below.

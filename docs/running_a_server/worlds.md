@@ -35,7 +35,7 @@ Then, select all the files within the open directory and right click. Select 'Se
 ![Windows context menu for creating a compressed world folder](/running_a_server/worlds/3.png)
 You may get a warning about empty folders being skipped but that is okay!
 
-Stop your Bloom server and open its File Manager. In the root (Home) directory, create a new folder such as `my-world` and open it. Use a new folder name to avoid mixing the imported world with an existing world.
+Stop your Bloom server and open its File Manager. In the Home directory, create a new folder such as `my-world` and open it. Use a new folder name to avoid mixing the imported world with an existing world.
 
 Follow our [File Manager upload guide](/file-manager-controls#uploading-files-without-sftp) to drag the ZIP you created into this folder. Keep the panel open and wait for the upload to finish before continuing.
 
@@ -45,7 +45,7 @@ Press the '...' button next to your ZIP and click 'Unarchive'. Wait for extracti
 After unzipping, check that `level.dat` and the world's other files are directly inside `my-world`, rather than inside another nested folder. Here is how it should generally look.
 ![Extracted Java world files in the File Manager](/running_a_server/worlds/7.png)
 
-Now, if you'd like this to be your main world, open the `server.properties` file in the main directory of your server and ensure the `level-name=` setting matches with the folder that you created before:
+Now, if you'd like this to be your main world, open the `server.properties` file in the Home directory of your server and ensure the `level-name=` setting matches with the folder that you created before:
 ![server.properties level-name set to the uploaded world folder](/running_a_server/worlds/8.png)
 
 Alternatively, if you'd like to use a plugin or mod such as [Multiverse-Core](/plugins/multiverse), you can import it using the folder's name.
@@ -94,7 +94,7 @@ Press the '...' button next to your ZIP and click 'Unarchive'. Wait for extracti
 After unzipping, check that `level.dat` and the `db` folder are directly inside `worlds/my-world`, rather than inside another nested folder. Here is how it should generally look.
 ![Extracted Bedrock world files in the File Manager](/running_a_server/worlds/18.png)
 
-Lastly, open the `server.properties` file in the main directory of your server and ensure the `level-name=` setting matches with the folder that you created before:
+Lastly, open the `server.properties` file in the Home directory of your server and ensure the `level-name=` setting matches with the folder that you created before:
 ![server.properties level-name set to the imported Bedrock world folder](/running_a_server/worlds/8.png)
 
 That's it! Make sure to restart your server to apply the changes.

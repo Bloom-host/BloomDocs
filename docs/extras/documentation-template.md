@@ -79,8 +79,7 @@ Sometimes a step has multiple valid paths. Use a table or side-by-side breakdown
 | | **Option A** | **Option B** |
 |---|---|---|
 | **Best for** | Beginners | Advanced users |
-| **Requires** | Panel access | SFTP + Console |
-| **Speed** | Slower | Faster |
+| **Requires** | File Manager | SFTP client |
 
 ### Code Examples
 

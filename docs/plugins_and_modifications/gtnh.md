@@ -72,9 +72,9 @@ In "File Manager" select and delete all files.
 
 After completing the local setup above and stopping the local server, open the prepared Gregtech New Horizons server pack folder. Select all files and folders **inside it** and compress them into a ZIP such as `GTNH.zip`. Compressing the contents avoids adding an extra parent folder when you extract the pack on your server.
 
-Open your Bloom server's File Manager at the root (Home) directory. Follow our [File Manager upload guide](/file-manager-controls#uploading-files-without-sftp) to drag the ZIP into the panel, and wait for the upload to finish.
+Open your Bloom server's File Manager at the Home directory. Follow our [File Manager upload guide](/file-manager-controls#uploading-files-without-sftp) to drag the ZIP into the panel, and wait for the upload to finish.
 
-Use the uploaded ZIP's context menu to extract it, then wait for extraction to finish. Check that `lwjgl3ify-forgePatches.jar`, `java9args.txt`, and the pack's folders are directly in the server root, rather than inside a `GTNH` subfolder. Once you have confirmed the files are in place, you can delete the uploaded ZIP.
+Open the uploaded ZIP's context menu and select **Unarchive**. Wait for extraction to finish. Check that `lwjgl3ify-forgePatches.jar`, `java9args.txt`, and the pack's folders are directly in the server's Home directory, rather than inside a `GTNH` subfolder. Once you have confirmed the files are in place, you can delete the uploaded ZIP.
 
 In the "Console" tab of the Bloom panel, press "Start" and your server should start, assuming you followed the steps in this guide correctly.
 

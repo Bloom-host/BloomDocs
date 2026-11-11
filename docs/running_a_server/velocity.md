@@ -129,7 +129,7 @@ You need to disable BungeeCord forwarding if you had it enabled beforehand. Make
 
 In `config/paper-global.yml`, under the `velocity` section set `enabled: true` and `secret ''` to match the secret in your `forwarding.secret` file.
 
-The `forwarding.secret` is found in the main folder of your Velocity Proxy server, and it will contain a text that you need to paste inside the '' in the secret line in the `paper-global.yml` files of your backend servers. See the screenshots below:
+The `forwarding.secret` is found in the Home folder of your Velocity Proxy server, and it will contain a text that you need to paste inside the '' in the secret line in the `paper-global.yml` files of your backend servers. See the screenshots below:
 
 ![Velocity proxy forwarding.secret file](/running_a_server/velocity/5.png)
 
