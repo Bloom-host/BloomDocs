@@ -54,6 +54,6 @@ You are all set! Your invoice will be generated as usual within 7 days of the du
 
 If your cancellation request was already processed, this means that your server has already been cancelled. For unmanaged services like Bare Metal and VPS, we don't keep backups of our own, so we are unable to help with data recovery. If you wish to resume your service you'll need to purchase a new plan via our website and restore your files with your own backups. 
 
-Instead if you accessed a managed service via our [DuckPanel](https://mc.bloom.host/), you might still be in time to request an Emergency Restoration of your old files. We keep node-wide Emergency Backups for up 4 weeks for managed services, so we may still have a copy of your files as long as the service wasn't cancelled any later than 4 weeks. To inquire about your recovery options, please open a [Billing Ticket](https://billing.bloom.host/supporttickets.php).
+If you accessed a managed service via our [DuckPanel](https://mc.bloom.host/), you might still be in time to request an Emergency Restoration of your old files. We keep node-wide Emergency Backups for up to 4 weeks for managed services, so we may still have a copy of your files as long as the service was cancelled within the last 4 weeks. To inquire about your recovery options, please open a [Billing Ticket](https://billing.bloom.host/supporttickets.php).
 
 
