@@ -42,11 +42,11 @@ Archiving can take some time, especially on larger servers. For more information
 With your server still stopped, follow these steps to install MCASelector:
 
 1. Open **Settings** in DuckPanel.
-2. Find **Change Server Type** and select the **No Support Servers** category.
+2. Find **Change Server Type** and select the **Minecraft Tools** category.
 3. Select **MCASelector**, then click **Change Server Type**.
 4. Wait for the installation to finish before continuing.
 
-![MCASelector installation completed in DuckPanel](/running_a_server/mcaselector/1.png)
+![Change Server Type set to Minecraft Tools and MCASelector](/running_a_server/mcaselector/1.png)
 
 ---
 
