@@ -179,6 +179,7 @@ paper:
       inline: false
 
 aikar:
+  slash-command: true
   aliases:
     - 'flags'
     - 'flag'
@@ -617,6 +618,7 @@ panel:
   image: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/I5X0x8.png'
 
 upgrade:
+  slash-command: true
   aliases:
     - 'upgrades'
     - 'downgrade'
