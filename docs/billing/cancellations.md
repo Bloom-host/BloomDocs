@@ -46,7 +46,7 @@ To undo your cancellation request you'll need to select the service in question 
 
 ![img](/billing/withdraw_cancellation/1.png)
 
-You are all set! Your invoice will be generated as usual within 7 days of the due date. If the invoice was cancelled, it will be set back to unpaid. We recommend making a manual payment to ensure the subscription is re-stablished if it was cancelled. 
+You are all set! Your invoice will be generated as usual within 7 days of the due date. If the invoice was cancelled, it will be set back to unpaid. We recommend making a manual payment to ensure the subscription is re-established if it was cancelled. 
 
 ---
 
