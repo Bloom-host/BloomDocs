@@ -30,12 +30,10 @@ Yes, NuVotifier is like Vault where it's version independent.
 ## Pre-requisites
 - [NuVotifier](https://www.spigotmc.org/resources/nuvotifier.13449/)
 - Any plugin that hooks into NuVotifier, [VotingPlugin](https://www.spigotmc.org/resources/votingplugin.15358/) is what will be used for the tutorial.
-- Ability to browse or view server files, a few guides linked below:
-  - [Connect using your favorite program on your computer](https://docs.bloom.host/sftp/)
-  - [Manage and edit your files through the DuckPanel](https://docs.bloom.host/file-manager-controls)
+- Access to DuckPanel's [File Manager](/file-manager-controls) to upload plugins and edit their configuration files.
 
 ### Single Server Configuration
-This page continues with the implication you have downloaded the resources above or a vote plugin to hook into NuVotifier of your choosing, and put it in your `plugins` folder.
+Download NuVotifier and VotingPlugin (or your chosen vote reward plugin), then open your Minecraft server's `plugins` folder in DuckPanel's File Manager. Follow our [File Manager upload guide](/file-manager-controls#uploading-files-without-sftp) to upload both plugin `.jar` files. Wait for the uploads to finish, then restart the server to generate their configuration files before continuing.
 
 #### NuVotifier Requirements
 Please check your `config.yml`, you'll notice there is a list of configuration options! you only need to remember one config option.

@@ -21,10 +21,11 @@ If you upload or generate a world on a Bukkit/Spigot/Paper server, you will noti
 ---
 
 ## Part 1: Download the world
-**Note:** This is not strictly necessary; you can use SFTP or the File Manager if you want, but downloading the files makes them much easier to work with.
+Stop your server so its world files do not change during the download. In DuckPanel's File Manager, select the `world`, `world_nether`, and `world_the_end` folders together and follow our [file and folder download guide](/file-manager-controls#downloading-files). If your world uses a different name, select its corresponding three folders instead.
 
+The panel packages multiple folders into a `.tar.gz` archive. Extract it on your computer, keeping all three world folders together. Your extraction tool may require two passes: first extract the `.gz` layer, then the resulting `.tar` file.
 
-This is most easily done by archiving the files using the File Manager and downloading them using SFTP. For instructions on using the File Manager and SFTP, please see [File Manager Controls](/file-manager-controls/) and [How to use SFTP](/sftp/), respectively.
+**Note:** You can also copy the dimension folders directly within the [File Manager](/file-manager-controls), but the steps below use a downloaded copy.
 
 ---
 
