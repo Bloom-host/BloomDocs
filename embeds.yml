@@ -1188,6 +1188,18 @@ warp:
 
     ✅ **Download WARP: https://1.1.1.1**
 
+    Once installed, open **Cloudflare One Client** from the Windows Start menu. You may need to open it a second time to display its window. If it stays in the system tray, click the **^** arrow next to the clock on your taskbar, then click the Cloudflare WARP icon.
+
+    On the **Home** page, select **Traffic and DNS (UDP)** from the **Mode** dropdown, then click **Connect**. Try connecting to your Minecraft server again to see whether your ping or connection improves.
+
+    If you cannot access our website or panels while using WARP, remove only the `host` entry from Local Domain Fallback:
+
+    1. Open the **Cloudflare One Client** window as described above.
+    2. Select **Settings** in the left sidebar.
+    3. Scroll down to **Local Domain Fallback** and click **Configure**.
+    4. Find `host`, click the **⋯** menu on that row, and select **Delete**. Leave the other entries unchanged.
+    5. Try opening our website or panels again in your browser.
+
 worldtype:
   aliases: [ 'world', 'worldtypes' ]
   title: 'World Types'
