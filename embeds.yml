@@ -1188,6 +1188,23 @@ warp:
 
     ✅ **Download WARP: https://1.1.1.1**
 
+    **Which mode should I use?**
+    On the app's **Home** page, set **Mode** to **Traffic and DNS (UDP)**, then click **Connect** to test Minecraft ping/routing issues.
+    - **Traffic and DNS (UDP):** Our recommended starting point. Routes game traffic through WARP and sends DNS queries over UDP inside the encrypted tunnel.
+    - **Traffic and DNS (HTTPS/TLS):** Also routes game traffic through WARP, but uses DNS-over-HTTPS or DNS-over-TLS for DNS queries. These labels describe DNS transport, not Minecraft's protocol; HTTPS mode still routes Minecraft traffic.
+    - **Traffic only:** Routes game traffic through WARP while keeping your device's existing DNS settings.
+    - **DNS only (HTTPS/TLS):** Handles DNS without routing game traffic through WARP, so it cannot test an alternate route to your Minecraft server.
+    - **Local proxy:** Only routes apps configured to use its proxy; avoid this for a normal Minecraft routing test.
+
+    Compare your ping and connection to the same Minecraft server with WARP disconnected, then connected, close together in time. WARP may improve or worsen latency; an improvement suggests a routing issue but does not prove its cause.
+
+    If you cannot access Bloom's website while using WARP, remove only the `host` entry from Local Domain Fallback. In the current Windows app:
+    1. Open Cloudflare WARP (Cloudflare One Client) from the Start menu.
+    2. Select **Settings** in the left sidebar.
+    3. Scroll down to **Local Domain Fallback** and click **Configure**.
+    4. Find `host`, click the **⋯** menu on that row, and select **Delete**. Leave the other entries unchanged.
+    5. Try opening our website or panels again in your browser.
+
 worldtype:
   aliases: [ 'world', 'worldtypes' ]
   title: 'World Types'
