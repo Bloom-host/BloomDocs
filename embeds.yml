@@ -1223,6 +1223,14 @@ warp:
     4. Find `host`, click the **⋯** menu on that row, and select **Delete**. Leave the other entries unchanged.
     5. Try opening our website or panels again in your browser.
 
+nethernet:
+  slash-command: true
+  title: '📜 Bloom Docs - NetherNet'
+  description: >
+    Check out our guide on setting up NetherNet for Bedrock Dedicated Servers
+    and GeyserMC [here](https://docs.bloom.host/nethernet).
+  thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/tY6IAF.png'
+
 worldtype:
   aliases: [ 'world', 'worldtypes' ]
   title: 'World Types'
