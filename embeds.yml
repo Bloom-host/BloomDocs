@@ -43,6 +43,7 @@ help:
       inline: true
 
 clientlogs:
+  slash-command: true
   aliases: [ 'clogs' ]
   colour: '#D7B48E'
   description: |+
@@ -71,6 +72,7 @@ timezone:
   image: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/timezone.png'
 
 billing:
+  slash-command: true
   aliases:
     - 'billingticket'
     - 'ticket'
@@ -213,9 +215,10 @@ fbi:
   aliases: [ 'fbimeme' ]
   text: https://i.clumsy.host/fbi.mp4
 
-fbiinfo:
+offlinemode:
+  slash-command: true
   aliases:
-    - 'offlinemode'
+    - 'fbiinfo'
     - 'blackspigot'
     - 'piracyisbad'
     - 'crackedserver'
@@ -578,6 +581,7 @@ binarysearch:
   thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/tY6IAF.png'
 
 importserver:
+  slash-command: true
   aliases:
     - 'import'
     - 'importer'
@@ -662,6 +666,7 @@ schedules:
   image: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/rgabRH.png'
 
 sftp:
+  slash-command: true
   aliases: [ 'ftp' ]
   title: '📜 Bloom Docs - SFTP'
   description: >
@@ -684,6 +689,7 @@ emailchange:
   image: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/billing/email_change/2.png'
 
 subusers:
+  slash-command: true
   aliases:
     - 'users'
     - 'sb'
@@ -746,6 +752,7 @@ filemanager:
   image: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/twkYen.png'
 
 backup:
+  slash-command: true
   aliases: [ 'backups' ]
   title: '📜 Bloom Docs - Backups'
   description: >
@@ -975,6 +982,7 @@ optimization:
   image: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/FcHN3O.png'
 
 domain:
+  slash-command: true
   aliases: [ 'ip' ]
   title: '📜 Bloom Docs - Domain'
   description: >
