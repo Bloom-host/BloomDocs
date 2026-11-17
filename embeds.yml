@@ -43,6 +43,7 @@ help:
       inline: true
 
 clientlogs:
+  slash-command: true
   aliases: [ 'clogs' ]
   colour: '#D7B48E'
   description: |+
@@ -54,6 +55,7 @@ clientlogs:
   image: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/client_logs.gif'
 
 timezone:
+  slash-command: true
   aliases: [ 'tz' ]
   colour: '#FAFAFA'
   description: |+
@@ -71,6 +73,7 @@ timezone:
   image: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/timezone.png'
 
 billing:
+  slash-command: true
   aliases:
     - 'billingticket'
     - 'ticket'
@@ -92,6 +95,7 @@ billing:
       position: 1
 
 voicechat:
+  slash-command: true
   aliases:
     - 'vc'
     - 'simplevoicechat'
@@ -213,9 +217,10 @@ fbi:
   aliases: [ 'fbimeme' ]
   text: https://i.clumsy.host/fbi.mp4
 
-fbiinfo:
+offlinemode:
+  slash-command: true
   aliases:
-    - 'offlinemode'
+    - 'fbiinfo'
     - 'blackspigot'
     - 'piracyisbad'
     - 'crackedserver'
@@ -417,6 +422,7 @@ bloomab:
       emoji: '<:github:1205553982152515744>'
 
 chunky:
+  slash-command: true
   title: 'Chunky'
   title-icon: '%guildicon%'
   description: |+
@@ -449,6 +455,7 @@ chunky:
       inline: false
 
 velocity:
+  slash-command: true
   aliases: [ 'velo' ]
   title: 'Velocity'
   description: |+
@@ -570,6 +577,7 @@ waterfall:
 
 # Todo: this is really generic
 binarysearch:
+  slash-command: true
   aliases: [ 'binary' ]
   title: '📜 Bloom Docs - Binary Search'
   description: >
@@ -578,6 +586,7 @@ binarysearch:
   thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/tY6IAF.png'
 
 importserver:
+  slash-command: true
   aliases:
     - 'import'
     - 'importer'
@@ -593,6 +602,7 @@ importserver:
   image: 'https://docs.bloom.host/assets/images/1-f63d21b5dd3fbb0392aa5c30a55e6650.png'
 
 importdatabase:
+  slash-command: true
   aliases:
     - 'importdatabases'
     - 'importdb'
@@ -653,6 +663,7 @@ documentation:
   image: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/docs.png'
 
 schedules:
+  slash-command: true
   aliases: [ 'schedule' ]
   title: '📜 Bloom Docs - Schedules'
   description: >
@@ -662,6 +673,7 @@ schedules:
   image: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/rgabRH.png'
 
 sftp:
+  slash-command: true
   aliases: [ 'ftp' ]
   title: '📜 Bloom Docs - SFTP'
   description: >
@@ -684,6 +696,7 @@ emailchange:
   image: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/billing/email_change/2.png'
 
 subusers:
+  slash-command: true
   aliases:
     - 'users'
     - 'sb'
@@ -696,6 +709,7 @@ subusers:
   image: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/ARyhBo.png'
 
 database:
+  slash-command: true
   aliases:
     - 'databases'
     - 'mysql'
@@ -710,6 +724,7 @@ database:
   image: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/ZAYTsz.png'
 
 revproxy:
+  slash-command: true
   aliases:
     - 'reverseproxy'
     - 'rp'
@@ -722,6 +737,7 @@ revproxy:
   image: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/ZIT9nf.png'
 
 split:
+  slash-command: true
   aliases:
     - 'splitserver'
     - 'serversplit'
@@ -746,6 +762,7 @@ filemanager:
   image: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/twkYen.png'
 
 backup:
+  slash-command: true
   aliases: [ 'backups' ]
   title: '📜 Bloom Docs - Backups'
   description: >
@@ -818,6 +835,7 @@ whitelist:
       emoji: '❔'
 
 internal:
+  slash-command: true
   aliases:
     - 'internal-servers'
     - 'internal-server'
@@ -862,6 +880,7 @@ billingsubusers:
       emoji: '❔'
 
 cancellation:
+  slash-command: true
   aliases:
     - 'cancellations'
     - 'cancel'
@@ -876,6 +895,7 @@ cancellation:
       emoji: '❔'
 
 refunds:
+  slash-command: true
   aliases: [ 'refund' ]
   title: '📜 Bloom Docs - How to request a refund'
   description: >
@@ -962,6 +982,7 @@ servermods:
   image: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/wHrhIR.png'
 
 optimization:
+  slash-command: true
   aliases:
     - 'optimize'
     - 'lowtps'
@@ -975,6 +996,7 @@ optimization:
   image: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/FcHN3O.png'
 
 domain:
+  slash-command: true
   aliases: [ 'ip' ]
   title: '📜 Bloom Docs - Domain'
   description: >
@@ -1015,6 +1037,7 @@ java:
   image: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/java.png'
 
 emergencyrestore:
+  slash-command: true
   title: '📜 Bloom Docs - Emergency Restores'
   aliases:
     - 'emergencyrestores'
