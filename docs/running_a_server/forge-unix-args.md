@@ -3,7 +3,8 @@ id: forge-unix-args
 title: Using unix_args.txt on Forge and NeoForge
 slug: /forge-unix-args
 sidebar_label: Forge and NeoForge Startup Files
-description: How to use unix_args.txt for Forge and NeoForge.  
+description: How to use unix_args.txt for Forge and NeoForge.
+keywords:
   - Forge
   - NeoForge
   - unix_args.txt
