@@ -31,7 +31,7 @@ You'll first need to find the modpack you wish to install. Downloads can be foun
 
 ![](/plugins_and_modifications/serverpacks/1.png)
 
-The example below uses Better Minecraft on Forge for Minecraft 1.16.5.
+The first step would be selecting the modpack we want to install, in this tutorial we will use Better Minecraft Forge version.
 
 ![](/plugins_and_modifications/serverpacks/2.png)
 
@@ -50,7 +50,7 @@ After downloading the server pack, extract it on a folder. The extracted files w
 :::note
 Some server packs already come with Forge installed or require you to run a .bat file to download the mods and Forge. 
 
-If your server pack already comes with Forge installed, you can skip the installer and go straight to uploading the pack to your Bloom server.
+This tutorial only applies to server packs that don't come with Forge installed. if the server pack comes with Forge installed you just need to upload the files to your Bloom server and start the server with the Forge .jar (not the one that says minecraft_server.jar).
 
 If the server doesn't come with Forge installed or a Forge installer, it most likely comes with a .bat to download all the files, in this case just click on the .bat and it should start downloading the necessary files. Then you just need to follow the rest of this tutorial to upload the files to your Bloom server and start it.
 :::
@@ -79,11 +79,7 @@ Server packs contain a lot of files, so you will need to connect through SFTP to
 
 ![](/plugins_and_modifications/serverpacks/13.png)
 
-Before starting the server, make sure the pack's files and folders, such as `mods` and `config`, are directly in the server's Home directory. If the archive extracted into an extra parent folder, [move its contents](/file-manager-controls#controls-summary) into the Home directory. Wait for extraction and any file moves to finish before continuing.
-
-If your pack uses **Forge for Minecraft 1.17.1 or newer**, or **any version of NeoForge**, check that `unix_args.txt` is in **Home**. Then go to **Console** and click **Start**. If you can't find the file, see our [Forge and NeoForge startup guide](/forge-unix-args).
-
-For **Forge on Minecraft 1.16.5 or older**, go to **Console** and click **Start**. When prompted to select a JAR, choose the Forge server JAR. In our example, that's `forge-1.16.5-36.2.8.jar`.
+We are almost finished! Now you can go to the console page, and start the server. But don't leave this page! You will be prompted to select the .jar to be used to start the server. You will need to select the Forge .jar, but not the one that says "Installer", just select the one that looks like this: Forge-1.16.5-36.2.8.jar (the version will be different).
 
 :::note
 Some servers don't name their .jar "Forge", in some cases it may have the name of the modpack like jurassic_reborn.jar, in this case just select that .jar to start the server.
