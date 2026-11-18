@@ -240,6 +240,7 @@ module.exports = {
                         'plugins_and_modifications/plugins/discordsrv', //Discord <-> Minecraft bridge
                         'plugins_and_modifications/plugins/essentialsx',
                         'plugins_and_modifications/plugins/griefprevention',
+                        'plugins_and_modifications/plugins/gsit',
                         'plugins_and_modifications/plugins/multiverse', //Bukkit multi-world manager
                         'plugins_and_modifications/plugins/papi', // PlaceholderAPI
                         'plugins_and_modifications/plugins/prism',
