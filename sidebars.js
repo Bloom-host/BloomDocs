@@ -70,6 +70,7 @@ module.exports = {
             items: [
                 'running_a_server/updating', // How to update
                 'running_a_server/jars', // Explains the different server JAR file options
+                'running_a_server/forge-unix-args',
                 'running_a_server/optimization', // Server optimisation information
                 'running_a_server/world-reset',
                 'running_a_server/domain',
