@@ -29,7 +29,7 @@ Select the world you want to install the datapack onto.
 
 ![File Manager tab showing the datapacks folder](/running_a_server/datapacks/2.png)
 
-Open the `datapacks/` folder, select **New → Upload**, and choose your datapack `.zip` file. Alternatively, drag and drop the `.zip` file into the folder.
+Open the `datapacks/` folder, select **New → File upload**, and choose your datapack `.zip` file. Alternatively, drag and drop the `.zip` file into the folder.
 
 :::important
 Remember that you need to upload the `.zip` datapack file, you don't need to unzip it.
