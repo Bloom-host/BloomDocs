@@ -63,8 +63,8 @@ server-port=19132
 server-udp-ports=203.0.113.25:19132:19132
 ```
 
-- `server-port` is the TCP signaling port
-- `server-udp-ports` is the UDP gameplay port, the same port number with your server's public IP address in front. The IP is needed because signaling can go through our [TLS proxy](#connecting-with-a-domain) instead of straight to your server.
+- `server-port` is the TCP signaling port.
+- `server-udp-ports` is the UDP gameplay port, the same port number with your server's public IP address in front. The public IP is where players connect for UDP gameplay; the TLS proxy handles the TCP signaling connection.
 
 ---
 
