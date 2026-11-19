@@ -10,7 +10,11 @@ keywords:
   - cancellations
 ---
 
-Hey Bloomers! In this guide we will be going over how to request a cancellation.
+## Overview 
+
+This guide explains the simple process of requesting the cancellation of your service. We'll also explain how to undo said cancellation.
+
+---
 
 ## How to request a cancellation
 
@@ -24,6 +28,8 @@ Download a backup of all your files before submitting a cancellation request. On
 
 ![img](/billing/cancellations/2.png)
 
+---
+
 ## Refunds
 
 :::caution
@@ -31,3 +37,23 @@ You may request a refund on the basis that you have submitted an "Immediate" can
 
 You can visit our [Refund documentation](/billing/refunds) to learn more about our refund policy. You can also read our [Terms and Service Policy](https://bloom.host/terms/).
 :::
+
+---
+
+## How to Withdraw Your Cancellation Request
+
+To undo your cancellation request you'll need to select the service in question via your [services page](https://billing.bloom.host/clientarea.php?action=services) on our billing portal. Once you are in the service's page you can select "Remove Cancellation" from the left side-menu as shown in our example screenshot below:
+
+![img](/billing/withdraw_cancellation/1.png)
+
+You are all set! Your invoice will be generated as usual within 7 days of the due date. If the invoice was cancelled, it will be set back to unpaid. We recommend making a manual payment to ensure the subscription is re-established if it was cancelled. 
+
+---
+
+## Too Late To Withdraw Cancellation? 
+
+If your cancellation request was already processed, this means that your server has already been cancelled. For unmanaged services like Bare Metal and VPS, we don't keep backups of our own, so we are unable to help with data recovery. If you wish to resume your service you'll need to purchase a new plan via our website and restore your files with your own backups. 
+
+If you accessed a managed service via our [DuckPanel](https://mc.bloom.host/), you might still be in time to request an Emergency Restoration of your old files. We keep node-wide Emergency Backups for up to 4 weeks for managed services, so we may still have a copy of your files as long as the service was cancelled within the last 4 weeks. To inquire about your recovery options, please open a [Billing Ticket](https://billing.bloom.host/supporttickets.php).
+
+
