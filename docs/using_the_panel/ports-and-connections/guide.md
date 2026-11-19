@@ -111,18 +111,6 @@ Closing a port also deletes the free subdomains on it and removes its domains. R
 
 The primary port cannot be closed. To close it, [make another port primary](#managing-a-port) first.
 
-### Ports Opened by a Startup Setting
-
-Some server types open ports through a setting on the 'Startup' tab, such as the gameplay ports of
-a [Bedrock Dedicated Server](/nethernet#bedrock-dedicated-server).
-
-These are grouped together with a 🔒 padlock, and you can see each of them with the 'Show Ports' button:
-
-![Ports opened by the Max Players startup setting](managed_ports.png)
-
-They are opened and closed by changing that setting, so they cannot be closed here and connections cannot be added to
-them. They don't count towards your port limit.
-
 ### Internal Servers
 
 The 'Make Internal' button at the bottom of the tab closes every port and removes their connections. Your server can

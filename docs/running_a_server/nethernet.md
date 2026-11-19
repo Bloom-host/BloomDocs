@@ -49,28 +49,22 @@ To switch your server to one of them:
 
 ## Bedrock Dedicated Server
 
-On BDS, signaling and gameplay use separate ports, which the panel creates for you:
+BDS now supports multiplexing, so several players share one UDP port, and a single port with both TCP and UDP enabled is sufficient. This is the primary port (`19132` in the example below):
 
-- **Primary port** (`19132` in the example below): the signaling port, **TCP**-only
-- **Gameplay ports** (`19133-19142` below): a range of **UDP** ports
+- **TCP**: signaling
+- **UDP**: gameplay, for every player
 
-Until BDS supports sharing one UDP port between several players (also known as multiplexing), each player slot needs its own UDP port. Because of this, the player limit is set with the **Max Players** setting in the **Startup** tab instead of in `server.properties` directly. 
-
-![Ports & Connections tab showing the TCP signaling port and the UDP gameplay ports](/running_a_server/nethernet/2.png)
+Set the player limit with `max-players` in `server.properties`, as on any other Bedrock server.
 
 `server.properties` is automatically set up based on this. For example:
 
 ```properties
 server-port=19132
-server-udp-ports=203.0.113.25:19133-19142:19133-19142
+server-udp-ports=203.0.113.25:19132:19132
 ```
 
-- `server-port` is the TCP signaling port
-- `server-udp-ports` are the gameplay port ranges, opened automatically
-
-Max Players is currently temporarily limited to **50**. If this causes issues for your server, create a ticket in our [Discord server](https://bloom.host/discord).
-
-![Max Players setting on the Startup tab](/running_a_server/nethernet/3.png)
+- `server-port` is the TCP signaling port.
+- `server-udp-ports` is the UDP gameplay port, the same port number with your server's public IP address in front. The public IP is where players connect for UDP gameplay; the TLS proxy handles the TCP signaling connection.
 
 ---
 
@@ -125,10 +119,6 @@ With GeyserMC, Bedrock players need a domain or subdomain of their own. The one 
 
 ![Free subdomain through the TLS proxy for the signaling port](/running_a_server/nethernet/4.png)
 
-The subdomain is then listed under the port:
-
-![Signaling port with a free subdomain through the TLS proxy](/running_a_server/nethernet/5.png)
-
 Players can then join using the subdomain and that port, for example `yourserver.minecraft.best` with port `19132`.
 
 ### Using Your Own Domain
@@ -172,4 +162,4 @@ For those curious about what happens under the hood:
 The server replies with the details needed to set up the connection.  
 The MOTD and player count shown in the server list are also fetched through signaling.
 - **Gameplay**: The game connection itself runs over **WebRTC**, which uses **UDP**.
-- **Ports**: The server needs a TCP port for signaling in addition to the UDP port(s) for gameplay. Depending on the server software, these share a port number or use separate ones.
+- **Ports**: The server needs a TCP port for signaling in addition to a UDP port for gameplay. Both BDS and GeyserMC support multiplexing, so one port number open on both TCP and UDP carries signaling and every player's gameplay.
