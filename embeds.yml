@@ -1383,24 +1383,23 @@ unsupported:
     line-format: "- %egg%\n"
 
 # Sent when the /modpacks command is used
-# Placeholders: %modpacks%
-# Custom data: line-format (%modpack%)
 modpacks:
   text-command: false
   aliases:
     - 'modpacklist'
     - 'modpack'
     - 'packs'
-  title: 'List of Modpacks'
-  description: '%modpacks%'
+  title: 'Modpacks'
+  description: |+
+    We have server files for thousands of CurseForge modpacks, and any of them installs in one click from the **Modpacks** tab on your server's panel. New releases are added automatically.
+
+    You can search and browse the full list on our demo panel. It signs you in by itself, so it only takes a click.
   footer: 'Suggest a pack to be added: /suggestion create:<link/name>'
   buttons:
     - style: link
-      label: 'Full List'
-      id: 'https://bloom.host/modpacks/'
+      label: 'Browse Modpacks'
+      id: 'https://demo.bloom.host/server/c7e760ab/modpacks'
       emoji: '🔗'
-  custom-data:
-    line-format: "- %modpack%\n"
 
 # Sent when the /claims command is used
 # Placeholders: %time%, %lines%, %total%, %unclaimed%
