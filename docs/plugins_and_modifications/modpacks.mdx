@@ -1,0 +1,468 @@
+---
+id: modpacks
+title: Installing Modpacks
+slug: /modpacks
+hide_table_of_contents: false
+sidebar_label: Installing Modpacks
+description: Install a modpack from CurseForge, Modrinth or your own launcher on your Bloom server, including making your own server pack with ServerPackCreator
+keywords:
+  - Forge
+  - NeoForge
+  - Fabric
+  - Minecraft
+  - Modded
+  - CurseForge
+  - Modrinth
+  - Modpack
+  - ServerPackCreator
+  - SPC
+  - Server packs
+---
+
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+
+:::important
+Before following this guide, open the **Modpacks** tab on our [Minecraft panel](https://mc.bloom.host) and search for your modpack. If it is there, just click it and it will be installed for you. You do not need this guide at all.
+
+To see which modpacks are available, visit our [Modpack list page](https://bloom.host/modpacks/).
+:::
+
+### How this guide works
+
+Installing a modpack takes five steps. If your modpack has no server pack, Step 1 also shows you how to make one.
+
+1. Get the server files for your modpack.
+2. Find out which mod loader and version the modpack uses.
+3. Install that mod loader on your server from the panel.
+4. Upload the modpack files.
+5. Start your server.
+
+A **mod loader** is the program that runs your mods. It will be Forge, NeoForge or Fabric. You do not need to install it yourself, because the panel does it for you in Step 3.
+
+:::caution[Updating a modpack you already have?]
+Do not follow this guide from the start, because Step 3 deletes your world. Skip down to [Updating a modpack](#updating-a-modpack) instead.
+:::
+
+---
+
+## Step 1. Get the server files
+
+Pick where your modpack comes from.
+
+<Tabs groupId="modpacksource" queryString>
+<TabItem value="curseforge" label="CurseForge" default>
+
+Most modpacks on CurseForge come with a **server pack**. This is a version of the modpack made to run on a server. Here is how to find it.
+
+1. Go to the [multiplayer modpacks on CurseForge](https://www.curseforge.com/minecraft/modpacks/multiplayer) and open the modpack you want. In this guide we use Better Minecraft as the example.
+
+![CurseForge modpack list filtered to the Multiplayer category](/plugins_and_modifications/serverpacks/cf_choosepack.png)
+
+2. Click the **Files** tab.
+
+![The Files tab on a CurseForge modpack page](/plugins_and_modifications/serverpacks/cf_filestab.png)
+
+3. Scroll down to the **Additional Files** section. Look for a file with **Server Pack** in its name and click **Download**.
+
+![The Additional Files section showing the Server Pack download button](/plugins_and_modifications/serverpacks/cf_serverpack_download.png)
+
+![Browser download bar showing the downloaded server pack zip](/plugins_and_modifications/serverpacks/cf_download_complete.png)
+
+4. Find the `.zip` file you downloaded, right click it and choose **Extract All**. This gives you a normal folder you can look inside.
+
+**Can't find a server pack?**
+
+Some modpacks do not have one. If there is no **Server Pack** file under **Additional Files**, you can make one yourself. Open the [**Make your own server pack**](?modpacksource=custom#step-1-get-the-server-files) tab above.
+
+</TabItem>
+<TabItem value="modrinth" label="Modrinth">
+
+Modrinth modpacks download as a `.mrpack` file. This file only works in a game launcher, so it cannot be put on a server.
+
+Some Modrinth modpacks also offer a server pack. Here is how to check. In this guide we use Zombie Invade 100 Days as the example.
+
+1. Open the modpack on [Modrinth](https://modrinth.com/modpacks) and click the **Versions** tab.
+2. Click the version you want.
+3. Scroll to the bottom of the page. If there is a **Supplementary resources** section with a `.zip` file that has **server** in its name, click **Download** next to it.
+
+![The Supplementary resources section on a Modrinth version page with the server zip file](/plugins_and_modifications/serverpacks/mr_versions_serverpack.png)
+
+4. Find the `.zip` file you downloaded, right click it and choose **Extract All**. Then carry on from Step 2.
+
+:::note
+Only a `.zip` file works. If the server file is a `.mrpack`, it is made for a launcher, and you will need to make your own server pack instead.
+:::
+
+**No server file?**
+
+Most Modrinth modpacks do not have one. If yours does not, you can make one yourself. Open the [**Make your own server pack**](?modpacksource=custom#step-1-get-the-server-files) tab above. It has steps just for the Modrinth app.
+
+</TabItem>
+<TabItem value="custom" label="Make your own server pack">
+
+If your modpack has no server pack, or you put the modpack together yourself, you can make a server pack with **ServerPackCreator** (SPC for short). It is a free program that makes one from the modpack on your computer.
+
+:::caution
+SPC works for most modpacks, but it is not perfect. Some modpacks still need a small fix before the server will start. See [The server crashes on startup with a mod error](#common-problems) at the bottom of this page if yours does.
+:::
+
+**Install ServerPackCreator**
+
+1. Open the [latest ServerPackCreator release](https://github.com/Griefed/ServerPackCreator/releases/latest).
+2. Scroll down to **Assets** and download the installer for your computer.
+
+| Your computer | Download the file ending in |
+| --- | --- |
+| Windows | `Installer-Windows-x86_64.exe` |
+| Mac | `Installer-Mac.dmg` |
+| Linux | `Installer-Linux-amd64.sh` |
+
+![The Assets list on the ServerPackCreator 9.4.1 release page, with the Linux, Mac and Windows installers marked](/extras/serverpackcreator/spc_download_installer.png)
+
+3. Open the file you downloaded and click through the installer.
+4. Start ServerPackCreator from the shortcut the installer made.
+
+:::note
+The installer comes with its own Java, so you do not need to install Java first. Skip any file with `experimental` in its name, and skip the **continuous** release at the top of the releases page. Those are test builds.
+:::
+
+**Make the server pack**
+
+Pick the launcher your modpack is installed in.
+
+<Tabs groupId="launcher">
+<TabItem value="curseforge" label="CurseForge" default>
+
+1. In the CurseForge app, right click your modpack and choose **Open Folder**. Copy the folder location from the top of the window.
+2. In SPC, click the folder button next to **Modpack Directory**, and open the folder you just copied.
+
+![Opening the modpack folder from CurseForge and selecting it in ServerPackCreator](/extras/serverpackcreator/curseforge/curseforge1.gif)
+
+3. SPC scans your modpack and shows a **Modpack scanned** message. Check that the Minecraft version, mod loader and loader version match your modpack, then click **OK**.
+
+![The Modpack scanned message showing Minecraft 1.20.1, Forge and loader version 47.4.20](/extras/serverpackcreator/curseforge/curseforge2.png)
+
+4. Tick **Create ZIP Archive**, then click **Generate**. This can take a few minutes for a big modpack.
+
+![The Create ZIP Archive box ticked next to the Generate button](/extras/serverpackcreator/curseforge/curseforge3.png)
+
+5. When SPC asks if you want to open the server pack folder, click **No**. That button opens the unzipped folder, but you want the zip. Click **Server Packs** below **Generate** instead. You will see a `.zip` file named after your modpack.
+
+![The server-packs folder with the Beyond_Depth_server_pack.zip file](/extras/serverpackcreator/curseforge/curseforge4.png)
+
+</TabItem>
+<TabItem value="modrinth" label="Modrinth">
+
+1. In the Modrinth app, click your modpack on the left. Click the three dots at the top right and choose **Open Folder**. Copy the folder location from the top of the window.
+2. In SPC, click the folder button next to **Modpack Directory**, and open the folder you just copied.
+
+![Opening the modpack folder from the Modrinth app and selecting it in ServerPackCreator](/extras/serverpackcreator/modrinth/modrinth1.gif)
+
+3. SPC scans your modpack and fills in the Minecraft version, mod loader and loader version. SPC does not always get these right for Modrinth modpacks, so check them. In the Modrinth app, click the gear icon next to **Play** and look under **Installation info**. If the versions in SPC are different, change **Minecraft Version** and **Modloader Version** in SPC to match.
+
+![Checking the versions in the Modrinth app settings and changing them in ServerPackCreator](/extras/serverpackcreator/modrinth/modrinth2.gif)
+
+4. Tick **Create ZIP Archive**, then click **Generate**. This can take a few minutes for a big modpack.
+
+![The Create ZIP Archive box ticked next to the Generate button](/extras/serverpackcreator/modrinth/modrinth3.png)
+
+5. When SPC asks if you want to open the server pack folder, click **No**. That button opens the unzipped folder, but you want the zip. Click **Server Packs** below **Generate** instead. You will see a `.zip` file named after your modpack.
+
+![The server-packs folder with the server pack zip file](/extras/serverpackcreator/modrinth/modrinth4.png)
+
+</TabItem>
+<TabItem value="prism" label="Prism Launcher">
+
+1. In Prism Launcher, click your modpack once, then click **Folder** on the right. Copy the folder location from the top of the window.
+2. In SPC, click the folder button next to **Modpack Directory**, and open the folder you just copied.
+
+![Opening the modpack folder from Prism Launcher and selecting it in ServerPackCreator](/extras/serverpackcreator/prism/prism1.gif)
+
+3. SPC asks: "Prism Launcher keeps the interesting files in a sub folder called minecraft. Would you like to use that directory instead?" Click **Yes**. SPC then scans your modpack and fills in the Minecraft version, mod loader and loader version. Check that they match your modpack.
+
+![Choosing Yes on the minecraft sub folder message in ServerPackCreator](/extras/serverpackcreator/prism/prism2.gif)
+
+4. Tick **Create ZIP Archive**, then click **Generate**. This can take a few minutes for a big modpack.
+
+![The Create ZIP Archive box ticked next to the Generate button](/extras/serverpackcreator/prism/prism3.png)
+
+5. When SPC asks if you want to open the server pack folder, click **No**. That button opens the unzipped folder, but you want the zip. Click **Server Packs** below **Generate** instead. You will see a `.zip` file named after your modpack.
+
+![The server-packs folder with the server pack zip file](/extras/serverpackcreator/prism/prism4.png)
+
+</TabItem>
+</Tabs>
+
+**Find your mod loader**
+
+Next to the zip, there is a folder with the same name. Open it, then open `variables.txt` with Notepad. Three lines in it tell you what to install on your server.
+
+![variables.txt showing MINECRAFT_VERSION=1.20.1, MODLOADER=Fabric and MODLOADER_VERSION=0.18.6](/extras/serverpackcreator/serverpack_variables.png)
+
+| Line | What it means | Where it goes on the panel |
+| --- | --- | --- |
+| `MINECRAFT_VERSION` | Your Minecraft version, like `1.20.1` | **Version** |
+| `MODLOADER` | Your mod loader: Forge, NeoForge or Fabric | **Server Type** |
+| `MODLOADER_VERSION` | Your loader build, like `0.18.6` | **Build** |
+
+Write these three down, then carry on with Step 2 below. You already have everything it asks for.
+
+</TabItem>
+</Tabs>
+
+---
+
+## Step 2. Find out what your modpack needs
+
+You need to know three things before you go to the panel. Write them down as you find them.
+
+* **The mod loader.** This is Forge, NeoForge or Fabric.
+* **The Minecraft version.** For example 1.20.1.
+* **The loader build.** This is the version number of the mod loader itself. For example 47.4.9.
+
+The loader and the Minecraft version are shown on the modpack's download page on CurseForge and Modrinth. The loader is often in the modpack name too, like Better Minecraft **[FORGE]**.
+
+The loader build is not always shown on the download page. To find it, open the server pack folder you extracted in Step 1 and look for a file or folder from this table. The numbers in its name tell you what you need.
+
+| If you see this | It means |
+| --- | --- |
+| `forge-1.20.1-47.4.9-installer.jar` | Forge, Minecraft 1.20.1, build 47.4.9 |
+| a `libraries/net/minecraftforge/forge/1.19.2-43.5.0` folder | Forge, Minecraft 1.19.2, build 43.5.0 |
+| `neoforge-21.1.209-installer.jar` | NeoForge, build 21.1.209 |
+| a `libraries/net/neoforged/neoforge/21.1.209` folder | NeoForge, build 21.1.209 |
+| `fabric-server-launch.jar` | Fabric. Open `fabric-server-launcher.properties` with Notepad to see the versions |
+| `variables.txt` (made by ServerPackCreator) | Open it with Notepad. It lists all three |
+
+:::tip
+For NeoForge, the build number also tells you the Minecraft version. Build `21.1.209` is for Minecraft 1.21.1, and build `20.4.237` is for Minecraft 1.20.4.
+:::
+
+---
+
+## Step 3. Install the mod loader on your server
+
+:::danger
+This step deletes **everything** on your server, including your worlds. If there is anything on the server you want to keep, [make a backup](/backups) first.
+:::
+
+1. Go to the [Minecraft panel](https://mc.bloom.host), select your server, and open the **Settings** tab on the left.
+2. Find the **Change Server Type** box. Set **Server Type** to Forge, NeoForge or Fabric to match your modpack.
+3. Set **Version** to your Minecraft version, and **Build** to your loader build.
+4. Press **Change Server Type**. The panel asks you to make a backup first. Press **Continue**, then **Yes**.
+
+![The Change Server Type box set to Forge, Minecraft 1.20.1, build 47.3.12](/plugins_and_modifications/serverpacks/panel_change_server_type.png)
+
+5. The panel takes you to the **Console** and installs the mod loader. Wait until it says `Server installation complete!`.
+6. Go back to the **Settings** tab. In the **Reinstall Server** box, turn on **Remove All Files** and press **Reinstall Server**. Press **Yes, Reinstall Server** to confirm.
+
+![The Reinstall Server box with Remove All Files turned on](/plugins_and_modifications/serverpacks/panel_reinstall_remove_all.png)
+
+7. Wait until the console says `Server installation complete!` again.
+
+:::caution
+**Remove All Files** only works with the **Reinstall Server** button. Changing the server type on its own leaves the old files on your server, like an old `server.jar`, `plugins` or `mods` folder. These can stop your modpack from starting, which is why step 6 is needed.
+:::
+
+:::tip
+After this step, the panel may show **New build available!** with an **Update to the latest build** button. Do not press it. Your modpack needs the exact build you picked.
+:::
+
+Your server now has the mod loader installed and is set up to start with it. If you want to know more about the different mod loaders, see our [Server Software guide](/jars).
+
+---
+
+## Step 4. Upload the modpack files
+
+Now you will copy the modpack onto your server.
+
+### Pick the files to upload
+
+Open the server pack folder you extracted in Step 1. You are going to upload **everything in it, except** the files in this table. These files are for running the modpack on your own computer, and they will break your server if you upload them.
+
+| Do not upload | Why |
+| --- | --- |
+| Any file with `installer` in its name | The panel already installed the mod loader in Step 3 |
+| The `libraries` folder | The panel made its own `libraries` folder in Step 3. Uploading this one will stop your server from starting |
+| `run.sh`, `run.bat`, `start.sh` and any other `.bat`, `.sh`, `.ps1` or `.fish` file | The panel starts the server for you |
+| `minecraft_server.jar`, `server.jar` or any other `.jar` file not inside the `mods` folder | It would replace the file the panel set up, and your mods would not load |
+| `user_jvm_args.txt` | Memory and Java settings are on the **Startup** tab of the panel |
+
+:::tip Made your server pack with ServerPackCreator?
+Your server pack is already a zip with the right files in it, so skip straight to [Upload and unzip](#upload-and-unzip). The start files in it (`start.bat`, `start.ps1`, `start.sh` and `start.fish`) are not needed, because the panel starts the server for you. They do no harm if you upload them.
+:::
+
+### Put them in a zip
+
+A modpack has thousands of files, so it is much faster to upload one zip file than to upload them one by one.
+
+1. Download and install [7-Zip](https://www.7-zip.org/) if you do not have it. Please do not use the zip option built into Windows, because the panel often cannot open those zips.
+2. Select all the files and folders you are uploading.
+3. Right click them, go to **7-Zip**, and choose **Add to "your folder name.zip"**.
+
+![7-Zip menu with the Add to zip option selected](/plugins_and_modifications/serverpacks/compress_with_7zip.png)
+
+### Upload and unzip
+
+1. Open the **File Manager** on the panel. Make sure you are in the first folder, the one with the `libraries` folder the panel made.
+2. Click **New**, choose **File upload** and pick your zip. You can also drag the zip from your computer and drop it onto the File Manager. A small **Uploads** window at the bottom shows how far along it is. A big modpack can take a few minutes.
+
+![The New menu in the File Manager with File upload highlighted](/plugins_and_modifications/serverpacks/panel_file_upload.png)
+
+![The uploaded modpack zip in the File Manager](/plugins_and_modifications/serverpacks/panel_uploaded_zip.png)
+
+3. When the upload is done, click the three dots `...` to the right of your zip and choose **Unarchive**.
+
+![File Manager menu with the Unarchive option highlighted](/plugins_and_modifications/serverpacks/panel_unarchive.png)
+
+4. When it says **Finished unarchiving**, you should see your `mods` and `config` folders in the File Manager. You can now delete the zip.
+
+![The File Manager after unarchiving, showing the config, kubejs, mods and other modpack folders](/plugins_and_modifications/serverpacks/panel_after_unarchive.png)
+
+#### Are your files inside a folder?
+
+Sometimes the zip has a folder inside it. Then, instead of `mods` and `config`, you only see one new folder, usually named after your modpack. Your server cannot find the mods in there, so move them out:
+
+![The File Manager with the modpack files inside their own Zombie Invade 100 Days folder](/plugins_and_modifications/serverpacks/panel_nested_folder.png)
+
+1. Click the folder to open it.
+2. Tick the box at the top left to select everything inside, then click **Move** at the bottom.
+
+![All items in the folder selected, with the Move button at the bottom](/plugins_and_modifications/serverpacks/panel_select_all_move.png)
+
+3. In the window that opens, click **home** at the top. The box at the bottom should say the items will be moved to `/`. Click **Move here**.
+
+![The Move window with home selected and the Move here button](/plugins_and_modifications/serverpacks/panel_move_dialog.png)
+
+4. Go back to **home**. Your `mods` and `config` folders are there now. Delete the empty folder and the zip.
+
+:::tip
+You can also upload with SFTP if you prefer. Our [SFTP guide](/sftp) shows you how.
+:::
+
+---
+
+## Step 5. Start your server
+
+1. Open the **Console** tab and press **Start**.
+2. The first time it starts, you need to accept the [Minecraft EULA](https://www.minecraft.net/en-us/eula). This happens in one of two ways, depending on the modpack:
+   * **A message pops up on the panel.** Click **I Accept**. The server restarts by itself.
+
+   ![The Accept Minecraft EULA message with the I Accept button](/plugins_and_modifications/serverpacks/panel_accept_eula.png)
+
+   * **The console stops at `EULA:`.** Some modpacks ask in the console instead. Click the command box under the console, type `true` and press **Enter**.
+
+   ![The EULA prompt in the console and the command box below it](/plugins_and_modifications/serverpacks/panel_eula_console.png)
+
+3. Wait for the server to finish starting. The first start of a big modpack can take five to fifteen minutes. This is normal, so please do not restart the server while it loads.
+
+Your server is ready when **Status** at the top of the Console says **Running**.
+
+![The Status box on the Console showing Running](/plugins_and_modifications/serverpacks/panel_status_running.png)
+
+:::note
+While a modpack starts, the console often shows lots of yellow and red lines. Most of these are normal. You only need to worry if the server stops by itself.
+:::
+
+That's everything! Your modpack is now running on your Bloom server.
+
+If you need more help, join our [Discord server](https://bloom.host/discord).
+
+---
+
+## Updating a modpack
+
+Updating is different from a new install, because you want to keep your world.
+
+1. [Make a backup](/backups) of your server first.
+2. Get the new server files and find out what they need, using Step 1 and Step 2. If you made your server pack with ServerPackCreator, update the modpack in your launcher first, then make a new server pack.
+3. In the panel **File Manager**, delete your old `mods` and `config` folders. Do **not** delete your `world` folder.
+4. If the new version uses a different Minecraft version or loader build, change it in the **Change Server Type** box like in Step 3. Do **not** press **Reinstall Server**, and do **not** turn on **Remove All Files**.
+5. Upload the new files like in Step 4.
+6. Start your server.
+
+:::caution
+Some modpack updates do not work with old worlds. Always check the modpack's changelog before updating. This is why the backup in the first step is important.
+:::
+
+---
+
+## Common problems
+
+<details>
+<summary>
+### The server starts, but none of my mods are loaded
+</summary>
+
+Your server is running normal Minecraft instead of the mod loader. This usually happens when a `.jar` file from the server pack was uploaded and replaced the one the panel set up.
+
+Do Step 3 again, then upload your files again like in Step 4. Make sure you skip every file in the **Do not upload** table.
+
+If your `mods` folder ended up inside another folder, see [Are your files inside a folder?](#are-your-files-inside-a-folder).
+
+</details>
+
+<details>
+<summary>
+### The panel asks me to pick a server jar
+</summary>
+
+If you see a **Missing server jar** message, the mod loader is not installed properly.
+
+![Missing server jar message on the panel](/plugins_and_modifications/serverpacks/panel_select_jar.png)
+
+Pick the option with your mod loader's name in it, like Forge or NeoForge. Never pick the one that starts with `MINECRAFT_SERVER`, because that runs normal Minecraft without your mods.
+
+If none of the options have your mod loader's name, do Step 3 again and then upload your files again like in Step 4.
+
+</details>
+
+<details>
+<summary>
+### The console shows a Java version error
+</summary>
+
+Each Minecraft version needs a certain version of Java.
+
+* Minecraft 1.16.5 and older needs Java 8.
+* Minecraft 1.17 needs Java 16 or newer.
+* Minecraft 1.18 to 1.20.4 needs Java 17.
+* Minecraft 1.20.5 and newer needs Java 21.
+* Minecraft 26.1 and newer needs Java 25.
+
+You can change this on the **Startup** tab. Our [Java version guide](/java-version) shows you how.
+
+</details>
+
+<details>
+<summary>
+### The upload or the unzip keeps failing
+</summary>
+
+This is usually caused by one of three things.
+
+**The zip was made with Windows.** Make it again with [7-Zip](https://www.7-zip.org/) like in Step 4.
+
+**Your server is out of disk space.** A modpack and its zip can take up a lot of space. Check your disk usage on the panel, and delete the zip once it has been unarchived. Deleted files stay in the **Recycle Bin** for 24 hours, so you may need to empty it to get the space back.
+
+**The zip broke during the upload.** This can happen if the upload was stopped or your connection dropped. Delete the zip from the File Manager and upload it again.
+
+</details>
+
+<details>
+<summary>
+### The server crashes on startup with a mod error
+</summary>
+
+Look in the console for the name of the mod causing the error.
+
+The most common cause is a mod that only works on a player's game and not on a server, like a minimap, shaders or a menu mod. Server packs from CurseForge and Modrinth should already have these removed, and ServerPackCreator removes most of them too. It cannot catch every one, especially in a modpack you put together yourself.
+
+To remove one:
+
+1. Open the **File Manager** on the panel, go into the `mods` folder and delete that mod's `.jar` file.
+2. Start the server again. Repeat this if another client-only mod shows up.
+
+If you still need help, join our [Discord server](https://bloom.host/discord) and send us the error from your console.
+
+</details>
