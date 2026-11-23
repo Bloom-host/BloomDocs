@@ -70,24 +70,22 @@ You can also contribute to the embeds used by BloomBot in the [Discord](https://
 troubleshooting information or quick information to users such as those who are requesting support.
 
 You can edit [`embeds.yml`](/embeds.yml) and this can be contributed along with documentation changes and can be
-contributed in the same PR.
+contributed in the same PR. Every embed in it is listed by `/docs`. The embeds BloomBot sends by itself, such as ticket
+messages and errors, are bundled with BloomBot instead (`src/main/resources/system-embeds.yml` there).
 
 Here is the format of the embeds:
 ![img](https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/embed-help.png)
 
 ```yml
 embed_name:
-  # A list of aliases that can be used to call the command
+  # Other names /docs matches a typed term against. They aren't listed or registered anywhere.
   # You can also do the short format: aliases: ['embed_name_alias', 'another_alias']
   aliases:
     - 'embed_name_alias'
     - 'another_alias'
-  # Whether this can be triggered as a "!"/"-" prefixed text command (or by @mentioning the bot
-  # instead of the prefix). Defaults to true
-  text-command: true
-  # Whether this is registered as its own dedicated slash command (e.g. /embed_name),
-  # independent of the text-command setting above. Defaults to false. Only the primary name is
-  # ever registered as a slash command, not any of the aliases above.
+  # Whether this is also registered as its own slash command (e.g. /embed_name), on top of being in
+  # /docs like every other embed here. Defaults to false. Only the primary name is ever registered,
+  # not any of the aliases above.
   slash-command: false
   # The text of the message
   text: 'Suspendisse vitae sem imperdiet suspicit magna sed'
