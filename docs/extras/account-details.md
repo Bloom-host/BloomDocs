@@ -30,6 +30,36 @@ Now, click **Update** under Your Info.
 
 This area lets you edit any details about your account from payment methods to emails sent to changing your password. Once done, click **Save Changes** for all your changes to take effect. 
 
+### Discord Linking
+
+You can connect your Discord account to your billing login. When you open a ticket in our Discord, our staff will then
+see the services you own or have access to, and we can confirm it's really you when you ask for help. We never show your
+name or other private details in Discord. Please note that any significant changes to your server will still require
+opening a billing ticket as confirmation.
+
+While logged in to the Billing Portal, head to the [Discord Account](https://billing.bloom.host/user/profile#discord-account)
+section of your profile and click **Connect Discord**.
+
+![Discord Account section of the Billing Portal profile with the Connect Discord button](/extras/account_details/link.png)
+
+This will redirect you to Discord's authorization site. Make sure you are logged in with the correct account and click
+**Authorise**.
+
+![Discord's authorization page for Bloom Host Billing](/extras/account_details/authorize.png)
+
+You will be redirected back to your profile in the Billing Portal, where it will show the Discord account you are
+connected to. Each billing login can be connected to one Discord account at a time.
+
+![Discord Account section showing the connected Discord account](/extras/account_details/linked.png)
+
+If you ever need to disconnect it, click **Disconnect Discord** on the same page.
+
+The Billing Portal only uses Discord's authorization to see which account is yours, so you can also remove **Bloom Host
+Billing** with **Deauthorise** under **Authorised Apps** in your Discord settings. This does not disconnect it from your
+billing login, so use **Disconnect Discord** for that.
+
+![Discord's Authorised Apps page with the Deauthorise button for Bloom Host Billing](/extras/account_details/deauthorize.png)
+
 ---
 
 ## DuckPanel
@@ -42,28 +72,3 @@ Simply edit any details that you need. Once you have completed a section, click 
 changes needed.
 
 ![Main DuckPanel account tab](/extras/account_details/5.png)
-
----
-
-### Discord Linking
-
-Here you can also set up your Discord account.
-
-When your Discord and DuckPanel accounts are linked, our staff will see all the servers you own or have access to when
-you open a ticket. Please note that any significant changes to your server will still require opening a billing ticket
-as confirmation.
-
-Simply click 'Link Account' which will redirect to Discord's authorization site.
-
-![Unlinked Discord account status](/extras/account_details/link.png)
-
-Make sure you are logged in with the correct account and click 'Authorise'.
-
-![Discord's authorization page](/extras/account_details/authorize.png)
-
-You will be redirected back to the DuckPanel where it will show your currently linked account.
-![Linked Discord account status](/extras/account_details/linked.png)
-
-If you ever need to unlink your account, simply click 'Unlink Account' in the panel, or 'Deauthorise' under 'Authorised
-Apps' in your Discord settings.
-![Discord Authorized Apps page with the Deauthorize button](/extras/account_details/deauthorize.png)
