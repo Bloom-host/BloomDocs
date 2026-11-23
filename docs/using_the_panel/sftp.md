@@ -4,7 +4,7 @@ title: Using SFTP
 slug: /sftp
 hide_table_of_contents: false
 sidebar_label: Using SFTP For Files
-description: This guide will help you use SFTP (WinSCP/Cyberduck/MobaXTerm/FileZilla/Visual Studio COde) to transfer files.
+description: This guide will help you use SFTP (WinSCP/Cyberduck/MobaXTerm/FileZilla/Visual Studio Code) to transfer files.
 keywords:
   - Import Files
   - Export Files
@@ -14,7 +14,7 @@ keywords:
   - file access
   - Pterodactyl Panel
   - FTP
-  - FIle Transfer
+  - File Transfer
   - WinSCP
   - Cyberduck
   - FileZilla
@@ -25,8 +25,10 @@ keywords:
 ### What is SFTP? 
 **S**SH **F**ile **T**ransfer **P**rotocol is one of the most popular methods of securely transferring files to remote servers.
 
+SFTP is optional for uploading files. You can also upload files and folders directly through DuckPanel's File Manager; see our [upload guide](/file-manager-controls#uploading-files-without-sftp).
+
 :::important
-We recommend you zip the files you want to upload to your server. Uploading individual files through SFTP can take a long time. Once you have uploaded the `.zip` file to your server, you can go to the File Manager in DuckPanel, click on the three dots `...` to the right of the `.zip` file, and click on `Extract`.
+We recommend you zip the files you want to upload to your server. Uploading individual files through SFTP can take a long time. Once you have uploaded the `.zip` file to your server, you can go to the File Manager in DuckPanel, click on the three dots `...` to the right of the `.zip` file, and click on **Unarchive**.
 :::
 
 ### More Actions like compress, extract, rename, and others

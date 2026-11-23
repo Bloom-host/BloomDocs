@@ -28,10 +28,7 @@ First, you will need to find the world file. If the world is from a server, you 
 directory with the `.wld` extension.
 You can find your single player worlds by pressing Windows Key + R and entering: `Documents/My Games/Terraria/Worlds`
 
-Once you have found the file, you can use the panel's [File Manager](/file-manager-controls)
-or [SFTP](/sftp) to access your server's files.
-
-Here, find for the `saves/Worlds/` directory and upload your `.wld` into it.
+Once you have found the file, stop your Bloom server and open its File Manager. Navigate to `saves/Worlds/` and [upload your `.wld` file](/file-manager-controls#uploading-files-without-sftp) into that directory. Wait for the upload to finish before continuing. Upload the world file itself, rather than a folder containing it; player profiles remain on each player's computer.
 
 ![Panel worlds folder](/games/terraria/worlds/panel.png)
 

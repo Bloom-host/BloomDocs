@@ -33,7 +33,7 @@ Paper Anti-Xray engine mode 2 can cause ping issues for people with unstable con
 
 We recommend you try changing to engine mode 1, then restart the server and see if the ping issues persist. If they don't then you know you can safely switch to engine mode 1.
 
-You can find this setting in the Paper.yml file in the main server folder towards the end of the file around Line 253.
+You can find this setting in the Paper.yml file in the server's Home folder towards the end of the file around Line 253.
 
 ![Paper configuration showing the anti-xray engine mode setting](/extras/ping-issues/2.png)
 

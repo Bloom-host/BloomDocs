@@ -54,7 +54,7 @@ With your server still stopped, follow these steps to install MCASelector:
 
 ### Choose your world folder
 
-First, open **File Manager** and find the dimension you want to edit. MCASelector’s `--world` option needs the path to the folder containing `region`. The examples below assume your main world folder is named `world`. If yours has a different name, replace `world` with that folder’s name. All paths start from your server’s main directory. For example, if your main world folder is named `survival`, the Nether path would be `survival/dimensions/minecraft/the_nether`.
+First, open **File Manager** and find the dimension you want to edit. MCASelector’s `--world` option needs the path to the folder containing `region`. The examples below assume your main world folder is named `world`. If yours has a different name, replace `world` with that folder’s name. All paths start from your server’s Home directory. For example, if your main world folder is named `survival`, the Nether path would be `survival/dimensions/minecraft/the_nether`.
 
 ### Current folder structure — Minecraft 26.1 and newer
 
