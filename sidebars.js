@@ -186,10 +186,6 @@ module.exports = {
                 },
                 {
                     type: 'doc',
-                    id: "plugins_and_modifications/serverpackcreator",
-                },                
-                {
-                    type: 'doc',
                     id: "plugins_and_modifications/mods-install", // Mods install guide for both Forge and Fabric and Neoforge
                 },
                 {

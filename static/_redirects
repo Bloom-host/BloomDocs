@@ -23,3 +23,5 @@
 # Renamed docs pages. Keep the old slugs working for bookmarks and external links.
 /ports-and-proxies  /ports-and-connections  301
 /ports-and-proxies/  /ports-and-connections  301
+/plugins_and_modifications/serverpackcreator  /modpacks?modpacksource=custom#step-1-get-the-server-files  301
+/plugins_and_modifications/serverpackcreator/  /modpacks?modpacksource=custom#step-1-get-the-server-files  301

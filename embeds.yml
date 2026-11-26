@@ -920,16 +920,16 @@ serverpack:
   title: '📜 Bloom Docs - Installing a modpack on your server'
   description: >
     Check out our comprehensive guide on installing Modpacks to your
-    server [here](https://docs.bloom.host/modpacks/).
+    server [here](https://docs.bloom.host/modpacks).
   thumbnail: 'https://raw.githubusercontent.com/Bloom-host/BloomDocs/master/static/discord/tY6IAF.png'
 
 spc:
   aliases:
     - 'serverpackcreator'
     - 'servermaker'
-  title: 'ServerPack-Creator'
+  title: 'ServerPackCreator'
   description: |+
-    Follow [SPC Guide](https://docs.bloom.host/plugins_and_modifications/serverpackcreator) to make your own custom server pack from any modpack.
+    Follow the **Make your own server pack** part of our [Modpacks guide](https://docs.bloom.host/modpacks?modpacksource=custom#step-1-get-the-server-files) to make your own server pack from any modpack with ServerPackCreator.
     Feel free to ask questions if you are confused.
 
 neoforge:
