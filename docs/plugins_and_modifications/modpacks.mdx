@@ -69,7 +69,7 @@ Most modpacks on CurseForge come with a **server pack**. This is a version of th
 
 ![Browser download bar showing the downloaded server pack zip](/plugins_and_modifications/serverpacks/cf_download_complete.png)
 
-4. Find the `.zip` file you downloaded, right click it and choose **Extract All**. This gives you a normal folder you can look inside.
+4. Find the `.zip` file you downloaded, right-click it and choose **Extract All**. This gives you a normal folder you can look inside.
 
 **Can't find a server pack?**
 
@@ -88,7 +88,7 @@ Some Modrinth modpacks also offer a server pack. Here is how to check. In this g
 
 ![The Supplementary resources section on a Modrinth version page with the server zip file](/plugins_and_modifications/serverpacks/mr_versions_serverpack.png)
 
-4. Find the `.zip` file you downloaded, right click it and choose **Extract All**. Then carry on from Step 2.
+4. Find the `.zip` file you downloaded, right-click it and choose **Extract All**. Then carry on from Step 2.
 
 :::note
 Only a `.zip` file works. If the server file is a `.mrpack`, it is made for a launcher, and you will need to make your own server pack instead.
@@ -134,7 +134,7 @@ Pick the launcher your modpack is installed in.
 <Tabs groupId="launcher">
 <TabItem value="curseforge" label="CurseForge" default>
 
-1. In the CurseForge app, right click your modpack and choose **Open Folder**. Copy the folder location from the top of the window.
+1. In the CurseForge app, right-click your modpack and choose **Open Folder**. Copy the folder location from the top of the window.
 2. In SPC, click the folder button next to **Modpack Directory**, and open the folder you just copied.
 
 ![Opening the modpack folder from CurseForge and selecting it in ServerPackCreator](/extras/serverpackcreator/curseforge/curseforge1.gif)
@@ -181,7 +181,7 @@ Pick the launcher your modpack is installed in.
 
 3. SPC asks: "Prism Launcher keeps the interesting files in a sub folder called minecraft. Would you like to use that directory instead?" Click **Yes**. SPC then scans your modpack and fills in the Minecraft version, mod loader and loader version. Check that they match your modpack.
 
-![Choosing Yes on the minecraft sub folder message in ServerPackCreator](/extras/serverpackcreator/prism/prism2.gif)
+![Choosing Yes on the minecraft subfolder message in ServerPackCreator](/extras/serverpackcreator/prism/prism2.gif)
 
 4. Tick **Create ZIP Archive**, then click **Generate**. This can take a few minutes for a big modpack.
 
@@ -261,7 +261,7 @@ This step deletes **everything** on your server, including your worlds. If there
 7. Wait until the console says `Server installation complete!` again.
 
 :::caution
-**Remove All Files** only works with the **Reinstall Server** button. Changing the server type on its own leaves the old files on your server, like an old `server.jar`, `plugins` or `mods` folder. These can stop your modpack from starting, which is why step 6 is needed.
+**Remove All Files** only works with the **Reinstall Server** button. Changing the server type on its own keeps the files from your old server software, like an old `server.jar`, `plugins` or `mods` folder. These can stop your modpack from starting, which is why you reinstall with **Remove All Files** in point 6.
 :::
 
 :::tip
@@ -289,7 +289,7 @@ Open the server pack folder you extracted in Step 1. You are going to upload **e
 | `user_jvm_args.txt` | Memory and Java settings are on the **Startup** tab of the panel |
 
 :::tip Made your server pack with ServerPackCreator?
-Your server pack is already a zip with the right files in it, so skip straight to [Upload and unzip](#upload-and-unzip). The start files in it (`start.bat`, `start.ps1`, `start.sh` and `start.fish`) are not needed, because the panel starts the server for you. They do no harm if you upload them.
+Your server pack is already a zip with the right files in it, so skip straight to [Upload and unzip](#upload-and-unzip). The start files in it (`start.bat`, `start.ps1`, `start.sh` and `start.fish`) are not needed, because the panel starts the server for you. Delete them in the File Manager after you unarchive the zip.
 :::
 
 ### Put them in a zip
@@ -298,7 +298,7 @@ A modpack has thousands of files, so it is much faster to upload one zip file th
 
 1. Download and install [7-Zip](https://www.7-zip.org/) if you do not have it. Please do not use the zip option built into Windows, because the panel often cannot open those zips.
 2. Select all the files and folders you are uploading.
-3. Right click them, go to **7-Zip**, and choose **Add to "your folder name.zip"**.
+3. Right-click them, go to **7-Zip**, and choose **Add to "your folder name.zip"**.
 
 ![7-Zip menu with the Add to zip option selected](/plugins_and_modifications/serverpacks/compress_with_7zip.png)
 
@@ -376,8 +376,8 @@ Updating is different from a new install, because you want to keep your world.
 
 1. [Make a backup](/backups) of your server first.
 2. Get the new server files and find out what they need, using Step 1 and Step 2. If you made your server pack with ServerPackCreator, update the modpack in your launcher first, then make a new server pack.
-3. In the panel **File Manager**, delete your old `mods` and `config` folders. Do **not** delete your `world` folder.
-4. If the new version uses a different Minecraft version or loader build, change it in the **Change Server Type** box like in Step 3. Do **not** press **Reinstall Server**, and do **not** turn on **Remove All Files**.
+3. In the panel **File Manager**, delete every folder that came with the old server pack, like `mods`, `config`, `kubejs` and `defaultconfigs`. Not sure which ones? Compare them with the folders in the new server pack. Do **not** delete your `world` folder, `server.properties`, `ops.json` or `whitelist.json`.
+4. If the new version uses a different Minecraft version or loader build, change it in the **Change Server Type** box like in Step 3. If you only change the build, the button is called **Change Build**. Do **not** press **Reinstall Server**, and do **not** turn on **Remove All Files**. This keeps your world and swaps the old loader files for the new ones.
 5. Upload the new files like in Step 4.
 6. Start your server.
 
